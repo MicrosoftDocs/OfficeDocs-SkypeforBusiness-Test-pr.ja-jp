@@ -329,7 +329,7 @@ Windows Server 2012 および Windows Server 2012 R2 では、Windows PowerShell
 
 
 > [!IMPORTANT]
-> Windows Server 2012 では、Windows Server 2012 ソース メディアのある場所を定義する –Source パラメーターが追加されました。メディアは DVD ドライブとして定義するか (例: D:\Sources\Sxs)、メディア ファイルがコピーされているネットワーク共有に定義 (例: \\fileserver\windows2012\sources\Sxs) できます。
+> Windows Server 2012 では、Windows Server 2012 ソース メディアのある場所を定義する –Source パラメーターが追加されました。メディアは DVD ドライブとして定義するか (例: D:\Sources\Sxs)、メディア ファイルがコピーされているネットワーク共有に定義 (例: \\\\fileserver\windows2012\sources\Sxs) できます。
 
 
 
