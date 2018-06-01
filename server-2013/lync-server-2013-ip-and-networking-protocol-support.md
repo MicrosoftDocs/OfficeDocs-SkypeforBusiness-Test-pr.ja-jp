@@ -33,7 +33,7 @@ Lync Server 2013 は、次の IP プロトコルおよびネットワーク プ�
     </table>
 
 
-  - **SIP 転送プロトコル。**通常、SIP では、ユーザー データグラム プロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) の少なくとも 3 つの転送タイプを使用できます。既定の SIP 転送構成では、TLS は TCP 上で動作します。TLS は Lync Server 2013 ネットワーク内で使用されます。ネットワーク境界では、 Lync Server 2013 は TCP 上で同時に運用できます。しかし、企業の通信のセキュリティ、信頼性、スケーラビリティの最低基準を満たさないため、 Lync Server 2013 では SIP 転送用の UDP をサポートしません。詳細については、NextHop のブログ記事「UDP 対応か UDP 非対応か、それが問題だ」( [http://go.microsoft.com/fwlink/?linkid=185369\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=185369%26clcid=0x411)) を参照してください。
+  - **SIP 転送プロトコル。** 通常、SIP では、ユーザー データグラム プロトコル (UDP)、伝送制御プロトコル (TCP)、およびトランスポート層セキュリティ (TLS) の少なくとも 3 つの転送タイプを使用できます。既定の SIP 転送構成では、TLS は TCP 上で動作します。TLS は Lync Server 2013 ネットワーク内で使用されます。ネットワーク境界では、 Lync Server 2013 は TCP 上で同時に運用できます。しかし、企業の通信のセキュリティ、信頼性、スケーラビリティの最低基準を満たさないため、 Lync Server 2013 では SIP 転送用の UDP をサポートしません。詳細については、NextHop のブログ記事「UDP 対応か UDP 非対応か、それが問題だ」( [http://go.microsoft.com/fwlink/?linkid=185369\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=185369%26clcid=0x411)) を参照してください。
     
     <table>
     <thead>

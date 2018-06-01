@@ -47,11 +47,11 @@ Lync Connectivity Analyzer は、Microsoft ダウンロード センター (<htt
     
       - \[**Lync Account Type**\] で、\[**Office 365**\] または \[**On-Premises**\] を選択します。
     
-      - \[**SIP URI**\] に、**user@domain.com** の書式で、Lync 接続の SIP サインイン アドレスを入力します。
+      - \[**SIP URI**\] に、<strong>user@domain.com</strong> の書式で、Lync 接続の SIP サインイン アドレスを入力します。
     
       - \[**Password**\] に、このアカウントに関連付けられたパスワードを入力します。
     
-      - \[**User name (optional)**\] に、該当する場合は、ユーザー名を入力します。ユーザー名は、ユーザー プリンシパル名 (UPN) とも呼ばれます。ユーザー名と SIP URI が同じである場合、ユーザー名を入力する必要はありません。これらが同じではない場合は、必要に応じて、**user@domain.com** または **domain\\user** の書式で、ユーザー名を入力します。
+      - \[**User name (optional)**\] に、該当する場合は、ユーザー名を入力します。ユーザー名は、ユーザー プリンシパル名 (UPN) とも呼ばれます。ユーザー名と SIP URI が同じである場合、ユーザー名を入力する必要はありません。これらが同じではない場合は、必要に応じて、<strong>user@domain.com</strong> または **domain\\user** の書式で、ユーザー名を入力します。
     
       - 内部ネットワークに接続されたコンピューターから Lync Connectivity Analyzer を実行中の場合は、\[**Network access**\] で \[**From inside my organization**\] を選択します。その他の場合には、\[**External (Internet)**\] を選択します。Lync Connectivity Analyzer は、常に内部および外部テストの両方を行います。しかし、自分がネットワークの外側にいるか内側にいるかを指定することは、特定の障害が予測されるかどうかをツールが解釈するのに役立ちます。
     

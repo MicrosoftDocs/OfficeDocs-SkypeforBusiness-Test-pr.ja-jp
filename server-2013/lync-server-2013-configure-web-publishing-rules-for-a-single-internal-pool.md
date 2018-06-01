@@ -222,7 +222,7 @@ Web 公開ルールを作成するには、以下の手順を使用してくだ�
     
       - \[**Add Condition**\] の \[**Condition input:**\] に、「**{HTTP\_HOST}** 」と入力します (入力が完了すると、条件を選ぶためのダイアログが表示されます)。\[**Check if input string:**\] で、\[**Matches the Pattern**\] を選びます。\[**Pattern input**\] に「**\*** 」と入力します。\[**Ignore case**\] を選んでください。\[**OK**\] をクリックします。
     
-      - \[**Edit Inbound Rule**\] ダイアログの下までスクロールして、\[**Action**\] ダイアログを見つけます。\[**Action Type:**\] を \[**Route to Server Farm**\]、\[**Scheme:**\] を \[**https://**\]、\[**Server farm:**\] を、この規則を適用する URL に設定します。この例では、**webext.contoso.com** に設定する必要があります。\[**Path:**\] は \[**/{R:0}**\] に設定します。
+      - \[**Edit Inbound Rule**\] ダイアログの下までスクロールして、\[**Action**\] ダイアログを見つけます。\[**Action Type:**\] を \[**Route to Server Farm**\]、\[**Scheme:**\] を \[<strong>https://</strong>\]、\[<strong>Server farm:</strong>\] を、この規則を適用する URL に設定します。この例では、**webext.contoso.com** に設定する必要があります。\[**Path:**\] は \[**/{R:0}**\] に設定します。
     
       - \[**Apply**\] をクリックして、変更内容を保存します。\[**Back to Rules**\] をクリックして URL 書き換え規則に戻ります。
 
