@@ -81,6 +81,6 @@ System Center Operations Manager の内側から実行された代理トラン�
 
 
 > [!IMPORTANT]
-> 既定で、Lync Server 2013は、共有されていないフォルダーにログ ファイルを保存します。これらのログにすぐにアクセスできるように、このフォルダーを共有する必要があります (たとえば、\\atl-watcher-001.litwareinc.com\WatcherNode)。
+> 既定で、Lync Server 2013は、共有されていないフォルダーにログ ファイルを保存します。これらのログにすぐにアクセスできるように、このフォルダーを共有する必要があります (たとえば、\\\\atl-watcher-001.litwareinc.com\WatcherNode)。
 
 
