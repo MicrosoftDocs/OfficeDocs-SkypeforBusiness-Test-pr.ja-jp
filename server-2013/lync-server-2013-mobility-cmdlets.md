@@ -21,68 +21,47 @@ _**トピックの最終更新日:** 2016-12-08_
 
 モビリティ機能を構成するコマンドレットでは、Lync Server 管理シェルからコマンドを実行するかスクリプトを作成して、さまざまなモビリティ設定を構成およびテストできます。
 
-  -   
-    [Get-CsAutodiscoverConfiguration](get-csautodiscoverconfiguration.md)
+  - [Get-CsAutodiscoverConfiguration](get-csautodiscoverconfiguration.md)
 
-  -   
-    [New-CsAutodiscoverConfiguration](new-csautodiscoverconfiguration.md)
+  - [New-CsAutodiscoverConfiguration](new-csautodiscoverconfiguration.md)
 
-  -   
-    [Remove-CsAutodiscoverConfiguration](remove-csautodiscoverconfiguration.md)
+  - [Remove-CsAutodiscoverConfiguration](remove-csautodiscoverconfiguration.md)
 
-  -   
-    [Set-CsAutodiscoverConfiguration](set-csautodiscoverconfiguration.md)
+  - [Set-CsAutodiscoverConfiguration](set-csautodiscoverconfiguration.md)
 
-  -   
-    [New-CsWebLink](new-csweblink.md)
+  - [New-CsWebLink](new-csweblink.md)
 
-  -   
-    [Get-CsMcxConfiguration](get-csmcxconfiguration.md)
+  - [Get-CsMcxConfiguration](get-csmcxconfiguration.md)
 
-  -   
-    [New-CsMcxConfiguration](new-csmcxconfiguration.md)
+  - [New-CsMcxConfiguration](new-csmcxconfiguration.md)
 
-  -   
-    [Remove-CsMcxConfiguration](remove-csmcxconfiguration.md)
+  - [Remove-CsMcxConfiguration](remove-csmcxconfiguration.md)
 
-  -   
-    [Set-CsMcxConfiguration](set-csmcxconfiguration.md)
+  - [Set-CsMcxConfiguration](set-csmcxconfiguration.md)
 
-  -   
-    [Get-CsMobilityPolicy](get-csmobilitypolicy.md)
+  - [Get-CsMobilityPolicy](get-csmobilitypolicy.md)
 
-  -   
-    [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)
+  - [Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)
 
-  -   
-    [New-CsMobilityPolicy](new-csmobilitypolicy.md)
+  - [New-CsMobilityPolicy](new-csmobilitypolicy.md)
 
-  -   
-    [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)
+  - [Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)
 
-  -   
-    [Set-CsMobilityPolicy](set-csmobilitypolicy.md)
+  - [Set-CsMobilityPolicy](set-csmobilitypolicy.md)
 
-  -   
-    [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md)
+  - [Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md)
 
-  -   
-    [New-CsPushNotificationConfiguration](new-cspushnotificationconfiguration.md)
+  - [New-CsPushNotificationConfiguration](new-cspushnotificationconfiguration.md)
 
-  -   
-    [Remove-CsPushNotificationConfiguration](remove-cspushnotificationconfiguration.md)
+  - [Remove-CsPushNotificationConfiguration](remove-cspushnotificationconfiguration.md)
 
-  -   
-    [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md)
+  - [Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md)
 
-  -   
-    [Test-CsMcxConference](test-csmcxconference.md)
+  - [Test-CsMcxConference](test-csmcxconference.md)
 
-  -   
-    [Test-CsMcxP2PIM](test-csmcxp2pim.md)
+  - [Test-CsMcxP2PIM](test-csmcxp2pim.md)
 
-  -   
-    [Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+  - [Test-CsMcxPushNotification](test-csmcxpushnotification.md)
 
 ## 関連項目
 

@@ -23,20 +23,15 @@ Lync Server 2013 アプリケーションを管理するには、以下のコマ
 
 **アプリケーション サーバーおよびサービス**
 
-  -   
-    [Set-CsApplicationServer](set-csapplicationserver.md)
+  - [Set-CsApplicationServer](set-csapplicationserver.md)
 
-  -   
-    [Get-CsServerApplication](get-csserverapplication.md)
+  - [Get-CsServerApplication](get-csserverapplication.md)
 
-  -   
-    [New-CsServerApplication](new-csserverapplication.md)
+  - [New-CsServerApplication](new-csserverapplication.md)
 
-  -   
-    [Remove-CsServerApplication](remove-csserverapplication.md)
+  - [Remove-CsServerApplication](remove-csserverapplication.md)
 
-  -   
-    [Set-CsServerApplication](set-csserverapplication.md)
+  - [Set-CsServerApplication](set-csserverapplication.md)
 
 ## 関連項目
 

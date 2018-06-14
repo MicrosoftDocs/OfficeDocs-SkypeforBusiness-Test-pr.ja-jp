@@ -21,20 +21,15 @@ Lync Server 管理シェルは、Microsoft Lync Server 2010 の管理に特化�
 
 Lync Server 管理シェルの特定のカスタム プロパティを設定するには、次のコマンドレットを使用します。
 
-  -   
-    [Get-CsUICulture](get-csuiculture.md)
+  - [Get-CsUICulture](get-csuiculture.md)
 
-  -   
-    [Set-CsUICulture](set-csuiculture.md)
+  - [Set-CsUICulture](set-csuiculture.md)
 
-  -   
-    [Get-CsManagementConnection](get-csmanagementconnection.md)
+  - [Get-CsManagementConnection](get-csmanagementconnection.md)
 
-  -   
-    [Remove-CsManagementConnection](remove-csmanagementconnection.md)
+  - [Remove-CsManagementConnection](remove-csmanagementconnection.md)
 
-  -   
-    [Set-CsManagementConnection](set-csmanagementconnection.md)
+  - [Set-CsManagementConnection](set-csmanagementconnection.md)
 
 ## 関連項目
 

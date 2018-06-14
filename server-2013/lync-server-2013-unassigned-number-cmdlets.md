@@ -23,32 +23,23 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **割り当てられていない番号**
 
-  -   
-    [Get-CsUnassignedNumber](get-csunassignednumber.md)
+  - [Get-CsUnassignedNumber](get-csunassignednumber.md)
 
-  -   
-    [New-CsUnassignedNumber](new-csunassignednumber.md)
+  - [New-CsUnassignedNumber](new-csunassignednumber.md)
 
-  -   
-    [Remove-CsUnassignedNumber](remove-csunassignednumber.md)
+  - [Remove-CsUnassignedNumber](remove-csunassignednumber.md)
 
-  -   
-    [Set-CsUnassignedNumber](set-csunassignednumber.md)
+  - [Set-CsUnassignedNumber](set-csunassignednumber.md)
 
-  -   
-    [Get-CsAnnouncement](get-csannouncement.md)
+  - [Get-CsAnnouncement](get-csannouncement.md)
 
-  -   
-    [New-CsAnnouncement](new-csannouncement.md)
+  - [New-CsAnnouncement](new-csannouncement.md)
 
-  -   
-    [Remove-CsAnnouncement](remove-csannouncement.md)
+  - [Remove-CsAnnouncement](remove-csannouncement.md)
 
-  -   
-    [Set-CsAnnouncement](set-csannouncement.md)
+  - [Set-CsAnnouncement](set-csannouncement.md)
 
-  -   
-    [Import-CsAnnouncementFile](import-csannouncementfile.md)
+  - [Import-CsAnnouncementFile](import-csannouncementfile.md)
 
 ## 関連項目
 

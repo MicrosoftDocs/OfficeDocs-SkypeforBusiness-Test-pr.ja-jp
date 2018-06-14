@@ -21,11 +21,9 @@ Microsoft Lync Server 2013 に含まれるユーザー管理のコマンドレ�
 
 ユーザーとユーザー アカウントに適用されるほとんどの管理タスクは、Lync Server コントロール パネルから実行できます。主な例外は、電話会議プロバイダーを操作するコマンドレットです。ユーザー管理タスクは、Lync Server 管理シェルから、またはスクリプト内からコマンドレットを使用して実行できます。スクリプトを使用すると、特定のタスクを自動化できます。以下は、ユーザーとユーザー アカウントの管理に直接関連するコマンドレットの一覧です。
 
-  -   
-    [Get-CsAdContact](get-csadcontact.md)
+  - [Get-CsAdContact](get-csadcontact.md)
 
-  -   
-    [Get-CsAdUser](get-csaduser.md)
+  - [Get-CsAdUser](get-csaduser.md)
 
   - [Get-CsClientAccessLicense](get-csclientaccesslicense.md)
 
@@ -35,35 +33,25 @@ Microsoft Lync Server 2013 に含まれるユーザー管理のコマンドレ�
 
   - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
 
-  -   
-    [Disable-CsUser](disable-csuser.md)
+  - [Disable-CsUser](disable-csuser.md)
 
-  -   
-    [Enable-CsUser](enable-csuser.md)
+  - [Enable-CsUser](enable-csuser.md)
 
-  -   
-    [Get-CsUser](get-csuser.md)
+  - [Get-CsUser](get-csuser.md)
 
-  -   
-    [Move-CsUser](move-csuser.md)
+  - [Move-CsUser](move-csuser.md)
 
-  -   
-    [Set-CsUser](set-csuser.md)
+  - [Set-CsUser](set-csuser.md)
 
-  -   
-    [Get-CsUserAcp](get-csuseracp.md)
+  - [Get-CsUserAcp](get-csuseracp.md)
 
-  -   
-    [Remove-CsUserAcp](remove-csuseracp.md)
+  - [Remove-CsUserAcp](remove-csuseracp.md)
 
-  -   
-    [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](set-csuseracp.md)
 
-  -   
-    [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
+  - [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
 
-  -   
-    [Get-CsUserPoolInfo](get-csuserpoolinfo.md)
+  - [Get-CsUserPoolInfo](get-csuserpoolinfo.md)
 
   - [Get-CsUserServicesPolicy](get-csuserservicespolicy.md)
 

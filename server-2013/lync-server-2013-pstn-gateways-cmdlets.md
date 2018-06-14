@@ -23,17 +23,13 @@ PSTN ゲートウェイを使用すると、エンタープライズ VoIP ユー
 
 **PSTN ゲートウェイ**
 
-  -   
-    [Set-CsPstnGateway](set-cspstngateway.md)
+  - [Set-CsPstnGateway](set-cspstngateway.md)
 
-  -   
-    [Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)
+  - [Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)
 
-  -   
-    [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md)
+  - [Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md)
 
-  -   
-    [Set-CsMediationServer](set-csmediationserver.md)
+  - [Set-CsMediationServer](set-csmediationserver.md)
 
 ## 関連項目
 

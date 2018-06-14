@@ -23,17 +23,13 @@ Microsoft Lync Server 2013 に含まれるサーバーの役割とサービス�
 
 **サービス**
 
-  -   
-    [Get-CsService](get-csservice.md)
+  - [Get-CsService](get-csservice.md)
 
-  -   
-    [Get-CsWindowsService](get-cswindowsservice.md)
+  - [Get-CsWindowsService](get-cswindowsservice.md)
 
-  -   
-    [Start-CsWindowsService](start-cswindowsservice.md)
+  - [Start-CsWindowsService](start-cswindowsservice.md)
 
-  -   
-    [Stop-CsWindowsService](stop-cswindowsservice.md)
+  - [Stop-CsWindowsService](stop-cswindowsservice.md)
 
 ## 関連項目
 

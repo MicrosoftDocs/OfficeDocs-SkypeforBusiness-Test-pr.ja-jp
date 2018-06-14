@@ -280,8 +280,7 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
             $users=gc c:\logs\users.txt
             foreach ($user in $users)
             {
-            Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
-            }
+            Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - }
         
         <table>
         <thead>

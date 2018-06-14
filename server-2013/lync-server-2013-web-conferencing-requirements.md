@@ -17,11 +17,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Web 会議を有効にすることにした場合、次のものを計画する必要があります。
 
-  -   
-    Web 会議のコンテンツを格納するために使用するファイル ストアへのアクセス。
+  - Web 会議のコンテンツを格納するために使用するファイル ストアへのアクセス。
 
-  -   
-    会議中に PowerPoint ファイルを共有するために必要な Office Web Apps サーバー との統合。
+  - 会議中に PowerPoint ファイルを共有するために必要な Office Web Apps サーバー との統合。
 
 ## ファイル ストア
 
@@ -60,8 +58,7 @@ Lync Server 2013 は、ファイル ストアとして、直接取り付け記�
 **MaxUploadFileSizeMb** は、Lync Web App のファイル アップロード設定を制限するものではありません。Lync Web App のファイル サイズ アップロード制限は約 30MB に設定されており、IIS の web.config ファイル (/DataCollabWeb/Int\[Ext\]/Handler/web.config) によって制御されます。Lync Web App のファイル サイズ アップロード制限を構成するには、次のように web.config ファイル内の `maxRequestLength` および `maxAllowedContentLength` を更新します。
 
     <system.web>
-        <!-- 
-            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by Lync Web App client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 

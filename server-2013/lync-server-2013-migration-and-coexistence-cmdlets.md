@@ -17,20 +17,15 @@ _**トピックの最終更新日:** 2016-12-08_
 
 [Move-CsLegacyUser](move-cslegacyuser.md) コマンドレットを使用すると、Office Communications Server 2007 や Microsoft Lync Server 2010 から Microsoft Lync Server 2013 にユーザー アカウントを移動できます。ユーザー アカウントを "戻す" (Microsoft Lync Server 2013 から Microsoft Lync Server 2010 に戻すなど) 必要がある場合は、[Move-CsUser](move-csuser.md) コマンドレットを使用します。
 
-  -   
-    [Import-CsLegacyConferenceDirectory](import-cslegacyconferencedirectory.md)
+  - [Import-CsLegacyConferenceDirectory](import-cslegacyconferencedirectory.md)
 
-  -   
-    [Import-CsLegacyConfiguration](import-cslegacyconfiguration.md)
+  - [Import-CsLegacyConfiguration](import-cslegacyconfiguration.md)
 
-  -   
-    [Merge-CsLegacyTopology](merge-cslegacytopology.md)
+  - [Merge-CsLegacyTopology](merge-cslegacytopology.md)
 
-  -   
-    [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
+  - [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
 
-  -   
-    [Move-CsLegacyUser](move-cslegacyuser.md)
+  - [Move-CsLegacyUser](move-cslegacyuser.md)
 
   - [Convert-CsUserData](convert-csuserdata.md)
 
