@@ -78,6 +78,8 @@ _**トピックの最終更新日:** 2012-09-22_
 4.  新しく作成した静的ルートを 中央管理ストアで引き続き保存するには、必要に応じて、次のいずれかを実行します。
     
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+
+     &nbsp;
     
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
 

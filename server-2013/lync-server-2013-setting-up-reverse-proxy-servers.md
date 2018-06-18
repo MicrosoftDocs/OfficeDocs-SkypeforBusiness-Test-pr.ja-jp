@@ -88,16 +88,5 @@ IIS ARR をリバース プロキシとして正しく展開するには、次�
   -   
     ARR をインストールするには、「[Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)」の手順を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>現在の記事は ARR 2.0 が対象です。拡張機能のインストールに関して 2 つのバージョンに違いはありません。</td>
-    </tr>
-    </tbody>
-    </table>
-
+> [!NOTE]
+> 現在の記事は ARR 2.0 が対象です。拡張機能のインストールに関して 2 つのバージョンに違いはありません。

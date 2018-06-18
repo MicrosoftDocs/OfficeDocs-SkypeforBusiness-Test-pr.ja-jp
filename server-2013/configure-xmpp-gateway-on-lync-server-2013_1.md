@@ -72,6 +72,8 @@ XMPP (eXtensible Messaging and Presence Protocol) によるフェデレーショ
 17. パブリック証明書の受信、インポート、および割り当てを行った後、エッジ サーバー サービスを停止して再起動する必要があります。これは、Lync Server 管理コンソールで次のコマンドを入力して行います。
     
         Stop-CsWindowsService
+
+       &nbsp;
     
         Start-CsWindowsService
 

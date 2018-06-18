@@ -48,8 +48,12 @@ CAC の展開の例では、北アメリカ地域に 6 つのサイトがあり�
 2.  **New-CsNetworkSite** コマンドレットを実行してネットワーク サイトを作成し、各サイトに適切な帯域幅ポリシーを適用します。たとえば、以下を実行します。
     
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
+
+       &nbsp;
     
         New-CsNetworkSite -NetworkSiteID Portland -Description "NA:Branch office for marketing force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 5MB_Link
+
+       &nbsp;
     
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
 
