@@ -195,9 +195,15 @@ Lync 2013 では、ユーザーの写真に対する高解像度画像のサポ�
 
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
 
+   &nbsp;
+
     $po=Get-CsClientPolicy -Identity Global
 
+   &nbsp;
+
     $po.PolicyEntry.Add($pe)
+
+   &nbsp;
 
     Set-CsClientPolicy -Instance $po
 

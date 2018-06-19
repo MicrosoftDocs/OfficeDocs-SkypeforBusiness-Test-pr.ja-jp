@@ -81,6 +81,8 @@ Lync Server 2013 の展開で IP アドレスの構成を変更した場合 (IPv
 
     Stop-CsWindowsService -graceful
 
+   &nbsp;
+
     Start-CsWindowsService
 
 ## ダイヤルイン会議代理トランザクション コマンドレットは Lync Server 2013 管理パックでは使用できない (3212342)
@@ -336,6 +338,8 @@ Windows Fabric のインストールが失敗するのは、ファブリック�
 1.  Windows PowerShell を起動して次のコマンドレットを実行します。
     
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+
+       &nbsp;
     
         $a="HKU:\.Default\Control Panel\International"
 

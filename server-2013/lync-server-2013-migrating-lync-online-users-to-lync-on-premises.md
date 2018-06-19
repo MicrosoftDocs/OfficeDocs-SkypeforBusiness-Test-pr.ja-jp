@@ -32,6 +32,8 @@ _**トピックの最終更新日:** 2016-12-08_
       - 内部設置型展開の Lync Server 管理シェルで次のコマンドレットを入力して、Lync Online のホスティング プロバイダーを作成します。
         
             Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+
+           &nbsp;
         
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
 
@@ -99,6 +101,8 @@ _**トピックの最終更新日:** 2016-12-08_
     単独のユーザーを移動するには、次のように入力します。
     
         $cred = Get-Credential
+
+       &nbsp;
     
         Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
     

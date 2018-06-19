@@ -23,6 +23,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
 
+   &nbsp;
+
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
 
 ## 共有 SIP アドレス空間に対して Skype for Business Online テナントを構成する
@@ -41,9 +43,15 @@ Skype for Business Online とのリモート PowerShell セッションを確立
 
     Import-Module LyncOnlineConnector
 
+   &nbsp;
+
     $cred = Get-Credential
 
+   &nbsp;
+
     $CSSession = New-CsOnlineSession -Credential $cred
+
+   &nbsp;
 
     Import-PSSession $CSSession -AllowClobber
 

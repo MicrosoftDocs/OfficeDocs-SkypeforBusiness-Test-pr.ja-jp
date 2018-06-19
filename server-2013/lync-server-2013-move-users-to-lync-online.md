@@ -29,6 +29,8 @@ Skype for Business Online テナントに社内ユーザーを移動するには
 
     $creds=Get-Credential
 
+   &nbsp;
+
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
 **HostedMigrationOverrideUrl** パラメーターの URL には、ホスティング型移行サービスが実行されているプールへの URL を次の形式で指定する必要があります。 *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*

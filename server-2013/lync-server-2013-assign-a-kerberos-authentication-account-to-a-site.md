@@ -28,12 +28,16 @@ Kerberos アカウントを作成した後、これをサイトに割り当て�
 3.  コマンド ラインで次の 2 つのコマンドを実行します。
     
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+
+       &nbsp;
     
         Enable-CsTopology
     
     次に例を示します。
     
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+
+      &nbsp;
     
         Enable-CsTopology
     

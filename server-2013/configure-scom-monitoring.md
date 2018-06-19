@@ -38,6 +38,8 @@ Microsoft Lync Server 2013 に移行したら、次のタスクを実行し、Sy
 2.  コマンドラインで、次のように入力します。
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+
+       &nbsp;
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
     
