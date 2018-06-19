@@ -112,7 +112,7 @@ Windows PowerShell では他とは異なる用語を使用しますが、Windows
     /b
     ```
 
-  - パラメーター値 **kenmyer@litwareinc.com**。
+  - パラメーター値 <strong>kenmyer@litwareinc.com</strong>。
 
 ちなみにこのコマンドは、ID が kenmyer@litwareinc.com である特定のユーザーに関する情報を返します。
 
