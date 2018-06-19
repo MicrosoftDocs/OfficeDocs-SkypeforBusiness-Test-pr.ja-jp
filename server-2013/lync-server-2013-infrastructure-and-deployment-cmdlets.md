@@ -23,105 +23,73 @@ Microsoft Lync Server 2013 に含まれるインフラストラクチャと展�
 
 **[Active Directory のコマンドレット](lync-server-2013-active-directory-cmdlets.md)**
 
-  -   
-    [Disable-CsAdDomain](disable-csaddomain.md)
+  - [Disable-CsAdDomain](disable-csaddomain.md)
 
-  -   
-    [Enable-CsAdDomain](enable-csaddomain.md)
+  - [Enable-CsAdDomain](enable-csaddomain.md)
 
-  -   
-    [Get-CsAdDomain](get-csaddomain.md)
+  - [Get-CsAdDomain](get-csaddomain.md)
 
-  -   
-    [Disable-CsAdForest](disable-csadforest.md)
+  - [Disable-CsAdForest](disable-csadforest.md)
 
-  -   
-    [Enable-CsAdForest](enable-csadforest.md)
+  - [Enable-CsAdForest](enable-csadforest.md)
 
-  -   
-    [Get-CsAdForest](get-csadforest.md)
+  - [Get-CsAdForest](get-csadforest.md)
 
-  -   
-    [Get-CsAdServerSchema](get-csadserverschema.md)
+  - [Get-CsAdServerSchema](get-csadserverschema.md)
 
-  -   
-    [Install-CsAdServerSchema](install-csadserverschema.md)
+  - [Install-CsAdServerSchema](install-csadserverschema.md)
 
 **[レプリケーションのコマンドレット](lync-server-2013-replication-cmdlets.md)**
 
-  -   
-    [Debug-CsInterPoolReplication](debug-csinterpoolreplication.md)
+  - [Debug-CsInterPoolReplication](debug-csinterpoolreplication.md)
 
-  -   
-    [Invoke-CsManagementStoreReplication](invoke-csmanagementstorereplication.md)
+  - [Invoke-CsManagementStoreReplication](invoke-csmanagementstorereplication.md)
 
-  -   
-    [Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
+  - [Get-CsManagementStoreReplicationStatus](get-csmanagementstorereplicationstatus.md)
 
-  -   
-    [Enable-CsReplica](enable-csreplica.md)
+  - [Enable-CsReplica](enable-csreplica.md)
 
-  -   
-    [Test-CsReplica](test-csreplica.md)
+  - [Test-CsReplica](test-csreplica.md)
 
-  -   
-    [Get-CsUserReplicatorConfiguration](get-csuserreplicatorconfiguration.md)
+  - [Get-CsUserReplicatorConfiguration](get-csuserreplicatorconfiguration.md)
 
-  -   
-    [New-CsUserReplicatorConfiguration](new-csuserreplicatorconfiguration.md)
+  - [New-CsUserReplicatorConfiguration](new-csuserreplicatorconfiguration.md)
 
-  -   
-    [Remove-CsUserReplicatorConfiguration](remove-csuserreplicatorconfiguration.md)
+  - [Remove-CsUserReplicatorConfiguration](remove-csuserreplicatorconfiguration.md)
 
-  -   
-    [Set-CsUserReplicatorConfiguration](set-csuserreplicatorconfiguration.md)
+  - [Set-CsUserReplicatorConfiguration](set-csuserreplicatorconfiguration.md)
 
 **[トポロジのコマンドレット](lync-server-2013-topology-cmdlets.md)**
 
-  -   
-    [Get-CsPool](get-cspool.md)
+  - [Get-CsPool](get-cspool.md)
 
-  -   
-    [Get-CsSite](get-cssite.md)
+  - [Get-CsSite](get-cssite.md)
 
-  -   
-    [Set-CsSite](set-cssite.md)
+  - [Set-CsSite](set-cssite.md)
 
-  -   
-    [Enable-CsTopology](enable-cstopology.md)
+  - [Enable-CsTopology](enable-cstopology.md)
 
-  -   
-    [Get-CsTopology](get-cstopology.md)
+  - [Get-CsTopology](get-cstopology.md)
 
-  -   
-    [Publish-CsTopology](publish-cstopology.md)
+  - [Publish-CsTopology](publish-cstopology.md)
 
-  -   
-    [Test-CsTopology](test-cstopology.md)
+  - [Test-CsTopology](test-cstopology.md)
 
-  -   
-    [Export-CsConfiguration](export-csconfiguration.md)
+  - [Export-CsConfiguration](export-csconfiguration.md)
 
-  -   
-    [Import-CsConfiguration](import-csconfiguration.md)
+  - [Import-CsConfiguration](import-csconfiguration.md)
 
-  -   
-    [Get-CsServerVersion](get-csserverversion.md)
+  - [Get-CsServerVersion](get-csserverversion.md)
 
-  -   
-    [Disable-CsComputer](disable-cscomputer.md)
+  - [Disable-CsComputer](disable-cscomputer.md)
 
-  -   
-    [Enable-CsComputer](enable-cscomputer.md)
+  - [Enable-CsComputer](enable-cscomputer.md)
 
-  -   
-    [Get-CsComputer](get-cscomputer.md)
+  - [Get-CsComputer](get-cscomputer.md)
 
-  -   
-    [Test-CsComputer](test-cscomputer.md)
+  - [Test-CsComputer](test-cscomputer.md)
 
-  -   
-    [Get-CsNetworkInterface](get-csnetworkinterface.md)
+  - [Get-CsNetworkInterface](get-csnetworkinterface.md)
 
 **[バックアップおよび高可用性のコマンドレット](lync-server-2013-backup-and-high-availability-cmdlets.md)**
 

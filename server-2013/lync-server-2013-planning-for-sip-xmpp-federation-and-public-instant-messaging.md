@@ -57,8 +57,7 @@ Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server の
 
   - フェデレーションされたドメインの検出に対する要件を決定します。
     
-      -   
-        フェデレーションを手動で構成する場合、パートナーのエッジ サーバーの完全修飾ドメイン名 (FQDN) つまりオンライン ドメイン名が必要です。その名前を、Lync Server コントロール パネルの \[**フェデレーションと外部アクセス**\]、\[**SIP フェデレーション ドメイン**\] に入力します。FQDN によってドメインを許可または禁止するには、ポリシーを**新規作成**するか、既存のポリシーを**編集**します。
+      - フェデレーションを手動で構成する場合、パートナーのエッジ サーバーの完全修飾ドメイン名 (FQDN) つまりオンライン ドメイン名が必要です。その名前を、Lync Server コントロール パネルの \[**フェデレーションと外部アクセス**\]、\[**SIP フェデレーション ドメイン**\] に入力します。FQDN によってドメインを許可または禁止するには、ポリシーを**新規作成**するか、既存のポリシーを**編集**します。
         
 
         > [!WARNING]
@@ -78,8 +77,7 @@ Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server の
         </tbody>
         </table>
     
-      -   
-        検出済みのパートナーのフェデレーションの場合、パートナーがこちらのエッジ サーバーを検出できますが、エッジ サーバーのポート 5061 およびホスト (A) レコードをポイントする SRV レコードを、こちらの外部 DNS に作成します (\_sipfederationtls.\_tcp.contoso.com)。
+      - 検出済みのパートナーのフェデレーションの場合、パートナーがこちらのエッジ サーバーを検出できますが、エッジ サーバーのポート 5061 およびホスト (A) レコードをポイントする SRV レコードを、こちらの外部 DNS に作成します (\_sipfederationtls.\_tcp.contoso.com)。
         
 
         > [!IMPORTANT]
@@ -153,14 +151,11 @@ XMPP の展開と構成については、「[Lync Server 2013 での外部ユー
 
 以下のトピックには、サポートされるフェデレーション シナリオの種類に応じた証明書、ファイアウォール ポート、DNS エントリの定義に関するガイダンスが記載されています。
 
-  -   
-    [証明書の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [証明書の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-certificate-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [ポートの概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [ポートの概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
-  -   
-    [DNS の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [DNS の概要 - SIP、XMPP フェデレーション、パブリック インスタント メッセージング](lync-server-2013-dns-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 ## 関連項目
 

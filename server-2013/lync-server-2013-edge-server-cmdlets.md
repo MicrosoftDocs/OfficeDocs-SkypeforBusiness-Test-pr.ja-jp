@@ -35,29 +35,21 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **エッジ サーバー**
 
-  -   
-    [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md)
+  - [Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md)
 
-  -   
-    [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
 
-  -   
-    [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md)
+  - [Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md)
 
-  -   
-    [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)
+  - [New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)
 
-  -   
-    [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+  - [Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
 
-  -   
-    [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+  - [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
 
-  -   
-    [Test-CsAVEdgeConnectivity](test-csavedgeconnectivity.md)
+  - [Test-CsAVEdgeConnectivity](test-csavedgeconnectivity.md)
 
-  -   
-    [Set-CsEdgeServer](set-csedgeserver.md)
+  - [Set-CsEdgeServer](set-csedgeserver.md)
 
 ## 関連項目
 

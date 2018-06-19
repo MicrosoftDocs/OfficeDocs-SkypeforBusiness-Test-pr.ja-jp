@@ -23,140 +23,97 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **[エンタープライズ VoIP のトラブルシューティングのコマンドレット](lync-server-2013-troubleshooting-enterprise-voice-cmdlets.md)**
 
-  -   
-    [Get-CsVoiceConfiguration](get-csvoiceconfiguration.md)
+  - [Get-CsVoiceConfiguration](get-csvoiceconfiguration.md)
 
-  -   
-    [Remove-CsVoiceConfiguration](remove-csvoiceconfiguration.md)
+  - [Remove-CsVoiceConfiguration](remove-csvoiceconfiguration.md)
 
-  -   
-    [Set-CsVoiceConfiguration](set-csvoiceconfiguration.md)
+  - [Set-CsVoiceConfiguration](set-csvoiceconfiguration.md)
 
-  -   
-    [Get-CsVoiceTestConfiguration](get-csvoicetestconfiguration.md)
+  - [Get-CsVoiceTestConfiguration](get-csvoicetestconfiguration.md)
 
-  -   
-    [New-CsVoiceTestConfiguration](new-csvoicetestconfiguration.md)
+  - [New-CsVoiceTestConfiguration](new-csvoicetestconfiguration.md)
 
-  -   
-    [Remove-CsVoiceTestConfiguration](remove-csvoicetestconfiguration.md)
+  - [Remove-CsVoiceTestConfiguration](remove-csvoicetestconfiguration.md)
 
-  -   
-    [Set-CsVoiceTestConfiguration](set-csvoicetestconfiguration.md)
+  - [Set-CsVoiceTestConfiguration](set-csvoicetestconfiguration.md)
 
-  -   
-    [Test-CsVoiceTestConfiguration](test-csvoicetestconfiguration.md)
+  - [Test-CsVoiceTestConfiguration](test-csvoicetestconfiguration.md)
 
-  -   
-    [Test-CsDialPlan](test-csdialplan.md)
+  - [Test-CsDialPlan](test-csdialplan.md)
 
-  -   
-    [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+  - [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
 
-  -   
-    [Test-CsVoicePolicy](test-csvoicepolicy.md)
+  - [Test-CsVoicePolicy](test-csvoicepolicy.md)
 
-  -   
-    [Test-CsVoiceRoute](test-csvoiceroute.md)
+  - [Test-CsVoiceRoute](test-csvoiceroute.md)
 
-  -   
-    [Test-CsVoiceUser](test-csvoiceuser.md)
+  - [Test-CsVoiceUser](test-csvoiceuser.md)
 
 **[音声正規化ルールのコマンドレット](lync-server-2013-voice-normalization-rules-cmdlets.md)**
 
-  -   
-    [Get-CsVoiceNormalizationRule](get-csvoicenormalizationrule.md)
+  - [Get-CsVoiceNormalizationRule](get-csvoicenormalizationrule.md)
 
-  -   
-    [New-CsVoiceNormalizationRule](new-csvoicenormalizationrule.md)
+  - [New-CsVoiceNormalizationRule](new-csvoicenormalizationrule.md)
 
-  -   
-    [Remove-CsVoiceNormalizationRule](remove-csvoicenormalizationrule.md)
+  - [Remove-CsVoiceNormalizationRule](remove-csvoicenormalizationrule.md)
 
-  -   
-    [Set-CsVoiceNormalizationRule](set-csvoicenormalizationrule.md)
+  - [Set-CsVoiceNormalizationRule](set-csvoicenormalizationrule.md)
 
-  -   
-    [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+  - [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
 
-  -   
-    [New-CsVoiceRegex](new-csvoiceregex.md)
+  - [New-CsVoiceRegex](new-csvoiceregex.md)
 
 **[音声ポリシーのコマンドレット](lync-server-2013-voice-policy-cmdlets.md)**
 
-  -   
-    [Get-CsDialPlan](get-csdialplan.md)
+  - [Get-CsDialPlan](get-csdialplan.md)
 
-  -   
-    [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](grant-csdialplan.md)
 
-  -   
-    [New-CsDialPlan](new-csdialplan.md)
+  - [New-CsDialPlan](new-csdialplan.md)
 
-  -   
-    [Remove-CsDialPlan](remove-csdialplan.md)
+  - [Remove-CsDialPlan](remove-csdialplan.md)
 
-  -   
-    [Set-CsDialPlan](set-csdialplan.md)
+  - [Set-CsDialPlan](set-csdialplan.md)
 
-  -   
-    [Test-CsDialPlan](test-csdialplan.md)
+  - [Test-CsDialPlan](test-csdialplan.md)
 
-  -   
-    [Get-CsPstnUsage](get-cspstnusage.md)
+  - [Get-CsPstnUsage](get-cspstnusage.md)
 
-  -   
-    [Set-CsPstnUsage](set-cspstnusage.md)
+  - [Set-CsPstnUsage](set-cspstnusage.md)
 
-  -   
-    [Copy-CsVoicePolicy](https://technet.microsoft.com/ja-jp/library/jj204663\(v=ocs.15\))
+  - [Copy-CsVoicePolicy](https://technet.microsoft.com/ja-jp/library/jj204663\(v=ocs.15\))
 
-  -   
-    [Get-CsVoicePolicy](get-csvoicepolicy.md)
+  - [Get-CsVoicePolicy](get-csvoicepolicy.md)
 
-  -   
-    [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
 
-  -   
-    [New-CsVoicePolicy](new-csvoicepolicy.md)
+  - [New-CsVoicePolicy](new-csvoicepolicy.md)
 
-  -   
-    [Remove-CsVoicePolicy](remove-csvoicepolicy.md)
+  - [Remove-CsVoicePolicy](remove-csvoicepolicy.md)
 
-  -   
-    [Set-CsVoicePolicy](set-csvoicepolicy.md)
+  - [Set-CsVoicePolicy](set-csvoicepolicy.md)
 
-  -   
-    [Test-CsVoicePolicy](test-csvoicepolicy.md)
+  - [Test-CsVoicePolicy](test-csvoicepolicy.md)
 
 **[音声ルーティングのコマンドレット](lync-server-2013-voice-routing-cmdlets.md)**
 
-  -   
-    [Get-CsRoutingConfiguration](get-csroutingconfiguration.md)
+  - [Get-CsRoutingConfiguration](get-csroutingconfiguration.md)
 
-  -   
-    [New-CsRoutingConfiguration](new-csroutingconfiguration.md)
+  - [New-CsRoutingConfiguration](new-csroutingconfiguration.md)
 
-  -   
-    [Remove-CsRoutingConfiguration](remove-csroutingconfiguration.md)
+  - [Remove-CsRoutingConfiguration](remove-csroutingconfiguration.md)
 
-  -   
-    [Set-CsRoutingConfiguration](set-csroutingconfiguration.md)
+  - [Set-CsRoutingConfiguration](set-csroutingconfiguration.md)
 
-  -   
-    [Get-CsVoiceRoute](get-csvoiceroute.md)
+  - [Get-CsVoiceRoute](get-csvoiceroute.md)
 
-  -   
-    [New-CsVoiceRoute](new-csvoiceroute.md)
+  - [New-CsVoiceRoute](new-csvoiceroute.md)
 
-  -   
-    [Remove-CsVoiceRoute](remove-csvoiceroute.md)
+  - [Remove-CsVoiceRoute](remove-csvoiceroute.md)
 
-  -   
-    [Set-CsVoiceRoute](set-csvoiceroute.md)
+  - [Set-CsVoiceRoute](set-csvoiceroute.md)
 
-  -   
-    [Test-CsVoiceRoute](test-csvoiceroute.md)
+  - [Test-CsVoiceRoute](test-csvoiceroute.md)
 
 ## 関連項目
 

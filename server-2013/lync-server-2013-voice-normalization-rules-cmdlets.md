@@ -23,23 +23,17 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **音声正規化ルール**
 
-  -   
-    [Get-CsVoiceNormalizationRule](get-csvoicenormalizationrule.md)
+  - [Get-CsVoiceNormalizationRule](get-csvoicenormalizationrule.md)
 
-  -   
-    [New-CsVoiceNormalizationRule](new-csvoicenormalizationrule.md)
+  - [New-CsVoiceNormalizationRule](new-csvoicenormalizationrule.md)
 
-  -   
-    [Remove-CsVoiceNormalizationRule](remove-csvoicenormalizationrule.md)
+  - [Remove-CsVoiceNormalizationRule](remove-csvoicenormalizationrule.md)
 
-  -   
-    [Set-CsVoiceNormalizationRule](set-csvoicenormalizationrule.md)
+  - [Set-CsVoiceNormalizationRule](set-csvoicenormalizationrule.md)
 
-  -   
-    [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+  - [Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
 
-  -   
-    [New-CsVoiceRegex](new-csvoiceregex.md)
+  - [New-CsVoiceRegex](new-csvoiceregex.md)
 
 ## 関連項目
 

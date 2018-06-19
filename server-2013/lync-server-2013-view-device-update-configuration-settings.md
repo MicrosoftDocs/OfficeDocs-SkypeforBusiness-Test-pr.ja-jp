@@ -33,9 +33,7 @@ Lync Server 管理シェル と **Get-CsDeviceUpdateConfiguration** コマンド
 
 
 
-  - 
-    
-    すべての音声ルートに関する情報を表示するには、Lync Server 管理シェル で次のコマンドを入力し、Enter キーを押します。
+  - すべての音声ルートに関する情報を表示するには、Lync Server 管理シェル で次のコマンドを入力し、Enter キーを押します。
     
         Get-CsDeviceUpdateConfiguration
     

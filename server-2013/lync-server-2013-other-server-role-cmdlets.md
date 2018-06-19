@@ -23,11 +23,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **その他のサーバーの役割**
 
-  -   
-    [Set-CsConferenceServer](set-csconferenceserver.md)
+  - [Set-CsConferenceServer](set-csconferenceserver.md)
 
-  -   
-    [Set-CsUserServer](set-csuserserver.md)
+  - [Set-CsUserServer](set-csuserserver.md)
 
 ## 関連項目
 

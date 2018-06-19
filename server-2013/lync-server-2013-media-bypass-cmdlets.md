@@ -23,17 +23,13 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **メディア バイパス**
 
-  -   
-    [New-CsNetworkMediaBypassConfiguration](new-csnetworkmediabypassconfiguration.md)
+  - [New-CsNetworkMediaBypassConfiguration](new-csnetworkmediabypassconfiguration.md)
 
-  -   
-    [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
 
-  -   
-    [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
 
-  -   
-    [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
 
 ## 関連項目
 
