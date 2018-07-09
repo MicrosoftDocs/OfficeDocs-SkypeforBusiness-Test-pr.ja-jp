@@ -27,18 +27,8 @@ Lync Server 2013トポロジ ビルダーでは、Lync Server 2013 を構成す�
 
 Lync Server 2013 で SQL Server との通信に使用されているポートを攻撃者が特定するには、すべてのポートをスキャンしてポート情報を取得する必要があります。攻撃者によるポート スキャンが行われると、セキュリティがその命令を検出して停止できる可能性が高くなります。非標準ポートを使用してセキュリティを強化できるだけでなく、SQL Server エイリアスを使用して柔軟に展開できます。これで、SQL Server 名の変更が必要な場合に構成の変更を減らすことができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SQL Server には、2 つのフォールト トレランスの方法があります (フェールオーバー クラスターと ミラーリング)。SQL Server の両方のフォールト トレランスの方法は、Lync Server 2013 で SQL Server の非標準ポートおよびエイリアスを使用してサポートされます。</td>
-</tr>
-</tbody>
-</table>
+>[!NOTE]
+> SQL Server には、2 つのフォールト トレランスの方法があります (フェールオーバー クラスターと ミラーリング)。SQL Server の両方のフォールト トレランスの方法は、Lync Server 2013 で SQL Server の非標準ポートおよびエイリアスを使用してサポートされます。
 
 
 トポロジ ビルダー内から SQL Server データベース接続を構成するときや、Install-CsDatabase コマンドレットを使用するときは、SQL Server の非標準ポート番号を明示的に定義して SQL インスタンスに関連付けることができません。非標準ポートを設定するには、SQL Server および Windows Server ユーティリティを使用する必要があります。
@@ -155,18 +145,8 @@ SQL Server の非標準ポートとエイリアスを Lync Server 2013 のトポ
 
 接続が正常に機能しているかどうかを調べる方法はたくさんあります。ここでは、エイリアスを使用して SQL Server データベースが指定されたポートでリッスンしていることを確認します。**netstat** コマンドと **telnet** コマンドを使用すると、これを簡単に確認できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Telnet クライアントは Windows Server に付属する機能ですが、自分でインストールする必要があります。Windows Server 機能をインストールするには、サーバー マネージャーを開き、[管理] メニューの [役割と機能の追加] を選択します。</td>
-</tr>
-</tbody>
-</table>
+>[!NOTE]
+> Telnet クライアントは Windows Server に付属する機能ですが、自分でインストールする必要があります。Windows Server 機能をインストールするには、サーバー マネージャーを開き、[管理] メニューの [役割と機能の追加] を選択します。
 
 
 **netstat と telnet を使用してデータベース接続を検証する**
