@@ -23,17 +23,13 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **メディア構成**
 
-  -   
-    [Get-CsMediaConfiguration](get-csmediaconfiguration.md)
+  - [Get-CsMediaConfiguration](get-csmediaconfiguration.md)
 
-  -   
-    [New-CsMediaConfiguration](new-csmediaconfiguration.md)
+  - [New-CsMediaConfiguration](new-csmediaconfiguration.md)
 
-  -   
-    [Remove-CsMediaConfiguration](remove-csmediaconfiguration.md)
+  - [Remove-CsMediaConfiguration](remove-csmediaconfiguration.md)
 
-  -   
-    [Set-CsMediaConfiguration](set-csmediaconfiguration.md)
+  - [Set-CsMediaConfiguration](set-csmediaconfiguration.md)
 
 ## 関連項目
 

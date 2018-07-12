@@ -23,11 +23,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **アプリケーション エンドポイント**
 
-  -   
-    [Get-CsApplicationEndpoint](get-csapplicationendpoint.md)
+  - [Get-CsApplicationEndpoint](get-csapplicationendpoint.md)
 
-  -   
-    [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
+  - [Move-CsApplicationEndpoint](move-csapplicationendpoint.md)
 
 ## 関連項目
 

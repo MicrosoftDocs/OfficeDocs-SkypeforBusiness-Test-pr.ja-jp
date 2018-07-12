@@ -26,10 +26,16 @@ Lync Online ユーザーを内部設置型の環境に移動する前に、次�
     モジュールをインストールしたら、Lync Server 管理シェルに次のコマンドレットを入力してリモート セッションを確立します。
     
         Import-Module LyncOnlineConnector
+
+       &nbsp;
     
         $cred = Get-Credential
+
+       &nbsp;
     
         $CSSession = New-CsOnlineSession -Credential $cred
+
+       &nbsp;
     
         Import-PSSession $CSSession -AllowClobber
     

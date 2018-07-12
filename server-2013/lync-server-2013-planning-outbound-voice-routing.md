@@ -59,17 +59,13 @@ _**トピックの最終更新日:** 2015-03-09_
 
 ここでは、次の発信通話ルーティング サーバー設定の構成ガイドラインを提供します。
 
-  -   
-    [Lync Server 2013 のダイヤル プランと正規化ルール](lync-server-2013-dial-plans-and-normalization-rules.md)
+  - [Lync Server 2013 のダイヤル プランと正規化ルール](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-  -   
-    [Lync Server 2013 の音声ポリシー](lync-server-2013-voice-policies.md)
+  - [Lync Server 2013 の音声ポリシー](lync-server-2013-voice-policies.md)
 
-  -   
-    [Lync Server 2013 の PSTN 使用法レコード](lync-server-2013-pstn-usage-records.md)
+  - [Lync Server 2013 の PSTN 使用法レコード](lync-server-2013-pstn-usage-records.md)
 
-  -   
-    [Lync Server 2013 の音声ルート](lync-server-2013-voice-routes.md)
+  - [Lync Server 2013 の音声ルート](lync-server-2013-voice-routes.md)
 
 ## 関連項目
 

@@ -21,44 +21,31 @@ _**トピックの最終更新日:** 2016-12-08_
 
 フェデレーションおよび外部アクセスに適用されるほとんどの管理タスクは、Lync Server コントロール パネルから実行できます。これらのタスクは、Lync Server 管理シェルまたはスクリプト内からコマンドレットを使用することで実行することもできます。スクリプトを使用すると、特定のタスクを自動化できます。以下は、フェデレーションおよび外部アクセスの管理に直接関連するコマンドレットの一覧です。
 
-  -   
-    [Get-CsAllowedDomain](get-csalloweddomain.md)
+  - [Get-CsAllowedDomain](get-csalloweddomain.md)
 
-  -   
-    [New-CsAllowedDomain](new-csalloweddomain.md)
+  - [New-CsAllowedDomain](new-csalloweddomain.md)
 
-  -   
-    [Remove-CsAllowedDomain](remove-csalloweddomain.md)
+  - [Remove-CsAllowedDomain](remove-csalloweddomain.md)
 
-  -   
-    [Set-CsAllowedDomain](set-csalloweddomain.md)
+  - [Set-CsAllowedDomain](set-csalloweddomain.md)
 
-  -   
-    [Get-CsBlockedDomain](get-csblockeddomain.md)
+  - [Get-CsBlockedDomain](get-csblockeddomain.md)
 
-  -   
-    [New-CsBlockedDomain](new-csblockeddomain.md)
+  - [New-CsBlockedDomain](new-csblockeddomain.md)
 
-  -   
-    [Remove-CsBlockedDomain](remove-csblockeddomain.md)
+  - [Remove-CsBlockedDomain](remove-csblockeddomain.md)
 
-  -   
-    [Set-CsBlockedDomain](set-csblockeddomain.md)
+  - [Set-CsBlockedDomain](set-csblockeddomain.md)
 
-  -   
-    [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)
+  - [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)
 
-  -   
-    [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
 
-  -   
-    [New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)
+  - [New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)
 
-  -   
-    [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)
+  - [Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)
 
-  -   
-    [Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)
+  - [Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)
 
   - [Get-CsFIPSConfiguration](get-csfipsconfiguration.md)
 
@@ -68,44 +55,31 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - [Set-CsFIPSConfiguration](set-csfipsconfiguration.md)
 
-  -   
-    [Disable-CsHostingProvider](disable-cshostingprovider.md)
+  - [Disable-CsHostingProvider](disable-cshostingprovider.md)
 
-  -   
-    [Enable-CsHostingProvider](enable-cshostingprovider.md)
+  - [Enable-CsHostingProvider](enable-cshostingprovider.md)
 
-  -   
-    [Get-CsHostingProvider](get-cshostingprovider.md)
+  - [Get-CsHostingProvider](get-cshostingprovider.md)
 
-  -   
-    [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](new-cshostingprovider.md)
 
-  -   
-    [Remove-CsHostingProvider](remove-cshostingprovider.md)
+  - [Remove-CsHostingProvider](remove-cshostingprovider.md)
 
-  -   
-    [Set-CsHostingProvider](set-cshostingprovider.md)
+  - [Set-CsHostingProvider](set-cshostingprovider.md)
 
-  -   
-    [Disable-CsPublicProvider](disable-cspublicprovider.md)
+  - [Disable-CsPublicProvider](disable-cspublicprovider.md)
 
-  -   
-    [Enable-CsPublicProvider](enable-cspublicprovider.md)
+  - [Enable-CsPublicProvider](enable-cspublicprovider.md)
 
-  -   
-    [Get-CsPublicProvider](get-cspublicprovider.md)
+  - [Get-CsPublicProvider](get-cspublicprovider.md)
 
-  -   
-    [New-CsPublicProvider](new-cspublicprovider.md)
+  - [New-CsPublicProvider](new-cspublicprovider.md)
 
-  -   
-    [Remove-CsPublicProvider](remove-cspublicprovider.md)
+  - [Remove-CsPublicProvider](remove-cspublicprovider.md)
 
-  -   
-    [Set-CsPublicProvider](set-cspublicprovider.md)
+  - [Set-CsPublicProvider](set-cspublicprovider.md)
 
-  -   
-    [Test-CsFederatedPartner](test-csfederatedpartner.md)
+  - [Test-CsFederatedPartner](test-csfederatedpartner.md)
 
   - [Get-CsXmppAllowedPartner](get-csxmppallowedpartner.md)
 

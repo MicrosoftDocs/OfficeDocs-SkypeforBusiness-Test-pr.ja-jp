@@ -32,6 +32,8 @@ Windows Live Messenger との音声ビデオ (A/V) フェデレーションを�
 2.  コマンド プロンプトで、次の各コマンドを入力します。
     
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+
+       &nbsp;
     
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     

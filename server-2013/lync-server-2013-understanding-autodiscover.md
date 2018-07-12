@@ -91,11 +91,15 @@ Lync Server 2013 では、自動検出は、どの要素、機能、および通
 
     <SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
 
+   &nbsp;
+
     <SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
 
 SipServerInternalAccess と SipServerExternalAccess は現在使用されていません。これらのエントリは、将来使用するために予約されています。
 
     <SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
+
+   &nbsp;
 
     <SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
 
@@ -103,11 +107,15 @@ SipClientInternalAccess と SipClientExternalAccess では、内部または外�
 
     <Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
 
+   &nbsp;
+
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
 `Autodiscover` の参照には、自動検出サービスのサービス エントリ ポイントが含まれています。トークン属性には、サービスの名前が含まれ、href はサービスを検出できるクライアントに対して定義される URL です。外部ネットワーク上のクライアントは、`External/Autodiscover` を使用します。自動検出サービスは、展開プロセスの一環としてインストールされます。`Internal/Autodiscover` は現在使用されておらず、将来使用するために予約されています。
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
+
+   &nbsp;
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
@@ -115,11 +123,15 @@ SipClientInternalAccess と SipClientExternalAccess では、内部または外�
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
+   &nbsp;
+
     <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
 
 `WebScheduler` トークンは、Lync Server 会議の Web ベース スケジュールに対するクライアント アクセス用の URL を参照します。現在、`External/WebScheduler` が使用されています。WebScheduler は、内部 Lync Server 2013 展開 Web サービスの展開プロセスの一環としてインストールされます。
 
     <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
+
+   &nbsp;
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
@@ -127,7 +139,11 @@ SipClientInternalAccess と SipClientExternalAccess では、内部または外�
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
+   &nbsp;
+
     <Link token="External/Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
+
+   &nbsp;
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
@@ -135,7 +151,11 @@ SipClientInternalAccess と SipClientExternalAccess では、内部または外�
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 
+   &nbsp;
+
     <Link token="External/XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
+
+   &nbsp;
 
     <Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
 

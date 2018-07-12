@@ -89,8 +89,7 @@ Web 会議は、最初のトポロジを展開するのと同時に展開する�
 **MaxUploadFileSizeMb** では、Lync Web App のファイルのアップロードの設定が制限されません。Lync Web App のファイルのアップロード サイズの制限は約 30 MB に設定され、IIS の web.config ファイル (/DataCollabWeb/Int\[Ext\]/Handler/web.config) によって制御されます。Lync Web App のファイルのアップロード サイズの制限を構成するには、以下のように、web.config ファイルで `maxRequestLength` および `maxAllowedContentLength` を更新してください。
 
     <system.web>
-        <!-- 
-            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by LWA client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 

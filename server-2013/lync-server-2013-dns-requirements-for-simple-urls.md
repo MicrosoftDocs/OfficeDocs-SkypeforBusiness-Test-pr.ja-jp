@@ -154,6 +154,8 @@ Lync Server は、会議、ダイヤルイン、および管理用の 3 つの�
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
 
+&nbsp;
+
     Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com

@@ -28,6 +28,8 @@ Microsoft Office 365 のオンライン ポータルにあるユーザー管理�
   - Lync Online から内部設置型 Lync にユーザーを移動するには、次のコマンドレットを実行します。
     
         $cred=Get-Credential
+
+       &nbsp;
     
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
 

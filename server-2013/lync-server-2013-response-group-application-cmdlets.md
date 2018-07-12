@@ -23,101 +23,69 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **応答グループ アプリケーション**
 
-  -   
-    [Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+  - [Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
 
-  -   
-    [New-CsRgsAgentGroup](new-csrgsagentgroup.md)
+  - [New-CsRgsAgentGroup](new-csrgsagentgroup.md)
 
-  -   
-    [Remove-CsRgsAgentGroup](remove-csrgsagentgroup.md)
+  - [Remove-CsRgsAgentGroup](remove-csrgsagentgroup.md)
 
-  -   
-    [Set-CsRgsAgentGroup](set-csrgsagentgroup.md)
+  - [Set-CsRgsAgentGroup](set-csrgsagentgroup.md)
 
-  -   
-    [New-CsRgsAnswer](new-csrgsanswer.md)
+  - [New-CsRgsAnswer](new-csrgsanswer.md)
 
-  -   
-    [Import-CsRgsAudioFile](import-csrgsaudiofile.md)
+  - [Import-CsRgsAudioFile](import-csrgsaudiofile.md)
 
-  -   
-    [New-CsRgsCallAction](new-csrgscallaction.md)
+  - [New-CsRgsCallAction](new-csrgscallaction.md)
 
-  -   
-    [Export-CsRgsConfiguration](export-csrgsconfiguration.md)
+  - [Export-CsRgsConfiguration](export-csrgsconfiguration.md)
 
-  -   
-    [Get-CsRgsConfiguration](get-csrgsconfiguration.md)
+  - [Get-CsRgsConfiguration](get-csrgsconfiguration.md)
 
-  -   
-    [Import-CsRgsConfiguration](import-csrgsconfiguration.md)
+  - [Import-CsRgsConfiguration](import-csrgsconfiguration.md)
 
-  -   
-    [Move-CsRgsConfiguration](move-csrgsconfiguration.md)
+  - [Move-CsRgsConfiguration](move-csrgsconfiguration.md)
 
-  -   
-    [Set-CsRgsConfiguration](set-csrgsconfiguration.md)
+  - [Set-CsRgsConfiguration](set-csrgsconfiguration.md)
 
-  -   
-    [New-CsRgsHoliday](new-csrgsholiday.md)
+  - [New-CsRgsHoliday](new-csrgsholiday.md)
 
-  -   
-    [Get-CsRgsHolidaySet](get-csrgsholidayset.md)
+  - [Get-CsRgsHolidaySet](get-csrgsholidayset.md)
 
-  -   
-    [New-CsRgsHolidaySet](new-csrgsholidayset.md)
+  - [New-CsRgsHolidaySet](new-csrgsholidayset.md)
 
-  -   
-    [Remove-CsRgsHolidaySet](remove-csrgsholidayset.md)
+  - [Remove-CsRgsHolidaySet](remove-csrgsholidayset.md)
 
-  -   
-    [Set-CsRgsHolidaySet](set-csrgsholidayset.md)
+  - [Set-CsRgsHolidaySet](set-csrgsholidayset.md)
 
-  -   
-    [Get-CsRgsHoursOfBusiness](get-csrgshoursofbusiness.md)
+  - [Get-CsRgsHoursOfBusiness](get-csrgshoursofbusiness.md)
 
-  -   
-    [New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
+  - [New-CsRgsHoursOfBusiness](new-csrgshoursofbusiness.md)
 
-  -   
-    [Remove-CsRgsHoursOfBusiness](remove-csrgshoursofbusiness.md)
+  - [Remove-CsRgsHoursOfBusiness](remove-csrgshoursofbusiness.md)
 
-  -   
-    [Set-CsRgsHoursOfBusiness](set-csrgshoursofbusiness.md)
+  - [Set-CsRgsHoursOfBusiness](set-csrgshoursofbusiness.md)
 
-  -   
-    [New-CsRgsPrompt](new-csrgsprompt.md)
+  - [New-CsRgsPrompt](new-csrgsprompt.md)
 
-  -   
-    [New-CsRgsQuestion](new-csrgsquestion.md)
+  - [New-CsRgsQuestion](new-csrgsquestion.md)
 
-  -   
-    [Get-CsRgsQueue](get-csrgsqueue.md)
+  - [Get-CsRgsQueue](get-csrgsqueue.md)
 
-  -   
-    [New-CsRgsQueue](new-csrgsqueue.md)
+  - [New-CsRgsQueue](new-csrgsqueue.md)
 
-  -   
-    [Remove-CsRgsQueue](remove-csrgsqueue.md)
+  - [Remove-CsRgsQueue](remove-csrgsqueue.md)
 
-  -   
-    [Set-CsRgsQueue](set-csrgsqueue.md)
+  - [Set-CsRgsQueue](set-csrgsqueue.md)
 
-  -   
-    [New-CsRgsTimeRange](new-csrgstimerange.md)
+  - [New-CsRgsTimeRange](new-csrgstimerange.md)
 
-  -   
-    [Get-CsRgsWorkflow](get-csrgsworkflow.md)
+  - [Get-CsRgsWorkflow](get-csrgsworkflow.md)
 
-  -   
-    [New-CsRgsWorkflow](new-csrgsworkflow.md)
+  - [New-CsRgsWorkflow](new-csrgsworkflow.md)
 
-  -   
-    [Remove-CsRgsWorkflow](remove-csrgsworkflow.md)
+  - [Remove-CsRgsWorkflow](remove-csrgsworkflow.md)
 
-  -   
-    [Set-CsRgsWorkflow](set-csrgsworkflow.md)
+  - [Set-CsRgsWorkflow](set-csrgsworkflow.md)
 
 ## 関連項目
 

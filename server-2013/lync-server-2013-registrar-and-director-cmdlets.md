@@ -23,29 +23,21 @@ _**トピックの最終更新日:** 2016-12-08_
 
 **レジストラーとディレクター**
 
-  -   
-    [Set-CsDirector](set-csdirector.md)
+  - [Set-CsDirector](set-csdirector.md)
 
-  -   
-    [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md)
+  - [Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md)
 
-  -   
-    [Set-CsRegistrar](set-csregistrar.md)
+  - [Set-CsRegistrar](set-csregistrar.md)
 
-  -   
-    [Get-CsRegistrarConfiguration](get-csregistrarconfiguration.md)
+  - [Get-CsRegistrarConfiguration](get-csregistrarconfiguration.md)
 
-  -   
-    [New-CsRegistrarConfiguration](new-csregistrarconfiguration.md)
+  - [New-CsRegistrarConfiguration](new-csregistrarconfiguration.md)
 
-  -   
-    [Remove-CsRegistrarConfiguration](remove-csregistrarconfiguration.md)
+  - [Remove-CsRegistrarConfiguration](remove-csregistrarconfiguration.md)
 
-  -   
-    [Set-CsRegistrarConfiguration](set-csregistrarconfiguration.md)
+  - [Set-CsRegistrarConfiguration](set-csregistrarconfiguration.md)
 
-  -   
-    [Test-CsRegistration](test-csregistration.md)
+  - [Test-CsRegistration](test-csregistration.md)
 
 ## 関連項目
 

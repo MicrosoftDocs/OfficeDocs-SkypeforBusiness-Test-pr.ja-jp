@@ -19,14 +19,11 @@ Lync Server 2013 展開のクライアントとデバイスのソフトウェ�
 
 ## このセクション中
 
-  -   
-    [Lync Server 2013 での Lync クライアント ソフトウェアのサポート](lync-server-2013-lync-client-software-support.md)
+  - [Lync Server 2013 での Lync クライアント ソフトウェアのサポート](lync-server-2013-lync-client-software-support.md)
 
-  -   
-    [Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+  - [Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
-  -   
-    [Lync でユーザーの写真を表示する方法](how-user-photos-are-displayed-in-lync.md)
+  - [Lync でユーザーの写真を表示する方法](how-user-photos-are-displayed-in-lync.md)
 
 <table>
 <colgroup>

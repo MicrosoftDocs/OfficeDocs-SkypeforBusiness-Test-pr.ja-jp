@@ -41,7 +41,7 @@ Lync Server を社内で展開している組織の場合、Lync Windows スト�
 
   - エンタープライズ内の HTTP プロキシを、Lync サーバーに関連した HTTP トラフィックを許可するように構成します。必要に応じて自動検出、Lync Web App、Web チケット サービスの例外を追加します。
 
-  - クライアントに Windows 8.1 と最新バージョンの Lync Windows ストア アプリをインストールして、複数ドメインを使用した場合に通常発生するサインインの問題 (たとえば、SIP URI が **userA@domainZ.com** であるがエッジ サーバーが **sip.domainX.com** の場合など) を解決します。
+  - クライアントに Windows 8.1 と最新バージョンの Lync Windows ストア アプリをインストールして、複数ドメインを使用した場合に通常発生するサインインの問題 (たとえば、SIP URI が <strong>userA@domainZ.com</strong> であるがエッジ サーバーが **sip.domainX.com** の場合など) を解決します。
 
 組織が Lync Online または Office 365 に登録して独自のドメイン名を使っている場合は、Lync サーバーを自動検出するようにネットワークをセットアップするために追加の手順を実行する必要があります。ネットワーク構成の要件は、Lync Windows ストア アプリとモバイル デバイスの Lync で同じです。Office 365 wiki の記事「Set up Lync mobile devices」の「Set up your network」([http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822)) に示されている手順に従ってください。
 

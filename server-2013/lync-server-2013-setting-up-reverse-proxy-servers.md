@@ -65,39 +65,21 @@ Microsoft Forefront Threat Management Gateway 2010、Microsoft Internet Security
 
 Forefront Threat Management Gateway 2010 をリバース プロキシとして正しく展開するには、Forefront Threat Management Gateway 2010 のドキュメントに定義されている前提条件およびハードウェア要件を使用してサーバーを設定および構成する必要があります。次のトピックを参照して、ハードウェアを正しく構成し、サーバーに Forefront Threat Management Gateway 2010 をインストールしてから次に進んでください。
 
-  -   
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+  - [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
 
-  -   
-    [Forefront TMG 2010 のハードウェア推奨事項](http://go.microsoft.com/fwlink/?linkid=291293)
+  - [Forefront TMG 2010 のハードウェア推奨事項](http://go.microsoft.com/fwlink/?linkid=291293)
 
 IIS ARR をリバース プロキシとして正しく展開するには、次のトピックでハードウェアの構成と前提条件となるソフトウェアを確認します。
 
-  -   
-    IIS を Windows Server 2008 または Windows Server 2008 R2 にインストールするには、「[Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)」を参照してください。
+  - IIS を Windows Server 2008 または Windows Server 2008 R2 にインストールするには、「[Installing IIS 7 on Windows Server 2008 or Windows Server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)」を参照してください。
 
-  -   
-    IIS を Windows Server 2012 にインストールするには、「[Installing IIS 8 on Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)」を参照してください。
+  - IIS を Windows Server 2012 にインストールするには、「[Installing IIS 8 on Windows Server 2012](http://go.microsoft.com/fwlink/?linkid=291297)」を参照してください。
 
-  -   
-    IIS を Windows Server 2012 R2 にインストールするには、「[IIS 8.5 の Windows Server 2012 R2 へのインストール (Installing IIS 8.5 on Windows Server 2012 R2)](http://go.microsoft.com/fwlink/?linkid=330687)」を参照してください。
+  - IIS を Windows Server 2012 R2 にインストールするには、「[IIS 8.5 の Windows Server 2012 R2 へのインストール (Installing IIS 8.5 on Windows Server 2012 R2)](http://go.microsoft.com/fwlink/?linkid=330687)」を参照してください。
 
-  -   
-    IIS 用の Application Request Routing 拡張機能をダウンロードするには、「[Application Request Routing v2.5 Download](http://go.microsoft.com/fwlink/?linkid=291298)」にある手順に従ってください。
+  - IIS 用の Application Request Routing 拡張機能をダウンロードするには、「[Application Request Routing v2.5 Download](http://go.microsoft.com/fwlink/?linkid=291298)」にある手順に従ってください。
 
-  -   
-    ARR をインストールするには、「[Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)」の手順を参照してください。
+  - ARR をインストールするには、「[Install Application Request Routing Version 2](http://go.microsoft.com/fwlink/?linkid=291299)」の手順を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>現在の記事は ARR 2.0 が対象です。拡張機能のインストールに関して 2 つのバージョンに違いはありません。</td>
-    </tr>
-    </tbody>
-    </table>
-
+> [!NOTE]
+> 現在の記事は ARR 2.0 が対象です。拡張機能のインストールに関して 2 つのバージョンに違いはありません。
