@@ -123,31 +123,14 @@ Windows Server 2008 R2 SP1 x64 オペレーティング システムの場合�
 
     Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>匿名認証は、IIS サーバーの役割と共に既定でインストールされます。匿名認証は、IIS をインストールした後に管理することができます。詳細については、「匿名認証を有効にする (IIS 7)」( <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 匿名認証は、IIS サーバーの役割と共に既定でインストールされます。匿名認証は、IIS をインストールした後に管理することができます。詳細については、「匿名認証を有効にする (IIS 7)」( <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>) を参照してください。
 
 
 次の表に、Windows Server 2012 と Windows Server 2012 R2 に必要な IIS 8.0 および IIS 8.5 の役割サービスを示します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Server 2012 および Windows Server 2012 R2 の場合は、Add-WindowsFeature コマンドレットは Install-WindowsFeature コマンドレットに置き換えられています。詳細については、「<a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>」を参照してください。</td>
+> [!NOTE]
+> Windows Server 2012 および Windows Server 2012 R2 の場合は、Add-WindowsFeature コマンドレットは Install-WindowsFeature コマンドレットに置き換えられています。詳細については、「<a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>」を参照してください。</td>
 </tr>
 </tbody>
 </table>
