@@ -2603,136 +2603,136 @@
         - name: Scope や Identity を使用しないコマンドレット
           href: cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity.md
     - name: Lync Online
-      href: working-with-skype-for-business-online.md
+      href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
       items:
       - name: Windows PowerShell による Lync Online の管理
-        href: skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md
+        href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         items:
         - name: Windows PowerShell と Lync Online の概要
-          href: an-introduction-to-windows-powershell-and-skype-for-business-online.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Windows PowerShell のコマンドレット、パラメーター、およびパラメーター値
-            href: windows-powershell-cmdlets-parameters-and-parameter-values-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: パラメーターの操作
-            href: working-with-parameters-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: パラメーターとプロパティの対比
-            href: parameters-vs-properties-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 必須パラメーターとオプション パラメーター
-            href: mandatory-and-optional-parameters-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Lync Online コマンドレットとその他の Windows PowerShell コマンドレットとの組み合わせ
-            href: combining-skype-for-business-online-cmdlets-with-other-windows-powershell-cmdlets-in.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Windows PowerShell の詳しいヘルプ
-            href: more-help-for-using-windows-powershell-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Lync Online 管理用のコンピューターの構成
-          href: configuring-your-computer-for-skype-for-business-online-management.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Lync Online Connector モジュールのダウンロードとインストール
-            href: downloading-and-installing-the-skype-for-business-online-connector-module.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Microsoft Online Services サインイン アシスタントのダウンロードとインストール
-            href: downloading-and-installing-the-microsoft-online-services-sign-in-assistant-for-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Windows PowerShell 3.0 のダウンロードとインストール
-            href: downloading-and-installing-windows-powershell-3-0-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Windows PowerShell を使用した Lync Online への接続
-          href: connecting-to-skype-for-business-online-by-using-windows-powershell.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Windows PowerShell の起動時における Lync Online への常時自動接続
-          href: automatically-connecting-to-skype-for-business-online-whenever-you-start-windows-powershell.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: 同じリモート Windows PowerShell セッションからの Lync Online と Microsoft Exchange の管理
-          href: managing-skype-for-business-online-and-microsoft-exchange-from-the-same-remote-windows-powershell-session.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Lync Online のコマンドレット
-          href: the-skype-for-business-online-cmdlets.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Lync Online テナントの管理
-            href: managing-skype-for-business-online-tenants.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーおよびユーザー アカウント プロパティの管理
-            href: managing-users-and-user-account-properties-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ポリシーの管理
-            href: managing-policies-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Lync クライアントの管理
-            href: managing-the-skype-for-business-client-from-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Exchange ユニファイド メッセージングとホスト ボイスメールの管理
-            href: managing-exchange-unified-messaging-and-hosted-voice-mail-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 外部のユーザーや組織との通信の管理
-            href: managing-communications-in-skype-for-business-online-with-outside-users-and-organizations.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Lync Online のミーティングと会議の管理
-            href: managing-skype-for-business-online-meetings-and-conferences.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 携帯電話とモバイル デバイスの管理
-            href: managing-cell-phones-and-mobile-devices-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: 'クイック リファレンス: Windows PowerShell を使用した一般的な Lync Online の管理タスクの実行'
-          href: quick-reference-using-windows-powershell-to-do-common-skype-for-business-online-management-tasks.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: すべての Lync Online ユーザーに関する情報を返す
-            href: return-information-about-all-your-skype-for-business-online-users.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 特定のユーザーに関する情報を返す
-            href: return-information-for-a-specific-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 特定のユーザーの特定の情報の取得
-            href: return-specific-information-for-specific-users-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: フィルタリングされたユーザー リストの取得
-            href: return-a-filtered-list-of-users-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 電話会議プロバイダーに関する情報の取得
-            href: return-information-about-your-audio-conferencing-providers-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーに割り当てられている電話会議プロバイダーに関する情報を返す
-            href: return-information-about-the-audio-conferencing-providers-assigned-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーに電話会議プロバイダーを割り当てる
-            href: assign-an-audio-conferencing-provider-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 以前にユーザーに割り当てられた電話会議プロバイダーの削除
-            href: remove-an-audio-conferencing-provider-previously-assigned-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーごとのポリシーのリストの取得
-            href: return-a-list-of-per-user-policies-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーにユーザーごとのポリシーを割り当てる
-            href: assign-a-per-user-policy-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 以前にユーザーに割り当てられたユーザーごとのポリシーの割り当て解除
-            href: unassign-a-per-user-policy-previously-assigned-to-a-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: iPhone および Windows Phone へのプッシュ通知を有効化/無効化する
-            href: enable-disable-push-notification-to-iphones-and-windows-phones-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Lync Online テナントに関する情報を取得する
-            href: get-information-about-your-skype-for-business-online-tenant.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: すべてのドメインとのフェデレーションの許可
-            href: allow-federation-in-skype-for-business-online-with-all-domains.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 許可ドメインの一覧でドメインを表示する
-            href: view-the-domains-on-your-allowed-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 禁止ドメインの一覧でドメインを表示する
-            href: view-the-domains-on-your-blocked-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 許可されたドメインのリストにドメインを追加する
-            href: add-a-domain-to-the-allowed-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 禁止されているドメインのリストにドメインを追加する
-            href: add-a-domain-to-the-blocked-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 許可ドメインの一覧からドメインを削除する
-            href: remove-a-domain-from-the-allowed-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 禁止ドメイン リストからのドメインの削除
-            href: remove-a-domain-from-the-blocked-domains-list-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: パブリック IM プロバイダーとのフェデレーションの有効化/無効化
-            href: enable-disable-federation-with-public-im-providers-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 指定したパブリック IM プロバイダーの有効化/無効化
-            href: enable-disable-a-specified-public-im-provider-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 匿名ユーザーが自動的に会議に承認されないようにする
-            href: prevent-anonymous-users-from-automatically-being-admitted-to-a-meeting-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 会議の記録の有効化/無効化
-            href: enable-disable-conference-recording-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: ハイブリッド展開での Windows PowerShell の使用
-          href: using-windows-powershell-in-a-hybrid-deployment-with-skype-for-business-online.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Lync Online との接続の問題の診断と解決
-          href: diagnosing-and-resolving-connection-problems-with-skype-for-business-online.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           items:
           - name: Windows PowerShell の実行ポリシーが原因である Import-Module エラー
-            href: import-module-error-in-skype-for-business-online-caused-by-windows-powershell-execution-policy.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: 不適切なバージョンの Windows PowerShell が原因である Import-Module エラー
-            href: import-module-error-in-skype-for-business-online-caused-by-incorrect-version-of-windows-powershell.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Live ID Server への接続エラー
-            href: skype-for-business-online-failed-to-connect-to-live-id-server.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: Live ID モジュールの読み込みエラー
-            href: skype-for-business-online-failed-to-load-live-id-module.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーのログオン エラー
-            href: logon-failed-for-the-user-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: ユーザーにこのテナントを管理するためのアクセス許可がない
-            href: the-user-does-not-have-permission-to-manage-this-tenant-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: テナントに接続する機能が無効化されている
-            href: ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: このユーザーの同時シェルの最大数の超過
-            href: the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
           - name: このテナントの同時シェルの最大数の超過
-            href: the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded.md
+            href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
         - name: Lync Online のレポート生成コマンドレットと REST Web サービス
-          href: the-skype-for-business-online-reporting-cmdlets-and-rest-web-service.md
+          href: https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell
   - name: 移行
     href: migration.md
     items:
@@ -4504,8 +4504,6 @@
             href: lync-server-2013-issues-with-the-environment-test.md
           - name: トポロジ テストに関する問題
             href: lync-server-2013-issues-with-the-topology-test.md
-    - name: Feature management
-      href: this-topic-is-no-longer-available.md
   - name: スキーマ リファレンス
     href: lync-server-2013-schema-reference.md
     items:
@@ -4839,6 +4837,6 @@
       - name: Lync Server 2013 での Grant-CsOUPermission によって行われる変更
         href: lync-server-2013-changes-made-by-grant-csoupermission.md
   - name: Lync Server 2013 管理シェル
-    href: /powershell/skype/intro?view=skype-ps
+    href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: 用語集
     href: lync-server-2013-glossary.md
