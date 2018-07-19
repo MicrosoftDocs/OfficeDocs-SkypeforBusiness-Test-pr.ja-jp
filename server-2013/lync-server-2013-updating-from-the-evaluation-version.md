@@ -43,7 +43,7 @@ Microsoft Lync Server 2013 の評価版をインストールした場合は、�
 
     Get-CsServerVersion
 
-[Get-CsServerVersion](get-csserverversion.md) コマンドレットは、ローカル コンピューターを分析して、以下のいずれかを報告します。
+[Get-CsServerVersion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsServerVersion) コマンドレットは、ローカル コンピューターを分析して、以下のいずれかを報告します。
 
   - Lync Server ボリューム ライセンス キーがコンピューターにインストールされているため、更新は必要ない。
 

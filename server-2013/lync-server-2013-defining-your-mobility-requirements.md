@@ -155,7 +155,7 @@ Lync Server 2013 モビリティ機能の計画フェーズでは、 Lync 2010 M
     </tbody>
     </table>
     
-    構成可能なポリシー設定の説明と、ポリシー管理の方法については、「[New-CsMobilityPolicy](new-csmobilitypolicy.md)」、「[Set-CsMobilityPolicy](set-csmobilitypolicy.md)」、「[Get-CsMobilityPolicy](get-csmobilitypolicy.md)」、「[Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)」、および「[Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)」を参照してください。
+    構成可能なポリシー設定の説明と、ポリシー管理の方法については、「[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)」、「[Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy)」、「[Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy)」、「[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)」、および「[Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy)」を参照してください。
 
   - **エンタープライズ VoIP が有効になっていないユーザーが、クリックして参加を使用して会議に参加できるようにしますか。**
     

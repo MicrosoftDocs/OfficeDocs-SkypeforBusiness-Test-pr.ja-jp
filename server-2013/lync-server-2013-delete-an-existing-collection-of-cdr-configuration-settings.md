@@ -21,7 +21,7 @@ Microsoft Lync Server 2013 をインストールすると、CDR の構成設定�
 
 なお、"削除" はグローバル設定に対しても実行できます。ただし、グローバル設定は実際には削除されません。代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。たとえば、既定では CDR 構成設定のコレクションでパージが有効になります。パージが無効になるようにグローバル コレクションを変更すると想定します。後でグローバル設定を削除した場合、すべてのプロパティが既定値にリセットされます。この場合、パージが再び有効になります。
 
-CDR 構成設定は、Lync Server コントロール パネルまたは [Remove-CsCdrConfiguration](remove-cscdrconfiguration.md) コマンドレットを使用して削除できます。
+CDR 構成設定は、Lync Server コントロール パネルまたは [Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration) コマンドレットを使用して削除できます。
 
 ## Lync Server コントロール パネルを使用して CDR構成設定を削除するには
 
@@ -55,5 +55,5 @@ Windows PowerShell および **Remove-CsCdrConfiguration** コマンドレット
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
-詳細については、[Remove-CsCdrConfiguration](remove-cscdrconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCdrConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

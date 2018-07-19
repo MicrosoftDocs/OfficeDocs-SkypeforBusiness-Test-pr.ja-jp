@@ -74,7 +74,7 @@ Lync ServerWindows PowerShell と **Grant-CsArchivingPolicy** コマンドレッ
 
 ## 複数のユーザーへのユーザーごとのアーカイブ ポリシーの割り当て
 
-  - 次のコマンドは、ユーザーごとのアーカイブ ポリシーである RedmondArchivingPolicy を、レジストラー プール atl-cs-001.litwareinc.com に所属するアカウントを持つすべてのユーザーに割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - 次のコマンドは、ユーザーごとのアーカイブ ポリシーである RedmondArchivingPolicy を、レジストラー プール atl-cs-001.litwareinc.com に所属するアカウントを持つすべてのユーザーに割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -84,7 +84,7 @@ Lync ServerWindows PowerShell と **Grant-CsArchivingPolicy** コマンドレッ
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) コマンドレットのドキュメントを参照してください。
+詳細については、[Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) コマンドレットのドキュメントを参照してください。
 
 ## 関連項目
 

@@ -40,7 +40,7 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
 </table>
 
 
-–Computers パラメーターを使用して [Search-CsClsLogging](search-csclslogging.md)、[Show-CsClsLogging](show-csclslogging.md)、[Start-CsClsLogging](start-csclslogging.md)、[Stop-CsClsLogging](stop-csclslogging.md)、[Sync-CsClsLogging](sync-csclslogging.md)、[Update-CsClsLogging](update-csclslogging.md) の各コマンドを実行する場合に、単一のコンピューターのスコープを定義できます。–Computers パラメーターには、対象のコンピューターの完全修飾ドメイン名 (FQDN) のコンマ区切り一覧を指定できます。
+–Computers パラメーターを使用して [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging)、[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)、[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)、[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)、[Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging)、[Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) の各コマンドを実行する場合に、単一のコンピューターのスコープを定義できます。–Computers パラメーターには、対象のコンピューターの完全修飾ドメイン名 (FQDN) のコンマ区切り一覧を指定できます。
 
 
 > [!TIP]
@@ -52,7 +52,7 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
 
 
 > [!IMPORTANT]
-> ここに示すコマンドには、他のセクションで説明するパラメーターと概念が含まれている場合があります。このコマンド例は、<STRONG>–Identity</STRONG> パラメーターを使用してスコープを定義する方法を示すことを目的としています。完全を期すために使用されているコマンドや、スコープを指定するためのコマンドも含まれています。<STRONG>Set-CsClsConfiguration</STRONG> コマンドレットの詳細については、「操作」のドキュメントの「<A href="set-csclsconfiguration.md">Set-CsClsConfiguration</A>」を参照してください。
+> ここに示すコマンドには、他のセクションで説明するパラメーターと概念が含まれている場合があります。このコマンド例は、<STRONG>–Identity</STRONG> パラメーターを使用してスコープを定義する方法を示すことを目的としています。完全を期すために使用されているコマンドや、スコープを指定するためのコマンドも含まれています。<STRONG>Set-CsClsConfiguration</STRONG> コマンドレットの詳細については、「操作」のドキュメントの「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration">Set-CsClsConfiguration</A>」を参照してください。
 
 
 
@@ -152,7 +152,7 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
     </thead>
     <tbody>
     <tr class="odd">
-    <td>New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。構成オプションの詳細については、「<a href="get-csclsconfiguration.md">Get-CsClsConfiguration</a>」および「<a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">集中ログ サービスの構成設定について</a>」を参照してください。</td>
+    <td>New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。構成オプションの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a>」および「<a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">集中ログ サービスの構成設定について</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -200,8 +200,8 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
 #### その他のリソース
 
 [PowerShell を使用する集中ログ サービス構成設定の管理](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](set-csclsconfiguration.md)  
-[Get-CsClsConfiguration](get-csclsconfiguration.md)  
-[New-CsClsConfiguration](new-csclsconfiguration.md)  
-[Remove-CsClsConfiguration](remove-csclsconfiguration.md)
+[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
+[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)  
+[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
+[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)
 

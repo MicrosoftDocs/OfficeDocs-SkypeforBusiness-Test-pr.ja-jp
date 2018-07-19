@@ -25,9 +25,9 @@ Lync Server 2013 のユーザーに Hosted Exchange ユニファイド メッセ
 
 詳細については、 Lync Server 管理シェルのドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 
 > [!IMPORTANT]
@@ -104,5 +104,5 @@ Lync Server 2013 のユーザーに Hosted Exchange ユニファイド メッセ
 
 #### その他のリソース
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

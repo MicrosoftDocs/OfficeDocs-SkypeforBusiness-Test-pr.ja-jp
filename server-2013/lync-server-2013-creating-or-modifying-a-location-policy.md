@@ -45,7 +45,7 @@ Lync Server 2013 では、クライアントから場所情報サービスに対
         
           - \[**不要**\]   ユーザーに場所の入力を求めません。 場所情報のない呼び出しがあった場合、緊急サービス プロバイダーが呼び出しに応答して場所をたずねます。
         
-          - \[**免責事項**\]   このオプションは \[**必須**\] と同じですが、ユーザーは場所情報を入力せずにプロンプトを閉じることはできません。この場合も緊急電話は行えますが、その他の電話は情報を入力しない限り行えません。また、免責事項の文言を表示し、場所情報の入力を拒否した場合にどうなるかをユーザーに警告することもできます。免責事項の文言を設定するには、Lync Server 管理シェルで、EnhancedEmergencyServiceDisclaimer パラメーターを指定して **Set-CsLocationPolicy** コマンドレットまたは **New-CsLocationPolicy** コマンドレットを実行する必要があります。詳細については、Lync Server 管理シェルのドキュメントの「[Set-CsLocationPolicy](set-cslocationpolicy.md)」または「[New-CsLocationPolicy](new-cslocationpolicy.md)」を参照してください。
+          - \[**免責事項**\]   このオプションは \[**必須**\] と同じですが、ユーザーは場所情報を入力せずにプロンプトを閉じることはできません。この場合も緊急電話は行えますが、その他の電話は情報を入力しない限り行えません。また、免責事項の文言を表示し、場所情報の入力を拒否した場合にどうなるかをユーザーに警告することもできます。免責事項の文言を設定するには、Lync Server 管理シェルで、EnhancedEmergencyServiceDisclaimer パラメーターを指定して **Set-CsLocationPolicy** コマンドレットまたは **New-CsLocationPolicy** コマンドレットを実行する必要があります。詳細については、Lync Server 管理シェルのドキュメントの「[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)」または「[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)」を参照してください。
             
             <table>
             <thead>

@@ -55,13 +55,13 @@ Skype for Business Online とのリモート PowerShell セッションを確立
 
     Import-PSSession $CSSession -AllowClobber
 
-Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「 [Windows PowerShell を使用した Lync Online への接続](connecting-to-skype-for-business-online-by-using-windows-powershell.md)」をご覧ください。
+Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「 [Windows PowerShell を使用した Lync Online への接続](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
-Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「 [Windows PowerShell による Lync Online の管理](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)」をご覧ください。
+Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「 [Windows PowerShell による Lync Online の管理](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
 ## 関連項目
 
 #### その他のリソース
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

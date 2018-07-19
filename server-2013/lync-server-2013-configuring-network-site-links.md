@@ -29,7 +29,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
     この例では、ネットワーク サイト Reno と Portland の間の帯域幅の制限を設定する、Reno\_Portland という名前の新しいネットワーク サイト リンクを作成します。 ネットワーク サイトと帯域幅ポリシーのプロファイルが、このコマンドを実行する前に既に存在している必要があります。
 
-パラメーターの詳細な説明については、Lync Server 管理シェルのドキュメントの「[New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)」を参照してください。 ネットワーク サイト リンクに適用できる帯域幅ポリシーのプロファイルの一覧を取得するには、**Get-CsNetworkBandwidthPolicyProfile** コマンドレットを呼び出します。詳細については、Lync Server 管理シェルのドキュメントの「[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)」を参照してください。
+パラメーターの詳細な説明については、Lync Server 管理シェルのドキュメントの「[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)」を参照してください。 ネットワーク サイト リンクに適用できる帯域幅ポリシーのプロファイルの一覧を取得するには、**Get-CsNetworkBandwidthPolicyProfile** コマンドレットを呼び出します。詳細については、Lync Server 管理シェルのドキュメントの「[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)」を参照してください。
 
 ## ネットワーク サイト リンクを変更するには
 
@@ -41,7 +41,7 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-パラメーターの詳細な説明については、Lync Server 管理シェルのドキュメントの「[Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)」を参照してください。
+パラメーターの詳細な説明については、Lync Server 管理シェルのドキュメントの「[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)」を参照してください。
 
 ## ネットワーク サイト リンクを削除するには
 
@@ -53,19 +53,19 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-パラメーターの詳細な説明については、Lync Server 管理シェルのドキュメントの「[Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)」を参照してください。
+パラメーターの詳細な説明については、Lync Server 管理シェルのドキュメントの「[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)」を参照してください。
 
 ## 関連項目
 
 #### 概念
 
-[通話受付管理のコマンドレット](lync-server-2013-call-admission-control-cmdlets.md)  
+[通話受付管理のコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### その他のリソース
 
-[New-CsNetworkInterSitePolicy](new-csnetworkintersitepolicy.md)  
-[Set-CsNetworkInterSitePolicy](set-csnetworkintersitepolicy.md)  
-[Remove-CsNetworkInterSitePolicy](remove-csnetworkintersitepolicy.md)  
-[Get-CsNetworkInterSitePolicy](get-csnetworkintersitepolicy.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

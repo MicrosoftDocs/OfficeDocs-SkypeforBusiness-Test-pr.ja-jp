@@ -85,11 +85,11 @@ Lync Server 2013 のユーザー移動プロセスは、RTC SQL データベー�
 #### 概念
 
 [Lync Server 2013 での高可用性および障害復旧の計画](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[バックアップおよび高可用性のコマンドレット](lync-server-2013-backup-and-high-availability-cmdlets.md)  
+[バックアップおよび高可用性のコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)  
 
 #### その他のリソース
 
-[Import-CsConfiguration](import-csconfiguration.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
 [Lync Server 2013 のバックアップと復元](lync-server-2013-backing-up-and-restoring-lync-server.md)  
 [Lync Server 2013 の障害復旧、高可用性およびバックアップ サービスの管理](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 

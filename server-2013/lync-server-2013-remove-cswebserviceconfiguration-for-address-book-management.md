@@ -31,5 +31,5 @@ Remove-CsWebServiceConfiguration コマンドレットを使用して、管理�
 
 #### その他のリソース
 
-[Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md)
+[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration)
 

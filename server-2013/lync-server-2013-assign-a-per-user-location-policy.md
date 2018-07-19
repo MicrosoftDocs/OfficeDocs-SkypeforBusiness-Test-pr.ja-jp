@@ -103,7 +103,7 @@ Grant-CsLocationPolicy コマンドレットを使用してユーザー単位の
 
 ## 複数のユーザーにユーザー単位の場所のポリシーを割り当てるには
 
-  - このコマンドは、経理部に属するすべてのユーザーに、ユーザー単位の場所のポリシー AccountingDepartmentLocationPolicy を割り当てます。このコマンドで使用される LdapFilter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドは、経理部に属するすべてのユーザーに、ユーザー単位の場所のポリシー AccountingDepartmentLocationPolicy を割り当てます。このコマンドで使用される LdapFilter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -113,5 +113,5 @@ Grant-CsLocationPolicy コマンドレットを使用してユーザー単位の
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsLocationPolicy](grant-cslocationpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy) コマンドレットのヘルプ トピックを参照してください。
 

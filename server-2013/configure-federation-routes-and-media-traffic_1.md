@@ -214,7 +214,7 @@ _**トピックの最終更新日:** 2016-12-08_
     
         Set-CsAccessEdgeConfiguration
     
-    これらのコマンドレットの詳細については、「[Get-CsAccessEdgeConfiguration](get-csaccessedgeconfiguration.md)」と「[Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)」を参照してください。
+    これらのコマンドレットの詳細については、「[Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration)」と「[Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)」を参照してください。
 
 4.  レプリケーションが完了するまで待ってから、 Lync Server 2013 エッジ サーバーをオンラインにし、フェデレーションと外部アクセスをテストします。
 

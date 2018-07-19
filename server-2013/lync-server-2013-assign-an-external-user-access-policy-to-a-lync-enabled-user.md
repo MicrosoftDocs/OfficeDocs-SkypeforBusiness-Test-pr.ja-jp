@@ -71,7 +71,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## 複数のユーザーにユーザーごとの外部アクセス ポリシーを割り当てるには
 
-  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。このコマンドで使用されている OU パラメーターの詳細については、 [Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。このコマンドで使用されている OU パラメーターの詳細については、 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -81,5 +81,5 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。
 

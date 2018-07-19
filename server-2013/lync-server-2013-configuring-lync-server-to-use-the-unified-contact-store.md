@@ -53,7 +53,7 @@ Lync Server 2013 をインストールすると、(グローバル スコープ�
 
 ポリシーの割り当てが完了すると、Lync Server は統合連絡先ストアへのユーザーの連絡先の移行を開始します。移行後は、ユーザーの連絡先が Lync Server ではなく Exchange に格納されます。移行の完了時にユーザーが Lync 2013 にログオンしている場合は、メッセージ ボックスが表示され、プロセスを完了するために Lync からログオフして再度ログオンするように求められます。ユーザーごとのポリシーを割り当てられないユーザーの連絡先は、統合連絡先ストアに移行されません。そのようなユーザーはグローバル ポリシーで管理され、グローバル ポリシーでは統合連絡先ストアの使用が無効になっているためです。
 
-ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには、Lync Server 管理シェルから [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) コマンドレットを実行します。
+ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには、Lync Server 管理シェルから [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) コマンドレットを実行します。
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -89,7 +89,7 @@ Grant-CsUserServicesPolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null<
 
 統合連絡先ストアを操作する際には、"Ken の連絡先が統合連絡先ストアに移行されないようにする" という点に注意することが重要です。単純に新しいユーザー サービス ポリシーを Ken に割り当てるだけでは、Ken の連絡先は統合連絡先ストアから移動されません。ユーザーが Lync Server 2013 にログオンする際に、システムはユーザーのユーザー サービス ポリシーをチェックして、そのユーザーの連絡先を統合連絡先ストアに保存する必要があるかどうかを調べます。答えが「はい」である (つまり、UcsAllowed プロパティが $True に設定されている) 場合は、連絡先が統合連絡先ストアに移行されます (連絡先がまだ統合連絡先ストアに移動されていないと仮定します)。答えが「いいえ」である場合は、Lync Server は単にユーザーの連絡先を無視し、次のタスクに移行します。つまり、UcsAllowed プロパティの値にかかわらず、Lync Server がユーザーの連絡先を統合連絡先ストアから自動的に移動することはありません。
 
-また、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に戻すためには、新しいユーザー サービス ポリシーをユーザーに割り当てた後で [Invoke-CsUcsRollback](invoke-csucsrollback.md) コマンドレットを実行する必要があります。たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
+また、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に戻すためには、新しいユーザー サービス ポリシーをユーザーに割り当てた後で [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback) コマンドレットを実行する必要があります。たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 

@@ -57,7 +57,7 @@ _**トピックの最終更新日:** 2013-02-21_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>AlwaysOn シナリオには、既定の実行期間がありません。このシナリオの実行は、<strong>Stop-CsClsLogging</strong> コマンドレットによって明示的に停止されるまで続きます。詳細については、「<a href="stop-csclslogging.md">Stop-CsClsLogging</a>」を参照してください。その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。</td>
+    <td>AlwaysOn シナリオには、既定の実行期間がありません。このシナリオの実行は、<strong>Stop-CsClsLogging</strong> コマンドレットによって明示的に停止されるまで続きます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>」を参照してください。その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。</td>
     </tr>
     </tbody>
     </table>
@@ -86,7 +86,7 @@ _**トピックの最終更新日:** 2013-02-21_
     
 
     > [!IMPORTANT]
-    > それぞれのコンピューターで一度に実行できるシナリオは、合計 2 つまでです。コマンドのスコープがグローバルの場合は、展開内のすべてのコンピューターで (1 つまたは 2 つの) シナリオが実行されます。3 番目のシナリオを開始するには、その新しいシナリオを実行するコンピューター、プール、サイト、またはグローバルのスコープでログ記録を停止する必要があります。グローバル スコープでシナリオが開始されている場合は、1 つ以上のコンピューターおよびプールでそうしたシナリオのどちらかまたは両方のログ記録を停止できます。実行中のシナリオの管理の詳細については、「<A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">集中ログ サービスの Stop の使用</A>」と「<A href="stop-csclslogging.md">Stop-CsClsLogging</A>」を参照してください。
+    > それぞれのコンピューターで一度に実行できるシナリオは、合計 2 つまでです。コマンドのスコープがグローバルの場合は、展開内のすべてのコンピューターで (1 つまたは 2 つの) シナリオが実行されます。3 番目のシナリオを開始するには、その新しいシナリオを実行するコンピューター、プール、サイト、またはグローバルのスコープでログ記録を停止する必要があります。グローバル スコープでシナリオが開始されている場合は、1 つ以上のコンピューターおよびプールでそうしたシナリオのどちらかまたは両方のログ記録を停止できます。実行中のシナリオの管理の詳細については、「<A href="lync-server-2013-using-stop-for-the-centralized-logging-service.md">集中ログ サービスの Stop の使用</A>」と「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</A>」を参照してください。
 
 
 

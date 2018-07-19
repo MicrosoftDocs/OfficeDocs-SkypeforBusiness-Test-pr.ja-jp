@@ -25,7 +25,7 @@ _**トピックの最終更新日:** 2012-05-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td>以下の手順によって、IIS 内のあらゆる Lync Server、内部 Web サイト、および外部 Web サイトで使用される、共同証明書を要求する手順が定義されます。 Lync Server 2010 では、証明書の要求、インポート、および割り当てを管理する目的で、一連の Lync Server 管理シェルWindows PowerShell コマンドレットが導入されました。手順は、要求を処理できる、内部展開された証明機関 (CA) が存在することを前提としています。 Lync Server 目的でパブリック証明書を使用する場合、または CA がオフライン要求を処理する場合は、 ?Output パラメーターについて、次のトピックの詳細な構文を参照してください。「 <a href="request-cscertificate.md">Request-CsCertificate</a>」</td>
+<td>以下の手順によって、IIS 内のあらゆる Lync Server、内部 Web サイト、および外部 Web サイトで使用される、共同証明書を要求する手順が定義されます。 Lync Server 2010 では、証明書の要求、インポート、および割り当てを管理する目的で、一連の Lync Server 管理シェルWindows PowerShell コマンドレットが導入されました。手順は、要求を処理できる、内部展開された証明機関 (CA) が存在することを前提としています。 Lync Server 目的でパブリック証明書を使用する場合、または CA がオフライン要求を処理する場合は、 ?Output パラメーターについて、次のトピックの詳細な構文を参照してください。「 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Request-CsCertificate">Request-CsCertificate</a>」</td>
 </tr>
 </tbody>
 </table>
@@ -98,6 +98,6 @@ _**トピックの最終更新日:** 2012-05-25_
 
 #### その他のリソース
 
-[Get-CsCertificate](get-cscertificate.md)  
-[Set-CsCertificate](set-cscertificate.md)
+[Get-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCertificate)  
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

@@ -31,5 +31,5 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[Remove-CsAddressBookConfiguration](remove-csaddressbookconfiguration.md)
+[Remove-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAddressBookConfiguration)
 

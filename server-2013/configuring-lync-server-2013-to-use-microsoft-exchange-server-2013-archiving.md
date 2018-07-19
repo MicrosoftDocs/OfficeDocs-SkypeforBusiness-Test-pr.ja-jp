@@ -19,7 +19,7 @@ Microsoft Lync Server 2013 には、インスタント メッセージングと 
 
 
 > [!IMPORTANT]
-> Lync 会話のアーカイブを完全に無効にするには、Lync 会話の履歴も無効にする必要があります。詳細については、「<A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での内部通信および外部通信のアーカイブの管理</A>」、「<A href="new-csclientpolicy.md">New-CsClientPolicy</A>」、および「<A href="set-csclientpolicy.md">Set-CsClientPolicy</A>」のトピックを参照してください。
+> Lync 会話のアーカイブを完全に無効にするには、Lync 会話の履歴も無効にする必要があります。詳細については、「<A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での内部通信および外部通信のアーカイブの管理</A>」、「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>」、および「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>」のトピックを参照してください。
 
 
 

@@ -45,5 +45,5 @@ Lync Server 管理シェルと **Get-CsTrustedApplication** コマンドレッ�
         ExUmEnabled            : False
         Enabled                : True
 
-詳細については、「[Get-CsTrustedApplication](get-cstrustedapplication.md)」を参照してください。
+詳細については、「[Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication)」を参照してください。
 

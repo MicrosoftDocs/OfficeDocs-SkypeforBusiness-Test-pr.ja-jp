@@ -59,7 +59,7 @@ Set-CsUCPhoneConfiguration コマンドレットを使用して、電話ロッ�
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration  -EnforcePhoneLock $True
 
-詳細については、[Set-CsUCPhoneConfiguration](set-csucphoneconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUCPhoneConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

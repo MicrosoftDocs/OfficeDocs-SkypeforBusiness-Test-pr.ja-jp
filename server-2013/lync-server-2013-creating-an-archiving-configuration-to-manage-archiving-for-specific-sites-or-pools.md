@@ -96,7 +96,7 @@ Lync Server 2013 コントロール パネルでは、アーカイブ構成を�
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 
-詳細については、[New-CsArchivingConfiguration](new-csarchivingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

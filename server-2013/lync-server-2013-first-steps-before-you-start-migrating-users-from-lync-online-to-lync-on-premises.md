@@ -39,9 +39,9 @@ Lync Online ユーザーを内部設置型の環境に移動する前に、次�
     
         Import-PSSession $CSSession -AllowClobber
     
-    Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「[Windows PowerShell を使用した Lync Online への接続](connecting-to-skype-for-business-online-by-using-windows-powershell.md)」をご覧ください。
+    Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「[Windows PowerShell を使用した Lync Online への接続](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
     
-    Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「[Windows PowerShell による Lync Online の管理](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)」をご覧ください。
+    Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「[Windows PowerShell による Lync Online の管理](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
   - Lync Online は、共有 SIP アドレス スペース用に構成する必要があります。そのためには、最初に Lync Online とリモート PowerShell セッションを確立します。次に、次のコマンドレットを実行します。
     

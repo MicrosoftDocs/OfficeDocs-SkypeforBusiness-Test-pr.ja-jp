@@ -55,7 +55,7 @@ Lync Server 2013 で IPv6 をサポートするための追加要件は、検出
 
 サーバー間認証は、展開内のすべてのサーバーに対して要求され、適用されるグローバル証明書によって管理されます。この証明書は、Lync Server 2013 でのサーバーの認証に加え、Exchange 2013 および Microsoft SharePoint Server 2013 への認証を行います。サーバー間認証の動作方法の詳細については、「[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。音声ビデオ認証プロセスとサーバー間認証プロセスの非常に重要な相違点は、認証 (トークン) のライフタイムです。音声ビデオ認証では、認証は 8 時間後に期限が切れます。サーバー間認証のライフタイムは 24 時間です。これらの証明書の種類に応じて、計画を立てる必要があります。
 
-Lync Server 2013 の新機能は、現在の証明書が期限切れになる前に、音声ビデオ認証証明書とサーバー間認証証明書を置き換えることです。この操作の後、新しい証明書を使用して、新しいトークンと新しい認証要求が生成されます。ただし、古い証明書は、現在のセッションと認証を検証するために保持されます。これにより、トークンと証明書の期限切れによるエラーのほぼすべてを効果的に防止できます。この機能の詳細と構成方法については、「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)」を参照してください。
+Lync Server 2013 の新機能は、現在の証明書が期限切れになる前に、音声ビデオ認証証明書とサーバー間認証証明書を置き換えることです。この操作の後、新しい証明書を使用して、新しいトークンと新しい認証要求が生成されます。ただし、古い証明書は、現在のセッションと認証を検証するために保持されます。これにより、トークンと証明書の期限切れによるエラーのほぼすべてを効果的に防止できます。この機能の詳細と構成方法については、「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)」を参照してください。
 
 ## Cookie ベースのアフィニティに対する依存性の低減
 

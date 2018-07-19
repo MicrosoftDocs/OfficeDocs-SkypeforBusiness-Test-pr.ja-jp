@@ -31,5 +31,5 @@ New-CsClientPolicy と同様、Set-CsClietPolicy コマンドレットにより�
 
 #### その他のリソース
 
-[Set-CsClientPolicy](set-csclientpolicy.md)
+[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy)
 

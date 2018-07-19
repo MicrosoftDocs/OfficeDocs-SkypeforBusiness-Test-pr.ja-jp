@@ -89,7 +89,7 @@ _**トピックの最終更新日:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>グローバル外部アクセス ポリシーは、 応答グループ アプリケーションに適用されます。 Lync Server コントロール パネルを使用するか、 <strong>Set-CsExternalAccessPolicy</strong> コマンドレットを使用して、EnableOutsideAccess パラメーターを True に設定することにより、応答グループ フェデレーション用のグローバル ポリシーを構成することができます。グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。ポリシーをユーザーに適用する方法の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。フェデレーション設定の詳細については、「<a href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</a>」を参照してください。</td>
+    <td>グローバル外部アクセス ポリシーは、 応答グループ アプリケーションに適用されます。 Lync Server コントロール パネルを使用するか、 <strong>Set-CsExternalAccessPolicy</strong> コマンドレットを使用して、EnableOutsideAccess パラメーターを True に設定することにより、応答グループ フェデレーション用のグローバル ポリシーを構成することができます。グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。ポリシーをユーザーに適用する方法の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。フェデレーション設定の詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -423,7 +423,7 @@ _**トピックの最終更新日:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「<a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>」を参照してください。</td>
+    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「<a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -433,7 +433,7 @@ _**トピックの最終更新日:** 2013-09-11_
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    キューの作成に関する詳細については、「[New-CsRgsQueue](new-csrgsqueue.md)」を参照してください。
+    キューの作成に関する詳細については、「[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)」を参照してください。
 
 5.  営業時間中にワークフローを開いたときに実行される既定のアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -458,7 +458,7 @@ _**トピックの最終更新日:** 2013-09-11_
 
 6.  営業時間と休日を定義する場合は、ワークフローを作成または変更する前に、営業時間と休日を作成する必要があります。詳細については、「[(オプション) Lync Server 2013 での応答グループの営業時間の定義](lync-server-2013-optional-define-response-group-business-hours.md)」および「[(オプション) 応答グループ休日セットの定義](lync-server-2013-optional-define-response-group-holiday-sets.md)」を参照してください。
 
-7.  営業時間外または休日に受信する通話用のプロンプトを保持する場合は、 **New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、 **New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。詳細については、「[New-CsRgsPrompt](new-csrgsprompt.md)」および「[New-CsRgsCallAction](new-csrgscallaction.md)」を参照してください。
+7.  営業時間外または休日に受信する通話用のプロンプトを保持する場合は、 **New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、 **New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。詳細については、「[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)」および「[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)」を参照してください。
 
 8.  Lync Server 応答グループ サービスのサービス名を取得して変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
     
@@ -485,7 +485,7 @@ _**トピックの最終更新日:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>オプションの追加パラメーターの詳細については、「<a href="new-csrgsworkflow.md">New-CsRgsWorkflow</a>」または「<a href="set-csrgsworkflow.md">Set-CsRgsWorkflow</a>」を参照してください。</td>
+    <td>オプションの追加パラメーターの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a>」または「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -503,8 +503,8 @@ _**トピックの最終更新日:** 2013-09-11_
 
 #### その他のリソース
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

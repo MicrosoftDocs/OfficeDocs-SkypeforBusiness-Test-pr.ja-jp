@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2015-06-22_
 
-組織が契約しているすべての電話会議プロバイダーに関する情報を返すには、パラメーターなしで [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md) コマンドレットを実行するだけです。
+組織が契約しているすべての電話会議プロバイダーに関する情報を返すには、パラメーターなしで [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider) コマンドレットを実行するだけです。
 
     Get-CsAudioConferencingProvider
 
@@ -25,12 +25,12 @@ _**トピックの最終更新日:** 2015-06-22_
 
 電話会議プロバイダー ID を使用できる Skype for Business Online コマンドレットは 1 つだけです。
 
-  - [Get-CsAudioConferencingProvider](get-csaudioconferencingprovider.md)
+  - [Get-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsAudioConferencingProvider)
 
 ## 関連項目
 
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

@@ -61,13 +61,13 @@ Lync Server 2013 と Exchange 2013 の間で既にサーバー間認証が構成
 
 上のコマンドで、Extensions パラメーターはユーザーの内線番号を表します。この例の場合、ユーザーの内線番号は 100 です。
 
-メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。Lync Server 管理シェルから [Test-CsExUMConnectivity](test-csexumconnectivity.md) コマンドレットを実行することで、ユーザーが Exchange UM に接続できるかを確認できます。
+メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。Lync Server 管理シェルから [Test-CsExUMConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMConnectivity) コマンドレットを実行することで、ユーザーが Exchange UM に接続できるかを確認できます。
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-ユニファイド メッセージングが有効化されている 2 番目のユーザーがいる場合は、[Test-CsExUMVoiceMail](test-csexumvoicemail.md) コマンドレットを使用して、この 2 番目のユーザーが最初のユーザーにボイスメール メッセージを残すことができるかを確認できます。
+ユニファイド メッセージングが有効化されている 2 番目のユーザーがいる場合は、[Test-CsExUMVoiceMail](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExUMVoiceMail) コマンドレットを使用して、この 2 番目のユーザーが最初のユーザーにボイスメール メッセージを残すことができるかを確認できます。
 
     $credential = Get-Credential "litwareinc\pilar"
     

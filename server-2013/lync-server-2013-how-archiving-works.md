@@ -157,9 +157,9 @@ Lync Server 2013 アーカイブ ポリシーには、次のポリシーがあ�
 
 Lync Server 2013 管理シェルでコマンドレットを使用して、Lync Server 2013 コントロール パネルでは設定できないオプションを実装できます。次のオプションがあります。
 
-  - **重複メッセージのアーカイブ:** 詳細については、「操作」のドキュメントの「[New-CsArchivingConfiguration](new-csarchivingconfiguration.md)」および「[Set-CsArchivingConfiguration](set-csarchivingconfiguration.md)」を参照してください。
+  - **重複メッセージのアーカイブ:** 詳細については、「操作」のドキュメントの「[New-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingConfiguration)」および「[Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration)」を参照してください。
 
-  - **アーカイブされたデータのエクスポート:** 詳細については、「[Export-CsArchivingData](export-csarchivingdata.md)」を参照してください。
+  - **アーカイブされたデータのエクスポート:** 詳細については、「[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)」を参照してください。
 
 ## アーカイブされたデータへのアクセス方法
 

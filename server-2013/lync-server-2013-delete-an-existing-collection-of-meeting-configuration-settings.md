@@ -49,5 +49,5 @@ Windows PowerShell および Remove-CsMeetingConfiguration コマンドレット
     
         Get-CsMeetingConfiguration | Where-Object {$_.AdmitAnonymousUsersByDefault -eq $True} | Remove-CsMeetingConfiguration
 
-詳細については、[Remove-CsMeetingConfiguration](remove-csmeetingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsMeetingConfiguration](ttps://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMeetingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

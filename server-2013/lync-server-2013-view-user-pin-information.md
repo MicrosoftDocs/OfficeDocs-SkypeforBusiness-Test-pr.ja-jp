@@ -96,7 +96,7 @@ Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN �
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-詳細については、[Get-CsConferenceDisclaimer](get-csconferencedisclaimer.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

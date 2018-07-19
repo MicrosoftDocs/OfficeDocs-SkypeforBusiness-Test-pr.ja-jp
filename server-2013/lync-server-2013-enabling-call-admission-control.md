@@ -59,7 +59,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 [Lync Server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)  
 [Lync Server 2013 での通話管理受付の構成](lync-server-2013-configure-call-admission-control.md)  
-[Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)  
-[Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)  
-[Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 

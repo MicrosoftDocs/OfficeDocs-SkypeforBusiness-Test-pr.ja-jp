@@ -100,7 +100,7 @@ Lync Server 2013 では、ポリシーを使用して、Lync Server 2013 をホ�
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-詳細については、[New-CsArchivingPolicy](new-csarchivingpolicy.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

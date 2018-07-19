@@ -124,5 +124,5 @@ Lync Server コントロール パネルまたは Lync Server 管理シェルを
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-詳細については、[Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) コマンドレットに関するヘルプ トピックを参照してください。
 

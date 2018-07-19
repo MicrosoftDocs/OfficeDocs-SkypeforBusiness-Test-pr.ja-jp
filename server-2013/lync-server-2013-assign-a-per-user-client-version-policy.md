@@ -101,7 +101,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
 
 ## 複数のユーザーにユーザーごとのクライアント バージョン ポリシーを割り当てるには
 
-  - このコマンドでは、RedmondVoicePolicy という音声ポリシーを現在割り当てられているすべてのユーザーに、RedmondClientVersionPolicy というユーザーごとのクライアント バージョン ポリシーを割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドでは、RedmondVoicePolicy という音声ポリシーを現在割り当てられているすべてのユーザーに、RedmondClientVersionPolicy というユーザーごとのクライアント バージョン ポリシーを割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -111,7 +111,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

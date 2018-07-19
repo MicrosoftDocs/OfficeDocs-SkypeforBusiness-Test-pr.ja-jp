@@ -29,5 +29,5 @@ Lync Server 2013 には、多数のコマンドレットがあります。これ
 
 #### その他のリソース
 
-[Test-CsAddressBookService](test-csaddressbookservice.md)
+[Test-CsAddressBookService](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookService)
 

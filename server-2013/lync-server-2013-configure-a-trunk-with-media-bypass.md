@@ -112,7 +112,7 @@ _**トピックの最終更新日:** 2016-12-08_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>[ <strong>メディア バイパスを有効にする</strong> ] オプションが選択されている場合にこのオプションを無効にするには、追加の設定が必要です。トランク ピアが仲介サーバーからの SIP REFER 要求の受信をサポートしておらず、メディア バイパスが有効な場合は、メディア バイパスの適正な状態をサポートするため、 <strong>Set-CsTrunkConfiguration</strong> コマンドレットを実行して、アクティブな通話と保留通話の RTCP を無効にする必要もあります。詳細については、「 <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 管理シェル</a>」のドキュメントを参照してください。<br />
+    <td>[ <strong>メディア バイパスを有効にする</strong> ] オプションが選択されている場合にこのオプションを無効にするには、追加の設定が必要です。トランク ピアが仲介サーバーからの SIP REFER 要求の受信をサポートしておらず、メディア バイパスが有効な場合は、メディア バイパスの適正な状態をサポートするため、 <strong>set-cstrunkconfiguration</strong> コマンドレットを実行して、アクティブな通話と保留通話の RTCP を無効にする必要もあります。詳細については、「 <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 管理シェル</a>」のドキュメントを参照してください。<br />
     ゲートウェイが SIP REFER 要求をサポートしていない場合に転送通話をメディア バイパスするには、[ <strong>サードパーティ通話コントロールを使用する参照を有効にする</strong> ] を選択することもできます。</td>
     </tr>
     </tbody>

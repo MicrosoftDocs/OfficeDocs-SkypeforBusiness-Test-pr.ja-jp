@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 通話詳細記録 (CDR) を使用すると、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
 
-Microsoft Lync Server 2013 をインストールすると、CDR 構成設定のグローバル コレクションが 1 つ、自動的に作成されます。管理者は、個別のサイトに適用できるカスタム設定コレクションを作成することもできます。Lync Server コントロール パネルまたは [Get-CsCdrConfiguration](get-cscdrconfiguration.md) コマンドレットを使用すると、組織で使用されている CDR の構成設定を表示できます。
+Microsoft Lync Server 2013 をインストールすると、CDR 構成設定のグローバル コレクションが 1 つ、自動的に作成されます。管理者は、個別のサイトに適用できるカスタム設定コレクションを作成することもできます。Lync Server コントロール パネルまたは [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration) コマンドレットを使用すると、組織で使用されている CDR の構成設定を表示できます。
 
 ## Lync Server コントロール パネルを使用して CDR の構成情報を表示するには
 
@@ -44,5 +44,5 @@ Lync Server 管理シェルと Get-CsCdrConfiguration コマンドレットを�
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-詳細については、[Get-CsCdrConfiguration](get-cscdrconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

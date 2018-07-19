@@ -31,5 +31,5 @@ Test-CsAddressBookService 代理トランザクションと同様、Test-CsAddre
 
 #### その他のリソース
 
-[Test-CsAddressBookWebQuery](test-csaddressbookwebquery.md)
+[Test-CsAddressBookWebQuery](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsAddressBookWebQuery)
 

@@ -73,7 +73,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## ユーザーごとの音声ポリシーを複数のユーザーに割り当てる
 
-  - このコマンドは、ユーザーごとの音声ポリシー FinanceVoicePolicy を、Active Directory 内の Finance OU にアカウントがあるすべてのユーザーに割り当てます。このコマンドで使用されている OU パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドは、ユーザーごとの音声ポリシー FinanceVoicePolicy を、Active Directory 内の Finance OU にアカウントがあるすべてのユーザーに割り当てます。このコマンドで使用されている OU パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
@@ -83,7 +83,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsVoicePolicy](grant-csvoicepolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

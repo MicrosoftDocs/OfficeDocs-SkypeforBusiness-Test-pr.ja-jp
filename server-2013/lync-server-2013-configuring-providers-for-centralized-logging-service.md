@@ -115,7 +115,7 @@ $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシ�
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。Get-CsClsScenario を使用して、新しいシナリオを表示できます。詳細については、「[Get-CsClsScenario](get-csclsscenario.md)」を参照してください。
+コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。Get-CsClsScenario を使用して、新しいシナリオを表示できます。詳細については、「[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)」を参照してください。
 
 
 > [!WARNING]
@@ -161,9 +161,9 @@ Add ディレクティブで定義される各プロバイダーは、**New-CsCl
 
 #### その他のリソース
 
-[Get-CsClsScenario](get-csclsscenario.md)  
-[New-CsClsScenario](new-csclsscenario.md)  
-[Remove-CsClsScenario](remove-csclsscenario.md)  
-[Set-CsClsScenario](set-csclsscenario.md)  
-[New-CsClsProvider](new-csclsprovider.md)
+[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)  
+[New-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsScenario)  
+[Remove-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsScenario)  
+[Set-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario)  
+[New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider)
 

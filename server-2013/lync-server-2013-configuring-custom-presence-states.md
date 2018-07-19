@@ -92,7 +92,7 @@ XML 構成ファイルに 1 つまたは複数のロケール ID (LCID) スキ�
 
 5.  **Grant-CSClientPolicy** コマンドレットを使用して、この新しいポリシーをユーザーに割り当てます。
 
-詳細については、「Lync Server 管理シェル」のドキュメントの「[New-CsClientPolicy](new-csclientpolicy.md)」と「[Grant-CsClientPolicy](grant-csclientpolicy.md)」を参照してください。
+詳細については、「Lync Server 管理シェル」のドキュメントの「[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)」と「[Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)」を参照してください。
 
 <table>
 <colgroup>

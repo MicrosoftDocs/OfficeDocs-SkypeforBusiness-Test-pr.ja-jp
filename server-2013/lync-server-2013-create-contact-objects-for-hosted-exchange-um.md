@@ -21,9 +21,9 @@ _**トピックの最終更新日:** 2012-09-24_
 
 連絡先オブジェクトの構成の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 
 > [!IMPORTANT]

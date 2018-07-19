@@ -75,14 +75,14 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="even">
 <td><p>Mcx Mobility Service を使用して、Lync 2010 Mobile のモビリティ展開をテストします。</p></td>
 <td><p><strong>Test-CsMcxP2PIM</strong> を実行し、ユーザー間のインスタント メッセージの送信をテストします。</p>
-<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a> を参照してください。</p></td>
+<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> を参照してください。</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティ展開の確認</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>UCWA Web コンポーネントを使用して、Lync 2013 モバイル クライアントのモビリティ展開をテストします。</p></td>
 <td><p><strong>Test-CsUcwaConference</strong> コマンドレットを使用して、定義済みテスト ユーザーをテストおよび確認します。また 2 人の実際のユーザーが UCWA を使用して会議を作成し、参加することもできます。</p>
-<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="test-csucwaconference.md">Test-CsUcwaConference</a> を参照してください。</p></td>
+<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> を参照してください。</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティ展開の確認</a></p></td>
 </tr>

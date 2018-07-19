@@ -98,7 +98,7 @@ Lync Server 2013 では、ポリシーを使用して Lync Server 2013 に所属
     
         Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
 
-詳細については、[Set-CsArchivingPolicy](set-csarchivingpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 
