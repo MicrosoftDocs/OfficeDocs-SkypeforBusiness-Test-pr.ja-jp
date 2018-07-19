@@ -105,7 +105,7 @@ Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理�
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

@@ -89,7 +89,7 @@ Grant-CsUserServicesPolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null<
 
 統合連絡先ストアを操作する際には、"Ken の連絡先が統合連絡先ストアに移行されないようにする" という点に注意することが重要です。単純に新しいユーザー サービス ポリシーを Ken に割り当てるだけでは、Ken の連絡先は統合連絡先ストアから移動されません。ユーザーが Lync Server 2013 にログオンする際に、システムはユーザーのユーザー サービス ポリシーをチェックして、そのユーザーの連絡先を統合連絡先ストアに保存する必要があるかどうかを調べます。答えが「はい」である (つまり、UcsAllowed プロパティが $True に設定されている) 場合は、連絡先が統合連絡先ストアに移行されます (連絡先がまだ統合連絡先ストアに移動されていないと仮定します)。答えが「いいえ」である場合は、Lync Server は単にユーザーの連絡先を無視し、次のタスクに移行します。つまり、UcsAllowed プロパティの値にかかわらず、Lync Server がユーザーの連絡先を統合連絡先ストアから自動的に移動することはありません。
 
-また、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に戻すためには、新しいユーザー サービス ポリシーをユーザーに割り当てた後で [Invoke-CsUcsRollback](invoke-csucsrollback.md) コマンドレットを実行する必要があります。たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
+また、ユーザーの連絡先を Exchange 2013 から Lync Server 2013 に戻すためには、新しいユーザー サービス ポリシーをユーザーに割り当てた後で [Invoke-CsUcsRollback](https://docs.microsoft.com/en-us/powershell/module/skype/Invoke-CsUcsRollback) コマンドレットを実行する必要があります。たとえば、Ken Myer に新しいユーザー サービス ポリシーを割り当てた後、次のコマンドを使用して Ken の連絡先を統合連絡先ストアから移動できます。
 
     Invoke-CsUcsRollback -Identity "Ken Myer"
 

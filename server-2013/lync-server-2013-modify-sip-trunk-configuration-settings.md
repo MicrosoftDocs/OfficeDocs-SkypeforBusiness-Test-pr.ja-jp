@@ -60,7 +60,7 @@ Lync Server コントロール パネルを使用して SIP トランクの構�
 <tr class="even">
 <td><p>暗号化サポート レベル</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。メディア構成は、<a href="new-csmediaconfiguration.md">New-CsMediaConfiguration</a> コマンドレットおよび <a href="set-csmediaconfiguration.md">Set-CsMediaConfiguration</a> コマンドレットを使用して設定します。</p>
+<td><p>仲介サーバーと、サービス プロバイダーの PSTN ゲートウェイ、IP-PBX、または SBC 間のメディア トラフィックを保護するためのサポート レベルを示します。メディア バイパスの場合、この値はメディア構成の EncryptionLevel 設定と互換性を持つ必要があります。メディア構成は、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> コマンドレットおよび <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> コマンドレットを使用して設定します。</p>
 <p>有効な値は次のとおりです。</p>
 <ul>
 <li><p>Required: SRTP 暗号化を使用する必要があります。</p></li>
@@ -153,7 +153,7 @@ Lync Server コントロール パネルを使用して SIP トランクの構�
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="set-cstrunkconfiguration.md">Set-CsTrunkConfiguration</a> コマンドレットのヘルプ トピックを参照してください。</td>
+<td>Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</a> コマンドレットのヘルプ トピックを参照してください。</td>
 </tr>
 </tbody>
 </table>

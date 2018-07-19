@@ -63,7 +63,7 @@ Windows PowerShell および **Get-CsNetworkRegion** コマンドレットを使
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-詳細については、[Get-CsNetworkRegion](get-csnetworkregion.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

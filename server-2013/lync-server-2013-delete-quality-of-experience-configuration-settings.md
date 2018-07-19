@@ -21,7 +21,7 @@ Microsoft Lync Server 2013 をインストールすると、QoE 構成設定の�
 
 なお、グローバル設置は「削除」することができます。ただし、グローバル設定は実際に削除されるわけではありません。代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。たとえば、QoE 構成設定のコレクションでは削除が既定で有効になっています。仮にグローバル コレクションを変更して削除を無効にしたとします。後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。この場合、削除が再び有効になることを意味します。
 
-QoE 構成設定を削除するには、Lync Server コントロール パネルを使うか、[Remove-CsQoEConfiguration](remove-csqoeconfiguration.md) コマンドレットを使用できます。
+QoE 構成設定を削除するには、Lync Server コントロール パネルを使うか、[Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration) コマンドレットを使用できます。
 
 ## Lync Server コントロール パネルを使って QoE 構成設定を削除するには
 
@@ -57,5 +57,5 @@ QoE 構成設定は、Lync Server 管理シェルおよび **Remove-CsQoEConfigu
     
         Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
 
-詳細については、「[Remove-CsQoEConfiguration](remove-csqoeconfiguration.md)」を参照してください。
+詳細については、「[Remove-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsQoEConfiguration)」を参照してください。
 

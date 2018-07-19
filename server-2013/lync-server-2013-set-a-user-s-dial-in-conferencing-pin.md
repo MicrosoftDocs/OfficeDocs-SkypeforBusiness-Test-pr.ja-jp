@@ -110,7 +110,7 @@ Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当て
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-詳細については、[Set-CsClientPin](set-csclientpin.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

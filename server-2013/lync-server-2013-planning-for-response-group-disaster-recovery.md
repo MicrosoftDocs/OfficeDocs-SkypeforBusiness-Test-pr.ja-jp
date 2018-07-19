@@ -87,7 +87,7 @@ _**トピックの最終更新日:** 2015-03-09_
 </table>
 
 
-アプリケーション レベルの 応答グループの構成設定は、プールごとに 1 セットずつのみ定義できます。このような設定として、既定の保留音の構成、既定の保留音オーディオ ファイル、エージェントかけ直し猶予期間、呼び出しコンテキストの構成があります。これらの構成設定を表示するには、**Get-CsRgsConfiguration** コマンドレットを実行します。**Get-CsRgsConfiguration** コマンドレットの詳細については、「[Get-CsRgsConfiguration](get-csrgsconfiguration.md)」を参照してください。
+アプリケーション レベルの 応答グループの構成設定は、プールごとに 1 セットずつのみ定義できます。このような設定として、既定の保留音の構成、既定の保留音オーディオ ファイル、エージェントかけ直し猶予期間、呼び出しコンテキストの構成があります。これらの構成設定を表示するには、**Get-CsRgsConfiguration** コマンドレットを実行します。**Get-CsRgsConfiguration** コマンドレットの詳細については、「[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)」を参照してください。
 
 これらのアプリケーション レベル設定は、**Import-CsRgsConfiguration** コマンドレットに -ReplaceExistingSettings パラメーターを指定するとプールから別のプールへ転送できますが、それによって転送先プールの設定はオーバーライドされます。
 

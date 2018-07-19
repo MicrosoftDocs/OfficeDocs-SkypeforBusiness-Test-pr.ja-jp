@@ -58,7 +58,7 @@ _**トピックの最終更新日:** 2012-09-21_
 
 
 > [!TIP]
-> コマンドレット <STRONG>Set-CsPstnGateway</STRONG> を使用して、PSTN ゲートウェイのプロパティを変更します。詳細については、Lync Server 管理シェルのヘルプの「<A href="set-cspstngateway.md">Set-CsPstnGateway</A>」を参照してください。
+> コマンドレット <STRONG>Set-CsPstnGateway</STRONG> を使用して、PSTN ゲートウェイのプロパティを変更します。詳細については、Lync Server 管理シェルのヘルプの「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPstnGateway">Set-CsPstnGateway</A>」を参照してください。
 
 
 

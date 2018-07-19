@@ -49,7 +49,7 @@ Lync Server では、[New-CsPartnerApplication](https://docs.microsoft.com/en-us
 
 また、Lync Server 2013 のサーバー間認証のドキュメントに含まれているスクリプト コードをコピーして変更することによってパートナー アプリケーションを作成することもできます。詳細については、「[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
 
-Lync Server と Exchange の両方のパートナー アプリケーションの構成が完了したら、この 2 つの製品間のサーバー間認証の構成が完了したことになります。Lync Server 2013 に含まれている [Test-CsExStorageConnectivity](test-csexstorageconnectivity.md) という Windows PowerShell コマンドレットを使用すると、サーバー間認証が正しく構成されているかどうかと、Lync Server ストレージ サービスが Exchange 2013 に接続できるかどうかを確認できます。これは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの会話履歴フォルダーに項目を書き込むことによって行われます。必要に応じてその項目を削除することもできます。
+Lync Server と Exchange の両方のパートナー アプリケーションの構成が完了したら、この 2 つの製品間のサーバー間認証の構成が完了したことになります。Lync Server 2013 に含まれている [Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity) という Windows PowerShell コマンドレットを使用すると、サーバー間認証が正しく構成されているかどうかと、Lync Server ストレージ サービスが Exchange 2013 に接続できるかどうかを確認できます。これは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの会話履歴フォルダーに項目を書き込むことによって行われます。必要に応じてその項目を削除することもできます。
 
 Lync Server 2013 と Exchange 2013 の統合をテストするには、Lync Server 管理シェルから次のようなコマンドを実行します。
 

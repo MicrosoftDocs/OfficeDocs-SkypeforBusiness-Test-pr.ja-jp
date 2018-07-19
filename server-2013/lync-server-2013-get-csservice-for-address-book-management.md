@@ -125,5 +125,5 @@ Role : WebServer
 
 #### その他のリソース
 
-[Get-CsService](get-csservice.md)
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 

@@ -63,7 +63,7 @@ _**トピックの最終更新日:** 2013-02-23_
         BWPolicyProfileID :
         LocationPolicy    :
 
-詳細については、[Get-CsNetworkSite](get-csnetworksite.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

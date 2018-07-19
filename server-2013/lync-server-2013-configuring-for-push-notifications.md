@@ -138,5 +138,5 @@ _**トピックの最終更新日:** 2013-02-12_
 #### その他のリソース
 
 [Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

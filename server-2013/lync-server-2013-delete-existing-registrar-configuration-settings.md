@@ -53,5 +53,5 @@ Lync Server 管理シェル と **Remove-CsProxyConfiguration** コマンドレ�
     
         Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
 
-詳細については、「[Remove-CsProxyConfiguration](remove-csproxyconfiguration.md)」を参照してください。
+詳細については、「[Remove-CsProxyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsProxyConfiguration)」を参照してください。
 

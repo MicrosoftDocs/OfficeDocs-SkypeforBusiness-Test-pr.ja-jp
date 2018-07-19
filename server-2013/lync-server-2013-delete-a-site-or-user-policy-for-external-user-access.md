@@ -51,5 +51,5 @@ Lync Server コントロール パネルの一覧のサイト ポリシーやユ
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
-詳細は、[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細は、[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。
 

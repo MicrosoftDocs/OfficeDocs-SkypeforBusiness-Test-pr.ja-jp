@@ -79,7 +79,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsDialPlan](grant-csdialplan.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

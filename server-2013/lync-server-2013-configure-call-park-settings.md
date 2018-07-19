@@ -97,6 +97,6 @@ _**トピックの最終更新日:** 2015-03-09_
 #### その他のリソース
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCpsConfiguration)  
-[Set-CsCpsConfiguration](set-cscpsconfiguration.md)  
+[Set-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCpsConfiguration)  
 [Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)
 

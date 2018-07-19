@@ -25,7 +25,7 @@ Lync Server をインストールするとき、音声ビデオ エッジ構成�
 
   - 個々のサーバーでサービス設定が構成されていない場合、およびサーバーが配置されているサイトにサイト設定が存在しない場合に限り、グローバル スコープの設定が使用されます。
 
-すべての設定は、Set-CsAVEdgeConfiguration コマンドレットを使用して変更できます。詳細については、[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md) コマンドレットと [Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+すべての設定は、Set-CsAVEdgeConfiguration コマンドレットを使用して変更できます。詳細については、[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration) コマンドレットと [Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## サイト スコープで新しい音声ビデオ エッジ構成設定を作成する
 
@@ -61,6 +61,6 @@ Lync Server をインストールするとき、音声ビデオ エッジ構成�
 #### その他のリソース
 
 [音声ビデオ (A/V) エッジ サーバー](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](new-csavedgeconfiguration.md)  
-[Set-CsAVEdgeConfiguration](set-csavedgeconfiguration.md)
+[New-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAVEdgeConfiguration)  
+[Set-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAVEdgeConfiguration)
 

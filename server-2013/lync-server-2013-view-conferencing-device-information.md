@@ -31,7 +31,7 @@ Windows PowerShell と **Get-CsMeetingRoom** コマンドレットを使用し�
 </table>
 
 
-なにもパラメーターを指定せずに **Get-CsMeetingRoom** コマンドレットを使用した場合、すべての会議デバイスの情報を戻します。オプションのパラメーターを指定すると、さまざまな方法で情報をフィルター処理できます。詳細は、「[Get-CsMeetingRoom](get-csmeetingroom.md)」のパラメーターのセクションを参照してください。
+なにもパラメーターを指定せずに **Get-CsMeetingRoom** コマンドレットを使用した場合、すべての会議デバイスの情報を戻します。オプションのパラメーターを指定すると、さまざまな方法で情報をフィルター処理できます。詳細は、「[Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)」のパラメーターのセクションを参照してください。
 
 
 ## すべての会議デバイスについての情報を表示する
@@ -66,5 +66,5 @@ Windows PowerShell と **Get-CsMeetingRoom** コマンドレットを使用し�
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
-詳細については、[Get-CsMeetingRoom](get-csmeetingroom.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom) コマンドレットに関するヘルプ トピックを参照してください。
 

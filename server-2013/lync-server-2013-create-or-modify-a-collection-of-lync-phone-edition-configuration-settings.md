@@ -65,7 +65,7 @@ Lync Server 管理シェルと **New-CsUCPhoneConfiguration** コマンドレッ
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-詳細については、「[New-CsUCPhoneConfiguration](new-csucphoneconfiguration.md)」を参照してください。
+詳細については、「[New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration)」を参照してください。
 
 ## 関連項目
 

@@ -63,5 +63,5 @@ Lync Server 管理シェルおよび **Remove-CsConferencingPolicy** コマン�
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-詳細については、「[Remove-CsConferencingPolicy](remove-csconferencingpolicy.md)」を参照してください。
+詳細については、「[Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy)」を参照してください。
 

@@ -113,7 +113,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsConferencingPolicy](grant-csconferencingpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

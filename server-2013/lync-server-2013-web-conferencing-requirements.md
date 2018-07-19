@@ -51,9 +51,9 @@ Lync Server 2013 は、ファイル ストアとして、直接取り付け記�
 
 次の設定項目を使用すると、会議用にコンテンツを格納する方法を管理できます。
 
-  - **ContentGracePeriod** ([Set-CsConferencingConfiguration](set-csconferencingconfiguration.md) にあります) は、会議終了後、Web 会議コンテンツがサーバーに維持される期間を設定します。
+  - **ContentGracePeriod** ([Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration) にあります) は、会議終了後、Web 会議コンテンツがサーバーに維持される期間を設定します。
 
-  - **MaxContentStorageMb** ([Set-CsConferencingConfiguration](set-csconferencingconfiguration.md) にあります) は、1 つの会議中に会議の記憶域として使用できるファイル領域の最大値を設定します。
+  - **MaxContentStorageMb** ([Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration) にあります) は、1 つの会議中に会議の記憶域として使用できるファイル領域の最大値を設定します。
 
 **MaxUploadFileSizeMb** は、Lync Web App のファイル アップロード設定を制限するものではありません。Lync Web App のファイル サイズ アップロード制限は約 30MB に設定されており、IIS の web.config ファイル (/DataCollabWeb/Int\[Ext\]/Handler/web.config) によって制御されます。Lync Web App のファイル サイズ アップロード制限を構成するには、次のように web.config ファイル内の `maxRequestLength` および `maxAllowedContentLength` を更新します。
 

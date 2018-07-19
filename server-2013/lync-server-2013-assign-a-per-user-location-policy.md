@@ -113,5 +113,5 @@ Grant-CsLocationPolicy コマンドレットを使用してユーザー単位の
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsLocationPolicy](grant-cslocationpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsLocationPolicy) コマンドレットのヘルプ トピックを参照してください。
 

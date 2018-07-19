@@ -22,11 +22,11 @@ _**トピックの最終更新日:** 2012-11-01_
 > 集中ログ サービス 用にリストされている Windows PowerShell のすべてが Lync Server 2013 の内部設置型展開での使用を意図しているわけではありません。以下のコマンドレットは動作するように見えることがありますが、Lync Server 2013 の内部設置型展開で機能するようには設計されていません。 
 > <UL>
 > <LI>
-> <P><STRONG>CsClsRegion コマンドレット:</STRONG> <A href="get-csclsregion.md">Get-CsClsRegion</A>、<A href="set-csclsregion.md">Set-CsClsRegion</A>、<A href="new-csclsregion.md">New-CsClsRegion</A>、および <A href="remove-csclsregion.md">Remove-CsClsRegion</A>。</P>
+> <P><STRONG>CsClsRegion コマンドレット:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsRegion">Get-CsClsRegion</A>、<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsRegion">Set-CsClsRegion</A>、<A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsRegion">New-CsClsRegion</A>、および <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsRegion">Remove-CsClsRegion</A>。</P>
 > <LI>
-> <P><STRONG>CsClsSearchTerm コマンドレット:</STRONG> <A href="get-csclssearchterm.md">Get-CsClsSearchTerm</A> および <A href="set-csclssearchterm.md">Set-CsClsSearchTerm</A>。</P>
+> <P><STRONG>CsClsSearchTerm コマンドレット:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSearchTerm">Get-CsClsSearchTerm</A> および <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSearchTerm">Set-CsClsSearchTerm</A>。</P>
 > <LI>
-> <P><STRONG>CsClsSecurityGroup コマンドレット:</STRONG> <A href="get-csclssecuritygroup.md">Get-CsClsSecurityGroup</A>、<A href="set-csclssecuritygroup.md">Set-CsClsSecurityGroup</A>、<A href="new-csclssecuritygroup.md">New-CsClsSecurityGroup</A>、および <A href="remove-csclssecuritygroup.md">Remove-CsClsSecurityGroup</A>。</P></LI></UL>これらのコマンドレットで定義されている設定は、動作を妨害したり悪影響を起こしたりすることはありませんが、Microsoft Office 365 で使用するように設計されており、内部設置型展開では予期しない結果をもたらします。これは、内部設置型展開ではこれらのコマンドレットが役に立たないという意味ではありませんが、その用途はより高度なトピックであるため、このドキュメントでは扱われません。
+> <P><STRONG>CsClsSecurityGroup コマンドレット:</STRONG> <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsSecurityGroup">Get-CsClsSecurityGroup</A>、<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsSecurityGroup">Set-CsClsSecurityGroup</A>、<A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsSecurityGroup">New-CsClsSecurityGroup</A>、および <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsSecurityGroup">Remove-CsClsSecurityGroup</A>。</P></LI></UL>これらのコマンドレットで定義されている設定は、動作を妨害したり悪影響を起こしたりすることはありませんが、Microsoft Office 365 で使用するように設計されており、内部設置型展開では予期しない結果をもたらします。これは、内部設置型展開ではこれらのコマンドレットが役に立たないという意味ではありませんが、その用途はより高度なトピックであるため、このドキュメントでは扱われません。
 
 
 

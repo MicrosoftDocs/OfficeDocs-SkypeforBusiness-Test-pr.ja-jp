@@ -93,7 +93,7 @@ Lync Server コントロール パネルまたは Windows PowerShell を使用�
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-詳細については、[Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

@@ -155,8 +155,8 @@ _**トピックの最終更新日:** 2012-10-08_
 
 #### その他のリソース
 
-[New-CsNetworkSite](new-csnetworksite.md)  
-[Set-CsNetworkSite](set-csnetworksite.md)  
-[Remove-CsNetworkSite](remove-csnetworksite.md)  
-[Get-CsNetworkSite](get-csnetworksite.md)
+[New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)  
+[Set-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSite)  
+[Remove-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSite)  
+[Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite)
 

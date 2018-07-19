@@ -67,7 +67,7 @@ Identity という用語が常にユーザー アカウントの ID を指す場
 
 上記からわかるように、Ken Myer はパブリック IM プロバイダーと通信できます。これは、Ken Myer に割り当てられているユーザーごとのポリシーの設定が、グローバル ポリシーの設定よりも優先されるためです。Pilar Ackerman はパブリック IM プロバイダーと通信することはできません。これは、Pilar Ackerman はグローバル ポリシーによって管理されていて、グローバル ポリシーではそのような通信が禁止されているためです。
 
-ユーザーごとのポリシーは、Office 365 サポートが作成する必要があります。ポリシーが作成された後、適切な **Grant-Cs** コマンドレット ([Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md) など) を使用するとユーザーにポリシーを割り当てることができます。ユーザーごとのポリシーは、ポリシー Identity の先頭が常にタグ **プレフィックス**であるため、容易に識別できます。次に例を示します。
+ユーザーごとのポリシーは、Office 365 サポートが作成する必要があります。ポリシーが作成された後、適切な **Grant-Cs** コマンドレット ([Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) など) を使用するとユーザーにポリシーを割り当てることができます。ユーザーごとのポリシーは、ポリシー Identity の先頭が常にタグ **プレフィックス**であるため、容易に識別できます。次に例を示します。
 
     Identity : tag:AllowPublicIMCommunication
 

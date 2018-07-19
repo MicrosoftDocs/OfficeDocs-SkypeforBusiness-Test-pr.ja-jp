@@ -111,7 +111,7 @@ Lync Server 管理シェル コマンドレットおよび **Grant-CsPinPolicy**
     
         Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、「[Grant-CsPinPolicy](grant-cspinpolicy.md)」を参照してください。
+詳細については、「[Grant-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPinPolicy)」を参照してください。
 
 ## 関連項目
 

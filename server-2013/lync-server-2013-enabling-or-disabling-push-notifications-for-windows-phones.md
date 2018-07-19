@@ -61,7 +61,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 
-詳細については、[Set-CsPushNotificationConfiguration](set-cspushnotificationconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

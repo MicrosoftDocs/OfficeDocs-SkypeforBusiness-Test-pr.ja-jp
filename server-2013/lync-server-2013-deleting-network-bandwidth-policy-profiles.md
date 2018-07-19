@@ -59,5 +59,5 @@ _**トピックの最終更新日:** 2012-11-01_
 #### その他のリソース
 
 [Lync Server 2013 での通話管理受付の構成](lync-server-2013-configure-call-admission-control.md)  
-[Remove-CsNetworkBandwidthPolicyProfile](remove-csnetworkbandwidthpolicyprofile.md)
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 

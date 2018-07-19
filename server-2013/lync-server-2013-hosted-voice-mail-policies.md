@@ -85,7 +85,7 @@ _**トピックの最終更新日:** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td>Hosted Exchange UM サービスのテナント管理者が、宛先と組織の属性設定に必要な値を提供します。ポリシーを構成するには、New-CsHostedVoicemailPolicy コマンドレットを実行するか、または Set-CsHostedVoicemailPolicy コマンドレットを使用して既存のポリシー (例: グローバル ポリシー) を変更する必要があります。</td>
+<td>Hosted Exchange UM サービスのテナント管理者が、宛先と組織の属性設定に必要な値を提供します。ポリシーを構成するには、New-CsHostedVoicemailPolicy コマンドレットを実行するか、または set-cshostedvoicemailpolicy コマンドレットを使用して既存のポリシー (例: グローバル ポリシー) を変更する必要があります。</td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +95,7 @@ _**トピックの最終更新日:** 2012-10-01_
 
   - New-CsHostedVoicemailPolicy
 
-  - Set-CsHostedVoicemailPolicy
+  - set-cshostedvoicemailpolicy
 
   - Get-CsHostedVoicemailPolicy
 

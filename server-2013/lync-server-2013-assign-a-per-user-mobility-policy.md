@@ -105,7 +105,7 @@ Lync Server 管理シェル コマンドレットおよび **Grant-CsMobilityPol
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、「[Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)」を参照してください。
+詳細については、「[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)」を参照してください。
 
 ## 関連項目
 

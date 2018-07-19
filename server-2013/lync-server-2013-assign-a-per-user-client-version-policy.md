@@ -111,7 +111,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 SIP トランクは、Microsoft Lync Server 2013 のボイス オーバー IP 電話ネットワークを公衆交換電話網 (PSTN) と接続するために使用されます。以前のバージョンの製品では、トランクを使用して仲介サーバーから PSTN ゲートウェイに発信通話がルーティングされ、各ゲートウェイは 1 つのトランクに制限されていました。その結果、PSTN ゲートウェイと SIP トランクは実質的に同一でした。管理者にとって、このことは、関連付けられている PSTN ゲートウェイに関する情報を表示するだけで個々の SIP トランクに関する情報を表示できることを意味していました。
 
-ところが、Lync Server 2013 では、複数のトランクを 1 つの PSTN ゲートウェイに割り当てることができるようになりました。つまり、ゲートウェイとトランクは、もはや同じ 1 つのものでありません。また、管理者は、個々の SIP トランクに関する情報を表示するために新しい [Get-CsTrunk](get-cstrunk.md) コマンドレットを使用する必要があります。
+ところが、Lync Server 2013 では、複数のトランクを 1 つの PSTN ゲートウェイに割り当てることができるようになりました。つまり、ゲートウェイとトランクは、もはや同じ 1 つのものでありません。また、管理者は、個々の SIP トランクに関する情報を表示するために新しい [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk) コマンドレットを使用する必要があります。
 
 Get-CsTrunk コマンドレットは、Lync Server 2013 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
 

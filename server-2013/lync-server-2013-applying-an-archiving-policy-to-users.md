@@ -84,7 +84,7 @@ Lync ServerWindows PowerShell と **Grant-CsArchivingPolicy** コマンドレッ
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) コマンドレットのドキュメントを参照してください。
+詳細については、[Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) コマンドレットのドキュメントを参照してください。
 
 ## 関連項目
 

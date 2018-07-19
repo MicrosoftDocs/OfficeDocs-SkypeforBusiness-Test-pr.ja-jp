@@ -63,5 +63,5 @@ Skype for Business Online PowerShell モジュールの使用方法について�
 
 #### その他のリソース
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

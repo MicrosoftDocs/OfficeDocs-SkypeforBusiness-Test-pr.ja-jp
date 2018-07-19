@@ -44,7 +44,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
-詳細については、[Import-CsDeviceUpdate](import-csdeviceupdate.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

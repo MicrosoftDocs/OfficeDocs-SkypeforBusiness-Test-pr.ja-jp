@@ -67,5 +67,5 @@ Windows PowerShell と Remove-CsPinPolicy コマンドレットを使用して�
     
         et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
 
-詳細については、[Remove-CsPinPolicy](remove-cspinpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsPinPolicy) コマンドレットのヘルプ トピックを参照してください。
 

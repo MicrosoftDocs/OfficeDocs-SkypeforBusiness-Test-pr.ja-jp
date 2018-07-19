@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2016-12-08_
 
-Lync Server 2013 では、デバイス更新 Web サービスを使用して、組織のデバイスのソフトウェア更新プログラムを表示および管理します。これらの更新プログラムは、Microsoft サポートの Web サイト ([http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x411)) からキャビネット ファイル形式 (.cab) で入手できます。.cab ファイルのダウンロード後に、**Import-CSdeviceUpdate** コマンドレットを実行して、デバイスの更新ルールを .cab ファイルからインポートします。**Import-CSdeviceUpdate** コマンドレットの詳細については、「Lync Server 管理シェル」ドキュメントの「[Import-CsDeviceUpdate](import-csdeviceupdate.md)」を参照してください。
+Lync Server 2013 では、デバイス更新 Web サービスを使用して、組織のデバイスのソフトウェア更新プログラムを表示および管理します。これらの更新プログラムは、Microsoft サポートの Web サイト ([http://go.microsoft.com/fwlink/?linkid=204091\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=204091%26clcid=0x411)) からキャビネット ファイル形式 (.cab) で入手できます。.cab ファイルのダウンロード後に、**Import-CSdeviceUpdate** コマンドレットを実行して、デバイスの更新ルールを .cab ファイルからインポートします。**Import-CSdeviceUpdate** コマンドレットの詳細については、「Lync Server 管理シェル」ドキュメントの「[Import-CsDeviceUpdate](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsDeviceUpdate)」を参照してください。
 
 
 > [!TIP]

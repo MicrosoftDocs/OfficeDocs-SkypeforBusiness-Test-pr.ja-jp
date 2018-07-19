@@ -73,5 +73,5 @@ Microsoft Lync Online 2010 ユーザーとのフェデレーションを行う�
     
       - **IsLocal** は、ホスティング プロバイダーによって使用されるプロキシ サーバーが Lync Server トポロジ内にあるかどうかを示します。
     
-    このコマンドレットの使用の詳細については、「操作」のドキュメントの「[New-CsHostingProvider](new-cshostingprovider.md)」を参照してください。
+    このコマンドレットの使用の詳細については、「操作」のドキュメントの「[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)」を参照してください。
 

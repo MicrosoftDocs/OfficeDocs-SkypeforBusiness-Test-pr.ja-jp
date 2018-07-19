@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 音声ビデオ エッジ サービスを使用すると、内部ユーザー (組織のネットワークにログオンしているユーザー) は外部ユーザー (組織のネットワークにログオンしていないユーザー) とオーディオおよびビデオを共有できるようになります。音声ビデオ エッジ サービスは、サイト スコープまたはサービス スコープで構成可能な (つまり、個々の音声ビデオ エッジ サーバーについて構成可能な) 設定である、音声ビデオ エッジ構成設定を使用して主に管理されます。
 
-組織で使用している音声ビデオ エッジ構成設定についての情報を返すには、Lync Server 管理シェルおよび Get-CsAVEdgeConfiguration コマンドレットを使用する必要があります。詳細については、[Get-CsAVEdgeConfiguration](get-csavedgeconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+組織で使用している音声ビデオ エッジ構成設定についての情報を返すには、Lync Server 管理シェルおよび Get-CsAVEdgeConfiguration コマンドレットを使用する必要があります。詳細については、[Get-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAVEdgeConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 Get-CsAVEdgeConfiguration コマンドレットからは次のような情報が返されます。
 

@@ -41,7 +41,7 @@ Lync Server 2013 は、SipName UM ダイヤル プランをホストするすべ
 </thead>
 <tbody>
 <tr class="odd">
-<td>これは、Lync Server トポロジでは、同じコンピューターに対して自動検出エントリと手動追加エントリの 2 つのエントリが指定されるからです。この問題を修正し、Outlook Web App を再度動作させるには、Windows PowerShell を使用して、そのサーバーの信頼済みプールと信頼済みアプリケーションのエントリを削除します。詳細については、<a href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</a> および <a href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</a> コマンドレットのヘルプ トピックを参照してください。</td>
+<td>これは、Lync Server トポロジでは、同じコンピューターに対して自動検出エントリと手動追加エントリの 2 つのエントリが指定されるからです。この問題を修正し、Outlook Web App を再度動作させるには、Windows PowerShell を使用して、そのサーバーの信頼済みプールと信頼済みアプリケーションのエントリを削除します。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> および <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a> コマンドレットのヘルプ トピックを参照してください。</td>
 </tr>
 </tbody>
 </table>

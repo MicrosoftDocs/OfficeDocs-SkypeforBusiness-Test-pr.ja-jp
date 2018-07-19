@@ -31,5 +31,5 @@ Get-CsWebServiceConfiguration は、現在組織で使用されている Web サ
 
 #### その他のリソース
 
-[Get-CsWebServiceConfiguration](get-cswebserviceconfiguration.md)
+[Get-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWebServiceConfiguration)
 

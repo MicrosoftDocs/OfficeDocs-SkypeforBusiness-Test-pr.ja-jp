@@ -59,7 +59,7 @@ Disable-CsUser コマンドレットを使用してユーザー アカウント�
     
     このコマンドを実行した後、削除したアカウントおよびその以前の設定を再度有効化することはできません。Enable-CsUser コマンドレットを使用して、Ken Myer の新規アカウントを作成する必要があります。
 
-詳細については、[Disable-CsUser](disable-csuser.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

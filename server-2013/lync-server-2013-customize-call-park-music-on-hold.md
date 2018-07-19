@@ -43,10 +43,10 @@ Lync Server 2013 に含まれる既定の音楽ファイルではなく、自分
     
 
     > [!TIP]
-    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。詳細については、「<A href="get-csservice.md">Get-CsService</A>」を参照してください。
+    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。詳細については、「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>」を参照してください。
 
     
-    次の例は、soothingmusic.wma というファイルのコンテンツをバイト配列として取得し、変数に割り当てる方法を示しています。次に音声ファイルをコール パークの保留音ファイルとして割り当てます。詳細については、「[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)」を参照してください。
+    次の例は、soothingmusic.wma というファイルのコンテンツをバイト配列として取得し、変数に割り当てる方法を示しています。次に音声ファイルをコール パークの保留音ファイルとして割り当てます。詳細については、「[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)」を参照してください。
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -55,6 +55,6 @@ Lync Server 2013 に含まれる既定の音楽ファイルではなく、自分
 
 #### その他のリソース
 
-[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)  
-[Get-CsService](get-csservice.md)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 
