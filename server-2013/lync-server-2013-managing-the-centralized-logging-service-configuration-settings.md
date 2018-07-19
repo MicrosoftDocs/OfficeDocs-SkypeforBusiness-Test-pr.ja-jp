@@ -45,5 +45,5 @@ _**トピックの最終更新日:** 2012-11-01_
 #### 概念
 
 [集中ログサービスの概要](lync-server-2013-overview-of-the-centralized-logging-service.md)  
-[集中ログ コマンドレット](lync-server-2013-centralized-logging-cmdlets.md)
+[集中ログ コマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/)
 
