@@ -59,7 +59,7 @@ Skype for Business Online テナントに社内ユーザーを移動するには
 
 ## ユーザーを Lync Online に移動する
 
-[Get-CsUser](get-csuser.md) コマンドレットに –Filter パラメーターを指定して、複数のユーザーを移動することができます。このパラメーターにより、RegistrarPool のような、ユーザー アカウントに割り当てられた特定のプロパティを持つユーザーを選択できます。次に、返されたユーザーを、以下のサンプルに示すように、パイプを使用して [Move-CsUser](move-csuser.md) コマンドレットに渡すことができます。
+[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットに –Filter パラメーターを指定して、複数のユーザーを移動することができます。このパラメーターにより、RegistrarPool のような、ユーザー アカウントに割り当てられた特定のプロパティを持つユーザーを選択できます。次に、返されたユーザーを、以下のサンプルに示すように、パイプを使用して [Move-CsUser](move-csuser.md) コマンドレットに渡すことができます。
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

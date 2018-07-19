@@ -49,5 +49,5 @@ Update-CsAddressBook コマンドレットは、Office Communications Server の
 
 #### その他のリソース
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

@@ -61,7 +61,7 @@ Lync Server 管理シェルと **Get-CsUCPhoneConfiguration** コマンドレッ
     
         Get-CsUCPhoneConfiguration | Set-CsUCPhoneConfiguration -MinPhonePinLength 7
 
-詳細については、「[Get-CsUCPhoneConfiguration](get-csucphoneconfiguration.md)」を参照してください。
+詳細については、「[Get-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUCPhoneConfiguration)」を参照してください。
 
 ## 関連項目
 

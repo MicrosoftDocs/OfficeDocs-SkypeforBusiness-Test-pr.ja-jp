@@ -85,7 +85,7 @@ Lync ServerWindows PowerShell コマンドの New-CsNetworkSubnet または Lync
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-詳細については、「[New-CsNetworkSubnet](new-csnetworksubnet.md)」を参照してください。
+詳細については、「[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
 この例では、ネットワーク サイト (Delhi および Hyderabad) へのネットワーク サブネットの割り当てを次の表および Windows PowerShell コマンドに示します。わかりやすく説明するために、表に含まれているのは場所に基づくルーティングに固有の設定のみです。
 

@@ -69,7 +69,7 @@ Microsoft Lync Server 2013 の管理に使用できるすべてのコマンド�
 <td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">常設チャット サーバーのコマンドレット</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット</a></p></td>
+<td><p><a href="https://docs.microsoft.com/en-us/powershell/module/skype/">Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット</a></p></td>
 <td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">集中ログ コマンドレット</a></p></td>
 </tr>
 <tr class="even">

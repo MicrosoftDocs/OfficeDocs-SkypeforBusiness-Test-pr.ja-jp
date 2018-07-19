@@ -31,13 +31,13 @@ Microsoft Lync Server 2013 に含まれるユーザー管理のコマンドレ�
 
   - [Invoke-CsUcsRollback](invoke-csucsrollback.md)
 
-  - [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md)
+  - [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore)
 
   - [Disable-CsUser](disable-csuser.md)
 
   - [Enable-CsUser](enable-csuser.md)
 
-  - [Get-CsUser](get-csuser.md)
+  - [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)
 
   - [Move-CsUser](move-csuser.md)
 
@@ -47,7 +47,7 @@ Microsoft Lync Server 2013 に含まれるユーザー管理のコマンドレ�
 
   - [Remove-CsUserAcp](remove-csuseracp.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
   - [Test-CsAudioConferencingProvider](test-csaudioconferencingprovider.md)
 

@@ -19,7 +19,7 @@ _**トピックの最終更新日:** 2016-12-08_
 
 
 > [!IMPORTANT]
-> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。現在実行しているシナリオを調べるには、Windows PowerShell と <A href="get-csclsscenario.md">Get-CsClsScenario</A> を使用します。Windows PowerShell と <A href="set-csclsscenario.md">Set-CsClsScenario</A> を使用すると、実行するシナリオを動的に変更できます。ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。
+> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。現在実行しているシナリオを調べるには、Windows PowerShell と <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A> を使用します。Windows PowerShell と <A href="set-csclsscenario.md">Set-CsClsScenario</A> を使用すると、実行するシナリオを動的に変更できます。ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。
 
 
 

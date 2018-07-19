@@ -126,7 +126,7 @@ _**トピックの最終更新日:** 2015-03-09_
 
 2.  すべての必要な DNS ホスト (A、または IPv6 では AAAA) と DNS SRV レコードを定義して、構成します。
 
-3.  Lync Server コントロール パネルまたは Lync Server 管理シェルと適切なコマンドレットを使用して、すべてのポリシーを定義して構成します。 Lync Server 管理シェル コマンドレットの詳細は、「[Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット](lync-server-2013-federation-and-external-access-cmdlets.md)」を参照してください。
+3.  Lync Server コントロール パネルまたは Lync Server 管理シェルと適切なコマンドレットを使用して、すべてのポリシーを定義して構成します。 Lync Server 管理シェル コマンドレットの詳細は、「[Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/)」を参照してください。
     
     <table>
     <thead>

@@ -89,7 +89,7 @@ _**トピックの最終更新日:** 2013-09-11_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>グローバル外部アクセス ポリシーは、 応答グループ アプリケーションに適用されます。 Lync Server コントロール パネルを使用するか、 <strong>Set-CsExternalAccessPolicy</strong> コマンドレットを使用して、EnableOutsideAccess パラメーターを True に設定することにより、応答グループ フェデレーション用のグローバル ポリシーを構成することができます。グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。ポリシーをユーザーに適用する方法の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。フェデレーション設定の詳細については、「<a href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</a>」を参照してください。</td>
+    <td>グローバル外部アクセス ポリシーは、 応答グループ アプリケーションに適用されます。 Lync Server コントロール パネルを使用するか、 <strong>Set-CsExternalAccessPolicy</strong> コマンドレットを使用して、EnableOutsideAccess パラメーターを True に設定することにより、応答グループ フェデレーション用のグローバル ポリシーを構成することができます。グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。ポリシーをユーザーに適用する方法の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。フェデレーション設定の詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>

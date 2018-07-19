@@ -35,11 +35,11 @@ Skype for Business Online では、個々のユーザー ID を参照するた�
 
 次のコマンドレットでは、ユーザー ID を使用できます。
 
-  - [Disable-CsMeetingRoom](disable-csmeetingroom.md)
+  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
 
   - [Enable-CsMeetingRoom](enable-csmeetingroom.md)
 
-  - [Get-CsExUmContact](get-csexumcontact.md)
+  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
 
   - [Get-CsMeetingRoom](get-csmeetingroom.md)
 
@@ -57,7 +57,7 @@ Skype for Business Online では、個々のユーザー ID を参照するた�
 
   - [Set-CsMeetingRoom](set-csmeetingroom.md)
 
-  - [Set-CsUserAcp](set-csuseracp.md)
+  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
 
 次のいずれかの **Get-Cs** コマンドレットを呼び出す場合は、ユーザー ID を指定する必要はありません。この場合、コマンドレットによって指定した項目のすべてのインスタンスが返されます。たとえば、次のコマンドを実行すると Skype for Business Online が有効なすべてのユーザーに関する情報が返されます。
 

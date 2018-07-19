@@ -101,7 +101,7 @@ Lync Server 管理シェル コマンドレットおよび **Grant-CsPinPolicy**
 
 ## ユーザー単位の PIN ポリシーを複数のユーザーに割り当てるには
 
-  - 次のコマンドは、ユーザー単位の PIN ポリシー RedmondUsersPinPolicy を Redmond 市で働くすべてのユーザーに割り当てます。このコマンドで使用する LdapFilter パラメーターについては、「[Get-CsUser](get-csuser.md)」を参照してください。
+  - 次のコマンドは、ユーザー単位の PIN ポリシー RedmondUsersPinPolicy を Redmond 市で働くすべてのユーザーに割り当てます。このコマンドで使用する LdapFilter パラメーターについては、「[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)」を参照してください。
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
 

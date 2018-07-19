@@ -53,7 +53,7 @@ Lync Server 2013 をインストールすると、(グローバル スコープ�
 
 ポリシーの割り当てが完了すると、Lync Server は統合連絡先ストアへのユーザーの連絡先の移行を開始します。移行後は、ユーザーの連絡先が Lync Server ではなく Exchange に格納されます。移行の完了時にユーザーが Lync 2013 にログオンしている場合は、メッセージ ボックスが表示され、プロセスを完了するために Lync からログオフして再度ログオンするように求められます。ユーザーごとのポリシーを割り当てられないユーザーの連絡先は、統合連絡先ストアに移行されません。そのようなユーザーはグローバル ポリシーで管理され、グローバル ポリシーでは統合連絡先ストアの使用が無効になっているためです。
 
-ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには、Lync Server 管理シェルから [Test-CsUnifiedContactStore](test-csunifiedcontactstore.md) コマンドレットを実行します。
+ユーザーの連絡先が統合連絡先ストアに正常に移行されたことを確認するには、Lync Server 管理シェルから [Test-CsUnifiedContactStore](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUnifiedContactStore) コマンドレットを実行します。
 
     Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 

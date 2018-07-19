@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2015-06-22_
 
-Skype for Business Online の管理に使用する Windows PowerShell コマンドレットの多くでは、管理しようとする項目に対して固有の情報を指定する必要があります。たとえば、[Set-CsUserAcp](set-csuseracp.md) コマンドレット実行する場合には、管理しようとするユーザーを指定する必要があります。このことには意味があり、どのユーザー アカウントを管理するかをコマンドレットに具体的に通知しないと、**Set-CsUserAcp** コマンドレットでは、どのユーザーの電話会議の情報を変更する必要があるかが不明になります。このような理由により、**Set-CsUserAcp** コマンドレットを実行するたびに、Identity パラメーターを含め、その後に変更するユーザー アカウントの ID を続ける必要があります。
+Skype for Business Online の管理に使用する Windows PowerShell コマンドレットの多くでは、管理しようとする項目に対して固有の情報を指定する必要があります。たとえば、[Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp) コマンドレット実行する場合には、管理しようとするユーザーを指定する必要があります。このことには意味があり、どのユーザー アカウントを管理するかをコマンドレットに具体的に通知しないと、**Set-CsUserAcp** コマンドレットでは、どのユーザーの電話会議の情報を変更する必要があるかが不明になります。このような理由により、**Set-CsUserAcp** コマンドレットを実行するたびに、Identity パラメーターを含め、その後に変更するユーザー アカウントの ID を続ける必要があります。
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 

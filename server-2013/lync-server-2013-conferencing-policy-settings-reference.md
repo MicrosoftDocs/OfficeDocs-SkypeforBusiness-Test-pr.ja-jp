@@ -19,7 +19,7 @@ _**トピックの最終更新日:** 2014-04-22_
 
 ## 開催者ポリシー設定
 
-以下の表に、会議の開催者に適用可能なすべての会議ポリシー設定の一覧を示します。会議ポリシー設定の最新の一覧については、[Set-CsClientPolicy](set-csclientpolicy.md) コマンドレットのヘルプ トピックをご覧ください。
+以下の表に、会議の開催者に適用可能なすべての会議ポリシー設定の一覧を示します。会議ポリシー設定の最新の一覧については、[Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) コマンドレットのヘルプ トピックをご覧ください。
 
 ### 開催者ポリシー設定
 

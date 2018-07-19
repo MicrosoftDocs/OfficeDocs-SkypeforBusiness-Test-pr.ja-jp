@@ -101,7 +101,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## ユーザー単位のアーカイブ ポリシーを複数のユーザーに割り当てる
 
-  - このコマンドは、ユーザー単位のアーカイブ ポリシー RedmondArchivingPolicy を、atl-cs-001.litwareinc.com というレジストラー プールに所属するアカウントを持つすべてのユーザーに割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドは、ユーザー単位のアーカイブ ポリシー RedmondArchivingPolicy を、atl-cs-001.litwareinc.com というレジストラー プールに所属するアカウントを持つすべてのユーザーに割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 

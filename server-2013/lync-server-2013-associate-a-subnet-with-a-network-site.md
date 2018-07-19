@@ -53,7 +53,7 @@ _**トピックの最終更新日:** 2014-10-20_
 
 ネットワーク サブネットの設定の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
   - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
 

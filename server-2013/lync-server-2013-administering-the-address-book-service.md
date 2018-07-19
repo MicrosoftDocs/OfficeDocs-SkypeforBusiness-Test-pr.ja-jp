@@ -272,7 +272,7 @@ Lync Server では、標準の RFC 3966/E.164 電話番号が必要です。体�
 
 
 > [!WARNING]
-> アドレス帳のフィルター処理について詳しくは、「<A href="lync-server-2013-address-book-server-cmdlets.md">アドレス帳サーバーのコマンドレット</A>」および「<A href="http://go.microsoft.com/fwlink/?linkid=330430">Lync 2013 のアドレス帳のフィルター処理 (Filter Lync 2013 address book)</A>」をご覧ください。
+> アドレス帳のフィルター処理について詳しくは、「<A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">アドレス帳サーバーのコマンドレット</A>」および「<A href="http://go.microsoft.com/fwlink/?linkid=330430">Lync 2013 のアドレス帳のフィルター処理 (Filter Lync 2013 address book)</A>」をご覧ください。
 
 
 

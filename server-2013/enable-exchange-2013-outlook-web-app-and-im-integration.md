@@ -25,7 +25,7 @@ Lync Server 2013 で Exchange 2013 の Outlook Web Access (OWA) およびイン�
     
         Get-CsSite
     
-    これで、プールを作成する siteName に対応する siteID が取得されます。詳細については、Lync Server 2013 管理シェルのドキュメントの「[Get-CsSite](get-cssite.md)」を参照してください。
+    これで、プールを作成する siteName に対応する siteID が取得されます。詳細については、Lync Server 2013 管理シェルのドキュメントの「[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)」を参照してください。
 
 3.  次のコマンドレットを実行します。
     

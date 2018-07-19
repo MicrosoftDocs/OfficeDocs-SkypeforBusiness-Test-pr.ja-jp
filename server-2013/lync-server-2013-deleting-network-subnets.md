@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 次の手順を使用して、サブネットを削除できます。ネットワーク サブネットの作成、変更、または削除は、Lync Server コントロール パネルから行えます。サブネットの作成または変更の詳細については、「[ネットワーク サブネットの作成または変更](lync-server-2013-create-or-modify-network-subnets.md)」を参照してください。
 
-通話受付管理サービス (CAC) を実装している Microsoft Lync Server 2013 の導入では、ほとんどの場合、多数のサブネットが存在するのが一般的です。このため、Lync Server 管理シェル からサブネットを構成するのが最適である場合がほとんどです。ここから、Windows PowerShell コマンドレットの **Import-CSV** と組み合わせて **New-CsNetworkSubnet** を呼び出すことができます。これらのコマンドレットを使用すると、コンマ区切り値 (.csv) ファイルからサブネット設定を読み込み、同時に複数のサブネットを作成することができます。.csv ファイルからサブネットを作成する方法の例は、「[New-CsNetworkSubnet](new-csnetworksubnet.md)」を参照してください。
+通話受付管理サービス (CAC) を実装している Microsoft Lync Server 2013 の導入では、ほとんどの場合、多数のサブネットが存在するのが一般的です。このため、Lync Server 管理シェル からサブネットを構成するのが最適である場合がほとんどです。ここから、Windows PowerShell コマンドレットの **Import-CSV** と組み合わせて **New-CsNetworkSubnet** を呼び出すことができます。これらのコマンドレットを使用すると、コンマ区切り値 (.csv) ファイルからサブネット設定を読み込み、同時に複数のサブネットを作成することができます。.csv ファイルからサブネットを作成する方法の例は、「[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
 ## ネットワーク サブネットを削除するには
 
