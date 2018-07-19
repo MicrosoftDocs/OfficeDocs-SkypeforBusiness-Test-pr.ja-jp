@@ -4833,9 +4833,9 @@
       - name: Lync Server 2013 でのドメインの準備によって加えられる変更
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Lync Server 2013 での Grant-CsSetupPermission によって行われる変更
-        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsSetupPermission
+        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
       - name: Lync Server 2013 での Grant-CsOUPermission によって行われる変更
-        href: lync-server-2013-changes-made-by-https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsOUPermission
+        href: lync-server-2013-changes-made-by-grant-csoupermission.md
   - name: Lync Server 2013 管理シェル
     href: https://docs.microsoft.com/en-us/powershell/module/skype/
   - name: 用語集
