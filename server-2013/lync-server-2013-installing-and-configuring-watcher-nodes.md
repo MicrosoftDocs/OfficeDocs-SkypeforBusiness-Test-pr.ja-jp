@@ -146,7 +146,7 @@ System Center Operations Manager を使用するために監視ノードをイ�
 </thead>
 <tbody>
 <tr class="odd">
-<td>管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。さまざまな Test-Cs コマンドレットについて詳しくは、「<a href="lync-server-2013-cmdlets-index.md">Lync Server 2013 のコマンドレットのインデックス</a>」をご覧ください。</td>
+<td>管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。さまざまな Test-Cs コマンドレットについて詳しくは、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Lync Server 2013 のコマンドレットのインデックス</a>」をご覧ください。</td>
 </tr>
 </tbody>
 </table>

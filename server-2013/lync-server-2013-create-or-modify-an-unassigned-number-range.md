@@ -143,6 +143,6 @@ _**トピックの最終更新日:** 2012-11-01_
 #### その他のリソース
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
-[Set-CsUnassignedNumber](set-csunassignednumber.md)  
+[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
 [Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

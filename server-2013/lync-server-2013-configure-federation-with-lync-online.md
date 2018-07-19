@@ -57,7 +57,7 @@ Skype for Business Online とのリモート PowerShell セッションを確立
 
 Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「 [Windows PowerShell を使用した Lync Online への接続](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
-Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「 [Windows PowerShell による Lync Online の管理](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)」をご覧ください。
+Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「 [Windows PowerShell による Lync Online の管理](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
 ## 関連項目
 

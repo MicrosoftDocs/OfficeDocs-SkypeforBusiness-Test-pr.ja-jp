@@ -59,7 +59,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### 概念
 
-[通話受付管理のコマンドレット](lync-server-2013-call-admission-control-cmdlets.md)  
+[通話受付管理のコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/)  
 
 #### その他のリソース
 
