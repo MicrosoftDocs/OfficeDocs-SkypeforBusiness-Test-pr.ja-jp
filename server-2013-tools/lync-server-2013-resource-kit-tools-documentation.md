@@ -452,6 +452,7 @@ CPS ツールを使用すると、CPS データベースへのコマンドライ
 
 CPS が実行されている同じコンピューターで実行する場合、このツールの使用に必要な条件はありません。このツールをリモート コンピューターで実行する場合、Lync Server 2013 で使用される SQL Server データベースのリモート アクセスを有効にする必要があります。Call Parkometer をプールの SQL Server に接続するには、SQL Server データベース接続文字列を使用して構成する必要があります。この SQL Server データベース接続文字列は、構成ファイル **parkometer.exe.config** で定義されます。この構成ファイルは、parkometer.exe と同じディレクトリに配置する必要があります。次の XML ファイルは、parkometer.exe.config の例を示します。構成する必要があるパラメーターは、ユーザー名 (例: mydomain\\Administrator)、パスワード (例: mypassword)、ホスト名 (例: myserver) です。
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -462,6 +463,7 @@ CPS が実行されている同じコンピューターで実行する場合、�
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## 例
 
