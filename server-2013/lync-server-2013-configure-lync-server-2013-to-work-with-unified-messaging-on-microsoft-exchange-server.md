@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398193(v=OCS.15)
 ms:contentKeyID: 48271293
 ms.date: 12/10/2016
 mtps_version: v=OCS.15
-ms.translationtype: HT 
+ms.translationtype: HT
 ---
 
 # Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
@@ -53,7 +53,7 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 
 <div>
 
-> [!重要:]
+> [!IMPORTANT]
 > Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [簡易名] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。
 
 
