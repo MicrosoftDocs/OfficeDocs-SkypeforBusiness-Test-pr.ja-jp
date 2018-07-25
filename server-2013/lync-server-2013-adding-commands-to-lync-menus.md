@@ -72,19 +72,9 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
 <td><p>0 = 実行可能 (既定値)</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ApplicationInstallPath が必要。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> ApplicationInstallPath が必要。
 
 </div>
 <p>1 = プロトコル</p></td>
@@ -93,19 +83,9 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\15.0\\Lync\\CustomCommands
 <td><p>ApplicationInstallPath</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>実行可能ファイルの完全なパス。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ApplicationType が 0 (実行可能) の場合は指定が必要。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> ApplicationType が 0 (実行可能) の場合は指定が必要。
 
 </div></td>
 </tr>

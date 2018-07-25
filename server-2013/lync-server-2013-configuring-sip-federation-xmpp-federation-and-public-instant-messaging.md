@@ -17,18 +17,9 @@ _**トピックの最終更新日:** 2015-03-09_
 
 フェデレーション、パブリック インスタント メッセージング接続、および XMPP (Extensible Messaging and Presence Protocol) は、別の外部ユーザー クラス、すなわちフェデレーション ユーザーを定義します。 Lync Server のフェデレーション展開、または XMPP のフェデレーション展開のユーザーは、サービスのうち限られた一部にアクセスでき、外部展開によって認証されます。リモート ユーザーは、 Lync Server 展開のメンバーであり、展開によって提供されるすべてのサービスにアクセスできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>AOL と Yahoo! のサービス終了日は 2014 年 6 月と発表されています。詳しくは、「 <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート</a>」をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> AOL と Yahoo! のサービス終了日は 2014 年 6 月と発表されています。詳しくは、「 <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート</a>」をご覧ください。
 
 
 パブリック インスタント メッセージング接続は、フェデレーションの特殊な種類で、Lync Server クライアントが Lync 2013 を使用して、構成されたパブリック インスタント メッセージング パートナーにアクセスできます。現時点のパブリック インスタント メッセージング接続パートナーは次のとおりです。
@@ -90,19 +81,9 @@ XMPP フェデレーションは、XMPP (eXtensible Messaging and Presence Proto
 <td><p>既存のエッジ展開に追加するオプションを決める</p></td>
 <td><p>トポロジ ビルダーを実行して、エッジ サーバーの設定を編集し、トポロジを公開します。既存のエッジ トポロジは、 中央管理ストアからエッジ サーバーに変更内容を複製します。</p></td>
 <td><p>Domain Admins グループおよび RTCUniversalServerAdmins グループ。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ローカル ユーザー グループのメンバーであるアカウントを使用してトポロジを編集できますが、トポロジを公開するには Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーであるアカウントが必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> ローカル ユーザー グループのメンバーであるアカウントを使用してトポロジを編集できますが、トポロジを公開するには Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーであるアカウントが必要です。
 
 </div></td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Lync Server 2013 でのエッジおよびディレクターのトポロジの作成</a></p></td>

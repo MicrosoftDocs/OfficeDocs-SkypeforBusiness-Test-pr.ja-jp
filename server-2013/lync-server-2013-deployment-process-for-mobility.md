@@ -95,20 +95,10 @@ _**トピックの最終更新日:** 2015-03-09_
 <li><p>Wi-Fi ネットワーク経由のプッシュ通知をサポートする場合は、TCP ポート 5223 の発信ファイアウォール ルールを構成します。</p></li>
 <li><p><strong>Set-CsPushNotificationConfiguration</strong> コマンドレットを使用して、Apple Push Notification Service (APNS) および Microsoft Push Notification Service (MPNS) へのプッシュ通知を有効にします。この機能は、既定で無効にされています。</p></li>
 <li><p><strong>Test-CsFederatedPartner</strong> コマンドレットを使用してフェデレーション構成をテストし、<strong>Test-CsMCXPushNotification</strong> コマンドレットを使用してプッシュ通知をテストします。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>プッシュ通知は、Apple デバイスおよび Windows Phone の Lync 2010 Mobile クライアントで使用されます。<br />
-プッシュ通知は、Windows Phone の Lync 2013 モバイル クライアントでのみ必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> プッシュ通知は、Apple デバイスおよび Windows Phone の Lync 2010 Mobile クライアントで使用されます。<br />
+プッシュ通知は、Windows Phone の Lync 2013 モバイル クライアントでのみ必要です。
 
 </div></li>
 </ul></td>

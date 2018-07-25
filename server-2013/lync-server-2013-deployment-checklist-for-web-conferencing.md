@@ -45,19 +45,9 @@ Web 会議は、最初のトポロジを展開するのと同時に展開する�
 <tr class="odd">
 <td><p><strong>必要なハードウェアとソフトウェアのインストール</strong></p></td>
 <td><p>Web 会議は、フロント エンド プールと Standard Edition サーバーのフロント エンド サーバーで実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションの共有とレンダリングを処理します。Office Web Apps サーバー のインストールと構成については、「<a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Lync Server 2013 と Office Web Apps サーバーの統合の構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションの共有とレンダリングを処理します。Office Web Apps サーバー のインストールと構成については、「<a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Lync Server 2013 と Office Web Apps サーバーの統合の構成</a>」を参照してください。
 
 </div></td>
 <td><p>ローカルの Administrators グループのメンバーであるドメイン ユーザー</p></td>

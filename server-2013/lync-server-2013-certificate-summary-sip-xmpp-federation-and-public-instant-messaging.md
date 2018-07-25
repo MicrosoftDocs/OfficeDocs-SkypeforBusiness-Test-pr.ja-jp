@@ -47,51 +47,21 @@ Extensible Messaging and Presence Protocol (XMPP) パートナーとの通信を
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>contoso.com XMPP 名前空間をサポートするため</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> contoso.com XMPP 名前空間をサポートするため
 
 </div>
 <p>sip.fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>fabrikam.com SIP 名前空間をサポートするため</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> fabrikam.com SIP 名前空間をサポートするため
 
 </div>
 <p>fabrikam.com</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>fabrikam.com XMPP 名前空間をサポートするため</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> fabrikam.com XMPP 名前空間をサポートするため
 
 </div></td>
 <td><p>証明書は公的 CA のものである必要があります。また、AOL とのパブリック IM 接続を展開する場合は、サーバー EKU およびクライアント EKU が必要です。証明書は、次のエッジの外部 エッジ サーバー インターフェイスに割り当てられます。</p>
@@ -100,19 +70,9 @@ Extensible Messaging and Presence Protocol (XMPP) パートナーとの通信を
 <li><p>Web 会議エッジ サービス</p></li>
 <li><p>音声ビデオ エッジ サービス</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>技術的に、証明書は A/V エッジには割り当てられません。セキュリティで保護された通信と認証は、メディア リレー認証サービス (MRAS) によって管理されます。MRAS はエッジ サーバーの内部インターフェイスに割り当てられた証明書を使用します。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 技術的に、証明書は A/V エッジには割り当てられません。セキュリティで保護された通信と認証は、メディア リレー認証サービス (MRAS) によって管理されます。MRAS はエッジ サーバーの内部インターフェイスに割り当てられた証明書を使用します。
 
 </div>
 <p>SAN は、トポロジ ビルダーの定義に基づいて自動的に証明書に追加されます。追加の SIP ドメインで必要な SAN エントリや、サポートする必要がある他のエントリを追加します。SAN にはサブジェクト名がレプリケートされるため、正常に動作するためにはサブジェクト名が存在している必要があります。</p></td>

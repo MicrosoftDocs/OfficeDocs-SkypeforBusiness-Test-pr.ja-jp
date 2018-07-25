@@ -80,19 +80,9 @@ Lync Server 2013 と Hosted Exchange ユニファイド メッセージング (U
 <li><p>Hosted Exchange UM のサブスクライバー アクセス連絡先オブジェクトを作成します。</p></li>
 </ol></td>
 <td><p>RTCUniversal-UserAdmins</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>連絡先オブジェクトを作成、変更、または削除する場合、コマンドレット New-CsExUmContact、Set-CsExUmContact、または Remove-CsExUmContact を実行するユーザーには、新たな連絡先オブジェクトが格納されている Active Directory の組織単位への適切なアクセス許可が必要です。このアクセス許可は、Grant-CsOUPermission コマンドレットを実行することで付与されます。詳細については、 Lync Server 管理シェルのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 連絡先オブジェクトを作成、変更、または削除する場合、コマンドレット New-CsExUmContact、Set-CsExUmContact、または Remove-CsExUmContact を実行するユーザーには、新たな連絡先オブジェクトが格納されている Active Directory の組織単位への適切なアクセス許可が必要です。このアクセス許可は、Grant-CsOUPermission コマンドレットを実行することで付与されます。詳細については、 Lync Server 管理シェルのドキュメントを参照してください。
 
 </div></td>
 <td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Lync Server 2013 での Hosted Exchange UM の連絡先オブジェクトの作成</a></p></td>
