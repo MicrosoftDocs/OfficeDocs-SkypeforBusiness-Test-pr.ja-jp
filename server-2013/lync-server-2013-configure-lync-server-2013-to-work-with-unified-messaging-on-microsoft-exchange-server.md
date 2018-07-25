@@ -38,8 +38,8 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 > <p>Microsoft Exchange Server 2010 の場合は、「UM ダイヤル プランの作成」(<a href="http://go.microsoft.com/fwlink/?linkid=186177%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x411</a>) を参照してください。</p>
 > <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) の場合は、「ユニファイド メッセージング SIP URI ダイヤル プランを作成する方法」(<a href="http://go.microsoft.com/fwlink/?linkid=185771%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x411</a>) を参照してください。</p></li>
 > <li><p>「<a href="lync-server-2013-create-a-dial-plan.md">Lync Server 2013 でのダイヤル プランの作成</a>」の説明のとおりに、1 つ以上の対応する Lync Server ダイヤル プランを作成します。</p>
-	> [!IMPORTANT]
-	> Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [<STRONG>簡易名</STRONG>] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。</li>
+    > [!IMPORTANT]
+    > Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [<STRONG>簡易名</STRONG>] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。</li>
 > <li><p>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。</p></li></ul>
 
 
@@ -56,7 +56,7 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 5.  \[**連絡先**\] ボックスで、既定の組織単位をそのまま使用するか、または \[**参照**\] をクリックして \[**OU の選択**\] を開始します。 \[**OU の選択**\] ボックスで、OU を選択して \[**OK**\] をクリックするか、または \[**新しい OU の作成**\] をクリックしてルートまたはドメイン内のその他の OU の下に新しい組織単位を作成し、\[**OK**\] をクリックします (たとえば、"OU=RTC Special Accounts,DC=fourthcoffee,DC=com")。
     
     > [!note]  
-	> 選択または作成した OU の識別名 (DN) が [<strong>組織単位</strong>] ボックスに表示されます。
+    > 選択または作成した OU の識別名 (DN) が [<strong>組織単位</strong>] ボックスに表示されます。
 	
 
 6.  既定のダイヤル プラン名をそのまま使用するか、作成する連絡先オブジェクトの新しい表示名を \[**名前**\] ボックスに入力します。
