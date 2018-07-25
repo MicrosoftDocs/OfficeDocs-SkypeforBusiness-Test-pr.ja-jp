@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398193(v=OCS.15)
 ms:contentKeyID: 48271293
 ms.date: 12/10/2016
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.translationtype: HT 
 ---
 
 # Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
