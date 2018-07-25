@@ -42,19 +42,9 @@ Lync 2013 は、H.264/MPEG-4 Part 10 Advanced Video Coding 規格に基づくビ
 <li><p>グラフィック カードでは、DirectX 9.0 がサポートされ、DXVA2_ModeH264_VLD_NoFGT デコード モードが公開される必要があります。</p></li>
 <li><p>最新のグラフィック カード ドライバーがインストールされている必要があります。</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>デコード モードの詳細については、<a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a> を参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> デコード モードの詳細については、<a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a> を参照してください。
 
 </div></td>
 </tr>
@@ -98,19 +88,9 @@ Lync 2013 は、H.264/MPEG-4 Part 10 Advanced Video Coding 規格に基づくビ
 <li><p>グラフィック カードでは、DirectX 9.0 がサポートされ、DXVA2_ModeH264_VLD_NoFGT デコード モードが公開される必要があります。</p></li>
 <li><p>最新のグラフィック カード ドライバーがインストールされている必要があります。</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>デコード モードの詳細については、<a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a> を参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> デコード モードの詳細については、<a href="http://go.microsoft.com/fwlink/p/?linkid=268530">http://go.microsoft.com/fwlink/p/?LinkId=268530</a> を参照してください。
 
 </div></td>
 </tr>
@@ -132,19 +112,9 @@ Lync 2013 は、H.264/MPEG-4 Part 10 Advanced Video Coding 規格に基づくビ
 <tr class="even">
 <td><p>ハードウェア アクセラレータ H.264 エンコード: カメラ要件</p></td>
 <td><p>USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 は、Windows 8 または Windows 8.1 で UVC 1.5 のサポートを含む UVC 1.5 カメラをサポートします。Windows 7 には UVC 1.5 のサポートが含まれないため、Lync 2013 は UVC 1.5 カメラをハードウェア エンコード サポートのない通常のカメラとして扱います。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync 2013 は、Windows 8 または Windows 8.1 で UVC 1.5 のサポートを含む UVC 1.5 カメラをサポートします。Windows 7 には UVC 1.5 のサポートが含まれないため、Lync 2013 は UVC 1.5 カメラをハードウェア エンコード サポートのない通常のカメラとして扱います。
 
 </div></td>
 </tr>
@@ -332,18 +302,9 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows 7 での WinSAT スコアは最大 7.9 に制限されます。したがって、ハードウェア アクセラレータ エンコーダーのないコンピューターのエンコード能力は、Windows 8 または Windows 8.1 でのみ実現でき、その場合の最大 WinSAT スコアは 9.9 です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Windows 7 での WinSAT スコアは最大 7.9 に制限されます。したがって、ハードウェア アクセラレータ エンコーダーのないコンピューターのエンコード能力は、Windows 8 または Windows 8.1 でのみ実現でき、その場合の最大 WinSAT スコアは 9.9 です。
 
 
 ### DXVA と Intel HD グラフィック ハードウェア アクセラレータ エンコーダーがあるコンピューター

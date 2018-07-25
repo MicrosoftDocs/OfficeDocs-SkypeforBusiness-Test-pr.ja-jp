@@ -38,19 +38,9 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p>オービット テーブルでコール パーク オービット範囲を構成する</p></td>
 <td><p>Lync Server コントロール パネルまたは <strong>New-CSCallParkOrbit</strong> コマンドレットを使用して、コール パーク オービット テーブルでオービット範囲を作成し、コール パーク アプリケーションをホストする アプリケーション サービスと関連付けます。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既存のダイヤル プランとシームレスに統合するため、オービット範囲、は通常仮想の内線番号の禁止として構成されます。 コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 既存のダイヤル プランとシームレスに統合するため、オービット範囲、は通常仮想の内線番号の禁止として構成されます。 コール パーク オービット テーブルでオービット番号として Direct Inward Dialing (DID) 番号を指定することは、サポートされていません。
 
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>
@@ -85,34 +75,13 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="even">
 <td><p>音声ポリシーを構成し、ユーザーに対して コール パークを有効化する</p></td>
 <td><p>Lync Server コントロール パネルまたは <strong>Set-CSVoicePolicy</strong> コマンドレットと <strong>EnableCallPark</strong> オプションを使用して、音声ポリシーのユーザーに対して コール パークを有効化します。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既定では、コール パークはすべてのユーザーに対して無効になっています。</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>複数の音声ポリシーが存在する場合、EnableCallPark プロパティが、既定のポリシーに対してだけでなく、それぞれの音声ポリシーに設定されているのを確認してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 既定では、コール パークはすべてのユーザーに対して無効になっています。
+
+
+> [!NOTE]
+> 複数の音声ポリシーが存在する場合、EnableCallPark プロパティが、既定のポリシーに対してだけでなく、それぞれの音声ポリシーに設定されているのを確認してください。
 
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>

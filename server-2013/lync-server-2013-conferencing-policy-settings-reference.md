@@ -103,18 +103,10 @@ _**トピックの最終更新日:** 2014-04-22_
 <td><p>フェデレーション参加者と匿名参加者にコントロールを許可する</p></td>
 <td><p>外部および匿名の参加者に別のユーザーの共有アプリケーションのコントロールを許可します。</p>
 <div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この設定を True にし、[<strong>参加者にコントロールを許可する</strong>] を False に設定する場合、この設定は無視されます。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> この設定を True にし、[<strong>参加者にコントロールを許可する</strong>] を False に設定する場合、この設定は無視されます。</td>
+
 
 </div></td>
 </tr>

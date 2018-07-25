@@ -60,19 +60,9 @@ _**トピックの最終更新日:** 2015-03-09_
 <li><p>Microsoft Exchange 統合を使用するには (一部またはすべてのユーザーのストレージのアーカイブに Exchange 2013 を使用する場合)、 Exchange 2013 の既存の展開が必要です。</p></li>
 <li><p>一部またはすべてのユーザーのストレージをアーカイブするために別のアーカイブ データベースを使用するには (SQL Server データベースを使用する場合)、アーカイブ データを格納するサーバーに SQL Server が必要です。</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>アーカイブは、エンタープライズ プールのフロントエンド サーバーと Standard Edition サーバー上で実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> アーカイブは、エンタープライズ プールのフロントエンド サーバーと Standard Edition サーバー上で実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。
 
 </div></td>
 <td><p>ローカルの Administrators グループのメンバーであるドメイン ユーザー。</p></td>

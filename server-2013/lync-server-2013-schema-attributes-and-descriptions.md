@@ -315,19 +315,9 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p>msRTCSIP-EnableBestEffortNotify (廃止)</p></td>
 <td><p>クライアントから SUBSCRIBE 要求を受けた場合に、サーバーで NOTIFY 要求の代わりに BENOTIFY (Best Effort NOTIFY) 要求を生成するかどうかを制御する属性です。BENOTIFY は、サブスクライブ通知のハンドシェイクのパフォーマンスを強化する拡張機能で、サーバーで標準の NOTIFY 要求の代わりに BENOTIFY 要求が生成されます。BENOTIFY 要求は、NOTIFY 要求のようにクライアントからの 200 OK 応答を必要としないので、パフォーマンス上のメリットがあります。</p>
 <p>有効な値は、<strong>TRUE</strong> または <strong>FALSE</strong> です。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Live Communications Server 2003 では BENOTIFY 要求はサポートされていません。Live Communications Server 2003 のサーバー API で作成され、Live Communications Server 2005 やサードパーティのサーバーで実行されるサーバー アプリケーションとの相互運用性を確保するには、この属性の値を <strong>FALSE</strong> に設定して BENOTIFY 要求を無効にします。現時点では、BENOTIFY は IETF (インターネット技術標準化委員会) の SIP の標準化プロセスに含まれていません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Live Communications Server 2003 では BENOTIFY 要求はサポートされていません。Live Communications Server 2003 のサーバー API で作成され、Live Communications Server 2005 やサードパーティのサーバーで実行されるサーバー アプリケーションとの相互運用性を確保するには、この属性の値を <strong>FALSE</strong> に設定して BENOTIFY 要求を無効にします。現時点では、BENOTIFY は IETF (インターネット技術標準化委員会) の SIP の標準化プロセスに含まれていません。
 
 </div></td>
 <td><p>Live Communications Server 2005 で導入。</p>
