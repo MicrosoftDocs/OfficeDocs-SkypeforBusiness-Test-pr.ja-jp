@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Lync Server 2013: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成'
 TOCTitle: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
@@ -31,16 +31,40 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 
   - エンタープライズ VoIP の各ダイヤル プランが、対応するユニファイド メッセージング (UM) ダイヤル プランの電話コンテキストと一致するかどうかを検証します。この一致が必要なのは、Exchange 2010 Service Pack 1 (SP1) より前のバージョンの Exchange で UM ダイヤル プランを実行している場合のみです。
 
-> [!IMPORTANT]  
-> Exchange UM 統合ユーティリティを実行する前に、以下の作業を確実に実行します。
-> <ul>
-> <li><p>Exchange の製品ドキュメントの説明のとおりに、1 つ以上の Exchange UM ダイヤル プランを作成します。</p>
-> <p>Microsoft Exchange Server 2010 の場合は、「UM ダイヤル プランの作成」(<a href="http://go.microsoft.com/fwlink/?linkid=186177%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x411</a>) を参照してください。</p>
-> <p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) の場合は、「ユニファイド メッセージング SIP URI ダイヤル プランを作成する方法」(<a href="http://go.microsoft.com/fwlink/?linkid=185771%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x411</a>) を参照してください。</p></li>
-> <li><p>「<a href="lync-server-2013-create-a-dial-plan.md">Lync Server 2013 でのダイヤル プランの作成</a>」の説明のとおりに、1 つ以上の対応する Lync Server ダイヤル プランを作成します。</p>
-   > [!IMPORTANT]
-   > Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [<STRONG>簡易名</STRONG>] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。</li>
-> <li><p>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。</p></li></ul>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/JJ204887.important(OCS.15).gif" title="important" alt="important" />重要:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exchange UM 統合ユーティリティを実行する前に、以下の作業を確実に実行します。
+<ul>
+<li><p>Exchange の製品ドキュメントの説明のとおりに、1 つ以上の Exchange UM ダイヤル プランを作成します。
+
+</p>
+<p>Microsoft Exchange Server 2010 の場合は、「UM ダイヤル プランの作成」(<a href="http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x411  ">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0x411  </a>) を参照してください。</p>
+<p>Microsoft Exchange Server 2007 Service Pack 1 (SP1) の場合は、「ユニファイド メッセージング SIP URI ダイヤル プランを作成する方法」(<a href="http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x411  ">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0x411  </a>) を参照してください。</p>
+<li><p>「<a href="https://technet.microsoft.com/ja-jp/library/gg398909(v=ocs.15)">Lync Server 2013 でのダイヤル プランの作成</a>」の説明のとおりに、1 つ以上の対応する Lync Server ダイヤル プランを作成します。</p>
+
+<div>
+
+> [!重要:]
+> Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [簡易名] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。
+
+
+
+</div></li></li></li>
+<li><p>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。
+</p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 
 ## Exchange UM 統合ユーティリティを実行するには
