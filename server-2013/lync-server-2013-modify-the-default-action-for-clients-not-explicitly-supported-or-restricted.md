@@ -47,7 +47,7 @@ Lync Server 2013 環境でサポートするクライアントのバージョン
 
 ## Lync Server PowerShell コマンドレットを使用した既定のアクションの変更
 
-クライアント バージョン ポリシーによって明示的にサポートまたは制限されていないクライアントを使用してユーザーがサインオンしようとしたときに実行される既定のアクションは、Windows PowerShell コマンドライン インターフェイスと **set-csclientversionpolicy** コマンドレットを使用して管理することもできます。このコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+クライアント バージョン ポリシーによって明示的にサポートまたは制限されていないクライアントを使用してユーザーがサインオンしようとしたときに実行される既定のアクションは、Windows PowerShell コマンドライン インターフェイスと **Set-CsClientVersionPolicy** コマンドレットを使用して管理することもできます。このコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
 
 ## アクセスを禁止するように既定のアクションを構成する
 
@@ -61,7 +61,7 @@ Lync Server 2013 環境でサポートするクライアントのバージョン
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-詳細については、[set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

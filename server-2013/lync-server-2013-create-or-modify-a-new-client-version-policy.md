@@ -49,7 +49,7 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ## Windows PowerShell コマンドレットを使用してクライアント バージョン ポリシーを作成または変更する
 
-クライアント バージョン ポリシーを作成するには、**New-CsClientVersionPolicy** コマンドレットを使用します。変更するには、**set-csclientversionpolicy** コマンドレットを使用します。これらのコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
+クライアント バージョン ポリシーを作成するには、**New-CsClientVersionPolicy** コマンドレットを使用します。変更するには、**Set-CsClientVersionPolicy** コマンドレットを使用します。これらのコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
 
 ## 新しいサイト スコープのクライアント バージョン ポリシーを作成するには
 
@@ -63,5 +63,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-詳細については、[New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) コマンドレットおよび [set-csclientversionpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) コマンドレットおよび [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
 
