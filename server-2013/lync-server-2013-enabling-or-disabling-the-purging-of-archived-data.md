@@ -72,7 +72,7 @@ Windows PowerShell および **Set-CsArchivingConfiguration** コマンドレッ
 
 ## エクスポートされたアーカイブ データのみの削除の有効化
 
-  - ([Export-CsArchivingData](export-csarchivingdata.md) コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ レコードのみを削除するには、PurgeExportedArchivesOnly プロパティも True ($True) に設定する必要があります。次に例を示します。
+  - ([Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ レコードのみを削除するには、PurgeExportedArchivesOnly プロパティも True ($True) に設定する必要があります。次に例を示します。
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +84,7 @@ Windows PowerShell および **Set-CsArchivingConfiguration** コマンドレッ
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-アーカイブ データを削除する場合の追加のオプションを含む詳細については、[Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+アーカイブ データを削除する場合の追加のオプションを含む詳細については、[Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

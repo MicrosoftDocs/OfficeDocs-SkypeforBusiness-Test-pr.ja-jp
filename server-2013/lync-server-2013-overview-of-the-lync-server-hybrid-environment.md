@@ -39,5 +39,5 @@ Lync Server 2013 ハイブリッド環境とは、社内の Lync Server 2013 に
 
 ## Lync Online PowerShell への接続
 
-管理者は、Windows PowerShell を使用して、Lync Online および Lync Online ユーザー アカウントを管理できるようになりました。そのためには、最初に Lync Online Connector モジュールを Microsoft ダウンロード センター (http://go.microsoft.com/fwlink/?LinkId=294688) からダウンロードしてインストールする必要があります。 Lync Online Connector モジュールのダウンロード、インストール、および使用方法の詳細について、および Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「[Windows PowerShell による Lync Online の管理](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)」を参照してください。
+管理者は、Windows PowerShell を使用して、Lync Online および Lync Online ユーザー アカウントを管理できるようになりました。そのためには、最初に Lync Online Connector モジュールを Microsoft ダウンロード センター (http://go.microsoft.com/fwlink/?LinkId=294688) からダウンロードしてインストールする必要があります。 Lync Online Connector モジュールのダウンロード、インストール、および使用方法の詳細について、および Windows PowerShell を使用して Lync Online を管理する方法の詳細については、「[Windows PowerShell による Lync Online の管理](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」を参照してください。
 

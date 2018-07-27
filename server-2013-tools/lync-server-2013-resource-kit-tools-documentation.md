@@ -237,7 +237,7 @@ Bandwidth Utilization Analyzer には、次の 2 つのアプリケーション 
 
   - **WanLinkLogCollector.exe**   このツールを使用して、ユーザーは必要な情報を入力できます。
 
-  - **BandwidthUtilizationAnalyzer.xlsm **  Microsoft Excel スプレッドシート ソフトウェアのレポートが WanLinkLogCollector.exe によって自動的に起動します。このアプリケーションでは、レポートにフィルターを適用できます (この記事の後半で説明します)。
+  - **BandwidthUtilizationAnalyzer.xlsm**  Microsoft Excel スプレッドシート ソフトウェアのレポートが WanLinkLogCollector.exe によって自動的に起動します。このアプリケーションでは、レポートにフィルターを適用できます (この記事の後半で説明します)。
 
 ## Bandwidth Utilization Analyzer の使用フェーズ
 
@@ -452,6 +452,7 @@ CPS ツールを使用すると、CPS データベースへのコマンドライ
 
 CPS が実行されている同じコンピューターで実行する場合、このツールの使用に必要な条件はありません。このツールをリモート コンピューターで実行する場合、Lync Server 2013 で使用される SQL Server データベースのリモート アクセスを有効にする必要があります。Call Parkometer をプールの SQL Server に接続するには、SQL Server データベース接続文字列を使用して構成する必要があります。この SQL Server データベース接続文字列は、構成ファイル **parkometer.exe.config** で定義されます。この構成ファイルは、parkometer.exe と同じディレクトリに配置する必要があります。次の XML ファイルは、parkometer.exe.config の例を示します。構成する必要があるパラメーターは、ユーザー名 (例: mydomain\\Administrator)、パスワード (例: mypassword)、ホスト名 (例: myserver) です。
 
+```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <configuration>
       <appSettings>
@@ -462,6 +463,7 @@ CPS が実行されている同じコンピューターで実行する場合、�
     Integrated Security=false;"/>
       </appSettings>
     </configuration>
+```
 
 ## 例
 
@@ -1063,7 +1065,7 @@ Response Group Agent Live では、エージェントは次の主な 3 つの機
 
   - **グループのメンバーシップ:** エージェント グループを選択すると、Response Group Agent Live ではこのグループ内のエージェントのリストが右側のウィンドウに表示されます。Lync 2013 がこのアプリケーションと同じコンピューター上で実行中の場合、プレゼンス情報と連絡先カードが Response Group Agent Live に表示されます。エージェントはそこから直接他のエージェントに IM を送信したり電話をかけたりできます。
 
-  - **リアルタイム統計情報:**Response Group Agent Live ではすべてのエージェント グループのリアルタイム統計情報を使用できます。更新間隔は 1 分です。応答グループが通話に応答すると、グループ名の横に視覚的なインジケーターが追加され、キュー内の現在の通話数が表示されます。グループにマウスを合わせると、最長の待機時間も表示されます。
+  - **リアルタイム統計情報:** Response Group Agent Live ではすべてのエージェント グループのリアルタイム統計情報を使用できます。更新間隔は 1 分です。応答グループが通話に応答すると、グループ名の横に視覚的なインジケーターが追加され、キュー内の現在の通話数が表示されます。グループにマウスを合わせると、最長の待機時間も表示されます。
 
 ## 要件
 
@@ -1787,4 +1789,3 @@ Web Conf Data ツールを使用すると、Lync Server 2013 通信ソフトウ�
 ## 要約
 
 このツールは、会議データをより正確に管理する必要のある管理者にとって役立つツールとなります。
-

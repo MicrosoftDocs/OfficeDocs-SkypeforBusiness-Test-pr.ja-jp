@@ -180,7 +180,7 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
     
 
     > [!TIP]
-    > トポロジ ビルダーを実行するのではなく、<STRONG>Install-CsDatabase</STRONG> コマンドレットを使用して、各データベースを作成できます。また、<STRONG>Install-CsMirrorDatabase</STRONG> コマンドを使用して、ミラーリングを構成できます。詳細については、「<A href="install-csdatabase.md">Install-CsDatabase</A>」および「<A href="install-csmirrordatabase.md">Install-CsMirrorDatabase</A>」を参照してください。
+    > トポロジ ビルダーを実行するのではなく、<STRONG>Install-CsDatabase</STRONG> コマンドレットを使用して、各データベースを作成できます。また、<STRONG>Install-CsMirrorDatabase</STRONG> コマンドを使用して、ミラーリングを構成できます。詳細については、「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A>」および「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>」を参照してください。
 
 
 

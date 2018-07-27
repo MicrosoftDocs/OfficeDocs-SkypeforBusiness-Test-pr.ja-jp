@@ -19,7 +19,7 @@ _**トピックの最終更新日:** 2015-06-22_
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-ただし、これらのコマンドレットを実行するたびにテナント ID (bf19b7db-6960-41e5-a139-2aa373474354 など) を入力する必要はありません。代わりに、[Get-CsTenant](get-cstenant.md) コマンドレットを実行してテナント ID を変数に保存し、他のコマンドレットの 1 つを呼び出す際にこの変数を使用すると、テナント ID を取得できます。次に例を示します。
+ただし、これらのコマンドレットを実行するたびにテナント ID (bf19b7db-6960-41e5-a139-2aa373474354 など) を入力する必要はありません。代わりに、[Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant) コマンドレットを実行してテナント ID を変数に保存し、他のコマンドレットの 1 つを呼び出す際にこの変数を使用すると、テナント ID を取得できます。次に例を示します。
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
@@ -34,17 +34,17 @@ _**トピックの最終更新日:** 2015-06-22_
 
 次のコマンドレットではテナント ID を使用できます。ただしこの場合、パラメーターはオプションで、コマンドレットを呼び出す際に入力する必要はありません。Windows PowerShell では代わりに、現在接続している Skype for Business Online テナントに基づいてテナント ID が効率的に入力されます。
 
-  - [Get-CsTenant](get-cstenant.md)
+  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
 
-  - [Set-CsTenantFederationConfiguration](set-cstenantfederationconfiguration.md)
+  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
 
-  - [Set-CsTenantHybridConfiguration](set-cstenanthybridconfiguration.md)
+  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
 たとえば、次のコマンドを使用して **Get-CsTenantFederationConfiguration** コマンドレットを呼び出すことができます。
 
@@ -59,5 +59,5 @@ Get-CsTenantFederationConfiguration を呼び出す際には、必須ではあ�
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

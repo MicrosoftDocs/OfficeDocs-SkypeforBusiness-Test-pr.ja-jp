@@ -23,7 +23,7 @@ Microsoft Lync Server 2013  通信ソフトウェアでは、アクセスおよ
 
   - 証明書をエッジ プールで使用する場合は、エッジ プール内の各エッジ サーバーで使用される同じ証明書を使用して、エクスポート可能として作成する必要があります。エクスポート可能な秘密キーの要件は音声ビデオ認証サービスのためのもので、プール内のすべてのエッジ サーバーで同じ秘密キーを使用する必要があります。
 
-  - 音声ビデオ サービスの稼働時間を最大化する場合は、切り離された 音声ビデオ エッジ サービス 証明書 (つまり、他の外部エッジ証明書とは個別の 音声ビデオ エッジ サービス 証明書) を実装するための証明書要件を確認してください。詳細については、「[エッジ サーバーの計画に影響する Lync Server 2013 での変更点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Lync Server 2013 でエッジ サーバー証明書を計画する](lync-server-2013-plan-for-edge-server-certificates.md)」および「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)」を参照してください。
+  - 音声ビデオ サービスの稼働時間を最大化する場合は、切り離された 音声ビデオ エッジ サービス 証明書 (つまり、他の外部エッジ証明書とは個別の 音声ビデオ エッジ サービス 証明書) を実装するための証明書要件を確認してください。詳細については、「[エッジ サーバーの計画に影響する Lync Server 2013 での変更点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Lync Server 2013 でエッジ サーバー証明書を計画する](lync-server-2013-plan-for-edge-server-certificates.md)」および「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)」を参照してください。
 
   - 証明書のサブジェクト名は、 アクセス エッジ サービス外部インターフェイスの完全修飾ドメイン名 (FQDN) またはハードウェア ロード バランサーの VIP (たとえば、access.contoso.com) です。
     

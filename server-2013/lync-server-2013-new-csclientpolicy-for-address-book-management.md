@@ -37,5 +37,5 @@ New-CsClientPolicy コマンドレットにより、Lync Server 2013 で使用�
 
 #### その他のリソース
 
-[New-CsClientPolicy](new-csclientpolicy.md)
+[New-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy)
 

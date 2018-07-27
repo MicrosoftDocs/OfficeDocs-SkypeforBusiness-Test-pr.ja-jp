@@ -69,7 +69,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## ユーザーごとのダイヤル プランを複数のユーザーに割り当てる
 
-  - このコマンドは、ユーザーごとのダイヤル プラン RedmondDialPlan を、Redmond 市で働くすべてのユーザーに割り当てます。このコマンドで使用されている LdapFilter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドは、ユーザーごとのダイヤル プラン RedmondDialPlan を、Redmond 市で働くすべてのユーザーに割り当てます。このコマンドで使用されている LdapFilter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
 
@@ -79,7 +79,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsDialPlan](grant-csdialplan.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

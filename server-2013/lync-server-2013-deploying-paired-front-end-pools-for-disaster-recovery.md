@@ -52,12 +52,16 @@ _**トピックの最終更新日:** 2013-02-21_
 10. 次のコマンドレットを実行して、両方のプールのユーザーおよび電話会議データが相互に同期されるようにします。
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     
     データの同期には時間がかかる場合があります。 次のコマンドレットを使用して、状態を確認できます。 両方向の状態が安定状態であることを確認します。
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
 

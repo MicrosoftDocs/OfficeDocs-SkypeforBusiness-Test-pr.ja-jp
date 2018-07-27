@@ -43,6 +43,6 @@ _**トピックの最終更新日:** 2012-12-12_
 
 #### その他のリソース
 
-[Get-CsHostingProvider](get-cshostingprovider.md)  
-[Set-CsHostingProvider](set-cshostingprovider.md)
+[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
+[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
 

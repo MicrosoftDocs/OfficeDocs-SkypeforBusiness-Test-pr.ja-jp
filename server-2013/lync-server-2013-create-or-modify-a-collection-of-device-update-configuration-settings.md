@@ -52,5 +52,5 @@ _**トピックの最終更新日:** 2016-12-08_
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 
-既存のデバイス構成設定の変更の詳細については、[Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) コマンドレットのヘルプ トピックを参照してください。構成設定コレクションの作成の詳細については、[New-CsDeviceUpdateConfiguration](new-csdeviceupdateconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+既存のデバイス構成設定の変更の詳細については、[Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) コマンドレットのヘルプ トピックを参照してください。構成設定コレクションの作成の詳細については、[New-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsDeviceUpdateConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

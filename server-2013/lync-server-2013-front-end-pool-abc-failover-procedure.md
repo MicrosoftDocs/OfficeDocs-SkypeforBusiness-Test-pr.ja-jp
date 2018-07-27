@@ -33,7 +33,7 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
-    これを行った後で、復元力を強化する目的で、CMS をプール B から、別の、既存の、ペアにされたプールに移動することをお勧めします。詳細については、「[Move-CsManagementServer](move-csmanagementserver.md)」を参照してください。
+    これを行った後で、復元力を強化する目的で、CMS をプール B から、別の、既存の、ペアにされたプールに移動することをお勧めします。詳細については、「[Move-CsManagementServer](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsManagementServer)」を参照してください。
 
 3.  プール A が CMS を含む場合は、プール A からプール B の LIS データベース (Lis.mdf) に LIS 構成をインポートします。これは、これまで定期的に LIS データをバックアップしていた場合に限り、機能します。LIS 構成をインポートするには、以下のコマンドレットを実行します。
     
@@ -280,8 +280,7 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
             $users=gc c:\logs\users.txt
             foreach ($user in $users)
             {
-            Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - 
-            }
+            Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - }
         
         <table>
         <thead>

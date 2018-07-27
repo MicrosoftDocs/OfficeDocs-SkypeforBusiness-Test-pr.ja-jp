@@ -51,22 +51,22 @@ Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null</td>
 
 次のコマンドレットはユーザー ID とタグ スコープの両方を使用します。
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## 関連項目
 
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

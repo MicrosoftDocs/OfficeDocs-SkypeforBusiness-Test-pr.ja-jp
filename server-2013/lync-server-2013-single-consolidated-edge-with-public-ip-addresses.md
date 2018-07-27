@@ -17,14 +17,11 @@ _**トピックの最終更新日:** 2016-12-08_
 
 組織がサポートを必要とするアクセス エッジ サービスのクライアント接続が 15,000 未満、有効 Lync Server Web 会議サービスのクライアント接続が 1,000 未満、および音声ビデオ エッジの同時セッションが 500 未満であり、エッジ サーバーの高可用性が重要ではない場合には、このトポロジを活用することで、ハードウェア コストを削減し、展開を単純化できます。高い処理能力や高可用性を必要とする場合には、拡張統合エッジ トポロジを展開する必要があります。
 
-  -   
-    [Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Lync Server 2013 における拡張統合エッジ、NAT によるプライベート IP アドレスを使用した DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  -   
-    [Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Lync Server 2013 での拡張統合エッジ、パブリック IP アドレスによる DNS 負荷分散](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  -   
-    [Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 のハードウェア ロード バランサーによる拡張統合エッジ](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 
 > [!IMPORTANT]

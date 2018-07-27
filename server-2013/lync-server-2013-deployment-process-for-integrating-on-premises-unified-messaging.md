@@ -141,35 +141,15 @@ Exchange ユニファイド メッセージング (UM) を Lync Server 2013 と�
 <tr class="even">
 <td><p>Lync Server 2013 ダイヤル プランを構成します。</p></td>
 <td><p>Exchange 2007 SP1 または最新 Service Pack、あるいは Exchange 2010 と統合されている場合、Exchange UM ダイヤル プランの完全修飾ドメイン名 (FQDN) と一致する名前で新しい エンタープライズ VoIP ダイヤル プランを作成します。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これを UM ダイヤル プランごとに行う必要があります。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> これを UM ダイヤル プランごとに行う必要があります。
 
 </div>
 <p>Exchange 2010 SP1 と統合されている場合は、適したグローバル/サイト レベルの エンタープライズ VoIP ダイヤル プランが構成されていることを確認します。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2010 SP1 と統合されている場合、Lync Server ダイヤル プラン名および Exchange UM SIP ダイヤル プラン名が一致する必要はありません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Exchange 2010 SP1 と統合されている場合、Lync Server ダイヤル プラン名および Exchange UM SIP ダイヤル プラン名が一致する必要はありません。
 
 </div></td>
 <td><p>RTCUniversalServerAdmins</p></td>
@@ -190,20 +170,9 @@ Exchange ユニファイド メッセージング (UM) を Lync Server 2013 と�
 > ocsumutil.exe を正常に実行するため、ユーザーはこれらのグループの両方に属していなければなりません。
 
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>連絡先オブジェクトを作成するには、ocsumutil.exe を実行するユーザーが、新しい連絡先オブジェクトが保存される Active Directory 組織単位 (OU) への適切なアクセス許可を持たなければなりません。このアクセス許可は、<strong>Grant-CsOUPermission</strong> コマンドレットを実行することで付与されます。詳細については、Lync Server 管理シェルのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 連絡先オブジェクトを作成するには、ocsumutil.exe を実行するユーザーが、新しい連絡先オブジェクトが保存される Active Directory 組織単位 (OU) への適切なアクセス許可を持たなければなりません。このアクセス許可は、<strong>Grant-CsOUPermission</strong> コマンドレットを実行することで付与されます。詳細については、Lync Server 管理シェルのドキュメントを参照してください。
 
 </div></td>
 <td><p><a href="lync-server-2013-configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server.md">Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成</a></p></td>

@@ -65,7 +65,7 @@ Windows PowerShell と **Set-CsQoEConfiguration** コマンドレットを使用
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-詳細については、「[Set-CsQoEConfiguration](set-csqoeconfiguration.md)」を参照してください。
+詳細については、「[Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration)」を参照してください。
 
 ## 関連項目
 

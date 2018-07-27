@@ -65,5 +65,5 @@ Lync Server コントロール パネルまたは Windows PowerShell を使用�
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 
-詳細については、[Restore-CsDeviceUpdateRule](restore-csdeviceupdaterule.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Restore-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Restore-CsDeviceUpdateRule) コマンドレットに関するヘルプ トピックを参照してください。
 

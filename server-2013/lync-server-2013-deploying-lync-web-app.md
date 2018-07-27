@@ -70,8 +70,12 @@ Lync Server 2013 バージョンの Lync Web App では多要素認証をサポ�
     
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+
+       &nbsp;
     
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
 
@@ -83,7 +87,7 @@ BranchCache の無効化の詳細については、「BranchCache 展開ガイ�
 
 ## Lync Web App 展開の検証
 
-Test-CsUcwaConference コマンドレットを使用すると、2 人のテスト ユーザーが統合コミュニケーション Web API (UCWA) を使用して会議に参加できることを検証できます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントの「[Test-CsUcwaConference](test-csucwaconference.md)」を参照してください。
+Test-CsUcwaConference コマンドレットを使用すると、2 人のテスト ユーザーが統合コミュニケーション Web API (UCWA) を使用して会議に参加できることを検証できます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントの「[Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference)」を参照してください。
 
 ## Windows Server 2008 R2 でのプラグインのインストールに関するトラブルシューティング
 

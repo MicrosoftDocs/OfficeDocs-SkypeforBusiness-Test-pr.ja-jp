@@ -21,9 +21,9 @@ _**トピックの最終更新日:** 2012-09-24_
 
 連絡先オブジェクトの構成の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [New-CsExUmContact](new-csexumcontact.md)
+  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](set-csexumcontact.md)
+  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
 
 
 > [!IMPORTANT]
@@ -38,6 +38,8 @@ _**トピックの最終更新日:** 2012-09-24_
 2.  New-CsExUmContact コマンドレットを実行して、展開に必要な連絡先オブジェクトを作成します。たとえば、AA および SA の連絡先オブジェクトを作成するには、次のように実行します。
     
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
+
+       &nbsp;
     
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
     

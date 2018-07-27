@@ -32,25 +32,25 @@ Skype for Business Online の設定の多くは、グローバル スコープ�
 
 次のコマンドレットは、グローバル スコープのみで動作します。
 
-  - [Get-CsImFilterConfiguration](get-csimfilterconfiguration.md)
+  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
 
-  - [Get-CsMeetingConfiguration](get-csmeetingconfiguration.md)
+  - [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)
 
-  - [Get-CsPrivacyConfiguration](get-csprivacyconfiguration.md)
+  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
 
-  - [Get-CsTenantFederationConfiguration](get-cstenantfederationconfiguration.md)
+  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
 
-  - [Get-CsTenantHybridConfiguration](get-cstenanthybridconfiguration.md)
+  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
 
-  - [Get-CsTenantLicensingConfiguration](get-cstenantlicensingconfiguration.md)
+  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
 
-  - [Get-CsTenantPublicProvider](get-cstenantpublicprovider.md)
+  - [Get-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantPublicProvider)
 
-  - [Remove-CsVoicePolicy](remove-csvoicepolicy.md)
+  - [Remove-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsVoicePolicy)
 
-  - [Set-CsMeetingConfiguration](set-csmeetingconfiguration.md)
+  - [Set-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingConfiguration)
 
-  - [Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)
+  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
 
 **Remove-CsVoicePolicy** コマンドレットは通常のコマンドレットと多少異なることに注意してください。まず、このコマンドレットには Identity パラメーターを含める必要がありません。
 
@@ -92,5 +92,5 @@ Skype for Business Online の設定の多くは、グローバル スコープ�
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

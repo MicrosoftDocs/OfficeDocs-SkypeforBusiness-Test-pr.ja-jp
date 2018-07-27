@@ -45,21 +45,10 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>必要なハードウェアとソフトウェアのインストール</strong></p></td>
 <td><p>会議は、フロント エンド プールのフロント エンド サーバーと Standard Edition サーバー上で実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションオン共有とレンダリングを処理します。Office Web Apps サーバー のインストールと構成の詳細については、「<a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Lync Server 2013 と Office Web Apps サーバーの統合の構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]
+> Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションオン共有とレンダリングを処理します。Office Web Apps サーバー のインストールと構成の詳細については、「<a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Lync Server 2013 と Office Web Apps サーバーの統合の構成</a>」を参照してください。
+
 <td><p>ローカルの Administrators グループのメンバーであるドメイン ユーザー</p></td>
 <td><p>「サポート」のドキュメントの「<a href="lync-server-2013-supported-hardware.md">Lync Server 2013 でサポートされるハードウェア</a>」</p>
 <p>「サポート」のドキュメントの「<a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync Server 2013 でのサーバーのソフトウェアおよびインフラストラクチャ サポート</a>」</p>

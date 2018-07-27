@@ -68,5 +68,5 @@ SIP トランク構成設定は、Lync Server PowerShell と Get-CsTrunkConfigur
         ForwardPAI                                : False
         EnableFastFailoverTimer                   : True
 
-詳細については、[Get-CsTrunkConfiguration](get-cstrunkconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

@@ -43,7 +43,7 @@ XMPP の展開と構成については、「[Lync Server 2013 での外部ユー
 #### その他のリソース
 
 [Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Get-CsXmppAllowedPartner](get-csxmppallowedpartner.md)  
-[Get-CsXmppGatewayConfiguration](get-csxmppgatewayconfiguration.md)
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
+[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
 

@@ -43,21 +43,10 @@ Lync Server 2013 展開用に Active Directory ドメイン サービス を準�
 <td><p>Lync Server が使用する新しいクラスと属性を追加して、Active Directory スキーマを拡張する。</p>
 <p>Lync Server を展開する場所のフォレストごとに 1 回実行する。</p></td>
 <td><p>Lync Server が展開される各フォレストのルート ドメイン内のスキーマ マスターに対して実行します。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>スキーマ マスターでのアクセス許可を持っている場合は、ルート ドメインでこのステップを実行する必要はありませんが、そのルート ドメインの Schema Admins グループのメンバーに、またスキーマ マスターでの Enterprise Admins グループのメンバーになっている必要があります。リソース フォレスト トポロジでは、ユーザー フォレストではなく、リソース フォレストのみでこのステップを実行します。中央フォレスト トポロジでは、ユーザー フォレストではなく、中央フォレストのみでこのステップを実行します。</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]
+> スキーマ マスターでのアクセス許可を持っている場合は、ルート ドメインでこのステップを実行する必要はありませんが、そのルート ドメインの Schema Admins グループのメンバーに、またスキーマ マスターでの Enterprise Admins グループのメンバーになっている必要があります。リソース フォレスト トポロジでは、ユーザー フォレストではなく、リソース フォレストのみでこのステップを実行します。中央フォレスト トポロジでは、ユーザー フォレストではなく、中央フォレストのみでこのステップを実行します。
+
 </tr>
 <tr class="even">
 <td><p>2.</p></td>
@@ -65,42 +54,21 @@ Lync Server 2013 展開用に Active Directory ドメイン サービス を準�
 <td><p>Lync Server で使用されるグローバル設定とユニバーサル グループを作成する。</p>
 <p>Lync Server を展開する場所のフォレストごとに 1 回実行する。</p></td>
 <td><p>Lync Server が展開される各フォレストのルート ドメイン。このステップを実行するには、Enterprise Admins グループのメンバーになっている必要があります。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リソース フォレスト トポロジでは、ユーザー フォレストではなく、リソース フォレストのみでこのステップを実行します。中央フォレスト トポロジでは、ユーザー フォレストではなく、中央フォレストのみでこのステップを実行します。</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]
+> リソース フォレスト トポロジでは、ユーザー フォレストではなく、リソース フォレストのみでこのステップを実行します。中央フォレスト トポロジでは、ユーザー フォレストではなく、中央フォレストのみでこのステップを実行します。
+
+
 </tr>
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Lync Server 2013 のドメインの準備</a></p></td>
 <td><p>ユニバーサル グループのメンバーが使用するオブジェクトに対するアクセス許可を追加する。</p>
 <p>ユーザー ドメインまたはサーバー ドメインあたり 1 回実行する。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2010 から Lync Server 2013 に移行する場合には、展開ウィザードに、ドメインの準備が既に完了していることが示されます。ドメインの準備を再度実行する必要はありません。アクセス許可は Lync Server 2010 から Lync Server 2013 に変更されていません。</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]
+> Lync Server 2010 から Lync Server 2013 に移行する場合には、展開ウィザードに、ドメインの準備が既に完了していることが示されます。ドメインの準備を再度実行する必要はありません。アクセス許可は Lync Server 2010 から Lync Server 2013 に変更されていません。
+
 <td><p>Lync Server が展開される各ドメイン内のメンバー サーバー。このステップを実行するには、Domain Admins グループのメンバーになっている必要があります。</p></td>
 </tr>
 </tbody>

@@ -49,7 +49,7 @@ Windows PowerShell および Get-CsPinPolicy コマンドレットを使用し�
         PINLifetime          : 0
         MaximumLogonAttempts :
 
-詳細については、[Get-CsPinPolicy](get-cspinpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsPinPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPinPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

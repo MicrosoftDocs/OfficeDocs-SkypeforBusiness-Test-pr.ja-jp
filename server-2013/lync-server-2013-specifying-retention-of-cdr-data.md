@@ -67,7 +67,7 @@ Windows PowerShell と Set-CsCdrConfiguration コマンドレットを使用し�
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-詳細については、[Set-CsCdrConfiguration](set-cscdrconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

@@ -23,7 +23,7 @@ _**トピックの最終更新日:** 2014-02-05_
 
   - 月に対する合計と過去 6 か月の傾向の合計 (システム使用状況のみ)。
 
-[Get-CsReportingConfiguration](get-csreportingconfiguration.md) コマンドレットを使うと、Lync Server 2013 の監視レポートにアクセスするための URL に戻れます。
+[Get-CsReportingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsReportingConfiguration) コマンドレットを使うと、Lync Server 2013 の監視レポートにアクセスするための URL に戻れます。
 
     Get-CsReportingConfiguration
 

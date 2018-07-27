@@ -75,14 +75,14 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="even">
 <td><p>Mcx Mobility Service を使用して、Lync 2010 Mobile のモビリティ展開をテストします。</p></td>
 <td><p><strong>Test-CsMcxP2PIM</strong> を実行し、ユーザー間のインスタント メッセージの送信をテストします。</p>
-<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="test-csmcxp2pim.md">Test-CsMcxP2PIM</a> を参照してください。</p></td>
+<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> を参照してください。</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティ展開の確認</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>UCWA Web コンポーネントを使用して、Lync 2013 モバイル クライアントのモビリティ展開をテストします。</p></td>
 <td><p><strong>Test-CsUcwaConference</strong> コマンドレットを使用して、定義済みテスト ユーザーをテストおよび確認します。また 2 人の実際のユーザーが UCWA を使用して会議を作成し、参加することもできます。</p>
-<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="test-csucwaconference.md">Test-CsUcwaConference</a> を参照してください。</p></td>
+<p>オプションの完全な一覧については、Lync Server 管理シェル コマンドレット ドキュメントの <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> を参照してください。</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">Lync Server 2013 でのモビリティ展開の確認</a></p></td>
 </tr>
@@ -95,20 +95,10 @@ _**トピックの最終更新日:** 2015-03-09_
 <li><p>Wi-Fi ネットワーク経由のプッシュ通知をサポートする場合は、TCP ポート 5223 の発信ファイアウォール ルールを構成します。</p></li>
 <li><p><strong>Set-CsPushNotificationConfiguration</strong> コマンドレットを使用して、Apple Push Notification Service (APNS) および Microsoft Push Notification Service (MPNS) へのプッシュ通知を有効にします。この機能は、既定で無効にされています。</p></li>
 <li><p><strong>Test-CsFederatedPartner</strong> コマンドレットを使用してフェデレーション構成をテストし、<strong>Test-CsMCXPushNotification</strong> コマンドレットを使用してプッシュ通知をテストします。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>プッシュ通知は、Apple デバイスおよび Windows Phone の Lync 2010 Mobile クライアントで使用されます。<br />
-プッシュ通知は、Windows Phone の Lync 2013 モバイル クライアントでのみ必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> プッシュ通知は、Apple デバイスおよび Windows Phone の Lync 2010 Mobile クライアントで使用されます。<br />
+プッシュ通知は、Windows Phone の Lync 2013 モバイル クライアントでのみ必要です。
 
 </div></li>
 </ul></td>

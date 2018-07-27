@@ -37,5 +37,5 @@ Get-CsAddressBookConfiguration と Set-CsAddressBookConfiguration の機能を�
 
 #### その他のリソース
 
-[Get-CsAddressBookConfiguration](get-csaddressbookconfiguration.md)
+[Get-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAddressBookConfiguration)
 

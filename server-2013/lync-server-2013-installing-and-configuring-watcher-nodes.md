@@ -146,7 +146,7 @@ System Center Operations Manager を使用するために監視ノードをイ�
 </thead>
 <tbody>
 <tr class="odd">
-<td>管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。さまざまな Test-Cs コマンドレットについて詳しくは、「<a href="lync-server-2013-cmdlets-index.md">Lync Server 2013 のコマンドレットのインデックス</a>」をご覧ください。</td>
+<td>管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。さまざまな Test-Cs コマンドレットについて詳しくは、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Lync Server 2013 のコマンドレットのインデックス</a>」をご覧ください。</td>
 </tr>
 </tbody>
 </table>
@@ -171,17 +171,13 @@ System Center Operations Manager を使用するために監視ノードをイ�
 
 Lync Server 2013 監視ノードは、社内または社外に展開して、以下を検証できます。
 
-  -   
-    社内ユーザー用プールへの接続。
+  - 社内ユーザー用プールへの接続。
 
-  -   
-    社外で働くリモート ユーザー用の境界ネットワーク経由の接続。
+  - 社外で働くリモート ユーザー用の境界ネットワーク経由の接続。
 
-  -   
-    ブランチ オフィス アプライアンスへの接続。
+  - ブランチ オフィス アプライアンスへの接続。
 
-  -   
-    社内の Lync Server 2010 への境界ネットワーク経由の接続。
+  - 社内の Lync Server 2010 への境界ネットワーク経由の接続。
 
 管理を容易にするため、社内および社外用の異なる認証オプションがあります。詳しくは、「[代理トランザクションを実行する監視ノードの構成](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)」をご覧ください。
 

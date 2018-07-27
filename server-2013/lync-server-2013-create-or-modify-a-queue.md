@@ -147,7 +147,7 @@ _**トピックの最終更新日:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「 <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>」を参照してください。</td>
+    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「 <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -165,7 +165,7 @@ _**トピックの最終更新日:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>使用可能なアクションとその構文の詳細については、「 <a href="new-csrgscallaction.md">New-CsRgsCallAction</a>」を参照してください。</td>
+    <td>使用可能なアクションとその構文の詳細については、「 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -190,7 +190,7 @@ _**トピックの最終更新日:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「 <a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>」を参照してください。</td>
+    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「 <a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -208,7 +208,7 @@ _**トピックの最終更新日:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>使用可能なアクションとその構文の詳細については、「 <a href="new-csrgscallaction.md">New-CsRgsCallAction</a>」を参照してください。</td>
+    <td>使用可能なアクションとその構文の詳細については、「 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -233,7 +233,7 @@ _**トピックの最終更新日:** 2013-02-23_
     </thead>
     <tbody>
     <tr class="odd">
-    <td>エージェント グループの作成の詳細については、「 <a href="new-csrgsagentgroup.md">New-CsRgsAgentGroup</a>」を参照してください。</td>
+    <td>エージェント グループの作成の詳細については、「 <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -255,11 +255,11 @@ _**トピックの最終更新日:** 2013-02-23_
 
 #### その他のリソース
 
-[New-CsRgsQueue](new-csrgsqueue.md)  
-[Set-CsRgsQueue](set-csrgsqueue.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)  
-[Get-CsRgsQueue](get-csrgsqueue.md)  
-[Import-CsRgsAudioFile](import-csrgsaudiofile.md)  
-[Remove-CsRgsQueue](remove-csrgsqueue.md)
+[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)  
+[Set-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)  
+[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Remove-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsQueue)
 

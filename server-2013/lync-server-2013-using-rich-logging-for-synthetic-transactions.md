@@ -45,18 +45,8 @@ Microsoft Lync Server 2013では、代理トランザクションは、高機能
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>変数名の前に $ 記号を付けないでください。$RegistrationTest ではなく、RegistrationTest のような変数名を使用します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 変数名の前に $ 記号を付けないでください。$RegistrationTest ではなく、RegistrationTest のような変数名を使用します。
 
 
 前記のコマンドは、以下のような内容を出力します。
@@ -81,6 +71,6 @@ System Center Operations Manager の内側から実行された代理トラン�
 
 
 > [!IMPORTANT]
-> 既定で、Lync Server 2013は、共有されていないフォルダーにログ ファイルを保存します。これらのログにすぐにアクセスできるように、このフォルダーを共有する必要があります (たとえば、\\atl-watcher-001.litwareinc.com\WatcherNode)。
+> 既定で、Lync Server 2013は、共有されていないフォルダーにログ ファイルを保存します。これらのログにすぐにアクセスできるように、このフォルダーを共有する必要があります (たとえば、\\\\atl-watcher-001.litwareinc.com\WatcherNode)。
 
 

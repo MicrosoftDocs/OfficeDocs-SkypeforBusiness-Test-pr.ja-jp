@@ -39,5 +39,5 @@ _**トピックの最終更新日:** 2014-10-03_
 
 #### その他のリソース
 
-[New-CsConferenceDirectory](new-csconferencedirectory.md)
+[New-CsConferenceDirectory](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsConferenceDirectory)
 

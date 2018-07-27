@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2013-02-21_
 
 ネットワーク サブネットは、そのサブネットに所属するホストの地理的な場所を指定するために、ネットワーク サイトに関連付ける必要があります。Lync Server コントロール パネルを使用するとサブネットを構成できます。Lync Server コントロール パネルから、ネットワーク サブネットを作成、変更、または削除できます。ネットワーク サブネットの削除の詳細については、「[ネットワーク サブネットの削除](lync-server-2013-deleting-network-subnets.md)」を参照してください。
 
-通話受付管理 (CAC) を実装している大部分の Microsoft Lync Server 2013 の展開には、一般的に、多くのサブネットが存在します。このため、Lync Server 管理シェルからサブネットを構成するのが、多くの場合、最も良い方法です。Lync Server 管理シェルから、Windows PowerShell のコマンドレット **Import-CSV** とともに **New-CsNetworkSubnet** を呼び出すことができます。これらのコマンドレットを同時に使用することで、csv (コンマ区切り値) ファイルからサブネット設定を読み取って、同時に複数のサブネットを作成できます。csv ファイルからサブネットを作成する方法の例については、「[New-CsNetworkSubnet](new-csnetworksubnet.md)」を参照してください。
+通話受付管理 (CAC) を実装している大部分の Microsoft Lync Server 2013 の展開には、一般的に、多くのサブネットが存在します。このため、Lync Server 管理シェルからサブネットを構成するのが、多くの場合、最も良い方法です。Lync Server 管理シェルから、Windows PowerShell のコマンドレット **Import-CSV** とともに **New-CsNetworkSubnet** を呼び出すことができます。これらのコマンドレットを同時に使用することで、csv (コンマ区切り値) ファイルからサブネット設定を読み取って、同時に複数のサブネットを作成できます。csv ファイルからサブネットを作成する方法の例については、「[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
 ## ネットワーク サブネットを作成するには
 
@@ -81,8 +81,8 @@ _**トピックの最終更新日:** 2013-02-21_
 
 #### その他のリソース
 
-[New-CsNetworkSubnet](new-csnetworksubnet.md)  
-[Set-CsNetworkSubnet](set-csnetworksubnet.md)  
-[Remove-CsNetworkSubnet](remove-csnetworksubnet.md)  
-[Get-CsNetworkSubnet](get-csnetworksubnet.md)
+[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)  
+[Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)  
+[Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)  
+[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 

@@ -23,7 +23,7 @@ SIP トランク構成設定では、仲介サーバーと公衆交換電話網 
 
   - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化が必要かどうか
 
-Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバル コレクションが作成されます。この設定のグローバル コレクションは削除できません。ただし、グローバル コレクションのプロパティは、Lync Server コントロール パネルまたは [Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) コマンドレットを使用して既定値に "リセット" できます。たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
+Microsoft Lync Server 2013 をインストールすると、SIP トランク構成設定のグローバル コレクションが作成されます。この設定のグローバル コレクションは削除できません。ただし、グローバル コレクションのプロパティは、Lync Server コントロール パネルまたは [Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) コマンドレットを使用して既定値に "リセット" できます。たとえば、Enable3pccRefer プロパティを True に設定した場合、グローバル コレクションをリセットすると、Enable3pccRefer プロパティは既定値である False に戻ります。
 
 管理者がサイト スコープまたはサービス スコープでカスタム トランク構成設定を作成することもできます (個別の PSTN ゲートウェイの場合)。これらのカスタム設定は削除できます。カスタム設定を削除するときは、次の点に注意してください。
 
@@ -67,5 +67,5 @@ Windows PowerShell および Remove-CsTrunkConfiguration コマンドレット�
     
         Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
 
-詳細については、[Remove-CsTrunkConfiguration](remove-cstrunkconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

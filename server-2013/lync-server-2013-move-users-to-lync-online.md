@@ -29,6 +29,8 @@ Skype for Business Online テナントに社内ユーザーを移動するには
 
     $creds=Get-Credential
 
+   &nbsp;
+
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 
 **HostedMigrationOverrideUrl** パラメーターの URL には、ホスティング型移行サービスが実行されているプールへの URL を次の形式で指定する必要があります。 *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*
@@ -57,7 +59,7 @@ Skype for Business Online テナントに社内ユーザーを移動するには
 
 ## ユーザーを Lync Online に移動する
 
-[Get-CsUser](get-csuser.md) コマンドレットに –Filter パラメーターを指定して、複数のユーザーを移動することができます。このパラメーターにより、RegistrarPool のような、ユーザー アカウントに割り当てられた特定のプロパティを持つユーザーを選択できます。次に、返されたユーザーを、以下のサンプルに示すように、パイプを使用して [Move-CsUser](move-csuser.md) コマンドレットに渡すことができます。
+[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットに –Filter パラメーターを指定して、複数のユーザーを移動することができます。このパラメーターにより、RegistrarPool のような、ユーザー アカウントに割り当てられた特定のプロパティを持つユーザーを選択できます。次に、返されたユーザーを、以下のサンプルに示すように、パイプを使用して [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser) コマンドレットに渡すことができます。
 
     Get-CsUser -Filter {UserProperty -eq "UserPropertyValue"} | Move-CsUser -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
 

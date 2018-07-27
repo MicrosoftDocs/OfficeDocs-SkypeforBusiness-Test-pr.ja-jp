@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2015-06-22_
 
-Skype for Business Online の管理に使用する Windows PowerShell コマンドレットの多くでは、管理しようとする項目に対して固有の情報を指定する必要があります。たとえば、[Set-CsUserAcp](set-csuseracp.md) コマンドレット実行する場合には、管理しようとするユーザーを指定する必要があります。このことには意味があり、どのユーザー アカウントを管理するかをコマンドレットに具体的に通知しないと、**Set-CsUserAcp** コマンドレットでは、どのユーザーの電話会議の情報を変更する必要があるかが不明になります。このような理由により、**Set-CsUserAcp** コマンドレットを実行するたびに、Identity パラメーターを含め、その後に変更するユーザー アカウントの ID を続ける必要があります。
+Skype for Business Online の管理に使用する Windows PowerShell コマンドレットの多くでは、管理しようとする項目に対して固有の情報を指定する必要があります。たとえば、[Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp) コマンドレット実行する場合には、管理しようとするユーザーを指定する必要があります。このことには意味があり、どのユーザー アカウントを管理するかをコマンドレットに具体的に通知しないと、**Set-CsUserAcp** コマンドレットでは、どのユーザーの電話会議の情報を変更する必要があるかが不明になります。このような理由により、**Set-CsUserAcp** コマンドレットを実行するたびに、Identity パラメーターを含め、その後に変更するユーザー アカウントの ID を続ける必要があります。
 
     Set-CsUserAcp -Identity "Ken Myer" -TollNumber "14255551298" -ParticipantPassCode 13761 -Domain "fabrikam.com" -Name "Fabrikam ACP"
 
@@ -67,7 +67,7 @@ Identity という用語が常にユーザー アカウントの ID を指す場
 
 上記からわかるように、Ken Myer はパブリック IM プロバイダーと通信できます。これは、Ken Myer に割り当てられているユーザーごとのポリシーの設定が、グローバル ポリシーの設定よりも優先されるためです。Pilar Ackerman はパブリック IM プロバイダーと通信することはできません。これは、Pilar Ackerman はグローバル ポリシーによって管理されていて、グローバル ポリシーではそのような通信が禁止されているためです。
 
-ユーザーごとのポリシーは、Office 365 サポートが作成する必要があります。ポリシーが作成された後、適切な **Grant-Cs** コマンドレット ([Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md) など) を使用するとユーザーにポリシーを割り当てることができます。ユーザーごとのポリシーは、ポリシー Identity の先頭が常にタグ **プレフィックス**であるため、容易に識別できます。次に例を示します。
+ユーザーごとのポリシーは、Office 365 サポートが作成する必要があります。ポリシーが作成された後、適切な **Grant-Cs** コマンドレット ([Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) など) を使用するとユーザーにポリシーを割り当てることができます。ユーザーごとのポリシーは、ポリシー Identity の先頭が常にタグ **プレフィックス**であるため、容易に識別できます。次に例を示します。
 
     Identity : tag:AllowPublicIMCommunication
 

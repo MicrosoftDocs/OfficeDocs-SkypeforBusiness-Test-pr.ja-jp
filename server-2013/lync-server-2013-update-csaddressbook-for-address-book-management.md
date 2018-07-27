@@ -39,6 +39,8 @@ Update-CsAddressBook コマンドレットは、Office Communications Server の
 
     Update-CsAddressBook
 
+&nbsp;
+
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
 
 コマンド全体の詳細については、Lync Server Windows PowerShell RTCCmdlets メイン リファレンスの次の項目を参照してください。
@@ -47,5 +49,5 @@ Update-CsAddressBook コマンドレットは、Office Communications Server の
 
 #### その他のリソース
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

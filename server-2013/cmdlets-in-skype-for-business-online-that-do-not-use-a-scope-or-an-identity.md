@@ -17,11 +17,11 @@ _**トピックの最終更新日:** 2015-06-22_
 
 許可リストや禁止リスト (通信できる外部組織を決定するリスト) の変更に使用するコマンドレットでは、範囲や ID は使用できません。実際、**New-CsEdgeAllowAllKnownDomains** コマンドレットにはそのようなパラメーターはありません。範囲や ID が使用されないコマンドレットは次のとおりです。
 
-  - [New-CsEdgeAllowAllKnownDomains](new-csedgeallowallknowndomains.md)
+  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
 
-  - [New-CsEdgeAllowList](new-csedgeallowlist.md)
+  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
 
-  - [New-CsEdgeDomainPattern](new-csedgedomainpattern.md)
+  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
 
 **New-CsEdgeAllowList** コマンドレットと **New-CsEdgeDomainPattern** コマンドレットでは、Domain パラメーターを含める必要があります。次に例を示します。
 
@@ -32,5 +32,5 @@ _**トピックの最終更新日:** 2015-06-22_
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

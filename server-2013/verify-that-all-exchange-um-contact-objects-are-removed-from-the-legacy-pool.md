@@ -25,5 +25,5 @@ Exchange UM 連絡先オブジェクトが従来の Office Communications Server
 
   - 指定された組織単位 (OU) コンテナーに連絡先オブジェクトを作成するドメイン権限
 
-**Get-CsExumContact** コマンドレットの使用方法の詳細については、Lync Server 管理シェルのドキュメントの「[Get-CsExUmContact](get-csexumcontact.md)」を参照してください。
+**Get-CsExumContact** コマンドレットの使用方法の詳細については、Lync Server 管理シェルのドキュメントの「[Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)」を参照してください。
 

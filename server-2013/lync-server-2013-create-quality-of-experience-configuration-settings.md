@@ -19,7 +19,7 @@ Quality of Experience (QoE) 指標では、失われたネットワーク パケ
 
 Microsoft Lync Server 2013 をインストールすると、QoE 構成設定の単一のグローバル コレクションが作成されます。管理者は、サイト スコープでカスタム設定を作成することもできます。これらのサイト スコープの設定は、グローバル設定に優先して使用されます。たとえば、Redmond サイト用のサイト スコープの設定を作成した場合は、グローバル設定ではなくこれらの設定を使用して Redmond の QoE が管理されます。
 
-QoE 構成設定は、Lync Server コントロール パネルまたは [New-CsQoEConfiguration](new-csqoeconfiguration.md) コマンドレットを使用して作成できます。Lync Server コントロール パネルを使用して新しい設定を作成する場合は、次のオプションを使用できます。
+QoE 構成設定は、Lync Server コントロール パネルまたは [New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration) コマンドレットを使用して作成できます。Lync Server コントロール パネルを使用して新しい設定を作成する場合は、次のオプションを使用できます。
 
 
 <table>
@@ -68,7 +68,7 @@ QoE 構成設定は、Lync Server コントロール パネルまたは [New-CsQ
 </thead>
 <tbody>
 <tr class="odd">
-<td>New-CsQoEConfiguration コマンドレットには、Lync Server コントロール パネルでは使用できないオプションがあります。詳細については、<a href="new-csqoeconfiguration.md">New-CsQoEConfiguration</a>のヘルプ トピックを参照してください。</td>
+<td>New-CsQoEConfiguration コマンドレットには、Lync Server コントロール パネルでは使用できないオプションがあります。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration">New-CsQoEConfiguration</a>のヘルプ トピックを参照してください。</td>
 </tr>
 </tbody>
 </table>
@@ -118,5 +118,5 @@ QoE 構成設定は、Windows PowerShell と New-CsQoEConfiguration コマンド
     
         New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 30 -PurgeHourOfDay 3
 
-詳細については、[New-CsQoEConfiguration](new-csqoeconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[New-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsQoEConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

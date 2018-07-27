@@ -115,7 +115,7 @@ $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシ�
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。Get-CsClsScenario を使用して、新しいシナリオを表示できます。詳細については、「[Get-CsClsScenario](get-csclsscenario.md)」を参照してください。
+コマンドを実行すると、最終的にシナリオ site:Redmond/RedmondLyssInfo のフラグと割り当てられるプロバイダーのレベルが更新されます。Get-CsClsScenario を使用して、新しいシナリオを表示できます。詳細については、「[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)」を参照してください。
 
 
 > [!WARNING]
@@ -136,6 +136,8 @@ Add ディレクティブで定義される各プロバイダーは、**New-CsCl
 2.  用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。プロバイダーを削除するには、**Set-CsClsScenario** に対して Provider パラメーター用の Replace ディレクティブを使用する必要があります。プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。たとえば、プロバイダー LyssProvider では、ログの種類として WPP、レベルとして Debug、およびフラグとして TF\_CONNECTION と TF\_DIAG が定義されています。このフラグを "All" に変更する必要があるとします。このプロバイダーを変更するには、次のように入力します。
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+
+       &nbsp;
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
 
@@ -159,9 +161,9 @@ Add ディレクティブで定義される各プロバイダーは、**New-CsCl
 
 #### その他のリソース
 
-[Get-CsClsScenario](get-csclsscenario.md)  
-[New-CsClsScenario](new-csclsscenario.md)  
-[Remove-CsClsScenario](remove-csclsscenario.md)  
-[Set-CsClsScenario](set-csclsscenario.md)  
-[New-CsClsProvider](new-csclsprovider.md)
+[Get-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario)  
+[New-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsScenario)  
+[Remove-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsScenario)  
+[Set-CsClsScenario](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario)  
+[New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider)
 

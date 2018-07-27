@@ -21,7 +21,7 @@ Lync Server をインストールすると、音声ビデオ エッジ構成設�
 
 ただし、サイト スコープまたはサービス スコープのどちらかで作成したカスタム設定コレクションは、Remove-CsDiagnosticHeaderConfiguration コマンドレットを使用して削除できます。サイト設定を削除すると、そのサイト内の音声ビデオ エッジ サーバーはグローバル設定によって管理されます。サービス スコープの設定を削除すると、サーバーは、サイト設定が存在する場合はサイト設定によって、サイト設定が使用できない場合はグローバル設定によって管理されます。
 
-詳細については、[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## グローバル コレクションのリセット
 
@@ -51,5 +51,5 @@ Lync Server をインストールすると、音声ビデオ エッジ構成設�
 #### その他のリソース
 
 [音声ビデオ (A/V) エッジ サーバー](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](remove-csavedgeconfiguration.md)
+[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
 

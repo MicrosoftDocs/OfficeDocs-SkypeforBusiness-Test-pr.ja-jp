@@ -67,7 +67,7 @@ Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なってい�
     </thead>
     <tbody>
     <tr class="odd">
-    <td>アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。これらの構成を表示するには、<strong>Get-CsRgsConfiguration</strong> コマンドレットを実行します。このコマンドレットの詳細については、「<a href="get-csrgsconfiguration.md">Get-CsRgsConfiguration</a>」を参照してください。</td>
+    <td>アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。これらの構成を表示するには、<strong>Get-CsRgsConfiguration</strong> コマンドレットを実行します。このコマンドレットの詳細については、「<a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>

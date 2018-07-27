@@ -19,7 +19,7 @@ Lync Server 2013には、場所情報サービスを簡易ネットワーク管�
 
 SNMP アプリケーションがインストールされているが、場所情報サービスが、場所データベース内で一致する情報を見つけられない場合、クライアントによって示される MAC アドレスを使用して、自動的にアプリケーションについて照会します。次に場所情報サービスは、SNMP アプリケーションによって戻されたポートおよびスイッチ情報を使用して、場所データベースに再照会します。
 
-詳細については、「[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)」を参照してください。
+詳細については、「[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)」を参照してください。
 
 <table>
 <thead>

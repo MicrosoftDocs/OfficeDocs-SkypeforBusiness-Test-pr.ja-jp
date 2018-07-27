@@ -118,5 +118,5 @@ To return detailed information about all the voice normalization rules, run this
 
 #### その他のリソース
 
-[Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceNormalizationRule)
 

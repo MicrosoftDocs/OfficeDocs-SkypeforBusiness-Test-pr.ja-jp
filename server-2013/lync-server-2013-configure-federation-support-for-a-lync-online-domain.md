@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 Microsoft Lync Online 2010 ユーザーとのフェデレーションを行うには、以下の手順を完了する必要があります。
 
-  - Lync Online 2010 ユーザーのドメイン (例: contoso.onmicrosoft.com) に対するサポートを構成します。このドキュメントの「[Lync Online の顧客とのフェデレーションの前提条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)」セクションで説明したように、既にフェデレーションは組織で有効になっているはずです。フェデレーションを有効にするには、フェデレーション ドメインによってアクセス制御に使用されるメソッドを指定する必要があります。検出を使用するように組織を構成した場合は、組織の許可リストへのドメインの追加は省略できます。ドメインの検出を有効にしなかった場合は、許可されたドメインのリストに Lync Online ユーザーのドメイン名を追加する必要があります。ドメイン名を追加するには、Lync Server コントロール パネルを使用するか、**New-CSAllowedDomain** コマンドレットを実行します。ドメインの検出の有効化など、Lync Server コントロール パネルの使用の詳細については、「操作」のドキュメントの「[Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)」を参照してください。**New-CSAllowedDomain** コマンドレットを使用してドメインを追加する方法の詳細については、「操作」のドキュメントの「[New-CsAllowedDomain](new-csalloweddomain.md)」を参照してください。
+  - Lync Online 2010 ユーザーのドメイン (例: contoso.onmicrosoft.com) に対するサポートを構成します。このドキュメントの「[Lync Online の顧客とのフェデレーションの前提条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)」セクションで説明したように、既にフェデレーションは組織で有効になっているはずです。フェデレーションを有効にするには、フェデレーション ドメインによってアクセス制御に使用されるメソッドを指定する必要があります。検出を使用するように組織を構成した場合は、組織の許可リストへのドメインの追加は省略できます。ドメインの検出を有効にしなかった場合は、許可されたドメインのリストに Lync Online ユーザーのドメイン名を追加する必要があります。ドメイン名を追加するには、Lync Server コントロール パネルを使用するか、**New-CSAllowedDomain** コマンドレットを実行します。ドメインの検出の有効化など、Lync Server コントロール パネルの使用の詳細については、「操作」のドキュメントの「[Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)」を参照してください。**New-CSAllowedDomain** コマンドレットを使用してドメインを追加する方法の詳細については、「操作」のドキュメントの「[New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain)」を参照してください。
     
     <table>
     <thead>
@@ -73,5 +73,5 @@ Microsoft Lync Online 2010 ユーザーとのフェデレーションを行う�
     
       - **IsLocal** は、ホスティング プロバイダーによって使用されるプロキシ サーバーが Lync Server トポロジ内にあるかどうかを示します。
     
-    このコマンドレットの使用の詳細については、「操作」のドキュメントの「[New-CsHostingProvider](new-cshostingprovider.md)」を参照してください。
+    このコマンドレットの使用の詳細については、「操作」のドキュメントの「[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)」を参照してください。
 

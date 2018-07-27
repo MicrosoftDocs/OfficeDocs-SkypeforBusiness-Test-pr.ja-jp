@@ -19,6 +19,8 @@ Lync Server 2010 から Lync Server 2013 へのコール パーク アプリケ�
 
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
 
+   &nbsp;
+
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 
 カスタマイズされたオーディオ ファイルがすべて Lync Server 2013 のファイル ストアにコピーされたら、Lync Server 2013 プールのコール パーク アプリケーションの設定を構成し、Lync Server 2010 プールに関連付けられているコール パーク オービットの範囲を Lync Server 2013 プールに割り当て直す必要があります。

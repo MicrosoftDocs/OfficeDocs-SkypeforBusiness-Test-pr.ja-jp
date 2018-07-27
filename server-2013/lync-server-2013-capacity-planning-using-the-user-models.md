@@ -87,19 +87,9 @@ _**トピックの最終更新日:** 2016-12-08_
 <tr class="even">
 <td><p>音声ビデオ会議</p></td>
 <td><p>フロント エンド プールが提供する音声ビデオ会議サービスは、プールの会議をサポートします。サポートされる最大会議規模は 250 ユーザーで、このように大きな会議は一度に 1 つだけ開催されると想定されます。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>また、大きな会議をホストするための 2 台の フロント エンド サーバーを含む個別の フロント エンド プールを展開することによって、250 ～ 1000 ユーザーの大きな会議をサポートできます。詳細については、「<a href="lync-server-2013-supporting-large-meetings.md">Lync Server 2013 を使用した大規模会議のサポート</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> また、大きな会議をホストするための 2 台の フロント エンド サーバーを含む個別の フロント エンド プールを展開することによって、250 ～ 1000 ユーザーの大きな会議をサポートできます。詳細については、「<a href="lync-server-2013-supporting-large-meetings.md">Lync Server 2013 を使用した大規模会議のサポート</a>」を参照してください。
 
 </div></td>
 </tr>
@@ -131,18 +121,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ## フロント エンド サーバー
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>拡大されたプールは、このサーバーの役割ではサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 拡大されたプールは、このサーバーの役割ではサポートされていません。
 
 
 プール内のすべてのサーバーでハイパースレッディングが有効であり、「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」で説明されている推奨事項をサーバー ハードウェアが満たしている場合、 フロント エンド プールでは、プールに所属する 6,660 ユーザーごとに 1 台の フロント エンド サーバーが必要です。プール内のすべてのサーバーでハイパースレッディングが有効な場合、1 つの フロント エンド プールの最大ユーザー数は 80,000 です。サイトに 80,000 を超えるユーザーが存在する場合、複数の フロント エンド プールを展開できます。
@@ -192,18 +172,9 @@ _**トピックの最終更新日:** 2016-12-08_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>フロント エンド サーバーで、併置された音声ビデオ会議および 仲介サーバーの機能のメディア パフォーマンスを改善するには、フロント エンド サーバーのネットワーク アダプターの Receive-Side Scaling (RSS) を有効にする必要があります。RSS により、着信パケットをサーバーの複数のプロセッサによって並行して処理することが可能になります。詳細については、「Windows Server 2008 での Receive-Side Scaling 拡張機能」( <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>) を参照してください。RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> フロント エンド サーバーで、併置された音声ビデオ会議および 仲介サーバーの機能のメディア パフォーマンスを改善するには、フロント エンド サーバーのネットワーク アダプターの Receive-Side Scaling (RSS) を有効にする必要があります。RSS により、着信パケットをサーバーの複数のプロセッサによって並行して処理することが可能になります。詳細については、「Windows Server 2008 での Receive-Side Scaling 拡張機能」( <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>) を参照してください。RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。
 
 
 ## 最大会議数
@@ -220,52 +191,24 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ## エッジ サーバー
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>拡大されたプールは、このサーバーの役割ではサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 拡大されたプールは、このサーバーの役割ではサポートされていません。
 
 
 サイトに同時にアクセスする 12,000 リモート ユーザーごとに 1 台の エッジ サーバーを展開する必要があります。高可用性を実現するために 2 台以上の エッジ サーバーを用意することをお勧めします。これらの推奨事項は、 エッジ サーバー用のハードウェアが「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」で説明されている推奨事項を満たしていることを前提としています。
 
 エッジ サーバーのユーザー数を考慮する際は、このサイトの フロント エンド プールに関連付けられているブランチ オフィスの存続可能ブランチ アプライアンスおよび存続可能ブランチ サーバーに所属するユーザーを含めます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>エッジ サーバーの音声ビデオ会議エッジ サービスのパフォーマンスを改善するには、エッジ サーバーのネットワーク アダプターの Receive-Side Scaling (RSS) を有効にする必要があります。RSS により、着信パケットをサーバーの複数のプロセッサによって並行して処理することが可能になります。詳細については、「Windows Server 2008 での Receive-Side Scaling 拡張機能」( <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>) を参照してください。RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> エッジ サーバーの音声ビデオ会議エッジ サービスのパフォーマンスを改善するには、エッジ サーバーのネットワーク アダプターの Receive-Side Scaling (RSS) を有効にする必要があります。RSS により、着信パケットをサーバーの複数のプロセッサによって並行して処理することが可能になります。詳細については、「Windows Server 2008 での Receive-Side Scaling 拡張機能」( <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>) を参照してください。RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。
 
 
 ## ディレクター
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>拡大されたプールは、このサーバーの役割ではサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 拡大されたプールは、このサーバーの役割ではサポートされていません。
 
 
 ディレクター サーバーの役割を展開する場合は、サイトに同時にアクセスする 12,000 リモート ユーザーごとに 1 台の ディレクターを展開することをお勧めします。高可用性を実現するために 2 台以上の ディレクターを用意することをお勧めします。これらの推奨事項は、 エッジ サーバー用のハードウェアが「[Lync Server 2013　用のサーバー ハードウェア プラットフォーム](lync-server-2013-server-hardware-platforms.md)」で説明されている推奨事項を満たしていることを前提としています。
@@ -274,18 +217,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ## 仲介サーバー
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>拡大されたプールは、このサーバーの役割ではサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 拡大されたプールは、このサーバーの役割ではサポートされていません。
 
 
 仲介サーバーと フロント エンド サーバーを併置する場合、 仲介サーバーは、プール内のすべての フロント エンド サーバーで実行されます。このサーバーは、プール内のユーザーに十分な処理能力を提供する必要があります。
@@ -330,18 +264,9 @@ _**トピックの最終更新日:** 2016-12-08_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>パフォーマンス テストにはメモリが 32 GB のサーバーを使用しましたが、スタンドアロンの 仲介サーバーではメモリが 16 GB のサーバーがサポートされており、その条件のサーバーでもこの表に示されるパフォーマンスを十分実現できます。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> パフォーマンス テストにはメモリが 32 GB のサーバーを使用しましたが、スタンドアロンの 仲介サーバーではメモリが 16 GB のサーバーがサポートされており、その条件のサーバーでもこの表に示されるパフォーマンスを十分実現できます。
 
 
 ### 仲介サーバーの処理能力: ( フロント エンド サーバーと併置されている 仲介サーバー) 内部ユーザーが 70%、外部ユーザーが 30%、バイパスではない通話の処理能力 ( 仲介サーバーによって実行されるメディアのコード変換)
@@ -366,32 +291,14 @@ _**トピックの最終更新日:** 2016-12-08_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この数は、スタンドアロンの 仲介サーバーの場合の数よりも少なくなっています。 フロント エンド サーバーでは、音声通話に必要なコード変換に加えて、そのサーバーに所属する 6,600 ユーザーが使用するその他の機能を処理する必要があるためです。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> この数は、スタンドアロンの 仲介サーバーの場合の数よりも少なくなっています。 フロント エンド サーバーでは、音声通話に必要なコード変換に加えて、そのサーバーに所属する 6,600 ユーザーが使用するその他の機能を処理する必要があるためです。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>仲介サーバーのパフォーマンスを改善するには、仲介サーバーのネットワーク アダプターの Receive-Side Scaling (RSS) を有効にする必要があります。RSS により、着信パケットをサーバーの複数のプロセッサによって並行して処理することが可能になります。詳細については、「Windows Server 2008 での Receive-Side Scaling 拡張機能」( <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>) を参照してください。RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 仲介サーバーのパフォーマンスを改善するには、仲介サーバーのネットワーク アダプターの Receive-Side Scaling (RSS) を有効にする必要があります。RSS により、着信パケットをサーバーの複数のプロセッサによって並行して処理することが可能になります。詳細については、「Windows Server 2008 での Receive-Side Scaling 拡張機能」( <a href="http://go.microsoft.com/fwlink/?linkid=268731" class="uri">http://go.microsoft.com/fwlink/?linkid=268731</a>) を参照してください。RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。
 
 
 ## バック エンド サーバー

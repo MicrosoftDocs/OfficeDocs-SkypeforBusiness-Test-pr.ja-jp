@@ -23,38 +23,27 @@ _**トピックの最終更新日:** 2016-12-08_
 
 この文書には以下のセクションが含まれています。
 
-  -   
-    Lync 2013 クライアント
+  - Lync 2013 クライアント
 
-  -   
-    Lync Server
+  - Lync Server
 
-  -   
-    インストール
+  - インストール
 
-  -   
-    モビリティ
+  - モビリティ
 
-  -   
-    電話会議
+  - 電話会議
 
-  -   
-    エンタープライズ VoIP
+  - エンタープライズ VoIP
 
-  -   
-    プレゼンス
+  - プレゼンス
 
-  -   
-    応答グループ アプリケーションおよびコール パーク アプリケーション
+  - 応答グループ アプリケーションおよびコール パーク アプリケーション
 
-  -   
-    Lync Server コントロール パネル、トポロジ ビルダー、および計画ツール
+  - Lync Server コントロール パネル、トポロジ ビルダー、および計画ツール
 
-  -   
-    ローカリゼーション
+  - ローカリゼーション
 
-  -   
-    著作権
+  - 著作権
 
 ## Lync 2013 クライアント
 
@@ -91,6 +80,8 @@ Lync Server 2013 の展開で IP アドレスの構成を変更した場合 (IPv
 この問題を回避するには、展開で IP アドレスの構成を変更した後に Lync Server のサービスを再起動します。そのためには、 Lync Server 管理シェルで次のコマンドレットを実行します。
 
     Stop-CsWindowsService -graceful
+
+   &nbsp;
 
     Start-CsWindowsService
 
@@ -150,7 +141,7 @@ Active Directory ドメイン サービス で定義されている電話番号�
     
       - Lync Server 2013 と Lync Server 2010 または Office Communications Server 2007 R2 の組み合わせが展開に含まれる場合、次のコマンドレットを実行し、トポロジの各 Lync Server 2013 プールに割り当てます。
         
-            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            new-csaddressbookconfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  すべてのプールで CMS のレプリケーションが発生するのを待機します。
 
@@ -347,6 +338,8 @@ Windows Fabric のインストールが失敗するのは、ファブリック�
 1.  Windows PowerShell を起動して次のコマンドレットを実行します。
     
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+
+       &nbsp;
     
         $a="HKU:\.Default\Control Panel\International"
 

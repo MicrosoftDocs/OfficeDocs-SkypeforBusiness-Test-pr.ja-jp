@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2013-02-23_
 
-アーカイブ データベースにアーカイブされているデータは、読み取り可能な形式ではなく、検索もできませんが、Export-CsArchivingData コマンドレットを使用すると、アーカイブ データベースからレコードを抽出して Outlook Electronic Mail (EML) ファイルとして保存できます。アーカイブされたデータのエクスポートの詳細については、「操作」のドキュメントの「[Export-CsArchivingData](export-csarchivingdata.md)」を参照してください。
+アーカイブ データベースにアーカイブされているデータは、読み取り可能な形式ではなく、検索もできませんが、Export-CsArchivingData コマンドレットを使用すると、アーカイブ データベースからレコードを抽出して Outlook Electronic Mail (EML) ファイルとして保存できます。アーカイブされたデータのエクスポートの詳細については、「操作」のドキュメントの「[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)」を参照してください。
 
 Microsoft Exchange 統合を有効にすると、データは Exchange 2013 ストアにアーカイブされます。Exchange 2013 にアーカイブされたデータは検索および発見の対象にできます。Exchange 2013 と Lync Server 2013 で統合されたコミュニケーションのサポートの詳細については、「サポート」のドキュメントの「[Lync Server 2013 の Exchange Server および SharePoint の統合のサポート](lync-server-2013-exchange-and-sharepoint-integration-support.md)」を参照してください。Exchange にアーカイブされているデータへのアクセスの詳細については、Exchange 2013 のドキュメントを参照してください。
 
@@ -35,7 +35,7 @@ Microsoft Exchange 統合を有効にすると、データは Exchange 2013 ス�
     
         Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.litwareinc.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@litwareinc.com"
 
-詳細については、[Export-CsArchivingData](export-csarchivingdata.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 
@@ -45,6 +45,6 @@ Microsoft Exchange 統合を有効にすると、データは Exchange 2013 ス�
 
 #### その他のリソース
 
-[Export-CsArchivingData](export-csarchivingdata.md)  
+[Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)  
 [Lync Server 2013 アーカイブの管理](lync-server-2013-managing-archiving.md)
 

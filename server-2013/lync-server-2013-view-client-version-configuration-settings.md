@@ -58,5 +58,5 @@ _**トピックの最終更新日:** 2013-02-23_
         DefaultURL    :
         Enabled       : True
 
-詳細については、[Get-CsClientVersionConfiguration](get-csclientversionconfiguration.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Get-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientVersionConfiguration) コマンドレットに関するヘルプ トピックを参照してください。
 

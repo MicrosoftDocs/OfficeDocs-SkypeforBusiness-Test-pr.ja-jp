@@ -19,18 +19,9 @@ _**トピックの最終更新日:** 2015-03-09_
 
 ユーザーが PSTN からダイヤルインして音声ビデオ会議に参加するには、次の表のすべての手順を実行する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Office Communications Server 2007 R2 から移行している場合は、ダイヤルイン会議を展開する前に、 Office Communications Server 2007 R2 環境に最新の更新プログラムを適用する必要があります。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Office Communications Server 2007 R2 から移行している場合は、ダイヤルイン会議を展開する前に、 Office Communications Server 2007 R2 環境に最新の更新プログラムを適用する必要があります。
 
 
 ### ダイヤルイン会議の展開プロセス
@@ -57,19 +48,9 @@ _**トピックの最終更新日:** 2015-03-09_
 <li><p>トポロジ ビルダーを実行してトポロジを構成します。トポロジの構成時に、ダイヤルイン会議オプションを選択します。</p></li>
 <li><p>トポロジを公開し、 フロント エンド プールまたは Standard Edition サーバーを展開します。</p></li>
 <li><p>必要に応じて、スタンドアロンの 仲介サーバーを作成し、PSTN ゲートウェイに関連付けます。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この手順は、エンタープライズ VoIP を展開せず、仲介サーバー を Enterprise Editionフロント エンド サーバー または Standard Edition サーバー と併置しない場合にのみ必要です。エンタープライズ VoIP を展開する場合、仲介サーバー および PSTN ゲートウェイを エンタープライズ VoIP 展開の一部としてインストールし、構成します。仲介サーバー を併置する場合、仲介サーバー を フロント エンド プール または Standard Edition サーバー 展開の一部としてインストールし、構成します。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> この手順は、エンタープライズ VoIP を展開せず、仲介サーバー を Enterprise Editionフロント エンド サーバー または Standard Edition サーバー と併置しない場合にのみ必要です。エンタープライズ VoIP を展開する場合、仲介サーバー および PSTN ゲートウェイを エンタープライズ VoIP 展開の一部としてインストールし、構成します。仲介サーバー を併置する場合、仲介サーバー を フロント エンド プール または Standard Edition サーバー 展開の一部としてインストールし、構成します。
 
 </div></li>
 </ol></td>
@@ -128,19 +109,9 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="even">
 <td><p><strong>ダイヤルイン アクセス番号を構成する</strong></p></td>
 <td><p>Lync Server 2013 コントロール パネルまたは Lync Server 管理シェルを使用して、ユーザーが会議にダイヤルインするために呼び出すダイヤルイン アクセス番号を設定し、そのアクセス番号を適切なダイヤル プランに関連付ける地域を指定します。開催者のダイヤル プランで指定されている地域の最初の 3 つのアクセス番号が会議開催通知に含まれます。すべてのアクセス番号が ダイヤルイン会議の設定ページに表示されます。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ダイヤルイン アクセス番号を作成したら、 <strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用して、ユーザーが正しいアクセス番号を容易に確認できるよう、 Active Directory の連絡先オブジェクトの表示名を変更できます。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> ダイヤルイン アクセス番号を作成したら、 <strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用して、ユーザーが正しいアクセス番号を容易に確認できるよう、 Active Directory の連絡先オブジェクトの表示名を変更できます。
 
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>

@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2012-11-01_
 
-Stop-CsClsLogging コマンドレットを使用すると、現在実行中のログ セッションを停止できます。一般に、ログ セッションを停止しなければならない状況は多くありません。たとえば、ログを検索して構成を変更する場合も、最初にログを停止する必要はありません。例として、AlwaysOn と UserReplicator を実行する 2 つのシナリオで、Authentication に関連する情報を収集する必要がある場合を考えます。この場合、Authentication シナリオの実行を開始する前に、AlwaysOn または UserReplicator のどちらか一方のシナリオを (グローバル、サイト、プール、またはコンピューター スコープで) 停止する必要があります。詳細については、「[Stop-CsClsLogging](stop-csclslogging.md)」を参照してください。
+Stop-CsClsLogging コマンドレットを使用すると、現在実行中のログ セッションを停止できます。一般に、ログ セッションを停止しなければならない状況は多くありません。たとえば、ログを検索して構成を変更する場合も、最初にログを停止する必要はありません。例として、AlwaysOn と UserReplicator を実行する 2 つのシナリオで、Authentication に関連する情報を収集する必要がある場合を考えます。この場合、Authentication シナリオの実行を開始する前に、AlwaysOn または UserReplicator のどちらか一方のシナリオを (グローバル、サイト、プール、またはコンピューター スコープで) 停止する必要があります。詳細については、「[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)」を参照してください。
 
 <table>
 <thead>
@@ -50,7 +50,7 @@ Lync Server 管理シェルを使用して 集中ログ サービス 機能を�
     
     ![Show-CsCl 呼び出し後の Windows PowerShell コンソール](images/JJ687964.eb190c32-529c-4277-a731-52c47d22d8fa(OCS.15).jpg "Show-CsCl 呼び出し後の Windows PowerShell コンソール")
     
-    Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。詳細については、「[Show-CsClsLogging](show-csclslogging.md)」を参照してください。
+    Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。詳細については、「[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)」を参照してください。
 
 3.  特定のシナリオによる現在実行中のログ セッションを停止するには、次のように入力します。
     
@@ -70,7 +70,7 @@ Lync Server 管理シェルを使用して 集中ログ サービス 機能を�
     </thead>
     <tbody>
     <tr class="odd">
-    <td>UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。詳細については、「<a href="search-csclslogging.md">Search-CsClsLogging</a>」を参照してください。</td>
+    <td>UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging">Search-CsClsLogging</a>」を参照してください。</td>
     </tr>
     </tbody>
     </table>
@@ -90,7 +90,7 @@ Start-CsClsLogging と対になる Stop-CsClsLogging コマンドレットは、
 
 #### その他のリソース
 
-[Show-CsClsLogging](show-csclslogging.md)  
-[Start-CsClsLogging](start-csclslogging.md)  
-[Stop-CsClsLogging](stop-csclslogging.md)
+[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)  
+[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)  
+[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)
 

@@ -29,7 +29,7 @@ Lync ServerWindows PowerShell コマンドの New-CsNetworkRegion、または Ly
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
-詳細については、「[New-CsNetworkRegion](new-csnetworkregion.md)」を参照してください。
+詳細については、「[New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)」を参照してください。
 
 この例では、次の Windows PowerShell コマンドは、このシナリオで定義されているネットワーク地域 region 1 (India) を示しています。
 
@@ -42,7 +42,7 @@ Lync ServerWindows PowerShell コマンドの New-CsNetworkSite または Lync S
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
-詳細については、「[New-CsNetworkSite](new-csnetworksite.md)」を参照してください。
+詳細については、「[New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)」を参照してください。
 
 この例では、次の表および Lync ServerWindows PowerShell コマンドがこのシナリオで定義されるネットワーク サイトを示しています。わかりやすく説明するために、表に含まれているのは場所に基づくルーティングに固有の設定のみです。
 
@@ -85,7 +85,7 @@ Lync ServerWindows PowerShell コマンドの New-CsNetworkSubnet または Lync
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
-詳細については、「[New-CsNetworkSubnet](new-csnetworksubnet.md)」を参照してください。
+詳細については、「[New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
 この例では、ネットワーク サイト (Delhi および Hyderabad) へのネットワーク サブネットの割り当てを次の表および Windows PowerShell コマンドに示します。わかりやすく説明するために、表に含まれているのは場所に基づくルーティングに固有の設定のみです。
 

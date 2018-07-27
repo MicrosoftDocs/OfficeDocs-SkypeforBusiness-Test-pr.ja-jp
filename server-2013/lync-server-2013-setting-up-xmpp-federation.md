@@ -82,6 +82,8 @@ XMPP プロキシをエッジ サーバーに展開するには、エッジ サ�
 22. パブリック証明書の受信、インポート、および割り当てを行った後、エッジ サーバー サービスを停止して再起動する必要があります。これは、Lync Server 管理コンソールで次のコマンドを入力して行います。
     
         Stop-CsWindowsService
+
+       &nbsp;
     
         Start-CsWindowsService
 
@@ -96,20 +98,28 @@ XMPP プロキシをエッジ サーバーに展開するには、エッジ サ�
 24. フロントエンドで Lync Server 管理シェルを開き、次のコマンドを入力することによって、すべてのユーザーを有効にする新しい外部アクセス ポリシーを構成します。
     
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+
+       &nbsp;
     
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+
+       &nbsp;
     
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
     
     次のように入力して、外部ユーザーの XMPP アクセスを有効にします。
     
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+
+       &nbsp;
     
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
 
 25. XMPP プロキシが展開されている エッジ サーバーで、コマンド プロンプトまたは Windows PowerShell™ コマンドライン インターフェイスを開き、次のように入力します。
     
         Netstat -ano | findstr 5269
+
+       &nbsp;
     
         Netstat -ano | findstr 23456
     

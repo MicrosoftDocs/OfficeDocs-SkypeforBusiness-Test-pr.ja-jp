@@ -95,7 +95,7 @@ Lync Server 管理シェル コマンドレットおよび **Grant-CsMobilityPol
 
 ## ユーザー単位のモビリティ ポリシーを複数のユーザーに割り当てるには
 
-  - 次のコマンドは、ユーザー単位のモビリティ ポリシー RedmondMobilityPolicy を、ポリシー NorthAmericaMobilityPolicy が現在割り当てられているすべてのユーザーに割り当てます。このコマンドで使用する Filter パラメーターについては、「[Get-CsUser](get-csuser.md)」を参照してください。
+  - 次のコマンドは、ユーザー単位のモビリティ ポリシー RedmondMobilityPolicy を、ポリシー NorthAmericaMobilityPolicy が現在割り当てられているすべてのユーザーに割り当てます。このコマンドで使用する Filter パラメーターについては、「[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser)」を参照してください。
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
@@ -105,7 +105,7 @@ Lync Server 管理シェル コマンドレットおよび **Grant-CsMobilityPol
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、「[Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)」を参照してください。
+詳細については、「[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)」を参照してください。
 
 ## 関連項目
 

@@ -17,34 +17,14 @@ _**トピックの最終更新日:** 2012-10-19_
 
 ユーザーを Lync Server 2013 プールに移動した後、応答グループを移行できます。応答グループの移行には、エージェント グループ、キュー、ワークフロー、オーディオ ファイルのコピー、およびレガシ展開から Lync Server 2013 プールへの 応答グループ連絡先オブジェクトの移動が含まれます。レガシ応答グループを移行した後、応答グループへの通話は Lync Server 2013 プールの 応答グループ アプリケーションによって処理され、レガシ プールによっては処理されなくなります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すべてのユーザーを Lync Server 2013 プールに移動する前に応答グループを移行することもできますが、まずすべてのユーザーを移動することをお勧めします。特に、応答グループ エージェントであるユーザーは、Lync Server 2013 プールに移動されるまでは新機能の一部を使用できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> すべてのユーザーを Lync Server 2013 プールに移動する前に応答グループを移行することもできますが、まずすべてのユーザーを移動することをお勧めします。特に、応答グループ エージェントであるユーザーは、Lync Server 2013 プールに移動されるまでは新機能の一部を使用できません。
 
 
 応答グループを移行する前に、応答グループ アプリケーションを含む Lync Server 2013 プールを展開しておく必要があります。エンタープライズ VoIP を展開すると、応答グループ アプリケーションが既定でインストールされ、アクティブ化されます。応答グループ アプリケーションがインストールされていることを確認するには、**Get-CsService–ApplicationServer** コマンドレットを実行します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>レガシ応答グループを移行する前に、Lync Server 2013 プールに新しい Lync Server 2013 応答グループを作成できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> レガシ応答グループを移行する前に、Lync Server 2013 プールに新しい Lync Server 2013 応答グループを作成できます。
 
 
 レガシ プールから Lync Server 2013 に応答グループを移行するには、**Move-CsRgsConfiguration** コマンドレットを実行します。**Move-CsRgsConfiguration** コマンドレットを実行する前に、まず Windows Management Instrumentation (WMI) 下位互換性インターフェイス パッケージをインストールする必要があります。このアプリケーションは、OCSWMIBC.msi を実行してインストールします。OCSWMIBC.msi は、インストール メディアの Setup フォルダーにあります。
@@ -97,47 +77,17 @@ _**トピックの最終更新日:** 2012-10-19_
 
 5.  Office Communications Server 2007 R2 環境に Microsoft Office Communicator 2007 R2 の \[応答グループ\] タブを展開していた場合は、そのタブを Office Communicator 2007 R2 tabs.xml ファイルから削除します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>正規のエージェントが通話を受信するには、[応答グループ] タブを使用して応答グループにサインインする必要がありました。[応答グループ] タブを展開していた場合は、その展開時に、Office Communicator 2007 R2 tabs.xml ファイルの場所を選択しています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 正規のエージェントが通話を受信するには、[応答グループ] タブを使用して応答グループにサインインする必要がありました。[応答グループ] タブを展開していた場合は、その展開時に、Office Communicator 2007 R2 tabs.xml ファイルの場所を選択しています。
 
 
 6.  各エージェントが各応答グループにサインインおよびサインアウトするために必要な更新後の URL をユーザーに付与します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この URL は、一般的には、https://webpoolFQDN/RgsClients/Tab.aspx です。&quot;webpoolFQDN&quot; は、前の手順で Lync Server 2013 に移行したプールに関連付けられる Web プールの完全修飾ドメイン名 (FQDN) です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この URL は、一般的には、https://webpoolFQDN/RgsClients/Tab.aspx です。&quot;webpoolFQDN&quot; は、前の手順で Lync Server 2013 に移行したプールに関連付けられる Web プールの完全修飾ドメイン名 (FQDN) です。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この手順は、ユーザーを Lync 2013 にアップグレードした後は不要です。この URL は、Lync の [<strong>ツール</strong>] メニューから使用できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この手順は、ユーザーを Lync 2013 にアップグレードした後は不要です。この URL は、Lync の [<strong>ツール</strong>] メニューから使用できます。
 
 
 ## Lync Server コントロール パネルを使用して応答グループの移行を確認するには

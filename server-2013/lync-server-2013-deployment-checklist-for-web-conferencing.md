@@ -45,19 +45,9 @@ Web 会議は、最初のトポロジを展開するのと同時に展開する�
 <tr class="odd">
 <td><p><strong>必要なハードウェアとソフトウェアのインストール</strong></p></td>
 <td><p>Web 会議は、フロント エンド プールと Standard Edition サーバーのフロント エンド サーバーで実行されます。これらのサーバーのインストールに必要なもの以外には、追加のハードウェア要件やソフトウェア要件はありません。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションの共有とレンダリングを処理します。Office Web Apps サーバー のインストールと構成については、「<a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Lync Server 2013 と Office Web Apps サーバーの統合の構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync Server 2013 では、Office Web Apps と Office Web Apps サーバー を使用して、PowerPoint プレゼンテーションの共有とレンダリングを処理します。Office Web Apps サーバー のインストールと構成については、「<a href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Lync Server 2013 と Office Web Apps サーバーの統合の構成</a>」を参照してください。
 
 </div></td>
 <td><p>ローカルの Administrators グループのメンバーであるドメイン ユーザー</p></td>
@@ -89,8 +79,7 @@ Web 会議は、最初のトポロジを展開するのと同時に展開する�
 **MaxUploadFileSizeMb** では、Lync Web App のファイルのアップロードの設定が制限されません。Lync Web App のファイルのアップロード サイズの制限は約 30 MB に設定され、IIS の web.config ファイル (/DataCollabWeb/Int\[Ext\]/Handler/web.config) によって制御されます。Lync Web App のファイルのアップロード サイズの制限を構成するには、以下のように、web.config ファイルで `maxRequestLength` および `maxAllowedContentLength` を更新してください。
 
     <system.web>
-        <!-- 
-            Since this handler is used to upload files to DMCU the request size (in kilobytes) 
+        <!-- Since this handler is used to upload files to DMCU the request size (in kilobytes) 
             has to fit max allowed file size uploaded by LWA client.
             The timeout has to reflect the min client bandwidth. Timeout of 600 secs 
             and 512 Kbits of *client* bandwidth would result into aproximately 30 Mbytes 

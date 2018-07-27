@@ -69,21 +69,10 @@ Microsoft Lync Server 2013 には、内部サーバーおよびエッジ サー�
 </ul>
 <p></p></td>
 <td><p><strong>Domain Admins</strong> グループおよび <strong>RTCUniversalServerAdmins</strong> または <strong>CsAdmins</strong> グループ</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ローカル ユーザー グループのメンバーであるアカウントを使用してトポロジを定義することはできますが、トポロジを公開するには <strong>Domain Admins</strong> グループおよび <strong>RTCUniversalServerAdmins</strong> グループのメンバーであるアカウントが必要です。</td>
-</tr>
-</tbody>
-</table>
 
-</div></td>
+> [!NOTE]
+> ローカル ユーザー グループのメンバーであるアカウントを使用してトポロジを定義することはできますが、トポロジを公開するには <strong>Domain Admins</strong> グループおよび <strong>RTCUniversalServerAdmins</strong> グループのメンバーであるアカウントが必要です。
+
 <td><p>「展開」のドキュメントの「<a href="lync-server-2013-building-an-edge-and-director-topology.md">Lync Server 2013 でのエッジおよびディレクターのトポロジの作成</a>」</p></td>
 </tr>
 <tr class="even">
@@ -94,7 +83,7 @@ Microsoft Lync Server 2013 には、内部サーバーおよびエッジ サー�
 <li><p>内部および外部の DNS レコード (IPv4 および IPv6 の場合はホスト A および AAAA) を構成します。これにはエッジ サーバーとして展開されるコンピューターでの DNS サフィックスの構成も含まれます。</p></li>
 <li><p>(オプション) パブリック証明書を作成してインストールします。証明書の取得に必要な時間は、証明書を発行する証明機関 (CA) によって異なります。現時点でこのステップを実行しない場合は、エッジ サーバーのインストール時に実行する必要があります。証明書を取得してインストールしないと、エッジ サーバー サービスを開始できません。</p></li>
 <li><p>展開が Windows Live、AOL、または Yahoo! ユーザーとの通信をサポートする場合は、パブリック IM 接続のサポートをプロビジョニングします。</p>
-<div class="alert">
+
 
 > [!IMPORTANT]
 > <UL>
@@ -106,7 +95,7 @@ Microsoft Lync Server 2013 には、内部サーバーおよびエッジ サー�
 > <P>Lync は組織間を接続したり世界中のユーザーと接続したりするための、これまで以上の強力なツールとなります。Windows Live Messenger とのフェデレーションを行うのに、Lync Standard CAL を超えてユーザー/デバイス ライセンスを追加する必要はありません。Skype フェデレーションがこのリストに追加されることで、Lync ユーザーは IM および音声を使用して数億のユーザーにアクセスできます。</P></LI></UL>
 
 
-</div></li>
+
 <li><p>展開で使用する場合は、XMPP のサポートおよび Office Communications Server 2007、Office Communications Server 2007 R2、Lync Server 2010 パートナーのフェデレーション サポートをプロビジョニングします。</p></li>
 <li><p>ファイアウォールの構成。</p></li>
 </ol></td>

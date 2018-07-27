@@ -19,7 +19,7 @@ PurgeSettings テーブルには、古くなった通話詳細記録を CDR デ�
 
     Get-CsCdrConfiguration
 
-PurgeSettings テーブルは読み取り専用として扱う必要があります。通話詳細記録の削除設定を変更するには、[New-CsCdrConfiguration](new-cscdrconfiguration.md) コマンドレットまたは [Set-CsCdrConfiguration](set-cscdrconfiguration.md) コマンドレットを使用する必要があります。
+PurgeSettings テーブルは読み取り専用として扱う必要があります。通話詳細記録の削除設定を変更するには、[New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) コマンドレットまたは [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) コマンドレットを使用する必要があります。
 
 このテーブルは、Microsoft Lync Server 2013 で導入されました。
 

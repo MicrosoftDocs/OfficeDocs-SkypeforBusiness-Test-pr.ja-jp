@@ -108,5 +108,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-詳細については、[New-CsMeetingConfiguration](new-csmeetingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

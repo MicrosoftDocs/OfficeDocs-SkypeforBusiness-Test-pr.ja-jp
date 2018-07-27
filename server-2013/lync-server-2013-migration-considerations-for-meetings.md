@@ -72,7 +72,7 @@ _**トピックの最終更新日:** 2014-02-10_
 
   - 会議コンテンツ。たとえば、PowerPoint プレゼンテーション、ホワイト ボードの内容、投票のデータなどです。
 
-会議で共有されていたコンテンツを移動するには、Move-CsUser コマンドレットの MoveMeetingContent パラメーターを使用します。このコマンドレットについて詳しくは、「Lync Server 2013 のコマンドレット」のドキュメントの「[Move-CsUser](move-csuser.md)」をご覧ください。
+会議で共有されていたコンテンツを移動するには、Move-CsUser コマンドレットの MoveMeetingContent パラメーターを使用します。このコマンドレットについて詳しくは、「Lync Server 2013 のコマンドレット」のドキュメントの「[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)」をご覧ください。
 
 ## Office Communications Server 2007 R2 からの会議の移行
 

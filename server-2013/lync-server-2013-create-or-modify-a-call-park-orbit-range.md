@@ -102,6 +102,6 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[New-CsCallParkOrbit](new-cscallparkorbit.md)  
-[Set-CsCallParkOrbit](set-cscallparkorbit.md)
+[New-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCallParkOrbit)  
+[Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit)
 

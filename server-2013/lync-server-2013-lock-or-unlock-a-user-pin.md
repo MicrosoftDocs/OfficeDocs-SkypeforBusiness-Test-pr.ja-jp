@@ -99,5 +99,5 @@ Windows PowerShell と Lock-CsClientPin および Unlock-CsClientPin コマン�
     
         Unlock-CsClientPin -Identity "Ken Myer"
 
-詳細については、[Lock-CsClientPin](lock-csclientpin.md) および [Unlock-CsClientPin](unlock-csclientpin.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Lock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Lock-CsClientPin) および [Unlock-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Unlock-CsClientPin) コマンドレットのヘルプ トピックを参照してください。
 
