@@ -21,7 +21,7 @@ Lync Server では、アドレス帳サービスの管理や構成を行うた�
 
 ## このセクション中
 
-  - [アドレス帳管理用の new-csaddressbookconfiguration](lync-server-2013-new-csaddressbookconfiguration-for-address-book-management.md)
+  - [アドレス帳管理用の New-CsAddressBookConfiguration](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
   - [アドレス帳管理用の Set-CsAddressBookConfiguration](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -41,7 +41,7 @@ Lync Server では、アドレス帳サービスの管理や構成を行うた�
 
   - [アドレス帳管理用の Get-CsService](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [アドレス帳管理用の new-cswebserviceconfiguration](lync-server-2013-new-cswebserviceconfiguration-for-address-book-management.md)
+  - [アドレス帳管理用の New-CsWebServiceConfiguration](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
   - [アドレス帳管理用の Get-CsWebServiceConfiguration](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 

@@ -132,23 +132,23 @@ _**トピックの最終更新日:** 2015-03-09_
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-トランクごとのトランク構成が作成されたら、Lync ServerWindows PowerShell コマンドである set-cstrunkconfiguration を使用して、ルーティングの制限を適用する必要のあるトランクに対して場所に基づくルーティングを有効にすることができます。PSTN ゲートウェイに通話をルーティングするトランクに対して場所に基づくルーティングを有効にし、ゲートウェイが配置されているネットワーク サイトを関連付けます。
+トランクごとのトランク構成が作成されたら、Lync ServerWindows PowerShell コマンドである Set-CsTrunkConfiguration を使用して、ルーティングの制限を適用する必要のあるトランクに対して場所に基づくルーティングを有効にすることができます。PSTN ゲートウェイに通話をルーティングするトランクに対して場所に基づくルーティングを有効にし、ゲートウェイが配置されているネットワーク サイトを関連付けます。
 
-    set-cstrunkconfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
+    Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 詳細については、「[New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration)」を参照してください。
 
 この例では、Delhi および Hyderabad の PSTN ゲートウェイに関連付けられているトランクごとに場所に基づくルーティングが有効になります。
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
 PSTN に通話をルーティングしないトランクに対しては、場所に基づくルーティングを有効にしないでください。ただし、システムが配置されているネットワーク サイトにはトランクを関連付ける必要があります。これは、このトランクを使用して接続されるエンドポイントに到達する PSTN 通話に、場所に基づくルーティングの制限を適用する必要があるためです。この例では、Delhi および Hyderabad の PBX システムに関連付けられている各トランクに対しては、場所に基づくルーティングが有効になりません。
 
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
-    set-cstrunkconfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
+    Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
 PSTN (PBX) に通話をルーティングしないシステムに接続されるエンドポイントにおける制限は、場所に基づくルーティングが有効なユーザーの Lync エンドポイントと同様です。つまり、これらのユーザーは場所に関係なく、Lync ユーザーとの通話を発信および着信できます。また、システムが関連付けられているネットワーク サイトに関係なく、PSTN ネットワーク (別の PBX に接続されるエンドポイント) に通話をルーティングしない他のシステムとの通話を発信および着信することもできます。着信通話、発信通話、通話の転送、PSTN エンドポイントが関係する着信の転送にはすべて、場所に基づくルーティングが適用されます。このような通話では、該当するシステムに対してローカルであると定義されている PSTN ゲートウェイだけを使用する必要があります。

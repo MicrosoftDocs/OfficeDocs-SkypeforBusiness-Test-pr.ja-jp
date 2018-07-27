@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2013-02-20_
 
-**move-csmeetingroom** コマンドレットを使用して会議デバイスをレジストラー プール間で移動します。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
+**Move-CsMeetingRoom** コマンドレットを使用して会議デバイスをレジストラー プール間で移動します。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
 
 <table>
 <thead>
@@ -36,7 +36,7 @@ _**トピックの最終更新日:** 2013-02-20_
 
   - 会議デバイスを移動するには、移動元の部屋の ID を指定した後、Target パラメータを、デバイスの移動先のレジストラー プールの完全修飾ドメイン名 (FQDN) に設定する必要があります。たとえば、次のようになります。
     
-        move-csmeetingroom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
+        Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
-詳細については、[move-csmeetingroom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Move-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsMeetingRoom) コマンドレットに関するヘルプ トピックを参照してください。
 

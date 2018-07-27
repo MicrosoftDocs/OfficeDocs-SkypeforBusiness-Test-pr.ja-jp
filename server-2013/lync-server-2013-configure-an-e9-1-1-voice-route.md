@@ -25,7 +25,7 @@ E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構
 </thead>
 <tbody>
 <tr class="odd">
-<td>E9-1-1 INVITE に場所情報を含めるには、緊急通話がゲートウェイを経由してルーティングされるように、E9-1-1 サービス プロバイダーに接続する SIP トランクを構成する必要があります。これを行うには、<strong>set-cstrunkconfiguration</strong> コマンドレットの EnablePIDFLOSupport フラグを True に設定します。EnablePIDFLOSupport の既定値は False です。次にその例を示します。<code>set-cstrunkconfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
+<td>E9-1-1 INVITE に場所情報を含めるには、緊急通話がゲートウェイを経由してルーティングされるように、E9-1-1 サービス プロバイダーに接続する SIP トランクを構成する必要があります。これを行うには、<strong>Set-CsTrunkConfiguration</strong> コマンドレットの EnablePIDFLOSupport フラグを True に設定します。EnablePIDFLOSupport の既定値は False です。次にその例を示します。<code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
 フォールバック公衆交換電話網 (PSTN) ゲートウェイと Emergency Location Identification Number (ELIN) ゲートウェイに対して、場所の受信を有効にする必要はありません。</td>
 </tr>
 </tbody>

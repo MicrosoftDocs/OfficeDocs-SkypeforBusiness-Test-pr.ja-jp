@@ -153,7 +153,7 @@ Lync Server コントロール パネルを使用して SIP トランクの構�
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">set-cstrunkconfiguration</a> コマンドレットのヘルプ トピックを参照してください。</td>
+<td>Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> コマンドレットのヘルプ トピックを参照してください。</td>
 </tr>
 </tbody>
 </table>

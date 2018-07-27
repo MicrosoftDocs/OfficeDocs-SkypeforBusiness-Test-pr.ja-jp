@@ -15,17 +15,17 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2012-09-24_
 
-グローバルなホスト ボイス メール ポリシーは、Lync Server 2013 と一緒にインストールされます。グローバル ポリシーを必要に応じて変更することはできますが、名前変更や削除はできません。 グローバル ポリシーを変更するには、set-cshostedvoicemailpolicy コマンドレットを使用して、パラメーターを固有の展開に合わせた値に設定します。
+グローバルなホスト ボイス メール ポリシーは、Lync Server 2013 と一緒にインストールされます。グローバル ポリシーを必要に応じて変更することはできますが、名前変更や削除はできません。 グローバル ポリシーを変更するには、Set-CsHostedVoicemailPolicy コマンドレットを使用して、パラメーターを固有の展開に合わせた値に設定します。
 
-[set-cshostedvoicemailpolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) コマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
+[Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) コマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
 
 ## グローバル ホスト ボイス メール ポリシーを変更するには
 
 1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
 
-2.  set-cshostedvoicemailpolicy コマンドレットを実行して、グローバル ポリシー パラメーターを環境に合わせた値に設定します。たとえば、以下を実行します。
+2.  Set-CsHostedVoicemailPolicy コマンドレットを実行して、グローバル ポリシー パラメーターを環境に合わせた値に設定します。たとえば、以下を実行します。
     
-        set-cshostedvoicemailpolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
+        Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
     このコマンドはポリシーの Identity パラメーターを指定しないため、Windows PowerShell コマンドライン インターフェイス がグローバルなホスト ボイス メール ポリシーに対して次の各値を設定します。
     
@@ -48,5 +48,5 @@ _**トピックの最終更新日:** 2012-09-24_
     
         $a = Get-CsHostedVoicemailPolicy
         $a.Organization += ",corp3.litwareinc.com"
-        set-cshostedvoicemailpolicy -Organization $a.Organization
+        Set-CsHostedVoicemailPolicy -Organization $a.Organization
 
