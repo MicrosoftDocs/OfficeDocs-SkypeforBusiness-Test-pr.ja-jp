@@ -17,19 +17,10 @@ _**トピックの最終更新日:** 2012-09-17_
 
 E9-1-1 を展開するには、まず緊急通話用のボイス ルートを構成する必要があります。ボイス ルートを作成する方法の詳細については、「[Lync Server 2013 でのボイス ルートの作成](lync-server-2013-create-a-voice-route.md)」を参照してください。展開にプライマリ SIP トランクおよびセカンダリ SIP トランクが含まれている場合などは、複数のルートを定義できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>E9-1-1 INVITE に場所情報を含めるには、緊急通話がゲートウェイを経由してルーティングされるように、E9-1-1 サービス プロバイダーに接続する SIP トランクを構成する必要があります。これを行うには、<strong>Set-CsTrunkConfiguration</strong> コマンドレットの EnablePIDFLOSupport フラグを True に設定します。EnablePIDFLOSupport の既定値は False です。次にその例を示します。<code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
-フォールバック公衆交換電話網 (PSTN) ゲートウェイと Emergency Location Identification Number (ELIN) ゲートウェイに対して、場所の受信を有効にする必要はありません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> E9-1-1 INVITE に場所情報を含めるには、緊急通話がゲートウェイを経由してルーティングされるように、E9-1-1 サービス プロバイダーに接続する SIP トランクを構成する必要があります。これを行うには、<strong>Set-CsTrunkConfiguration</strong> コマンドレットの EnablePIDFLOSupport フラグを True に設定します。EnablePIDFLOSupport の既定値は False です。次にその例を示します。<code>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</code><br />
+フォールバック公衆交換電話網 (PSTN) ゲートウェイと Emergency Location Identification Number (ELIN) ゲートウェイに対して、場所の受信を有効にする必要はありません。
 
 
 ボイス ルートの操作の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
