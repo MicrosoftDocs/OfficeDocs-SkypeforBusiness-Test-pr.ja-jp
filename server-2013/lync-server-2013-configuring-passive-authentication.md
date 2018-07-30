@@ -43,7 +43,7 @@ _**トピックの最終更新日:** 2013-07-11_
 
 3.  Lync Server 管理シェル コマンドラインから次のコマンドを実行して、パッシブ認証を有効にするディレクター、エンタープライズ プール、Standard Edition サーバーそれぞれに新しい Web サービス構成設定を作成します。
     
-        new-cswebserviceconfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     
 
     > [!WARNING]

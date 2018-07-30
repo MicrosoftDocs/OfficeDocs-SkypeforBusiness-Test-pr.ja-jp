@@ -24,19 +24,8 @@ _**トピックの最終更新日:** 2012-11-01_
 > ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。詳細については、「<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">Lync Server 2013 でのハント グループ ワークフローの作成または変更</A>」および「<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">Lync Server 2013 での対話ワークフローの作成または変更</A>」を参照してください。
 
 
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。
 
 
 
@@ -53,7 +42,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 3.  定義する一意の時間の範囲ごとに、以下を実行します。
     
-        $x = new-csrgstimerange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
+        $x = New-CsRgsTimeRange [-Name <name of time range>] -OpenTime <time when business hours begin> -CloseTime <time when business hours end>
     
     定義した範囲を使用する営業時間コレクションを作成するには、以下を実行します。
     
@@ -75,6 +64,6 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[new-csrgstimerange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
+[New-CsRgsTimeRange](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsTimeRange)  
 [New-CsRgsHoursOfBusiness](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoursOfBusiness)
 
