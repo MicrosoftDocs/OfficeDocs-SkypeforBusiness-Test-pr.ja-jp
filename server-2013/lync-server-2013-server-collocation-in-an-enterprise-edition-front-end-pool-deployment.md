@@ -57,18 +57,8 @@ Lync Server 2013 では、音声ビデオ会議サービス、仲介サービス
 
 このセクションで後述するように、ファイル共有をデータベースと併置できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、アーカイブ用ストレージと展開内の一部またはすべてのユーザーの Exchange 2013 ストレージを統合できます。 Lync Server を実行するサーバーまたはコンポーネントを Exchange ストレージと同じサーバー上に展開することはできません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、アーカイブ用ストレージと展開内の一部またはすべてのユーザーの Exchange 2013 ストレージを統合できます。 Lync Server を実行するサーバーまたはコンポーネントを Exchange ストレージと同じサーバー上に展開することはできません。
 
 
 
@@ -93,18 +83,8 @@ Lync Server 2013 では、音声ビデオ会議サービス、仲介サービス
 
 単一のファイル共有を複数のフロントエンド プール、および複数の Standard Edition サーバーで使用できます (これらのプールやサーバーはすべて同じサイトに存在)。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、監視およびアーカイブは Lync Server ファイル共有をフロントエンド サーバーとして使用します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、監視およびアーカイブは Lync Server ファイル共有をフロントエンド サーバーとして使用します。
 
 
 ## その他のコンポーネント

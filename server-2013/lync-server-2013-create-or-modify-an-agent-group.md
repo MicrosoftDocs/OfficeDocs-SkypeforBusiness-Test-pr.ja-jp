@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2014-02-07_
 
 エージェント グループを作成または変更するには、以下の手順のいずれかを使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CsVoiceAdministrator などの管理者が、エンタープライズ VoIP および Lync Server のユーザーをエージェント グループに割り当てられるようにするには、これらのユーザーを有効にする必要があります。管理ワークフローの委任された応答グループ マネージャーであれば、エージェント グループを作成し、管理するワークフローでそのグループを使用できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> CsVoiceAdministrator などの管理者が、エンタープライズ VoIP および Lync Server のユーザーをエージェント グループに割り当てられるようにするには、これらのユーザーを有効にする必要があります。管理ワークフローの委任された応答グループ マネージャーであれば、エージェント グループを作成し、管理するワークフローでそのグループを使用できます。
 
 
 
@@ -41,18 +31,8 @@ _**トピックの最終更新日:** 2014-02-07_
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>管理ワークフローの委任された応答グループ マネージャーであれば、グループを作成し、自分が管理するワークフローにそれらを使用することができます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 管理ワークフローの委任された応答グループ マネージャーであれば、グループを作成し、自分が管理するワークフローにそれらを使用することができます。
 
 
 2.  ブラウザー ウィンドウを開いて管理 URL を入力し、Lync Server コントロール パネルを開きます。Lync Server コントロール パネルを開くために使用できる他の方法の詳細については、「[Lync Server 2013 管理ツールを開く](lync-server-2013-open-lync-server-administrative-tools.md)」を参照してください。

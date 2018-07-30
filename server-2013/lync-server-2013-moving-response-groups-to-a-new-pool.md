@@ -19,18 +19,8 @@ Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なってい�
 
 応答グループをあるフロント エンド プールから異なる FQDN を持つ別のフロント エンド プールに移動するには、次の手順に従います。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>共存環境では Lync Server 2013フロント エンド プール間でのみ応答グループを移動できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 共存環境では Lync Server 2013フロント エンド プール間でのみ応答グループを移動できます。
 
 
 ## 応答グループを異なる FQDN を持つプールに移動するには
@@ -59,18 +49,8 @@ Lync Server 2013 では、完全修飾ドメイン名 (FQDN) が異なってい�
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:destination.contoso.com" -FileName "C:\RgsExportSource.zip" -OverwriteOwner -ReplaceExistingSettings
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。これらの構成を表示するには、<strong>Get-CsRgsConfiguration</strong> コマンドレットを実行します。このコマンドレットの詳細については、「<a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > アプリケーションレベルの設定には、既定の保留音の構成、既定の保留音の音声ファイル、エージェント リングバックの猶予期間、および通話コンテキストの構成が含まれます。これらの構成を表示するには、<strong>Get-CsRgsConfiguration</strong> コマンドレットを実行します。このコマンドレットの詳細については、「<a href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</a>」を参照してください。
 
 
 4.  次の操作を実行してインポートされた応答グループの構成を表示することにより、インポートが成功したことを確認します。

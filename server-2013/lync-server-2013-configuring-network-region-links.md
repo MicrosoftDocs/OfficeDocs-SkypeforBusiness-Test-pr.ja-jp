@@ -29,18 +29,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 5.  \[**新しい地域リンク**\] で、\[**名前**\] フィールドに値を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この値は、Lync Server 2013 展開内で一意である必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この値は、Lync Server 2013 展開内で一意である必要があります。
 
 
 6.  \[**ネットワーク地域 \#1**\] ドロップダウン リストから、リンクする 2 つの地域の一方を選択します。

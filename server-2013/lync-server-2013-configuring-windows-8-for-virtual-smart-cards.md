@@ -35,18 +35,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 6.  TPM 管理コンソールで、TPM 仕様バージョンが 1.2 以上であることを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>相互運用性のある Trust Platform Module (TPM) が見つからないことを示すダイアログが表示された場合は、相互運用性のある TPM モジュールがコンピューターにインストールされていること、およびシステム BIOS で有効になっていることを確認します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 相互運用性のある Trust Platform Module (TPM) が見つからないことを示すダイアログが表示された場合は、相互運用性のある TPM モジュールがコンピューターにインストールされていること、およびシステム BIOS で有効になっていることを確認します。
 
 
 7.  TPM 管理コンソールを閉じる
@@ -55,18 +45,8 @@ _**トピックの最終更新日:** 2016-12-08_
     
         TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>仮想スマート カードを作成するときにカスタム PIN 値を指定するには、代わりに /pin プロンプトを使用します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 仮想スマート カードを作成するときにカスタム PIN 値を指定するには、代わりに /pin プロンプトを使用します。
 
 
 9.  コマンド プロンプトから、次のコマンドを実行してコンピューター管理コンソールを開きます。

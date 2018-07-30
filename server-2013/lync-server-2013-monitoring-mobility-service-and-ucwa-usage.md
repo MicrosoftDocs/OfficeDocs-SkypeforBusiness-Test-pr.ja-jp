@@ -31,18 +31,8 @@ CPU とメモリの使用状況カウンターに加えて、以下のパフォ�
 
   - **ASP.NET\\Requests Queued** (常にゼロである必要があります)。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。
 
 
 **Mobility Service (Mcx):**
@@ -59,18 +49,8 @@ CPU とメモリの使用状況カウンターに加えて、以下の ASP.NET �
 
   - **ASP.NET\\Requests Queued** (常にゼロである必要があります)。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これらの値に達するか、これらの値を超えた場合、Web サービスをホストしているコンピューターの CPU、コア数、およびメモリの適切な規模設定の容量計画を再検討して、再計算する必要があります。
 
 
 ## 関連項目

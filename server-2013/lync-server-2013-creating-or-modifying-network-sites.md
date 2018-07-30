@@ -29,70 +29,30 @@ _**トピックの最終更新日:** 2012-10-08_
 
 5.  \[**新しいサイト**\] で、\[**名前**\] フィールドにサイトの名前を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>サイトの名前は、Lync Server 2013 展開内で一意である必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > サイトの名前は、Lync Server 2013 展開内で一意である必要があります。
 
 
 6.  \[**地域**\] ドロップダウン リストで、このサイトに関連付けるネットワーク地域を選択します。
 
 7.  (オプション) このサイトに対する音声またはビデオ通話に帯域幅制限を設定する場合は、\[**帯域幅ポリシー**\] ドロップダウン リストで該当する設定値を備える帯域幅ポリシー プロファイルを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>ネットワーク構成</strong>] グループの [<strong>ポリシーのプロファイル</strong>] ページでは、利用可能な帯域幅ポリシー プロファイルの詳細を表示したり、新しい帯域幅ポリシー プロファイルを作成したりできます。詳細については、「<a href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">帯域幅ポリシー プロファイルの作成または変更</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>ネットワーク構成</strong>] グループの [<strong>ポリシーのプロファイル</strong>] ページでは、利用可能な帯域幅ポリシー プロファイルの詳細を表示したり、新しい帯域幅ポリシー プロファイルを作成したりできます。詳細については、「<a href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">帯域幅ポリシー プロファイルの作成または変更</a>」を参照してください。
 
 
 8.  (オプション) このサイトに、場所に関する設定を提供する場合は、\[**場所のポリシー**\] ドロップダウン リストで場所のポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>場所のポリシーは、特定の Enhanced 9-1-1 (E9-1-1) とクライアントの場所に関連する設定をサイトに割り当てます。 [<strong>ネットワーク構成</strong>] グループの [<strong>場所のポリシー</strong>] ページでは、利用可能な場所のポリシーの詳細を表示したり、新しい場所のポリシーを作成したりできます。詳細については、「<a href="lync-server-2013-viewing-location-policy-information.md">場所ポリシー情報の表示</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 場所のポリシーは、特定の Enhanced 9-1-1 (E9-1-1) とクライアントの場所に関連する設定をサイトに割り当てます。 [<strong>ネットワーク構成</strong>] グループの [<strong>場所のポリシー</strong>] ページでは、利用可能な場所のポリシーの詳細を表示したり、新しい場所のポリシーを作成したりできます。詳細については、「<a href="lync-server-2013-viewing-location-policy-information.md">場所ポリシー情報の表示</a>」を参照してください。
 
 
 9.  (オプション) \[**説明**\] フィールドに値を入力して、名前だけでは表現することのできないこのサイトの詳細情報を提供します。
 
 10. \[**確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>新しいネットワーク サイトを作成するとき、[<strong>関連付けられたサブネット</strong>] テーブルは使用しません。 サブネットの作成または変更時に、サブネットをサイトに関連付けます。詳細については、「<a href="lync-server-2013-create-or-modify-network-subnets.md">ネットワーク サブネットの作成または変更</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 新しいネットワーク サイトを作成するとき、[<strong>関連付けられたサブネット</strong>] テーブルは使用しません。 サブネットの作成または変更時に、サブネットをサイトに関連付けます。詳細については、「<a href="lync-server-2013-create-or-modify-network-subnets.md">ネットワーク サブネットの作成または変更</a>」を参照してください。
 
 
 ## ネットワーク サイトを変更するには
@@ -123,18 +83,8 @@ _**トピックの最終更新日:** 2012-10-08_
 
 4.  \[**サイト**\] ページで、削除するサイトをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>1 つ以上のサイトを一度に削除できます。 これを実行するには、Ctrl キーを押しながら、複数のサイトを選択します。 また、すべてのサイトを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 1 つ以上のサイトを一度に削除できます。 これを実行するには、Ctrl キーを押しながら、複数のサイトを選択します。 また、すべてのサイトを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。
 
 
 5.  \[**編集**\] メニューの \[**削除**\] をクリックします。

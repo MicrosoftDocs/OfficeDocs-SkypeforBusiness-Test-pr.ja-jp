@@ -17,19 +17,9 @@ _**トピックの最終更新日:** 2013-02-23_
 
 Lync Server 2013 に対してユーザーを有効化したときに、Lync Server 2013 に所属するユーザーをアーカイブするための 1 つまたは複数のポリシーを作成している場合は、ユーザーまたはユーザー グループに対して適切なポリシーを適用することで、特定のユーザーに対するアーカイブのサポートを実装できます。たとえば、内部通信のアーカイブをサポートするポリシーを作成した場合は、そのポリシーを 1 人以上のユーザーまたは 1 つ以上のユーザー グループに適用して、ユーザーの Lync Server 2013 通信のアーカイブをサポートできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>展開で Microsoft Exchange 統合を有効にした場合は、Exchange インプレース保持ポリシーによって、Exchange 2013 に所属し、メールボックスがインプレース保持にあるユーザーに対してアーカイブを有効にするかどうかが制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
-アーカイブを有効にする前にアーカイブ構成にすべての適切なオプションを指定する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 展開で Microsoft Exchange 統合を有効にした場合は、Exchange インプレース保持ポリシーによって、Exchange 2013 に所属し、メールボックスがインプレース保持にあるユーザーに対してアーカイブを有効にするかどうかが制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
+> アーカイブを有効にする前にアーカイブ構成にすべての適切なオプションを指定する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</a>」を参照してください。
 
 
 このトピックの手順を使用して、作成済みのアーカイブ ユーザー ポリシーを、1 つまたは複数のユーザー アカウントまたはユーザー グループに適用します。
@@ -46,18 +36,8 @@ Lync Server 2013 に対してユーザーを有効化したときに、Lync Serv
 
 5.  \[**Lync Server ユーザーの編集**\] の \[**アーカイブ ポリシー**\] で、適用するアーカイブ ユーザー ポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー インストールの設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー インストールの設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。
 
 
 6.  \[**確定**\] をクリックします。

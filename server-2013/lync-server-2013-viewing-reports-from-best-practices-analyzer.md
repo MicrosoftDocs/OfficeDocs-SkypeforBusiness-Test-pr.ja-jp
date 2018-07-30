@@ -33,18 +33,8 @@ _**トピックの最終更新日:** 2012-09-21_
 
 1.  ローカルの User アカウントのメンバーであるアカウントを使用して、ベスト プラクティス アナライザーがインストールされているコンピューターにログオンします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ローカルの Administrators グループのメンバーであるアカウントを使用してスキャンの結果を表示することもできますが、適切なユーザー権限とアクセス許可がない限りスキャンを実行できません。詳細については、「<a href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">グループ メンバーシップおよびベスト プラクティス アナライザーのユーザー権限</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ローカルの Administrators グループのメンバーであるアカウントを使用してスキャンの結果を表示することもできますが、適切なユーザー権限とアクセス許可がない限りスキャンを実行できません。詳細については、「<a href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">グループ メンバーシップおよびベスト プラクティス アナライザーのユーザー権限</a>」を参照してください。
 
 
 2.  \[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] をポイントして \[**Microsoft Lync Server 2013**\] をクリックし、\[**ベスト プラクティス アナライザー**\] をクリックします。
@@ -55,33 +45,14 @@ _**トピックの最終更新日:** 2012-09-21_
     
       - ローカルに保存されたスキャン結果の一覧からレポートを表示するには、スキャンの名前をクリックし、\[**このスキャンのレポートを表示する**\] をクリックします。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ベスト プラクティス アナライザーにより、フォルダー <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA にあるローカル ファイルの一覧が作成されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+		> ベスト プラクティス アナライザーにより、フォルダー <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA にあるローカル ファイルの一覧が作成されます。
+        
     
       - 別の場所に保存されているスキャンの結果のレポートを表示するには、\[**スキャンのインポート**\] をクリックし、スキャン結果を含むファイルを特定して \[**開く**\] をクリックします。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>このコンピューター上のベスト プラクティス アナライザーのバージョンがインポートされたファイル内のデータの収集に使用されたバージョンと一致しない場合、コンピューター上のツールはインポート後にファイルを再び分析することがあります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+		> このコンピューター上のベスト プラクティス アナライザーのバージョンがインポートされたファイル内のデータの収集に使用されたバージョンと一致しない場合、コンピューター上のツールはインポート後にファイルを再び分析することがあります。
 
 
 5.  \[**ベスト プラクティス レポートの表示**\] ページで、次のいずれかの操作を行います。
@@ -92,16 +63,6 @@ _**トピックの最終更新日:** 2012-09-21_
     
       - 他のレポートを表示するには、\[**Other Reports**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ベスト プラクティス アナライザー レポートとそれらによって識別される問題の詳細については、「<a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで作成したレポートの表示および作業</a>」および「<a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで識別された問題の分析と解決</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ベスト プラクティス アナライザー レポートとそれらによって識別される問題の詳細については、「<a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで作成したレポートの表示および作業</a>」および「<a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで識別された問題の分析と解決</a>」を参照してください。
 

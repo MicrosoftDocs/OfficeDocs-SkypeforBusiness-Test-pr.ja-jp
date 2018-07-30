@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 このセクションでは、自動検出のために証明書で必要になるサブジェクトの別名エントリについて説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>通常、内部の証明書機関を使用した証明書の再発行は簡単なプロセスですが、サブジェクトの複数の別名エントリを、リバース プロキシで使用されるパブリック証明書に追加するには、高い費用がかかる可能性があります。多くの SIP ドメインがあり、サブジェクトの別名の追加が高コストになる場合は、最初の自動検出サービス要求で HTTPS (既定の設定) ではなく HTTP を使用するようにリバース プロキシを設定できます。詳細については、「<a href="lync-server-2013-technical-requirements-for-mobility.md">Lync Server 2013 でのモビリティの技術要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 通常、内部の証明書機関を使用した証明書の再発行は簡単なプロセスですが、サブジェクトの複数の別名エントリを、リバース プロキシで使用されるパブリック証明書に追加するには、高い費用がかかる可能性があります。多くの SIP ドメインがあり、サブジェクトの別名の追加が高コストになる場合は、最初の自動検出サービス要求で HTTPS (既定の設定) ではなく HTTP を使用するようにリバース プロキシを設定できます。詳細については、「<a href="lync-server-2013-technical-requirements-for-mobility.md">Lync Server 2013 でのモビリティの技術要件</a>」を参照してください。
 
 
 ### ディレクター プールの証明書の要件
@@ -67,18 +57,8 @@ _**トピックの最終更新日:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>または、SAN=*.&lt;sipdomain&gt; を使用することもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> または、SAN=*.&lt;sipdomain&gt; を使用することもできます。
 
 
 ### フロントエンド プールの証明書の要件
@@ -107,18 +87,8 @@ _**トピックの最終更新日:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>または、SAN=*.&lt;sipdomain&gt; を使用することもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> または、SAN=*.&lt;sipdomain&gt; を使用することもできます。
 
 
 ### リバース プロキシ (パブリック CA) の証明書の要件
@@ -143,30 +113,10 @@ _**トピックの最終更新日:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リバース プロキシ上の SSL リスナーに割り当てられた証明書にこの SAN を割り当てます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リバース プロキシ上の SSL リスナーに割り当てられた証明書にこの SAN を割り当てます。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リバース プロキシ リスナーには、外部 Web サービス URL (例: SAN=lyncwebextpool01.contoso.com、およびオプションの ディレクターを展開している場合は dirwebexternal.contoso.com) 用のサブジェクトの別名が含まれます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リバース プロキシ リスナーには、外部 Web サービス URL (例: SAN=lyncwebextpool01.contoso.com、およびオプションの ディレクターを展開している場合は dirwebexternal.contoso.com) 用のサブジェクトの別名が含まれます。
 

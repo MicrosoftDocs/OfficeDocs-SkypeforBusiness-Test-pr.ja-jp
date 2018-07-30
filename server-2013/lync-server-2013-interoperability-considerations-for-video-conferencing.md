@@ -37,17 +37,7 @@ Lync Server 2013 クライアントがレガシ プールで使用されると�
 
   - マルチパーティの電話会議、ビデオ解像度、およびビデオ会議の機能は、レガシ プール内のレガシ クライアントでのユーザー エクスペリエンスと同じです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>レガシ サーバーが Lync Server 2013 クライアントをホストするとき、プール上のすべてのユーザーが低解像度のビデオのみを受信し、高解像度ビデオを送信するように、ビデオ会議帯域幅を構成できます。この例は、メディア構成で MaxVideoRateAllowed が CIF-250K に設定され、会議ポリシーで VideoBitRateKb が 2000 kbps に設定された場合です。この設定では、プール上のユーザーは高解像度を送信できないことになります。<br />
-MaxVideoRateAllowed が Lync Server 2013 クライアントでは使用されなくなったことにより、Lync Server 2013 クライアントからの高解像度ビデオの要求を拒否することはできません。その代わりに、すべてのプール上のユーザーの会議ポリシーで VideoBitRateKb を MaxVideoRateAllowed と同じ値に設定します (つまり、CIF が 250 kbps、VGA が 600 kbps、HD が 1500 kbps に設定されます)。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> レガシ サーバーが Lync Server 2013 クライアントをホストするとき、プール上のすべてのユーザーが低解像度のビデオのみを受信し、高解像度ビデオを送信するように、ビデオ会議帯域幅を構成できます。この例は、メディア構成で MaxVideoRateAllowed が CIF-250K に設定され、会議ポリシーで VideoBitRateKb が 2000 kbps に設定された場合です。この設定では、プール上のユーザーは高解像度を送信できないことになります。<br />
+> MaxVideoRateAllowed が Lync Server 2013 クライアントでは使用されなくなったことにより、Lync Server 2013 クライアントからの高解像度ビデオの要求を拒否することはできません。その代わりに、すべてのプール上のユーザーの会議ポリシーで VideoBitRateKb を MaxVideoRateAllowed と同じ値に設定します (つまり、CIF が 250 kbps、VGA が 600 kbps、HD が 1500 kbps に設定されます)。
 

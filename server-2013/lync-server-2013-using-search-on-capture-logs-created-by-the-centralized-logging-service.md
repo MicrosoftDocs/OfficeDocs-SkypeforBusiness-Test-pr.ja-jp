@@ -47,18 +47,8 @@ Lync Server 管理シェルを使用して 集中ログ サービス の検索�
     
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。検索結果をファイルに保存する場合は、–OutputFilePath &lt;完全修飾ファイル パス文字列&gt; を使用します。–OutputFilePath パラメーターを定義するには、パラメーターにパスとファイル名を文字列形式で指定し、引用符で囲みます (たとえば、C:\LogFiles\SearchOutput.txt)。この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。出力は追加され、上書きはされません。個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 既定では、Search-CsClsLogging は検索の結果をコンソールに送ります。検索結果をファイルに保存する場合は、–OutputFilePath &lt;完全修飾ファイル パス文字列&gt; を使用します。–OutputFilePath パラメーターを定義するには、パラメーターにパスとファイル名を文字列形式で指定し、引用符で囲みます (たとえば、C:\LogFiles\SearchOutput.txt)。この例では、ディレクトリ C:\LogFiles が存在し、フォルダー内のファイルに対して読み取りと書き込みのアクセス許可 (NTFS の場合は変更のアクセス許可) を持っている必要があります。出力は追加され、上書きはされません。個別のファイルが必要な場合は、検索ごとに個々のファイル名を定義します。
     
     次に例を示します。
     
@@ -100,18 +90,8 @@ Lync Server 管理シェルを使用して 集中ログ サービス の検索�
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>日時の文字列は、&quot;日付 時間&quot; と&quot;時間 日付&quot; のどちらででも指定できます。コマンドの解析により、日付と時間に適した値が使用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 日時の文字列は、&quot;日付 時間&quot; と&quot;時間 日付&quot; のどちらででも指定できます。コマンドの解析により、日付と時間に適した値が使用されます。
 
 
 3.  11/20/2012 11:00:00 AM から始まるログを取得するには、–StartTime を定義します。既定の検索時間は、特定の –EndTime を定義しない限り、30 分です。検索の結果、定義したコンピューターまたはプールから、11:00:00 AM ～ 11:30:00 AM の範囲のログが返されます。

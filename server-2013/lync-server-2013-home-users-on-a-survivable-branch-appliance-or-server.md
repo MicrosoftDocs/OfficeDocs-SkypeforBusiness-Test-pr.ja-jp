@@ -29,18 +29,8 @@ _**トピックの最終更新日:** 2014-12-10_
 
 2.  Lync Server 管理シェルで、**Move-CsUser** を実行して、ユーザーの所属を移動させます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>また、Lync Server コントロール パネルを使用して、前提条件を確認しユーザーを所属させることもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> また、Lync Server コントロール パネルを使用して、前提条件を確認しユーザーを所属させることもできます。
 
 
 ## 関連項目

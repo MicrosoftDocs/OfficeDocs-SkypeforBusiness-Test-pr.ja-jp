@@ -23,18 +23,8 @@ Microsoft Lync Server 2013 を利用すると、組織内のユーザーは IM �
 
 要件に応じて、1 つまたは複数の場所に、1 つまたは複数のエッジ サーバーを展開できます。 このセクションでは、Lync Server 2013 の外部ユーザー アクセスと、エッジ トポロジおよびリバース プロキシ トポロジの計画方法のシナリオについて説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>エッジ サーバーでは、エンタープライズ VoIP と外部ユーザー アクセスがサポートされている必要がありますが、このセクションでは、IM、プレゼンス、音声ビデオ会議、フェデレーション、Web 会議、および Lync Mobile のサポートに絞って説明します。 エンタープライズ VoIP のサポートの詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-enterprise-voice.md">Lync Server 2013 でのエンタープライズ VoIP の計画</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> エッジ サーバーでは、エンタープライズ VoIP と外部ユーザー アクセスがサポートされている必要がありますが、このセクションでは、IM、プレゼンス、音声ビデオ会議、フェデレーション、Web 会議、および Lync Mobile のサポートに絞って説明します。 エンタープライズ VoIP のサポートの詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-enterprise-voice.md">Lync Server 2013 でのエンタープライズ VoIP の計画</a>」を参照してください。
 
 
 ## このセクション中

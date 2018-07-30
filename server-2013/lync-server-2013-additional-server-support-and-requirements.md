@@ -51,18 +51,8 @@ Lync Server 2013 では、展開前または展開中に特定のコンポーネ
 
   - Microsoft Visual C++ 2012 (再頒布可能)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft Visual C++ 2012 (再頒布可能) は、 Lync Server 2013 をインストールすると自動的にインストールされます。他のバージョンをインストールして使用しないでください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Microsoft Visual C++ 2012 (再頒布可能) は、 Lync Server 2013 をインストールすると自動的にインストールされます。他のバージョンをインストールして使用しないでください。
 
 
   - URL Rewrite Module Version 2.0 (再頒布可能)

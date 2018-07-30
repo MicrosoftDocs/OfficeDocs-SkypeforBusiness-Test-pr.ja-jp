@@ -47,18 +47,8 @@ _**トピックの最終更新日:** 2015-03-09_
     
     ![3 つのネットワーク地域が含まれるネットワーク トポロジの例](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "3 つのネットワーク地域が含まれるネットワーク トポロジの例")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Multiprotocol Label Switching (MPLS) ネットワークは、それぞれの地理的な場所が対応するネットワーク サイトを有する、ネットワーク地域として表される必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Lync Server 2013 による MPLS ネットワーク上の通話受付管理</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Multiprotocol Label Switching (MPLS) ネットワークは、それぞれの地理的な場所が対応するネットワーク サイトを有する、ネットワーク地域として表される必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Lync Server 2013 による MPLS ネットワーク上の通話受付管理</a>」を参照してください。
     
     前述のネットワーク トポロジの例では、3 つのネットワーク地域が存在し、それぞれが CAC を管理する Lync Server 中央サイトを有しています。ネットワーク地域の適切な中央サイトは、地理的な近さによって選択されます。メディア トラフィックはネットワーク地域内で最も重くなるため、所有権が地理的な近さで決まることで自己完結型となり、その他の中央サイトが使用できなくなった場合でも、機能し続けます。
     
@@ -95,18 +85,8 @@ _**トピックの最終更新日:** 2015-03-09_
     </tbody>
     </table>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server トポロジに応じて、同じサイトを複数のネットワーク地域の中央サイトに割り当てることも可能です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server トポロジに応じて、同じサイトを複数のネットワーク地域の中央サイトに割り当てることも可能です。
 
 
 3.  それぞれのネットワーク地域で、帯域幅に制限がない WAN 接続を有するネットワーク サイト (オフィスまたは場所) すべてを特定します。 これらのサイトは帯域幅の制限がないため、CAC 帯域幅ポリシーを適用する必要はありません。
@@ -464,18 +444,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 8.  ネットワーク地域のすべてのペア間のルートを定義します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>北アメリカと APAC の間のルートには、両者を直接接続する地域リンクがないため、2 つのリンクが必要になります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 北アメリカと APAC の間のルートには、両者を直接接続する地域リンクがないため、2 つのリンクが必要になります。
     
     ### 地域ルート
     
@@ -575,16 +545,6 @@ _**トピックの最終更新日:** 2015-03-09_
 
 必要な情報を収集した後、Lync Server 管理シェルまたは Lync Server コントロール パネルのどちらかを使用して CAC 展開を実行することができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server コントロール パネルを使用すればネットワーク構成タスクの大部分を行うことができますが、サブネットおよびサイト間リンクを作成するには、Lync Server 管理シェルを使用する必要があります。詳細については、<strong>New-CsNetworkSubnet</strong> および <strong>New-CsNetworkIntersitePolicy</strong> コマンドレットの「Lync Server 管理シェル」のドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server コントロール パネルを使用すればネットワーク構成タスクの大部分を行うことができますが、サブネットおよびサイト間リンクを作成するには、Lync Server 管理シェルを使用する必要があります。詳細については、<strong>New-CsNetworkSubnet</strong> および <strong>New-CsNetworkIntersitePolicy</strong> コマンドレットの「Lync Server 管理シェル」のドキュメントを参照してください。
 

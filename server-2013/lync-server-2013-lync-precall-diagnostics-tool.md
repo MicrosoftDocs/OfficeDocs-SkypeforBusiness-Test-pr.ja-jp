@@ -53,18 +53,8 @@ Microsoft はフィードバックをお待ちしています。サポートに�
 
   - Windows 8 Modern アプリ ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110))
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Office 365 Lync のユーザーは、両方のバージョンの PCD を使用できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Office 365 Lync のユーザーは、両方のバージョンの PCD を使用できます。
 
 
 以前のバージョンの PCD を使用する場合は、以下を参照してください。
@@ -75,18 +65,8 @@ Microsoft はフィードバックをお待ちしています。サポートに�
 
 ## Lync PCD のシステム要件
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PCD では、Unified Communications Web API (UCWA) がインストールされ、Lync Server 展開でモバイル クライアントをサポートするように構成されている必要があります。UCWA は Lync Server と共にインストールされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> PCD では、Unified Communications Web API (UCWA) がインストールされ、Lync Server 展開でモバイル クライアントをサポートするように構成されている必要があります。UCWA は Lync Server と共にインストールされます。
 
 
 ## Windows デスクトップ アプリの要件

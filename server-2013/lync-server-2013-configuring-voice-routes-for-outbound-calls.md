@@ -27,18 +27,8 @@ Lync Server 2013 音声ルートは、通話先の電話番号を、1 つ以上�
 
 4.  音声ルートをダブルクリックし、音声ルートの一覧から追加のプロパティを表示するか、ルートを選択し、\[**編集**\] をクリックします。次に、\[**詳細の表示**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一度に 1 つのルートの詳細情報しか表示できません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一度に 1 つのルートの詳細情報しか表示できません。
 
 
 **Windows PowerShell を使用して音声ルートを表示するには**
@@ -61,18 +51,8 @@ Lync Server 2013 音声ルートは、通話先の電話番号を、1 つ以上�
         SuppressCallerId  :
         AlternateCallerId :
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>詳細については、「計画」のドキュメントの「<a href="lync-server-2013-voice-routes.md">Lync Server 2013 の音声ルート</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 詳細については、「計画」のドキュメントの「<a href="lync-server-2013-voice-routes.md">Lync Server 2013 の音声ルート</a>」を参照してください。
 
 
 ## このセクション中

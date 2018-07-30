@@ -31,16 +31,6 @@ Standard Edition のファイル ストアは、通常、Standard Edition サー
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この手順を実行する必要があるのは、復元のプロセスでほかにトポロジ ビルダーを実行していない場合に限られます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この手順を実行する必要があるのは、復元のプロセスでほかにトポロジ ビルダーを実行していない場合に限られます。
 

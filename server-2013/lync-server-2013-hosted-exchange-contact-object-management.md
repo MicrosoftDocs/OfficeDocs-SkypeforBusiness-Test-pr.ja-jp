@@ -31,34 +31,14 @@ Hosted Exchange UM との統合では、ocsumutil.exe は Active Directory Excha
 
 4.  Exchange 管理者は、自動応答およびサブスクライバー アクセス用の該当する Exchange UM ダイヤルプランに電話番号を割り当てます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>内部設置型展開では必要ですが、連絡先オブジェクトに対して、 Lync Server 2013 のダイヤル プラン設定を構成する必要はありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 内部設置型展開では必要ですが、連絡先オブジェクトに対して、 Lync Server 2013 のダイヤル プラン設定を構成する必要はありません。
 
 
 ## ホスト型連絡先オブジェクトの構成
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 の連絡先オブジェクトを Hosted Exchange UM に対して有効化する前に、連絡先オブジェクトに適用されるホスト ボイス メール ポリシーを展開する必要があります。ここで展開するポリシーは、有効化する連絡先オブジェクトに適用するのであれば、そのスコープがグローバルなものでも、サイト レベルのものでも、ユーザー単位のものでもかまいません。詳細については、「<a href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイス メール ポリシー</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 の連絡先オブジェクトを Hosted Exchange UM に対して有効化する前に、連絡先オブジェクトに適用されるホスト ボイス メール ポリシーを展開する必要があります。ここで展開するポリシーは、有効化する連絡先オブジェクトに適用するのであれば、そのスコープがグローバルなものでも、サイト レベルのものでも、ユーザー単位のものでもかまいません。詳細については、「<a href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイス メール ポリシー</a>」を参照してください。
 
 
 横断型展開でホスト型自動応答およびサブスクライバー アクセス連絡先オブジェクトを構成するには、次の各コマンドレットを使用する必要があります。

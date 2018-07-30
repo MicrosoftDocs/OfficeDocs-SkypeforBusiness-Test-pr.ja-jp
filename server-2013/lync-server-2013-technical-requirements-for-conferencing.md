@@ -49,18 +49,8 @@ Web 会議については、PowerPoint プレゼンテーションを処理で�
 
 これらのポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1 つのプール内にある同じアプリケーションのすべてのインスタンスは、同じ SIP リッスン ポートを使用します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 1 つのプール内にある同じアプリケーションのすべてのインスタンスは、同じ SIP リッスン ポートを使用します。
 
 
 ### ダイヤルイン会議で使用されるポート
@@ -99,18 +89,8 @@ Web 会議については、PowerPoint プレゼンテーションを処理で�
 
 ダイヤルイン会議の設定ページは、次の表に記載されているオペレーティング システムと Web ブラウザーの組み合わせをサポートします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>32 ビットおよび 64 ビット版のオペレーティング システムがサポートされています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 32 ビットおよび 64 ビット版のオペレーティング システムがサポートされています。
 
 
 ### サポートされているオペレーティング システムおよび Web ブラウザー

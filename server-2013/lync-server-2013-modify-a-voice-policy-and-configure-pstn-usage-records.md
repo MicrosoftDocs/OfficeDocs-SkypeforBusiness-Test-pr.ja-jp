@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 音声ポリシーを変更する場合は、次の手順に従います。 新しい音声ポリシーを作成する場合は、「[Lync Server 2013 での音声ポリシーの作成と PSTN 使用法レコードの構成](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)」の手順を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>公衆交換電話網 (PSTN) 使用法レコードが関連付けられていない音声ポリシーに割り当てられているユーザーは、通話を発信できません。エンタープライズ VoIP 展開で利用できるすべての PSTN 使用法レコードの一覧とそれぞれのプロパティを表示するには、「<a href="lync-server-2013-view-pstn-usage-records.md">Lync Server 2013 での PSTN 使用法レコードの表示</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 公衆交換電話網 (PSTN) 使用法レコードが関連付けられていない音声ポリシーに割り当てられているユーザーは、通話を発信できません。エンタープライズ VoIP 展開で利用できるすべての PSTN 使用法レコードの一覧とそれぞれのプロパティを表示するには、「<a href="lync-server-2013-view-pstn-usage-records.md">Lync Server 2013 での PSTN 使用法レコードの表示</a>」を参照してください。
 
 
 ## 音声ポリシーを変更するには
@@ -41,18 +31,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 4.  \[**音声ポリシー**\] ページで、音声ポリシー名をダブルクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>スコープと名前は、音声ポリシーの作成時に設定されています。 これらは変更できません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > スコープと名前は、音声ポリシーの作成時に設定されています。 これらは変更できません。
 
 
 5.  (オプション) \[**音声ポリシーの編集**\] に、音声ポリシーの説明情報を追加で入力します。
@@ -160,18 +140,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 8.  最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 一覧内でのレコードの位置を変更するには、レコードの名前を選択状態にして、上矢印または下矢印をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ポリシーの PSTN 使用法レコードの一覧の順序は重要です。 Lync Server はこの一覧を上から下へ検索します。 この一覧は、使用頻度の高い順番に並べておくことを推奨します。たとえば、 &quot;レドモンド市内&quot;、&quot;レドモンド長距離&quot;、&quot;レドモンド国際&quot;、&quot;レドモンド バックアップ&quot; の順に並べます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ポリシーの PSTN 使用法レコードの一覧の順序は重要です。 Lync Server はこの一覧を上から下へ検索します。 この一覧は、使用頻度の高い順番に並べておくことを推奨します。たとえば、 &quot;レドモンド市内&quot;、&quot;レドモンド長距離&quot;、&quot;レドモンド国際&quot;、&quot;レドモンド バックアップ&quot; の順に並べます。
 
 
 9.  この音声ポリシーの着信の転送および同時呼び出しに対する PSTN 使用法レコードの関連付けと構成を行うには、次のいずれかを実行します。
@@ -235,36 +205,16 @@ _**トピックの最終更新日:** 2012-11-01_
 
 10. (オプション) 音声ポリシーをテストする番号を入力して、\[**実行**\] をクリックします。テスト結果は、\[**テストする変換後の番号**\] の下に表示されます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>まだテストに成功していない音声ポリシーを保存して、後で再構成することができます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > まだテストに成功していない音声ポリシーを保存して、後で再構成することができます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。
 
 
 11. \[**OK**\] をクリックします。
 
 12. \[**音声ポリシー**\] ページで \[**確定**\] をクリックし、\[**すべて確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ポリシーを作成または変更したときは常に、[<strong>すべて確定</strong>] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ポリシーを作成または変更したときは常に、[<strong>すべて確定</strong>] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
 
 
 13. (オプション) \[ボイス メールのエスケープ\] で、ユーザーの携帯電話のボイス メールが通話に即座に応答したことを検出して、携帯電話のボイス メールへの通話を切断するように設定できます。これにより、通話はユーザーの他のエンドポイントで呼び出しを続行できるため、ユーザーが通話に応答できます。ボイス メール ポリシーの構成方法の詳細については、「展開」のドキュメントの「[Lync Server 2013 でのボイス メール エスケープの構成](lync-server-2013-configuring-voice-mail-escape.md)」を参照してください。

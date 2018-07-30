@@ -19,18 +19,8 @@ System Center Operations Manager は、単独では Windows オペレーティ�
 
   - コンポーネントおよびユーザー管理パック (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) では、イベント ログに記録されている、パフォーマンス カウンターに登録されている、または詳細な通話の記録 (CDR) や QoE (Quality of Experience) データベースに記録されている、Lync Server の問題を追跡します。重大な問題では、電子メール、インスタント メッセージ、またはショート メッセージ サービス (SMS) メッセージングを使用して管理者にすぐに通知するように System Center Operations Manager を構成することができます。SMS とは、テキスト メッセージをモバイル デバイス間で送信するために使用されるテクノロジです。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Operations Manager の通知の構成の詳細については、TechNet ライブラリの「通知の構成」(<a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x411</a>) を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Operations Manager の通知の構成の詳細については、TechNet ライブラリの「通知の構成」(<a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x411</a>) を参照してください。
 
 
   - アクティブ監視パック (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) では、システムへのログオン、インスタント メッセージの交換、公衆交換電話網 (PSTN) 上の電話への発信などの主要な Lync Server コンポーネントを事前にテストします。これらのテストは、Lync Server 代理トランザクション コマンドレットを使用して実行します。たとえば、**Test-CsIM** コマンドレットは、1 組のテスト ユーザー間でインスタント メッセージングの会話をシミュレートするために使用されます。シミュレートされたメッセージングの会話が失敗した場合、通知が生成されます。

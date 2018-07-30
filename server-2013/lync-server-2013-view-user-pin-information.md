@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 Active Directory ドメイン サービス (AD DS) の資格情報を持つ Lync Server 2013 ユーザーが、認証されたユーザーとしてダイヤルイン会議に参加するには、暗証番号 (PIN) が必要です。ユーザーの PIN 情報は、Lync Server 2013 コントロール パネルから表示できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。ユーザーが PIN をなくした場合は、「<a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Lync Server 2013 でのユーザーのダイヤルイン会議 PIN の設定</a>」の手順に従って PIN をリセットできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。ユーザーが PIN をなくした場合は、「<a href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Lync Server 2013 でのユーザーのダイヤルイン会議 PIN の設定</a>」の手順に従って PIN をリセットできます。
 
 
 ## Lync Server コントロール パネルでユーザーの PIN を表示するには
@@ -62,18 +52,8 @@ Active Directory ドメイン サービス (AD DS) の資格情報を持つ Lync
     
     5.  \[**検索**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。PIN のロックを解除するには、ユーザーをクリックし、[<strong>アクション</strong>] をクリックして、[<strong>PIN のロック解除</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。PIN のロックを解除するには、ユーザーをクリックし、[<strong>アクション</strong>] をクリックして、[<strong>PIN のロック解除</strong>] をクリックします。
 
 
 6.  検索結果でユーザーをクリックし、\[**アクション**\] をクリックして、\[**PIN の状態を表示**\] をクリックします。

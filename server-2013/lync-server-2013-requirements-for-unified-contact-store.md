@@ -25,16 +25,6 @@ _**トピックの最終更新日:** 2012-10-01_
 
   - Lync Server 2013 と Exchange 2013 の間で構成されたサーバー間認証が必要です。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 と Exchange 2013 の間の認証設定に関する要件の詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2013 と Exchange 2013 の間の認証設定に関する要件の詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理</a>」を参照してください。
 

@@ -33,18 +33,8 @@ _**トピックの最終更新日:** 2012-09-21_
 
 7.  \[**Lync Server ユーザーの編集**\] ページの \[**テレフォニー**\] で、\[**エンタープライズ VoIP**\] 以外のオプションをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ユーザーが Lync を使用して音声通話やビデオ通話を行えないようにするには、[<strong>テレフォニー</strong>] で [<strong>音声ビデオを無効にする</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ユーザーが Lync を使用して音声通話やビデオ通話を行えないようにするには、[<strong>テレフォニー</strong>] で [<strong>音声ビデオを無効にする</strong>] をクリックします。
 
 
 8.  \[**確定**\] をクリックします。

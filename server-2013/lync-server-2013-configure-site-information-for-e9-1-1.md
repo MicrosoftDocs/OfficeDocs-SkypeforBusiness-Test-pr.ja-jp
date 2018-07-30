@@ -23,18 +23,8 @@ _**トピックの最終更新日:** 2012-10-03_
 
 ネットワーク サイトの詳細については、「[Lync Server 2013 の Lync Server サイト](lync-server-2013-sites.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>別の VoIP 機能用にネットワーク サイトを作成し、同じサイトを使用して E9-1-1 を構成する場合、E9-1-1 に使用するサイトを変更することができます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 別の VoIP 機能用にネットワーク サイトを作成し、同じサイトを使用して E9-1-1 を構成する場合、E9-1-1 に使用するサイトを変更することができます。
 
 
 ## このセクション中

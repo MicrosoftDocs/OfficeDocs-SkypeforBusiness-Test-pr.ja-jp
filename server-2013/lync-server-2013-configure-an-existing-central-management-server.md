@@ -23,16 +23,6 @@ Lync Server 2013 の既存展開の中央管理サーバーを再利用する場
 
 2.  **Update-CsAdminRole** コマンドレットを使用して、 中央管理サーバーに格納されている役割ベースのアクセス制御 (RBAC) の役割を更新します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>エラーがない限り、何も出力されません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > エラーがない限り、何も出力されません。
 

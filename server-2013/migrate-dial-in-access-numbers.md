@@ -41,18 +41,8 @@ Lync Server 2010 プールを使用停止にする前に、Lync Server 2010 プ�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サービスが短時間停止される場合に備えて、ネットワークの使用率が低いときに、ダイヤルイン アクセス番号を移動することをお勧めします。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> サービスが短時間停止される場合に備えて、ネットワークの使用率が低いときに、ダイヤルイン アクセス番号を移動することをお勧めします。
 
 
 **ダイヤルイン アクセス番号を識別し、移動するには**
@@ -71,18 +61,8 @@ Lync Server 2010 プールを使用停止にする前に、Lync Server 2010 プ�
 
 6.  ダイヤルイン アクセス番号が移行元の Lync Server 2010 プールに残っていないことを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>すべてのダイヤルイン アクセス番号が Lync Server 2013 プールをポイントすれば、 Lync Server 2010 プールを使用停止にできます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > すべてのダイヤルイン アクセス番号が Lync Server 2013 プールをポイントすれば、 Lync Server 2010 プールを使用停止にできます。
 
 
 **Lync Server コントロール パネルを使用してダイヤルイン アクセス番号の移行を確認する**

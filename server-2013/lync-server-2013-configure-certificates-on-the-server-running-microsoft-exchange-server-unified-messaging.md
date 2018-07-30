@@ -43,18 +43,8 @@ Lync Server 2013 に接続するためには、Exchange Server がサーバー�
 
 3.  \[**CA 証明書、証明書チェーン、または CRL のダウンロード**\] で \[**Base 64 へのエンコード方式**\] をクリックし、\[**CA 証明書のダウンロード**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このステップで Distinguished Encoding Rules (DER) エンコードを指定することもできます。DER エンコードを選択する場合は、この手順の次のステップと「<strong>CA 証明書をインストールするには</strong>」のステップ 10 のファイル タイプが .cer ではなく, .p7b になります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このステップで Distinguished Encoding Rules (DER) エンコードを指定することもできます。DER エンコードを選択する場合は、この手順の次のステップと「<strong>CA 証明書をインストールするには</strong>」のステップ 10 のファイル タイプが .cer ではなく, .p7b になります。
 
 
 4.  \[**ファイルのダウンロード**\] ダイアログ ボックスで \[**保存**\] をクリックし、ファイルをサーバー上のハード ディスクに保存します。(このファイルの拡張子は、前のステップで選択したエンコードに応じて, .cer または .p7b となります。)
@@ -111,18 +101,8 @@ Lync Server 2013 に接続するためには、Exchange Server がサーバー�
 
 6.  \[**オフライン テンプレート用の識別情報**\] の \[**名前**\] ボックスに、Exchange Server の完全修飾ドメイン名 (FQDN) を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>通信を可能にするには、Exchange Server の FQDN を入力する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 通信を可能にするには、Exchange Server の FQDN を入力する必要があります。
 
 
 7.  \[**キーのオプション**\] で \[**ローカル コンピューターの証明書ストアに証明書を格納する**\] チェック ボックスをオンにします。
@@ -147,18 +127,8 @@ Lync Server 2013 に接続するためには、Exchange Server がサーバー�
     
     2.  「Exchange 証明書のインポート」([http://go.microsoft.com/fwlink/?linkid=195496\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=195496%26clcid=0x411))
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>通信を可能にするには、証明書の [<strong>サブジェクト名</strong>] に、Exchange Server の FQDN を入力する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 通信を可能にするには、証明書の [<strong>サブジェクト名</strong>] に、Exchange Server の FQDN を入力する必要があります。
 
 
 ## Exchange Server 2007 (SP1) に証明書を割り当てるには
@@ -171,34 +141,14 @@ Lync Server 2013 に接続するためには、Exchange Server がサーバー�
 
 4.  証明書をダブルクリックして詳細を読み、証明書が有効であることを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>証明書に有効と表示されるまでに数分かかることがあります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 証明書に有効と表示されるまでに数分かかることがあります。
 
 
 5.  Microsoft Exchange ユニファイド メッセージング サービスを再開します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Exchange Server 2007 SP1 ユニファイド メッセージングを実行しているサーバーで、正しい証明書が自動的に取得されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Exchange Server 2007 SP1 ユニファイド メッセージングを実行しているサーバーで、正しい証明書が自動的に取得されます。
 
 
 6.  イベント ビューアを開き、イベント ID 1112 を探します。このイベントは、Exchange Server 2007 SP1 ユニファイド メッセージングを実行しているサーバーが取得した証明書を示します。

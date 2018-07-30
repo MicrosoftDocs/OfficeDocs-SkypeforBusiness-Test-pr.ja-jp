@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 Lync Server 2013 では、Lync クライアントおよび Lync Phone Edition デバイスからの拡張 9-1-1 (E9-1-1) 通話がサポートされています。Lync Server 2013 で E9-1-1 を構成した場合、Lync 2013 または Lync Phone Edition から発信された緊急電話には、場所情報サービス データベースの緊急応答ロケーション (ERL) 情報が含まれます。このセクションの手順を使用して、場所ポリシーを管理します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>E9-1-1 や 場所情報サービスなどの高度な エンタープライズ VoIP 機能の展開の詳細については、「<a href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Lync Server 2013 での高度なエンタープライズ VoIP 機能の展開</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> E9-1-1 や 場所情報サービスなどの高度な エンタープライズ VoIP 機能の展開の詳細については、「<a href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Lync Server 2013 での高度なエンタープライズ VoIP 機能の展開</a>」を参照してください。
 
 
 ## このセクション中

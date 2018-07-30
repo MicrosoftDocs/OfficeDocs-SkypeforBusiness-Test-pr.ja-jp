@@ -69,18 +69,8 @@ Lync Server 2013 は、書き込み可能なドメイン コントローラー�
 
 Lync Server は、単一ラベルのドメインをサポートしません。たとえば、ルート ドメイン名が **contoso.local** であるフォレストはサポートされますが、**local** という名前のルート ドメインはサポートされません。詳細については、Microsoft サポート技術情報の記事 300684「単一ラベル DNS 名を使用して Active Directory のドメインを構成する」( <http://go.microsoft.com/fwlink/?linkid=143752>) を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server では、ドメインの名前変更はサポートしていません。 Lync Server が展開されるドメインの名前を変更する必要がある場合は、最初に Lync Server をアンインストールし、ドメインの名前を変更してから、 Lync Server を再インストールする必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server では、ドメインの名前変更はサポートしていません。 Lync Server が展開されるドメインの名前を変更する必要がある場合は、最初に Lync Server をアンインストールし、ドメインの名前を変更してから、 Lync Server を再インストールする必要があります。
 
 
 ## ロックダウンされた AD DS 環境

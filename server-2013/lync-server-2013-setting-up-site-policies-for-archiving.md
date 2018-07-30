@@ -19,19 +19,9 @@ _**トピックの最終更新日:** 2012-10-09_
 
 グローバル ポリシー、サイト ポリシー、およびユーザー ポリシーの階層など、アーカイブ ポリシーのしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>展開で Microsoft Exchange の統合を有効にした場合、Exchange 2013 に所属し、メールボックスがインプレース保持になっているユーザーに対してアーカイブが有効となるかどうかが Exchange インプレース保持のポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
-アーカイブ ポリシーで内部通信または外部通信のアーカイブを有効にする前に、すべての該当するオプションをアーカイブ構成で指定する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-archiving-options.md">アーカイブ オプションの構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 展開で Microsoft Exchange の統合を有効にした場合、Exchange 2013 に所属し、メールボックスがインプレース保持になっているユーザーに対してアーカイブが有効となるかどうかが Exchange インプレース保持のポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
+> アーカイブ ポリシーで内部通信または外部通信のアーカイブを有効にする前に、すべての該当するオプションをアーカイブ構成で指定する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-archiving-options.md">アーカイブ オプションの構成</a>」を参照してください。
 
 
 ## サイトのアーカイブ ポリシーを作成するには

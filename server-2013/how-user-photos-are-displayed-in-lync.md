@@ -125,18 +125,8 @@ Lync 2010 では、ユーザーの写真はアドレス帳サービスによっ�
 
 プレゼンス状態に含まれるユーザーの写真にもハッシュ値が関連付けられ、それを Lync クライアントが使用してさらに新しい画像を使用できるかどうかを判断します。クライアントには、プレゼンス状態で使用される画像ファイルの変更について自動的に通知されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>写真は GalContacts.db データベースには保存されないため、ユーザー写真のダウンロードはクライアント ポリシーの <strong>AddressBookAvailability</strong> の設定 (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>) には依存しません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 写真は GalContacts.db データベースには保存されないため、ユーザー写真のダウンロードはクライアント ポリシーの <strong>AddressBookAvailability</strong> の設定 (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>) には依存しません。
 
 
 ABWQ サービスに対するクエリの属性には、次のものがあります。
@@ -209,18 +199,8 @@ Lync 2013 では、ユーザーの写真に対する高解像度画像のサポ�
 
 画像がユーザーのメールボックスにアップロードされると、Exchange で自動的に画像の低解像度のバージョンが作成され、それをクライアント アプリケーションで使用できます。AD DS でも、ユーザーの写真が更新されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>画像ファイルが AD DS で更新されると、48 x 48 ピクセルの画像が作成され、AD DS の thumbnailPhoto に使用されます。既存の画像はすべて置換されます。そのため、AD DS に 96 × 96 の画像を追加すると、新しい 48 × 48 の画像で上書きされます。これは、その環境のユーザーが Lync 2010 クライアント (AD DS からユーザーの写真を取得する) を使用している場合にのみ重要です。組織に Lync 2010 クライアントがいる場合は、96 × 96 ピクセルの画像をインポートして、AD DS で作成された画像を置換できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 画像ファイルが AD DS で更新されると、48 x 48 ピクセルの画像が作成され、AD DS の thumbnailPhoto に使用されます。既存の画像はすべて置換されます。そのため、AD DS に 96 × 96 の画像を追加すると、新しい 48 × 48 の画像で上書きされます。これは、その環境のユーザーが Lync 2010 クライアント (AD DS からユーザーの写真を取得する) を使用している場合にのみ重要です。組織に Lync 2010 クライアントがいる場合は、96 × 96 ピクセルの画像をインポートして、AD DS で作成された画像を置換できます。
 
 
 ## Lync 2013 のユーザーの写真のサポート

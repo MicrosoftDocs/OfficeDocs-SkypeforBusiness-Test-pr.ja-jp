@@ -85,18 +85,8 @@ Lync Server 2013 アーカイブ ポリシーには、次のポリシーがあ�
 
 アーカイブを展開する場合の初期アーカイブ ポリシーのセットアップ方法の詳細については、「展開」のドキュメントの「[アーカイブ ポリシーの構成と割り当て](lync-server-2013-configuring-and-assigning-archiving-policies.md)」を参照してください。展開後にアーカイブ ポリシーを使用して通信を有効化および無効化する方法の詳細については、「操作」のドキュメントの「[Lync Server 2013 での内部通信および外部通信のアーカイブの管理](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 アーカイブ データベースを実装し、Microsoft Exchange 統合も有効にした場合、Exchange 2013 のポリシーが Lync Server アーカイブ ポリシーよりも優先されます。ただし、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されているユーザーだけが対象となります。Lync アーカイブは、Microsoft Exchange インプレース保持ポリシーにのみ依存します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 アーカイブ データベースを実装し、Microsoft Exchange 統合も有効にした場合、Exchange 2013 のポリシーが Lync Server アーカイブ ポリシーよりも優先されます。ただし、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されているユーザーだけが対象となります。Lync アーカイブは、Microsoft Exchange インプレース保持ポリシーにのみ依存します。
 
 
 ## アーカイブの構成で使用できるオプション
@@ -127,18 +117,8 @@ Lync Server 2013 アーカイブ ポリシーには、次のポリシーがあ�
     
       - アーカイブ データのエクスポート後 (Microsoft Exchange 統合を有効にした場合は、Exchange にアップロードされたデータを含む)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft Exchange 統合を有効にした場合、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されているユーザーのデータの削除は、Exchange によって制御されます。ただし、Lync Server ファイル共有に保存された会議ファイルは除きます。これらのファイルは、アーカイブ データがエクスポートされた後にデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Microsoft Exchange 統合を有効にした場合、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されているユーザーのデータの削除は、Exchange によって制御されます。ただし、Lync Server ファイル共有に保存された会議ファイルは除きます。これらのファイルは、アーカイブ データがエクスポートされた後にデータを削除するオプションを選択した場合はファイルがエクスポートされた後 (Exchange にアップロードされた後)、保持する最大日数を指定した場合は指定した最大日数経過後にのみファイル共有から削除されます。
 
 
 既定で、すべてのアーカイブ オプションは無効になっています。Lync Server 2013 コントロール パネルを使用して、アーカイブ構成を管理できます。

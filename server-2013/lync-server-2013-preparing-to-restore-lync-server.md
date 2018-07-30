@@ -99,18 +99,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
   - SQL Server 2012 または SQL Server 2008 R2 のインストール ソフトウェア。データベース サーバーをインストールするには、組織で制定された、適切なバージョンの SQL Server およびデータベース サーバーの展開手順と構成を使用します。これらの手順と構成の要件は、サービスを復元するときに使用できるようにしておく必要があります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server の展開ウィザードは、サーバーに SQL Server 2012 または SQL Server 2008 R2 がプリインストールされている場合を除き、ローカル構成ストアのインストール時に、各 Standard Edition サーバーとその他すべての Lync Server サーバーに SQL Server 2012 Express を自動的にインストールします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server の展開ウィザードは、サーバーに SQL Server 2012 または SQL Server 2008 R2 がプリインストールされている場合を除き、ローカル構成ストアのインストール時に、各 Standard Edition サーバーとその他すべての Lync Server サーバーに SQL Server 2012 Express を自動的にインストールします。
 
 
   - システム イメージを作成するためのソフトウェア。
@@ -147,18 +137,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 4.  復元の開始前に、復元中に問題が発生した場合にロールバック ポイントとして使用するための、システムのイメージを作成します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このトピックと関連トピックの手順で説明した Lync Server の展開ウィザードとコマンドレットによって、必要なすべてのアクセス制御リスト (ACL) が設定されます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このトピックと関連トピックの手順で説明した Lync Server の展開ウィザードとコマンドレットによって、必要なすべてのアクセス制御リスト (ACL) が設定されます。
 
 
 復元を開始する前に、復元予定のコンポーネントに必要なハードウェアとソフトウェアが使用できる状態にあることを確認します。オペレーティング システムと SQL Server のインストール後は、以降の復元手順のほとんどのステップをリモートで実行できます。その例外については、手順内で説明します。

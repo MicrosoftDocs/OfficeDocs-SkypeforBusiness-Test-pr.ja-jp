@@ -19,18 +19,8 @@ Lync Server では、ダイヤル番号が組織で有効であるがユーザ�
 
 ここでは、割り当てられていない電話番号への通話を処理するための割り当てられていない番号範囲の管理と、障害復旧時のアナウンスの管理について説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>停止中の割り当てられていない番号の処理の使用は任意です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 停止中の割り当てられていない番号の処理の使用は任意です。
 
 
 ## このセクション中

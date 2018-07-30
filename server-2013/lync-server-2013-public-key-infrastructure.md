@@ -23,18 +23,8 @@ Microsoft Lync Server 2013 は、サーバーの認証と、クライアント�
 
 各証明書は、公開キーにリンクされています。証明書で名前が指定されているサーバーには、そのサーバーのみが知る、対応する秘密キーがあります。接続しようとしているクライアントまたはサーバーは、公開キーを使用して無作為な情報の断片を暗号化し、それをサーバーに送信します。サーバーがその情報を復号化し、プレーン テキストに戻すと、接続しようとしているエンティティは、証明書の秘密キーをサーバーが保持していること、つまり、そのサーバーが証明書で指定されていることを確認できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すべてのパブリック CA が Lync Server 2013 証明書の要件に準拠しているわけではありません。認定されているパブリック CA ベンダーの一覧を参照して、パブリック証明書のニーズに合ったベンダーを探すことをお勧めします。詳しくは、「統合コミュニケーション証明書パートナー」(<a href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</a>) をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> すべてのパブリック CA が Lync Server 2013 証明書の要件に準拠しているわけではありません。認定されているパブリック CA ベンダーの一覧を参照して、パブリック証明書のニーズに合ったベンダーを探すことをお勧めします。詳しくは、「統合コミュニケーション証明書パートナー」(<a href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</a>) をご覧ください。
 
 
 ## CRL 配布ポイント
@@ -45,16 +35,6 @@ Lync Server 2013 では、すべてのサーバー証明書に 1 つ以上の証
 
 Lync Server 2013 では、サーバー認証のために、拡張キー使用法 (EKU) をすべてのサーバー証明書がサポートする必要があります。サーバー認証用に EKU フィールドを構成することは、サーバーの認証に対して、その証明書が有効であることを意味します。この EKU は、MTLS には不可欠です。EKU には、複数のエントリを指定し、複数の目的に対して証明書を有効にできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Live Communications Server 2003 および Live Communications Server 2005 からの発信 MTLS 接続には、クライアント認証 EKU が必要ですが、新しいバージョンでは必要なくなりました。ただし、この EKU は、パブリック IM 接続を使用して AOL に接続するエッジ サーバーには存在する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Live Communications Server 2003 および Live Communications Server 2005 からの発信 MTLS 接続には、クライアント認証 EKU が必要ですが、新しいバージョンでは必要なくなりました。ただし、この EKU は、パブリック IM 接続を使用して AOL に接続するエッジ サーバーには存在する必要があります。
 

@@ -39,18 +39,8 @@ _**トピックの最終更新日:** 2012-10-21_
     
       - Active Directory ドメイン サービス、エッジ サーバー、または Exchange Server に使用する別の資格情報を指定するには、\[**Show advanced logon options**\] をクリックし、必要な資格情報を示すチェック ボックスを個々にオンにします。次に、オンにした各チェック ボックスの資格情報を指定し、\[**Connect to the Active Directory server**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>スキャンを開始する前に、ベスト プラクティス アナライザーはネットワークとアクセス許可のチェックを実行して、指定されたアカウント資格情報が有効で、ベスト プラクティス アナライザーが Active Directory ドメイン サービスに接続できるかどうかを確認します。ベスト プラクティス アナライザーをワークグループ サーバー上で実行すると、ベスト プラクティス アナライザーが境界ネットワーク内にあるエッジ サーバーに接続できるかどうか (つまり、これらのエッジ サーバーがスキャンに含まれるかどうか) も確認されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > スキャンを開始する前に、ベスト プラクティス アナライザーはネットワークとアクセス許可のチェックを実行して、指定されたアカウント資格情報が有効で、ベスト プラクティス アナライザーが Active Directory ドメイン サービスに接続できるかどうかを確認します。ベスト プラクティス アナライザーをワークグループ サーバー上で実行すると、ベスト プラクティス アナライザーが境界ネットワーク内にあるエッジ サーバーに接続できるかどうか (つまり、これらのエッジ サーバーがスキャンに含まれるかどうか) も確認されます。
 
 
 5.  \[**Start a new Best Practices scan**\] ページで、スキャンに含めるオプションを選択し、ネットワークの速度を指定して、\[**Start scanning**\] をクリックします。
@@ -65,16 +55,6 @@ _**トピックの最終更新日:** 2012-10-21_
     
       - その他のレポートを表示するには、\[**Other Reports**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ベスト プラクティス アナライザーのレポートと、各レポートから特定される問題の詳細については、「<a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで作成したレポートの表示および作業</a>」および「<a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで識別された問題の分析と解決</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ベスト プラクティス アナライザーのレポートと、各レポートから特定される問題の詳細については、「<a href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで作成したレポートの表示および作業</a>」および「<a href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">ベスト プラクティス アナライザーで識別された問題の分析と解決</a>」を参照してください。
 

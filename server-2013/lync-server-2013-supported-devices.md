@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync Server は、次の表に示す電話をすべてサポートしています。サポートされているすべての電話で Lync Phone Edition を実行できるとは限りません (以前のバージョンのみを実行できるものもあります)。この表は、Lync Phone Edition を実行できる電話と、サポートされているすべての電話の詳細情報の参照先を確認するのに使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サポートされる電話は 3 種類で、電話 (従業員がデスクで使用することを想定して設計されたハンドセット IP または USB デバイス)、電話会議デバイス (会議室で使用することを想定して設計されたハンズフリー IP または USB 電話)、および共有エリアの電話 (ロビー、キッチン、工場フロア、共有ワークスペースなどの共有エリアで使用することを想定して設計された IP 電話で、Lync Phone Edition の各種機能を提供するようにカスタマイズ可能) です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> サポートされる電話は 3 種類で、電話 (従業員がデスクで使用することを想定して設計されたハンドセット IP または USB デバイス)、電話会議デバイス (会議室で使用することを想定して設計されたハンズフリー IP または USB 電話)、および共有エリアの電話 (ロビー、キッチン、工場フロア、共有ワークスペースなどの共有エリアで使用することを想定して設計された IP 電話で、Lync Phone Edition の各種機能を提供するようにカスタマイズ可能) です。
 
 
 Lync と連携するように最適化されたすべてのデバイスについての詳細な比較表については、[http://go.microsoft.com/fwlink/?linkid=208938\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=208938%26clcid=0x411) の「Phones and devices qualified for Microsoft Lync」を参照してください。この Web サイトに掲載される電話比較表には、価格情報と技術仕様も記載されています。
@@ -102,16 +92,6 @@ Lync と連携するように最適化されたすべてのデバイスについ
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>アナログ デバイスもサポートされています。詳細については、Lync Server 2010 TechNet ライブラリの「<a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x411">アナログ デバイスの展開の計画</a>」を参照してください (Lync Phone Edition は Lync Server 2013 と Lync Server 2010 で同じように機能します)。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> アナログ デバイスもサポートされています。詳細については、Lync Server 2010 TechNet ライブラリの「<a href="http://go.microsoft.com/fwlink/?linkid=257502%26clcid=0x411">アナログ デバイスの展開の計画</a>」を参照してください (Lync Phone Edition は Lync Server 2013 と Lync Server 2010 で同じように機能します)。
 

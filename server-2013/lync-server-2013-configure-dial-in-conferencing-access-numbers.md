@@ -19,32 +19,12 @@ _**トピックの最終更新日:** 2011-07-17_
 
 ダイヤルイン アクセス番号を作成する前に、まずダイヤルイン会議の域を計画し、その地域のダイヤル プランを構成する必要があります。地域の詳細については、「計画」のドキュメントの「[Lync Server 2013 でのダイヤルイン会議の要件](lync-server-2013-dial-in-conferencing-requirements.md)」を参照してください。ダイヤルイン会議のダイヤル プランの構成に関する詳細については、「[Lync Server 2013 でのダイヤルイン会議のダイヤル プランの構成](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>新しいダイヤルイン アクセス番号は、そのアクセス番号の Active Directory ドメイン サービス (AD DS) レプリケーションが完了するまで使用できません。 レプリケーションが完了するまでに数時間かかることがあります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 新しいダイヤルイン アクセス番号は、そのアクセス番号の Active Directory ドメイン サービス (AD DS) レプリケーションが完了するまで使用できません。 レプリケーションが完了するまでに数時間かかることがあります。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、<strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。 <strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用したアクセス番号の変更の詳細については、Lync Server 管理シェルのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ダイヤルイン アクセス番号を作成した後は、Active Directory の連絡先オブジェクトの表示名を変更し、ユーザーが正しいアクセス番号を識別しやすくすることができます。 表示名を変更するには、<strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用します。 Active Directory のオブジェクトは手動で変更しないでください。 <strong>Set-CsDialInConferencingAccessNumber</strong> コマンドレットを使用したアクセス番号の変更の詳細については、Lync Server 管理シェルのドキュメントを参照してください。
 
 
 ## このセクション中

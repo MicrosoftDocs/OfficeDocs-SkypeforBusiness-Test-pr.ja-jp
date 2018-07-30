@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 ProgressReport ビューは、完了したセッションに関する情報を格納します。進行状況レポートは、Lync Server 2013 による診断時に役立ちそうな通話とセッションのみを対象として書き込まれます。このビューは、Microsoft Lync Server 2013 で導入されました。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、必ずしもエラーを参照するのではなく、通話またはメッセージの状態を示すメッセージを参照します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ErrorTime、ErrorReportSeq、および ProgressReportSeq フィールドは、必ずしもエラーを参照するのではなく、通話またはメッセージの状態を示すメッセージを参照します。
 
 
 

@@ -31,18 +31,8 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 
 通常、内部の証明機関を使用した証明書の再発行は簡単なプロセスです。ただし、Web サービス公開ルールで使用されるパブリック証明書の場合、サブジェクトの複数の別名エントリを追加する処理に高い費用がかかる可能性があります。この問題を回避するために、ポート 80 での自動検出の初期接続がサポートされます。この接続は、その後、ディレクターまたはフロント エンド サーバーのポート 8080 にリダイレクトされます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>内部証明機関 (CA) から発行された内部証明書を Lync Server 2013 インフラストラクチャで使用しており、ワイヤレスによるモバイル デバイスの接続をサポートする計画がある場合、内部 CA からのルート証明書チェーンをモバイル デバイスにインストールするか、Lync Server 2013 インフラストラクチャのパブリック証明書に変更する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 内部証明機関 (CA) から発行された内部証明書を Lync Server 2013 インフラストラクチャで使用しており、ワイヤレスによるモバイル デバイスの接続をサポートする計画がある場合、内部 CA からのルート証明書チェーンをモバイル デバイスにインストールするか、Lync Server 2013 インフラストラクチャのパブリック証明書に変更する必要があります。
 
 
 このトピックでは、ディレクター、フロント エンド サーバー、およびリバース プロキシで必要とされる追加されたサブジェクトの別名について説明します。説明するのは、追加されたサブジェクトの別名 (SAN) についてのみです。証明書の他のエントリに関するガイダンスについては、計画セクションを参照してください。詳細については、「[Lync Server 2013 のディレクターのシナリオ](lync-server-2013-scenarios-for-the-director.md)」、「[Lync Server 2013 の外部ユーザー アクセスのシナリオ](lync-server-2013-scenarios-for-external-user-access.md)」、および「[Lync Server 2013 のリバース プロキシのシナリオ](lync-server-2013-scenarios-for-reverse-proxy.md)」を参照してください。
@@ -75,18 +65,8 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>新しい SAN エントリのある更新された証明書を既定の証明書に割り当てます。または、SAN=*.&lt;SIP ドメイン&gt; を使用することもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 新しい SAN エントリのある更新された証明書を既定の証明書に割り当てます。または、SAN=*.&lt;SIP ドメイン&gt; を使用することもできます。
 
 
 ### フロントエンド プールの証明書の要件
@@ -115,18 +95,8 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>新しい SAN エントリのある更新された証明書を既定の証明書に割り当てます。または、SAN=*.&lt;SIP ドメイン&gt; を使用することもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 新しい SAN エントリのある更新された証明書を既定の証明書に割り当てます。または、SAN=*.&lt;SIP ドメイン&gt; を使用することもできます。
 
 
 ### リバース プロキシ (パブリック CA) の証明書の要件
@@ -151,16 +121,6 @@ Lync Server 2013 自動検出サービスは、ディレクターおよびフロ
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>新しい SAN エントリのある更新された証明書を、リバース プロキシ上の SSL リスナーに割り当てます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 新しい SAN エントリのある更新された証明書を、リバース プロキシ上の SSL リスナーに割り当てます。
 

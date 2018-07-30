@@ -41,18 +41,8 @@ Microsoft Lync Server 2013、計画ツールを使用して、仲介サーバー
 
 中央サイトの 仲介サーバーを使用して、ブランチ サイトの IP-PBX ゲートウェイまたは PSTN ゲートウェイの通話をルーティングできます。 ただし、SIP トランクを展開する場合は、各トランクが終了するサイトに 仲介サーバーを展開する必要があります。 中央サイトの 仲介サーバーでブランチ サイトの IP-PBX ゲートウェイまたは PSTN ゲートウェイの通話をルーティングする場合は、メディア バイパスを使用する必要はありません。 ただし、メディア バイパスを有効にできる場合は、有効にすると、メディア パスが信号パスを通過する必要がなくなるため、メディア パスの遅延を低減して、メディアの品質を高めることができます。 メディア バイパスにより、プールの処理負荷も軽減することができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Infrastructure qualified for Microsoft Lync」( <a href="http://go.microsoft.com/fwlink/?linkid=268730%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268730&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Infrastructure qualified for Microsoft Lync」( <a href="http://go.microsoft.com/fwlink/?linkid=268730%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268730&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。
 
 
 ブランチ サイトの復元が必要な場合、ブランチ サイトに 存続可能ブランチ アプライアンスまたは フロント エンド サーバー、 仲介サーバー、およびゲートウェイの組み合わせを展開する必要があります (ブランチ サイトの復元では、プレゼンスと会議はサイトで復元性がないことを前提としています)。音声に関するブランチ サイトの計画のガイダンスについては、「 [Lync Server 2013 ブランチ サイト VoIP の復元の計画](lync-server-2013-planning-for-branch-site-voice-resiliency.md)」を参照してください。
@@ -61,16 +51,6 @@ IP-PBX とのやり取りでは、IP-PBX が複数の早期ダイアログとの
 
 また、中央サイトに TDM PBX がある場合や、IP-PBX によって PSTN ゲートウェイの必要性がなくならない場合は、 仲介サーバーおよび PBX に接続する通話ルートにゲートウェイを展開する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるには、これらのサーバーのネットワーク アダプターの Receive-side Scaling (RSS) を有効にする必要があります。RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。詳細については、「Windows Server 2008 での Receive-Side Scaling 機能拡張」( <a href="http://go.microsoft.com/fwlink/?linkid=268731%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268731&amp;clcid=0x411</a>) を参照してください。RSS を有効にする方法の詳細については、「ネットワーク アダプター」のドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるには、これらのサーバーのネットワーク アダプターの Receive-side Scaling (RSS) を有効にする必要があります。RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。詳細については、「Windows Server 2008 での Receive-Side Scaling 機能拡張」( <a href="http://go.microsoft.com/fwlink/?linkid=268731%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268731&amp;clcid=0x411</a>) を参照してください。RSS を有効にする方法の詳細については、「ネットワーク アダプター」のドキュメントを参照してください。
 

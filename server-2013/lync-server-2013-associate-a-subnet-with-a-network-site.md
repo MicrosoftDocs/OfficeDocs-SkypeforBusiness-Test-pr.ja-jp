@@ -119,18 +119,8 @@ _**トピックの最終更新日:** 2014-10-20_
 
 7.  \[**ネットワーク サイト ID**\] をクリックし、このサブネットを追加する先のサイトのサイト ID を選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ネットワーク サイトがまだ作成されていない場合、この一覧は空です。手順の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。また、 <strong>Get-CsNetworkSite</strong> コマンドレットを実行して、展開のサイト ID を取得することもできます。詳細については、 Lync Server 管理シェルのドキュメントを参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。手順の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。また、 <strong>Get-CsNetworkSite</strong> コマンドレットを実行して、展開のサイト ID を取得することもできます。詳細については、 Lync Server 管理シェルのドキュメントを参照してください。
 
 
 8.  必要に応じて、\[**説明**\] をクリックし、このサブネットを説明する追加情報を入力します。

@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2012-10-02_
 
 1.  アドレス帳共有フォルダーのルートで Company\_Phone\_Number\_Normalization\_Rules.txt ファイルを見つけ、それを Lync Server 2013 パイロット プール内のアドレス帳共有フォルダーのルートにコピーします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>サンプルのアドレス帳正規化ルールが ABS Web コンポーネント ファイル ディレクトリにインストールされています。パスは、 <strong>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</strong> です。このファイルは、アドレス帳共有フォルダーのルート ディレクトリにコピーして、  <strong>Company_Phone_Number_Normalization_Rules.txt</strong> という名前に変更できます。たとえば、 <strong>$serverX</strong> 内で共有されるアドレス帳の場合、次のようなパスになります。 <strong>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</strong></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > サンプルのアドレス帳正規化ルールが ABS Web コンポーネント ファイル ディレクトリにインストールされています。パスは、 <strong>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</strong> です。このファイルは、アドレス帳共有フォルダーのルート ディレクトリにコピーして、  <strong>Company_Phone_Number_Normalization_Rules.txt</strong> という名前に変更できます。たとえば、 <strong>$serverX</strong> 内で共有されるアドレス帳の場合、次のようなパスになります。 <strong>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</strong>
 
 
 2.  メモ帳などのテキスト エディターを使用して、Company\_Phone\_Number\_Normalization\_Rules.txt ファイルを開きます。

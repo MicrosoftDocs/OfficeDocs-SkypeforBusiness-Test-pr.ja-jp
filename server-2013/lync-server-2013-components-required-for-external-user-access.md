@@ -47,18 +47,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 承認済みの外部ユーザーは、エッジ サーバーにアクセスして Lync Server 2013 の内部展開に接続できますが、エッジ サーバーによって内部ネットワークへのその他のアクセスが可能になることはありません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>エッジ サーバーを展開して、(フェデレーション シナリオと同様に) 有効な Lync クライアントやその他の Microsoft Edge サーバーを接続できます。エッジ サーバーは、他の種類のエンド ポイント クライアントやサーバーから接続できるようには設計されていません。XMPP Gateway サーバーを展開すると、構成済みの XMPP パートナーと接続できます。エッジ サーバーと XMPP ゲートウェイは、これらの種類のクライアントとフェデレーションからのエンド ポイント接続のみをサポートできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> エッジ サーバーを展開して、(フェデレーション シナリオと同様に) 有効な Lync クライアントやその他の Microsoft Edge サーバーを接続できます。エッジ サーバーは、他の種類のエンド ポイント クライアントやサーバーから接続できるようには設計されていません。XMPP Gateway サーバーを展開すると、構成済みの XMPP パートナーと接続できます。エッジ サーバーと XMPP ゲートウェイは、これらの種類のクライアントとフェデレーションからのエンド ポイント接続のみをサポートできます。
 
 
 ## リバース プロキシ
@@ -83,18 +73,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 リバース プロキシに関連する追加情報、およびリバース プロキシが満たす必要がある要件の詳細については、「[Lync Server 2013 でのリバース プロキシの構成要件](lync-server-2013-configuration-requirements-for-reverse-proxy.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>外部ユーザーが Lync Server 2013 を使用した通信に参加するためには、自組織への仮想プライベート ネットワーク (VPN) 接続は必要ありません。組織で VPN テクノロジを導入しており、ユーザーが Lync に VPN を使用している場合、メディア トラフィック (ビデオ会議など) に悪影響を与える可能性があります。メディア トラフィックが VPN をバイパスして直接音声ビデオ エッジ サービスに接続できる手段を提供することを検討してください。詳細については、NextHop のブログ記事「Enabling Lync Media to Bypass a VPN Tunnel」(<a href="http://go.microsoft.com/fwlink/?linkid=256532" class="uri">http://go.microsoft.com/fwlink/?linkid=256532</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 外部ユーザーが Lync Server 2013 を使用した通信に参加するためには、自組織への仮想プライベート ネットワーク (VPN) 接続は必要ありません。組織で VPN テクノロジを導入しており、ユーザーが Lync に VPN を使用している場合、メディア トラフィック (ビデオ会議など) に悪影響を与える可能性があります。メディア トラフィックが VPN をバイパスして直接音声ビデオ エッジ サービスに接続できる手段を提供することを検討してください。詳細については、NextHop のブログ記事「Enabling Lync Media to Bypass a VPN Tunnel」(<a href="http://go.microsoft.com/fwlink/?linkid=256532" class="uri">http://go.microsoft.com/fwlink/?linkid=256532</a>) を参照してください。
 
 
 ## ファイアウォール

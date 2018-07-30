@@ -33,18 +33,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
   - \[**電話会議への匿名ユーザー アクセスを有効にする**\]   内部のユーザーが自分たちの開催する電話会議に外部の匿名ユーザーを招待する場合は、このオプションを有効にします。この設定を有効にするだけで、匿名ユーザーが電話会議に参加できます。電話会議でユーザーがどんなことをどのように行えるのか、また匿名ユーザーの参加の有無を定義する、電話会議のエクスペリエンスおよびオプションを構成する場合の詳細については、「[サイトまたはユーザーのグループの会議のユーザー エクスペリエンスを作成または変更する](https://technet.microsoft.com/ja-jp/library/gg429715\(v=ocs.15\))」と「[Lync Server 2013 での会議ポリシー設定の参照](lync-server-2013-conferencing-policy-settings-reference.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>外部ユーザー アクセスのサポートを有効にする以外に、いずれかの種類の外部ユーザー アクセスを利用可能にする前に、組織内でのリモート ユーザー アクセスの使用を制御するポリシーの構成も行います。外部ユーザー アクセスのポリシーの作成、構成、および適用の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 外部ユーザー アクセスのサポートを有効にする以外に、いずれかの種類の外部ユーザー アクセスを利用可能にする前に、組織内でのリモート ユーザー アクセスの使用を制御するポリシーの構成も行います。外部ユーザー アクセスのポリシーの作成、構成、および適用の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。
 
 
 **Windows PowerShell コマンドレットを使用したアクセス エッジ構成情報の表示**

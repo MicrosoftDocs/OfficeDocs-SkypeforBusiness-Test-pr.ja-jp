@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2012-08-06_
 
 このサイトで、 フロント エンド プールまたは Standard Edition サーバー上に併置される 仲介サーバーが既に展開されている場合は、ファイルのインストールを省略して、「[Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)」に進みます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このトピックでは、「展開」のドキュメントの「<a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Lync Server 2013 のトポロジ ビルダーでの仲介サーバーの定義</a>」および「<a href="lync-server-2013-publish-the-topology.md">Lync Server 2013 でトポロジを公開する</a>」の説明に従って、スタンドアロンの 仲介サーバー プールが既に定義および公開されていることと、 仲介サーバー プールのコンピューターが「<a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Lync Server 2013 のエンタープライズ VoIP のソフトウェア前提条件</a>」および「<a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Lync Server 2013 のエンタープライズ VoIP のセキュリティおよび構成の前提条件</a>」で説明する前提条件を満たしていることの確認が終わっていることを前提に説明を進めます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このトピックでは、「展開」のドキュメントの「<a href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Lync Server 2013 のトポロジ ビルダーでの仲介サーバーの定義</a>」および「<a href="lync-server-2013-publish-the-topology.md">Lync Server 2013 でトポロジを公開する</a>」の説明に従って、スタンドアロンの 仲介サーバー プールが既に定義および公開されていることと、 仲介サーバー プールのコンピューターが「<a href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Lync Server 2013 のエンタープライズ VoIP のソフトウェア前提条件</a>」および「<a href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Lync Server 2013 のエンタープライズ VoIP のセキュリティおよび構成の前提条件</a>」で説明する前提条件を満たしていることの確認が終わっていることを前提に説明を進めます。
 
 
 ## スタンドアロンの仲介サーバー プールにファイルをインストールするには

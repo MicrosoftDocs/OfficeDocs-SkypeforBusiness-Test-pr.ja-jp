@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-20_
 
 Windows PowerShell と **Get-CsMeetingRoom** コマンドレットを使用して、組織で使用するよう構成された会議デバイスの情報を表示できます。Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから **Get-CsMeetingRoom** コマンドレットを実行します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
 
 
 なにもパラメーターを指定せずに **Get-CsMeetingRoom** コマンドレットを使用した場合、すべての会議デバイスの情報を戻します。オプションのパラメーターを指定すると、さまざまな方法で情報をフィルター処理できます。詳細は、「[Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)」のパラメーターのセクションを参照してください。

@@ -37,18 +37,8 @@ Lync Server 2013 用の Active Directory ドメイン サービス の準備プ�
 
   - Lync Server を展開するフォレストが、Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008、または最低でも Windows Server 2003 のフォレスト機能レベルに上げられている。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ドメインまたはフォレストの機能レベルを変更するには、TechNet ライブラリの「ドメインとフォレストの機能レベルを上げる」( <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>) を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ドメインまたはフォレストの機能レベルを変更するには、TechNet ライブラリの「ドメインとフォレストの機能レベルを上げる」( <a href="http://go.microsoft.com/fwlink/?linkid=263775" class="uri">http://go.microsoft.com/fwlink/?linkid=263775</a>) を参照してください。
 
 
   - グローバル カタログが、 Lync Server のコンピューターまたはユーザーを展開するすべてのドメインで展開されている。

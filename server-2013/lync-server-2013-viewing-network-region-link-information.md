@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 4.  \[**地域リンク**\] ページで、表示する地域リンクをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一度に情報を表示できる地域リンクは 1 つだけです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一度に情報を表示できる地域リンクは 1 つだけです。
 
 
 5.  \[**編集**\] メニューの \[**詳細の表示**\] を選択します。

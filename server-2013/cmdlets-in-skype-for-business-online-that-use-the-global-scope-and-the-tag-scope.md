@@ -27,19 +27,9 @@ ID "RedmondAccessPolicy" が含まれるユーザーごとのポリシーを返�
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーごとのポリシーを参照する場合、タグ <strong>プレフィクス</strong>は省略可能です。プレフィクスが含まれる次の構文も有効です。<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーごとのポリシーを参照する場合、タグ <strong>プレフィクス</strong>は省略可能です。プレフィクスが含まれる次の構文も有効です。<br />
+> Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
 
 
 グローバル ポリシーを除くすべてのポリシー (つまり、すべてのユーザーごとのポリシー) を返すには、次のコマンドを使用します。
@@ -62,18 +52,8 @@ Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
 
   - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ダイヤル プランは、名前とは異なり、機能的にはポリシーです。たとえば、ダイヤル プランという用語はダイヤル ポリシーの代わりに使用されていますが、これは以前のバージョンの Lync Server で使用された用語を保持するためです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ダイヤル プランは、名前とは異なり、機能的にはポリシーです。たとえば、ダイヤル プランという用語はダイヤル ポリシーの代わりに使用されていますが、これは以前のバージョンの Lync Server で使用された用語を保持するためです。
 
 
 ## 関連項目

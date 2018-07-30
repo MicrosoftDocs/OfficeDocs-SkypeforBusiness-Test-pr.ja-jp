@@ -47,18 +47,8 @@ _**トピックの最終更新日:** 2014-02-07_
 
 14. \[**確定**\] をクリックし、\[**すべて確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ルーティング テスト ケースを作成するときは常に、[<strong>すべて確定</strong>] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ルーティング テスト ケースを作成するときは常に、[<strong>すべて確定</strong>] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
     
     プラス記号で始まる電話番号 (+12065551219 など) がテスト用で利用するダイヤル プランによって正規化される場合、そのために音声ルーティング テストが失敗することがあります (ダイヤル プランと音声ルーティングは正常に動作して、Test-CsDialPlan も成功しますが、音声ルーティング テストが失敗することがあります)。音声ルーティングのテストでは、そのことを念頭に置いてください。
 

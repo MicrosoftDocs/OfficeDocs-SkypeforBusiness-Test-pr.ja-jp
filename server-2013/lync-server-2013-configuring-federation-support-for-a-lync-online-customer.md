@@ -23,18 +23,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync 2013 を組織内に展開する場合は、1 つ以上の Microsoft Lync Online 2010 ユーザーのドメインとフェデレーションを行うことができます。Lync 2013 の内部設置型展開のユーザーと Lync Online 2010 の顧客のユーザーのフェデレーションを有効にするには、Lync Online の顧客のドメインとユーザーのサポートを構成する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このドキュメントでは、Lync Online 2010 の顧客とのフェデレーションをサポートするための組織の構成手順のみを説明します。フェデレーションをサポートするための Lync Online 2010 の顧客の構成手順については説明しません。Lync Online サービスの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x411</a> の Lync Online を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このドキュメントでは、Lync Online 2010 の顧客とのフェデレーションをサポートするための組織の構成手順のみを説明します。フェデレーションをサポートするための Lync Online 2010 の顧客の構成手順については説明しません。Lync Online サービスの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x411</a> の Lync Online を参照してください。
 
 
 ## このセクション中

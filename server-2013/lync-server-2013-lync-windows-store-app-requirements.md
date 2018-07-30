@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync Server を社内で展開している組織の場合、Lync Windows ストア アプリをサポートするには、次の要件を満たす必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2010 では、Lync Server 2010: 2012 年 2 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) 以降を、すべてのサーバー上で実行します。ユーザーが会議に参加できるようにするには、Lync Server 2010: 2012 年 10 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) をサーバー上で実行します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2010 では、Lync Server 2010: 2012 年 2 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) 以降を、すべてのサーバー上で実行します。ユーザーが会議に参加できるようにするには、Lync Server 2010: 2012 年 10 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) をサーバー上で実行します。
 
 
   - 自動検出、Lync Web App、Web チケットの各サービスをサーバー上で有効にします。

@@ -35,66 +35,26 @@ Active Directory の準備作業を実行するには、以下のコンポーネ
 
   - Lync Server のコア コンポーネント (OCScore.msi)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Active Directory の準備に Lync Server 管理シェルを使用する場合、最初に Lync Server 展開ウィザードを実行してコア コンポーネントをインストールする必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Active Directory の準備に Lync Server 管理シェルを使用する場合、最初に Lync Server 展開ウィザードを実行してコア コンポーネントをインストールする必要があります。
 
 
   - Microsoft .NET Framework 4.5
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Windows Server 2012 および Windows Server 2012 R2 の場合、サーバー マネージャーを使用して .NET Framework 4.5 をインストールしてアクティブ化します。詳細については、「<a href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 の追加ソフトウェア要件</a>」の「Microsoft .NET Framework 4.5」を参照してください。 Windows Server 2008 R2 の場合は、Microsoft Web サイトの <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</a> をダウンロードしてインストールしてください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Windows Server 2012 および Windows Server 2012 R2 の場合、サーバー マネージャーを使用して .NET Framework 4.5 をインストールしてアクティブ化します。詳細については、「<a href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 の追加ソフトウェア要件</a>」の「Microsoft .NET Framework 4.5」を参照してください。 Windows Server 2008 R2 の場合は、Microsoft Web サイトの <a href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.Net Framework 4.5</a> をダウンロードしてインストールしてください。
 
 
   - リモート サーバー管理ツール (RSAT)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Active Directory の準備手順をドメイン コントローラーではなくメンバー サーバーで実行する場合、RSAT ツールがいくつか必要です。サーバー マネージャーの AD DS および AD LDS ツール ノードから AD DS スナップイン、コマンド ライン ツール、および Windows PowerShell 用の Active Directory モジュールをインストールします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Active Directory の準備手順をドメイン コントローラーではなくメンバー サーバーで実行する場合、RSAT ツールがいくつか必要です。サーバー マネージャーの AD DS および AD LDS ツール ノードから AD DS スナップイン、コマンド ライン ツール、および Windows PowerShell 用の Active Directory モジュールをインストールします。
 
 
   - Microsoft Visual C++ 11 (再頒布可能)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>コンピューターにまだインストールされていない場合、セットアップで、このソフトウェアをインストールするように求められます。パッケージは提供されているため、個別に入手する必要はありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > コンピューターにまだインストールされていない場合、セットアップで、このソフトウェアをインストールするように求められます。パッケージは提供されているため、個別に入手する必要はありません。
 
 
   - Windows PowerShell 3.0 (64 ビット)
@@ -211,18 +171,8 @@ Ldifde.exe を使用してスキーマ ファイルをインポートする場�
 
 4.  VersionSchema.ldf
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これらの 4 つの .ldf ファイルは、インストール メディアまたはダウンロードの \Support\Schema ディレクトリにあります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これらの 4 つの .ldf ファイルは、インストール メディアまたはダウンロードの \Support\Schema ディレクトリにあります。
 
 
 Ldifde.exe を使用してスキーマ マスターであるドメイン コントローラーにこれらの 4 つのスキーマ ファイルをインポートするには、次の形式を使用します。
@@ -233,18 +183,8 @@ Ldifde.exe を使用してスキーマ マスターであるドメイン コン�
 
     ldifde -i -v -k -s DC1 -f ServerSchema.ldf -c DC=X "DC=contoso,DC=com" -j C:\BatchImportLogFile -b Administrator contoso password
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>b パラメーターは、別のユーザーとしてログインしている場合のみ使用します。必要なユーザー権限の詳細については、このトピックの前半の「管理者権限と役割」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> b パラメーターは、別のユーザーとしてログインしている場合のみ使用します。必要なユーザー権限の詳細については、このトピックの前半の「管理者権限と役割」を参照してください。
 
 
 Ldifde.exe を使用してスキーマ マスターでないドメイン コントローラーにこれらの 4 つのスキーマ ファイルをインポートするには、次の形式を使用します。

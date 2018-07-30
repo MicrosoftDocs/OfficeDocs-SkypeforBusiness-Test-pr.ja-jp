@@ -17,19 +17,9 @@ _**トピックの最終更新日:** 2012-10-06_
 
 Lync Server 2013 でユーザーが有効になっている場合、適切なポリシーを特定のユーザーに適用し、 常設チャット サーバーに対してユーザーを有効または無効にできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>常設チャット サーバーを構成して使用するには、まず、 トポロジ ビルダーを使用して 常設チャット サーバー サポートをトポロジに追加してから、そのトポロジを公開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync Server 2013 での展開への常設チャットサーバーの追加</a>」を参照してください。<br />
-常設チャット サーバーの構成設定を構成するには、「展開」のドキュメントの「<a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Lync Server 2013 で常設チャット サーバーのオプションをグローバルに、または常設チャット サーバー プール用に構成する</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 常設チャット サーバーを構成して使用するには、まず、 トポロジ ビルダーを使用して 常設チャット サーバー サポートをトポロジに追加してから、そのトポロジを公開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Lync Server 2013 での展開への常設チャットサーバーの追加</a>」を参照してください。<br />
+> 常設チャット サーバーの構成設定を構成するには、「展開」のドキュメントの「<a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Lync Server 2013 で常設チャット サーバーのオプションをグローバルに、または常設チャット サーバー プール用に構成する</a>」を参照してください。
 
 
 このトピックの手順を使用して、以前に作成した 常設チャット ユーザー ポリシーを、1 つ以上のユーザー アカウントまたはユーザー グループに適用します。
@@ -46,18 +36,8 @@ Lync Server 2013 でユーザーが有効になっている場合、適切なポ
 
 5.  \[**常設チャット ポリシー**\] の \[**Lync Server ユーザーの編集**\] で、適用する常設チャット ユーザー ポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>&lt;自動&gt;</strong>] 設定では、既定の有効なポリシーが適用されます。これらの設定はサーバーによって自動的に適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>&lt;自動&gt;</strong>] 設定では、既定の有効なポリシーが適用されます。これらの設定はサーバーによって自動的に適用されます。
 
 
 6.  \[**確定**\] をクリックします。

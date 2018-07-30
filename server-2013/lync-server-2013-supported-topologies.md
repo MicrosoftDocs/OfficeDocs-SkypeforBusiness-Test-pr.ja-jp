@@ -36,18 +36,8 @@ Lync Server 2013 の内部設置型展開は、次のもので構成されます
 
 このセクションでは、Lync Server 2013 展開のサイトおよびコンポーネントについて説明します。 Lync Server 2013 のサイト、トポロジ、およびコンポーネントの計画の詳細については、「計画」のドキュメントの「[Lync Server 2013 に関して計画の前に理解しておく必要があるトポロジの基本](lync-server-2013-topology-basics-you-must-know-before-planning.md)」および「[Lync Server 2013 の関連トポロジ](lync-server-2013-reference-topologies.md)」を参照してください。以前のリリースのコンポーネントの統合の詳細については、「[Lync Server 2013 のサポートされる移行パスと共存のシナリオ](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>拡大されたプールは、フロント エンド サーバー、エッジ サーバー、仲介サーバー、ディレクター サーバーの各役割ではサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 拡大されたプールは、フロント エンド サーバー、エッジ サーバー、仲介サーバー、ディレクター サーバーの各役割ではサポートされていません。
 
 
 ## 中央サイトのトポロジとコンポーネント (内部設置型)
@@ -74,18 +64,8 @@ Lync Server 2013 の内部設置型展開は、次のもので構成されます
 
   - リバース プロキシ。これは Lync Server 2013 コンポーネントではありませんが、フェデレーション ユーザー用の Web コンテンツの共有、またはモビリティ トラフィックをサポートする場合に必要です。リバース プロキシ サーバーは Lync Server 2013 サーバーのどの役割とも併置できませんが、他のアプリケーションで使用されている、組織内の既存のリバース プロキシ サーバー上にリバース プロキシのサポートを構成することで、Lync Server 2013 展開のリバース プロキシのサポートを実装できます。リバース プロキシ サーバーの詳細については、「展開」のドキュメントの「[Lync Server 2013 のリバース プロキシ サーバーの設定](lync-server-2013-setting-up-reverse-proxy-servers.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、フロントエンド サーバーで実行される、音声ビデオ会議、監視、およびアーカイブは、個別のサーバーの役割ではなくなりました。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、フロントエンド サーバーで実行される、音声ビデオ会議、監視、およびアーカイブは、個別のサーバーの役割ではなくなりました。
 
 
 中央サイトに展開されるすべてのフロントエンド プールおよび Standard Edition サーバーは、中央サイトで展開される次のサーバーをどれでも共有できます。
@@ -104,18 +84,8 @@ Lync Server 2013 の内部設置型展開は、次のもので構成されます
 
   - アーカイブ
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2013 ユニファイド メッセージングの統合をサポートする場合、Exchange UM サーバーを Lync Server 2013 展開と共に実装できますが、このサーバーは Lync Server 2013 サイトのコンポーネントではありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Exchange 2013 ユニファイド メッセージングの統合をサポートする場合、Exchange UM サーバーを Lync Server 2013 展開と共に実装できますが、このサーバーは Lync Server 2013 サイトのコンポーネントではありません。
 
 
 また、複数の中央サイトが、1 つの中央サイトに展開されている次のサーバーをどれでも共有できます。
@@ -130,18 +100,8 @@ Lync Server 2013 の内部設置型展開は、次のもので構成されます
 
   - 監視
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange UM サーバーは、Lync Server 2013 展開と共に実装して、複数の中央サイトで共有できますが、このサーバーは Lync Server 2013 サイトのコンポーネントではありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Exchange UM サーバーは、Lync Server 2013 展開と共に実装して、複数の中央サイトで共有できますが、このサーバーは Lync Server 2013 サイトのコンポーネントではありません。
 
 
 Lync Server 2013 のサーバーの役割の詳細については、「計画」のドキュメントの「[Lync Server 2013 のサーバーの役割](lync-server-2013-server-roles.md)」を参照してください。

@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-09-17_
 
 3.  更新したデータベースを公開します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>または、場所データベースの代わりに使用できるセカンダリ場所データベースを定義することもできます。詳細については、「<a href="lync-server-2013-configure-a-secondary-location-information-service.md">セカンダリ場所情報サービスの構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> または、場所データベースの代わりに使用できるセカンダリ場所データベースを定義することもできます。詳細については、「<a href="lync-server-2013-configure-a-secondary-location-information-service.md">セカンダリ場所情報サービスの構成</a>」を参照してください。
 
 
 ## このセクション中

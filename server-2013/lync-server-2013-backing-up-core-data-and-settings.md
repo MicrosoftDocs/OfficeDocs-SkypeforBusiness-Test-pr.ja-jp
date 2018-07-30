@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2014-04-23_
 
 以下の手順では、Lync Server 管理シェルのコマンドレットを使用して、コア サービスの設定とデータのバックアップ ファイルを作成します。ここで使用するツールの詳細については、ツールがある場所も含めて、「[バックアップと復元の要件: ツールとアクセス許可](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)」を参照してください。アーカイブ データおよび監視データのバックアップの詳細については、「[アーカイブ データベースと監視データベースのバックアップ](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ここで説明する中央管理ストアをバックアップするための手順には、アーカイブおよび監視の設定と構成が含まれます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ここで説明する中央管理ストアをバックアップするための手順には、アーカイブおよび監視の設定と構成が含まれます。
 
 
 ここで説明するコマンドレットは、ローカルでもリモートでも実行できます。
@@ -49,18 +39,8 @@ _**トピックの最終更新日:** 2014-04-23_
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この手順では、Lync Server のトポロジ、ポリシー、および構成設定をファイルにエクスポートします。トポロジ データをバックアップするために他の手順は必要ありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この手順では、Lync Server のトポロジ、ポリシー、および構成設定をファイルにエクスポートします。トポロジ データをバックアップするために他の手順は必要ありません。
 
 
 5.  バックアップした中央管理ストアの構成ファイルを $Backup\\ にコピーします。

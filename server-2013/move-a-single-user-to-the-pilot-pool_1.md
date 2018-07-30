@@ -65,16 +65,6 @@ Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理�
     
     ![Identity フィルターを使用した Get-CsUser コマンドレットの出力](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Identity フィルターを使用した Get-CsUser コマンドレットの出力")  
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Get-CsUser</strong> コマンドレットの詳細を確認するには、<strong>Get-Help Get-CsUser –Detailed</strong> を実行してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > <strong>Get-CsUser</strong> コマンドレットの詳細を確認するには、<strong>Get-Help Get-CsUser –Detailed</strong> を実行してください。
 

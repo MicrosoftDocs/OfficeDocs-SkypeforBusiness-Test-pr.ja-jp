@@ -35,18 +35,8 @@ Alice のメールボックスと Exchange UM サービスは、ホストされ�
 
   - Alice のユーザー アカウントの msExchUCVoiceMailSettings 属性に設定された値は、ExUM ルーティング アプリケーションに対して、ホスト ボイス メール ポリシーのルーティング情報を確認するように示しています。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>msExchUCVoiceMailSettings 属性の値は、Exchange サービス プロバイダーまたは Lync Server 2013 管理者が設定できます。 上の図の例では、Alice のホスト ボイス メールを有効にするために値 (CsHostedVoiceMail=1) が Lync Server 2013 管理者によって設定されています。この属性の詳細については、「<a href="lync-server-2013-hosted-exchange-user-management.md">Lync Server 2013 の Hosted Exchange ユーザー管理</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > msExchUCVoiceMailSettings 属性の値は、Exchange サービス プロバイダーまたは Lync Server 2013 管理者が設定できます。 上の図の例では、Alice のホスト ボイス メールを有効にするために値 (CsHostedVoiceMail=1) が Lync Server 2013 管理者によって設定されています。この属性の詳細については、「<a href="lync-server-2013-hosted-exchange-user-management.md">Lync Server 2013 の Hosted Exchange ユーザー管理</a>」を参照してください。
 
 
   - Alice のユーザー アカウントに割り当てられたホスト ボイス メール ポリシーは、次のルーティング情報を提供します。
@@ -70,16 +60,6 @@ Alice のメールボックスと Exchange UM サービスは、ホストされ�
         
         詳細については、「[Lync Server 2013 のホスト型ボイス メール ポリシー](lync-server-2013-hosted-voice-mail-policies.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>msExchUCVoiceMailSettings 属性と UM プロキシ アドレス設定の両方がユーザー アカウントに設定されている場合、msExchUCVoiceMailSettings 属性が優先されます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> msExchUCVoiceMailSettings 属性と UM プロキシ アドレス設定の両方がユーザー アカウントに設定されている場合、msExchUCVoiceMailSettings 属性が優先されます。
 

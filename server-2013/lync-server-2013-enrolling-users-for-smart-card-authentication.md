@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 3.  **証明機関 Web 登録**のページ (例: https://MyCA.contoso.com/certsrv) を開きます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Internet Explorer 10 を使っている場合は、この Web サイトを互換モードで見る必要がある場合があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Internet Explorer 10 を使っている場合は、この Web サイトを互換モードで見る必要がある場合があります。
 
 
 4.  Web サイトの \[**ようこそ**\] ページで、\[**証明書の要求**\] を選びます。
@@ -77,18 +67,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 10. 入力を求められたら、仮想スマート カードを作成したときに使った PIN を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>仮想スマート カードの既定の PIN の値は、「12345678」です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 仮想スマート カードの既定の PIN の値は、「12345678」です。
 
 
 11. 証明書が発行されたら、\[**この証明書のインストール**\] をクリックして登録プロセスを完了します。

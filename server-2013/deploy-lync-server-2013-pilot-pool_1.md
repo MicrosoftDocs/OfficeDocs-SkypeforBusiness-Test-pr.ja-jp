@@ -19,18 +19,8 @@ Lync Server 2013 への移行で最初に行う必要がある手順の 1 つが
 
 パイロット プールを展開するときは、新しいフロントエンド プールの定義ウィザードを使用します。Office Communications Server 2007 R2 プール内にある Lync Server 2013 パイロット プールには、同じ機能とワークロードを展開してください。Office Communications Server 2007 R2 環境をアーカイブまたは監視するために、アーカイブ サーバー、監視サーバー、または System Center Operations Manager を展開していて、移行の間もアーカイブまたは監視を続行する場合は、それらの機能をパイロット環境にも展開する必要があります。Office Communications Server 2007 R2 環境のアーカイブまたは監視のために展開したバージョンでは、Lync Server 2013 環境のデータは取得されません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>次の手順では、パイロット プール全体の展開プロセスの中で検討する必要がある機能と設定について説明します。このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。詳細な手順については、「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」の展開ガイドを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 次の手順では、パイロット プール全体の展開プロセスの中で検討する必要がある機能と設定について説明します。このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。詳細な手順については、「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」の展開ガイドを参照してください。
 
 
 **Lync Server 2013 パイロット プールを展開するには**

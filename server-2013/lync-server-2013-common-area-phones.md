@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 共通領域電話の連絡先オブジェクトの作成、修正および削除方法、展開内の共通領域電話に関する構成情報の構成と表示方法については、このセクションのトピックを参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>共通領域電話としては、Aastra 6721ip 共通領域電話、HP 4110 IP 電話、Polycom CX500 IP 共通領域電話を選択できます。Polycom CX3000 IP 会議電話は別の機種の共通領域電話ですが、会議室で使用するためのものです。共通領域電話の詳細については、「<a href="http://technet.microsoft.com/ja-jp/library/gg398958(v=ocs.14).aspx">新型デバイスの選択</a>」の「共通領域電話」のセクション参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 共通領域電話としては、Aastra 6721ip 共通領域電話、HP 4110 IP 電話、Polycom CX500 IP 共通領域電話を選択できます。Polycom CX3000 IP 会議電話は別の機種の共通領域電話ですが、会議室で使用するためのものです。共通領域電話の詳細については、「<a href="http://technet.microsoft.com/ja-jp/library/gg398958(v=ocs.14).aspx">新型デバイスの選択</a>」の「共通領域電話」のセクション参照してください。
 
 
 ## このセクション中

@@ -42,32 +42,12 @@ Lync Server 2013 は、停止中の、割り当てなしの番号への通話に
 
 停止中に アナウンス アプリケーションを使用するには、このセクションで説明するタスクを実行して、バックアップ プールにアナウンス構成を再作成する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>手順 2 を実行するとすぐに割り当てなしの番号範囲の所有権をバックアップ プールが取得するので、これらのタスクは、バックアップ プールへのフェールオーバー後に実行することをお勧めします。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 手順 2 を実行するとすぐに割り当てなしの番号範囲の所有権をバックアップ プールが取得するので、これらのタスクは、バックアップ プールへのフェールオーバー後に実行することをお勧めします。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この手順は、Exchange UM 自動応答の電話番号を使用する番号範囲については必要ありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この手順は、Exchange UM 自動応答の電話番号を使用する番号範囲については必要ありません。
 
 
 **バックアップ プールでアナウンス構成を再作成するには**
@@ -78,18 +58,8 @@ Lync Server 2013 は、停止中の、割り当てなしの番号への通話に
     
     2.  **New-CsAnnouncement** コマンドレットを使用し、Parent パラメーターにバックアップ プールを指定して、個々のアナウンスを再作成します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>これらのパラメーターを使用してバックアップ プールにアナウンスを作成する方法の詳細については、「<a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でのアナウンスの作成</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > これらのパラメーターを使用してバックアップ プールにアナウンスを作成する方法の詳細については、「<a href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でのアナウンスの作成</a>」を参照してください。
 
 
 2.  すべてのアナウンスがバックアップ プールに再作成されたら、プライマリ プールでアナウンスを使用している割り当てなしの番号範囲をすべて、バックアップ プールに再作成したアナウンスに転送します。
@@ -102,18 +72,8 @@ Lync Server 2013 は、停止中の、割り当てなしの番号への通話に
 
 プライマリ プールが利用可能になったら、停止中に変更した割り当てなしの番号範囲を、再びプライマリ プールに転送する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この手順は、Exchange UM 自動応答の電話番号を使用する番号範囲については必要ありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この手順は、Exchange UM 自動応答の電話番号を使用する番号範囲については必要ありません。
 
 
 **プライマリ プールでアナウンスを復元するには**

@@ -1389,18 +1389,8 @@ _**トピックの最終更新日:** 2017-05-03_
 
 ## テレフォニーのサポート
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 音声機能は特定の Lync Online サブスクリプション プランに制限されます。詳しくは、「Lync Online サービスの説明」(<a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>) の「Lync 音声機能」をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync 音声機能は特定の Lync Online サブスクリプション プランに制限されます。詳しくは、「Lync Online サービスの説明」(<a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>) の「Lync 音声機能」をご覧ください。
 
 
 

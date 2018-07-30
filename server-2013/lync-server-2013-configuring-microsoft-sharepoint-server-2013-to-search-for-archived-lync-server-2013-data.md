@@ -44,18 +44,8 @@ Exchange Web サービスがインストールされた後、SharePoint Server 2
     $service.AllowOAuthOverHttp = $False
     $service.Update()
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>自動検出サービスの URI を使用してください。サンプル URI の https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 は使用しないでください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 自動検出サービスの URI を使用してください。サンプル URI の https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 は使用しないでください。
 
 
 トークン発行元を作成し、トークン サービスを構成した後、次のコマンドを実行します。このとき、自分の SharePoint サイトの URL をサンプル URL http://atl-sharepoint-001 に置き換えます。
@@ -84,18 +74,8 @@ Exchange と SharePoint の間のサーバー間認証が確立された後、Sh
     $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
     New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&quot;電子情報開示&quot; とは、通常、訴訟において &quot;証拠になり得ると合理的に判断できる&quot; 項目の電子的アーカイブを参照するプロセスを表します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> &quot;電子情報開示&quot; とは、通常、訴訟において &quot;証拠になり得ると合理的に判断できる&quot; 項目の電子的アーカイブを参照するプロセスを表します。
 
 
 新しいサイトの準備ができたら、Exchange 2013 が SharePoint の検索先として動作するように構成します。これは、SharePoint 2013 サーバーの全体管理ページで次の手順を実行することによって行うことができます。

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2010-11-03_
 
 Kerberos 認証アカウントのコンピューター オブジェクトを作成したら、そのアカウント用のパスワードを設定できます。 1 つのサーバーに、Kerberos のアカウント パスワードを設定するには、Windows PowerShell コマンドレットを実行します。 Kerberos 認証のために作成したオブジェクトにパスワードを設定できます。 このパスワードは既知の値に設定することができますが、既定値はランダムなパスワードです。 このパスワードは、このアカウントを使用するすべての Kerberos 認証ソースを利用できます。 Kerberos のアカウント パスワードを設定および管理するには、Windows PowerShell コマンドレットを使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Kerberos のアカウント オブジェクトはコンピューター オブジェクトですが、参照する Windows PowerShell コマンドレットの操作では UserAccount パラメーターを使用します。 これは間違いではなく、このコマンドレットを Kerberos のアカウントの作成および管理に使用するときの、意図的な動作です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Kerberos のアカウント オブジェクトはコンピューター オブジェクトですが、参照する Windows PowerShell コマンドレットの操作では UserAccount パラメーターを使用します。 これは間違いではなく、このコマンドレットを Kerberos のアカウントの作成および管理に使用するときの、意図的な動作です。
 
 
 ## このセクション中

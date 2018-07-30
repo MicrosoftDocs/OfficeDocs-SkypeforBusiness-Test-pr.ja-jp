@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - **フェデレーション ユーザー**    Lync Server 2010、 Lync Server 2013、 Office Communications Server 2007 R2 など、信頼される顧客またはパートナー組織とのアカウントを持つユーザー。また、フェデレーション ユーザーは、 エッジ サーバーの XMPP (eXtensible Messaging and Presence Protocol) プロキシと、 フロント エンド サーバーまたはプールの XMPP ゲートウェイを経由して XMPP を使用する定義済みパートナー組織のメンバーになることもできます。フェデレーションと呼ばれる定義済みの信頼関係は、 Active Directory ドメイン サービス の信頼関係とは無関係で、これに依存しません。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>AOL と Yahoo! のサービス終了日は 2014 年 6 月と発表されています。詳細については、「<a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > AOL と Yahoo! のサービス終了日は 2014 年 6 月と発表されています。詳細については、「<a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 でのパブリック インスタント メッセンジャーの接続のサポート</a>」を参照してください。
 
 
   - **パブリック インスタント メッセージング接続ユーザー**   ユーザーがパブリック IM 接続サービス (Windows Live、Yahoo\!、および AOL) を介して構築できる連絡先。

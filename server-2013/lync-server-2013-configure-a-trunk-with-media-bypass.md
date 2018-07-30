@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 メディア バイパスは有効にすることを強くお勧めしますが、SIP トランクのメディア バイパスを有効にする前に、認定 SIP トランク プロバイダーがメディア バイパスをサポートしていることと、シナリオを正常に実現できる要件に対応できることを確認してください。つまり、プロバイダーが組織の内部ネットワーク内のサーバーの IP アドレスを持っている必要があります。このシナリオをプロバイダーがサポートできない場合、メディア バイパスは成功しません。詳細については、「計画」のドキュメントの「 [Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>メディア バイパスは、すべての公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、およびセッション ボーダー コントローラー (SBC) と相互運用できるとは限りません。マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server (英語)」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> メディア バイパスは、すべての公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、およびセッション ボーダー コントローラー (SBC) と相互運用できるとは限りません。マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server (英語)」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。
 
 
 以下で説明するトランク構成では、そのトランク構成が割り当てられるトランクに適用される一連のパラメーターがグループ化されています。トランク構成のスコープは、グローバル (サイトまたはプールの構成を持たないすべてのトランクに適用されます)、サイト、またはプールにすることができます。プール レベルのトランク構成は、トランク構成のスコープを 1 つのトランクにするために使用されます。
@@ -70,18 +60,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 5.  \[ **サポートされる最大早期ダイアログ数** \] に値を指定します。これは公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX、または ITSP セッション ボーダー コントローラー (SBC) が、仲介サーバーに送信した INVITE に対して受信できる分岐応答の最大数です。既定値は 20 です。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この値を変更する前に、サービス プロバイダーまたは機器の製造メーカーに、システムの機能の詳細について問い合わせてください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この値を変更する前に、サービス プロバイダーまたは機器の製造メーカーに、システムの機能の詳細について問い合わせてください。
 
 
 6.  次のいずれかの \[ **暗号化サポート レベル** \] オプションを選択します。
@@ -242,18 +222,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 20. \[ **トランク構成** \] ページで \[ **確定** \] をクリックして、\[ **すべて確定** \] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トランクの構成を作成または変更するときは常に、[ <strong>すべて確定</strong> ] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「 <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トランクの構成を作成または変更するときは常に、[ <strong>すべて確定</strong> ] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「 <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
 
 
 トランクを構成した後、「展開」のドキュメントの「 [Lync Server 2013 でのグローバル メディア バイパス オプション](lync-server-2013-global-media-bypass-options.md)」の説明に従い、グローバル メディア バイパス オプションの中から選択して、メディア バイパスの構成を続行します。

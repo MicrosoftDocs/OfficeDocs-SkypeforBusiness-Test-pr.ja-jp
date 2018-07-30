@@ -33,32 +33,12 @@ Windows 7 オペレーティング システム、Windows Server 2008 オペレ�
 
 サーバーの拡張キー使用法 (EKU) は、証明書ウィザードを使って証明書を要求するときに自動的に構成されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>各証明書のフレンドリ名は、コンピューター ストアで一意である必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 各証明書のフレンドリ名は、コンピューター ストアで一意である必要があります。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DNS に sipinternal.contoso.com または sipexternal.contoso.com が構成してある場合は、証明書のサブジェクト名の別名にそれらを追加する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> DNS に sipinternal.contoso.com または sipexternal.contoso.com が構成してある場合は、証明書のサブジェクト名の別名にそれらを追加する必要があります。
 
 
 ### Standard Edition サーバーの証明書

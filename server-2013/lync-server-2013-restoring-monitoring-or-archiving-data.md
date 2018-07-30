@@ -57,16 +57,6 @@ _**トピックの最終更新日:** 2013-02-18_
     
     3.  \[**データベース ロールのメンバーシップ**\] で、\[**ServerRole**\] アクセス許可を選択し、\[**OK**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>アーカイブ サービスまたは監視サービスを再起動する必要はありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > アーカイブ サービスまたは監視サービスを再起動する必要はありません。
 

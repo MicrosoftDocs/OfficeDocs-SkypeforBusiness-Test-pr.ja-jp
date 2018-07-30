@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-09-21_
 
 CAC のネットワーク トポロジ例には 3 つの地域があります。北アメリカ、EMEA、および APAC。各地域には中央サイトが指定されています。North America 地域では、指定された中央サイトの名前は CHICAGO です。以下の手順では、**New-CsNetworkRegion** コマンドレッドを使用して North America 地域を作成する方法の例を挙げます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>次の手順では、ネットワーク地域の作成に Lync Server 管理シェル が使用されています。Lync Server コントロール パネル を使用してネットワーク地域を作成するには、「<a href="lync-server-2013-create-or-modify-a-network-region.md">Lync Server 2013 でのネットワーク領域の作成または変更</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 次の手順では、ネットワーク地域の作成に Lync Server 管理シェル が使用されています。Lync Server コントロール パネル を使用してネットワーク地域を作成するには、「<a href="lync-server-2013-create-or-modify-a-network-region.md">Lync Server 2013 でのネットワーク領域の作成または変更</a>」を参照してください。
 
 
 ## 通話受付管理用のネットワーク地域を作成するには

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 トポロジの選択では、次に示すサポートされるトポロジ オプションのいずれかを使用できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>特に注記がない限り、ここに示す指針の大部分は Microsoft Lync Server 2010 から変更されていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 特に注記がない限り、ここに示す指針の大部分は Microsoft Lync Server 2010 から変更されていません。
 
 
   - [Lync Server 2013 におけるプライベート IP アドレスと NAT を用いた単一統合エッジ](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)

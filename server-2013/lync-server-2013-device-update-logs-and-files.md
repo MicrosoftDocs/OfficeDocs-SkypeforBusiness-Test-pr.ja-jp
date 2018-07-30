@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 デバイス更新ログには、デバイス更新 Web サービスの管理およびトラブルシューティングに使用できる重要な情報が含まれます。ログに記録する情報を変更したり、不要になったデバイス ログおよび更新を削除したりできます。ここでは、Lync Server コントロール パネルまたは Lync Server 管理シェルを使用してログの設定を変更する方法、デバイス更新ログをクリアする方法、およびサーバーからログ ファイルを削除する方法について説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>デバイス更新ログ ファイルの詳細については、Lync Server 2010 TechNet ライブラリの「<a href="http://technet.microsoft.com/ja-jp/library/gg398250(v=ocs.14).aspx">ログ ファイルの種類と場所</a>」を参照してください (デバイス更新 Web サービスは、Lync Phone Edition のすべてのコンポーネントと同様に、Lync Server 2013 の動作は Lync Server 2010 の場合と同じです)。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> デバイス更新ログ ファイルの詳細については、Lync Server 2010 TechNet ライブラリの「<a href="http://technet.microsoft.com/ja-jp/library/gg398250(v=ocs.14).aspx">ログ ファイルの種類と場所</a>」を参照してください (デバイス更新 Web サービスは、Lync Phone Edition のすべてのコンポーネントと同様に、Lync Server 2013 の動作は Lync Server 2010 の場合と同じです)。
 
 
 ## このセクションの内容

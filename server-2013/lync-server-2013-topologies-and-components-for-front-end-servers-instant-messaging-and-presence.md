@@ -108,18 +108,8 @@ Enterprise Editionフロント エンド サーバー を 3 台展開したく�
 
 その後もプールが起動されるたびに、サーバーの 85% が起動されている必要があります (前出の表を参照)。この数のサーバーを起動できない (ただし、プール レベル クォーラム損失にはならない数のサーバーが起動されている) 場合は、**Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** コマンドレットを使用して、プールをルーティング グループ レベル クォーラム損失から復旧させ、処理を続行させることができます。このコマンドレットの使用法の詳細については、「[Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server は監視にプライマリ SQL データベースを使うので、プライマリ データベースをシャットダウンしてミラー データベースに切り替え、前出の表の必要な実行数に足りなくなるまで フロント エンド サーバー をシャットダウンすると、プール全体がダウンします。詳細については、「<a href="http://go.microsoft.com/fwlink/?linkid=393672">データベース ミラーリング監視サーバー</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server は監視にプライマリ SQL データベースを使うので、プライマリ データベースをシャットダウンしてミラー データベースに切り替え、前出の表の必要な実行数に足りなくなるまで フロント エンド サーバー をシャットダウンすると、プール全体がダウンします。詳細については、「<a href="http://go.microsoft.com/fwlink/?linkid=393672">データベース ミラーリング監視サーバー</a>」を参照してください。
 
 
 ## プール レベル クォーラム損失

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-11-16_
 
 フロントエンド プールと Standard Edition サーバーをセットアップする際には、オプションで外部 Web ファームの完全修飾ドメイン名 (FQDN) と関連するポートを構成します。Lync Server 展開ウィザード の実行時にこの URL を構成しなかった場合は、これらの設定を手動で構成する必要があります。 これらは推奨されている既定ポートであるため、管理者は通常この設定を変更する必要はありません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>次のスクリーン ショットは Standard Edition サーバーを構成中の画面なので、[FQDN のオーバーライド] オプションは無効になっています。このオプションは、フロント エンド プールの Enterprise Edition サーバーを構成するときに有効になります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 次のスクリーン ショットは Standard Edition サーバーを構成中の画面なので、[FQDN のオーバーライド] オプションは無効になっています。このオプションは、フロント エンド プールの Enterprise Edition サーバーを構成するときに有効になります。
 
 
 ![Web サービスのプール設定の編集](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Web サービスのプール設定の編集")

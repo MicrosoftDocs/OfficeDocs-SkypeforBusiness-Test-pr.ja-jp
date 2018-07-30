@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 新しい音声ポリシーを作成するには、次の手順を実行します。 音声ポリシーを編集する場合の手順については、「[Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>各音声ポリシーには、少なくとも 1 つの公衆交換電話網 (PSTN) 使用法レコードが関連付けられている必要があります。エンタープライズ VoIP 展開の使用可能な PSTN 使用法レコードすべての一覧とそれぞれのプロパティを表示するには、「<a href="lync-server-2013-view-pstn-usage-records.md">Lync Server 2013 での PSTN 使用法レコードの表示</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 各音声ポリシーには、少なくとも 1 つの公衆交換電話網 (PSTN) 使用法レコードが関連付けられている必要があります。エンタープライズ VoIP 展開の使用可能な PSTN 使用法レコードすべての一覧とそれぞれのプロパティを表示するには、「<a href="lync-server-2013-view-pstn-usage-records.md">Lync Server 2013 での PSTN 使用法レコードの表示</a>」を参照してください。
 
 
 ## 音声ポリシーを作成するには
@@ -47,18 +37,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 5.  音声ポリシーのスコープがユーザーの場合は、そのポリシーのわかりやすい名前を \[**名前**\] フィールドに入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ポリシー スコープがサイトの場合は、[<strong>新しい音声ポリシー</strong>] の [<strong>名前</strong>] フィールドにサイト名が事前に入力されており、変更することはできません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ポリシー スコープがサイトの場合は、[<strong>新しい音声ポリシー</strong>] の [<strong>名前</strong>] フィールドにサイト名が事前に入力されており、変更することはできません。
 
 
 6.  (オプション) その音声ポリシーについての追加説明を入力します。
@@ -233,36 +213,16 @@ _**トピックの最終更新日:** 2012-11-01_
 
 11. (オプション) 音声ポリシーをテストする番号を入力して、\[**実行**\] をクリックします。 テスト結果は、\[**テストする変換後の番号**\] の下に表示されます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>まだテストに成功していない音声ポリシーを保存して、後で再構成することができます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > まだテストに成功していない音声ポリシーを保存して、後で再構成することができます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。
 
 
 12. \[ **OK** \] をクリックします。
 
 13. \[**音声ポリシー**\] ページで \[**確定**\] をクリックし、\[**すべて確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ポリシーを作成または変更したときは常に、[<strong>すべて確定</strong>] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ポリシーを作成または変更したときは常に、[<strong>すべて確定</strong>] コマンドを実行して、構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
 
 
 14. (オプション) ボイスメール エスケープは、着信がユーザーの携帯電話のボイス メールによって即座に応答されたことを検出し、携帯電話のボイス メールへの通話を切断します。これにより、ユーザーの他のエンドポイントで着信の呼び出しが続けられるので、ユーザーは着信に応答できるようになります。ボイス メール ポリシーの構成方法に関する詳細については、「[Lync Server 2013 でのボイス メール エスケープの構成](lync-server-2013-configuring-voice-mail-escape.md)」を参照してください。

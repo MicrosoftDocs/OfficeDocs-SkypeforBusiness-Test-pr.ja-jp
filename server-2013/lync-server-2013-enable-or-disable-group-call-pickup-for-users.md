@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 グループ通話ピックアップの範囲がコール パーク オービット テーブルに追加されるときに、必要に応じて、ユーザーのグループ通話ピックアップを有効および無効にできます。このセクションでは、SEFAUtil リソース キット プールを使用して、ユーザーのグループ通話ピックアップを有効および無効にする方法について説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SEFAUtil パラメーターである /enablegrouppickup によって、グループ通話ピックアップが有効になり、グループ番号が割り当てられます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> SEFAUtil パラメーターである /enablegrouppickup によって、グループ通話ピックアップが有効になり、グループ番号が割り当てられます。
 
 
 ## このセクション中

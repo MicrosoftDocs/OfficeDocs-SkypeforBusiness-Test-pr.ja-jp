@@ -47,18 +47,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 10. 1 つまたは複数のトランクを音声ルートに関連付けるには、\[**追加**\] をクリックして、一覧からトランクを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>展開に Microsoft Office Communications Server 2007 R2 仲介サーバーが含まれる場合、これらのサーバーも一覧で選択できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 展開に Microsoft Office Communications Server 2007 R2 仲介サーバーが含まれる場合、これらのサーバーも一覧で選択できます。
 
 
 11. 1 つまたは複数の公衆交換電話網 (PSTN) 使用法を音声ルートに関連付けるには、\[**選択**\] をクリックして、エンタープライズ VoIP 展開用に定義されている PSTN 使用法レコードの一覧からレコードを選択します。
@@ -80,34 +70,14 @@ _**トピックの最終更新日:** 2016-12-08_
 
 12. 最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 一覧内でのレコードの位置を変更するには、レコードの名前を選択状態にして、上矢印または下矢印をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一覧表示される PSTN 使用法レコードの順番が重要である音声ポリシーとは異なり、音声ルートに一覧表示される PSTN 使用法レコードの順番は重要ではありません。ただし、この一覧を使用頻度で整理することをお勧めします。たとえば、&quot;レドモンド市内&quot;、&quot;レドモンド長距離&quot;、&quot;レドモンド国際&quot;、&quot;レドモンド バックアップ&quot; の順に並べます (Lync Server はこの一覧を上から下に検索します)。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一覧表示される PSTN 使用法レコードの順番が重要である音声ポリシーとは異なり、音声ルートに一覧表示される PSTN 使用法レコードの順番は重要ではありません。ただし、この一覧を使用頻度で整理することをお勧めします。たとえば、&quot;レドモンド市内&quot;、&quot;レドモンド長距離&quot;、&quot;レドモンド国際&quot;、&quot;レドモンド バックアップ&quot; の順に並べます (Lync Server はこの一覧を上から下に検索します)。
 
 
 13. (オプション) \[**テストする変換後の番号**\] フィールドに値を入力して、\[**実行**\] をクリックします。テスト結果がフィールドの下に表示されます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>まだテストに成功していない音声ルートを保存して、後で再構成することができます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > まだテストに成功していない音声ルートを保存して、後で再構成することができます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。
 
 
 14. \[**OK**\] をクリックして音声ルートを保存します。

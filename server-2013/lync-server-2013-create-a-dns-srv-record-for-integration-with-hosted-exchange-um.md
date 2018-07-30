@@ -43,18 +43,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 9.  \[**このサービスを提供しているホスト**\] をクリックし、信頼される外部クライアントに Lync Server 2013 システムへのアクセスを提供する Lync Server 2013  エッジ プールの完全修飾ドメイン名 (FQDN) を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このドメインを、Exchange Online 設定内で権限のある承認済みドメインとしてセットアップする必要もあります。詳細については、「承認済みドメインの作成 - Office 365 Beta for enterprises」( <a href="http://go.microsoft.com/fwlink/?linkid=229762%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=229762&amp;clcid=0x411</a>) を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このドメインを、Exchange Online 設定内で権限のある承認済みドメインとしてセットアップする必要もあります。詳細については、「承認済みドメインの作成 - Office 365 Beta for enterprises」( <a href="http://go.microsoft.com/fwlink/?linkid=229762%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=229762&amp;clcid=0x411</a>) を参照してください。
 
 
 10. \[**OK**\] をクリックしてから、\[**完了**\] をクリックします。

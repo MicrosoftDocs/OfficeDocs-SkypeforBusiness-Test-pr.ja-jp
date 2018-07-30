@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ここでは、エンタープライズ VoIP で使用する Exchange ユニファイド メッセージング (UM) を Microsoft Exchange Server 上で構成する方法を説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このトピックのコマンドレット例では、Exchange 2007 バージョンの Exchange 管理シェルの構文を記載しています。Exchange 2010 または Exchange 2013 を実行する場合は、該当するドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このトピックのコマンドレット例では、Exchange 2007 バージョンの Exchange 管理シェルの構文を記載しています。Exchange 2010 または Exchange 2013 を実行する場合は、該当するドキュメントを参照してください。
 
 
 ## Exchange Server UM を実行するサーバーを構成するには
@@ -83,18 +73,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 3.  各 UM ダイヤル プランのダイヤル プラン名を記録します。Exchange Server のバージョンによっては、ダイヤル プラン名が一致するように、各 UM ダイヤル プランの対応する Lync Server ダイヤル プランの名前として後で各ダイヤル プラン名の FQDN を使用する場合があります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server ダイヤル プラン名と UM ダイヤル プラン名が一致する必要があるのは、Exchange 2010 SP1 より前のバージョンの Exchange で UM ダイヤル プランを実行する場合だけです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server ダイヤル プラン名と UM ダイヤル プラン名が一致する必要があるのは、Exchange 2010 SP1 より前のバージョンの Exchange で UM ダイヤル プランを実行する場合だけです。
 
 
 4.  次のようにして、Exchange UM を実行しているサーバーにダイヤル プランを追加します。
@@ -151,18 +131,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 6.  Exchange 管理シェルまたは Exchange 管理コンソールを使用して、ダイヤル プランに関連付けられた IP ゲートウェイを除くすべての IP ゲートウェイで発信を無効にします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このステップは、Exchange Server ユニファイド メッセージングを実行しているサーバーから外部ユーザーに対する発信通話 (電話で再生を使用する場合など) が確実に企業ファイアウォールを通過できるようにするために必要です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このステップは、Exchange Server ユニファイド メッセージングを実行しているサーバーから外部ユーザーに対する発信通話 (電話で再生を使用する場合など) が確実に企業ファイアウォールを通過できるようにするために必要です。
     
 
     > [!IMPORTANT]
@@ -204,18 +174,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 8.  Exchange UM ユーザー (Exchange メールボックスを各ユーザーに構成する必要があります) を UM ダイヤル プランに関連付け、各ユーザーの SIP URI を作成します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>次に示すサンプルの <strong>SIPResourceIdentifier</strong> には、Lync Server ユーザーの SIP アドレスを指定する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 次に示すサンプルの <strong>SIPResourceIdentifier</strong> には、Lync Server ユーザーの SIP アドレスを指定する必要があります。
     
         enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
     

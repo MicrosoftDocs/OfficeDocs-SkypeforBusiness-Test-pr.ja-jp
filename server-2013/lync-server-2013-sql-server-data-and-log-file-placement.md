@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 Microsoft SQL Server 2012 または Microsoft SQL Server 2008 R2 SP1 を Lync Server 2013フロント エンド プール用に計画、展開する際に重要なのは、パフォーマンスを向上させるためにデータ ファイルとログ ファイルをどのように物理ハード ディスクに配置するかという点です。推奨のディスク構成は、6 スピンドルを使用した 1+0 RAID セットの実装です。Lync Server 展開ウィザードを使用している RAID ドライブ セットに、フロント エンド プールと関連するサーバーの役割およびサービス (つまり、アーカイブおよび監視サーバー、Lync Server 応答グループ サービス、Lync Server コール パーク サービス) によって使用されるすべてのデータベースとログ ファイルを配置する構成は、よいパフォーマンスが得られることがテストで確認されています。データベース ファイルとその役割の詳細を次の表に示します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ポリシーと SQL Server 構成がより特殊なインストールを必要とする場合、データベースとログ ファイルは Lync Server 管理シェルを使用して、任意の定義済みの場所にインストールできます。詳細は、「<a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Lync Server 2013 での Lync Server 管理シェルを使用したデータベースのインストール</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ポリシーと SQL Server 構成がより特殊なインストールを必要とする場合、データベースとログ ファイルは Lync Server 管理シェルを使用して、任意の定義済みの場所にインストールできます。詳細は、「<a href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Lync Server 2013 での Lync Server 管理シェルを使用したデータベースのインストール</a>」を参照してください。
 
 
 ### 中央管理ストアのデータ ファイルとログ ファイル

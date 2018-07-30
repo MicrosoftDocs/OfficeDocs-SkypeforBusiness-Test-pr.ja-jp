@@ -33,18 +33,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 6.  \[**テレフォニー**\] の下の **"回線 URI"** フィールドで、正規化された一意の電話番号 (たとえば、tel:+14255550200) を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>回線 URI</strong>] を指定できるのは、[<strong>テレフォニー</strong>] が [<strong>PC 間のみ</strong>]、[<strong>エンタープライズ VoIP</strong>]、[<strong>リモート通話コントロール</strong>]、または [<strong>リモート通話コントロールのみ</strong>] に設定されている場合のみです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>回線 URI</strong>] を指定できるのは、[<strong>テレフォニー</strong>] が [<strong>PC 間のみ</strong>]、[<strong>エンタープライズ VoIP</strong>]、[<strong>リモート通話コントロール</strong>]、または [<strong>リモート通話コントロールのみ</strong>] に設定されている場合のみです。
 
 
 7.  \[**確定**\] をクリックします。

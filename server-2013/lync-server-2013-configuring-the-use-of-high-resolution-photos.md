@@ -25,18 +25,8 @@ Microsoft Lync Server 2010 には、ユーザーが連絡先の写真を表示�
 
   - 648 × 648 ピクセル。Lync 2013 および Microsoft Lync Web App で使用されるサイズ。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リソースを確保できる場合は、648 × 648 の写真をアップロードすることをお勧めします。これにより、Office 2013 のどのアプリケーションにおいても最大の解像度と最適な写真の画質を実現できます。サイズが 648 × 648、ビットの深さが 24 の JPEG の写真の場合、ファイル サイズは約 240 KB になります。つまり、ユーザーの写真 4 枚ごとに約 1 MB のディスク容量が必要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リソースを確保できる場合は、648 × 648 の写真をアップロードすることをお勧めします。これにより、Office 2013 のどのアプリケーションにおいても最大の解像度と最適な写真の画質を実現できます。サイズが 648 × 648、ビットの深さが 24 の JPEG の写真の場合、ファイル サイズは約 240 KB になります。つまり、ユーザーの写真 4 枚ごとに約 1 MB のディスク容量が必要です。
 
 
 Exchange Web サービスを使用してアクセスする高解像度の写真をアップロードできるのは、Outlook 2013 Web App を実行するユーザーです。ユーザーは自分の写真のみ更新できます。ただし、管理者は Exchange 管理シェルおよび次のような Windows PowerShell の一連のコマンドを使用して、ユーザーの写真を更新できます。
@@ -47,18 +37,8 @@ Exchange Web サービスを使用してアクセスする高解像度の写真�
 
 上述の例の 1 つ目のコマンドは、Get-Content コマンドレットを使用して、C:\\Photos\\Kenmyer.jpg ファイルの内容を読み取って、そのデータを $photo 変数に保存します。2 つ目のコマンドでは、写真をアップロードして Ken Myer のユーザー アカウントにその写真を添付するために、Exchange の Set-UserPhoto コマンドレットが使用されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。詳細については、Set-UserPhoto コマンドレットのドキュメント (<a href="http://go.microsoft.com/fwlink/?linkid=268536%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268536&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この例では、Ken Myer の Active Directory 表示名がユーザー アカウントの ID として使用されています。また、その他の識別子 (ユーザーの SMTP アドレスやユーザー プリンシパル名など) を使用してユーザー アカウントを参照することもできます。詳細については、Set-UserPhoto コマンドレットのドキュメント (<a href="http://go.microsoft.com/fwlink/?linkid=268536%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268536&amp;clcid=0x411</a>) を参照してください。
 
 
 写真のアップロードは、その写真を Ken Myer のユーザー アカウントに割り当てる操作と同じではありません。写真のアップロードは、Outlook Web App の \[オプション\] ページに表示されるその写真のプレビューにすぎません。写真を実際にユーザー アカウントに割り当てるには、\[オプション\] ページの \[**保存**\] をクリックするか、例に示す 3 つ目のコマンドを管理者が実行する必要があります。3 つ目のコマンドでは、Save パラメーターを使用して写真を Ken Myer のユーザー アカウントに割り当てます。

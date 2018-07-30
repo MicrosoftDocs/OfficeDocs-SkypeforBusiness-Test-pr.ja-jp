@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-09-21_
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ここに示す CAC の展開例と管理例のすべては、 Lync Server 管理シェルを使用して実行しています。代わりの方法として、 Lync Server コントロール パネルの [<strong>ネットワーク構成</strong>] セクションを使用して CAC を管理することもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ここに示す CAC の展開例と管理例のすべては、 Lync Server 管理シェルを使用して実行しています。代わりの方法として、 Lync Server コントロール パネルの [<strong>ネットワーク構成</strong>] セクションを使用して CAC を管理することもできます。
 
 
 ## このセクション中

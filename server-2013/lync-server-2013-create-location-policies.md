@@ -100,18 +100,8 @@ Lync Serverは、クライアントの登録時に場所のポリシーを使用
 
 1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>PstnUsage</strong> の設定がグローバルの PstnUsages 一覧にあらかじめ存在していない場合、CsLocationPolicy は失敗します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > <strong>PstnUsage</strong> の設定がグローバルの PstnUsages 一覧にあらかじめ存在していない場合、CsLocationPolicy は失敗します。
 
 
 2.  オプションで、次のコマンドレットを実行して、グローバルの場所のポリシーを編集します。

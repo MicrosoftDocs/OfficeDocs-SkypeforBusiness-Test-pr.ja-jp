@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 組織全体または組織内の各サイトで CDR を有効にするには、次の手順を実行します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CDR を有効にするには、監視および監視データベースを構成する必要があります。詳細については、「<a href="lync-server-2013-deploying-monitoring.md">Lync Server 2013 での監視の展開</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> CDR を有効にするには、監視および監視データベースを構成する必要があります。詳細については、「<a href="lync-server-2013-deploying-monitoring.md">Lync Server 2013 での監視の展開</a>」を参照してください。
 
 
 ## Lync Server コントロール パネルを使用して CDR を有効にするには
@@ -43,18 +33,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 4.  \[**通話詳細記録**\] ページで、表から該当するサイトをクリックして、\[**アクション**\] をクリックし、\[**CDR の有効化**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>CDR は、既定では有効になっています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > CDR は、既定では有効になっています。
 
 
 ## Lync Server 管理シェル コマンドレットを使用して CDR を有効にするには

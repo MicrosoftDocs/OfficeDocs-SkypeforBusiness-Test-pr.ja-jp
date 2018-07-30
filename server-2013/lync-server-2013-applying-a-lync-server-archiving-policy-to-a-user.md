@@ -47,18 +47,8 @@ Lync Server ユーザー ポリシーを作成したら、それを有効にす�
 
 5.  \[**Lync Server ユーザーの編集**\] の \[**アーカイブ ポリシー**\] で、適用するアーカイブ ユーザー ポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー インストールの設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー インストールの設定が適用されます。 これらの設定はサーバーにより自動的に適用されます。
 
 
 6.  \[**確定**\] をクリックします。

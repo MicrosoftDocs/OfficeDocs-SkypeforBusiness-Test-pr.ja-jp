@@ -23,18 +23,8 @@ Lync Server 2013 では、次の新しいビデオ機能が導入されていま
 
   - **H.264 ビデオ**   現在、H.264 ビデオは Lync 2013 クライアントでビデオをエンコードする既定のビデオです。H.264 ビデオは、より広範な解像度とフレーム レートをサポートし、ビデオののスケーラビリティを向上させます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 は、以前のバージョンの Lync との相互運用性を確保するために VC1 コーデックもサポートします。新しいビデオ コーデックに関する参考資料の詳細については、Jeff Schertz のブログ記事「Lync 2013 でのビデオの相互運用性」 (<a href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/" class="uri">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</a>) を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2013 は、以前のバージョンの Lync との相互運用性を確保するために VC1 コーデックもサポートします。新しいビデオ コーデックに関する参考資料の詳細については、Jeff Schertz のブログ記事「Lync 2013 でのビデオの相互運用性」 (<a href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/" class="uri">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</a>) を参照してください。
 
 
 このセクションでは、Lync Server 2013 でビデオの帯域幅を管理する方法とビデオ機能を構成する方法について説明します。

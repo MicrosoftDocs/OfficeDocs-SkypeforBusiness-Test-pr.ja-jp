@@ -41,18 +41,8 @@ Microsoft Lync Server 2013、計画ツールは、Microsoft Excel および Micr
 
 設計を Microsoft Visio にエクスポートすると、構成されたトポロジおよびインフラストラクチャのドキュメントに使用できるダイアグラムが作成されます。インポートされたダイアグラムは、ドキュメントのニーズに合わせて編集や再編成ができます。一般的な Visio のダイアグラムには、次の要素が含まれます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>フロント エンド サーバー数が 4 つを超える大きな設計の場合は、 フロント エンド プール、 フロント エンド サーバー、SQL Server、IP アドレス、および FQDN を実行するコンピューターのページが追加で作成されます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> フロント エンド サーバー数が 4 つを超える大きな設計の場合は、 フロント エンド プール、 フロント エンド サーバー、SQL Server、IP アドレス、および FQDN を実行するコンピューターのページが追加で作成されます。
 
 
   - グローバル トポロジ - 構成されている Lync Server 2013 サイトのダイアグラム。

@@ -106,16 +106,6 @@ DNS レコードは、CNAME レコードまたは A (ホスト) レコードと�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lyncdiscover トラフィックは、リバース プロキシを経由します。Lyncdiscover は自動検出とも呼ばれます。SRV レコードは、アクセス エッジ サービスにより解決されるレコードを示します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lyncdiscover トラフィックは、リバース プロキシを経由します。Lyncdiscover は自動検出とも呼ばれます。SRV レコードは、アクセス エッジ サービスにより解決されるレコードを示します。
 

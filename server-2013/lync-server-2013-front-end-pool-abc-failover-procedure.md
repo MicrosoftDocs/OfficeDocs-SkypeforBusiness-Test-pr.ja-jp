@@ -42,18 +42,8 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
 
 4.  プール A からプール B に、バックアップされた Lync Server 応答グループ サービス ワークフローをインポートします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>現在、<strong>Import-CsRgsConfiguration</strong> コマンドレットでは、プール A のキューおよびワークフロー名が、プール B のキューおよびワークフロー名とは別である必要があります。名前が区別されていない場合、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行するとき、エラーが発生します。そして、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行する前に、プール B のキューとワークフローの名前を変更する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 現在、<strong>Import-CsRgsConfiguration</strong> コマンドレットでは、プール A のキューおよびワークフロー名が、プール B のキューおよびワークフロー名とは別である必要があります。名前が区別されていない場合、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行するとき、エラーが発生します。そして、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行する前に、プール B のキューとワークフローの名前を変更する必要があります。
     
     プール A からプール B に応答グループ構成をインポートする場合、2 つの方法があります。どちらの方法を使用するかは、プール A のアプリケーションレベル設定で、プール B のアプリケーション レベル設定を上書きするかによります。
     
@@ -87,18 +77,8 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この手順は、選択したアナウンス サービスとして &quot;Exchange UM&quot; を使用する未使用の番号範囲では不要です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この手順は、選択したアナウンス サービスとして &quot;Exchange UM&quot; を使用する未使用の番号範囲では不要です。
 
 
 7.  以下のコマンドレットを実行して、障害復旧 (DR) モードでプール A をプール B にフェールオーバーします。

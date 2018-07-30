@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-10-17_
 
 Lync Server 2013 は、エンタープライズ VoIP 展開の一部として、米国内で拡張 9-1-1 (E9-1-1) サービスをサポートしています。E9-1-1 は、9-1-1 の電話に緊急応答ロケーション (ERL) を関連付けることのできる緊急派遣機能です。ERL は、住所やその他のより具体的な位置情報 (階など) で構成され、オフィス ビルやその他のマルチテナント型施設からの電話に向いています。緊急情報受信センター (PSAP) は、提供された ERL を使用して、緊急電話の発信者の元へ最初の対応隊を直ちに派遣でき、間違った場所や不明確な場所に誤って派遣するリスクを軽減できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server には、通話受付管理、緊急サービス (E9-1-1)、およびメディア バイパスという 3 つの高度な エンタープライズ VoIP 機能があります。これら 3 つの機能すべてに共通の計画情報の概要については、「<a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ VoIP 機能のネットワーク設定</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server には、通話受付管理、緊急サービス (E9-1-1)、およびメディア バイパスという 3 つの高度な エンタープライズ VoIP 機能があります。これら 3 つの機能すべてに共通の計画情報の概要については、「<a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ VoIP 機能のネットワーク設定</a>」を参照してください。
 
 
 ## このセクション中

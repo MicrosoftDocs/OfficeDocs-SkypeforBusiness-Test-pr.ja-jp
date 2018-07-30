@@ -68,18 +68,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
 
 6.  内部 DNS レコードの場合、DNS サーバーのコンソール ツリーで、使用する SIP ドメイン (例: contoso.com) の \[**前方参照ゾーン**\] を展開します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>外部 DNS レコードを作成する場合、使用する SIP ドメインの [<strong>前方参照ゾーン</strong>] は手順 3. で既に展開されています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 外部 DNS レコードを作成する場合、使用する SIP ドメインの [<strong>前方参照ゾーン</strong>] は手順 3. で既に展開されています。
 
 
 7.  SIP ドメイン名を右クリックして、\[**新しいエイリアス (CNAME)**\] をクリックします。
@@ -96,18 +86,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
     
       - 外部 DNS レコードの場合、ディレクター プールの外部 Web サービス FQDN (たとえば、lyncwebextdir.contoso.com) を入力または参照し、\[**OK**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ディレクターを使用していない場合、フロント エンド プールの内部および外部 Web サービス FQDN を使用するか、単一サーバーの場合、フロント エンド サーバーまたは Standard Edition サーバーの FQDN を使用します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ディレクターを使用していない場合、フロント エンド プールの内部および外部 Web サービス FQDN を使用するか、単一サーバーの場合、フロント エンド サーバーまたは Standard Edition サーバーの FQDN を使用します。
     
 
     > [!IMPORTANT]
@@ -158,18 +138,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
 
 6.  内部 DNS レコードの場合、DNS サーバーのコンソール ツリーで、使用する SIP ドメイン (例: contoso.com) の \[**前方参照ゾーン**\] を展開します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>外部 DNS レコードを作成する場合、使用する SIP ドメインの [<strong>前方参照ゾーン</strong>] は手順 3. で既に展開されています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 外部 DNS レコードを作成する場合、使用する SIP ドメインの [<strong>前方参照ゾーン</strong>] は手順 3. で既に展開されています。
 
 
 7.  SIP ドメイン名を右クリックして、\[**新しいホスト (A または AAAA)**\] をクリックします。
@@ -180,18 +150,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
     
       - 外部 DNS レコードの場合、自動検出サービスの外部 URL のホスト名として、「lyncdiscover」と入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ドメイン名は、レコードが定義されるゾーンから取られるため、A レコードの一部として入力する必要はありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ドメイン名は、レコードが定義されるゾーンから取られるため、A レコードの一部として入力する必要はありません。
 
 
 9.  \[**IP アドレス**\] に、IP アドレスを次のように入力します。

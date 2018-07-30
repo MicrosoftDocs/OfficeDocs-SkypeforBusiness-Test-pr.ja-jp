@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 サーバーの役割を追加または削除する際に、トポロジを正常に公開したり、有効または無効にするには、RTCUniversalServerAdmins グループおよび Domain Admins グループのメンバーであるユーザーとしてログインしている必要があります。サーバーの役割を追加するための適切な管理者権限およびアクセス許可を委任することもできます。詳細については、Standard Edition サーバーまたは Enterprise Edition サーバーの「展開」のドキュメントの「セットアップのアクセス許可の委任」を参照してください。他の構成変更の場合は、RTCUniversalServerAdmins グループのメンバーシップのみが必要です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 との連携が認定されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスの最新情報については、「Microsoft Unified Communications Open Interoperability Program - Office Communications Server (英語)」( <a href="http://go.microsoft.com/fwlink/?linkid=206015%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=206015&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 との連携が認定されている PSTN ゲートウェイ、IP-PBX、および SIP トランキング サービスの最新情報については、「Microsoft Unified Communications Open Interoperability Program - Office Communications Server (英語)」( <a href="http://go.microsoft.com/fwlink/?linkid=206015%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=206015&amp;clcid=0x411</a>) を参照してください。
 
 
 ## トポロジ ビルダーを使用して仲介サーバーを構成するには
@@ -63,16 +53,6 @@ _**トピックの最終更新日:** 2016-12-08_
 
 11. **公開ウィザード** の実行が完了したら、\[ **完了** \] をクリックしてウィザードを閉じます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>次のトピック「 <a href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">新しい Lync Server 2013 仲介サーバーを使用するようにボイス ルートを変更する</a>」の手順を完了して、音声ルートが正しい仲介サーバーを参照するようにすることが重要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 次のトピック「 <a href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">新しい Lync Server 2013 仲介サーバーを使用するようにボイス ルートを変更する</a>」の手順を完了して、音声ルートが正しい仲介サーバーを参照するようにすることが重要です。
 

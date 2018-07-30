@@ -29,18 +29,8 @@ Lync Server 2013 は、次のバージョンをサポートします。
 
 Exchange UM は Lync Server 2013 または Lync Server 2013 データベースと共存することはできません。Exchange UM と Lync Server 2013 は別のフォレストにインストールできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PBX を展開済みのエンタープライズ VoIP 展開では、Exchange UM は必ずしも必要ではありません。なぜなら、PBX では引き続き、すべてのユーザーのボイス メールおよび関連サービスを提供できるからです。最終的に PBX の使用を停止する場合は (SIP トランキングを展開して公衆交換電話網 (PSTN) への接続性を確保する場合など)、これまで PBX ボイス メール システムを使用していたユーザーにボイス メールを提供するように Exchange UM を再構成する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> PBX を展開済みのエンタープライズ VoIP 展開では、Exchange UM は必ずしも必要ではありません。なぜなら、PBX では引き続き、すべてのユーザーのボイス メールおよび関連サービスを提供できるからです。最終的に PBX の使用を停止する場合は (SIP トランキングを展開して公衆交換電話網 (PSTN) への接続性を確保する場合など)、これまで PBX ボイス メール システムを使用していたユーザーにボイス メールを提供するように Exchange UM を再構成する必要があります。
 
 
 ## このセクション中

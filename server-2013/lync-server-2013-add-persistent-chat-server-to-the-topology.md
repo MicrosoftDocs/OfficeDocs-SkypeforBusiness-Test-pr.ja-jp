@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-10-06_
 
 1.  Lync Server 2013 を実行しているコンピューター、または Lync Server 管理ツールがインストールされているコンピューターで、ローカルの Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジの定義には、ローカルの Users グループのメンバーであるアカウントを使用できますが、トポロジを公開するには ( Lync Server 2013 サーバーをインストールするために必要)、 <strong>Domain Admins</strong> および <strong>RTCUniversalServerAdmins</strong> グループのメンバーで、かつ 常設チャット サーバーのファイル ストアとして使用するファイル ストアに対してフル コントロール アクセス許可 (つまり、読み取り、書き込み、および変更) を持つアカウント (つまり、 トポロジ ビルダーが必要な DACL を構成できるように) または同等の権限を持つアカウントを使用する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジの定義には、ローカルの Users グループのメンバーであるアカウントを使用できますが、トポロジを公開するには ( Lync Server 2013 サーバーをインストールするために必要)、 <strong>Domain Admins</strong> および <strong>RTCUniversalServerAdmins</strong> グループのメンバーで、かつ 常設チャット サーバーのファイル ストアとして使用するファイル ストアに対してフル コントロール アクセス許可 (つまり、読み取り、書き込み、および変更) を持つアカウント (つまり、 トポロジ ビルダーが必要な DACL を構成できるように) または同等の権限を持つアカウントを使用する必要があります。
 
 
 2.  トポロジ ビルダーを起動します。
@@ -105,16 +95,6 @@ _**トピックの最終更新日:** 2012-10-06_
     
     常設チャット サーバーを追加した更新後のトポロジの公開については、「展開」のドキュメントの「[Lync Server 2013 での更新したトポロジの公開](lync-server-2013-publish-the-updated-topology.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジ ビルダーを既に開いている場合は、「<a href="lync-server-2013-publish-the-updated-topology.md">Lync Server 2013 での更新したトポロジの公開</a>」の手順 3 に進んで、更新したトポロジの公開を開始します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジ ビルダーを既に開いている場合は、「<a href="lync-server-2013-publish-the-updated-topology.md">Lync Server 2013 での更新したトポロジの公開</a>」の手順 3 に進んで、更新したトポロジの公開を開始します。
 

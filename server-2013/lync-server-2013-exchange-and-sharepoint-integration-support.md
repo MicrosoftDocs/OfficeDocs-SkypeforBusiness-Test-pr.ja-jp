@@ -23,19 +23,9 @@ Lync Server 2013 と Lync 2013 は、Office 2013、Exchange 2013、SharePoint (�
 
   - IM や会議のコンテンツなど、Lync からアーカイブされたコンテンツは、Exchange ストレージに保存できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 は、以前のバージョンの Microsoft Exchange Server および SharePoint との統合をサポートしていますが、すべての機能がこうした以前のバージョンでサポートされているわけではありません (例: アーカイブ ストレージと Microsoft Exchange との統合)。<br />
-ユーザーを Exchange 2013 に移行する場合は、移行が完了するまで、Exchange ストレージと Lync Server ストレージの両方を暫定的に使用できます。Exchange と Lync Server の両方のストレージの永続的な使用は、サポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 は、以前のバージョンの Microsoft Exchange Server および SharePoint との統合をサポートしていますが、すべての機能がこうした以前のバージョンでサポートされているわけではありません (例: アーカイブ ストレージと Microsoft Exchange との統合)。<br />
+> ユーザーを Exchange 2013 に移行する場合は、移行が完了するまで、Exchange ストレージと Lync Server ストレージの両方を暫定的に使用できます。Exchange と Lync Server の両方のストレージの永続的な使用は、サポートされていません。
 
 
 Lync Server 2013 を Exchange 2013 および SharePoint Server と統合するには、Lync Server 2013、Microsoft Exchange Server、および SharePoint Server を実行しているサーバー間のサーバー間認証が必要です。Lync Server 2013 では、サーバー間の認証および承認のために OAuth (Open Authorization) プロトコルをサポートしています。2 台の Microsoft サーバーの間での社内のサーバー間認証では、サードパーティのトークン サーバーを使用する必要がありません。Lync Server 2013、Exchange 2013、および SharePoint には、認証の目的で相互に使用できる組み込みのトークン サーバーが存在します。たとえば、Lync Server 2013 は、単独でセキュリティ トークンを発行および署名でき、Exchange 2013 との通信時にそのトークンを使用します。この場合、サードパーティのトークン サーバーを使用する必要はありません。
@@ -46,18 +36,8 @@ Lync Server 2013 では、2 つのサーバー間認証シナリオをサポー�
 
   - Office コンポーネントどうしのペア (Microsoft Exchange 365 と Microsoft Lync Server 365、または Microsoft Lync Server 365 と Microsoft SharePoint 365 など)。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>社内サーバーと Office 365 コンポーネントの間のサーバー間認証は、この Lync Server 2013 リリースではサポートされていません。これは、とりわけ Lync Server 2013 の社内インストールと Microsoft Exchange 365 との間のサーバー間認証を設定できないことを意味します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 社内サーバーと Office 365 コンポーネントの間のサーバー間認証は、この Lync Server 2013 リリースではサポートされていません。これは、とりわけ Lync Server 2013 の社内インストールと Microsoft Exchange 365 との間のサーバー間認証を設定できないことを意味します。
 
 
 サーバー間認証の詳細については、「展開」または「操作」のドキュメントの「[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。

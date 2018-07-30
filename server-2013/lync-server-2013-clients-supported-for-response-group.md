@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2014-03-28_
 
   - Lync Phone Edition
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync モバイル クライアントでは、応答グループ アプリケーションはサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync モバイル クライアントでは、応答グループ アプリケーションはサポートされていません。
 
 
 新機能の詳細については、「はじめに」のドキュメントの「[Lync Server 2013 の新しい応答グループ アプリケーションの機能](lync-server-2013-new-response-group-application-features.md)」を参照してください。

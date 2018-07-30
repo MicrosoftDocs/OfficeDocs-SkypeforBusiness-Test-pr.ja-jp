@@ -21,19 +21,9 @@ _**トピックの最終更新日:** 2014-12-10_
 
 ユーザー数が 1,000 ～ 5,000 で、復元性 WAN が存在しないブランチ サイトの場合は、PSTN ゲートウェイと SIP トランクのどちらかを経由して 存続可能ブランチ サーバーを電話サービス プロバイダーに接続するようお勧めします。 存続可能ブランチ サーバーは、レジストラーと 仲介サーバー ソフトウェアがインストールされている Windows Server ベースのコンピューターです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーと専任の Lync Server 管理者の総数が 5,000 を超えるブランチ サイトの場合は、中央サイトの展開とは別の完全な Lync Server 2013 の展開をお勧めします。<br />
-各自のブランチ サイトにとって最善の復元性ソリューションを選択するための前提条件、計画、考慮事項など詳細については、「計画」のドキュメントの「<a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチ サイトの復元要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーと専任の Lync Server 管理者の総数が 5,000 を超えるブランチ サイトの場合は、中央サイトの展開とは別の完全な Lync Server 2013 の展開をお勧めします。<br />
+> 各自のブランチ サイトにとって最善の復元性ソリューションを選択するための前提条件、計画、考慮事項など詳細については、「計画」のドキュメントの「<a href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 のブランチ サイトの復元要件</a>」を参照してください。
 
 
 ## このセクション中

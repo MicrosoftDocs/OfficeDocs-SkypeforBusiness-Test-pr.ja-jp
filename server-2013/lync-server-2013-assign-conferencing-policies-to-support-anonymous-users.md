@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2012-10-19_
 
 このセクションの手順を使用して、既に作成した会議ポリシーを、1 人以上のユーザーまたは 1 つ以上のユーザー グループに適用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーが匿名ユーザーを招待できるようにするポリシーを構成して適用するほかに、組織の匿名ユーザーのサポートを有効にする必要もあります。詳細については、「<a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Lync Server 2013 でのパブリック ユーザー アクセスを制御するポリシーの構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーが匿名ユーザーを招待できるようにするポリシーを構成して適用するほかに、組織の匿名ユーザーのサポートを有効にする必要もあります。詳細については、「<a href="lync-server-2013-configure-policies-to-control-public-user-access.md">Lync Server 2013 でのパブリック ユーザー アクセスを制御するポリシーの構成</a>」を参照してください。
 
 
 ## 会議への匿名参加に対するユーザー ポリシーを構成するには
@@ -55,18 +45,8 @@ _**トピックの最終更新日:** 2012-10-19_
 
 8.  \[**Lync Server ユーザーの編集**\] の \[**会議ポリシー**\] で、このユーザーに適用する匿名ユーザー アクセス構成を含むユーザー ポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>&lt;自動&gt;</strong>] 設定では既定のサーバー インストールの設定が適用され、サーバーにより自動的に適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>&lt;自動&gt;</strong>] 設定では既定のサーバー インストールの設定が適用され、サーバーにより自動的に適用されます。
 
 
 ユーザーが匿名ユーザーを会議に招待できるようにするには、組織で匿名ユーザーのサポートも有効にしておく必要があります。詳細については、「展開」または「操作」のドキュメントの「[Lync Server 2013 でのパブリック ユーザー アクセスを制御するポリシーの構成](lync-server-2013-configure-policies-to-control-public-user-access.md)」を参照してください。
