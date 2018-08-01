@@ -44,18 +44,8 @@ _**トピックの最終更新日:** 2012-09-22_
     
       - 伝送制御プロトコル (TCP) 接続の場合、コマンド プロンプトで次のように入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>完全修飾ドメイン名 (FQDN) を指定する場合は、まず、ドメイン ネーム システム (DNS) A レコードを構成する必要があります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 完全修飾ドメイン名 (FQDN) を指定する場合は、まず、ドメイン ネーム システム (DNS) A レコードを構成する必要があります。
         
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         

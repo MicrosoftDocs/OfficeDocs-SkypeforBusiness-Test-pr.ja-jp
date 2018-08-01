@@ -35,25 +35,10 @@ Administrators グループのメンバーであるアカウントを使用し�
 
 5.  \[**併置されたサーバーの役割の選択** \] で、\[**仲介サーバーを併置する**\] をオンにします。
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>選択した フロント エンド プールの種類が Enterprise Edition の場合、その フロント エンド プールのすべての フロント エンド サーバーに 仲介サーバー コンポーネントがインストールされます。</p></li>
-    <li><p>仲介サーバーが使用する <strong>次ホップ プール</strong>は、仲介サーバーが併置された フロント エンド プールになります。</p></li>
-    <li><p>仲介サーバーが使用する <strong>エッジ プール</strong>は、仲介サーバーが併置された フロント エンド プールに関連付けられた エッジ プールになります。</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > <ul><li><p>選択した フロント エンド プールの種類が Enterprise Edition の場合、その フロント エンド プールのすべての フロント エンド サーバーに 仲介サーバー コンポーネントがインストールされます。</p></li>
+    > <li><p>仲介サーバーが使用する <strong>次ホップ プール</strong>は、仲介サーバーが併置された フロント エンド プールになります。</p></li>
+    > <li><p>仲介サーバーが使用する <strong>エッジ プール</strong>は、仲介サーバーが併置された フロント エンド プールに関連付けられた エッジ プールになります。</p></li></ul>
 
 
 6.  この フロント エンド プールを使用して Microsoft Office Communications Server 2007 R2 から PSTN に通話をルーティングするために、\[**既定にする**\] をクリックします。
@@ -90,18 +75,8 @@ Administrators グループのメンバーであるアカウントを使用し�
     
       - 高可用性を実現するためにプールに複数の 仲介サーバーを展開する場合は、\[**複数のコンピューター プール**\] を選択します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>複数の 仲介サーバーを含む 仲介サーバー プールをサポートするには、DNS 負荷分散を展開する必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS 負荷分散</a>」の「仲介サーバー プールでの DNS 負荷分散の使用」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 複数の 仲介サーバーを含む 仲介サーバー プールをサポートするには、DNS 負荷分散を展開する必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS 負荷分散</a>」の「仲介サーバー プールでの DNS 負荷分散の使用」を参照してください。
     
       - 高可用性が不要なため、仲介サーバーを 1 つだけプールに展開する場合は、\[**単一コンピューターのプール**\] を選択します。 以下のステップは省略してください。
 

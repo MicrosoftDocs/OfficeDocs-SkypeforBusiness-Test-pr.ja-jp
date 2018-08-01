@@ -53,19 +53,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 11. 1 つまたは複数の公衆交換電話網 (PSTN) 使用法を音声ルートに関連付けるには、\[**選択**\] をクリックして、エンタープライズ VoIP 展開用に定義されている PSTN 使用法レコードの一覧からレコードを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>選択できる PSTN 使用法レコードの各プロパティを表示するには、「<a href="lync-server-2013-view-pstn-usage-records.md">Lync Server 2013 での PSTN 使用法レコードの表示</a>」を参照してください。<br />
-    PSTN 使用法レコードを作成または編集するには、「<a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Lync Server 2013 での音声ポリシーの作成と PSTN 使用法レコードの構成</a>」または「<a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > 選択できる PSTN 使用法レコードの各プロパティを表示するには、「<a href="lync-server-2013-view-pstn-usage-records.md">Lync Server 2013 での PSTN 使用法レコードの表示</a>」を参照してください。<br />
+    > PSTN 使用法レコードを作成または編集するには、「<a href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">Lync Server 2013 での音声ポリシーの作成と PSTN 使用法レコードの構成</a>」または「<a href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコー ドの構成</a>」を参照してください。
 
 
 12. 最適なパフォーマンスを得るために、PSTN 使用法レコードを並べ替えます。 一覧内でのレコードの位置を変更するには、レコードの名前を選択状態にして、上矢印または下矢印をクリックします。

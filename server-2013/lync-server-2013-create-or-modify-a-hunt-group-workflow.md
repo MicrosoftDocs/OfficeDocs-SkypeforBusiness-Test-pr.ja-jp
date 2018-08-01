@@ -100,33 +100,13 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 発信者用の音声に変換される開始メッセージをテキストとして入力するには、\[**音声合成を使用する**\] をクリックして、テキスト ボックスに開始メッセージを入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
     
       - 開始メッセージに Wave (.wav) または Windows Media オーディオ (.wma) ファイルの録音を使用するには、\[**録音を選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**録音**\] リンクをクリックしてください。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するオーディオ ファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 18. \[**ステップ 4 営業時間の指定**\] の \[**タイム ゾーン**\] で、ワークフローのタイム ゾーンをクリックします。
@@ -139,31 +119,11 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 事前に定義した営業時間スケジュールを使用するには、\[**事前設定したスケジュールを使用する**\] をクリックして、ドロップダウン リストから使用するスケジュールを選択します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 <strong>New-CSRgsHoursOfBusiness</strong> コマンドレットを使用して事前設定スケジュールを定義します。詳細については、「<a href="lync-server-2013-optional-define-response-group-business-hours.md">(オプション) Lync Server 2013 での応答グループの営業時間の定義</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 <strong>New-CSRgsHoursOfBusiness</strong> コマンドレットを使用して事前設定スケジュールを定義します。詳細については、「<a href="lync-server-2013-optional-define-response-group-business-hours.md">(オプション) Lync Server 2013 での応答グループの営業時間の定義</a>」を参照してください。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>事前設定したスケジュールを選択すると、応答グループの対応日時で、[<strong>曜日</strong>]、[<strong>始業</strong>]、[<strong>終業</strong>] が自動的に設定されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 事前設定したスケジュールを選択すると、応答グループの対応日時で、[<strong>曜日</strong>]、[<strong>始業</strong>]、[<strong>終業</strong>] が自動的に設定されます。
     
       - このワークフローのみに適用するカスタム スケジュールを使用するには、\[**カスタム スケジュールを使用する**\] をクリックします。
 
@@ -179,33 +139,13 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 発信者用に音声に変換されるメッセージをテキストとして入力するには、\[**音声合成を使用する**\] をクリックして、テキスト ボックスにメッセージを入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
     
       - メッセージにオーディオ ファイルの録音を使用するには、\[**録音を選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**録音**\] リンクをクリックしてください。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 23. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
@@ -228,33 +168,13 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 発信者用に音声に変換されるメッセージをテキストとして入力するには、\[**音声合成を使用する**\] をクリックして、テキスト ボックスにメッセージを入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
     
       - メッセージにオーディオ ファイルの録音を使用するには、\[**録音を選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**録音**\] リンクをクリックしてください。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 26. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
@@ -275,18 +195,8 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 保留音にオーディオ ファイルの録音を使用するには、\[**音楽ファイルを選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**音楽ファイル**\] リンクをクリックします。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定するすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定するすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 29. \[**展開**\] をクリックします。

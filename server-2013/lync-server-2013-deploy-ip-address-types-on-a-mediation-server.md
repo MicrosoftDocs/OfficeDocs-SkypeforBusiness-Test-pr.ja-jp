@@ -29,18 +29,8 @@ _**トピックの最終更新日:** 2016-07-28_
     
       - \[ **すべての構成済み IP アドレスを使用する**\]。コンピューター上で定義されているすべての IP アドレスの使用を許可する場合は、このオプションを選択します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>これは、IP version 6 (IPv6) 構成の推奨オプションです。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > これは、IP version 6 (IPv6) 構成の推奨オプションです。
     
       - \[ **サービスの使用を、指定したアドレスに制限する**\]。新しいサーバーで使用する特定のアドレスを指定する場合は、このオプションを選択します。このオプションを選択する場合は、プライマリ IP アドレスの値を入力する必要があります。
     
@@ -48,16 +38,6 @@ _**トピックの最終更新日:** 2016-07-28_
     
       - \[ **PSTN IP アドレス**\]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレス タイプの形式に一致している必要があります。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>追加のネットワーク インターフェイス カード (NIC) を取り付けて Lync Server 2013 の PSTN IP アドレス構成をサポートすることはできません。Lync Server 2013 でサポートされている NIC 構成の詳細については、「<a href="lync-server-2013-server-hardware-platforms.md">Lync Server 2013　用のサーバー ハードウェア プラットフォーム</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 追加のネットワーク インターフェイス カード (NIC) を取り付けて Lync Server 2013 の PSTN IP アドレス構成をサポートすることはできません。Lync Server 2013 でサポートされている NIC 構成の詳細については、「<a href="lync-server-2013-server-hardware-platforms.md">Lync Server 2013　用のサーバー ハードウェア プラットフォーム</a>」を参照してください。
 

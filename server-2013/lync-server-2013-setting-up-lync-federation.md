@@ -118,23 +118,12 @@ _**トピックの最終更新日:** 2015-03-09_
 
 3.  Lync Server コントロール パネルまたは Lync Server 管理シェルと適切なコマンドレットを使用して、すべてのポリシーを定義して構成します。 Lync Server 管理シェル コマンドレットの詳細は、「[Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Room System (LRS) の [参加] ボタンは、その会議を送信した開催者が Lync のフェデレーション パートナーの場合には表示されません。会議に参加するリンクを LRS に表示するには、送信側が次のコマンドレットを使って TNEF を有効にする必要があります。<br />
-    <br />
-    <code>New-RemoteDomain -DomainName Contoso.com -Name Contoso</code><br />
-    <code>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</code><br />
-    これは LRS に固有の問題ではありません。Outlook と Lync でも MAPI プロパティが転送されないため、このような場合は [参加] のリンクが表示されません。ただし、Outlook の場合は、ユーザーが会議の招待を開いてその会議の URL をクリックできます。TNEFEnabled が TRUE に設定されると、Exchange 2013 は OnlineMeetingExternalLink などの MAPI プロパティを削除しないため、アラームに [参加] ボタンが表示されます。</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lync Room System (LRS) の [参加] ボタンは、その会議を送信した開催者が Lync のフェデレーション パートナーの場合には表示されません。会議に参加するリンクを LRS に表示するには、送信側が次のコマンドレットを使って TNEF を有効にする必要があります。<br />
+    > <br />
+    > <code>New-RemoteDomain -DomainName Contoso.com -Name Contoso</code><br />
+    > <code>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</code><br />
+    > これは LRS に固有の問題ではありません。Outlook と Lync でも MAPI プロパティが転送されないため、このような場合は [参加] のリンクが表示されません。ただし、Outlook の場合は、ユーザーが会議の招待を開いてその会議の URL をクリックできます。TNEFEnabled が TRUE に設定されると、Exchange 2013 は OnlineMeetingExternalLink などの MAPI プロパティを削除しないため、アラームに [参加] ボタンが表示されます。
 
 ## 関連項目
 

@@ -19,20 +19,10 @@ Lync Server ユーザー ポリシーを作成したら、それを有効にす�
 
 グローバル ポリシー、サイト ポリシー、ユーザー ポリシーの階層を含むアーカイブ ポリシーのしくみの詳細については、「計画」、「展開」、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」 を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>アーカイブを構成して使用するためには、まずアーカイブを展開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-deploying-archiving.md">Lync Server 2013 でのアーカイブの展開</a>」を参照してください。<br />
-展開で Microsoft Exchange の統合を有効にした場合、Exchange 2013 に所属し、メールボックスがインプレース保持になっているユーザーに対してアーカイブが有効となるかどうかが Exchange のインプレース保持ポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
-アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-archiving-options.md">アーカイブ オプションの構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> アーカイブを構成して使用するためには、まずアーカイブを展開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-deploying-archiving.md">Lync Server 2013 でのアーカイブの展開</a>」を参照してください。<br />
+> 展開で Microsoft Exchange の統合を有効にした場合、Exchange 2013 に所属し、メールボックスがインプレース保持になっているユーザーに対してアーカイブが有効となるかどうかが Exchange のインプレース保持ポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。<br />
+> アーカイブを有効にするには、その前にアーカイブ構成で適切なオプションをすべて指定する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-archiving-options.md">アーカイブ オプションの構成</a>」を参照してください。
 
 
 ## Lync Server アーカイブ ポリシーをユーザーに適用するには
