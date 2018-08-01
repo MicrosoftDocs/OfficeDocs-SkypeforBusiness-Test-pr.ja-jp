@@ -56,7 +56,7 @@ _**トピックの最終更新日:** 2016-12-08_
 <td><p></p></td>
 <td><p>Active Directory の同期を準備する</p></td>
 <td><p>Active Directory 同期は、社内の Active Directory を、常に Office 365 と同期した状態に保ちます。これにより、各ユーザー アカウントおよびグループの同期バージョンを作成できるだけでなく、ローカルの Microsoft Exchange Server 環境から Microsoft Exchange Online へのグローバル アドレス一覧 (GAL) の同期を実行できるようになります。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > ユーザーが Lync Online に移動されない場合でも、組織のすべての Lync ユーザーの AD アカウントを内部設置型 Lync 展開とオンライン Lync 展開との間で同期する必要があります。すべてのユーザーを同期しない場合、組織の内部設置型展開のユーザーとオンライン ユーザーとの間の通信が正常に動作しない可能性があります。

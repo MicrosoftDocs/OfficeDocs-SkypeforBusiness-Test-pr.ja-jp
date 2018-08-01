@@ -153,7 +153,7 @@ Lync 2013 の DNS 要件の詳細については、「[Lync Server 2013 の DNS 
 <td><p>sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>&quot;許可済み SIP ドメイン&quot; (以前のリリースでは拡張フェデレーションと呼ばれました) という名前の他の潜在的なフェデレーション パートナーのフェデレーションの自動 DNS 検出に必要な、SIP アクセス エッジ サービス外部インターフェイス。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > 必要に応じて、 Lync が有効なユーザーを持つすべての SIP ドメインと、 プッシュ通知サービス または Apple プッシュ通知サービス を使用する Microsoft Lync Mobile クライアントに対してこの手順を繰り返します。

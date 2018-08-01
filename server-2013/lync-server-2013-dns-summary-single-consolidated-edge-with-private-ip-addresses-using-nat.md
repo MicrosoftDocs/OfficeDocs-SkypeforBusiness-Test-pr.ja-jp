@@ -142,7 +142,7 @@ Lync 2013 を実行するクライアントの自動構成の詳細について�
 <td><p>sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>&quot;許可済み SIP ドメイン&quot; (以前のリリースでは拡張フェデレーションと呼ばれました) という名前の、他のフェデレーション パートナーへのフェデレーションの自動 DNS 検出に必要な SIP アドレス エッジ外部インターフェイス。すべての SIP ドメインと Lync が有効なユーザーについて必要なだけ繰り返します。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > この SRV レコードは、モビリティおよび Push Notification Clearing House に必要です。

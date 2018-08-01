@@ -96,7 +96,7 @@ _**トピックの最終更新日:** 2015-03-09_
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集</a></p></li>
     </ul></td>
     <td><p>このフェデレーションの種類は、ユーザーに対して構成するサービスおよびホスティング プロバイダーを定義します。一般的な使用法としては、Windows Live Messenger、Yahoo!、AOL のような公開 IM プロバイダーの構成、また Lync Online と Office 365 のようなホスティング プロバイダーの構成が含まれます。</p>
-    <div class="alert">
+    <div>
 
     > [!IMPORTANT]
     > <UL>

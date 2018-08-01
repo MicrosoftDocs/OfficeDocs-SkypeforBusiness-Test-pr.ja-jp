@@ -189,7 +189,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p>Exchange Server 2013</p></td>
 <td><p>Exchange Server 2010 のサポート状況と同じ。統合連絡先ストア、高解像度画像、アーカイブの統合が追加されています。</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > 詳細については、「<a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 の統合</a>」を参照してください。

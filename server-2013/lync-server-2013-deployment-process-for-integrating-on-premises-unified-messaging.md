@@ -164,7 +164,7 @@ Exchange ユニファイド メッセージング (UM) を Lync Server 2013 と�
 </ul>
 <p>このツールは、Exchange UM 設定の Active Directory をスキャンし、Lync Server 2013 管理者による連絡先オブジェクトの表示、作成、および編集ができるようにすることで機能します。</p></td>
 <td><p>RTCUniversalServerAdmins および RTCUniversalUserAdmins</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > ocsumutil.exe を正常に実行するため、ユーザーはこれらのグループの両方に属していなければなりません。

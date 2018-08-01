@@ -66,7 +66,8 @@ Lync 2013 は、H.264/MPEG-4 Part 10 Advanced Video Coding 規格に基づくビ
 <tr class="odd">
 <td><p>ハードウェア アクセラレータ H.264 エンコード: カメラ要件</p></td>
 <td><p>USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。</p>
-<div class="alert">
+<div>
+
 > [!NOTE]
 > Lync 2013 は、Windows 8 または Windows 8.1 で UVC 1.5 のサポートを含む UVC 1.5 カメラをサポートします。Windows 7 には UVC 1.5 のサポートが含まれないため、Lync 2013 は UVC 1.5 カメラをハードウェア エンコード サポートのない通常のカメラとして扱います。
 
