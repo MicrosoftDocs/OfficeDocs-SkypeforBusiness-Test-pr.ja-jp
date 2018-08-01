@@ -65,18 +65,8 @@ CDR 構成設定は、Lync Server コントロール パネルまたは [New-CsC
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>New-CsCdrConfiguration および Set-CsCdrConfiguration のコマンドレットには、Lync Server コントロール パネルでは使用できない追加のオプションが含まれます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a>」と「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>」のヘルプ トピックを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> New-CsCdrConfiguration および Set-CsCdrConfiguration のコマンドレットには、Lync Server コントロール パネルでは使用できない追加のオプションが含まれます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a>」と「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>」のヘルプ トピックを参照してください。
 
 
 ## Lync Server コントロール パネルを使用して CDR 構成設定を作成するには

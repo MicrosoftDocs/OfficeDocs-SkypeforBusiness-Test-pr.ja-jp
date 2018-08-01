@@ -27,18 +27,8 @@ Lync Server 2013 の技術上の要件を次に示します。
 
   - アーカイブ データベースのパフォーマンスの要件および考慮事項
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この Lync Server 2013 リリースでは、拡張およびパフォーマンス情報は使用できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この Lync Server 2013 リリースでは、拡張およびパフォーマンス情報は使用できません。
 
 
 ## インフラストラクチャの要件
@@ -71,18 +61,8 @@ Lync Server 2013 では、アーカイブの前提条件が簡素化されてい
     
       - Microsoft SQL Server 2012 Standard
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft SQL Server 2008 R2 Express と Microsoft SQL Server 2012 Express をアーカイブに使用することはできません。32 ビット版 SQL Server はサポートされません。SQL Server の要件と制限の関連情報については、「計画」のドキュメントまたは「サポート」のドキュメントの「<a href="lync-server-2013-database-software-support.md">Lync Server 2013 でのデータベース ソフトウェアのサポート</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Microsoft SQL Server 2008 R2 Express と Microsoft SQL Server 2012 Express をアーカイブに使用することはできません。32 ビット版 SQL Server はサポートされません。SQL Server の要件と制限の関連情報については、「計画」のドキュメントまたは「サポート」のドキュメントの「<a href="lync-server-2013-database-software-support.md">Lync Server 2013 でのデータベース ソフトウェアのサポート</a>」を参照してください。
     
     アーカイブを展開し、有効化する前に、 SQL Server プラットフォームを設定する必要があります。トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。インストール手順の一部を含め、データベースを後で作成することもできます。 SQL Server の詳細については、SQL Server TechCenter ( [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x411)) を参照してください。
 

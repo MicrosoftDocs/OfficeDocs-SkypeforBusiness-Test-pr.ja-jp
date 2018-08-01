@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 このセクションのトピックでは、会議デバイスをセットアップして、管理する方法を説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 での使用がサポートされている会議デバイスについて詳しくは、「<a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Microsoft Lync に対応する電話とデバイス (Phones and devices qualified for Microsoft Lync)</a>」をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 での使用がサポートされている会議デバイスについて詳しくは、「<a href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">Microsoft Lync に対応する電話とデバイス (Phones and devices qualified for Microsoft Lync)</a>」をご覧ください。
 
 
 ## このセクション中

@@ -73,29 +73,14 @@ _**トピックの最終更新日:** 2014-11-10_
 
 ## LRS Administrative Web Portal に関する追加の注意事項
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>セキュリティ上の理由から、LRS Administrative Web Portal では、自動的に 15 分ごとにサインアウトされます。</p></li>
-<li><p>設定の変更は、LRS システムが再起動した後に適用されます。</p></li>
-<li><p>LRS Administrative Web Portal での通知は継続的なものです。つまり、通知は非表示になりません。</p></li>
-<li><p>通知は、ページを更新した後に表示されます。</p></li>
-<li><p>LRS ルームの状態は、ページを更新した後に表示されます。</p></li>
-<li><p>LRSApp アカウントのパスワードが期限切れになると、ルームの状態を確認できなくなります。有効期限が切れないように LRSAppuser アカウントのパスワードを構成するか、有効期限が近づいたらそのパスワードを更新してください。</p></li>
-<li><p>LRS Administrative Web Portal は、内部設置型展開でのみサポートされます。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul><li><p>セキュリティ上の理由から、LRS Administrative Web Portal では、自動的に 15 分ごとにサインアウトされます。</p></li>
+> <li><p>設定の変更は、LRS システムが再起動した後に適用されます。</p></li>
+> <li><p>LRS Administrative Web Portal での通知は継続的なものです。つまり、通知は非表示になりません。</p></li>
+> <li><p>通知は、ページを更新した後に表示されます。</p></li>
+> <li><p>LRS ルームの状態は、ページを更新した後に表示されます。</p></li>
+> <li><p>LRSApp アカウントのパスワードが期限切れになると、ルームの状態を確認できなくなります。有効期限が切れないように LRSAppuser アカウントのパスワードを構成するか、有効期限が近づいたらそのパスワードを更新してください。</p></li>
+> <li><p>LRS Administrative Web Portal は、内部設置型展開でのみサポートされます。</p></li></ul>
 
 
 ## トラブルシューティング

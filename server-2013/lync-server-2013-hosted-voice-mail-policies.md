@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-10-01_
 
 *ホスト型ボイス メール ポリシー*は、メールボックスが Hosted Exchange サービスに配置されたユーザーに対して通話をどこにルーティングすべきかを Lync Server 2013 ExUM ルーティング アプリケーションに伝えます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ホスト ボイス メール ポリシーが必要なのは、Hosted Exchange UM と Lync Server 2013 の統合だけです。内部設置型の Exchange UM との統合には必要ありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ホスト ボイス メール ポリシーが必要なのは、Hosted Exchange UM と Lync Server 2013 の統合だけです。内部設置型の Exchange UM との統合には必要ありません。
 
 
 ## ホスト ボイス メール ポリシーのスコープ
@@ -41,18 +31,8 @@ _**トピックの最終更新日:** 2012-10-01_
 
   - *ユーザー単位の* ポリシーは、個々のユーザーやグループにだけ影響します。ユーザー単位のポリシーを適用するには、個々のユーザー、グループ、または連絡先オブジェクトにこのポリシーを明示的に割り当てる必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ほとんどの場合には、必要なホスト ボイス メール ポリシーは 1 つだけです。多くの場合には、必要に応じてグローバル ポリシーを変更できます。複数のホスト ボイス メール ポリシーを展開する場合には、展開するすべてのポリシーにユーザー単位のスコープがあります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ほとんどの場合には、必要なホスト ボイス メール ポリシーは 1 つだけです。多くの場合には、必要に応じてグローバル ポリシーを変更できます。複数のホスト ボイス メール ポリシーを展開する場合には、展開するすべてのポリシーにユーザー単位のスコープがあります。
 
 
 ## ホスト ボイス メール ポリシーの属性
@@ -61,34 +41,14 @@ _**トピックの最終更新日:** 2012-10-01_
 
   - **宛先 :** Hosted Exchange UM サービスの完全修飾ドメイン名 (FQDN) です。この値は内部設置型の Lync Server エッジ サーバーでルーティングに使用されます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Exchange Online の FQDN は exap.um.outlook.com です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Exchange Online の FQDN は exap.um.outlook.com です。
 
 
   - **組織 :** Lync Server 2013 ユーザーのメールボックスが所属する Hosted Exchange UM サービスのテナント FQDN です。ボイス メール ポリシーには複数の組織が含まれていることがあります。ポリシーに複数の組織が含まれている場合には、この属性は Lync Server 2013 ユーザー メールボックスが所属する Exchange Server テナントのカンマ区切り一覧である必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Hosted Exchange UM サービスのテナント管理者が、宛先と組織の属性設定に必要な値を提供します。ポリシーを構成するには、New-CsHostedVoicemailPolicy コマンドレットを実行するか、または Set-CsHostedVoicemailPolicy コマンドレットを使用して既存のポリシー (例: グローバル ポリシー) を変更する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Hosted Exchange UM サービスのテナント管理者が、宛先と組織の属性設定に必要な値を提供します。ポリシーを構成するには、New-CsHostedVoicemailPolicy コマンドレットを実行するか、または Set-CsHostedVoicemailPolicy コマンドレットを使用して既存のポリシー (例: グローバル ポリシー) を変更する必要があります。
 
 
 ホスト ボイス メール ポリシーの管理の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。

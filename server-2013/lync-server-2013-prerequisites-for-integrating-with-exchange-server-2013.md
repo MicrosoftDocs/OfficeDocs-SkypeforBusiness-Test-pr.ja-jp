@@ -57,21 +57,10 @@ autodiscover サービスを構成した後で、Lync Server の OAuth 構成設
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>上記のコマンドの Identity パラメーターは省略可能です。Lync Server では 1 つのグローバルな OAuth 構成設定しかできないためです。つまり、より単純な次のコマンドを使用して autodiscover の URL を構成できるということです。<br />
-Set-CsOAuthConfiguration–ExchangeAutodiscoverUrl &quot;https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc&quot;<br />
-OAuth というテクノロジは、多くの大手 Web サイトで使用されている標準的な認証プロトコルです。OAuth では、ユーザーの資格情報とパスワードがコンピューター間で渡されることはありません。その代わりに、セキュリティ トークンの交換に基づいて認証と承認が行われます。これらのトークンによって、特定のリソースのセットに対する特定の時間のアクセスが許可されます。</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> 上記のコマンドの Identity パラメーターは省略可能です。Lync Server では 1 つのグローバルな OAuth 構成設定しかできないためです。つまり、より単純な次のコマンドを使用して autodiscover の URL を構成できるということです。<br />
+> Set-CsOAuthConfiguration–ExchangeAutodiscoverUrl &quot;https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc&quot;<br />
+> OAuth というテクノロジは、多くの大手 Web サイトで使用されている標準的な認証プロトコルです。OAuth では、ユーザーの資格情報とパスワードがコンピューター間で渡されることはありません。その代わりに、セキュリティ トークンの交換に基づいて認証と承認が行われます。これらのトークンによって、特定のリソースのセットに対する特定の時間のアクセスが許可されます。
 
 autodiscover サービスの構成に加えて、このサービスのために Exchange サーバーを示す DNS レコードを作成する必要があります。たとえば、autodiscover サービスが autodiscover.litwareinc.com にある場合、autodiscover.litwareinc.com のために Exchange サーバーの完全修飾ドメイン名 (たとえば atl-exchange-001.litwareinc.com) に解決される DNS レコードを作成する必要があります。
 

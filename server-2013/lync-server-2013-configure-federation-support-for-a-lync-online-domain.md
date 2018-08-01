@@ -19,34 +19,14 @@ Microsoft Lync Online 2010 ユーザーとのフェデレーションを行う�
 
   - Lync Online 2010 ユーザーのドメイン (例: contoso.onmicrosoft.com) に対するサポートを構成します。このドキュメントの「[Lync Online の顧客とのフェデレーションの前提条件](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)」セクションで説明したように、既にフェデレーションは組織で有効になっているはずです。フェデレーションを有効にするには、フェデレーション ドメインによってアクセス制御に使用されるメソッドを指定する必要があります。検出を使用するように組織を構成した場合は、組織の許可リストへのドメインの追加は省略できます。ドメインの検出を有効にしなかった場合は、許可されたドメインのリストに Lync Online ユーザーのドメイン名を追加する必要があります。ドメイン名を追加するには、Lync Server コントロール パネルを使用するか、**New-CSAllowedDomain** コマンドレットを実行します。ドメインの検出の有効化など、Lync Server コントロール パネルの使用の詳細については、「操作」のドキュメントの「[Lync Server 2013 での組織の SIP フェデレーション プロバイダーの管理](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)」を参照してください。**New-CSAllowedDomain** コマンドレットを使用してドメインを追加する方法の詳細については、「操作」のドキュメントの「[New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Online ユーザーは複数のドメインを持つことができます。複数のドメインとのフェデレーションを行う場合は、フェデレーションをサポートするドメインごとにサポートを構成する必要があり、Lync Online ユーザーの管理者はフェデレーションの対象になるドメインごとにフェデレーションを有効にする必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Online ユーザーは複数のドメインを持つことができます。複数のドメインとのフェデレーションを行う場合は、フェデレーションをサポートするドメインごとにサポートを構成する必要があり、Lync Online ユーザーの管理者はフェデレーションの対象になるドメインごとにフェデレーションを有効にする必要があります。
 
 
   - フェデレーションを行う Lync Online 2010 ユーザー ドメインのホスティング プロバイダーのサポートを構成します。ホスティング プロバイダーのサポートを構成するには、このセクションの手順に従います。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この手順は、Lync Online ユーザーのドメインとのフェデレーションの場合にのみ必要であり、フェデレーション パートナーの場所に社内展開されたドメインとのフェデレーションには不要です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この手順は、Lync Online ユーザーのドメインとのフェデレーションの場合にのみ必要であり、フェデレーション パートナーの場所に社内展開されたドメインとのフェデレーションには不要です。
 
 
 ## ホスティング プロバイダーのサポートを構成するには

@@ -25,18 +25,8 @@ Lync クライアントが 場所情報サービスから場所を取得する�
 
 ELIN ゲートウェイがサポートするのは、組織のネットワーク内からの緊急通話だけです。ネットワーク外からの緊急通話はサポートされません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>緊急通話に SIP トランク接続を使用する方法の詳細については、「<a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Lync Server 2013 での SIP トランクを使用した E9-1-1 通話のルーティング</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 緊急通話に SIP トランク接続を使用する方法の詳細については、「<a href="lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md">Lync Server 2013 での SIP トランクを使用した E9-1-1 通話のルーティング</a>」を参照してください。
 
 
 次の図は、ELIN ゲートウェイを使用する場合に、緊急通話が Lync Server から PSAP にルーティングされるしくみを示しています。

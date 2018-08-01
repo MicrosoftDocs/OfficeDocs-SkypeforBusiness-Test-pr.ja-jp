@@ -31,18 +31,8 @@ SIP セキュリティ設定と電話のロック設定により、Lync Phone Ed
 
 6.  \[**デバイス構成の編集**\] の \[**電話のロック**\] で、\[**デバイス ロックの適用**\] チェック ボックス (既定ではオン) をオンまたはオフにして、PIN の最小桁数 (既定では 6 桁) とタイムアウト期間 (既定では 10 分) を指定します。これらの既定値を使用するか、または PIN の桁数を大きくするかタイムアウト期間を小さくする (あるいはその両方を行う) ことをお勧めします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>詳細については、「<a href="lync-server-2013-enforce-phone-locking.md">電話のロックの適用</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 詳細については、「<a href="lync-server-2013-enforce-phone-locking.md">電話のロックの適用</a>」を参照してください。
 
 
 ## Lync Server 管理シェル コマンドレットを使用した Lync Phone Edition 電話のセキュリティ設定の構成

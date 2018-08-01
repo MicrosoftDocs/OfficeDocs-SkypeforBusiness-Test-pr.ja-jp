@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 ConferenceMessageCount ビューには、ユーザーが電話会議に送信したメッセージ数に関する情報が格納されます。このビューは、Microsoft Lync Server 2013 で導入されました。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ConferenceMessageCount ビューには、次に示す列に加えて「<a href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails ビュー</a>」のすべての列が含まれます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ConferenceMessageCount ビューには、次に示す列に加えて「<a href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails ビュー</a>」のすべての列が含まれます。
 
 
 

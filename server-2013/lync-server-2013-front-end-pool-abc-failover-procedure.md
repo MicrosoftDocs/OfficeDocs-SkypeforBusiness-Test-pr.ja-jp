@@ -42,18 +42,8 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
 
 4.  プール A からプール B に、バックアップされた Lync Server 応答グループ サービス ワークフローをインポートします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>現在、<strong>Import-CsRgsConfiguration</strong> コマンドレットでは、プール A のキューおよびワークフロー名が、プール B のキューおよびワークフロー名とは別である必要があります。名前が区別されていない場合、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行するとき、エラーが発生します。そして、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行する前に、プール B のキューとワークフローの名前を変更する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 現在、<strong>Import-CsRgsConfiguration</strong> コマンドレットでは、プール A のキューおよびワークフロー名が、プール B のキューおよびワークフロー名とは別である必要があります。名前が区別されていない場合、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行するとき、エラーが発生します。そして、<strong>Import-CsRgsConfiguration</strong> コマンドレットを実行する前に、プール B のキューとワークフローの名前を変更する必要があります。
     
     プール A からプール B に応答グループ構成をインポートする場合、2 つの方法があります。どちらの方法を使用するかは、プール A のアプリケーションレベル設定で、プール B のアプリケーション レベル設定を上書きするかによります。
     
@@ -87,18 +77,8 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この手順は、選択したアナウンス サービスとして &quot;Exchange UM&quot; を使用する未使用の番号範囲では不要です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この手順は、選択したアナウンス サービスとして &quot;Exchange UM&quot; を使用する未使用の番号範囲では不要です。
 
 
 7.  以下のコマンドレットを実行して、障害復旧 (DR) モードでプール A をプール B にフェールオーバーします。
@@ -200,19 +180,8 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
     
       - (省略可) プール C で、再度、作成されたアナウンスがプール B で使用されていない場合は、それらをプール B から削除します。アナウンスを削除するには、**Remove-CsAnnouncement** コマンドレットを使用します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>この手順は、アナウンス サービスとして &quot;Exchange UM&quot; を使用する未使用の番号範囲では不要です。</td>
-        </tr>
-        </tbody>
-        </table>
-
+        > [!NOTE]  
+        > この手順は、アナウンス サービスとして &quot;Exchange UM&quot; を使用する未使用の番号範囲では不要です。
 
 21. 以下のコマンドレットを実行することにより、プール B 内のプール A のユーザー データをクリーンアップします。
     
@@ -282,18 +251,8 @@ ABC フェールオーバーを実行するには、以下の手順を使用し�
             {
             Update-CsUserData -FileName c:\logs\exportedUserDAta.xml -UserFilter $user - }
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>プール A に関連付けられた SBA に所属するユーザーには、サービス停止が発生します。これは、これらのユーザーがプール C に移動されるまで続きます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > プール A に関連付けられた SBA に所属するユーザーには、サービス停止が発生します。これは、これらのユーザーがプール C に移動されるまで続きます。
 
 
 28. トポロジ ビルダーで、以前にプール A に関連付けられた各 SBA X について、以下の操作を実行します。

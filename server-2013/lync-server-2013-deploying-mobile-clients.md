@@ -17,25 +17,10 @@ _**トピックの最終更新日:** 2016-12-08_
 
 モバイル クライアント向けの Lync 2013 アプリは、Windows Mobile Professional Edition を実行しているスマートフォンまたは電話から接続している組織のユーザーに、インスタント メッセージ (IM)、拡張プレゼンス、およびテレフォニーを提供します。ユーザーに Lync 2013 をインストールするように指示するには、ユーザーを携帯電話のアプリ マーケットプレイスに導きます。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 はモバイル クライアント向けの Lync 2010 もサポートしています。詳細については、Lync Server 2010 TechNet ライブラリの次の記事を参照してください。
-<ul>
-<li><p>「モバイル クライアントの計画」(<a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>)。</p></li>
-<li><p>「モバイル クライアントの展開」(<a href="http://go.microsoft.com/fwlink/?linkid=236068" class="uri">http://go.microsoft.com/fwlink/?linkid=236068</a>)。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Lync Server 2013 はモバイル クライアント向けの Lync 2010 もサポートしています。詳細については、Lync Server 2010 TechNet ライブラリの次の記事を参照してください。
+> <ul><li><p>「モバイル クライアントの計画」(<a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>)。</p></li>
+> <li><p>「モバイル クライアントの展開」(<a href="http://go.microsoft.com/fwlink/?linkid=236068" class="uri">http://go.microsoft.com/fwlink/?linkid=236068</a>)。</p></li></ul>
 
 
 ## このセクション中

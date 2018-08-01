@@ -41,18 +41,8 @@ Lync Server 管理シェルを使用し、次の例に示されたパラメー�
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中国の 21Vianet により運営されている Office 365 を使用してる場合は、この例の <strong>ProxyFqdn</strong> パラメーターの値 (&quot;exap.um.outlook.com&quot;) を、21Vianet により運営されているサービスの FQDN である &quot;exap.um.partner.outlook.cn&quot; に置き換えます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 中国の 21Vianet により運営されている Office 365 を使用してる場合は、この例の <strong>ProxyFqdn</strong> パラメーターの値 (&quot;exap.um.outlook.com&quot;) を、21Vianet により運営されているサービスの FQDN である &quot;exap.um.partner.outlook.cn&quot; に置き換えます。
 
 
   - **Identity** は、作成するホスティング プロバイダーの、一意の文字列値から成る識別子を指定します (例: "Exchange Online")。空白を含む値は、二重引用符で囲む必要があります。

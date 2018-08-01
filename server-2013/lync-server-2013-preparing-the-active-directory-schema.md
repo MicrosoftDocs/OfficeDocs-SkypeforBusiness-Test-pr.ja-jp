@@ -29,18 +29,8 @@ Active Directory ドメイン サービス の準備を始める前に、Windows
 
 Lync Server のスキーマ拡張は、すべてのドメインにレプリケートされるため、ネットワークのトラフィックに影響します。スキーマの準備は、ネットワークの使用率が低いときに実行してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MicrosoftR Office Communicator Mobile 2007 R2 for Java および MicrosoftR Office Communicator Mobile for Nokia 1.0 モバイル クライアントのサポートを Lync Server 2013 の展開に追加する場合、Lync Server 2013 のインストール時に Microsoft Office Communications Server 2007 R2 の Active Directory スキーマを準備する必要があります。必要なソフトウェアとドキュメントについては、<a href="http://go.microsoft.com/fwlink/?linkid=207172%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=207172&amp;clcid=0x411</a> を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> MicrosoftR Office Communicator Mobile 2007 R2 for Java および MicrosoftR Office Communicator Mobile for Nokia 1.0 モバイル クライアントのサポートを Lync Server 2013 の展開に追加する場合、Lync Server 2013 のインストール時に Microsoft Office Communications Server 2007 R2 の Active Directory スキーマを準備する必要があります。必要なソフトウェアとドキュメントについては、<a href="http://go.microsoft.com/fwlink/?linkid=207172%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=207172&amp;clcid=0x411</a> を参照してください。
 
 
 ## ADSI エディター

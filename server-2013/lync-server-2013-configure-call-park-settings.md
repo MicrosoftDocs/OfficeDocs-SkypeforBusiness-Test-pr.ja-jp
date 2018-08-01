@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 既定のコール パーク設定を使用したくない場合は、カスタマイズできます。コール パーク アプリケーションをインストールすると、既定でグローバル設定が構成されます。このグローバル設定は変更できます。また、サイト固有の設定を指定することもできます。新しいサイト固有の設定を作成するには、**New-CsCpsConfiguration** コマンドレットを使用します。既存の設定を変更するには、**Set-CsCpsConfiguration** コマンドレットを使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [<strong>OnTimeoutURI</strong>] オプションは構成することをお勧めします。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [<strong>OnTimeoutURI</strong>] オプションは構成することをお勧めします。
 
 
 **New-CsCpsConfiguration** コマンドレットまたは **Set-CsCpsConfiguration** コマンドレットを使用して、次のいずれかの設定を構成します。

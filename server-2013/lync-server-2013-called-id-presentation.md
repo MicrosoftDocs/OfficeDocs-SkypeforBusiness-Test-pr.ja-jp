@@ -29,18 +29,8 @@ Lync Server 2010 では、呼び出し先の電話番号 (呼び出された電�
 
   - 正規表現を手動で記述し、一致パターンと変換ルールを定義する。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>正規表現の記述方法については、「.NET Framework の正規表現」(<a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 正規表現の記述方法については、「.NET Framework の正規表現」(<a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x411</a>) を参照してください。
 
 
 ## このセクション中

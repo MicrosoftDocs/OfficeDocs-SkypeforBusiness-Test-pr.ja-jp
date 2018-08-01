@@ -23,18 +23,8 @@ Lync Server を実行するすべてのサーバーは、特定の最小シス�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Active Directory のサポート、サポートされるトポロジ、サーバーの併置、その他のサポートの問題の詳細については、「<a href="lync-server-2013-supportability.md">Lync Server 2013 のサポート状況</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Active Directory のサポート、サポートされるトポロジ、サーバーの併置、その他のサポートの問題の詳細については、「<a href="lync-server-2013-supportability.md">Lync Server 2013 のサポート状況</a>」を参照してください。
 
 
 ## このセクション中

@@ -27,18 +27,8 @@ CAC の展開の例では、北アメリカ地域に 6 つのサイトがあり�
 
 ネットワーク トポロジの例を見る場合は、「計画」のドキュメントの「[例: Lync Server 2013 での通話受付管理の組織要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>次の手順では、ネットワーク サイトの作成に Lync Server 管理シェルが使用されています。Lync Server コントロール パネルを使用したネットワーク サイトの作成の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 次の手順では、ネットワーク サイトの作成に Lync Server 管理シェルが使用されています。Lync Server コントロール パネルを使用したネットワーク サイトの作成の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。
 
 
 ## 通話受付管理用のネットワーク サイトを作成するには

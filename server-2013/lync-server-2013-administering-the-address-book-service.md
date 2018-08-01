@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 アドレス帳サービスは、Lync ServerEnterprise Edition または Standard Edition サーバーの展開の一環として、既定でインストールされます。アドレス帳サービスで使用するデータベース (RTCab) は SQL Server (Enterprise Edition の場合はバックエンドの SQL Server、Standard Edition サーバーの場合は併置されている SQL Server) 上に作成されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>ADSI エディター</strong> を使用した Active Directory ドメイン サービスのオブジェクト属性の編集について詳しくは、「<a href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI エディター</a>」をご覧ください。アドレス帳サービス専用のリソース キット ツールについて詳しくは、「<a href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 リソース キット ツール (Microsoft Lync Server 2013 Resource Kit Tools)</a>」をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>ADSI エディター</strong> を使用した Active Directory ドメイン サービスのオブジェクト属性の編集について詳しくは、「<a href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI エディター</a>」をご覧ください。アドレス帳サービス専用のリソース キット ツールについて詳しくは、「<a href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 リソース キット ツール (Microsoft Lync Server 2013 Resource Kit Tools)</a>」をご覧ください。
 
 
 ## アドレス帳サーバーの電話番号正規化
@@ -250,18 +240,8 @@ Lync Server では、標準の RFC 3966/E.164 電話番号が必要です。体�
 
 以前のバージョンの Lync Server では、変更を Active Directory に適用するときは、**Update -CSUserDatabase** および **Update –CSAddressBook**Windows PowerShell コマンドレットを実行して、変更を Lync Server ユーザー データベースおよび RTCab データベースに直ちに保存する必要がありました。Lync Server 2013 では、Lync Server ユーザー レプリケーターが Active Directory から変更を取得し、設定されている間隔に基づいて Lync Server ユーザー データベースを更新します。また、Lync Server ユーザー レプリケーターは変更を RTCab データベースにすぐに反映するので、管理者が Update-CSAddressBook を実行する必要はありません。アドレス帳 Web クエリが有効になっている場合は、Lync クライアントによって検索結果に変更が反映されます。管理者は、アドレス帳ファイル ダウンロードが有効になっている場合に Update -CSAddressBook を実行することだけが必要です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既定では、Lync Server ユーザー レプリケーターは 5 分ごとに自動的に実行します。この間隔は、Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt; を使用して構成できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 既定では、Lync Server ユーザー レプリケーターは 5 分ごとに自動的に実行します。この間隔は、Set -CSUserReplicatorConfiguration -ReplicationCycleInterval &lt;&gt; を使用して構成できます。
 
 
 ## アドレス帳のフィルター処理
@@ -307,18 +287,8 @@ Lync Server では、標準の RFC 3966/E.164 電話番号が必要です。体�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0x4000 (exclude 属性) と 0x8000 (include 属性) の両方のフラグ ビットが設定されている場合、0x4000 ビットが 0x8000 ビットより優先され、連絡先は除外されます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 0x4000 (exclude 属性) と 0x8000 (include 属性) の両方のフラグ ビットが設定されている場合、0x4000 ビットが 0x8000 ビットより優先され、連絡先は除外されます。
 
 
 アドレス帳をフィルターして特定のユーザーのみを含めることができますが、エントリを制限すると、他のユーザーがフィルターされたユーザーへ連絡したり、プレゼンス状態を参照したりできる範囲が制限されます。ユーザーは、ユーザーの完全なサインイン名を入力することで、アドレス帳にないユーザーに対する検索、インスタント メッセージの手動送信、手動での通話の開始をいつでも実行できます。また、ユーザーの連絡先情報は、Outlook でも検索できます。
@@ -327,18 +297,8 @@ Lync Server では、標準の RFC 3966/E.164 電話番号が必要です。体�
 
 AbAttribute テーブルを変更した後、コマンドレット **Update-CsUserDatabase** のコマンドを実行し、AbUserEntry テーブルのデータを更新できます。UR のレプリケーションが完了した後、コマンドレット **UpdateCsAddressBook** のコマンドを手動で実行し、アドレス帳サーバー ファイル ストアのファイルを更新できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>アドレス帳サーバーが配置されているフロント エンド サーバーは、管理上構成できません。展開の間に選択すれます。通常は、展開される最初のフロント エンド サーバーです。障害時、アドレス帳サービスは別のフロント エンド サーバーに移動し、管理上の配慮は必要ありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> アドレス帳サーバーが配置されているフロント エンド サーバーは、管理上構成できません。展開の間に選択すれます。通常は、展開される最初のフロント エンド サーバーです。障害時、アドレス帳サービスは別のフロント エンド サーバーに移動し、管理上の配慮は必要ありません。
 
 
 

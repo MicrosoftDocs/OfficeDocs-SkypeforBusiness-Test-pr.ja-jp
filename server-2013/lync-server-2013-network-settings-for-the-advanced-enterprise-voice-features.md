@@ -31,18 +31,8 @@ Lync Server には、通話受付管理 (CAC)、緊急サービス (E9-1-1)、�
 
 ネットワーク地域は、通話受付管理 (CAC)、E9-1-1、およびメディア バイパスの構成でのみ使用されるネットワーク ハブまたはネットワーク バックボーンです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ネットワーク地域は、ダイヤルイン会議アクセス番号を 1 つ以上の Lync Server のダイヤル プランに関連付けることが必要な、Lync Server のダイヤルイン会議の地域と同じではありません。ダイヤルイン会議の地域の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 でのダイヤルイン会議の要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ネットワーク地域は、ダイヤルイン会議アクセス番号を 1 つ以上の Lync Server のダイヤル プランに関連付けることが必要な、Lync Server のダイヤルイン会議の地域と同じではありません。ダイヤルイン会議の地域の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 でのダイヤルイン会議の要件</a>」を参照してください。
 
 
 CAC では、すべてのネットワーク地域に、地域内のメディア トラフィックを管理する (つまり、構成したポリシーに基づいてリアルタイムの音声またはビデオ セッションを確立できるかどうかを判断する)、関連付けられた Lync Server の中央サイトがある必要があります。Lync Server の中央サイトは、地理的場所ではなく、プールまたは一連のプールとして構成されているサーバーの論理グループを表します。中央サイトの詳細については、「計画」のドキュメントの「[Lync Server 2013 の関連トポロジ](lync-server-2013-reference-topologies.md)」を参照してください。「サポート」のドキュメントの「[Lync Server 2013 でサポートされるトポロジ](lync-server-2013-supported-topologies.md)」も参照してください。
@@ -57,18 +47,8 @@ Lync Server の中央サイトをネットワーク地域に関連付けるに�
 
 ネットワーク サイトは、ブランチ オフィス、支社、本社などの地理的場所を表します。各ネットワーク サイトは、特定のネットワーク地域に関連付けられている必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ネットワーク サイトは、高度な エンタープライズ VoIP 機能でのみ使用されます。Lync Server トポロジ内に構成するブランチ サイトと同じではありません。ブランチ サイトの詳細については、「計画」のドキュメントの「<a href="lync-server-2013-reference-topologies.md">Lync Server 2013 の関連トポロジ</a>」を参照してください。「サポート」のドキュメントの「<a href="lync-server-2013-supported-topologies.md">Lync Server 2013 でサポートされるトポロジ</a>」も参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ネットワーク サイトは、高度な エンタープライズ VoIP 機能でのみ使用されます。Lync Server トポロジ内に構成するブランチ サイトと同じではありません。ブランチ サイトの詳細については、「計画」のドキュメントの「<a href="lync-server-2013-reference-topologies.md">Lync Server 2013 の関連トポロジ</a>」を参照してください。「サポート」のドキュメントの「<a href="lync-server-2013-supported-topologies.md">Lync Server 2013 でサポートされるトポロジ</a>」も参照してください。
 
 
 ネットワーク サイトを構成してネットワーク地域に関連付けるには、Lync Server コントロール パネルの \[**ネットワーク構成**\] セクションを使用するか、Lync Server 管理シェルの **New-CsNetworkSite** または **Set-CsNetworkSite** コマンドレットを実行できます。詳細については、「展開」のドキュメントの「[Lync Server 2013 でのネットワーク サイトの作成または変更](lync-server-2013-create-or-modify-a-network-site.md)」または Lync Server 管理シェルのドキュメントを参照してください。

@@ -507,18 +507,8 @@ Lync Web App から会議に参加するときに画面共有プラグインを�
 
 ## IPv4 と IPv6 のデュアル スタックを使用するように構成されたコンピューター上で実行されている Lync クライアントで、コンピューターの IP サブネットに依存する E911、メディア バイパス、通話受付管理、場所ベースのルーティングなどの機能がサポートされない場合がある (3335508)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**
@@ -575,18 +565,8 @@ Skype for Business Online に所属しているユーザーのプレゼンス状
 
 ## 受信側との通話の確立中に、発信者に対して 1 秒間の保留音が再生されることがある (3334097)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**
@@ -671,18 +651,8 @@ Lync Server 2010 から Lync Server 2013 に移行した 応答グループを�
 
 ## 計画ツールの制限 (3331056 および 3331059)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**
@@ -839,18 +809,8 @@ Lync Server コントロール パネルのページの上部にあるナビゲ�
 
 ## 一部の言語でアドレス帳でのインデックス作成が正しく動作しない (3336047)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 ユーザーのプロパティにインデックス フィールドが含まれ、そのフィールドにインデックスを作成できない文字のみが含まれる場合、アドレス帳で検索を実行するとユーザーが表示されません。
@@ -901,18 +861,8 @@ Web ブラウザーで、言語、スクリプト、ロケールを指定する�
 
 ## 一部の Web ブラウザーで、Lync Web Scheduler、ダイヤルイン、Join Launcher、常設チャット ルーム管理、OCTabThere の使用時にアゼルバイジャン語とウズベク語のロケールがサポートされない (3336748)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**

@@ -17,34 +17,14 @@ _**トピックの最終更新日:** 2012-10-18_
 
 1 つまたは複数の外部ユーザー アクセス ポリシーを構成し、リモート ユーザーが内部 Lync Server ユーザーと共同作業できるかどうかを制御します。リモート ユーザー アクセスを管理するため、グローバル、サイト、およびユーザー レベルでポリシーを構成できます。サイト ポリシーはグローバル ポリシーより優先され、ユーザー ポリシーはサイト ポリシーとグローバル ポリシーより優先されます。構成できるポリシーの種類の詳細については、「[Lync Server 2013 へのフェデレーションおよび外部アクセスの管理](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)」を参照してください。あるポリシー レベルで適用されている Lync Server ポリシー設定が、他のポリシー レベルで適用されている設定によって無効になることがあります。Lync Server ポリシーの優先順位は、ユーザー ポリシーが最も高く、サイト ポリシー、グローバル ポリシー (優先度が最も低い) と続きます。つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>組織のリモート ユーザー アクセスを有効にしていない場合でも、リモート ユーザー アクセスを制御するポリシーを構成できます。ただし、構成したポリシーは、組織のリモート ユーザー アクセスを有効にしているときのみ有効です。リモート ユーザー アクセスの有効化の詳細については、「<a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a>」を参照してください。また、リモート ユーザー アクセスを制御するユーザー ポリシーを指定する場合、Lync Server で有効で、ポリシーの使用が構成されているユーザーにのみ、ポリシーが適用されます。離れた場所から Lync Server にサインインできるユーザーの指定の詳細については、「<a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Lync Server 2013 での Lync が有効なユーザーに対する外部ユーザー アクセス ポリシーの割り当て</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 組織のリモート ユーザー アクセスを有効にしていない場合でも、リモート ユーザー アクセスを制御するポリシーを構成できます。ただし、構成したポリシーは、組織のリモート ユーザー アクセスを有効にしているときのみ有効です。リモート ユーザー アクセスの有効化の詳細については、「<a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Lync Server 2013 でのフェデレーションおよびパブリック IM 接続の有効化または無効化</a>」を参照してください。また、リモート ユーザー アクセスを制御するユーザー ポリシーを指定する場合、Lync Server で有効で、ポリシーの使用が構成されているユーザーにのみ、ポリシーが適用されます。離れた場所から Lync Server にサインインできるユーザーの指定の詳細については、「<a href="lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md">Lync Server 2013 での Lync が有効なユーザーに対する外部ユーザー アクセス ポリシーの割り当て</a>」を参照してください。
 
 
 リモート ユーザー アクセスの制御に使用する各外部アクセス ポリシーを構成するには、次の手順を使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この手順で説明するのは、リモート ユーザーとの通信を有効にするだけのポリシーを構成する方法ですが、リモート ユーザー アクセスをサポートするため構成する各ポリシーで、フェデレーション ユーザー アクセスやパブリック ユーザー アクセスも構成できます。フェデレーション ユーザーをサポートするポリシーの構成の詳細については、「<a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成</a>」を参照してください。パブリック ユーザーをサポートするポリシーの構成の詳細については、「<a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この手順で説明するのは、リモート ユーザーとの通信を有効にするだけのポリシーを構成する方法ですが、リモート ユーザー アクセスをサポートするため構成する各ポリシーで、フェデレーション ユーザー アクセスやパブリック ユーザー アクセスも構成できます。フェデレーション ユーザーをサポートするポリシーの構成の詳細については、「<a href="lync-server-2013-configure-policies-to-control-federated-user-access.md">Lync Server 2013 でのフェデレーション ユーザー アクセスを制御するポリシーの構成</a>」を参照してください。パブリック ユーザーをサポートするポリシーの構成の詳細については、「<a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Lync Server 2013 での公開 SIP フェデレーション プロバイダーの作成または編集</a>」を参照してください。
 
 
 ## リモート ユーザー アクセスをサポートする外部アクセス ポリシーを構成するには

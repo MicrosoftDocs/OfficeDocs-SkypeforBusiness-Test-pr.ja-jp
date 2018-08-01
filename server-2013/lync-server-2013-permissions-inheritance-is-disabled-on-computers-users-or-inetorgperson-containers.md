@@ -95,18 +95,7 @@ Active Directory ドメイン サービス がロックダウンされると、�
     
         Test-CsOuPermission -ObjectType "user","contact" -OU "cn=Bellevue,dc=contoso,dc=net" -Domain "contoso.net"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ロックダウンされた Active Directory 環境内のフォレストのルート ドメインでドメインの準備を実行する場合、 Lync Server では、Active Directory のスキーマ コンテナーと構成コンテナーへのアクセス権が必要になります。<br />
-    認証済みユーザーの既定のアクセス許可が AD DS 内のスキーマ コンテナーまたは構成コンテナーから削除されている場合は、Schema Admins グループ (スキーマ コンテナーの場合) または Enterprise Admins グループ (構成コンテナーの場合) のメンバーのみが、このコンテナーへのアクセスを許可されます。Setup.exe、 Lync Server 管理シェル コマンドレット、および Lync Server コントロール パネルはこれらのコンテナーへのアクセス権を必要とするため、インストールを実行するユーザーが Schema Admins と Enterprise Admins のグループ メンバーシップと同等のユーザー権限を持っていない限り、管理ツールのセットアップとインストールは失敗します。<br />
-    この状況に対処するには、RTCUniversalGlobalWriteGroup グループに、スキーマ コンテナーと構成コンテナーへの読み取りおよび書き込みアクセス権を与える必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > ロックダウンされた Active Directory 環境内のフォレストのルート ドメインでドメインの準備を実行する場合、 Lync Server では、Active Directory のスキーマ コンテナーと構成コンテナーへのアクセス権が必要になります。<br />
+    > 認証済みユーザーの既定のアクセス許可が AD DS 内のスキーマ コンテナーまたは構成コンテナーから削除されている場合は、Schema Admins グループ (スキーマ コンテナーの場合) または Enterprise Admins グループ (構成コンテナーの場合) のメンバーのみが、このコンテナーへのアクセスを許可されます。Setup.exe、 Lync Server 管理シェル コマンドレット、および Lync Server コントロール パネルはこれらのコンテナーへのアクセス権を必要とするため、インストールを実行するユーザーが Schema Admins と Enterprise Admins のグループ メンバーシップと同等のユーザー権限を持っていない限り、管理ツールのセットアップとインストールは失敗します。<br />
+    > この状況に対処するには、RTCUniversalGlobalWriteGroup グループに、スキーマ コンテナーと構成コンテナーへの読み取りおよび書き込みアクセス権を与える必要があります。

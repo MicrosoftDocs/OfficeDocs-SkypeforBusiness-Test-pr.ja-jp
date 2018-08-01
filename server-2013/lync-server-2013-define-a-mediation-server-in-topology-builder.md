@@ -35,43 +35,18 @@ Administrators グループのメンバーであるアカウントを使用し�
 
 5.  \[**併置されたサーバーの役割の選択** \] で、\[**仲介サーバーを併置する**\] をオンにします。
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>選択した フロント エンド プールの種類が Enterprise Edition の場合、その フロント エンド プールのすべての フロント エンド サーバーに 仲介サーバー コンポーネントがインストールされます。</p></li>
-    <li><p>仲介サーバーが使用する <strong>次ホップ プール</strong>は、仲介サーバーが併置された フロント エンド プールになります。</p></li>
-    <li><p>仲介サーバーが使用する <strong>エッジ プール</strong>は、仲介サーバーが併置された フロント エンド プールに関連付けられた エッジ プールになります。</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > <ul><li><p>選択した フロント エンド プールの種類が Enterprise Edition の場合、その フロント エンド プールのすべての フロント エンド サーバーに 仲介サーバー コンポーネントがインストールされます。</p></li>
+    > <li><p>仲介サーバーが使用する <strong>次ホップ プール</strong>は、仲介サーバーが併置された フロント エンド プールになります。</p></li>
+    > <li><p>仲介サーバーが使用する <strong>エッジ プール</strong>は、仲介サーバーが併置された フロント エンド プールに関連付けられた エッジ プールになります。</p></li></ul>
 
 
 6.  この フロント エンド プールを使用して Microsoft Office Communications Server 2007 R2 から PSTN に通話をルーティングするために、\[**既定にする**\] をクリックします。
 
 7.  1 つ以上のピアと フロント エンド プールとの関連付けを終えたら、\[**完了**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>エンタープライズ VoIP 展開プロセスの次のステップに進む前に、仲介サーバー プール (仲介サーバー コンポーネントが併置された フロント エンド プール) で、指定した FQDN が使用されていることを確認してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > エンタープライズ VoIP 展開プロセスの次のステップに進む前に、仲介サーバー プール (仲介サーバー コンポーネントが併置された フロント エンド プール) で、指定した FQDN が使用されていることを確認してください。
 
 
 8.  次に、展開ガイドの「[Lync Server 2013 でトポロジを公開する](lync-server-2013-publish-the-topology.md)」の手順に従って、仲介サーバーをトポロジに追加してから、必要に応じて 仲介サーバーのリッスン ポートを変更する次の手順に進みます。トポロジ ビルダーを使用してトポロジを定義または変更するたびに、トポロジを公開する必要があります。
@@ -82,18 +57,8 @@ Administrators グループのメンバーであるアカウントを使用し�
 
 このサイトで フロント エンド プールに併置した 仲介サーバーを既に展開している場合は、このセクションと「[Lync Server 2013 仲介サーバーのファイルのインストール](lync-server-2013-install-the-files-for-mediation-server.md)」をスキップして、「[Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)」に進んでかまいません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションは、展開ガイドの「<a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync Server 2013 でフロントエンド プールまたは Standard Edition サーバーを定義および構成する</a>」と「<a href="lync-server-2013-publish-the-topology.md">Lync Server 2013 でトポロジを公開する</a>」の説明に従って、1 つ以上の フロント エンド プールを既にセットアップしていることを前提としています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションは、展開ガイドの「<a href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Lync Server 2013 でフロントエンド プールまたは Standard Edition サーバーを定義および構成する</a>」と「<a href="lync-server-2013-publish-the-topology.md">Lync Server 2013 でトポロジを公開する</a>」の説明に従って、1 つ以上の フロント エンド プールを既にセットアップしていることを前提としています。
 
 
 ## 仲介サーバーを追加するには
@@ -110,18 +75,8 @@ Administrators グループのメンバーであるアカウントを使用し�
     
       - 高可用性を実現するためにプールに複数の 仲介サーバーを展開する場合は、\[**複数のコンピューター プール**\] を選択します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>複数の 仲介サーバーを含む 仲介サーバー プールをサポートするには、DNS 負荷分散を展開する必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS 負荷分散</a>」の「仲介サーバー プールでの DNS 負荷分散の使用」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 複数の 仲介サーバーを含む 仲介サーバー プールをサポートするには、DNS 負荷分散を展開する必要があります。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dns-load-balancing.md">Lync Server 2013 での DNS 負荷分散</a>」の「仲介サーバー プールでの DNS 負荷分散の使用」を参照してください。
     
       - 高可用性が不要なため、仲介サーバーを 1 つだけプールに展開する場合は、\[**単一コンピューターのプール**\] を選択します。 以下のステップは省略してください。
 
@@ -151,18 +106,8 @@ Administrators グループのメンバーであるアカウントを使用し�
 
 4.  仲介サーバーが PSTN ゲートウェイからの着信接続を受け入れる、目的の TLS または TCP リッスン ポートの範囲を指定します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>TCP ポートの有効化</strong>] がオフになっている場合は、TCP ポート範囲を入力する必要はありません。この設定はオプションです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>TCP ポートの有効化</strong>] がオフになっている場合は、TCP ポート範囲を入力する必要はありません。この設定はオプションです。
 
 
 次に、[Lync Server 2013 での、トポロジ ビルダーを使用したゲートウェイの定義](lync-server-2013-define-a-gateway-in-topology-builder.md)を行い、「[Lync Server 2013 仲介サーバーのファイルのインストール](lync-server-2013-install-the-files-for-mediation-server.md)」の手順に従って、プール内の各 仲介サーバー上のファイルをインストールします。

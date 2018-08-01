@@ -31,18 +31,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 6.  サービスの一覧で、対象のサービスをクリックして、\[**OK**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>応答グループ構成ツール Web ページが開きます。 また、Web ブラウザーから直接 <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong> に接続して、応答グループ構成ツール Web ページを開くこともできます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 応答グループ構成ツール Web ページが開きます。 また、Web ブラウザーから直接 <strong>https://<em>&lt;webPoolFqdn&gt;</em>/RgsConfig</strong> に接続して、応答グループ構成ツール Web ページを開くこともできます。
 
 
 7.  \[**既存ワークフローの管理**\] で、削除するワークフローを見つけて、\[**アクション**\] の \[**削除**\] をクリックします。

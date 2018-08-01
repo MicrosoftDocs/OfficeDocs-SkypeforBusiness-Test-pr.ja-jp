@@ -49,16 +49,6 @@ _**トピックの最終更新日:** 2012-09-24_
         
           - ユーザーの Active Directory ドメイン サービス表示名 (例: Ken Myer)。表示名を Identity 値として使用する場合は、アスタリスク (\*) ワイルドカード文字を使用できます。たとえば、"\* Smith" という Identity は、末尾が " Smith" という文字列値の表示名を持つすべてのユーザーを戻します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーの Active Directory SAM アカウント名は、フォレスト内で一意の名前とは限らないため、Identity 値として使用することはできません。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーの Active Directory SAM アカウント名は、フォレスト内で一意の名前とは限らないため、Identity 値として使用することはできません。
 

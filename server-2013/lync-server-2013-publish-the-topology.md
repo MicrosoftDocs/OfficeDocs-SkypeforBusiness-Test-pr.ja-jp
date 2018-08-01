@@ -19,32 +19,12 @@ _**トピックの最終更新日:** 2013-10-01_
 
 トポロジ ビルダーでトポロジを定義した後、トポロジを中央管理ストアに公開する必要があります。中央管理ストアを使用すると、Lync Server 2013 の展開の定義、設定、保守、管理、説明、および操作に必要な、堅牢でスキーマ化されたデータの記憶域を使用できます。また、CMS はこのデータを検証して構成の一貫性も保証します。この構成データへの変更はすべて中央管理ストアで行われるため、"非同期" の問題を解消します。このデータの読み取り専用のコピーは、エッジ サーバーを含めたトポロジ内のすべてのサーバーにレプリケートされます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SQL Server で初期トポロジを公開して中央管理サーバーを作成するには、20 GB 以上の空きディスク領域が必要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> SQL Server で初期トポロジを公開して中央管理サーバーを作成するには、20 GB 以上の空きディスク領域が必要です。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Enterprise Edition の場合のみ: トポロジを公開するには、SQL Server ベースのバック エンド サーバーがオンラインになっていて、所定のファイアウォール例外を使用してアクセスできる必要があります。ファイアウォール例外の指定の詳細については、「 <a href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Lync Server 2013 での SQL Server のファイアウォール要件について</a>」を参照してください。SQL Server の構成の詳細については、「 <a href="lync-server-2013-configure-sql-server-for-lync-server.md">Lync Server 2013 用 SQL Server の構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Enterprise Edition の場合のみ: トポロジを公開するには、SQL Server ベースのバック エンド サーバーがオンラインになっていて、所定のファイアウォール例外を使用してアクセスできる必要があります。ファイアウォール例外の指定の詳細については、「 <a href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Lync Server 2013 での SQL Server のファイアウォール要件について</a>」を参照してください。SQL Server の構成の詳細については、「 <a href="lync-server-2013-configure-sql-server-for-lync-server.md">Lync Server 2013 用 SQL Server の構成</a>」を参照してください。
 
 
 ## トポロジを公開するには
@@ -59,18 +39,8 @@ _**トピックの最終更新日:** 2013-10-01_
 
 5.  \[ **データベースの作成** \] ページで、公開するデータベースを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>データベースを作成するための適切な権限がない場合は、これらのデータベースの横のチェック ボックスをオフにしておけば、適切な権限を持つ他のユーザーが後でデータベースを作成できます。詳細については、「 <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync Server 2013 の SQL Server の展開のアクセス許可</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > データベースを作成するための適切な権限がない場合は、これらのデータベースの横のチェック ボックスをオフにしておけば、適切な権限を持つ他のユーザーが後でデータベースを作成できます。詳細については、「 <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Lync Server 2013 の SQL Server の展開のアクセス許可</a>」を参照してください。
 
 
 6.  オプションで \[**詳細設定** \] をクリックします。SQL Server のデータ ファイル配置に関する \[詳細\] オプションを使用すると、次のオプションのどちらかを選択できます。

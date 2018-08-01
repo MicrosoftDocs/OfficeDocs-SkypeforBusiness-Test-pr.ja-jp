@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 ClientVersions ビューは、データベースに記録されるセッションに参加した、さまざまなクライアントの種類およびバージョンの情報を格納します。ビュー内の各レコードは、1 つのクライアント バージョンを表します。このビューは、Microsoft Lync Server 2013 で導入されました。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>一部の列には複数のレコードが存在する場合があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 一部の列には複数のレコードが存在する場合があります。
 
 
 

@@ -71,18 +71,8 @@ Identity という用語が常にユーザー アカウントの ID を指す場
 
     Identity : tag:AllowPublicIMCommunication
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>タグ <strong>プレフィックス</strong>の日付は、Lync Server 2010 の初期展開の日に遡ります。当時、ユーザーごとのポリシーはタグ ポリシーと呼ばれ、タグ <strong>プレフィックス</strong>により識別されました。現在、これらのポリシーはより正確にユーザーごとのポリシーと呼ばれ、タグ スコープはより正確にユーザーごとのスコープと呼ばれています。ただし、技術上の理由により、タグ <strong>プレフィックス</strong>は変更されていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> タグ <strong>プレフィックス</strong>の日付は、Lync Server 2010 の初期展開の日に遡ります。当時、ユーザーごとのポリシーはタグ ポリシーと呼ばれ、タグ <strong>プレフィックス</strong>により識別されました。現在、これらのポリシーはより正確にユーザーごとのポリシーと呼ばれ、タグ スコープはより正確にユーザーごとのスコープと呼ばれています。ただし、技術上の理由により、タグ <strong>プレフィックス</strong>は変更されていません。
 
 
 Skype for Business Online および Windows PowerShell を操作する際に使用されるもう 1 つの重要な用語としては、テナントがあります。Skype for Business Online アカウントを設定すると、新しい展開環境にはテナント ID 番号が割り当てられます。これは、次のようなグローバル一意識別子です。

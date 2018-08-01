@@ -73,76 +73,26 @@ _**トピックの最終更新日:** 2015-03-09_
 
 3.  インポートされた会議ポリシーを確認するには、左側のウィンドウで \[**電話会議**\] をクリックし、\[**電話会議ポリシー**\] をクリックして、Office Communications Server 2007 R2 環境のすべての会議ポリシーがリストに含まれていることを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>以前のバージョンの Office Communications Server で <strong>ミーティング</strong> ポリシーと呼ばれていたものは、Lync Server 2013 では会議ポリシーと呼ばれるようになっています。また、以前のバージョンの Office Communications Server での [<strong>匿名参加者</strong>] の設定は、Lync Server 2013 では会議ポリシーの設定になっています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 以前のバージョンの Office Communications Server で <strong>ミーティング</strong> ポリシーと呼ばれていたものは、Lync Server 2013 では会議ポリシーと呼ばれるようになっています。また、以前のバージョンの Office Communications Server での [<strong>匿名参加者</strong>] の設定は、Lync Server 2013 では会議ポリシーの設定になっています。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Office Communications Server 2007 R2 で会議ポリシーが [<strong>ユーザー単位のポリシーを使用する</strong>] に設定されていない場合、グローバル ポリシーの設定のみがインポートされます。この場合、他の会議ポリシーはインポートされません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Office Communications Server 2007 R2 で会議ポリシーが [<strong>ユーザー単位のポリシーを使用する</strong>] に設定されていない場合、グローバル ポリシーの設定のみがインポートされます。この場合、他の会議ポリシーはインポートされません。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Office Communications Server 2007 R2 の会議ポリシーで [<strong>AnonymousParticipants</strong>] が [<strong>ユーザーごとに適用</strong>] に設定されている場合は、移行時に 2 つの会議ポリシー ([<strong>AllowAnonymousParticipantsInMeetings</strong>] が <strong>True</strong> に設定されているものと [<strong>AllowAnonymousParticipantsInMeetings</strong>] が <strong>False</strong> に設定されているもの) が作成されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Office Communications Server 2007 R2 の会議ポリシーで [<strong>AnonymousParticipants</strong>] が [<strong>ユーザーごとに適用</strong>] に設定されている場合は、移行時に 2 つの会議ポリシー ([<strong>AllowAnonymousParticipantsInMeetings</strong>] が <strong>True</strong> に設定されているものと [<strong>AllowAnonymousParticipantsInMeetings</strong>] が <strong>False</strong> に設定されているもの) が作成されます。
 
 
 4.  インポートされたダイヤル プランを確認するには、\[**音声のルーティング**\] をクリックし、\[**ダイヤル プラン**\] をクリックして、Office Communicator 2007 R2 環境のダイヤル プランがリストにすべて含まれていることを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 では、[<strong>場所のプロファイル</strong>] は [<strong>ダイヤル プラン</strong>] と呼ばれるようになっています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2013 では、[<strong>場所のプロファイル</strong>] は [<strong>ダイヤル プラン</strong>] と呼ばれるようになっています。
 
 
 5.  インポートされた音声ポリシーを確認するには、\[**音声のルーティング**\] をクリックし、\[**音声ポリシー**\] をクリックして、 Office Communicator 2007 R2 環境の音声ポリシーがリストにすべて含まれていることを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ポリシーが Office Communications Server 2007 R2 環境で [<strong>ユーザー単位のポリシーを使用する</strong>] に設定されていない場合は、グローバル ポリシーの設定のみがインポートされます。この場合、音声ポリシーはインポートされません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ポリシーが Office Communications Server 2007 R2 環境で [<strong>ユーザー単位のポリシーを使用する</strong>] に設定されていない場合は、グローバル ポリシーの設定のみがインポートされます。この場合、音声ポリシーはインポートされません。
 
 
 6.  インポートされた音声ルートを確認するには、\[**音声のルーティング**\] をクリックし、\[**ルート**\] をクリックして、Office Communicator 2007 R2 環境の音声ルートがリストにすべて含まれていることを確認します。

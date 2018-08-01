@@ -53,18 +53,8 @@ Microsoft Lync Server 2013、計画ツールを使用して、仲介サーバー
 
 ![仲介サーバーのプロトコルの図](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "仲介サーバーのプロトコルの図")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>PSTN ゲートウェイと 仲介サーバーの間のネットワークで TCP または (SRTP/SRTCP ではなく) RTP/RTCP を使用する場合は、ネットワークのセキュリティとプライバシーを確保する対策を講じることをお勧めします。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> PSTN ゲートウェイと 仲介サーバーの間のネットワークで TCP または (SRTP/SRTCP ではなく) RTP/RTCP を使用する場合は、ネットワークのセキュリティとプライバシーを確保する対策を講じることをお勧めします。
 
 
 ## このセクション中

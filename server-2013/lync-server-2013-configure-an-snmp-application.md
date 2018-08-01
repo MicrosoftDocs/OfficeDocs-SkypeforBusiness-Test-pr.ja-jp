@@ -21,18 +21,8 @@ SNMP アプリケーションがインストールされているが、場所情
 
 詳細については、「[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MAC アドレスは、Windows 8を実行しているコンピューター上では使用できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> MAC アドレスは、Windows 8を実行しているコンピューター上では使用できません。
 
 
 ## SNMP アプリケーションの URL を構成するには

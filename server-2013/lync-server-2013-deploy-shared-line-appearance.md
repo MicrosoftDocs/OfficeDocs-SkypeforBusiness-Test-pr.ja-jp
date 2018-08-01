@@ -66,18 +66,8 @@ Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Up
     
     You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Note that what you specify for <code>-Identity</code> must be a valid existing Enterprise Voice-enabled user account.</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Note that what you specify for <code>-Identity</code> must be a valid existing Enterprise Voice-enabled user account.
 
 
 2.  Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/en-us/powershell/module/skype/add-cssladelegates) cmdlet:

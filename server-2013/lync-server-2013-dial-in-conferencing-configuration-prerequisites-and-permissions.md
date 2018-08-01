@@ -35,18 +35,8 @@ _**トピックの最終更新日:** 2012-06-20_
 
 これらのコンポーネントを展開するのは、 トポロジ ビルダーを使用して、トポロジの定義および公開を行い、フロントエンド プールまたは Standard Edition サーバーを展開するときです。 エンタープライズ VoIP を展開する場合は、ダイヤルイン会議を構成する前に展開する必要があります。 エンタープライズ VoIP を展開しない場合は、フロントエンド プールまたは Standard Edition サーバーを展開するときに、仲介サーバーおよび公衆交換電話網 (PSTN) ゲートウェイを展開できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Office Communications Server 2007 R2 から Lync Server 2013 にアップグレードする場合は、 Lync Server 2013 の会議をホストするために使用するすべてのプールにダイヤルイン会議を展開してください。ダイヤルイン会議の移行の詳細については、「<a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Office Communications Server 2007 R2 から Lync Server 2013 への移行</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Office Communications Server 2007 R2 から Lync Server 2013 にアップグレードする場合は、 Lync Server 2013 の会議をホストするために使用するすべてのプールにダイヤルイン会議を展開してください。ダイヤルイン会議の移行の詳細については、「<a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Office Communications Server 2007 R2 から Lync Server 2013 への移行</a>」を参照してください。
 
 
 このセクションは、次が実現されていることを前提としています。
@@ -57,18 +47,8 @@ _**トピックの最終更新日:** 2012-06-20_
 
   - トポロジが公開され、フロントエンド プールまたは Standard Edition サーバーがセットアップされていること。トポロジの公開と Lync Server 2013 のインストールの詳細については、「展開」のドキュメントの「[Lync Server 2013 の展開](lync-server-2013-deploying-lync-server.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>公開されたトポロジをインストールするときは、ダイヤルイン会議設定 Web ページが、Web サービスの一部としてフロントエンド サーバーまたは Standard Edition サーバーにインストールされます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 公開されたトポロジをインストールするときは、ダイヤルイン会議設定 Web ページが、Web サービスの一部としてフロントエンド サーバーまたは Standard Edition サーバーにインストールされます。
     
 
     > [!IMPORTANT]

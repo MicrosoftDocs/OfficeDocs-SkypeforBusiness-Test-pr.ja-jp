@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 エッジ サーバーが既に展開されている場合、フェデレーション シナリオ機能は簡単に追加できます。エッジ サーバーがまだセットアップされていない場合は、これを最初に行う必要があります。詳細については、「計画」ドキュメントの「[Lync Server 2013 の外部ユーザー アクセスの計画](lync-server-2013-planning-for-external-user-access.md)」、展開ドキュメントの「[Lync Server 2013 での外部ユーザー アクセスの展開](lync-server-2013-deploying-external-user-access.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>XMPP フェデレーション、Lync フェデレーション、またはパブリック インスタント メッセージング接続を組み合わせてセットアップする場合、これらを同時に展開することもできれば、1 つずつ展開することもできます。トポロジ ビルダーと Lync Server 管理シェルを通じてオプションを構成し、1 つ、2 つ、または 3 つすべてのフェデレーションの種類のオプションを構成した後でエッジ サーバーで展開ウィザードを実行すると、必要な手順の数が少なくてすみます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> XMPP フェデレーション、Lync フェデレーション、またはパブリック インスタント メッセージング接続を組み合わせてセットアップする場合、これらを同時に展開することもできれば、1 つずつ展開することもできます。トポロジ ビルダーと Lync Server 管理シェルを通じてオプションを構成し、1 つ、2 つ、または 3 つすべてのフェデレーションの種類のオプションを構成した後でエッジ サーバーで展開ウィザードを実行すると、必要な手順の数が少なくてすみます。
 
 
 ## トポロジ ビルダーと展開ウィザードで Lync フェデレーションをセットアップする
@@ -106,7 +96,7 @@ _**トピックの最終更新日:** 2015-03-09_
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Lync Server 2013 でのホスト SIP フェデレーション プロバイダーの作成または編集</a></p></li>
     </ul></td>
     <td><p>このフェデレーションの種類は、ユーザーに対して構成するサービスおよびホスティング プロバイダーを定義します。一般的な使用法としては、Windows Live Messenger、Yahoo!、AOL のような公開 IM プロバイダーの構成、また Lync Online と Office 365 のようなホスティング プロバイダーの構成が含まれます。</p>
-    <div class="alert">
+    <div>
 
     > [!IMPORTANT]
     > <UL>
@@ -128,23 +118,12 @@ _**トピックの最終更新日:** 2015-03-09_
 
 3.  Lync Server コントロール パネルまたは Lync Server 管理シェルと適切なコマンドレットを使用して、すべてのポリシーを定義して構成します。 Lync Server 管理シェル コマンドレットの詳細は、「[Lync Server 2013 でのフェデレーションおよび外部アクセスのコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Room System (LRS) の [参加] ボタンは、その会議を送信した開催者が Lync のフェデレーション パートナーの場合には表示されません。会議に参加するリンクを LRS に表示するには、送信側が次のコマンドレットを使って TNEF を有効にする必要があります。<br />
-    <br />
-    <code>New-RemoteDomain -DomainName Contoso.com -Name Contoso</code><br />
-    <code>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</code><br />
-    これは LRS に固有の問題ではありません。Outlook と Lync でも MAPI プロパティが転送されないため、このような場合は [参加] のリンクが表示されません。ただし、Outlook の場合は、ユーザーが会議の招待を開いてその会議の URL をクリックできます。TNEFEnabled が TRUE に設定されると、Exchange 2013 は OnlineMeetingExternalLink などの MAPI プロパティを削除しないため、アラームに [参加] ボタンが表示されます。</td>
-    </tr>
-    </tbody>
-    </table>
-
+    > [!NOTE]  
+    > Lync Room System (LRS) の [参加] ボタンは、その会議を送信した開催者が Lync のフェデレーション パートナーの場合には表示されません。会議に参加するリンクを LRS に表示するには、送信側が次のコマンドレットを使って TNEF を有効にする必要があります。<br />
+    > <br />
+    > <code>New-RemoteDomain -DomainName Contoso.com -Name Contoso</code><br />
+    > <code>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</code><br />
+    > これは LRS に固有の問題ではありません。Outlook と Lync でも MAPI プロパティが転送されないため、このような場合は [参加] のリンクが表示されません。ただし、Outlook の場合は、ユーザーが会議の招待を開いてその会議の URL をクリックできます。TNEFEnabled が TRUE に設定されると、Exchange 2013 は OnlineMeetingExternalLink などの MAPI プロパティを削除しないため、アラームに [参加] ボタンが表示されます。
 
 ## 関連項目
 

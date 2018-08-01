@@ -251,18 +251,8 @@ PSTN (PBX) に通話をルーティングしないシステムに接続される
 
 詳細については、「[Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>場所に基づくルーティングはグローバル構成を使用して有効にする必要がありますが、ルール セットが適用されるのは、(このドキュメントで説明した) ルール セットを構成する対象となったサイト、ユーザー、トランクに対してのみです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 場所に基づくルーティングはグローバル構成を使用して有効にする必要がありますが、ルール セットが適用されるのは、(このドキュメントで説明した) ルール セットを構成する対象となったサイト、ユーザー、トランクに対してのみです。
 
 
 

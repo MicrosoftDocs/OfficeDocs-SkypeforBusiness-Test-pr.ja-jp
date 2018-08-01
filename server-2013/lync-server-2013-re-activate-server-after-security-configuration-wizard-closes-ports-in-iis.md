@@ -25,16 +25,6 @@ _**トピックの最終更新日:** 2012-10-01_
 
 3.  \[**コマンドの実行**\] ページで、タスク状態が完了と表示されたら、\[**完了**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>bootstrapper.exe または <strong>Enable-CsComputer</strong> を使用して、サーバーを再アクティブ化することもできます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > bootstrapper.exe または <strong>Enable-CsComputer</strong> を使用して、サーバーを再アクティブ化することもできます。
 

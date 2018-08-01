@@ -145,18 +145,8 @@ Lync Server コントロール パネルを使用して SIP トランクの構�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> コマンドレットのヘルプ トピックを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server の CsTrunkConfiguration コマンドレットは、Lync Server コントロール パネルに表示されていない他のプロパティをサポートします。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</a> コマンドレットのヘルプ トピックを参照してください。
 
 
 ## Lync Server コントロール パネルを使用した SIP トランク構成設定の変更

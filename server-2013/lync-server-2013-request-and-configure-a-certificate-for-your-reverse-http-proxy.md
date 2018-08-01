@@ -43,7 +43,7 @@ Microsoft Lync Server 2013 を実行する内部サーバーに対してサー�
 <td><p>サブジェクト名の別名</p></td>
 <td><p>プールの FQDN</p></td>
 <td><p>webext.contoso.com</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > サブジェクト名は、サブジェクトの別名にも存在する必要があります。

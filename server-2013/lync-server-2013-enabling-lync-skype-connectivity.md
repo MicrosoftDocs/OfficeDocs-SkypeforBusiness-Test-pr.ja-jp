@@ -41,18 +41,8 @@ Lync と Skype の接続向けに Lync Server 環境を準備するには、Lync
 
 管理者は Lync Server 管理シェルを使用して Lync クライアント ポリシーを構成し、Skype を追加の PIC プロバイダーとして表示する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>また、管理者が少なくとも 1 つのポリシー (この手続きの手順 2.) を構成してパブリック IM 接続をサポートするまでは、パブリック インスタント メッセージング接続 (PIC) サービス プロバイダーのユーザーは組織の IM、電話およびビデオ会議に参加できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> また、管理者が少なくとも 1 つのポリシー (この手続きの手順 2.) を構成してパブリック IM 接続をサポートするまでは、パブリック インスタント メッセージング接続 (PIC) サービス プロバイダーのユーザーは組織の IM、電話およびビデオ会議に参加できません。
 
 
 1.  フェデレーションと PIC を構成するには、「フェデレーションおよびパブリック IM 接続の有効化または無効化」( [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)) を参照してください。

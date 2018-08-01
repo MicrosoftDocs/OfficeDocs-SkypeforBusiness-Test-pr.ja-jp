@@ -39,18 +39,8 @@ CAC の展開にどの程度の帯域幅制限を設定する必要があるか�
 
   - ビデオ セッション リミット: 700 kbps
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>オーディオ セッション リミットの最小値は 40 kbps です。 ビデオ セッション リミットの最小値は 100 kbps です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> オーディオ セッション リミットの最小値は 40 kbps です。 ビデオ セッション リミットの最小値は 100 kbps です。
 
 
 ## 管理シェルを使用して帯域幅ポリシー プロファイルを作成するには

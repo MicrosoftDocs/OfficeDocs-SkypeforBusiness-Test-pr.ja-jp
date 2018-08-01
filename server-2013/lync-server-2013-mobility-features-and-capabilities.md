@@ -47,18 +47,8 @@ Lync Server 2013 の累積した更新プログラム: 2013 年 2 月で導入�
 
   - 出席者のビデオ (H.264)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2010 Mobile では Nokia Symbian デバイス用のクライアントが提供されました。Lync 2013 Mobile に Nokia Symbian ベースのデバイス用のクライアントはありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync 2010 Mobile では Nokia Symbian デバイス用のクライアントが提供されました。Lync 2013 Mobile に Nokia Symbian ベースのデバイス用のクライアントはありません。
 
 
 Apple iPad ユーザーは強化機能を利用できるようになります。iPad ユーザーは、音声コールバックを使用して会議に参加した後、アップロードされた Microsoft PowerPoint プレゼンテーションを会議内で表示したり、アプリケーションとデスクトップを共有したり、会議の参加者リストを表示したり、会議内で共有するその他のコンテンツ タイプの通知を受け取ったりできます。
@@ -69,18 +59,8 @@ Apple iPad ユーザーは強化機能を利用できるようになります。
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>すべてのモバイル デバイスですべての機能がまったく同じように動作するとは限りません。モバイル デバイスでサポートされる機能の詳細については、「モバイル クライアントの比較表」(<a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>) を参照してください。サポートされるデバイスとオペレーティング システムの詳細については、「<a href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013 でのモバイル クライアントの計画</a>」で、要件に関するトピックを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> すべてのモバイル デバイスですべての機能がまったく同じように動作するとは限りません。モバイル デバイスでサポートされる機能の詳細については、「モバイル クライアントの比較表」(<a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>) を参照してください。サポートされるデバイスとオペレーティング システムの詳細については、「<a href="lync-server-2013-planning-for-mobile-clients.md">Lync Server 2013 でのモバイル クライアントの計画</a>」で、要件に関するトピックを参照してください。
 
 
 Lync Server 2013 の自動検出機能を使用すると、ユーザーが URL をデバイスの設定に手動で入力しなくても、モバイル アプリケーションで Lync Server 2013 Web サービスを自動的に検索できます。URL をモバイル デバイスの設定に手動で入力することも、主にトラブルシューティングの目的でサポートされます。

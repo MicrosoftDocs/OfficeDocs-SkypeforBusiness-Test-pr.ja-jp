@@ -21,18 +21,8 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
 
 中央管理ストアをホストするバック エンド サーバーがミラー化された設定で、ミラー データベースがまだ機能している場合は、この機能しているミラーのバックアップを作成し、そのバックアップを使用して、プライマリ データベースとミラー データベースの両方で完全復元を実行することをお勧めします。ここでは、その復元手順について説明します。この手順が必要なのは、バック エンドの復元には、トポロジの変更と発行が必要だからです。この手順は、CMS をホストするプライマリ データベースが稼働している場合にのみ実行できます。また、トポロジを発行できない場合は、プライマリ データベース ロールとミラー データベース ロールを交換できないことにも注意してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中央管理ストアをホストしないバック エンド サーバーまたは Standard Edition サーバーでエラーが発生した場合は、「<a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Enterprise Edition バックエンド サーバーの復元</a>」または「<a href="lync-server-2013-restoring-a-standard-edition-server.md">Standard Edition サーバーの復元</a>」を参照してください。中央管理ストアをホストするバック エンド サーバーがミラー化された構成で、ミラーのみでエラーが発生した場合は、「<a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">ミラー化された Enterprise Edition バック エンド サーバーの復元 - ミラー</a>」を参照してください。それ以外のサーバーでエラーが発生した場合は、「<a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Enterprise Edition メンバー サーバーの復元</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 中央管理ストアをホストしないバック エンド サーバーまたは Standard Edition サーバーでエラーが発生した場合は、「<a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Enterprise Edition バックエンド サーバーの復元</a>」または「<a href="lync-server-2013-restoring-a-standard-edition-server.md">Standard Edition サーバーの復元</a>」を参照してください。中央管理ストアをホストするバック エンド サーバーがミラー化された構成で、ミラーのみでエラーが発生した場合は、「<a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">ミラー化された Enterprise Edition バック エンド サーバーの復元 - ミラー</a>」を参照してください。それ以外のサーバーでエラーが発生した場合は、「<a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Enterprise Edition メンバー サーバーの復元</a>」を参照してください。
 
 
 
@@ -45,18 +35,8 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
 
 1.  問題が発生したコンピューターと同じ完全修飾ドメイン名 (FQDN) を持つクリーン サーバーか新規サーバーにオペレーティング システムをインストールし、証明書を復元または再登録します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>組織で定めるサーバーの展開手順に従って、この手順を実行します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 組織で定めるサーバーの展開手順に従って、この手順を実行します。
 
 
 2.  RTCUniversalServerAdmins グループおよび Local Administrators グループのメンバーであるユーザー アカウントから、復元するサーバーにログオンします。
@@ -75,18 +55,9 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
     
       - エンタープライズ バック エンド サーバーをインストールする場合は、SQL Server 2012 または SQL Server 2008 R2 をインストールします。インスタンス名にはエラーが発生する前と同じ名前を使用します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>復元するサーバーと展開によっては、サーバーに複数の併置されたデータベースまたは個別のデータベースが含まれる場合があります。SQL Server の権限とログインも含めて、最初にサーバーを展開したときと同じ手順で SQL Server をインストールしてください。</td>
-        </tr>
-        </tbody>
-        </table>
+        
+        > [!NOTE]  
+        > 復元するサーバーと展開によっては、サーバーに複数の併置されたデータベースまたは個別のデータベースが含まれる場合があります。SQL Server の権限とログインも含めて、最初にサーバーを展開したときと同じ手順で SQL Server をインストールしてください。
 
 
 5.  フロント エンド サーバーから、Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
@@ -107,18 +78,8 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>接続ポイントを失った場合は、このコマンドレットを再実行できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 接続ポイントを失った場合は、このコマンドレットを再実行できます。
 
 
 8.  中央管理ストアのデータを $Backup からインポートします。コマンドラインで、次のように入力します。
@@ -133,18 +94,8 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジを有効にすると、データベースにトポロジ ドキュメントができます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジを有効にすると、データベースにトポロジ ドキュメントができます。
 
 
 10. CMS もホストされた Enterprise Editionバック エンド サーバーを復元する場合、または CMS のミラーを再作成する必要がある場合は、次の手順に従います。それ以外の場合は、手順 11. に進みます。
@@ -161,18 +112,8 @@ Lync Server の展開には、単一の中央管理ストアが含まれます�
     
     5.  **データベースのインストール** ウィザードの指示に従います。中央管理ストア以外のデータベースをこのサーバーに復元する場合は、\[**データベースの作成**\] ページで、再作成するデータベースを選択します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>[<strong>データベースの作成</strong>] ページには、スタンドアロン データベースだけが表示されます。併置されるデータベースは、Lync Server 展開ウィザードを実行すると作成されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > [<strong>データベースの作成</strong>] ページには、スタンドアロン データベースだけが表示されます。併置されるデータベースは、Lync Server 展開ウィザードを実行すると作成されます。
     
     6.  ミラー化されたバック エンド サーバーを復元する場合は、引き続きウィザードの残りの指示に従います。ミラー データベースの作成を求めるメッセージが表示されたら、インストールするデータベースを選択し、プロセスを完了します。
     

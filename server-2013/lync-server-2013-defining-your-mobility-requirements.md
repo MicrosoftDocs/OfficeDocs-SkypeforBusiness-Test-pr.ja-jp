@@ -47,18 +47,8 @@ Lync Server 2013 モビリティ機能の計画フェーズでは、 Lync 2010 M
     
         Set-CsMcxConfiguration -Identity site:Redmond -ExposedWebURL Internal
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>UCWA には追加の設定は必要ありません。UCWA には、同等の内部使用専用の構成はありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > UCWA には追加の設定は必要ありません。UCWA には、同等の内部使用専用の構成はありません。
     
 
     > [!IMPORTANT]
@@ -79,18 +69,8 @@ Lync Server 2013 モビリティ機能の計画フェーズでは、 Lync 2010 M
     
     プッシュ通知をサポートしない場合は、Apple モバイル デバイスおよび Windows Phone のユーザーは、モバイル アプリケーションが非アクティブな場合に発生するインスタント メッセージの招待状、不在着信のメッセージなどのイベントに気付かなくなります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Apple デバイス上の Lync 2013 モバイル クライアントは、プッシュ通知を使用しません。 Windows Phone 上の Lync 2013 モバイル クライアントはプッシュ通知を使用します。プッシュ通知および Push Notification Clearing House の計画は、 Lync 2013 モバイル クライアントを実行できない Windows Phone および Apple デバイス上の Lync Mobile と同じです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Apple デバイス上の Lync 2013 モバイル クライアントは、プッシュ通知を使用しません。 Windows Phone 上の Lync 2013 モバイル クライアントはプッシュ通知を使用します。プッシュ通知および Push Notification Clearing House の計画は、 Lync 2013 モバイル クライアントを実行できない Windows Phone および Apple デバイス上の Lync Mobile と同じです。
 
 
   - **すべてのユーザーがモビリティ機能にアクセスできるようにしますか。またはモビリティ機能にアクセスできるユーザーを指定できるようにしますか。**
@@ -161,18 +141,8 @@ Lync Server 2013 モビリティ機能の計画フェーズでは、 Lync 2010 M
     
     モビリティ機能や勤務先からの通話機能にアクセスできるユーザーは、エンタープライズ VoIP が有効になっている必要があります。しかし、エンタープライズ VoIP が有効になっていないユーザーは、適切な音声ポリシーが割り当てられていれば、モバイル デバイスのリンクをクリックして会議に参加できます。特定の音声ポリシーをこれらのユーザーに割り当てるか、ユーザーに適用されるグローバル ポリシーまたはサイト レベルのポリシーが存在することを確認できます。割り当てた音声ポリシーには、公衆交換電話網 (PSTN) 使用法レコードとユーザーが会議に参加するためにダイヤルできる領域を定義するルートが必要です。音声ポリシー、PSTN 使用法レコード、およびルートの設定の詳細については、「[Lync Server 2013 での音声ポリシー、PSTN 使用法レコード、およびボイス ルートの構成](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>クリックして参加を使用するモバイル ユーザーは、音声ポリシーと、関連する PSTN 使用法レコードおよびボイス ルートが必要です。これは、モバイル デバイス上のリンクをクリックすると、 Lync Server 2013 から発信通話が行われるためです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > クリックして参加を使用するモバイル ユーザーは、音声ポリシーと、関連する PSTN 使用法レコードおよびボイス ルートが必要です。これは、モバイル デバイス上のリンクをクリックすると、 Lync Server 2013 から発信通話が行われるためです。
 
 
 ## 関連項目

@@ -31,18 +31,8 @@ _**トピックの最終更新日:** 2014-10-28_
 
   - 他の Lync Server 2013 サーバーの役割をインストールするように Windows Server 2008 または Windows Server 2008 R2 を実行しているコンピューターに Microsoft Lync Server 2010 をインストールします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server のインストールについては、「展開」のドキュメントの「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server のインストールについては、「展開」のドキュメントの「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」を参照してください。
 
 
 **次のステップ**: [Lync Server 2013 でブランチ サイト復元を実現するためのユーザーの構成](lync-server-2013-configuring-users-for-branch-site-resiliency.md)

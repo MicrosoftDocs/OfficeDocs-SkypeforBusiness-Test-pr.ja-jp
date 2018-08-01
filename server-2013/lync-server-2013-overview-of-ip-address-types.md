@@ -25,18 +25,8 @@ Lync Server 2013 では、IP アドレスを構成する際に 3 つのオプシ
 
 このセクションでは、 Lync Server の各種機能に対するこれら 3 構成の互換性について概要を説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>クライアントまたはサーバーを IPv6 のみの構成にすることは、試験や検証の目的でのみサポートされています。IPv6 のみの構成は運用展開ではサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> クライアントまたはサーバーを IPv6 のみの構成にすることは、試験や検証の目的でのみサポートされています。IPv6 のみの構成は運用展開ではサポートされていません。
 
 
 ## クライアントの登録
@@ -347,18 +337,8 @@ Lync Server 2013 では、トラフィックが IPv6 インターフェイスを
 
 通話受付管理 (CAC)、拡張 9-1-1 (E9-1-1)、メディア バイパスなどの展開は、IPv4 のみ、またはデュアル スタック実装として構成する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>デュアル スタック展開では、 Lync クライアントが IPv6 を使用して Lync Server に接続した場合も、 Lync は E9-1-1 をサポートするために適切な IPv4 アドレスをマッピングするよう最大限に試みます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> デュアル スタック展開では、 Lync クライアントが IPv6 を使用して Lync Server に接続した場合も、 Lync は E9-1-1 をサポートするために適切な IPv4 アドレスをマッピングするよう最大限に試みます。
 
 
 IPv6 アドレスの 場所情報サービス はサポートされていません。

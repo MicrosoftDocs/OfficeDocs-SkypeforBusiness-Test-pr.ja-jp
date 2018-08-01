@@ -27,18 +27,8 @@ SIP トランクに CAC を構成するには、CAC の展開時に次の作業�
 
 1.  ITSP を表すためのネットワーク サイトを作成します。 ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。詳細については、「展開」のドキュメントの「[Lync Server 2013 での CAC のネットワーク サイトの構成](lync-server-2013-configure-network-sites-for-cac.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ITSP では、このネットワーク サイト構成は機能しません。 帯域幅ポリシーの値は、手順 2 で実際に適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ITSP では、このネットワーク サイト構成は機能しません。 帯域幅ポリシーの値は、手順 2 で実際に適用されます。
 
 
 2.  手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。詳細については、「展開」のドキュメントの「[Lync Server 2013 でのネットワーク サイト間ポリシーの作成](lync-server-2013-create-network-intersite-policies.md)」を参照してください。New-CsNetworkInterSitePolicy コマンドレットについては、Lync Server 管理シェルのドキュメントを参照してください。

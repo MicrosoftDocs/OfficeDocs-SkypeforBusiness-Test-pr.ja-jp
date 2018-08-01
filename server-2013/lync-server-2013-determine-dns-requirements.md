@@ -69,18 +69,8 @@ Lync Windows ストア アプリは 2 つのレコードを使用するため、
 
 Lync Server 2013 の累積した更新プログラム: 2013 年 2 月が既にインストールされている場合、自動検出サービスは、内部/UCWA、外部/UCWA、および UCWA への参照も返します。これらの項目は、統合コミュニケーション Web API (UCWA) Web コンポーネントを参照します。現在、UCWA 項目のみが使用され、Web コンポーネントの URL への参照を示します。UCWA は、 Lync 2010 Mobile クライアントによって使用される Mcx Mobility Service ではなく、 Lync 2013 モバイル クライアントによって使用されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SRV レコードを作成する場合は、DNS SRV レコードが作成されている同じドメインの DNS A および AAAA (IPv6 アドレスを使用している場合) レコードを指す必要があります。たとえば、SRV レコードが contoso.com にある場合、A および AAAA (IPv6 アドレスを使用している場合) レコードが指す先は fabrikam.com 以外である必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> SRV レコードを作成する場合は、DNS SRV レコードが作成されている同じドメインの DNS A および AAAA (IPv6 アドレスを使用している場合) レコードを指す必要があります。たとえば、SRV レコードが contoso.com にある場合、A および AAAA (IPv6 アドレスを使用している場合) レコードが指す先は fabrikam.com 以外である必要があります。
 
 
 
@@ -89,18 +79,8 @@ Lync Server 2013 の累積した更新プログラム: 2013 年 2 月が既に�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>モバイル アプリケーションは、他の Lync Server 2013 サービス (アドレス帳サービスなど) にも接続できますが、Mobility Service に対する内部のモバイル アプリケーション Web 要求に限っては、外部 Web FQDN に送信されます。他のサービス要求 (アドレス帳要求など) では、この構成は必要ありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> モバイル アプリケーションは、他の Lync Server 2013 サービス (アドレス帳サービスなど) にも接続できますが、Mobility Service に対する内部のモバイル アプリケーション Web 要求に限っては、外部 Web FQDN に送信されます。他のサービス要求 (アドレス帳要求など) では、この構成は必要ありません。
 
 
 モバイル デバイスでは、サービスの手動検出もサポートされます。この場合、次のように、プロトコルおよびパスを含む、自動検出サービスの完全な内部 URL および外部 URL を使用して、各ユーザーがモバイル デバイスの設定を構成する必要があります。
@@ -181,18 +161,8 @@ Lync を実行するクライアントについて自動構成が必要な場合
 
   - **グループ ポリシー オブジェクト**   グループ ポリシー オブジェクト (GPO) を使用して、適切なサーバーの値を設定します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このオプションは自動構成を有効にしませんが、手動構成のプロセスを自動化するので、この方法を使用した場合、自動構成に関連付ける SRV レコードは必要ありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このオプションは自動構成を有効にしませんが、手動構成のプロセスを自動化するので、この方法を使用した場合、自動構成に関連付ける SRV レコードは必要ありません。
 
 
   - **内部ゾーンの一致**   外部 DNS ゾーン (contoso.com など) と一致するゾーンを内部 DNS に作成し、自動構成に使用する Lync Server 2013 のプールに対応する DNS A および AAAA (IPv6 アドレスを使用している場合) レコードを作成します。たとえば、pool01.contoso.net に所属するユーザーが Lync に bob@contoso.com としてサインインする場合、contoso.com という内部 DNS ゾーンを作成し、その中に pool01.contoso.com の DNS A および AAAA (IPv6 アドレスを使用している場合) レコードを作成します。
@@ -217,34 +187,14 @@ Lync を実行するクライアントについて自動構成が必要な場合
         dnscmd . /recordadd pool01.fabrikam.com. @ A 192.168.10.91
         dnscmd . /recordadd pool01.contoso.com. @ AAAA <IPv6 address>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>フロントエンド プールの FQDN は 2 つ表示されますが、これには 2 つの異なる IP アドレスが対応しています。これは DNS 負荷分散が使用されているためですが、ハードウェア ロード バランサーが使用される場合は、フロントエンド プールのエントリが 1 つのみになります。また、フロントエンド プールの FQDN 値は contoso.com の例と fabrikam.com の例で異なりますが、IP アドレスは同じです。これは、いずれの SIP ドメインからサインインするユーザーも、自動構成に同じフロントエンド プールを使用するためです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> フロントエンド プールの FQDN は 2 つ表示されますが、これには 2 つの異なる IP アドレスが対応しています。これは DNS 負荷分散が使用されているためですが、ハードウェア ロード バランサーが使用される場合は、フロントエンド プールのエントリが 1 つのみになります。また、フロントエンド プールの FQDN 値は contoso.com の例と fabrikam.com の例で異なりますが、IP アドレスは同じです。これは、いずれの SIP ドメインからサインインするユーザーも、自動構成に同じフロントエンド プールを使用するためです。
 
 
 詳細については、DMTF のブログ記事「Communicator Automatic Configuration and Split-Brain DNS」( <http://go.microsoft.com/fwlink/?linkid=200707>) を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>各ブログの内容と URL は、将来予告なしに変更されることがあります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 各ブログの内容と URL は、将来予告なしに変更されることがあります。
 
 
 ## 障害復旧のためのドメイン ネーム システム (DNS) の構成
@@ -366,18 +316,8 @@ DNS 負荷分散は一般的に、アプリケーション レベルで実装さ
 
   - クライアントが正常な接続を確立できないまま、キャッシュされているすべての項目を試行すると、その時点で利用できる Lync Server 2013 を実行しているサーバーがないことがユーザーに通知されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DNS ベースの負荷分散は、一般的に、DNS を利用してプール内のサーバーに対応する IP アドレスを別の順序で提供させて負荷分散を行うことを指す DNS ラウンド ロビン (DNS RR) と異なります。一般的に、DNS RR は負荷分散のみが可能で、フェールオーバー機能は提供されません。たとえば、DNS A および AAAA (IPv6 アドレスを使用している場合) クエリで返された 1 つの IP アドレスに対する接続が失敗した場合、その接続は失敗します。したがって、DNS ラウンド ロビン自体は DNS ベースの負荷分散より信頼性が劣ります。DNS ラウンド ロビンは、DNS 負荷分散と共に使用することができます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> DNS ベースの負荷分散は、一般的に、DNS を利用してプール内のサーバーに対応する IP アドレスを別の順序で提供させて負荷分散を行うことを指す DNS ラウンド ロビン (DNS RR) と異なります。一般的に、DNS RR は負荷分散のみが可能で、フェールオーバー機能は提供されません。たとえば、DNS A および AAAA (IPv6 アドレスを使用している場合) クエリで返された 1 つの IP アドレスに対する接続が失敗した場合、その接続は失敗します。したがって、DNS ラウンド ロビン自体は DNS ベースの負荷分散より信頼性が劣ります。DNS ラウンド ロビンは、DNS 負荷分散と共に使用することができます。
 
 
 DNS 負荷分散は次のような状況で使用されます。

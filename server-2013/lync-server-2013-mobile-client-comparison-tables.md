@@ -37,25 +37,10 @@ _**トピックの最終更新日:** 2016-12-08_
 
 以下の表は、Lync Server 2013 の内部設置型展開の Lync ユーザーが使用できる機能を示すものです。表の脚注に記載されていない限り、同じ機能は Skype for Business Online および Microsoft Office 365 の各ユーザーも使用できます。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>エンド ユーザー用のオンライン ヘルプとリソースについては、「Microsoft Lync 2013 for Mobile Clients」(<a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>) を参照してください。</p></li>
-<li><p>その他の Lync 2013 クライアントで使用できる機能を比較するには、「<a href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 のクライアントの比較表</a>」をご覧ください。</p></li>
-<li><p>Lync Server 2013 は Lync 2010 モバイル アプリもサポートしています。詳しくは、Lync Server 2010 のドキュメントの「モバイル クライアントの比較表」(<a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>) を参照してください。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul><li><p>エンド ユーザー用のオンライン ヘルプとリソースについては、「Microsoft Lync 2013 for Mobile Clients」(<a href="http://go.microsoft.com/fwlink/?linkid=286237">http://go.microsoft.com/fwlink/?LinkId=286237</a>) を参照してください。</p></li>
+> <li><p>その他の Lync 2013 クライアントで使用できる機能を比較するには、「<a href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 のクライアントの比較表</a>」をご覧ください。</p></li>
+> <li><p>Lync Server 2013 は Lync 2010 モバイル アプリもサポートしています。詳しくは、Lync Server 2010 のドキュメントの「モバイル クライアントの比較表」(<a href="http://go.microsoft.com/fwlink/?linkid=234777" class="uri">http://go.microsoft.com/fwlink/?linkid=234777</a>) を参照してください。</p></li></ul>
 
 
 ## サインイン、プッシュ通知、および一般的な機能

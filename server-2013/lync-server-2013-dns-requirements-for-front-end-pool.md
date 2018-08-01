@@ -140,18 +140,8 @@ _**トピックの最終更新日:** 2016-12-15_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VIP = ロード バランサー機器の仮想 IP アドレス</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> VIP = ロード バランサー機器の仮想 IP アドレス
 
 
 ## フロント エンド プールの DNS SRV レコード

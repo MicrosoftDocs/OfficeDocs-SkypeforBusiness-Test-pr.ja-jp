@@ -25,19 +25,9 @@ Lync Server 管理シェルを使用して 集中ログ サービス のスコ�
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows PowerShell には、CLSController.exe では使用できないオプションと追加の構成オプションがあります。CLSController には迅速かつ正確にコマンドを実行するための方法が用意されていますが、CLSController で使用可能なコマンドは制限されています。Windows PowerShell では、CLSController のコマンド プロセッサで使用可能なコマンドだけでなく、さまざまなコマンドと豊富なオプションが提供されます。たとえば、CLSController.exe は –computers と –pools のスコープ オプションを提供します。Windows PowerShell を使用すると、ほとんどのコマンドでコンピューターやプールを示すことができます。新しいシナリオ (CLSController には、ユーザーが変更できない特定数のシナリオがあります) を定義する場合は、サイト スコープまたはグローバル スコープを定義できます。Windows PowerShell のこの強力な機能を使用すると、サイト スコープまたはグローバル スコープのシナリオを定義できますが、コンピューターまたはプールに対する実際のログ記録は制限されます。<br />
-Windows PowerShell または CLSController で実行できるコマンド ラインのコマンドには根本的な違いがあります。Windows PowerShell には、シナリオを構成および定義し、トラブルシューティングのシナリオでそれらを有意義に再利用する方法が用意されています。一方、CLSController には、コマンドを高速かつ効率的に実行して結果を得るための方法が用意されています。CLSController のコマンド セットは、コマンド ラインから使用できる特定数のコマンドに制限されています。Windows PowerShell のコマンドレットとは異なり、CLSController で新しいシナリオを定義したり、サイト レベルやグローバル レベルでスコープを管理したりすることはできません。また、特定数のコマンド セットのその他の多くの制限により、コマンドを動的に構成することもできません。CLSController は高速実行のための手段を提供し、Windows PowerShell は 集中ログ サービス の機能を拡張して、CLSController ではできない処理を行うための手段を提供します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Windows PowerShell には、CLSController.exe では使用できないオプションと追加の構成オプションがあります。CLSController には迅速かつ正確にコマンドを実行するための方法が用意されていますが、CLSController で使用可能なコマンドは制限されています。Windows PowerShell では、CLSController のコマンド プロセッサで使用可能なコマンドだけでなく、さまざまなコマンドと豊富なオプションが提供されます。たとえば、CLSController.exe は –computers と –pools のスコープ オプションを提供します。Windows PowerShell を使用すると、ほとんどのコマンドでコンピューターやプールを示すことができます。新しいシナリオ (CLSController には、ユーザーが変更できない特定数のシナリオがあります) を定義する場合は、サイト スコープまたはグローバル スコープを定義できます。Windows PowerShell のこの強力な機能を使用すると、サイト スコープまたはグローバル スコープのシナリオを定義できますが、コンピューターまたはプールに対する実際のログ記録は制限されます。<br />
+> Windows PowerShell または CLSController で実行できるコマンド ラインのコマンドには根本的な違いがあります。Windows PowerShell には、シナリオを構成および定義し、トラブルシューティングのシナリオでそれらを有意義に再利用する方法が用意されています。一方、CLSController には、コマンドを高速かつ効率的に実行して結果を得るための方法が用意されています。CLSController のコマンド セットは、コマンド ラインから使用できる特定数のコマンドに制限されています。Windows PowerShell のコマンドレットとは異なり、CLSController で新しいシナリオを定義したり、サイト レベルやグローバル レベルでスコープを管理したりすることはできません。また、特定数のコマンド セットのその他の多くの制限により、コマンドを動的に構成することもできません。CLSController は高速実行のための手段を提供し、Windows PowerShell は 集中ログ サービス の機能を拡張して、CLSController ではできない処理を行うための手段を提供します。
 
 
 –Computers パラメーターを使用して [Search-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Search-CsClsLogging)、[Show-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Show-CsClsLogging)、[Start-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Start-CsClsLogging)、[Stop-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging)、[Sync-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Sync-CsClsLogging)、[Update-CsClsLogging](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsClsLogging) の各コマンドを実行する場合に、単一のコンピューターのスコープを定義できます。–Computers パラメーターには、対象のコンピューターの完全修飾ドメイン名 (FQDN) のコンマ区切り一覧を指定できます。
@@ -120,18 +110,8 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
     
         Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40 -EtlFileFolder "C:\LogFiles\Tracing" 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この例に示すように、ログ ファイルの既定の場所は %TEMP%\Tracing です。ただし、これは実際にはファイルを書き込む CLSAgent であり、CSLAgent はネットワーク サービスとして実行されるため、%TEMP% 変数は %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この例に示すように、ログ ファイルの既定の場所は %TEMP%\Tracing です。ただし、これは実際にはファイルを書き込む CLSAgent であり、CSLAgent はネットワーク サービスとして実行されるため、%TEMP% 変数は %WINDIR%\ServiceProfiles\NetworkService\AppData\Local に展開されます。
 
 
 このコマンドは、トレース ファイルのロールオーバーのサイズを 40 MB に設定するよう、Redmond サイト内の各コンピューターおよびプールの CLSAgent に指示します。他のサイトのコンピューターとプールはこのコマンドの対象ではなく、現在構成されているトレース ログのロールオーバーの値 (既定値の 20 MB またはログ記録セッションの開始時に定義された値) が引き続き使用されます。
@@ -144,18 +124,8 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
     
         New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。構成オプションの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a>」および「<a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">集中ログ サービスの構成設定について</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > New-CsClsConfiguration を使用すると、オプションの多数の構成設定にアクセスできます。構成オプションの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration">Get-CsClsConfiguration</a>」および「<a href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">集中ログ サービスの構成設定について</a>」を参照してください。
     
     たとえば、キャッシュ ファイル用のネットワーク フォルダー、ログ ファイルのロールオーバー時間、およびログ ファイルのロールオーバー サイズを定義する新しい構成を作成するには、次のように入力します。
     
@@ -175,18 +145,8 @@ Windows PowerShell または CLSController で実行できるコマンド ライ
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>これは、「集中ログ サービス の新しい構成を作成するには」の手順で作成された新しい構成です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > これは、「集中ログ サービス の新しい構成を作成するには」の手順で作成された新しい構成です。
 
 
 サイト レベルの構成の削除を選択すると、そのサイトではグローバル設定が使用されます。

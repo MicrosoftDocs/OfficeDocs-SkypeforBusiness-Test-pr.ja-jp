@@ -21,18 +21,8 @@ Lync Server 2013 に関して問題が発生しないと保証することは当
 
 同様に、管理者は System Center Operations Manager を使用して、特定のイベントの発生時にリアルタイム アラートを発行したり、システムを事前にテストする代理トランザクションを発行したりできます。代理トランザクションは、システムへのログオン、インスタント メッセージの交換、公衆交換電話網 (PSTN) に設置された電話への発信などの一般的なタスクをユーザーが正常に完了できるかどうかを確認するために、Lync Server で使用されます。たとえば、これらのテストを定期的に実行することで、Lync Server にログオンするユーザーに関する潜在的な問題についてアラートを発行させることができるので、接続できないユーザーからサポート チームへの電話が殺到する事態になる前に、問題を修正する機会を得ることができます。System Center Operations Manager を使用してこれらの代理トランザクションを実行することで、管理者は、Lync Server の展開を毎日 24 時間にわたって機械的に監視できますが、実際には、発行されたアラートに対応する以外にすることはそれほど多くありません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、System Center Operations Manager 管理パックを使用して、Lync Server に悪影響を及ぼす可能性がある &quot;外部の&quot; 問題を検出することもできます。たとえば、インターネット インフォメーション サービス (IIS) がオフラインになった場合、Lync Server コンピューターのシステム リソースが指定の量を下回った場合、または Lync Server コンピューターでハードウェア障害が発生した場合に、システム管理者は通知を受け取ることができます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、System Center Operations Manager 管理パックを使用して、Lync Server に悪影響を及ぼす可能性がある &quot;外部の&quot; 問題を検出することもできます。たとえば、インターネット インフォメーション サービス (IIS) がオフラインになった場合、Lync Server コンピューターのシステム リソースが指定の量を下回った場合、または Lync Server コンピューターでハードウェア障害が発生した場合に、システム管理者は通知を受け取ることができます。
 
 
 Lync Server 2013 の状態監視構成は、System Center Operations Manager とLync Server の管理パックと関連して構築されています。これらの管理パックには、次のような新機能と機能拡張が含まれます。

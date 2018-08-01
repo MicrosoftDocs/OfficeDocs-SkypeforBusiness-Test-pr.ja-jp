@@ -37,16 +37,6 @@ Windows Live Messenger との音声ビデオ (A/V) フェデレーションを�
     
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Windows Live Messenger は、音声ビデオの暗号化をサポートしていないため、この手順は必ず実行する必要があります。このコマンドは、音声ビデオ データの暗号化を必須にするのではなく、グローバル ポリシーの暗号化設定を「サポート」に設定します。暗号化をサポートするクライアントは、この場合も Lync 2013 などの暗号化を使用します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Windows Live Messenger は、音声ビデオの暗号化をサポートしていないため、この手順は必ず実行する必要があります。このコマンドは、音声ビデオ データの暗号化を必須にするのではなく、グローバル ポリシーの暗号化設定を「サポート」に設定します。暗号化をサポートするクライアントは、この場合も Lync 2013 などの暗号化を使用します。
 

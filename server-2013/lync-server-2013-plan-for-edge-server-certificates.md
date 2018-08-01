@@ -29,18 +29,8 @@ Lync Server 2013 では、エッジの証明書の作成が簡単になってい
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 で導入された点として、現在の証明書の有効期限の日時より前に音声ビデオ認証証明書をステージングするには追加の計画が必要です。外部エッジ インターフェイス用に複数の目的で 1 つの証明書を使用する代わりに、2 つの証明書 (1 つは アクセス エッジ サービスと Web 会議エッジ サービスに割り当てられ、1 つは 音声ビデオ エッジ サービスに割り当てられている) が必要です。詳細については、「<a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 で導入された点として、現在の証明書の有効期限の日時より前に音声ビデオ認証証明書をステージングするには追加の計画が必要です。外部エッジ インターフェイス用に複数の目的で 1 つの証明書を使用する代わりに、2 つの証明書 (1 つは アクセス エッジ サービスと Web 会議エッジ サービスに割り当てられ、1 つは 音声ビデオ エッジ サービスに割り当てられている) が必要です。詳細については、「<a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング</a>」を参照してください。
 
 
 

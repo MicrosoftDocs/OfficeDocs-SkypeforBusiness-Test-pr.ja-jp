@@ -25,34 +25,14 @@ Exchange ユニファイド メッセージング (UM) が中央サイトにイ�
 
 2.  Lync Server 管理シェルで、**New-CSVoiceMailReroutingConfiguration** コマンドレットを使用して、存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーのボイス メール再ルーティング構成に AA の電話番号を Exchange UM 自動応答の電話番号として設定します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ボイス メール再ルーティング設定を後で変更する必要がある場合は、<strong>Set-CsVoiceMailReRoutingConfiguration</strong> コマンドレットを使用して変更します。 <strong>New-</strong> および <strong>Set-CSVoiceMailReroutingConfiguration</strong> の詳細については、シェル ヘルプ トピックを参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ボイス メール再ルーティング設定を後で変更する必要がある場合は、<strong>Set-CsVoiceMailReRoutingConfiguration</strong> コマンドレットを使用して変更します。 <strong>New-</strong> および <strong>Set-CSVoiceMailReroutingConfiguration</strong> の詳細については、シェル ヘルプ トピックを参照してください。
 
 
 3.  ブランチ ユーザーの Exchange UM ダイヤル プランに対応する Exchange UM サブスクライバー アクセス番号を、存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーのボイス メール再ルーティング構成に Exchange UM サブスクライバー アクセス番号として設定します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>WAN の停止時にボイス メール取得機能にアクセスする必要があるすべてのブランチ ユーザーに関連付けられたダイヤル プランが 1 つのみになるように、Exchange UM ユーザーのダイヤル プランを構成します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > WAN の停止時にボイス メール取得機能にアクセスする必要があるすべてのブランチ ユーザーに関連付けられたダイヤル プランが 1 つのみになるように、Exchange UM ユーザーのダイヤル プランを構成します。
 
 
 存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーの **次のステップ** : [Lync Server 2013 で存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーにユーザーを所属させる](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)

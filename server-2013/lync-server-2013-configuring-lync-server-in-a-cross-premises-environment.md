@@ -61,19 +61,9 @@ _**トピックの最終更新日:** 2017-02-21_
 
 スクリプトが完了したら、Lync Server 2013 と承認サーバー間の信頼関係と、Exchange 2013 と承認サーバー間の 2 つ目の信頼関係を構成する必要があります。これは、Microsoft Online Services コマンドレットを使用してのみ行うことができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Microsoft Online Services コマンドレットをインストールしていない場合は、先に進む前に 2 つの作業を行う必要があります。最初に、64 ビット バージョンの Microsoft Online Services サインイン アシスタントをダウンロードしてインストールします。インストールの完了後に、64 ビット バージョンの Windows PowerShell 用 Microsoft Online Services モジュールをダウンロードしてインストールします。Microsoft Online Services モジュールのインストールと使用の詳細については、Office 365 Web サイトを参照してください。これらの説明では、Office 365 と Active Directory 間のシングル サインオン、フェデレーション、および同期の構成方法も説明されます。<br />
-これらのコマンドレットがインストールされていない場合、Get-CsTenant コマンドレットを使用できないためにスクリプトは失敗します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Microsoft Online Services コマンドレットをインストールしていない場合は、先に進む前に 2 つの作業を行う必要があります。最初に、64 ビット バージョンの Microsoft Online Services サインイン アシスタントをダウンロードしてインストールします。インストールの完了後に、64 ビット バージョンの Windows PowerShell 用 Microsoft Online Services モジュールをダウンロードしてインストールします。Microsoft Online Services モジュールのインストールと使用の詳細については、Office 365 Web サイトを参照してください。これらの説明では、Office 365 と Active Directory 間のシングル サインオン、フェデレーション、および同期の構成方法も説明されます。<br />
+> これらのコマンドレットがインストールされていない場合、Get-CsTenant コマンドレットを使用できないためにスクリプトは失敗します。
 
 
 Office 365 を構成し、Lync Server 2013 と Exchange 2013 に対して Office 365 サービス プリンシパルを作成した後で、これらのサービス プリンシパルに資格情報を登録する必要があります。これを行うには、最初に .CER ファイルとして保存されている X.509 Base64 を入手する必要があります。この証明書が Office 365 サービス プリンシパルに適用されます。

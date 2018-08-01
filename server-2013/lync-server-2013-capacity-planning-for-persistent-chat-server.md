@@ -31,18 +31,8 @@ Lync Server 計画ツールなどのサポート ツールは、容量計画の�
 
 また、Standard Edition サーバー上の 常設チャット サーバーは、新しい Lync Server 2013 の展開でもサポートされるようになりました。ただし、パフォーマンスやスケールは影響を受けることになります。この新しい展開は、高可用性のオプションがないので、主として概念実証や評価などの目的で使用することが想定されています。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>両方のトポロジの詳細については、このドキュメント セットの「<a href="lync-server-2013-planning-for-persistent-chat-server.md">Lync Server 2013 での常設チャット サーバーの計画</a>」および「展開」のドキュメントの「<a href="lync-server-2013-deploying-persistent-chat-server.md">Lync Server 2013 での常設チャット サーバーの展開</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 両方のトポロジの詳細については、このドキュメント セットの「<a href="lync-server-2013-planning-for-persistent-chat-server.md">Lync Server 2013 での常設チャット サーバーの計画</a>」および「展開」のドキュメントの「<a href="lync-server-2013-deploying-persistent-chat-server.md">Lync Server 2013 での常設チャット サーバーの展開</a>」を参照してください。
 
 
 ## 単一サーバー トポロジ

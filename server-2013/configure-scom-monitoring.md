@@ -43,18 +43,8 @@ Microsoft Lync Server 2013 に移行したら、次のタスクを実行し、Sy
     
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>レジストリを編集すると、&quot;レジストリ キーが既に存在する場合はコマンドが失敗する&quot; というエラーが発生することがあります。このエラーは無視しても問題ありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > レジストリを編集すると、&quot;レジストリ キーが既に存在する場合はコマンドが失敗する&quot; というエラーが発生することがあります。このエラーは無視しても問題ありません。
 
 
 **候補中央検出監視ノードが上書きされるようにプライマリ System Center Operations Manager 管理サーバーを構成する。**

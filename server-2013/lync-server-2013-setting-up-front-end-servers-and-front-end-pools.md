@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-10-01_
 
 ここでは、Lync Server 2013 をインストールし、Standard Edition サーバーおよび フロント エンド プールのサーバー役割を設定する場合の手順を説明します。サーバー役割には、フロント エンド サーバーや、フロント エンド サーバーと併置される役割があります。サーバーの役割をインストールして設定するには、サーバーの役割をインストールする各コンピューターで Lync Server 展開ウィザードを実行します。ローカル構成ストアのインストール、フロント エンド サーバーのインストール、証明書の構成、およびサービスの開始で構成される 4 つの展開ステップすべてを完了するため、展開ウィザードを使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サーバーの役割を設定するには、まずトポロジを正常に公開する必要があります。トポロジの公開の詳細については、「<a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Lync Server 2013 でのトポロジ設計の完了と実装</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> サーバーの役割を設定するには、まずトポロジを正常に公開する必要があります。トポロジの公開の詳細については、「<a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Lync Server 2013 でのトポロジ設計の完了と実装</a>」を参照してください。
 
 
 ## このセクション中

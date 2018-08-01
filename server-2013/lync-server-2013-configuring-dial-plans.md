@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 Lync Server 2013 のダイヤル プランとは、電話番号の承認と通話のルーティングを目的として、特定の場所、個々のユーザー、または連絡先オブジェクトの電話番号を変換する正規化ルールのセットに名前を付けたものです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 のダイヤル プランと正規化ルール</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 詳細については、「計画」のドキュメントの「<a href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 のダイヤル プランと正規化ルール</a>」を参照してください。
 
 
 ## このセクション中

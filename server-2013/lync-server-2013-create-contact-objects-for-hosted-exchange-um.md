@@ -49,18 +49,8 @@ _**トピックの最終更新日:** 2012-09-24_
     
       - **RegistrarPool** は、レジストラー サービスが実行されているプールの完全修飾ドメイン名 (FQDN) を指定します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Exchange UM の連絡先オブジェクトは、 Lync Server 2013 の前に、 Lync Server 2013 の展開の一部であるプールに移動することはできません。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > Exchange UM の連絡先オブジェクトは、 Lync Server 2013 の前に、 Lync Server 2013 の展開の一部であるプールに移動することはできません。
     
       - **OU** は、この連絡先オブジェクトの配置先となる Active Directory 組織単位を指定します。
     

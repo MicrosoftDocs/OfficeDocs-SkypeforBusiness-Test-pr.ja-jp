@@ -23,18 +23,8 @@ _**トピックの最終更新日:** 2013-02-21_
 
 集中ログ サービス には、コマンドを実行する方法が 2 つ用意されています。Lync Server 管理シェルから Windows PowerShell を使用する方法については、いくつかのトピックに明確な説明があります。集中ログ サービス を使用する場合には、複数の複雑な構成やコマンドを使用できる Windows PowerShell が適しています。Lync Server 管理シェルから Windows PowerShell を使用する方法は、Lync Server のあらゆる関数のあちこちに見られるので、ここでは Windows PowerShell コマンドについてのみ説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>コマンドラインから使用できる限られたコマンド セットを使用する場合は、「<code>ClsController.exe</code>」と入力すると、CLSController.exe に関するヘルプを参照できます。既定では、<strong>ClsController.exe</strong> のインストール先ディレクトリが C:\Program Files\Microsoft Lync Server 2013\ClsAgentになっています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> コマンドラインから使用できる限られたコマンド セットを使用する場合は、「<code>ClsController.exe</code>」と入力すると、CLSController.exe に関するヘルプを参照できます。既定では、<strong>ClsController.exe</strong> のインストール先ディレクトリが C:\Program Files\Microsoft Lync Server 2013\ClsAgentになっています。
 
 
 ## 基本的なコマンドを使用して Windows PowerShell で Start-CsClsLogging を実行するには
@@ -49,34 +39,14 @@ _**トピックの最終更新日:** 2013-02-21_
     
         Start-CsClsLogging -Scenario AlwaysOn
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>AlwaysOn シナリオには、既定の実行期間がありません。このシナリオの実行は、<strong>Stop-CsClsLogging</strong> コマンドレットによって明示的に停止されるまで続きます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>」を参照してください。その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > AlwaysOn シナリオには、既定の実行期間がありません。このシナリオの実行は、<strong>Stop-CsClsLogging</strong> コマンドレットによって明示的に停止されるまで続きます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Stop-CsClsLogging">Stop-CsClsLogging</a>」を参照してください。その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。
 
 
 3.  Enter キーを押して、コマンドを実行します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このコマンドを実行して展開内のコンピューターから状態を取得するには、いくらかの時間 (30 ～ 60 秒) がかかることがあります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このコマンドを実行して展開内のコンピューターから状態を取得するには、いくらかの時間 (30 ～ 60 秒) がかかることがあります。
     
     ![Start-CsClsLogging の実行](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Start-CsClsLogging の実行")
 

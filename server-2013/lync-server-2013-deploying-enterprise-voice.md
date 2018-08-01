@@ -27,18 +27,8 @@ Lync Server 2013エンタープライズ VoIP は、Lync Server 2013 インフ�
 
 4.  「展開」のドキュメントの「[Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」に従って、 トポロジ ビルダーでトポロジ設計を開いたこと。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジ ビルダーのインストールは内部プールでの展開プロセスの一部として行うものです。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 管理ツールをインストールする</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジ ビルダーのインストールは内部プールでの展開プロセスの一部として行うものです。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 管理ツールをインストールする</a>」を参照してください。
 
 
 また、 Lync Server Enterprise Edition が、展開する関連トポロジに対応する中央サイトとブランチ サイトで既に展開されている必要があります。 エンタープライズ VoIP のコンポーネントは、少なくとも 1 つの内部プールのファイルを定義、公開、およびインストールするまで展開できません。また、 トポロジ ビルダーを使用して、内部プールを定義および公開する必要があります。

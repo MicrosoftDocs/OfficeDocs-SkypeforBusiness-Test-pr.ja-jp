@@ -29,18 +29,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 5.  \[**Lync Server ユーザーの編集**\] の \[**音声ポリシー**\] で、適用するユーザー ポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー ポリシーまたはグローバル ポリシーの設定が適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバー ポリシーまたはグローバル ポリシーの設定が適用されます。
 
 
 ## Lync Server 管理シェルを使用してユーザー固有の音声ポリシーを割り当てるには

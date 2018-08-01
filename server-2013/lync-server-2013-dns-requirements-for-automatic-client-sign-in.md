@@ -23,18 +23,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
   - このサーバーまたはプールで自動クライアント サインインをサポートする内部 DNS SRV レコードを作成します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>次のレコード要件では、SIP ドメインは、ユーザーに割り当てられる SIP URI のホスト部分です。たとえば、SIP URI が *@contoso.com という形式の場合は、contoso.com が SIP ドメインです。SIP ドメインは、内部 Active Directory ドメインと異なる場合がよくあります。また、1 つの組織が複数の SIP ドメインをサポートする場合もあります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 次のレコード要件では、SIP ドメインは、ユーザーに割り当てられる SIP URI のホスト部分です。たとえば、SIP URI が *@contoso.com という形式の場合は、contoso.com が SIP ドメインです。SIP ドメインは、内部 Active Directory ドメインと異なる場合がよくあります。また、1 つの組織が複数の SIP ドメインをサポートする場合もあります。
 
 
 クライアントに対して自動構成を有効にするには、次のレコードの 1 つを、Lync クライアントからのサインイン要求を分散させるフロントエンド プールまたは Standard Edition サーバーの完全修飾ドメイン名 (FQDN) にマップする内部 DNS SRV レコードを作成する必要があります。
@@ -75,18 +65,8 @@ SRV レコードは、サインイン要求を分散させるフロントエン�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既定では、DNS レコードのクエリは、ユーザー名のドメインと SRV レコードの間で一致する厳密なドメイン名に従います。サフィックスの一致を使用するクライアント DNS クエリを使用する場合は、DisableStrictDNSNaming グループ ポリシーを構成できます。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-clients-and-devices.md">Lync Server 2013 のクライアントとデバイスの計画</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 既定では、DNS レコードのクエリは、ユーザー名のドメインと SRV レコードの間で一致する厳密なドメイン名に従います。サフィックスの一致を使用するクライアント DNS クエリを使用する場合は、DisableStrictDNSNaming グループ ポリシーを構成できます。詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-clients-and-devices.md">Lync Server 2013 のクライアントとデバイスの計画</a>」を参照してください。
 
 
 ## 自動クライアント サインインに必要な証明書および DNS レコードの例

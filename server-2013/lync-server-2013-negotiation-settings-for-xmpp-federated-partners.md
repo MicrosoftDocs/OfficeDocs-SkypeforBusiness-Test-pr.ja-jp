@@ -94,7 +94,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>必須</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL と TLS の両方が必須の場合、ダイヤルバックは機能しません。
@@ -114,7 +114,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>必須</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS、TLS ダイヤルバック、TCP ダイヤルバック</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -127,7 +127,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>必須</p></td>
 <td><p>False</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -140,7 +140,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>必須</p></td>
 <td><p>True</p></td>
 <td><p>TCP ダイヤルバック</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -152,14 +152,14 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>サポート対象外</p></td>
 <td><p>必須</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > 無効な構成
 
 
 </div></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須ですが TLS は利用できないため、SASL/TLS は成功しません。TCP ダイヤルバックは False に設定され、使用されません。
@@ -186,7 +186,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>省略可能</p></td>
 <td><p>True</p></td>
 <td><p>SASL over TLS、TLS ダイヤルバック、TCP ダイヤルバック</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -199,7 +199,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>省略可能</p></td>
 <td><p>False</p></td>
 <td><p>SASL over TLS</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -212,7 +212,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>省略可能</p></td>
 <td><p>True</p></td>
 <td><p>TCP ダイヤルバック</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -224,14 +224,14 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>サポート対象外</p></td>
 <td><p>省略可能</p></td>
 <td><p>False</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > 無効な構成
 
 
 </div></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL には TLS が必須です。TLS をオプションとして許可すると、セッションのネゴシエーションが失敗する場合があります。
@@ -251,7 +251,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>サポート対象外</p></td>
 <td><p>False</p></td>
 <td><p>無効な構成</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL またはダイヤルバックを有効化する必要があります。
@@ -271,7 +271,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>サポート対象外</p></td>
 <td><p>False</p></td>
 <td><p>無効な構成</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL またはダイヤルバックを有効化する必要があります。
@@ -291,7 +291,7 @@ XMPP パートナーの構成におけるネゴシエーションの種類の設
 <td><p>サポート対象外</p></td>
 <td><p>False</p></td>
 <td><p>無効な構成</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!WARNING]
 > SASL またはダイヤルバックを有効化する必要があります。

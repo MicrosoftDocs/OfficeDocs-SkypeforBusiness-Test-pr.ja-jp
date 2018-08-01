@@ -85,32 +85,12 @@ _**トピックの最終更新日:** 2015-03-09_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>外部トラフィックはリバース プロキシを経由します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 外部トラフィックはリバース プロキシを経由します。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>モバイル デバイスのクライアントでは、異なるドメインからの複数の SSL (Secure Sockets Layer) 証明書がサポートされません。つまり、HTTPS では、異なるドメインへの CNAME のリダイレクトがサポートされません。たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは、HTTPS ではサポートされません。このようなトポロジでは、CNAME のリダイレクトが HTTP で解決されるように、モバイル デバイスのクライアントは、最初の要求に対して HTTP を使用する必要があります。その後、以降の要求については HTTPS を使用します。このシナリオをサポートするには、ポート 80 (HTTP) の Web 公開ルールを使用して、リバース プロキシを構成する必要があります。詳細については、「<a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成</a>」の「ポート 80 の Web 公開ルールを作成するには」を参照してください。HTTPS では、同じドメインへの CNAME のリダイレクトはサポートされます。この場合、リダイレクト先のドメインの証明書で元のドメインがカバーされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> モバイル デバイスのクライアントでは、異なるドメインからの複数の SSL (Secure Sockets Layer) 証明書がサポートされません。つまり、HTTPS では、異なるドメインへの CNAME のリダイレクトがサポートされません。たとえば、director.contoso.net のアドレスにリダイレクトされる lyncdiscover.contoso.com の DNS CNAME レコードは、HTTPS ではサポートされません。このようなトポロジでは、CNAME のリダイレクトが HTTP で解決されるように、モバイル デバイスのクライアントは、最初の要求に対して HTTP を使用する必要があります。その後、以降の要求については HTTPS を使用します。このシナリオをサポートするには、ポート 80 (HTTP) の Web 公開ルールを使用して、リバース プロキシを構成する必要があります。詳細については、「<a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Lync Server 2013 での、モビリティに合わせたリバース プロキシの構成</a>」の「ポート 80 の Web 公開ルールを作成するには」を参照してください。HTTPS では、同じドメインへの CNAME のリダイレクトはサポートされます。この場合、リダイレクト先のドメインの証明書で元のドメインがカバーされます。
 
 
 ## 関連項目

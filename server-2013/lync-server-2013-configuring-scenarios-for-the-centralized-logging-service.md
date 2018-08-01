@@ -75,18 +75,8 @@ Lync Server 管理シェルを使用して 集中ログ サービス 機能を�
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Windows PowerShell で知られているように、<code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> を使用して値のハッシュ テーブルを作成する方法をスプラッティングと呼びます。Windows PowerShell でのスプラッティングの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x411</a> を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Windows PowerShell で知られているように、<code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> を使用して値のハッシュ テーブルを作成する方法をスプラッティングと呼びます。Windows PowerShell でのスプラッティングの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x411</a> を参照してください。
 
 
 ## Set-CsClsScenario コマンドレットを使用して既存のシナリオを変更するには

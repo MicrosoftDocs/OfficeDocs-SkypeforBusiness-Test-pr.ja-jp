@@ -19,18 +19,8 @@ Lync Server 2013 では、会議ポリシーを使用してギャラリー ビ�
 
 会議参加者のビデオを利用できないときは、Lync Server 2013 の新機能である高解像度の写真を配置すると、ユーザーのギャラリー ビューの操作性を拡張できます。高解像度の写真は、Active Directory ドメイン サービス に格納されている小さく、解像度が制限された連絡先用の写真の代わりとなるものです。高解像度の写真は、ユーザーの Exchange 2013 メールボックスに格納されるため、Lync Server 2013 を Exchange 2013 と統合する必要があります。詳細については、NextHop ブログの記事「Integrating Exchange 2013 and Lync Server 2013」([http://go.microsoft.com/fwlink/?linkid=260987\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=260987%26clcid=0x411)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>各ブログの内容と URL は、将来予告なしに変更されることがあります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 各ブログの内容と URL は、将来予告なしに変更されることがあります。
 
 
 Lync Server 2013 コントロール パネルを使用するか、次のコマンドレットの 1 つを使用して、ギャラリー ビューのパラメーターを表示または変更できます。

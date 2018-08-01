@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2013-02-21_
 
   - Enterprise Edition フロント エンド プールを公開するには、SQL Server ベースのバックエンド サーバーが、サーバーを展開するドメインに参加し、オンラインであり、リモート ユーザーが使用できるように適切なファイアウォール ルールで構成する必要があります。ファイアウォール例外の指定の詳細については、「[Lync Server 2013 での SQL Server のファイアウォール要件について](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)」を参照してください。SQL Server の構成のその他の詳細については、「[Lync Server 2013 用 SQL Server の構成](lync-server-2013-configure-sql-server-for-lync-server.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Standard Edition サーバーには、公開される構成を受け入れる併置されたデータベースがあります。最初に、 Lync Server 展開ウィザードで [<strong>最初の Standard Edition サーバーの準備</strong>] 設定タスクを実行する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Standard Edition サーバーには、公開される構成を受け入れる併置されたデータベースがあります。最初に、 Lync Server 展開ウィザードで [<strong>最初の Standard Edition サーバーの準備</strong>] 設定タスクを実行する必要があります。
 
 
 ## 関連項目

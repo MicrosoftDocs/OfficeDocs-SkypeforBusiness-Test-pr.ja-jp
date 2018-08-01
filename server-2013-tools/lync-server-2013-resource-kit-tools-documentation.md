@@ -85,18 +85,8 @@ ABSConfig ツールは、absConfig.exe ファイルから起動します。ツ�
 
 Lync Server 2013 の ABS 構成ツールでは、属性の \[enable\] チェック ボックスをオフにして、属性 (行) を削除できます。これは、Lync Server 2010 で行を削除する操作と同じです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>[enable] チェック ボックスは、右端列にあります。列を表示するには、画面を右にスクロールする必要がある場合があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> [enable] チェック ボックスは、右端列にあります。列を表示するには、画面を右にスクロールする必要がある場合があります。
 
 
 ## 出力
@@ -165,18 +155,8 @@ Bandwidth Policy Service Monitor ツールは、GUI ベースのアプリケー�
 
 \[**Topology Info**\] タブには、ネットワーク構成設定で構成されたすべてのリンクの一覧が表示されます。各リンクには、音声とビデオの帯域幅容量が表示されます。さらに、現在使用されている帯域幅が、Kbps と容量に対する割合で表示されます。ツールでは色分けが使用され、容量に近づいているリンクが強調表示されます。これにより、管理者は対象のリンクをすばやく分離できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Bandwidth Policy Service Monitor ツールを構成された任意の帯域幅ポリシー サービスに接続する際に問題が発生すると、[<strong>Machine Info</strong>] タブと [<strong>Topology Info</strong>] タブに情報が表示されません。ただし、最初は接続されたにもかかわらず、後にサービスへの接続が途切れることもあります。このような場合、管理者に古い情報が表示されることがあります。各タブには [<strong>Last Updated</strong>] タイムスタンプが用意されているため、管理者は特定の帯域幅ポリシー サービスのデータが最後に更新された時間を確認できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Bandwidth Policy Service Monitor ツールを構成された任意の帯域幅ポリシー サービスに接続する際に問題が発生すると、[<strong>Machine Info</strong>] タブと [<strong>Topology Info</strong>] タブに情報が表示されません。ただし、最初は接続されたにもかかわらず、後にサービスへの接続が途切れることもあります。このような場合、管理者に古い情報が表示されることがあります。各タブには [<strong>Last Updated</strong>] タイムスタンプが用意されているため、管理者は特定の帯域幅ポリシー サービスのデータが最後に更新された時間を確認できます。
 
 
 ## 出力
@@ -287,18 +267,8 @@ WanLinkLogCollector.exe を使用するには、次の 3 つの手順を実行�
 
 ![Bandwidth Utilization Analyzer のファイル ディレクトリ](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Bandwidth Utilization Analyzer のファイル ディレクトリ")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サーバー ログや一時ファイルを格納するフォルダーにアクセスできる十分な権限が、ツールのユーザーに割り当てられるようにしてください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> サーバー ログや一時ファイルを格納するフォルダーにアクセスできる十分な権限が、ツールのユーザーに割り当てられるようにしてください。
 
 
 ## 手順 3 - ログを収集してレポート ビューアーを起動する
@@ -571,18 +541,8 @@ DBAnalyze は、管理者が Lync Server 2013 データベースに関する分�
 
   - **診断モード**   テーブル (レコード数、断片化、データ サイズ、インデックス サイズ)、データとログ ファイルのサイズ、最後にバックアップした時間、Microsoft Office Communications Server を実行しているサーバー間の連絡先の分散、ユーザーごとのアクセス権限、連絡先、コンテナー、サブスクリプション、発行、エンドポイントの平均数、所属が不適切なユーザー、ルーティングできないユーザー、ユーザーごとの開催した会議、スケジュールが設定された会議、アクティブな会議の平均数、データベースのバージョンなどの情報が含まれるレポートを作成します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>診断モードを実行すると、サーバーのパフォーマンスに影響を与えることがあります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 診断モードを実行すると、サーバーのパフォーマンスに影響を与えることがあります。
 
 
   - **ユーザー データ モード**  指定のユーザーまたはそのユーザーが連絡先一覧やアクセス権限一覧に含まれているユーザーの連絡先、コンテナー、サブスクリプション、発行、アクセス権限、連絡先グループのデータのレポートを作成します。また、このモードではユーザーが開催または招待された会議の集計データのレポートを作成します。
@@ -621,18 +581,8 @@ DBAnalyze は、管理者が Lync Server 2013 データベースに関する分�
 
 ![Dbanalyze.exe の権限のテーブル](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Dbanalyze.exe の権限のテーブル")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>/report:disk</strong> モードでは、ローカル管理者のアカウントが必要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>/report:disk</strong> モードでは、ローカル管理者のアカウントが必要です。
 
 
 ## 例
@@ -672,18 +622,8 @@ Online Service リリースの場合、Lync Server 用の SCOM 状態監視パ�
 
 Lync Server 2013、リソース キット ツール をインストールします。ツールは、Lync Server と Lync Server 管理シェル がインストールされた、ドメインに参加しているコンピューターで動作します。ツールは管理シェルのコマンドレットを使用して、プール内のすべてのフロントエンド サーバーを識別します。次に、ツールは **RtcLocal** データベースがインストールされた、プール内のマシンから実行する必要があります。このデータベースは、プールの Web サービス ファイル共有の場所を取得するために、このツールで使用されます。さらに、このツールを使用する前に、各フロントエンド サーバーで、このツールが実行されるコンピューターを有効にするほか、**Enable-PSRemoting** を各フロントエンド サーバーで使用して Windows PowerShell Remoting を有効にする必要があります。有効にしないと、このツールから実行されるリモートの Windows PowerShell コマンドが失敗します。コマンドを実行したら、プール内のすべてのフロントエンド サーバーで Windows PowerShell Remoting をオフにできます。最後に、このツールを呼び出すアカウントや資格情報には、出力ログの書き込みのために、Web サービス ファイル共有への読み取り/書き込みアクセスが設定されている必要があります。設定されていないと、IO アクセスに関するエラーでツールが失敗します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows PowerShell Remoting は、Windows Server 2012 では既定で有効ですが、Windows Server 2008 オペレーティング システム では有効ではありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Windows PowerShell Remoting は、Windows Server 2012 では既定で有効ですが、Windows Server 2008 オペレーティング システム では有効ではありません。
 
 
 ## 例
@@ -1121,34 +1061,14 @@ SEFAUtil (secondary extension feature activation) を使用すると、Lync Serv
 
   - チーム呼び出しグループ設定を有効化、無効化、変更する
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 SEFAUtil ツールの新機能</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2013 SEFAUtil ツールの新機能
 
 
   - 同時呼び出し設定を有効化、無効化、変更する (宛先など)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 SEFAUtil ツールの新機能</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2013 SEFAUtil ツールの新機能
 
 
   - グループ通話ピックアップ設定を有効化、無効化、変更する
@@ -1193,36 +1113,16 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>SEFAUtil ツールを実行するコンピューターには UCMA 3.0 をインストールする必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > SEFAUtil ツールを実行するコンピューターには UCMA 3.0 をインストールする必要があります。
 
 
 2.  信頼されたアプリケーションを SEFAUtil ツールのトポロジ内に定義する必要があります。SEFAUtil を新しい信頼されたアプリケーションとして定義するには、Lync Server 管理シェルで次のコマンドレットを実行します。
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>必要に応じて、別のポートを使用できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 必要に応じて、別のポートを使用できます。
 
 
 3.  トポロジの変更を有効にする必要があります。トポロジの変更を有効にするには、Lync Server 管理シェルで次のコマンドレットを実行します。
@@ -1247,18 +1147,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 次のコマンドでは、ユーザーの通話処理が表示されます。`SEFAUtil.exe /server:lyncserver.contoso.com katarina@contoso.com`
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この例では、<strong>/server</strong> スイッチで接続先の Lync Server を指定しています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この例では、<strong>/server</strong> スイッチで接続先の Lync Server を指定しています。
 
 
 **出力**
@@ -1345,18 +1235,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
 この例では代理人を削除します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>最後の代理人が削除されると、代理人着信は自動的に無効になります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 最後の代理人が削除されると、代理人着信は自動的に無効になります。
 
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
@@ -1389,18 +1269,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既に同時呼び出しを有効にしているユーザーの同時呼び出しの宛先番号を変更するには、コマンドに /enablesimulring スイッチを追加します。追加しない場合、宛先番号は変更されません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 既に同時呼び出しを有効にしているユーザーの同時呼び出しの宛先番号を変更するには、コマンドに /enablesimulring スイッチを追加します。追加しない場合、宛先番号は変更されません。
 
 
 **出力**
@@ -1432,18 +1302,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーのチーム呼び出しグループにチーム メンバーを追加すると、ユーザーの同時呼び出しの設定がチーム呼び出しグループを同時に呼び出すように自動的に切り替わります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーのチーム呼び出しグループにチーム メンバーを追加すると、ユーザーの同時呼び出しの設定がチーム呼び出しグループを同時に呼び出すように自動的に切り替わります。
 
 
 **出力**
@@ -1459,18 +1319,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>削除対象のメンバーがチーム呼び出しグループで唯一のメンバーである場合、チーム呼び出しグループの同時呼び出しは自動的に無効になります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 削除対象のメンバーがチーム呼び出しグループで唯一のメンバーである場合、チーム呼び出しグループの同時呼び出しは自動的に無効になります。
 
 
 **出力**
@@ -1500,18 +1350,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /simulringteam
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーのチーム呼び出しグループにメンバーがいない場合、チーム呼び出しは有効になりません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーのチーム呼び出しグループにメンバーがいない場合、チーム呼び出しは有効になりません。
 
 
 **出力**
@@ -1549,18 +1389,8 @@ SEFAUtil ツールは信頼されたアプリケーション プールに属し�
 
     SEFAUtil.exe /server:lyncserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーのグループ通話ピックアップを無効にした場合、ユーザーに割り当てられたグループ番号は保持されません。そのユーザーのグループ通話ピックアップを後からもう一度有効にする場合は、/enablegrouppickup スイッチでグループ番号をもう一度割り当てる必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーのグループ通話ピックアップを無効にした場合、ユーザーに割り当てられたグループ番号は保持されません。そのユーザーのグループ通話ピックアップを後からもう一度有効にする場合は、/enablegrouppickup スイッチでグループ番号をもう一度割り当てる必要があります。
 
 
     User Aor: sip:katarina@contoso.com
@@ -1660,18 +1490,8 @@ Unassigned Number Announcements Migration スクリプトを実行すると、�
 
 1.  移行元のサーバーまたはプールでホストされているアナウンス アプリケーションの未使用の番号のアナウンスが使用しているすべての音声ファイルを、移行先のサーバーまたはプールのファイル ストアに移行します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>移行先のプールへのコピーが完了すると、音声ファイルは移行元のプールから削除されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 移行先のプールへのコピーが完了すると、音声ファイルは移行元のプールから削除されます。
 
 
 2.  移行元のサーバーまたはプールでホストされているアナウンス アプリケーションに構成されているすべての未使用の番号のアナウンスを、移行先のサーバーまたはプールに移行します。
@@ -1740,18 +1560,8 @@ Web Conf Data ツールを使用すると、Lync Server 2013 通信ソフトウ�
 
 4.  ユーザーがあるプールから別のプールに移行した場合に、その 1 人のユーザーに関連付けられているすべての Web 会議データを移行する。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2010 用の リソース キット ツール では、ユーザーがあるプールから別のプールに移行した場合にその 1 人のユーザーに関連付けられているすべての Web 会議データの移行がサポートされていました。このツールでは <strong>MoveConferenceData</strong> パラメーターのほうを優先して、この機能は現在廃止されています。このパラメーターについて詳しくは、<a href="https://technet.microsoft.com/ja-jp/library/gg398528(v=ocs.15)">Move-CsUser</a> コマンドレットを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2010 用の リソース キット ツール では、ユーザーがあるプールから別のプールに移行した場合にその 1 人のユーザーに関連付けられているすべての Web 会議データの移行がサポートされていました。このツールでは <strong>MoveConferenceData</strong> パラメーターのほうを優先して、この機能は現在廃止されています。このパラメーターについて詳しくは、<a href="https://technet.microsoft.com/ja-jp/library/gg398528(v=ocs.15)">Move-CsUser</a> コマンドレットを参照してください。
 
 
 このツールでは、非アクティブな会議の会議データのみが削除されます。アクティブな会議 (開催中の会議) は削除できません。

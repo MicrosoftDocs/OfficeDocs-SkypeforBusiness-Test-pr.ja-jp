@@ -71,16 +71,6 @@ _**トピックの最終更新日:** 2015-03-09_
     
         Set-CsConferencingConfiguration
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>特定サイトの会議構成設定の追加セットを作成できます。 サイト ID と共に <strong>New- CsConferencingConfiguration</strong> コマンドレットを使用します。 サイトの新しい会議構成設定を作成すると、このサイト設定はグローバル設定よりも優先されます。詳細については、Lync Server 管理シェルのドキュメントを参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 特定サイトの会議構成設定の追加セットを作成できます。 サイト ID と共に <strong>New- CsConferencingConfiguration</strong> コマンドレットを使用します。 サイトの新しい会議構成設定を作成すると、このサイト設定はグローバル設定よりも優先されます。詳細については、Lync Server 管理シェルのドキュメントを参照してください。
 

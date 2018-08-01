@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 ドメイン ネーム システム (DNS) 負荷分散では、SIP トラフィックやメディア トラフィックなど、Lync Server 2013 に固有のネットワーク トラフィックを分散します。DNS 負荷分散は、フロントエンド プール、エッジ プール、ディレクター プール、およびスタンドアロンの仲介プールでサポートされています。DNS 負荷分散を使用するように構成されているプールでは、2 つの完全修飾ドメイン名 (FQDN) が定義されている必要があります。1 つは DNS 負荷分散が使用する標準プールの FQDN (pool1.contoso.com など) で、プール内のサーバーの物理 IP に解決されます。もう 1 つは、プールの Web サービスの FQDN (web1.contoso.net など) で、プールの仮想 IP アドレスに解決されます。DNS 負荷分散の詳細については、「計画」のドキュメントの「[Lync Server 2013 での DNS 負荷分散](lync-server-2013-dns-load-balancing.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>クライアントからサーバーへの HTTPS トラフィックには、まだハードウェア負荷分散が必要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> クライアントからサーバーへの HTTPS トラフィックには、まだハードウェア負荷分散が必要です。
 
 
 DNS 負荷分散を使用する前に、次の操作を行う必要があります。
@@ -47,18 +37,8 @@ DNS 負荷分散を使用する前に、次の操作を行う必要がありま�
 
 3.  IP アドレスのランダム化を有効にする (Windows Server の DNS の場合は、ラウンド ロビンを有効にする)
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ラウンド ロビンは既定で有効になっています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ラウンド ロビンは既定で有効になっています。
 
 
 ## 内部 Web サービスの FQDN をオーバーライドするには
@@ -140,18 +120,8 @@ DNS 負荷分散を使用する前に、次の操作を行う必要がありま�
     
     ![DNS ラウンド ロビン ダイアログ ボックス](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS ラウンド ロビン ダイアログ ボックス")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この機能は既定で有効になっています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この機能は既定で有効になっています。
 
 
 ## 関連項目

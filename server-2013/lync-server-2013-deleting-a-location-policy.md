@@ -29,18 +29,8 @@ Lync Server 2013 では、場所のポリシーを使用して、Enhanced 9-1-1 
 
 4.  \[**場所のポリシー**\] ページで、削除する場所のポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>1 つ以上の場所のポリシーを一度に削除できます。 これを実行するには、Ctrl キーを押しながら、複数のポリシーを選択します。 また、すべてのポリシーを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 1 つ以上の場所のポリシーを一度に削除できます。 これを実行するには、Ctrl キーを押しながら、複数のポリシーを選択します。 また、すべてのポリシーを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。
 
 
 5.  \[**編集**\] メニューの \[**削除**\] をクリックします。

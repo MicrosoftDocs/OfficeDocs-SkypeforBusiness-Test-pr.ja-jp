@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2014-05-08_
 
 内部設置型 Lync Server を展開する前に Lync Online を展開していた組織において、Lync Online の Lync で有効化されていたユーザー アカウントを内部設置型 Lync Server 展開に移動したい場合があります。ここでは、こういった操作に役立つ情報を提供します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ここでは、もともと Lync Online の Lync で有効化されていたユーザーの移動に関してのみ説明します。最初に内部設置型 Lync 用に有効化されていて、後で Lync Online に移動したユーザー アカウントがありますか? そのようなユーザー アカウントは、簡単に内部設置型 Lync に移動することができます (「<a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザーを管理する</a>」を参照してください)。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ここでは、もともと Lync Online の Lync で有効化されていたユーザーの移動に関してのみ説明します。最初に内部設置型 Lync 用に有効化されていて、後で Lync Online に移動したユーザー アカウントがありますか? そのようなユーザー アカウントは、簡単に内部設置型 Lync に移動することができます (「<a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">ハイブリッド Lync Server 2013 展開でユーザーを管理する</a>」を参照してください)。
 
 
   - [Lync Online から内部設置型 Lync にユーザーを移行する前の最初の手順](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)

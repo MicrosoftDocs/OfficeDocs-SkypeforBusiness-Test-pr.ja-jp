@@ -43,18 +43,8 @@ _**トピックの最終更新日:** 2012-06-28_
 
 1.  トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジを定義するには、ローカルの Users グループのメンバーであるアカウントを使用します。ただし、Lync Server 2013 をサーバーにインストールするのに必要なトポロジの読み取り、公開、または有効化を行うには、RTCUniversalServerAdmins グループの Domain Admins グループのメンバーであるアカウントを使用する必要があります。また、このアカウントには、アーカイブ ファイル ストアで使用するファイル共有に対して、フル コントロールのアクセス許可 (読み取り、書き込み、および変更) を持っている必要があります。これで、トポロジ ビルダーは必要な随意アクセス制御リスト (DACL) を構成できるようになります。または、上記と同等のユーザー権限を持つアカウントを使用する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジを定義するには、ローカルの Users グループのメンバーであるアカウントを使用します。ただし、Lync Server 2013 をサーバーにインストールするのに必要なトポロジの読み取り、公開、または有効化を行うには、RTCUniversalServerAdmins グループの Domain Admins グループのメンバーであるアカウントを使用する必要があります。また、このアカウントには、アーカイブ ファイル ストアで使用するファイル共有に対して、フル コントロールのアクセス許可 (読み取り、書き込み、および変更) を持っている必要があります。これで、トポロジ ビルダーは必要な随意アクセス制御リスト (DACL) を構成できるようになります。または、上記と同等のユーザー権限を持つアカウントを使用する必要があります。
 
 
 2.  トポロジ ビルダーを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server トポロジ ビルダー**\] の順にクリックします。
@@ -63,18 +53,8 @@ _**トピックの最終更新日:** 2012-06-28_
 
 次の手順を使用して、サーバーの構成を管理する Lync Server 2013 コントロール パネルを開きます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CsAdministrator 役割に割り当てられているユーザー アカウントを使用することで、Lync Server 2013 コントロール パネルのすべてのタスクを実行できます。特定の管理タスクを実行するには、実行する必要があるタスクに応じて、他の役割を使用して Lync Server 2013 コントロール パネルにログオンできます。たとえば、CSArchivingAdministrator を使用することで、Lync Server 2013 コントロール パネルのアーカイブを管理できます。役割の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。特定のタスクを実行する場合に使用できる役割の詳細については、該当タスクのドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> CsAdministrator 役割に割り当てられているユーザー アカウントを使用することで、Lync Server 2013 コントロール パネルのすべてのタスクを実行できます。特定の管理タスクを実行するには、実行する必要があるタスクに応じて、他の役割を使用して Lync Server 2013 コントロール パネルにログオンできます。たとえば、CSArchivingAdministrator を使用することで、Lync Server 2013 コントロール パネルのアーカイブを管理できます。役割の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。特定のタスクを実行する場合に使用できる役割の詳細については、該当タスクのドキュメントを参照してください。
 
 
 ## 組織のファイアウォールの内側にあるコンピューターから Lync Server 2013 コントロール パネルを開くには
@@ -99,19 +79,9 @@ _**トピックの最終更新日:** 2012-06-28_
 
 次の手順を使用して、コマンド ラインで環境内のサーバー、ユーザー、クライアント、およびデバイスを管理する Lync Server 2013 管理シェルを開きます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CsAdministrator 役割に割り当てられているユーザー アカウントを使用することで、Lync Server 2013 管理シェルのすべてのタスクを実行できます。特定の管理タスクを実行するには、実行する必要があるタスクに応じて、他の役割を使用してログオンできます。たとえば、CSArchivingAdministrator を使用することで、アーカイブ管理に管理するコマンドレットを実行できます。役割の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。特定のコマンドレットを実行する場合に使用できる役割の詳細については、該当コマンドレットのドキュメントを参照してください。<br />
-コマンドレットに応じて、RTCUniversalServerAdmins、RTCUniversalUserAdmins、または RTCUniversalReadOnlyAdmins の各グループのユーザー アカウントを使用して、特定のコマンドレットを実行することもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> CsAdministrator 役割に割り当てられているユーザー アカウントを使用することで、Lync Server 2013 管理シェルのすべてのタスクを実行できます。特定の管理タスクを実行するには、実行する必要があるタスクに応じて、他の役割を使用してログオンできます。たとえば、CSArchivingAdministrator を使用することで、アーカイブ管理に管理するコマンドレットを実行できます。役割の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。特定のコマンドレットを実行する場合に使用できる役割の詳細については、該当コマンドレットのドキュメントを参照してください。<br />
+> コマンドレットに応じて、RTCUniversalServerAdmins、RTCUniversalUserAdmins、または RTCUniversalReadOnlyAdmins の各グループのユーザー アカウントを使用して、特定のコマンドレットを実行することもできます。
 
 
 ## Lync Server 2013 管理シェルを開くには

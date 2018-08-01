@@ -64,18 +64,8 @@ Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server の
         > フェデレーション パートナーのエッジ サーバーを手動で構成すると、パートナーがエッジ サーバーの IP アドレスを変更したときにエラーが発生しやすくなります。
 
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>[<strong>新規 SIP フェデレーション ドメイン</strong>] については、Microsoft Lync Online、Microsoft Office 365 の [<strong>ドメイン名 (または FQDN)</strong> ] を指定する必要があります。Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server については、[<strong>アクセス エッジ サービス (FQDN)</strong> ] も指定する必要があります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > [<strong>新規 SIP フェデレーション ドメイン</strong>] については、Microsoft Lync Online、Microsoft Office 365 の [<strong>ドメイン名 (または FQDN)</strong> ] を指定する必要があります。Microsoft Lync Server 2013、Lync Server 2010、Office Communications Server については、[<strong>アクセス エッジ サービス (FQDN)</strong> ] も指定する必要があります。
     
       - 検出済みのパートナーのフェデレーションの場合、パートナーがこちらのエッジ サーバーを検出できますが、エッジ サーバーのポート 5061 およびホスト (A) レコードをポイントする SRV レコードを、こちらの外部 DNS に作成します (\_sipfederationtls.\_tcp.contoso.com)。
         

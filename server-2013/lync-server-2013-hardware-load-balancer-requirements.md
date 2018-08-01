@@ -29,32 +29,12 @@ Lync Server 2013の拡張統合エッジ トポロジは、主に Lync Server �
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ロード バランザー機器を使用している場合は、内部ネットワークとの接続用に展開されているロード バランザーを構成して、アクセス エッジ サービスおよび音声ビデオ サービスを実行しているサーバーへのトラフィックのみを負荷分散する必要があります。内部の Web 会議エッジ サービスまたは内部 XMPP プロキシ サービスへのトラフィックを負荷分散することはできません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ロード バランザー機器を使用している場合は、内部ネットワークとの接続用に展開されているロード バランザーを構成して、アクセス エッジ サービスおよび音声ビデオ サービスを実行しているサーバーへのトラフィックのみを負荷分散する必要があります。内部の Web 会議エッジ サービスまたは内部 XMPP プロキシ サービスへのトラフィックを負荷分散することはできません。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013では、Direct Server Return (DSR) NAT はサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013では、Direct Server Return (DSR) NAT はサポートされていません。
 
 
 ご使用のロード バランサー機器が Lync Server 2013で必要な機能をサポートしているかどうかを確認するには、「Lync Server 2010 Load Balancer Partners」([http://go.microsoft.com/fwlink/?linkid=202452\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=202452%26clcid=0x411)) を参照してください。
@@ -77,18 +57,8 @@ Lync Server 2013の拡張統合エッジ トポロジは、主に Lync Server �
 
 Cookie ベースのアフィニティ要件は、Web サービス用の Lync Server 2013では大幅に減っています。Lync Server 2013を展開していて、Lync Server 2010フロント エンド サーバーまたは フロント エンド プールを保持しない場合、Cookie ベースの永続性は不要です。しかし、一時的、または恒久的にすべての Lync Server 2010フロント エンド サーバーまたは フロント エンド プールを保持する場合でも、Cookie ベースの永続性を、現状の Lync Server 2010 用に展開され構成されたまま使用できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>展開では不要だが、Cookie ベースのアフィニティを使用する場合でも</strong>、悪影響はありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>展開では不要だが、Cookie ベースのアフィニティを使用する場合でも</strong>、悪影響はありません。
 
 
 Cookie ベースのアフィニティを **使用しない**展開の場合
@@ -107,18 +77,8 @@ Cookie ベースのアフィニティを **使用する**展開の場合
 
   - ロード バランサー機器着信 HTTP 要求に Cookie が含まれていなかったすべての HTTP 応答に Cookie が設定されていること。同じ TCP 接続での以前の HTTP 応答で Cookie が既に取得されているかどうかは関係ありません。ロード バランサーによって、Cookie の挿入が TCP 接続ごとに 1 回のみ行われるように最適化されている場合は、その最適化を使用しないでください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>通常のロード バランサー機器構成では、送信元アドレス アフィニティおよび 20 分の TCP セッション有効期限が使用されます。これは、Lync Server および Lync 2013 クライアントに適しています。セッション状態がクライアントの使用状況またはアプリケーションのやりとりによって維持されるためです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 通常のロード バランサー機器構成では、送信元アドレス アフィニティおよび 20 分の TCP セッション有効期限が使用されます。これは、Lync Server および Lync 2013 クライアントに適しています。セッション状態がクライアントの使用状況またはアプリケーションのやりとりによって維持されるためです。
 
 
 モバイル デバイスを展開する場合、ロード バランサー機器で、TCP セッション内の個々の要求を負荷分散できるようにする必要があります (実際には、ターゲット IP アドレスに基づいて個々の要求を負荷分散できる必要があります)。

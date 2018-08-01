@@ -49,18 +49,8 @@ Lync Server 管理シェルで Windows PowerShell コマンドレット **Move-C
 
 4.  \[ **コマンドの実行**\] ページで、SQL Server Express が 中央管理サーバーとしてインストールされます。必要なファイアウォール規則が作成されます。データベースと必要なソフトウェアのインストールが完了したら、\[ **完了**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>最初のインストールには少し時間がかかります。この際、コマンド出力の概要画面が更新されることはありません。これは、SQL Server Express がインストールされるためです。データベースのインストールの進行状況を監視する必要がある場合は、タスク マネージャーを使用してセットアップを監視してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 最初のインストールには少し時間がかかります。この際、コマンド出力の概要画面が更新されることはありません。これは、SQL Server Express がインストールされるためです。データベースのインストールの進行状況を監視する必要がある場合は、タスク マネージャーを使用してセットアップを監視してください。
 
 
 5.  Lync Server 2013 Standard Edition フロント エンド サーバーで新しい 中央管理ストアを作成するには、Lync Server 管理シェルで次のコマンドを入力します。
@@ -107,18 +97,8 @@ Lync Server 管理シェルで Windows PowerShell コマンドレット **Move-C
     
         Get-CsManagementStoreReplicationStatus
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>レプリケーションが現在のすべてのレプリカを更新するには、少し時間がかかる場合があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > レプリケーションが現在のすべてのレプリカを更新するには、少し時間がかかる場合があります。
 
 
 ## 移動後に Lync Server 2010中央管理ストア ファイルを削除するには

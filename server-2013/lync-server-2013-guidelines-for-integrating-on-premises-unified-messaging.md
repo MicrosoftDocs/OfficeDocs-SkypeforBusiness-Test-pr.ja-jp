@@ -59,25 +59,10 @@ _**トピックの最終更新日:** 2016-12-08_
 
 例 1 では、Exchange UM サーバー 1 と 2 は Tukwila のデータ センターで有効化されています。Exchange UM サーバー 3 と 4 は Dublin のデータ センターで有効化されています。Tukwila で Exchange UM サーバーが停止した場合、サーバー 1 と 2 のドメイン ネーム システム (DNS) A レコードを、サーバー 3 と 4 それぞれに向くよう、構成します。Dublin で Exchange UM サーバーが停止した場合、サーバー 3 と 4 の DNS A レコードを、サーバー 1 と 2 それぞれに向くよう、構成します。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>例 1 の場合はまた、それぞれの Exchange UM サーバーで次の証明書のうちの 1 つを割り当てます。
-<ul>
-<li><p>サブジェクト名の別名 (SAN) に、ワイルドカードの証明書を使用します。</p></li>
-<li><p>SAN に 4 台の Exchange UM サーバーそれぞれの完全修飾ドメイン名 (FQDN) を使用します。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> 例 1 の場合はまた、それぞれの Exchange UM サーバーで次の証明書のうちの 1 つを割り当てます。
+> <ul><li><p>サブジェクト名の別名 (SAN) に、ワイルドカードの証明書を使用します。</p></li>
+> <li><p>SAN に 4 台の Exchange UM サーバーそれぞれの完全修飾ドメイン名 (FQDN) を使用します。</p></li></ul>
 
 
 **例 2:Exchange UM の復元性**

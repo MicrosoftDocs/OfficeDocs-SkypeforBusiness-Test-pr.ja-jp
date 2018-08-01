@@ -21,16 +21,6 @@ Lync Server 2013 のセットアップには、証明書ウィザードが含ま
 
 「展開」のドキュメントには、セットアップ プロセスで証明書ウィザードを使用して証明書を要求するための手順が示されています。この「展開」のドキュメントの各セクション (「[Lync Server 2013 でのサーバーの証明書の構成](lync-server-2013-configure-certificates-for-servers.md)」、「[Lync Server 2013 でのディレクターの証明書の構成](lync-server-2013-configure-certificates-for-the-director.md)」、および「[Lync Server 2013 仲介サーバーのファイルのインストール](lync-server-2013-install-the-files-for-mediation-server.md)」) を参照してください。事前に証明書を要求する場合は、上記の各セクションの証明書の展開手順を必要に応じて変更し、展開時には証明書を要求するのではなくインポートして割り当てるようにします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 は、 Windows Vista、 Windows Server 2008、 Windows Server 2008 R2、および Windows 7 オペレーティング システムと Lync Phone Edition を実行しているクライアントからの接続のための SHA-256 証明書のサポートを含んでいます。SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 は、 Windows Vista、 Windows Server 2008、 Windows Server 2008 R2、および Windows 7 オペレーティング システムと Lync Phone Edition を実行しているクライアントからの接続のための SHA-256 証明書のサポートを含んでいます。SHA-256 を使用する外部アクセスをサポートするには、SHA-256 を使用するパブリック CA が外部証明書を発行する必要があります。
 

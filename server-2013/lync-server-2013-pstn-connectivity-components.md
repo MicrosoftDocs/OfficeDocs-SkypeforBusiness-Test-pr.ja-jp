@@ -45,18 +45,8 @@ PSTN ゲートウェイは、エンタープライズ VoIP インフラストラ
 
   - 時分割多重 (TDM) PBX とスタンドアロンの PSTN ゲートウェイ。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server (英語)」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。マイクロソフトでは、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server (英語)」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。
 
 
 エンタープライズ VoIP ソリューションを提供しているパートナーの詳細については、Microsoft 統合コミュニケーション パートナーの Web サイト ( [http://go.microsoft.com/fwlink/?linkid=202836\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=202836%26clcid=0x411)) を参照してください。

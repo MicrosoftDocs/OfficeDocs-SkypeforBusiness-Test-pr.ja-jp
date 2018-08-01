@@ -37,32 +37,12 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ![部門別移行オプションの図](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "部門別移行オプションの図")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server の展開を、認定された直接 SIP パートナーに接続する場合は、仲介サーバーと PBX 間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。認定された直接 SIP パートナーの一覧については、Microsoft Unified Communications Open Interoperability Program の Web サイト (<a href="http://go.microsoft.com/fwlink/?linkid=203309%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=203309&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server の展開を、認定された直接 SIP パートナーに接続する場合は、仲介サーバーと PBX 間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。認定された直接 SIP パートナーの一覧については、Microsoft Unified Communications Open Interoperability Program の Web サイト (<a href="http://go.microsoft.com/fwlink/?linkid=203309%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=203309&amp;clcid=0x411</a>) を参照してください。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この図に示されたメディア パスは、メディア バイパスを有効にしています (推奨される構成)。メディア パスを無効にした場合、メディア パスは 仲介サーバー経由でルーティングされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この図に示されたメディア パスは、メディア バイパスを有効にしています (推奨される構成)。メディア パスを無効にした場合、メディア パスは 仲介サーバー経由でルーティングされます。
 
 
 このトポロジでは、一部の部門またはワークグループで エンタープライズ VoIP を有効にします。VoIP (Voice over Internet Protocol) 対応のワークグループを PSTN ゲートウェイによって PBX にリンクします。リモート作業者などの エンタープライズ VoIP 対応のユーザーは、IP ネットワークを介して通信します。エンタープライズ VoIP ユーザーによる PSTN の呼び出しや、エンタープライズ VoIP に対応していない同僚の呼び出しはそれぞれ、適切な PSTN ゲートウェイにルーティングされます。PBX システムを使用している同僚または PSTN を使用する発信者からの通話は、PSTN ゲートウェイにルーティングされ、そこから Lync Server に転送されてルーティングされます。
@@ -113,18 +93,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 この展開では、すべての通話が IP ネットワークを介してルーティングされます。PSTN への通話は、適切な PSTN ゲートウェイにルーティングされます。Lync 2013 または Lync Phone Edition は、Softphone の役割を果たします。ユーザーが制御する PBX 電話はないため、リモート通話コントロールは使用不能であり、また不要です。ボイス メール サービスと自動応答サービスは、Exchange ユニファイド メッセージング (UM) を任意で展開することによって提供できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>VoIP のみの展開では、Lync Server 2013 をサポートするために必要なネットワーク インフラストラクチャを構築するだけでなく、さらに小型の認定ゲートウェイを使用すると、FAX 機器やアナログ デバイスなどもサポートできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> VoIP のみの展開では、Lync Server 2013 をサポートするために必要なネットワーク インフラストラクチャを構築するだけでなく、さらに小型の認定ゲートウェイを使用すると、FAX 機器やアナログ デバイスなどもサポートできます。
 
 
 次の図は、VoIP のみの展開の一般的なトポロジを示しています。
@@ -133,16 +103,6 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ![Greenfield 展開オプション](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Greenfield 展開オプション")
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この図に示されたメディア パスは、メディア バイパスを有効にしています (推奨される構成)。メディア パスを無効にした場合、メディア パスは 仲介サーバー経由でルーティングされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この図に示されたメディア パスは、メディア バイパスを有効にしています (推奨される構成)。メディア パスを無効にした場合、メディア パスは 仲介サーバー経由でルーティングされます。
 

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync Server 2013 では、サーバー プラットフォーム用のハードウェアおよびオペレーティング システムの要件のほか、展開するサーバーに対して追加ソフトウェアをインストールする必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server を実行するサーバーのプラットフォームの要件の詳細については、「<a href="lync-server-2013-server-hardware-platforms.md">Lync Server 2013　用のサーバー ハードウェア プラットフォーム</a>」および「<a href="lync-server-2013-server-and-tools-operating-system-support.md">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</a>」を参照してください。クライアント コンピューターおよびデバイスのシステム要件の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-clients-and-devices.md">Lync Server 2013 のクライアントとデバイスの計画</a>」を参照してください。管理ツールのソフトウェア要件の詳細については、「<a href="lync-server-2013-administrative-tools-software-requirements.md">Lync Server 2013 の管理ツールのソフトウェア要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server を実行するサーバーのプラットフォームの要件の詳細については、「<a href="lync-server-2013-server-hardware-platforms.md">Lync Server 2013　用のサーバー ハードウェア プラットフォーム</a>」および「<a href="lync-server-2013-server-and-tools-operating-system-support.md">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</a>」を参照してください。クライアント コンピューターおよびデバイスのシステム要件の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-clients-and-devices.md">Lync Server 2013 のクライアントとデバイスの計画</a>」を参照してください。管理ツールのソフトウェア要件の詳細については、「<a href="lync-server-2013-administrative-tools-software-requirements.md">Lync Server 2013 の管理ツールのソフトウェア要件</a>」を参照してください。
 
 
 ## すべての内部サーバーの役割に必要な追加ソフトウェア

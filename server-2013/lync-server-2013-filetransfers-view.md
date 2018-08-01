@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 FileTranfer ビューには、ピアツーピア ファイル送信セッションに関する情報が格納されます。このビューは、Microsoft Lync Server 2013 で導入されました。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>FileTransfers ビューには、以下の列に加えて、<a href="lync-server-2013-sessiondetails-view.md">SessionDetails ビュー</a>のすべての列が含まれます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> FileTransfers ビューには、以下の列に加えて、<a href="lync-server-2013-sessiondetails-view.md">SessionDetails ビュー</a>のすべての列が含まれます。
 
 
 

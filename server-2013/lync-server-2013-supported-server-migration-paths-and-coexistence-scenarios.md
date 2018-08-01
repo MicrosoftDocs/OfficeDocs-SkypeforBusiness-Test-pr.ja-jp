@@ -51,18 +51,8 @@ Lync Server 2013 のデータベース インスタンスには、Microsoft SQL 
 
 トポロジ ビルダーでは、この問題について知らせるために、"SQL Server '\[サーバーの FQDN\]' には、役割 'ユーザー ストア' をホストする SQL インスタンスが既に存在します。" というメッセージが表示されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 展開に新しいサーバー役割を展開する予定がある場合は、最初に「移行」のドキュメントおよび「展開」のドキュメントの説明に従って既存の展開をアップグレードしてから、「計画」のドキュメントおよび「展開」のドキュメントの説明に従って新しいサーバー役割を展開します。以前のバージョンのグループ チャットを移行する場合は、Lync Server 2010 または Office Communications Server 2007 R2 から他のすべてのコンポーネントを移行する作業が完了した後で、最後に移行してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 展開に新しいサーバー役割を展開する予定がある場合は、最初に「移行」のドキュメントおよび「展開」のドキュメントの説明に従って既存の展開をアップグレードしてから、「計画」のドキュメントおよび「展開」のドキュメントの説明に従って新しいサーバー役割を展開します。以前のバージョンのグループ チャットを移行する場合は、Lync Server 2010 または Office Communications Server 2007 R2 から他のすべてのコンポーネントを移行する作業が完了した後で、最後に移行してください。
 
 
 Lync Server 2010 または Office Communications Server 2007 R2 と Lync Server 2013 のコンポーネントの共存と移行に関する具体的な共存の要件やその他の詳細については、「移行」のドキュメントの「[Lync Server 2010 から Lync Server 2013 への移行](migration-from-lync-server-2010-to-lync-server-2013.md)」および「[Office Communications Server 2007 R2 から Lync Server 2013 への移行](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)」を参照してください。クライアントの混在バージョン サポートの詳細については、「[Lync Server 2013 で以前の展開からサポートされるクライアント](lync-server-2013-supported-clients-from-previous-deployments.md)」を参照してください。

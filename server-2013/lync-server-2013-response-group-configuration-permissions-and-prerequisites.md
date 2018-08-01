@@ -110,18 +110,8 @@ _**トピックの最終更新日:** 2016-12-08_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>(1)</strong> Active Directory ドメイン サービス のユーザー オブジェクトは、この表に掲載された指定の Active Directory セキュリティ グループのメンバーである必要があります。管理者、またはユーザーをセキュリティ グループに追加するための適切なアクセス許可を持つその他の委任された Active Directory グループ メンバー (Administrator、Account Operators など) は、掲載されたセキュリティ グループ、または掲載された機能をユーザーが実行できるグループにユーザー オブジェクトを追加する必要があります。<strong>(2)</strong> CsResponseGroupAdministrator が CsResponseGroupManager に割り当てたワークフローのみ。<strong>(3)</strong> 応答グループ マネージャーは、CsResponseGroupManager の他のメンバーを、現在のマネージャーが既に管理しているワークフローに割り当てることができます。<strong>(4)</strong> CsViewOnlyAdministrator は、動詞 &quot;Get&quot; の Lync Server 管理シェル コマンドレットのみを実行できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>(1)</strong> Active Directory ドメイン サービス のユーザー オブジェクトは、この表に掲載された指定の Active Directory セキュリティ グループのメンバーである必要があります。管理者、またはユーザーをセキュリティ グループに追加するための適切なアクセス許可を持つその他の委任された Active Directory グループ メンバー (Administrator、Account Operators など) は、掲載されたセキュリティ グループ、または掲載された機能をユーザーが実行できるグループにユーザー オブジェクトを追加する必要があります。<strong>(2)</strong> CsResponseGroupAdministrator が CsResponseGroupManager に割り当てたワークフローのみ。<strong>(3)</strong> 応答グループ マネージャーは、CsResponseGroupManager の他のメンバーを、現在のマネージャーが既に管理しているワークフローに割り当てることができます。<strong>(4)</strong> CsViewOnlyAdministrator は、動詞 &quot;Get&quot; の Lync Server 管理シェル コマンドレットのみを実行できます。
 
 
 ## 応答グループ構成の前提条件
@@ -178,18 +168,8 @@ Web.config ファイルを変更するには、以下の手順を実行します
 
 このセクションは、組織で Yi、Meng、または Zang の文字をサポートする必要がある場合に参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Yi、Meng、および Zang 文字の詳細、およびこれらの文字が展開において重要となる理由については、GB18030 文字セットについての情報 (<a href="http://go.microsoft.com/fwlink/?linkid=240223%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=240223&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Yi、Meng、および Zang 文字の詳細、およびこれらの文字が展開において重要となる理由については、GB18030 文字セットについての情報 (<a href="http://go.microsoft.com/fwlink/?linkid=240223%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=240223&amp;clcid=0x411</a>) を参照してください。
 
 
 Yi、Meng、または Zang の文字をサポートするには、Rgsconfig データベースの照合順序を変更する必要があります。 各 Rgsconfig データベースの以下の表にある \[**名前**\] 列の照合順序を変更します。

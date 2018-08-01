@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2012-09-13_
 
 IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電話からの通話を保留できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>音声通話だけを保留できます。インスタント メッセージと電話会議は保留できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 音声通話だけを保留できます。インスタント メッセージと電話会議は保留できません。
 
 
 次のクライアントは コール パーク を使用して通話を保留できます。
@@ -45,18 +35,8 @@ IP、構内交換機 (PBX)、公衆交換電話網 (PSTN)、または携帯電�
 
   - Lync Phone Edition
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>携帯電話では コール パーク を使用して通話を保留できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 携帯電話では コール パーク を使用して通話を保留できません。
 
 
 ## 通話の取得をサポートするクライアント

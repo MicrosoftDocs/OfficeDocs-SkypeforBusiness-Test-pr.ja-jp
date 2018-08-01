@@ -47,16 +47,6 @@ _**トピックの最終更新日:** 2012-01-16_
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Filter パラメーターに *SiteName を指定すると、指定したサイト名がサイト ID に含まれるすべてのサイトの情報が戻されます (サイト ID に Redmond という文字列が含まれるすべてのサイトなど)。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > Filter パラメーターに *SiteName を指定すると、指定したサイト名がサイト ID に含まれるすべてのサイトの情報が戻されます (サイト ID に Redmond という文字列が含まれるすべてのサイトなど)。
 

@@ -25,18 +25,8 @@ Lync Server がネットワーク内でクライアントに場所を自動的�
 
 これらのタスクを実行する方法の詳細については、「展開」のドキュメントの「[場所データベースの構成](lync-server-2013-configure-the-location-database.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>中央の場所データベースに追加された場所は、 Lync Server 管理シェル コマンドを使用してそれらが公開され、プールのローカル ストアに複製されるまで、クライアントからは使用できません。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-publish-the-location-database.md">場所データベースの公開</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 中央の場所データベースに追加された場所は、 Lync Server 管理シェル コマンドを使用してそれらが公開され、プールのローカル ストアに複製されるまで、クライアントからは使用できません。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-publish-the-location-database.md">場所データベースの公開</a>」を参照してください。
 
 
 このセクションでは、場所データベースの更新および保守の計画を立てるときに考慮する必要のある事項を説明します。

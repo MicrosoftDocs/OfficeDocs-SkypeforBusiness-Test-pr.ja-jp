@@ -23,18 +23,8 @@ XMPP フェデレーションは、XMPP (eXtensible Messaging and Presence Proto
 
 XMPP (eXtensible Messaging and Presence Protocol) フェデレーション パートナーをサポートするためにポリシーを構成する場合、ポリシーは XMPP フェデレーション ドメインのユーザーには適用されますが、セッション開始プロトコル (SIP) インスタント メッセージング (IM) サービス プロバイダー (たとえば、Windows Live)、または SIP フェデレーション ドメインのユーザーには適用されません。XMPP フェデレーション パートナーは、ユーザーが連絡先を追加して通信することを許可する XMPP フェデレーション ドメインごとに構成します。ポリシーを設定した後、XMPP ゲートウェイ証明書を構成する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>XMPP ゲートウェイの移行を開始するには、 Lync Server 2013 XMPP ゲートウェイを展開して、 Lync Server 2013 XMPP ゲートウェイでユーザーを有効にするためにアクセス ポリシーを構成する必要があります。これらの手順を行う前に、すべてのユーザーを Lync Server 2013 展開に移動する必要があります。詳細については、「 <a href="configure-xmpp-gateway-on-lync-server-2013.md">Lync Server 2013 の XMPP ゲートウェイの構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> XMPP ゲートウェイの移行を開始するには、 Lync Server 2013 XMPP ゲートウェイを展開して、 Lync Server 2013 XMPP ゲートウェイでユーザーを有効にするためにアクセス ポリシーを構成する必要があります。これらの手順を行う前に、すべてのユーザーを Lync Server 2013 展開に移動する必要があります。詳細については、「 <a href="configure-xmpp-gateway-on-lync-server-2013.md">Lync Server 2013 の XMPP ゲートウェイの構成</a>」を参照してください。
 
 
 ## Lync Server 2013 XMPP ゲートウェイでユーザーを有効にするために外部アクセス ポリシーを構成する

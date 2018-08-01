@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-01-02_
 
 トポロジを定義して構成する前に、中央管理サーバーをインストールする場所を定義する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>この定義は、トポロジ ビルダーでトポロジを公開するまで有効になりません。トポロジを作成して公開する前に 中央管理サーバーを設定するには、<strong>Set-CSConfigurationStoreLocation</strong> を実行します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> この定義は、トポロジ ビルダーでトポロジを公開するまで有効になりません。トポロジを作成して公開する前に 中央管理サーバーを設定するには、<strong>Set-CSConfigurationStoreLocation</strong> を実行します。
 
 
 ## 中央管理サーバーを選択するには

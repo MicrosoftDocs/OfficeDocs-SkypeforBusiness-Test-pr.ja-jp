@@ -41,34 +41,14 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - **ポート 5075**   SIP リッスン要求に使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更できます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更できます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
 
 
 ## オーディオ ファイルの要件
 
 コール パーク アプリケーションでは、保留音として Windows Media Audio (.wma) ファイルのみがサポートされています。保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。Expression Encoder 4 のダウンロードについては、[http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843) の "Expression Encoder 4" を参照してください。このツールを使用すると、ファイルを WMA 形式に変換できます。コール パークの保留音ファイルとしての推奨形式は Media Audio 9、44 kHz、16 ビット、モノラル、CBR、32 kbps です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>変換されたファイルは、44 kHz で録音された場合でも、電話では 16 kHz でのみ再生されます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 変換されたファイルは、44 kHz で録音された場合でも、電話では 16 kHz でのみ再生されます。
 

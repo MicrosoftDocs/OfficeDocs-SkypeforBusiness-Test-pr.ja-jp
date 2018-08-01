@@ -33,18 +33,8 @@ Lync Server 2013 は、次のデータベース管理システムをサポート
         
         フロント エンド サーバー および Standard Edition サーバー での Microsoft SQL Server へのパッチ適用およびアップグレードをサポートしています。ただし、フロント エンド サーバー で何らかの種類のアップグレードまたはパッチを行う場合は、クォーラム要件を考慮する必要があります。詳細については、「[Lync Server 2013 でのフロントエンド サーバーのアップグレードまたは更新](lync-server-2013-upgrade-or-update-front-end-servers.md)」および「[Lync Server 2013 フロントエンド サーバー、インスタント メッセージングおよびプレゼンスのトポロジおよびコンポーネント](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft SQL Server 2012 Express (64 ビット版) は、Lync Server 2013 によって、各 Standard Edition サーバーと各 フロント エンド サーバー サーバーに自動的にインストールされます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Microsoft SQL Server 2012 Express (64 ビット版) は、Lync Server 2013 によって、各 Standard Edition サーバーと各 フロント エンド サーバー サーバーに自動的にインストールされます。
 
 
 

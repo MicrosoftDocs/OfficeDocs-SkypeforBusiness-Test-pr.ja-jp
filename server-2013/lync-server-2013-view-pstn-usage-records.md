@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 4.  \[**PSTN 使用法**\] ページで、表示する PSTN 使用法レコードを選択状態にし、\[**編集**\] をクリックして、\[**詳細の表示**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>選択した PSTN 使用法レコードの読み取り専用ページに、関連付けられたルートと関連付けられた音声ポリシーが表示されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 選択した PSTN 使用法レコードの読み取り専用ページに、関連付けられたルートと関連付けられた音声ポリシーが表示されます。
 
 
 ## Windows PowerShell コマンドレットを使用した PSTN 使用法の表示

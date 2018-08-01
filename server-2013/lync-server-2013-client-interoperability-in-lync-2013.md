@@ -144,18 +144,8 @@ Lync Server 2013 リリースでは、ピアツーピアと会議の両方のシ
 
 次の表は、クライアントが Lync Server 2013 または Lync Server 2010 にサインインした場合にピアツーピア セッションで使用できる機能の比較です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Web App と Lync 2010 Attendee は会議専用クライアントで、この表には含まれていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Web App と Lync 2010 Attendee は会議専用クライアントで、この表には含まれていません。
 
 
 
@@ -402,18 +392,8 @@ Lync Server 2013 の会議では、さまざまなバージョンのサーバー
 
   - **Office Communicator 2007 R2 の会議アドイン** は、Office Live Meeting の会議と Office Communicator 2007 R2 の会議の両方のスケジューリングを提供します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、Live Meeting の会議をスケジュールできません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、Live Meeting の会議をスケジュールできません。
 
 
 

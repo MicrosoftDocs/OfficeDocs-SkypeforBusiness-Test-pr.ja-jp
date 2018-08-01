@@ -45,18 +45,8 @@ SIP トランキングを実装するには、仲介サーバーを介して通�
 
 集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。必要のない場合にも分散型展開モードを選択した方が有益な場合があります。完全な集中型展開では、すべてのブランチ サイトのトラフィックが WAN リンク経由でルーティングされます。WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>分散型 SIP トランキングを使用する理由と方法の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 のブランチ サイトの SIP トランキング</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 分散型 SIP トランキングを使用する理由と方法の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 のブランチ サイトの SIP トランキング</a>」を参照してください。
 
 
 ## サポートされている SIP トランキング接続の種類

@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2012-10-19_
 
   - ユニファイド メッセージング ハント グループに追加します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Get-CsExUmContact</strong> および <strong>Move-CsExUmContact</strong> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <strong>Grant-OUPermission</strong> コマンドレットを使用して付与できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>Get-CsExUmContact</strong> および <strong>Move-CsExUmContact</strong> コマンドレットを使用するには、RTCUniversalUserAdmins グループのメンバーであり、連絡先オブジェクトを格納する組織単位 (OU) に対する OU アクセス許可を持っている必要があります。OU アクセス許可は <strong>Grant-OUPermission</strong> コマンドレットを使用して付与できます。
 
 
 ## Lync Server 管理シェルを使用して連絡先オブジェクトを移動するには

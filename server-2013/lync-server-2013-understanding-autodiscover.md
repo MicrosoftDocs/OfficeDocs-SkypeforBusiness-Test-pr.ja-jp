@@ -23,32 +23,12 @@ Lync Server 2013 では、自動検出は、どの要素、機能、および通
 
 自動検出応答ドキュメントを通して Web サービスが機能をクライアントに通知する方法など、自動検出応答ドキュメントを理解する最適な方法は、Lync Web サービスの自動検出応答ドキュメントの一般的な応答の各行を調査し定義することです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>後の詳細情報では、ユーザーは、認証要求に応答することによりホーム サーバーを既に認証しています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 後の詳細情報では、ユーザーは、認証要求に応答することによりホーム サーバーを既に認証しています。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 自動検出 Web サービスは、<strong>Microsoft Developer Network</strong> (MSDN) ライブラリの「<strong>Open Specifications</strong>」セクションの「<strong>Microsoft Office Protocols</strong>」で定義されています。詳細については、完全な仕様のドキュメント「Lync Autodiscover Web Service Protocol」(<a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>) を参照してください。認証の詳細については、「OC Authentication Web Service Protocol」(<a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync 自動検出 Web サービスは、<strong>Microsoft Developer Network</strong> (MSDN) ライブラリの「<strong>Open Specifications</strong>」セクションの「<strong>Microsoft Office Protocols</strong>」で定義されています。詳細については、完全な仕様のドキュメント「Lync Autodiscover Web Service Protocol」(<a href="http://go.microsoft.com/fwlink/?linkid=273839" class="uri">http://go.microsoft.com/fwlink/?linkid=273839</a>) を参照してください。認証の詳細については、「OC Authentication Web Service Protocol」(<a href="http://go.microsoft.com/fwlink/?linkid=279015" class="uri">http://go.microsoft.com/fwlink/?linkid=279015</a>) を参照してください。
 
 
 ## Lync Server Web サービスの自動検出応答

@@ -37,16 +37,6 @@ Lync Server 2013 は、Exchange UM 統合で次のトポロジをサポートし
 
   - 複数のフォレスト (すなわち、リソース フォレスト)。Lync Server 2013 が、単一フォレストに展開され、その後、ユーザーが複数のフォレストに分散されます。ユーザーの Exchange UM 属性を、Lync Server 2013 フォレストにレプリケートする必要があります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Exchange は複数のフォレストに展開できます。各 Exchange 組織が Exchange UM をそのユーザーに提供するか、または Exchange UM を Lync Server 2013 と同じフォレストに展開できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Exchange は複数のフォレストに展開できます。各 Exchange 組織が Exchange UM をそのユーザーに提供するか、または Exchange UM を Lync Server 2013 と同じフォレストに展開できます。
 

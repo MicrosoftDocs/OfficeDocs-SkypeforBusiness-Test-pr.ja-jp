@@ -31,18 +31,8 @@ Lync Server 2013 の展開プロセスを開始する前に、次のことを計
 
 PSTN ゲートウェイは、中央サイトまたはブランチ サイトに展開できます。 ブランチ サイトでは、PSTN ゲートウェイは、スタンドアロンの場合と存続可能ブランチ アプライアンスのコンポーネントの場合があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>音声ビデオ会議サーバーではメディア バイパスをサポートしていないため、ダイヤルイン会議ではメディア バイパスは使用されません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 音声ビデオ会議サーバーではメディア バイパスをサポートしていないため、ダイヤルイン会議ではメディア バイパスは使用されません。
 
 
 ダイヤルイン会議のための仲介サーバーと PSTN ゲートウェイの構成の計画の詳細については、「計画」のドキュメントの「[Lync Server 2013 の仲介サーバーのコンポーネントとトポロジ](lync-server-2013-components-and-topologies-for-mediation-server.md)」を参照してください。

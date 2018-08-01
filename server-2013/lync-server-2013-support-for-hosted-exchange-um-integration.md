@@ -27,18 +27,8 @@ Lync Server 2013 ExUM ルーティング アプリケーションは、社内環
 
   - **混合型モード**Lync Server 2013 展開に社内の Microsoft Exchange Server を実行するローカル サーバーに属するユーザー メールボックスも、Hosted Exchange サービス データ センターに属するメールボックスも存在します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>混合型モードは、評価のため段階的にホスト型 Exchange UM にユーザーを移行する間の暫定的なソリューションとして、または、他のユーザーを移行した後に、一部のユーザーの Exchange UM サービスを内部設置型とする場合の恒久的なソリューションとして使用できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 混合型モードは、評価のため段階的にホスト型 Exchange UM にユーザーを移行する間の暫定的なソリューションとして、または、他のユーザーを移行した後に、一部のユーザーの Exchange UM サービスを内部設置型とする場合の恒久的なソリューションとして使用できます。
 
 
 Lync Server 2013 とホスト型 Exchange UM を統合するには、 *共有 SIP アドレス スペース* ( *分割ドメイン* ) を構成する必要があります。この構成では、 Lync Server 2013 とサードパーティ両方のホスト型 Exchange UM サービス プロバイダーが同じ SIP ドメイン アドレス スペースにアクセスできます。詳細については、「計画」のドキュメントの「[Lync Server 2013 の Hosted Exchange UM 統合のアーキテクチャ](lync-server-2013-hosted-exchange-um-integration-architecture.md)」を参照してください。
