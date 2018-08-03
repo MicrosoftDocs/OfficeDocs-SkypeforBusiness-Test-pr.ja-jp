@@ -46,7 +46,7 @@ _**トピックの最終更新日:** 2012-09-21_
       - ローカルに保存されたスキャン結果の一覧からレポートを表示するには、スキャンの名前をクリックし、\[**このスキャンのレポートを表示する**\] をクリックします。
         
         > [!NOTE]  
-		> ベスト プラクティス アナライザーにより、フォルダー <em>&lt;systemDrive&gt;</em>\Documents and Settings\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA にあるローカル ファイルの一覧が作成されます。
+		> ベスト プラクティス アナライザーにより、フォルダー <em>&lt;systemDrive&gt;</em>\Documents and Settings\\<em>&lt;user&gt;</em>\Application Data\Microsoft\RtcBPA にあるローカル ファイルの一覧が作成されます。
         
     
       - 別の場所に保存されているスキャンの結果のレポートを表示するには、\[**スキャンのインポート**\] をクリックし、スキャン結果を含むファイルを特定して \[**開く**\] をクリックします。
