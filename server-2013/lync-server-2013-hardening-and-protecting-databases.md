@@ -33,18 +33,8 @@ Standard Edition サーバー以外の Lync Server 2013 サーバーでは、SQL
     
       - Lync Server 2013 では TCP/IP プロトコルを使用します。IP version 4 (IPv4) をサポートし、IP version 6 (IPv6) はサポートしません。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Lync Server 2013 は、デュアル IP スタックが有効になっているネットワークで動作できます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > Lync Server 2013 は、デュアル IP スタックが有効になっているネットワークで動作できます。
     
       - Lync Server 2013 は複数の IP アドレス (マルチホーム ネットワーク アドレス カード) をサポートします。SQL Server が特定の IP アドレス (個別のアドレスまたはサブネット単位) のみをリッスンすることや、特定のプロトコルのみを使用することを指定できます。
     

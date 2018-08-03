@@ -156,7 +156,7 @@ Lync Server 2013 の内部展開のインストールと構成が終わると、
 <td><p>会議や電話会議への匿名ユーザー アクセス</p></td>
 <td><p></p></td>
 <td><p><a href="lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md">Lync Server 2013 での匿名ユーザー サポートのための会議ポリシーの割り当て</a></p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 >「<a href="lync-server-2013-create-or-modify-a-conferencing-policy.md">Lync Server 2013 での会議ポリシーの作成または変更</a>」および「<a href="lync-server-2013-conferencing-policy-settings-reference.md">Lync Server 2013 での会議ポリシー設定の参照</a>」に説明されている、[電話会議ポリシー] の構成設定も考慮する必要があります。

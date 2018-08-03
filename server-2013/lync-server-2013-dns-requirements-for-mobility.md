@@ -94,7 +94,7 @@ DNS レコードは、CNAME レコードまたは A (ホスト) レコードと�
 <td><p>_sipfederationtls._tcp. &lt;sipdomain&gt;</p>
 <p>アクセス エッジ サービスのホスト (A または AAAA) レコードに解決</p></td>
 <td><p>プッシュ通知サービス と Apple プッシュ通知サービス をサポートするには、Microsoft Lync Mobile クライアントを持つ各 SIP ドメイン対して 1 つの SRV レコードを作成します。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > この要件は、Apple または Microsoft ベースのモバイル デバイス上の Microsoft Lync Mobile クライアントのみに適用されます。Andriod および Nokia Symbian デバイスはプッシュ通知を使用しません。

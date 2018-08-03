@@ -39,18 +39,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
     
       - 内部 DNS レコードの場合、DNS サーバーのコンソール ツリーで、使用する Active Directory ドメイン (例: contoso.local) の \[**前方参照ゾーン**\] を展開します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>このドメインは、Lync Server 2013ディレクター プールおよびフロント エンド プールがインストールされる Active Directory ドメインです。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > このドメインは、Lync Server 2013ディレクター プールおよびフロント エンド プールがインストールされる Active Directory ドメインです。
     
       - 外部 DNS レコードの場合、DNS サーバーのコンソール ツリーで、使用する SIP ドメイン (例: contoso.com) の \[**前方参照ゾーン**\] を展開します。
 
@@ -109,18 +99,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
     
       - 内部 DNS レコードの場合、DNS サーバーのコンソール ツリーで、使用する Active Directory ドメイン (例: contoso.local) の \[**前方参照ゾーン**\] を展開します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>このドメインは、Lync Server 2013ディレクター プールおよびフロント エンド プールがインストールされる Active Directory ドメインです。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > このドメインは、Lync Server 2013ディレクター プールおよびフロント エンド プールがインストールされる Active Directory ドメインです。
     
       - 外部 DNS レコードの場合、DNS サーバーのコンソール ツリーで、使用する SIP ドメイン (例: contoso.com) の \[**前方参照ゾーン**\] を展開します。
 
@@ -158,18 +138,8 @@ DNS レコードは、サブジェクトの別名 (SAN) で新しい資格情報
     
       - 内部 DNS レコードの場合、ディレクターの内部 Web サービス IP アドレスを入力します (または、ロード バランサーを使用している場合、ディレクター ロード バランサーの仮想 IP (VIP) を入力します)。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ディレクターを使用していない場合、フロント エンド サーバーまたは Standard Edition サーバーの IP アドレスを入力するか、ロード バランサーを使用している場合はフロント エンド プール ロード バランサーの VIP を入力します。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ディレクターを使用していない場合、フロント エンド サーバーまたは Standard Edition サーバーの IP アドレスを入力するか、ロード バランサーを使用している場合はフロント エンド プール ロード バランサーの VIP を入力します。
     
       - 外部 DNS レコードの場合、リバース プロキシの外部またはパブリック IP アドレスを入力します。
 

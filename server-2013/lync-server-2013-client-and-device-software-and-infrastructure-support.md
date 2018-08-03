@@ -25,23 +25,8 @@ Lync Server 2013 展開のクライアントとデバイスのソフトウェ�
 
   - [Lync でユーザーの写真を表示する方法](how-user-photos-are-displayed-in-lync.md)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Phone Edition は、Lync Server 2013 で Lync Server 2010 の場合と同じように動作します。デバイスのソフトウェア サポートの詳細については、Lync Server 2010 TechNet ライブラリの次のトピックを参照してください。
-<ul>
-<li><p>「デバイスに必要な Lync Server コンポーネント」(<a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x411</a>)</p></li>
-<li><p>「デバイス システムとインフラストラクチャのサポート」(<a href="http://go.microsoft.com/fwlink/?linkid=256489%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=256489&amp;clcid=0x411</a>)</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Lync Phone Edition は、Lync Server 2013 で Lync Server 2010 の場合と同じように動作します。デバイスのソフトウェア サポートの詳細については、Lync Server 2010 TechNet ライブラリの次のトピックを参照してください。
+> <ul><li><p>「デバイスに必要な Lync Server コンポーネント」(<a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x411</a>)</p></li>
+> <li><p>「デバイス システムとインフラストラクチャのサポート」(<a href="http://go.microsoft.com/fwlink/?linkid=256489%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=256489&amp;clcid=0x411</a>)</p></li></ul>
 

@@ -42,19 +42,9 @@ _**トピックの最終更新日:** 2016-12-08_
     
       - Exchange 2013 の場合は、「ユニファイド メッセージング」 ([http://go.microsoft.com/fwlink/?linkid=266579\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=266579%26clcid=0x411)) を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>セキュリティ レベルとして <strong>SIPSecured</strong> と <strong>Secured</strong> のどちらを選択するかは、メディア暗号化でセキュア リアルタイム転送プロトコル (SRTP) がアクティブになっているか、非アクティブになっているかによって異なります。Lync Server 2010 が Exchange UM と統合されている場合は、Lync Server メディア構成の暗号化レベルに対応している必要があります。Lync Server メディア構成は、<strong>Get-CsMediaConfiguration</strong> コマンドレットを実行すると表示できます。詳細については、「Lync Server 管理シェル」のドキュメントの「Get-CsMediaConfiguration」を参照してください。<br />
-    適切な VoIP セキュリティ設定の選択方法の詳細については、「<a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">内部設置型ユニファイド メッセージングと Lync Server 2013 を統合するための展開プロセス</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > セキュリティ レベルとして <strong>SIPSecured</strong> と <strong>Secured</strong> のどちらを選択するかは、メディア暗号化でセキュア リアルタイム転送プロトコル (SRTP) がアクティブになっているか、非アクティブになっているかによって異なります。Lync Server 2010 が Exchange UM と統合されている場合は、Lync Server メディア構成の暗号化レベルに対応している必要があります。Lync Server メディア構成は、<strong>Get-CsMediaConfiguration</strong> コマンドレットを実行すると表示できます。詳細については、「Lync Server 管理シェル」のドキュメントの「Get-CsMediaConfiguration」を参照してください。<br />
+    > 適切な VoIP セキュリティ設定の選択方法の詳細については、「<a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">内部設置型ユニファイド メッセージングと Lync Server 2013 を統合するための展開プロセス</a>」を参照してください。
 
 
 2.  次のコマンドレットを実行して、各 UM ダイヤル プランの完全修飾ドメイン名 (FQDN) を取得します。
@@ -94,21 +84,11 @@ _**トピックの最終更新日:** 2016-12-08_
             $ums[0].DialPlans +=$dp.Identity; 
             set-umserver -instance $ums[0]
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>次のステップを実行する前に、すべてのエンタープライズ VoIP ユーザーに Exchange Server のメールボックスが構成されていることを確認してください。<br />
-    Exchange 2007 の場合は、Exchange Server 2007 TechNet ライブラリ (<a href="http://go.microsoft.com/fwlink/?linkid=268685%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268685&amp;clcid=0x411</a>) を参照してください。<br />
-    Exchange 2010 の場合は、Exchange Server 2010 TechNet ライブラリ (<a href="http://go.microsoft.com/fwlink/?linkid=268686%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268686&amp;clcid=0x411</a>) を参照してください。<br />
-    ステップ 1. で作成した各ダイヤル プランのメールボックス ポリシーを指定する場合は、既定のポリシーと作成したポリシーのどちらかを選択します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > 次のステップを実行する前に、すべてのエンタープライズ VoIP ユーザーに Exchange Server のメールボックスが構成されていることを確認してください。<br />
+    > Exchange 2007 の場合は、Exchange Server 2007 TechNet ライブラリ (<a href="http://go.microsoft.com/fwlink/?linkid=268685%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268685&amp;clcid=0x411</a>) を参照してください。<br />
+    > Exchange 2010 の場合は、Exchange Server 2010 TechNet ライブラリ (<a href="http://go.microsoft.com/fwlink/?linkid=268686%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268686&amp;clcid=0x411</a>) を参照してください。<br />
+    > ステップ 1. で作成した各ダイヤル プランのメールボックス ポリシーを指定する場合は、既定のポリシーと作成したポリシーのどちらかを選択します。
 
 
 5.  \<Exchange インストール ディレクトリ\>\\Scripts に移動します。Exchange を単一のフォレストに展開する場合は、次のように入力します。

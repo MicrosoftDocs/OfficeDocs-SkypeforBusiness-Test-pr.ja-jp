@@ -53,7 +53,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>エントリなし</p></td>
-<td><div class="alert">
+<td><div>
 
 > [!IMPORTANT]
 > 最小のキー長は 1024 ビットですが、最小の推奨キー長は 2048 ビットであるという警告が表示される場合があります。

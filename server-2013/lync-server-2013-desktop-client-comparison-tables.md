@@ -39,25 +39,10 @@ _**トピックの最終更新日:** 2017-05-03_
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Lync Online のサブスクリプション プランについて詳しくは、「Lync Online サービスの詳細」(<a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>) を参照してください。</p></li>
-<li><p>Lync Server 2013 は、以前にリリースされている以下のクライアントもサポートします (Lync 2010, Lync 2010 Mobile、Lync Phone Edition、Lync 2010 Attendant)。これらのクライアントについて詳しくは、Lync 2010 バージョンのクライアント比較表 (<a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>) を参照してください。</p></li>
-<li><p>Lync 2013 クライアントは仮想デスクトップ インフラストラクチャ (VDI) 環境で音声とビデオをサポートします。VDI 環境での Lync 2013 の機能について詳しくは、「<a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013 でサポートされる仮想化テクノロジと既知の制限</a>」をご覧ください。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul><li><p>Lync Online のサブスクリプション プランについて詳しくは、「Lync Online サービスの詳細」(<a href="http://go.microsoft.com/fwlink/p/?linkid=282430">http://go.microsoft.com/fwlink/p/?LinkId=282430</a>) を参照してください。</p></li>
+> <li><p>Lync Server 2013 は、以前にリリースされている以下のクライアントもサポートします (Lync 2010, Lync 2010 Mobile、Lync Phone Edition、Lync 2010 Attendant)。これらのクライアントについて詳しくは、Lync 2010 バージョンのクライアント比較表 (<a href="http://go.microsoft.com/fwlink/p/?linkid=213798">http://go.microsoft.com/fwlink/p/?LinkID=213798</a>) を参照してください。</p></li>
+> <li><p>Lync 2013 クライアントは仮想デスクトップ インフラストラクチャ (VDI) 環境で音声とビデオをサポートします。VDI 環境での Lync 2013 の機能について詳しくは、「<a href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Lync Server 2013 でサポートされる仮想化テクノロジと既知の制限</a>」をご覧ください。</p></li></ul>
 
 
 ## 拡張プレゼンスのサポート
@@ -879,25 +864,10 @@ _**トピックの最終更新日:** 2017-05-03_
 
 ## 電話会議のサポート
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Lync Online スタンドアロン プラン 1 では、Lync 会議機能を利用できません。</p></li>
-<li><p>Lync 間セッションでは、Lync Online プラン 1 のユーザーは、共有機能にアクセスできるユーザーから招待を受けた場合にデスクトップ共有とアプリケーション共有に参加できます。</p></li>
-<li><p>詳しくは、「Lync Online サービスの説明」(<a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>) を参照してください。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul><li><p>Lync Online スタンドアロン プラン 1 では、Lync 会議機能を利用できません。</p></li>
+> <li><p>Lync 間セッションでは、Lync Online プラン 1 のユーザーは、共有機能にアクセスできるユーザーから招待を受けた場合にデスクトップ共有とアプリケーション共有に参加できます。</p></li>
+> <li><p>詳しくは、「Lync Online サービスの説明」(<a href="http://go.microsoft.com/fwlink/?linkid=282430" class="uri">http://go.microsoft.com/fwlink/?linkid=282430</a>) を参照してください。</p></li></ul>
 
 
 

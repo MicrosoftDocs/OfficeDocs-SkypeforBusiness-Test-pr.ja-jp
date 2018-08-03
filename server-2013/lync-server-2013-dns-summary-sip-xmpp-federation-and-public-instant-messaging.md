@@ -53,7 +53,7 @@ DNS レコードの概要の表には、開いている、つまり検出可能�
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>アクセス エッジ サービスの外部インターフェイス。他の潜在的なフェデレーション パートナーによるフェデレーションの自動 DNS 検出に必要で、&quot;許可されている SIP ドメイン&quot; と呼ばれています (以前のリリースでは拡張フェデレーションと呼ばれていました)。Lync 対応ユーザーがいるすべての SIP ドメインに対して、必要なだけ繰り返します。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > この SRV レコードは、モビリティおよび Push Notification Clearing House (PNCH) で必要です。SIP ドメインが複数ある場合は、Lync Mobile クライアントを持つドメインごとに、SRV レコードを作成し、公開します。展開がサポートする各 SIP ドメインの明示的な SRV レコードがない場合、プッシュ通知サービスおよび Apple プッシュ通知サービスは期待どおりに動作しない可能性があります。

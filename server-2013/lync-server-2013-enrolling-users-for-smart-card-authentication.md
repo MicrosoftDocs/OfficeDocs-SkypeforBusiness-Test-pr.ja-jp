@@ -73,24 +73,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 11. 証明書が発行されたら、\[**この証明書のインストール**\] をクリックして登録プロセスを完了します。
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>「証明書の要求の生成はこの Web ブラウザーではサポートされていません。」というエラーが発生して証明書の作成が失敗した場合、解決する方法として次の 3 つが考えられます。
-    <ol>
-    <li><p>Internet Explorer の [互換表示] を有効にする</p></li>
-    <li><p>Internet Explorer で [イントラネットの設定を有効にする] オプションを有効にする</p></li>
-    <li><p>Internet Explorer の [インターネット オプション] の [セキュリティー] タブで、[すべてのゾーンを既定のレベルにリセットする] を選ぶ</p></li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > 「証明書の要求の生成はこの Web ブラウザーではサポートされていません。」というエラーが発生して証明書の作成が失敗した場合、解決する方法として次の 3 つが考えられます。
+    > <ol><li><p>Internet Explorer の [互換表示] を有効にする</p></li>
+    > <li><p>Internet Explorer で [イントラネットの設定を有効にする] オプションを有効にする</p></li>
+    > <li><p>Internet Explorer の [インターネット オプション] の [セキュリティー] タブで、[すべてのゾーンを既定のレベルにリセットする] を選ぶ</p></li></ol>
 

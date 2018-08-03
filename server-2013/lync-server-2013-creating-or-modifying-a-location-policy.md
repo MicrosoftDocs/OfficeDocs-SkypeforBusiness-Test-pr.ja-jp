@@ -47,18 +47,8 @@ Lync Server 2013 では、クライアントから場所情報サービスに対
         
           - \[**免責事項**\]   このオプションは \[**必須**\] と同じですが、ユーザーは場所情報を入力せずにプロンプトを閉じることはできません。この場合も緊急電話は行えますが、その他の電話は情報を入力しない限り行えません。また、免責事項の文言を表示し、場所情報の入力を拒否した場合にどうなるかをユーザーに警告することもできます。免責事項の文言を設定するには、Lync Server 管理シェルで、EnhancedEmergencyServiceDisclaimer パラメーターを指定して **Set-CsLocationPolicy** コマンドレットまたは **New-CsLocationPolicy** コマンドレットを実行する必要があります。詳細については、Lync Server 管理シェルのドキュメントの「[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)」または「[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)」を参照してください。
             
-            <table>
-            <thead>
-            <tr class="header">
-            <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="odd">
-            <td>Lync Server 2010 では、組織全体を対象としたグローバルな免責事項しか指定できませんでしたが、Lync Server 2013 では、場所ポリシーを使用して、場所ごとに、またはユーザー セットごとに異なる免責事項を設定できます。</td>
-            </tr>
-            </tbody>
-            </table>
+            > [!NOTE]  
+            > Lync Server 2010 では、組織全体を対象としたグローバルな免責事項しか指定できませんでしたが、Lync Server 2013 では、場所ポリシーを使用して、場所ごとに、またはユーザー セットごとに異なる免責事項を設定できます。
     
       - \[**緊急サービス専用の場所を使用する**\]   Lync では、場所情報をさまざまな理由 (チームメイトに現在の場所を知らせるなど) で使用できます。緊急電話以外で場所情報を使用しない場合は、このチェック ボックスをオンにします。
     

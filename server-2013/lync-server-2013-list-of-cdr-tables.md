@@ -266,7 +266,7 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013 の VoipDetails テーブル</a></p></td>
 <td><p>各 2 パーティ VoIP/PSTN 通話について、通話に関する情報を格納します (VoIP 電話の電話 ID、使用されたゲートウェイ、切断したパーティなど)。通話開始/終了時刻および応答コードについては、「<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 の SessionDetails テーブル</a>」を参照してください。</p>
-<div class="alert">
+<div>
 
 > [!NOTE]
 > 通話の 1 つのパーティが VoIP ユーザーの場合、または仲介サーバーが通話に関係していた場合、このテーブルにレコードが作成されます。公衆交換電話網 (PSTN) 電話が関係しない VoIP/VoIP 通話に関する情報は、<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 の SessionDetails テーブル</a>で取得されます。

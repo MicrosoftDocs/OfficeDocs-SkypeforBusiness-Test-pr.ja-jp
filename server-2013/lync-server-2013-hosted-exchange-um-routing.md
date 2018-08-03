@@ -45,18 +45,8 @@ Alice のメールボックスと Exchange UM サービスは、ホストされ�
     
       - 組織はテナント ID で識別されます。このテナント ID は、ls.ExUm. *\<hostedExchangeServer\>* .com (この例では、corp.contoso.com および corp.litwareinc.com) にある Exchange Server テナントの SIP メッセージのルーティング FQDN です。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Exchange Online の FQDN は exap.um.outlook.com です。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > Exchange Online の FQDN は exap.um.outlook.com です。
         
         詳細については、「[Lync Server 2013 のホスト型ボイス メール ポリシー](lync-server-2013-hosted-voice-mail-policies.md)」を参照してください。
 

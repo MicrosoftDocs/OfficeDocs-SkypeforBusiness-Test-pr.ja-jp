@@ -53,13 +53,12 @@ DNS 負荷分散およびハードウェア ロード バランサーを使用�
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>エントリなし</p></td>
-<td><div class="alert">
+<td>
 
 > [!IMPORTANT]
 > 最小のキー長は 1024 ビットですが、最小の推奨キー長は 2048 ビットであるという警告が表示される場合があります。
 
 
-</div>
 <p>OAuthTokenIssuer 証明書は、大規模環境内のサーバーを認証するための専用の証明書で、内部 CA またはパブリック CA から要求できます。この証明書は必須です。</p></td>
 </tr>
 </tbody>
