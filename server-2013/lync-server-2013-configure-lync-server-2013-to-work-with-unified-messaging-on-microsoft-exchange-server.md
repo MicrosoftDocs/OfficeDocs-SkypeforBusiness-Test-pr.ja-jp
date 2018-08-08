@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成'
+title: "Lync Server 2013: Exchange Server のユニファイド メッセージングと連動する Lync Server 2013 の構成"
 TOCTitle: Microsoft Exchange Server のユニファイド メッセージングと連動させるための Lync Server 2013 の構成
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398193(v=OCS.15)

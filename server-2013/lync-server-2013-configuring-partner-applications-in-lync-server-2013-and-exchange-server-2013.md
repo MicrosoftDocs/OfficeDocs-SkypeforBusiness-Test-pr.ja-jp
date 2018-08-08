@@ -1,6 +1,6 @@
 ﻿---
-title: Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のパートナー アプリケーションの構成
-TOCTitle: Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のパートナー アプリケーションの構成
+title: "Lync Server 2013 と Exchange Server 2013 のパートナー アプリケーションの構成"
+TOCtitle: "Lync Server 2013 と Exchange Server 2013 のパートナー アプリケーションの構成"
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688151(v=OCS.15)
 ms:contentKeyID: 49887070

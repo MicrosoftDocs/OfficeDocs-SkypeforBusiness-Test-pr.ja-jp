@@ -1,6 +1,6 @@
 ﻿---
-title: Lync Server 2013 での XMPP (Extensible Messaging and Presence Protocol) フェデレーションの計画
-TOCTitle: Lync Server 2013 での XMPP (Extensible Messaging and Presence Protocol) フェデレーションの計画
+title: "Lync Server 2013: XMPP フェデレーションの計画"
+TOCtitle: "Lync Server 2013: XMPP フェデレーションの計画"
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 48272921
