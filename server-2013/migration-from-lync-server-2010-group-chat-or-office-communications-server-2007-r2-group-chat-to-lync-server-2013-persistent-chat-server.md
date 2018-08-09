@@ -1,6 +1,6 @@
 ﻿---
-title: Lync Server 2010、グループ チャットまたは Office Communicatins Server 2007 R2 グループ チャットから Lync Server 2013、常設チャット サーバーへの移行
-TOCTitle: Lync Server 2010、グループ チャットまたは Office Communicatins Server 2007 R2 グループ チャットから Lync Server 2013、常設チャット サーバーへの移行
+title: "Lync Server 2010、グループチャット、OCS 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行"
+TOCTitle: "Lync Server 2010、グループチャット、OCS 2007 R2 グループチャットから Lync Server 2013、常設チャットサーバーへの移行"
 ms:assetid: 5b4d3db1-6eba-4932-b49c-f60bcf9488f9
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg615442(v=OCS.15)
 ms:contentKeyID: 48272197

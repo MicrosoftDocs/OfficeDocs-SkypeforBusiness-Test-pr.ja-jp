@@ -1,6 +1,6 @@
 ﻿---
-title: アーカイブされた Microsoft Lync Server 2013 データを検索するための Microsoft SharePoint Server 2013 の構成
-TOCTitle: アーカイブされた Microsoft Lync Server 2013 データを検索するための Microsoft SharePoint Server 2013 の構成
+title: "アーカイブされた Lync Server 2013 データを検索するための SharePoint Server 2013 の構成"
+TOCTitle: "アーカイブされた Lync Server 2013 データを検索するための SharePoint Server 2013 の構成"
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ687978(v=OCS.15)
 ms:contentKeyID: 49886856

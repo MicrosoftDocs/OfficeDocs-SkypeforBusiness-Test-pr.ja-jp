@@ -1,6 +1,6 @@
 ﻿---
-title: Microsoft Lync Server 2013 ボイスメールに対する Microsoft Exchange Server 2013 ユニファイド メッセージングの構成
-TOCTitle: Microsoft Lync Server 2013 ボイスメールに対する Microsoft Exchange Server 2013 ユニファイド メッセージングの構成
+title: "Lync Server 2013 ボイスメールに対する Exchange Server 2013 ユニファイド メッセージングの構成"
+TOCTitle: "Lync Server 2013 ボイスメールに対する Exchange Server 2013 ユニファイド メッセージングの構成"
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ687983(v=OCS.15)
 ms:contentKeyID: 49886862
