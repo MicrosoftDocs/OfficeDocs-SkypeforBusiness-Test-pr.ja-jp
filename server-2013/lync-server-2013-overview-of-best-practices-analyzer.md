@@ -43,16 +43,6 @@ Lync Server 2013、ベスト プラクティス アナライザーを使用し�
 
 収集したデータと事前定義されたルールを比較した後で、このツールは問題をレポートします。レポートする問題ごとに、スキャンした Lync Server 2013 環境で検出された情報および推奨される構成に関する情報を提供します。また、特定の問題に関するさらに詳細な情報へのリンクも提供します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013、ベスト プラクティス アナライザーは、Lync Server 2013 のコンポーネントからのみ構成情報を収集します。以前の環境のスキャンには、このツールの以前のバージョンを使用することができます。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013、ベスト プラクティス アナライザーは、Lync Server 2013 のコンポーネントからのみ構成情報を収集します。以前の環境のスキャンには、このツールの以前のバージョンを使用することができます。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。
 

@@ -23,38 +23,27 @@ _**トピックの最終更新日:** 2016-12-08_
 
 この文書には以下のセクションが含まれています。
 
-  -   
-    Lync 2013 クライアント
+  - Lync 2013 クライアント
 
-  -   
-    Lync Server
+  - Lync Server
 
-  -   
-    インストール
+  - インストール
 
-  -   
-    モビリティ
+  - モビリティ
 
-  -   
-    電話会議
+  - 電話会議
 
-  -   
-    エンタープライズ VoIP
+  - エンタープライズ VoIP
 
-  -   
-    プレゼンス
+  - プレゼンス
 
-  -   
-    応答グループ アプリケーションおよびコール パーク アプリケーション
+  - 応答グループ アプリケーションおよびコール パーク アプリケーション
 
-  -   
-    Lync Server コントロール パネル、トポロジ ビルダー、および計画ツール
+  - Lync Server コントロール パネル、トポロジ ビルダー、および計画ツール
 
-  -   
-    ローカリゼーション
+  - ローカリゼーション
 
-  -   
-    著作権
+  - 著作権
 
 ## Lync 2013 クライアント
 
@@ -91,6 +80,8 @@ Lync Server 2013 の展開で IP アドレスの構成を変更した場合 (IPv
 この問題を回避するには、展開で IP アドレスの構成を変更した後に Lync Server のサービスを再起動します。そのためには、 Lync Server 管理シェルで次のコマンドレットを実行します。
 
     Stop-CsWindowsService -graceful
+
+   &nbsp;
 
     Start-CsWindowsService
 
@@ -150,7 +141,7 @@ Active Directory ドメイン サービス で定義されている電話番号�
     
       - Lync Server 2013 と Lync Server 2010 または Office Communications Server 2007 R2 の組み合わせが展開に含まれる場合、次のコマンドレットを実行し、トポロジの各 Lync Server 2013 プールに割り当てます。
         
-            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
 3.  すべてのプールで CMS のレプリケーションが発生するのを待機します。
 
@@ -347,6 +338,8 @@ Windows Fabric のインストールが失敗するのは、ファブリック�
 1.  Windows PowerShell を起動して次のコマンドレットを実行します。
     
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
+
+       &nbsp;
     
         $a="HKU:\.Default\Control Panel\International"
 
@@ -514,18 +507,8 @@ Lync Web App から会議に参加するときに画面共有プラグインを�
 
 ## IPv4 と IPv6 のデュアル スタックを使用するように構成されたコンピューター上で実行されている Lync クライアントで、コンピューターの IP サブネットに依存する E911、メディア バイパス、通話受付管理、場所ベースのルーティングなどの機能がサポートされない場合がある (3335508)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**
@@ -582,18 +565,8 @@ Skype for Business Online に所属しているユーザーのプレゼンス状
 
 ## 受信側との通話の確立中に、発信者に対して 1 秒間の保留音が再生されることがある (3334097)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**
@@ -678,18 +651,8 @@ Lync Server 2010 から Lync Server 2013 に移行した 応答グループを�
 
 ## 計画ツールの制限 (3331056 および 3331059)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**
@@ -846,18 +809,8 @@ Lync Server コントロール パネルのページの上部にあるナビゲ�
 
 ## 一部の言語でアドレス帳でのインデックス作成が正しく動作しない (3336047)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 ユーザーのプロパティにインデックス フィールドが含まれ、そのフィールドにインデックスを作成できない文字のみが含まれる場合、アドレス帳で検索を実行するとユーザーが表示されません。
@@ -908,18 +861,8 @@ Web ブラウザーで、言語、スクリプト、ロケールを指定する�
 
 ## 一部の Web ブラウザーで、Lync Web Scheduler、ダイヤルイン、Join Launcher、常設チャット ルーム管理、OCTabThere の使用時にアゼルバイジャン語とウズベク語のロケールがサポートされない (3336748)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このセクションの情報は Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に関係します。
 
 
 **問題:**

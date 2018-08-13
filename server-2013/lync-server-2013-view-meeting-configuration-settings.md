@@ -60,5 +60,5 @@ Lync Server 2013 コントロール パネルでは、会議構成設定を使�
         CustomFooterText                :
         AllowConferenceRecording        : True
 
-詳細については、[Get-CsMeetingConfiguration](get-csmeetingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

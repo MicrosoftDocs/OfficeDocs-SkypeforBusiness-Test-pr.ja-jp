@@ -33,18 +33,8 @@ UC 電話の構成設定を変更していなければ、次のような情報�
 
 これらのプロパティのうち、サービスの品質に関連するのは VoiceDiffServTag だけです。VoiceDiffServTag は、Lync Phone Edition デバイスからの音声トラフィックに割り当てられた DSCP 値を表します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Voice8021p パラメーターは、Lync Server 2013 ではサポートされなくなりました。Microsoft Lync Server 2010 との下位互換性のためにまだ使用できますが、Lync Server 2013 で使用するデバイスに対しては効果はありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Voice8021p パラメーターは、Lync Server 2013 ではサポートされなくなりました。Microsoft Lync Server 2010 との下位互換性のためにまだ使用できますが、Lync Server 2013 で使用するデバイスに対しては効果はありません。
 
 
 ほとんどのネットワークでは、Lync Phone Edition のパケットを VoiceDiffServTag 40 でマーキングしても問題になることはありませんが、この値は、音声トラフィックに対して使用される一般的な値ではありません。音声トラフィックは、ほとんど常に DSCP コード 46 でマーキングされます。ネットワーク全体の一貫性を確保するために、UC 電話の VoiceDiffServTag プロパティを 46 に変更することをお勧めします。

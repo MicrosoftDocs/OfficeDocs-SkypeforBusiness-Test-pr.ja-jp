@@ -52,37 +52,17 @@ _**トピックの最終更新日:** 2016-12-08_
 <li><p>Outlook カレンダーの空き時間情報に基づく状態の公開</p></li>
 <li><p>連絡先リスト (統合連絡先ストア経由)</p>
 <p>詳細については、「<a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">統合連絡先ストアを使用する Microsoft Lync Server 2013 の構成</a>」を参照してください。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2013 が必要です。<br />
-Lync 2013 デスクトップ クライアントが必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Exchange 2013 が必要です。<br />
+Lync 2013 デスクトップ クライアントが必要です。
 
 </div></li>
 <li><p>Lync 2013 クライアントと Lync Web App での担当者の高解像度写真。</p>
 <p>詳細については「<a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Microsoft Lync Server 2013 で高解像度写真を使用する構成</a>」を参照してください。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2013 が必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Exchange 2013 が必要です。
 
 </div></li>
 <li><p>会議の委任</p>
@@ -90,35 +70,13 @@ Lync 2013 デスクトップ クライアントが必要です。</td>
 <li><p>不在着信した会話の履歴と通話ログはユーザーの Exchange メールボックスに書き込まれます。</p></li>
 <li><p>Exchange でのコンテンツのアーカイブ (IM および会議)</p>
 <p>詳細については「<a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 のアーカイブの展開チェックリスト</a>」を参照してください。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2013 が必要です。</td>
-</tr>
-</tbody>
-</table>
 
-</div></li>
-<li><p>アーカイブされたコンテンツの検索</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2013 が必要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Exchange 2013 が必要です。
+
+
+> [!NOTE]
+> Exchange 2013 が必要です。
 
 </div></li>
 <li><p>ボイス メール</p>
@@ -136,19 +94,9 @@ Lync 2013 デスクトップ クライアントが必要です。</td>
 <li><p>モバイル クライアントでのオンライン会議への参加</p></li>
 <li><p>Outlook カレンダーの空き時間情報に基づく状態の公開</p></li>
 <li><p>連絡先リスト (統合連絡先ストア経由)。詳細については、「<a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">統合連絡先ストアを使用する Microsoft Lync Server 2013 の構成</a>」を参照してください。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 のみ。 Lync 2013 デスクトップ クライアントが必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync Server 2013 のみ。 Lync 2013 デスクトップ クライアントが必要です。
 
 </div></li>
 <li><p>Lync 2013 クライアントと Lync Web App での担当者の高解像度写真。</p>
@@ -170,19 +118,9 @@ Lync 2013 デスクトップ クライアントが必要です。</td>
 <li><p>モバイル クライアントでの IM/プレゼンス</p></li>
 <li><p>不在着信した会話の履歴と通話ログはユーザーの Exchange メールボックスに書き込まれます。</p></li>
 <li><p>Lync 2013 クライアントでの担当者の高解像度写真。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Microsoft Exchange Server 2013 が必要です。ユーザーが Skype for Business Online に属している場合、Lync Web App ではサポートされません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Microsoft Exchange Server 2013 が必要です。ユーザーが Skype for Business Online に属している場合、Lync Web App ではサポートされません。
 
 </div></li>
 <li><p>モバイル クライアントでのオンライン会議への参加</p></li>
@@ -200,19 +138,9 @@ Lync 2013 デスクトップ クライアントが必要です。</td>
 <li><p>Outlook カレンダーの空き時間情報に基づく状態の公開</p></li>
 <li><p>不在着信した会話の履歴と通話ログはユーザーの Exchange メールボックスに書き込まれます。</p></li>
 <li><p>連絡先リスト (統合連絡先ストア経由)</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 クライアント必須</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync Server 2013 クライアント必須
 
 </div></li>
 <li><p>Lync 2013 クライアントと Lync Web App での担当者の高解像度写真</p></li>

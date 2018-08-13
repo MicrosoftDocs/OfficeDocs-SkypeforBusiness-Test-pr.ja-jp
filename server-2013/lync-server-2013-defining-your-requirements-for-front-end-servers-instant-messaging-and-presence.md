@@ -27,18 +27,8 @@ Lync Server への投資による収益性は、ユーザーが外部ユーザ�
 
   - **パブリック ユーザー**   Windows Live ネットワーク インターネット サービス、Yahoo\!、および AOL によって提供される IM サービスなどのパブリック IM サービスのユーザー、および Google Talk などの XMPP (Extensible Messaging and Presence Protocol) を使用するプロバイダーおよびサーバーのユーザー。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ただし、Windows Live、AOL、Yahoo! とのパブリック IM 接続には、個別のライセンスが必要な場合があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ただし、Windows Live、AOL、Yahoo! とのパブリック IM 接続には、個別のライセンスが必要な場合があります。
     
 
     > [!IMPORTANT]

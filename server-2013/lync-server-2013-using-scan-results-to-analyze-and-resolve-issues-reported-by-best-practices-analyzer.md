@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-06-14_
 
 Lync Server 2013 環境で Lync Server 2013 のベスト プラクティス アナライザーを実行すると、このツールはスキャンの結果を使用して展開の問題に関するレポートを生成します。ベスト プラクティス アナライザーによって生成されたレポートを使用して、それぞれの問題を特定し、解決することができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 のベスト プラクティス アナライザーは Lync Server 2013 コンポーネントでのみスキャンを行い、問題を報告します。Microsoft Lync Server 2010 または Office Communications Server 2007 R2 のコンポーネントを含む展開の場合は、旧バージョンのベスト プラクティス アナライザーを使用してそれらのコンポーネントを分析します。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 のベスト プラクティス アナライザーは Lync Server 2013 コンポーネントでのみスキャンを行い、問題を報告します。Microsoft Lync Server 2010 または Office Communications Server 2007 R2 のコンポーネントを含む展開の場合は、旧バージョンのベスト プラクティス アナライザーを使用してそれらのコンポーネントを分析します。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。
 
 
 ## このセクション中

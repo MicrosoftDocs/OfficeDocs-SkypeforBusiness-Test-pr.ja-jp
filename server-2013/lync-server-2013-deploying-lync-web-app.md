@@ -19,18 +19,8 @@ Lync Web App は、Lync Server 2013 によってインストールされるイ�
 
 Lync Web App の音声、ビデオ、および共有機能には、Microsoft ActiveX コントロールが必要です。ActiveX コントロールは、事前にインストールするか、プロンプトが表示されたときにユーザーがインストールすることができます。このプロンプトは、ユーザーが初めて Lync Web App を使用するときか、ActiveX コントロールを必要とする機能に初めてアクセスしたときに表示されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 エッジ サーバーの展開では、Lync Web App クライアントのアクセスには境界ネットワーク内の HTTPS リバース プロキシが必要になります。また、簡易 URL も公開する必要があります。詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」および「<a href="lync-server-2013-planning-for-simple-urls.md">Lync Server 2013 での簡単な URL の計画</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 エッジ サーバーの展開では、Lync Web App クライアントのアクセスには境界ネットワーク内の HTTPS リバース プロキシが必要になります。また、簡易 URL も公開する必要があります。詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」および「<a href="lync-server-2013-planning-for-simple-urls.md">Lync Server 2013 での簡単な URL の計画</a>」を参照してください。
 
 
 ## Lync Web App での多要素認証の有効化
@@ -70,8 +60,12 @@ Lync Server 2013 バージョンの Lync Web App では多要素認証をサポ�
     
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
+
+       &nbsp;
     
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
 
@@ -83,7 +77,7 @@ BranchCache の無効化の詳細については、「BranchCache 展開ガイ�
 
 ## Lync Web App 展開の検証
 
-Test-CsUcwaConference コマンドレットを使用すると、2 人のテスト ユーザーが統合コミュニケーション Web API (UCWA) を使用して会議に参加できることを検証できます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントの「[Test-CsUcwaConference](test-csucwaconference.md)」を参照してください。
+Test-CsUcwaConference コマンドレットを使用すると、2 人のテスト ユーザーが統合コミュニケーション Web API (UCWA) を使用して会議に参加できることを検証できます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントの「[Test-CsUcwaConference](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsUcwaConference)」を参照してください。
 
 ## Windows Server 2008 R2 でのプラグインのインストールに関するトラブルシューティング
 
@@ -99,18 +93,8 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグ�
 
 4.  \[**暗号化されたページをディスクに保存しない**\] チェック ボックスをオフにし、\[**OK**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この設定をオンにした場合、Lync Web App から添付ファイルをダウンロードしようとしたときにもエラーが発生します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この設定をオンにした場合、Lync Web App から添付ファイルをダウンロードしようとしたときにもエラーが発生します。
 
 
 5.  会議にもう一度参加します。エラーが発生することなくプラグインがダウンロードされます。

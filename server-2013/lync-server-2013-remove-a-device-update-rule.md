@@ -53,7 +53,7 @@ Lync Server コントロール パネルまたは Windows PowerShell を使用�
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Remove-CsDeviceUpdateRule
 
-詳細については、[Remove-CsDeviceUpdateRule](remove-csdeviceupdaterule.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateRule) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

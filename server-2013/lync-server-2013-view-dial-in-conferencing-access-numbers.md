@@ -54,5 +54,5 @@ Lync Server PowerShell および Get-CsDialInConferencingAccessNumber コマン�
         HostingProvider    :
         Regions            : {US}
 
-詳細については、[Get-CsDialInConferencingAccessNumber](get-csdialinconferencingaccessnumber.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber) コマンドレットのヘルプ トピックを参照してください。
 

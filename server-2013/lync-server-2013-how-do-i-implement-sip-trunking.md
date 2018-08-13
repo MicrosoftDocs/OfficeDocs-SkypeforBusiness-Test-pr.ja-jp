@@ -19,18 +19,8 @@ SIP トランキングを実装するには、仲介サーバーを介して通�
 
 それぞれの 仲介サーバーには内部ネットワーク インターフェイスと外部ネットワーク インターフェイスの両方があります。内部インターフェイスは フロント エンド サーバーに接続します。外部インターフェイスは、これまで 仲介サーバーの公衆交換電話網 (PSTN) ゲートウェイまたは IP-PBX への接続に使用されてきたため、通常、ゲートウェイ インターフェイスと呼ばれます。SIP トランクを実装するには、仲介サーバーの外部インターフェイスを ITSP の外部エッジ コンポーネントに接続します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。
 
 
 仲介サーバーの詳細については、「[Lync Server 2013 の仲介サーバー コンポーネント](lync-server-2013-mediation-server-component.md)」を参照してください。
@@ -57,18 +47,8 @@ SIP トランキングを実装するには、仲介サーバーを介して通�
 
 集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。必要のない場合にも分散型展開モデルを選択した方が有益な場合があります。完全な集中型展開では、すべての ブランチ サイトのトラフィックが WAN リンク経由でルーティングされます。WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。たとえば、セントラル サイトのフェデレーションを利用して ブランチ サイトで Standard Edition サーバーを展開したい場合、あるいは小規模なゲートウェイで 存続可能ブランチ アプライアンスまたは 存続可能ブランチ サーバーを展開したい場合が考えられます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>分散型 SIP トランキングの詳細については、「<a href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 のブランチ サイトの SIP トランキング</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 分散型 SIP トランキングの詳細については、「<a href="lync-server-2013-branch-site-sip-trunking.md">Lync Server 2013 のブランチ サイトの SIP トランキング</a>」を参照してください。
 
 
 ## サポートされている SIP トランキング接続の種類
@@ -97,18 +77,8 @@ Lync Server では、SIP トランキング用に次の接続の種類をサポ�
 
 SIP トランク最大帯域幅 = 最大同時通話数 x (64 kbps + ヘッダー サイズ)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ヘッダー サイズは最大で 20 バイトです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ヘッダー サイズは最大で 20 バイトです。
 
 
 ## コーデックのサポート

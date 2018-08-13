@@ -49,7 +49,7 @@ RBAC 役割をユーザーに割り当てるには、そのユーザーを該当
 
 7.  \[**プロパティ**\] ダイアログ ボックスで \[**OK**\] をクリックします。
 
-RBAC 役割が割り当てられていることを確認するために、[Get-CsAdminRoleAssignment](get-csadminroleassignment.md) コマンドレットを使用します。コマンドレットに、ユーザーの SamAccountName (Active Directory ログオン名) を渡してください。 たとえば、Lync Server 管理シェルから、次のコマンドを実行します。
+RBAC 役割が割り当てられていることを確認するために、[Get-CsAdminRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAdminRoleAssignment) コマンドレットを使用します。コマンドレットに、ユーザーの SamAccountName (Active Directory ログオン名) を渡してください。 たとえば、Lync Server 管理シェルから、次のコマンドを実行します。
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

@@ -17,19 +17,9 @@ _**トピックの最終更新日:** 2016-12-08_
 
 ここでは、Lync Server 環境内のユーザーに対して、リモート通話コントロールを有効にするために実行する必要がある展開タスクについて説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Microsoft Office Communicator 2007 R2 で以前にリモート通話コントロールを有効にしたユーザーを移行する場合は、このトピックで説明するリモート通話コントロールの展開タスクの実行を開始する前に、追加の展開タスクを実行する必要があります。Lync Server への移行プロセスでは、必要に応じて Office Communications Server 2007 R2 管理ツールを使用して、信頼されたアプリケーション エントリ (以前は<em>承認済みホスト エントリ</em>と呼ばれていました) を削除する必要があります。<br />
-承認済みホストの削除の詳細については、「<a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Lync Server 2013 での従来の承認済みホストの削除 (オプション)</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Microsoft Office Communicator 2007 R2 で以前にリモート通話コントロールを有効にしたユーザーを移行する場合は、このトピックで説明するリモート通話コントロールの展開タスクの実行を開始する前に、追加の展開タスクを実行する必要があります。Lync Server への移行プロセスでは、必要に応じて Office Communications Server 2007 R2 管理ツールを使用して、信頼されたアプリケーション エントリ (以前は<em>承認済みホスト エントリ</em>と呼ばれていました) を削除する必要があります。<br />
+> 承認済みホストの削除の詳細については、「<a href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Lync Server 2013 での従来の承認済みホストの削除 (オプション)</a>」を参照してください。
 
 
 ## ステップ 1: PBX との通信のための、SIP/CSTA ゲートウェイのインストールおよび構成

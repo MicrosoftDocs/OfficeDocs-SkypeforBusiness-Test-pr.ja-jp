@@ -19,6 +19,8 @@ Lync Server 2010 から Lync Server 2013 へのコール パーク アプリケ�
 
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
 
+   &nbsp;
+
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 
 カスタマイズされたオーディオ ファイルがすべて Lync Server 2013 のファイル ストアにコピーされたら、Lync Server 2013 プールのコール パーク アプリケーションの設定を構成し、Lync Server 2010 プールに関連付けられているコール パーク オービットの範囲を Lync Server 2013 プールに割り当て直す必要があります。
@@ -31,18 +33,8 @@ Lync Server 2010 から Lync Server 2013 へのコール パーク アプリケ�
 
 2.  コマンドラインで、次のように入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2013 コール パーク アプリケーションの設定が既存の Lync Server 2010 の設定と同一である場合は、この手順の実行を省略できます。コール パーク アプリケーションの設定が Lync Server 2013 環境と Lync Server 2010 環境とで異なる場合は、次のコマンドレットをテンプレートとして使用して変更を更新してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2013 コール パーク アプリケーションの設定が既存の Lync Server 2010 の設定と同一である場合は、この手順の実行を省略できます。コール パーク アプリケーションの設定が Lync Server 2013 環境と Lync Server 2010 環境とで異なる場合は、次のコマンドレットをテンプレートとして使用して変更を更新してください。
     
         Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
 

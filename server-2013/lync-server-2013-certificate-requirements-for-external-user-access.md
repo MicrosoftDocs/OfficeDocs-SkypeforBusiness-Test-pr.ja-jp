@@ -23,40 +23,20 @@ Microsoft Lync Server 2013  通信ソフトウェアでは、アクセスおよ
 
   - 証明書をエッジ プールで使用する場合は、エッジ プール内の各エッジ サーバーで使用される同じ証明書を使用して、エクスポート可能として作成する必要があります。エクスポート可能な秘密キーの要件は音声ビデオ認証サービスのためのもので、プール内のすべてのエッジ サーバーで同じ秘密キーを使用する必要があります。
 
-  - 音声ビデオ サービスの稼働時間を最大化する場合は、切り離された 音声ビデオ エッジ サービス 証明書 (つまり、他の外部エッジ証明書とは個別の 音声ビデオ エッジ サービス 証明書) を実装するための証明書要件を確認してください。詳細については、「[エッジ サーバーの計画に影響する Lync Server 2013 での変更点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Lync Server 2013 でエッジ サーバー証明書を計画する](lync-server-2013-plan-for-edge-server-certificates.md)」および「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)」を参照してください。
+  - 音声ビデオ サービスの稼働時間を最大化する場合は、切り離された 音声ビデオ エッジ サービス 証明書 (つまり、他の外部エッジ証明書とは個別の 音声ビデオ エッジ サービス 証明書) を実装するための証明書要件を確認してください。詳細については、「[エッジ サーバーの計画に影響する Lync Server 2013 での変更点](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Lync Server 2013 でエッジ サーバー証明書を計画する](lync-server-2013-plan-for-edge-server-certificates.md)」および「[Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)」を参照してください。
 
   - 証明書のサブジェクト名は、 アクセス エッジ サービス外部インターフェイスの完全修飾ドメイン名 (FQDN) またはハードウェア ロード バランサーの VIP (たとえば、access.contoso.com) です。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>この点は、 Lync Server 2013 での要件ではなくなっていますが、 Office Communications Server との互換性を保つために推奨されています。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > この点は、 Lync Server 2013 での要件ではなくなっていますが、 Office Communications Server との互換性を保つために推奨されています。
 
 
   - サブジェクトの別名リストには、以下のコンポーネントの FQDN が含まれています。
     
       - アクセス エッジ サービス外部インターフェイスまたはハードウェア ロード バランサーの VIP (たとえば、access.contoso.com)。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>証明書のサブジェクト名はアクセス エッジの FQDN と等しくなりますが、サブジェクトの別名にもアクセス エッジの FQDN を含める必要があります。これは、トランスポート層セキュリティ (TLS) がサブジェクト名を無視し、検証でサブジェクトの別名エントリを使用するからです。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 証明書のサブジェクト名はアクセス エッジの FQDN と等しくなりますが、サブジェクトの別名にもアクセス エッジの FQDN を含める必要があります。これは、トランスポート層セキュリティ (TLS) がサブジェクト名を無視し、検証でサブジェクトの別名エントリを使用するからです。
     
       - Web 会議エッジ外部インターフェイスまたはハードウェア ロード バランサーの VIP (たとえば、webcon.contoso.com)。
     
@@ -64,18 +44,8 @@ Microsoft Lync Server 2013  通信ソフトウェアでは、アクセスおよ
     
       - 音声ビデオ エッジ サービスでは、サブジェクト名エントリまたはサブジェクトの別名エントリは使用されません。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>サブジェクトの別名リストでの FQDN の順番は問題ではありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > サブジェクトの別名リストでの FQDN の順番は問題ではありません。
 
 
 1 つのサイトで負荷分散が有効な複数のエッジ サーバーを展開する場合、各エッジ サーバーにインストールする音声ビデオ認証サービス証明書は、同じ CA が発行したもので、同じ秘密キーを使用する必要があります。証明書の秘密キーは、1 つのエッジ サーバーと多くのエッジ サーバーのどちらで使用するかに関係なく、エクスポート可能にする必要があります。また、エッジ サーバー以外のコンピューターから証明書を要求する場合にもエクスポート可能にする必要があります。音声ビデオ認証サービスはサブジェクト名またはサブジェクトの別名を使用しないので、サブジェクト名およびサブジェクトの別名の要件がアクセス エッジおよび Web 会議エッジに対して満たされていて、証明書の秘密キーがエクスポート可能である限り、アクセス エッジ証明書を再利用できます。

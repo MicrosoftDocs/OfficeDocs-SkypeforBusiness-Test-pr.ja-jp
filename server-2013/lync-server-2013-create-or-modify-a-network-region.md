@@ -17,29 +17,19 @@ _**トピックの最終更新日:** 2012-10-19_
 
 *ネットワーク地域* は、通話受付管理 (CAC)、E9-1-1、およびメディア バイパスで使用するネットワーク ハブまたはバックボーンです。ネットワーク地域を作成または変更するには、以下の手順に従います。たとえば、1 つの音声機能用に既にネットワーク地域を作成している場合、新しいネットワーク地域を作成する必要はありません。その他の高度なエンタープライズ VoIP 機能は、それらの同じネットワーク地域を使用します。ただし、機能固有の設定を適用するために、既存のネットワーク地域定義を変更することが必要になる場合があります。たとえば、E9-1-1 のネットワーク地域 (関連付けられた中央サイトが不要) を作成済みで、その後に通話受付制御を展開する場合は、ネットワーク地域の定義を変更して中央サイトを指定する必要があります。詳細については、「[CAC のネットワーク地域の構成](lync-server-2013-configure-network-regions-for-cac.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ネットワーク地域の定義で機能固有の要件については、すべてその機能の「展開」のトピックで説明されています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ネットワーク地域の定義で機能固有の要件については、すべてその機能の「展開」のトピックで説明されています。
 
 
 ネットワーク地域を使用した作業の詳細については、次のコマンドレットに関する Lync Server 管理シェル のドキュメントを参照してください。
 
-  - [New-CsNetworkRegion](new-csnetworkregion.md)
+  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Get-CsNetworkRegion](get-csnetworkregion.md)
+  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](set-csnetworkregion.md)
+  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
 
-  - [Remove-CsNetworkRegion](remove-csnetworkregion.md)
+  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
 
 ## ネットワーク地域の作成
 

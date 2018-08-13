@@ -23,7 +23,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 ## 関連項目
 
-[信頼されたアプリケーションのコマンドレット](lync-server-2013-trusted-applications-cmdlets.md)
+[信頼されたアプリケーションのコマンドレット](https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps)
 
 ## 関連項目
 

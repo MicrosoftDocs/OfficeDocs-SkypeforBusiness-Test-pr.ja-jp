@@ -212,18 +212,8 @@ Skype for Business Online とのハイブリッド用の Lync Server 2013 展開
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Office Communications Server 2007 を実行しているパートナーとフェデレーションが必要な場合は、受信/送信 RTP/UDP および RTP/TCP ポート 50000 ～ 59999 を開く必要があります。A/V ファイアウォール要件の詳細については、「<a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する</a>」を参照してください。ポートおよびプロトコルの詳細については、「<a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">ポートの概要 - Lync Server 2013 の拡張統合エッジ (ロード バランサー機器を使用)</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Office Communications Server 2007 を実行しているパートナーとフェデレーションが必要な場合は、受信/送信 RTP/UDP および RTP/TCP ポート 50000 ～ 59999 を開く必要があります。A/V ファイアウォール要件の詳細については、「<a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する</a>」を参照してください。ポートおよびプロトコルの詳細については、「<a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">ポートの概要 - Lync Server 2013 の拡張統合エッジ (ロード バランサー機器を使用)</a>」を参照してください。
 
 
 ## ユーザー アカウントおよびデータ

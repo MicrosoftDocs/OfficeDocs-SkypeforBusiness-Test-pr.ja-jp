@@ -35,16 +35,6 @@ Outlook Voice Access を使用すると、エンタープライズ VoIP ユー�
 
 Exchange UM には FAX 機能が含まれているので、ユーザーは Exchange のメールボックスで着信 FAX を受信できます。詳細については、Microsoft Exchange Server のドキュメントの「ユニファイド メッセージング」([http://go.microsoft.com/fwlink/?linkid=135652\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=135652%26clcid=0x411)) を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange UM サーバーによって提供される FAX サービスは、Microsoft Exchange Server 2010、最新のサービス パックが適用された Exchange 2010、または Exchange 2013 と統合されている Lync Server の展開では使用できません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Exchange UM サーバーによって提供される FAX サービスは、Microsoft Exchange Server 2010、最新のサービス パックが適用された Exchange 2010、または Exchange 2013 と統合されている Lync Server の展開では使用できません。
 

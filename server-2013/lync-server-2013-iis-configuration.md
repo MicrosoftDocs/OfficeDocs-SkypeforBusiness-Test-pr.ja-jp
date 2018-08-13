@@ -117,35 +117,22 @@ Lync Server 2013Standard Edition の フロント エンド サーバーまた�
 
 Windows Server 2008 R2 SP1 x64 オペレーティング システムの場合は、 Windows PowerShell 2.0 を使用できます。最初に ServerManager モジュールをインポートしてから、IIS 7.5 の役割および役割サービスをインストールする必要があります。
 
-    Import-Module ServerManager
+```
+Import-Module ServerManager
+```
+   
+```
+Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
+```
 
-    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Scripting-Tools, Web-Windows-Auth, Web-Asp-Net, Web-Log-Libraries, Web-Http-Tracing, Web-Stat-Compression, Web-Dyn-Compression, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Errors, Web-Http-Logging, Web-Net-Ext, Web-Client-Auth, Web-Filtering, Web-Mgmt-Console
-
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>匿名認証は、IIS サーバーの役割と共に既定でインストールされます。匿名認証は、IIS をインストールした後に管理することができます。詳細については、「匿名認証を有効にする (IIS 7)」( <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 匿名認証は、IIS サーバーの役割と共に既定でインストールされます。匿名認証は、IIS をインストールした後に管理することができます。詳細については、「匿名認証を有効にする (IIS 7)」( <a href="http://go.microsoft.com/fwlink/?linkid=203935" class="uri">http://go.microsoft.com/fwlink/?linkid=203935</a>) を参照してください。
 
 
 次の表に、Windows Server 2012 と Windows Server 2012 R2 に必要な IIS 8.0 および IIS 8.5 の役割サービスを示します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Server 2012 および Windows Server 2012 R2 の場合は、Add-WindowsFeature コマンドレットは Install-WindowsFeature コマンドレットに置き換えられています。詳細については、「<a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>」を参照してください。</td>
+> [!NOTE]
+> Windows Server 2012 および Windows Server 2012 R2 の場合は、Add-WindowsFeature コマンドレットは Install-WindowsFeature コマンドレットに置き換えられています。詳細については、「<a href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-WindowsFeature</a>」を参照してください。</td>
 </tr>
 </tbody>
 </table>
@@ -323,13 +310,15 @@ Windows Server 2008 R2 SP1 x64 オペレーティング システムの場合�
 
 Windows Server 2012 および Windows Server 2012 R2 では、Windows PowerShell 3.0 を使用して IIS の必要条件をインストールできます。Windows PowerShell 3.0 で ServerManager モジュールを使用して、次のように入力します。
 
-    Import-Module ServerManager
-
-    Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
-
+```
+Import-Module ServerManager
+```
+```
+Add-WindowsFeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-Framework-45-Core, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Console, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, BITS -Source D:\sources\sxs
+```
 
 > [!IMPORTANT]
-> Windows Server 2012 では、Windows Server 2012 ソース メディアのある場所を定義する –Source パラメーターが追加されました。メディアは DVD ドライブとして定義するか (例: D:\Sources\Sxs)、メディア ファイルがコピーされているネットワーク共有に定義 (例: \\fileserver\windows2012\sources\Sxs) できます。
+> Windows Server 2012 では、Windows Server 2012 ソース メディアのある場所を定義する –Source パラメーターが追加されました。メディアは DVD ドライブとして定義するか (例: D:\Sources\Sxs)、メディア ファイルがコピーされているネットワーク共有に定義 (例: \\\\fileserver\windows2012\sources\Sxs) できます。
 
 
 

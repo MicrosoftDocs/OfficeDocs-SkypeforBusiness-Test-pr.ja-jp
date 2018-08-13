@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 4.  \[**地域ルート**\] ページで、削除する地域ルートをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>1 つ以上の地域ルートを一度に削除できます。これを実行するには、Ctrl キーを押しながら、複数のルートを選択します。また、すべての地域ルートを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 1 つ以上の地域ルートを一度に削除できます。これを実行するには、Ctrl キーを押しながら、複数のルートを選択します。また、すべての地域ルートを選択するには、[<strong>編集</strong>] メニューの [<strong>すべて選択</strong>] をクリックします。
 
 
 5.  \[**編集**\] メニューの \[**削除**\] をクリックします。
@@ -57,8 +47,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[New-CsNetworkInterRegionRoute](new-csnetworkinterregionroute.md)  
-[Set-CsNetworkInterRegionRoute](set-csnetworkinterregionroute.md)  
-[Remove-CsNetworkInterRegionRoute](remove-csnetworkinterregionroute.md)  
-[Get-CsNetworkInterRegionRoute](get-csnetworkinterregionroute.md)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)  
+[Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)  
+[Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)  
+[Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 

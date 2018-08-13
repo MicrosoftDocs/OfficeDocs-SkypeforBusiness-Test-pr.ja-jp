@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: 既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開'
+title: "Lync Server 2013: 既存の Enterprise Edition への Standard Edition の展開"
 TOCTitle: 既存の Lync Server 2013 Enterprise への Lync Server 2013 Standard Edition の展開
 ms:assetid: 05ea128d-6c94-49b3-b28b-477367196425
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398112(v=OCS.15)

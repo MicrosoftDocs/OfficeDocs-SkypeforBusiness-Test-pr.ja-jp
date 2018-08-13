@@ -96,18 +96,8 @@ Lync Server コントロール パネルまたは Lync Server 管理シェルを
 
 デバイス更新ログ ファイル設定は、Windows PowerShell と **Set-CsDeviceUpdateConfiguration** コマンドレットを使用して変更できます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
 
 
 以下の例は設定を、変更する **Set-CsDeviceUpdateConfiguration** を使用する 2 つの方法を示します。
@@ -124,5 +114,5 @@ Lync Server コントロール パネルまたは Lync Server 管理シェルを
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
-詳細については、[Set-CsDeviceUpdateConfiguration](set-csdeviceupdateconfiguration.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Set-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsDeviceUpdateConfiguration) コマンドレットに関するヘルプ トピックを参照してください。
 

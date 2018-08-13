@@ -43,18 +43,8 @@ SQL Server アーカイブ データベースでは、アーカイブ データ�
 
 アーカイブを展開し、有効化する前に、SQL Server プラットフォームを設定する必要があります。トポロジの公開に使用するアカウントに適切な管理権限とアクセス許可がある場合、トポロジを公開するときにアーカイブ データベース (LcsLog) を作成できます。インストール手順の一部を含め、データベースを後で作成することもできます。SQL Server の詳細については、SQL Server TechCenter ([http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x411)) を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既定のアーカイブ SQL サーバーのメンテナンス ジョブが、SQL Server のエージェント サービスの制御によってスケジュールで実行できるように、SQL Server のエージェント サービスの [スタートアップの種類] が [自動] に設定され、アーカイブ データベースを持つ SQL インスタンスに対して SQL Server のエージェント サービスが実行されていることを確認します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 既定のアーカイブ SQL サーバーのメンテナンス ジョブが、SQL Server のエージェント サービスの制御によってスケジュールで実行できるように、SQL Server のエージェント サービスの [スタートアップの種類] が [自動] に設定され、アーカイブ データベースを持つ SQL インスタンスに対して SQL Server のエージェント サービスが実行されていることを確認します。
 
 
 ## ファイル ストレージのセットアップ

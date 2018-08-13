@@ -87,9 +87,12 @@ XMPP プロキシを展開する構成の例で、Google Talk とのフェデレ
 
 23. パブリック証明書の受信、インポート、および割り当てを行った後、エッジ サーバー サービスを停止して再起動する必要があります。Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。これは、Lync Server 管理シェルで次のコマンドを入力して行います。
     
-        Stop-CsWindowsService
-    
-        Start-CsWindowsService
+    ```
+    Stop-CsWindowsService
+    ```
+    ```
+    Start-CsWindowsService
+    ```
 
 24. XMPP フェデレーションの DNS を構成するには、SRV レコード (\_xmpp-server.\_tcp.*ドメイン名*) を外部 DNS に追加します。SRV レコードは、ポート値 5269 で、エッジ サーバーのアクセス エッジ FQDN に解決されます。
 

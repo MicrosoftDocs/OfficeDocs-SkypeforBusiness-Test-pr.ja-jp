@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。グローバル クライアント バージョンの構成は Lync Server と共にインストールされ、サーバーの展開全体に対するクライアント バージョンの制御を有効または無効にするときに使用されます。個別のサイトに対して、クライアント バージョンの構成設定を構成することもできます。クライアント バージョンの構成設定を作成または変更するには、Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理シェルを使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。
 
 
 ## Lync Server コントロール パネルを使用して、クライアント バージョンの構成設定を作成または変更するには
@@ -67,5 +57,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
-詳細については、[New-CsClientVersionConfiguration](new-csclientversionconfiguration.md) および [Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[New-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionConfiguration) および [Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

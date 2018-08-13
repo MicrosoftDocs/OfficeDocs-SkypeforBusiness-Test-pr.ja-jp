@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-09-08_
 
 これらのツールの詳細については、「[Lync Server 2013 の外部ユーザー アクセスの展開チェックリスト](lync-server-2013-deployment-checklist-for-external-user-access.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>以前に トポロジ ビルダーを使用して、エッジ トポロジを含む完全なトポロジを定義した場合は、このセクションの「<a href="lync-server-2013-define-your-edge-topology.md">Lync Server 2013 でエッジ トポロジを定義する</a>」タスクおよび「<a href="lync-server-2013-publish-your-topology.md">Lync Server 2013 でのトポロジの公開</a>」タスクは省略できますが、「<a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">エッジ インストール用の Lync Server 2013 のトポロジをエクスポートして外部メディアにコピーする</a>」タスクは完了する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 以前に トポロジ ビルダーを使用して、エッジ トポロジを含む完全なトポロジを定義した場合は、このセクションの「<a href="lync-server-2013-define-your-edge-topology.md">Lync Server 2013 でエッジ トポロジを定義する</a>」タスクおよび「<a href="lync-server-2013-publish-your-topology.md">Lync Server 2013 でのトポロジの公開</a>」タスクは省略できますが、「<a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">エッジ インストール用の Lync Server 2013 のトポロジをエクスポートして外部メディアにコピーする</a>」タスクは完了する必要があります。
 
 
 ## このセクション中

@@ -57,18 +57,8 @@ Lync Server 2013 展開を計画するときに、Lync Server 2013 の実際の�
     
       - Office Web Apps サーバー: 会議が Lync Server トポロジの一部として定義および構成されている場合
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>Office Web Apps サーバー は独立した役割サーバーであり、外部 Web サービスの一部として構成されません。このサーバーはクライアント アクセス用に別途公開されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > Office Web Apps サーバー は独立した役割サーバーであり、外部 Web サービスの一部として構成されません。このサーバーはクライアント アクセス用に別途公開されます。
 
 
 5.  サービスごとに SSL ブリッジを定義します。外部ポート TCP 443 を外部 Web サービス ポートの TCP 4443 にマップします。暗号化されていない HTTP のために、ポート TCP 80 を外部 Web サービス ポートの TCP 8080 にマップします。

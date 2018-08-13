@@ -23,43 +23,28 @@ _**トピックの最終更新日:** 2014-10-20_
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>主要状態インジケーター (KHI) 通知が発行され、ネットワークに存在している IP アドレスの一覧を指定します。ここで指定される一覧は、サブネットと関連付けられていないか、IP アドレスを含むサブネットがネットワーク サイトと関連付けられていません。この通知は 8 時間に 1 回しか発行されません。関連する通知の情報および例は以下の通りです。<br />
-<strong>ソース :</strong> CS 帯域幅ポリシー サービス (コア)<br />
-<strong>イベント番号 :</strong> 36034<br />
-<strong>レベル :</strong> 2<br />
-<strong>概要 :</strong> 次の IP アドレスのサブネット: &lt;IP アドレスのリスト&gt; は構成されていないか、またはサブネットがネットワーク サイトに関連付けられていません。<br />
-<strong>原因 :</strong> 対応する IP アドレスのサブネットがネットワーク構成設定にないか、サブネットがネットワーク サイトに関連付けられていません。<br />
-<strong>解決方法 :</strong> IP アドレス リストに対応するサブネットをネットワーク構成設定に追加し、すべてのサブネットをネットワーク サイトに関連付けます。<br />
-たとえば、通知に表示された IP アドレス リストが 10.121.248.226 および 10.121.249.20 であった場合、これらの IP アドレスがサブネットに関連付けられていないか、または関連付けられているサブネットがネットワーク サイトに属していないかのどちらかになります。10.121.248.0/24 および 10.121.249.0/24 がこれらのアドレスに対応するサブネットである場合、次の手順でこの問題を解決することができます。
-<ol>
-<li><p>IP アドレス 10.121.248.226 が 10.121.248.0/24 サブネットに関連付けられていること、および IP アドレス 10.121.249.20 が 10.121.249.0/24 サブネットに関連付けられていることを確認します。</p></li>
-<li><p>10.121.248.0/24 および 10.121.249.0/24 サブネットがそれぞれネットワーク サイトに関連付けられていることを確認します。</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> 主要状態インジケーター (KHI) 通知が発行され、ネットワークに存在している IP アドレスの一覧を指定します。ここで指定される一覧は、サブネットと関連付けられていないか、IP アドレスを含むサブネットがネットワーク サイトと関連付けられていません。この通知は 8 時間に 1 回しか発行されません。関連する通知の情報および例は以下の通りです。<br />
+> <strong>ソース :</strong> CS 帯域幅ポリシー サービス (コア)<br />
+> <strong>イベント番号 :</strong> 36034<br />
+> <strong>レベル :</strong> 2<br />
+> <strong>概要 :</strong> 次の IP アドレスのサブネット: &lt;IP アドレスのリスト&gt; は構成されていないか、またはサブネットがネットワーク サイトに関連付けられていません。<br />
+> <strong>原因 :</strong> 対応する IP アドレスのサブネットがネットワーク構成設定にないか、サブネットがネットワーク サイトに関連付けられていません。<br />
+> <strong>解決方法 :</strong> IP アドレス リストに対応するサブネットをネットワーク構成設定に追加し、すべてのサブネットをネットワーク サイトに関連付けます。<br />
+> たとえば、通知に表示された IP アドレス リストが 10.121.248.226 および 10.121.249.20 であった場合、これらの IP アドレスがサブネットに関連付けられていないか、または関連付けられているサブネットがネットワーク サイトに属していないかのどちらかになります。10.121.248.0/24 および 10.121.249.0/24 がこれらのアドレスに対応するサブネットである場合、次の手順でこの問題を解決することができます。
+> <ol><li><p>IP アドレス 10.121.248.226 が 10.121.248.0/24 サブネットに関連付けられていること、および IP アドレス 10.121.249.20 が 10.121.249.0/24 サブネットに関連付けられていることを確認します。</p></li>
+> <li><p>10.121.248.0/24 および 10.121.249.0/24 サブネットがそれぞれネットワーク サイトに関連付けられていることを確認します。</p></li></ol>
 
 
 ネットワーク サブネットの設定の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [New-CsNetworkSubnet](new-csnetworksubnet.md)
+  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
 
-  - [Get-CsNetworkSubnet](get-csnetworksubnet.md)
+  - [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
 
-  - [Set-CsNetworkSubnet](set-csnetworksubnet.md)
+  - [Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)
 
-  - [Remove-CsNetworkSubnet](remove-csnetworksubnet.md)
+  - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
 
 
 > [!TIP]
@@ -119,18 +104,8 @@ _**トピックの最終更新日:** 2014-10-20_
 
 7.  \[**ネットワーク サイト ID**\] をクリックし、このサブネットを追加する先のサイトのサイト ID を選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ネットワーク サイトがまだ作成されていない場合、この一覧は空です。手順の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。また、 <strong>Get-CsNetworkSite</strong> コマンドレットを実行して、展開のサイト ID を取得することもできます。詳細については、 Lync Server 管理シェルのドキュメントを参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ネットワーク サイトがまだ作成されていない場合、この一覧は空です。手順の詳細については、「<a href="lync-server-2013-create-or-modify-a-network-site.md">Lync Server 2013 でのネットワーク サイトの作成または変更</a>」を参照してください。また、 <strong>Get-CsNetworkSite</strong> コマンドレットを実行して、展開のサイト ID を取得することもできます。詳細については、 Lync Server 管理シェルのドキュメントを参照してください。
 
 
 8.  必要に応じて、\[**説明**\] をクリックし、このサブネットを説明する追加情報を入力します。

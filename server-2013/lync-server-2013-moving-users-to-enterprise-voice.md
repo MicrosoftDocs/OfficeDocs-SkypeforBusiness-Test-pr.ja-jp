@@ -57,21 +57,11 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - Active Directory の **msRTCSIP-line** 属性にコピーします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>リモート通話コントロール (RCC) との共存</strong><br />
+    > [!NOTE]
+    > <strong>リモート通話コントロール (RCC) との共存</strong><br />
     RCC は、 Lync Server を使用して PBX 電話を監視および制御する機能です。コントロールは、PBX へのゲートウェイとして機能するサーバー経由でルーティングされます。RCC と エンタープライズ VoIP の両方に対してユーザーを構成することはできませんが、どちらの場合も、回線 URI 設定はユーザーの主要電話番号を指定します。<br />
-    既に PBX インフラストラクチャが存在し、一部のユーザーに引き続き使用させたい場合は、徐々に エンタープライズ VoIP を組織へ導入することができます。この展開シナリオの詳細については、「計画」のドキュメントの「<a href="lync-server-2013-direct-sip-deployment-options.md">Lync Server 2013 の直接 SIP 展開のオプション</a>」を参照してください。<br />
-    以前のリリースでは、RCC と エンタープライズ VoIP の両方に対してユーザーを有効にできましたが、それはユーザーに対してデュアル分岐の構成をした場合に限られていました。デュアル分岐は、着信があると、ユーザーの PBX 電話と Communicator が同時に鳴る機能です。 Lync Server 2010 では、デュアル分岐はサポートされていません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > 既に PBX インフラストラクチャが存在し、一部のユーザーに引き続き使用させたい場合は、徐々に エンタープライズ VoIP を組織へ導入することができます。この展開シナリオの詳細については、「計画」のドキュメントの「<a href="lync-server-2013-direct-sip-deployment-options.md">Lync Server 2013 の直接 SIP 展開のオプション</a>」を参照してください。<br />
+    > 以前のリリースでは、RCC と エンタープライズ VoIP の両方に対してユーザーを有効にできましたが、それはユーザーに対してデュアル分岐の構成をした場合に限られていました。デュアル分岐は、着信があると、ユーザーの PBX 電話と Communicator が同時に鳴る機能です。 Lync Server 2010 では、デュアル分岐はサポートされていません。
 
 
 **msRTCSIP-line** 属性を設定するには、次の 3 つの方法があります。

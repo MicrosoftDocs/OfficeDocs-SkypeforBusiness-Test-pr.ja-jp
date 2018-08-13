@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 4.  \[**サブネット**\] ページで、表示するサブネットをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一度に表示できるのは 1 つのサブネットのみです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一度に表示できるのは 1 つのサブネットのみです。
 
 
 5.  \[**編集**\] メニューの \[**詳細の表示**\] をクリックします。
@@ -61,7 +51,7 @@ Lync Server PowerShell コマンドレットおよび Get-CsNetworkSubnet コマ
         NetworkSiteID : Redmond
         SubnetID      : 172.11.15.0
 
-詳細については、[Get-CsNetworkSubnet](get-csnetworksubnet.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

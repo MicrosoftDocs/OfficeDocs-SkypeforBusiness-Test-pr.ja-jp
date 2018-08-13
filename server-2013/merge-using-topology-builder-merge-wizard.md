@@ -71,16 +71,6 @@ _**トピックの最終更新日:** 2012-10-02_
 
 17. **公開ウィザード**の実行が完了したら、\[**完了**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>次のトピック「<a href="import-policies-and-settings.md">ポリシーと設定のインポート</a>」を完了し、従来のポリシーの設定が Lync Server 2013 にインポートされたことを確認することが重要です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 次のトピック「<a href="import-policies-and-settings.md">ポリシーと設定のインポート</a>」を完了し、従来のポリシーの設定が Lync Server 2013 にインポートされたことを確認することが重要です。
 

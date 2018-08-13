@@ -33,18 +33,8 @@ Microsoft Exchange ユニファイド メッセージング通話ルーター �
 
 Lync Server 2013 は、SipName UM ダイヤル プランをホストするすべての Exchange サーバーを自動検出できます。これらのサーバーは、Lync Server の既知のサーバー リストに自動的に追加されます。信頼済みアプリケーション プールを作成する必要はありません。また、これらのサーバーを既知のサーバー リストに追加する必要もありあせん。実際のところ、この操作を行うと、Outlook Web App 統合が機能しなくなります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これは、Lync Server トポロジでは、同じコンピューターに対して自動検出エントリと手動追加エントリの 2 つのエントリが指定されるからです。この問題を修正し、Outlook Web App を再度動作させるには、Windows PowerShell を使用して、そのサーバーの信頼済みプールと信頼済みアプリケーションのエントリを削除します。詳細については、<a href="remove-cstrustedapplicationpool.md">Remove-CsTrustedApplicationPool</a> および <a href="remove-cstrustedapplication.md">Remove-CsTrustedApplication</a> コマンドレットのヘルプ トピックを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これは、Lync Server トポロジでは、同じコンピューターに対して自動検出エントリと手動追加エントリの 2 つのエントリが指定されるからです。この問題を修正し、Outlook Web App を再度動作させるには、Windows PowerShell を使用して、そのサーバーの信頼済みプールと信頼済みアプリケーションのエントリを削除します。詳細については、<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplicationPool">Remove-CsTrustedApplicationPool</a> および <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsTrustedApplication">Remove-CsTrustedApplication</a> コマンドレットのヘルプ トピックを参照してください。
 
 
 この 2 つのサービスが個別のコンピューターで実行されている場合は、Unified Communications Managed API 4.0 Runtime がインストールされていることを確認したら、Outlook Web App に関連付けられた Lync Server の信頼済みアプリケーション プールと信頼済みアプリケーションを作成する必要があります。これにより、サーバーが既知のサーバー リストに追加されます。これを行うには、まず Lync Server 管理シェルから次のようなコマンドを実行します。
@@ -73,18 +63,8 @@ Lync Server が適切に構成されたら、Outlook Web App の構成を開始�
 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -InstantMessagingEnabled $True -InstantMessagingType OCS
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Outlook Web App をインスールすると、インスタント メッセージングは既定で有効になっています。つまり、InstantMessagingEnabled プロパティは True に設定されています。ただし、上記のコマンドは、インスタント メッセージングの種類を OCS に設定する目的でも実行できます。既定では、InstantMessagingType は None に設定されています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Outlook Web App をインスールすると、インスタント メッセージングは既定で有効になっています。つまり、InstantMessagingEnabled プロパティは True に設定されています。ただし、上記のコマンドは、インスタント メッセージングの種類を OCS に設定する目的でも実行できます。既定では、InstantMessagingType は None に設定されています。
 
 
 次に、Outlook Web App の Web.config ファイルに次の 2 行を追加する必要があります (通常、このファイルは C:\\Program Files\\Microsoft\\Exchange Server\\V15\\ClientAccess\\Owa フォルダーにあります)。この 2 行は、Web.config ファイルの \<AppSettings\> ノードの下に追加します。また、この手順は、Outlook Web App がインストールされているバックエンド サーバーでのみ実行することをお勧めします。

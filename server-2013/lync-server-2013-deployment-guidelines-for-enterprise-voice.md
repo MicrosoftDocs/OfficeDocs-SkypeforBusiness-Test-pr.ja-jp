@@ -31,18 +31,8 @@ _**トピックの最終更新日:** 2012-09-21_
 
   - 一意の主要電話番号が指定され、正規化されており、エンタープライズ VoIP に対して有効化する各ユーザーの **msRTCSIP-line** 属性にコピーされていること。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server では、E.164 番号に加え、Direct Inward Dialing (DID) 以外の番号がサポートされています。DID 以外の番号は、<strong>&lt;E.164&gt;;ext=&lt;extension&gt;</strong> 形式で、または数値の文字列で表記できます。数値の文字列を使用する場合は、個人用内線番号が企業内で一意である必要があります。たとえば、個人用内線番号が 1001 の場合は、<strong>+1425550100;ext=1001</strong> または <strong>1001</strong> と表記できます。<strong>1001</strong> と表記すると、その個人用内線番号が企業内で一意であると想定されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server では、E.164 番号に加え、Direct Inward Dialing (DID) 以外の番号がサポートされています。DID 以外の番号は、<strong>&lt;E.164&gt;;ext=&lt;extension&gt;</strong> 形式で、または数値の文字列で表記できます。数値の文字列を使用する場合は、個人用内線番号が企業内で一意である必要があります。たとえば、個人用内線番号が 1001 の場合は、<strong>+1425550100;ext=1001</strong> または <strong>1001</strong> と表記できます。<strong>1001</strong> と表記すると、その個人用内線番号が企業内で一意であると想定されます。
 
 
   - エンタープライズ VoIP を展開する管理者が RTCUniversalServerAdmins グループのメンバーであること。
@@ -57,11 +47,9 @@ _**トピックの最終更新日:** 2012-09-21_
     
       - 次のいずれかのオペレーティング システムを実行していること。
         
-          -   
-            64 ビット版の Windows Server 2008 Standard オペレーティング システム
+          - 64 ビット版の Windows Server 2008 Standard オペレーティング システム
         
-          -   
-            64 ビット版の Windows Server 2008 Enterprise オペレーティング システム
+          - 64 ビット版の Windows Server 2008 Enterprise オペレーティング システム
 
   - 公衆交換電話網 (PSTN) または構内交換機 (PBX) への接続に時分割多重 (TDM) 接続を使用する場合は、1 つ以上の PSTN ゲートウェイを展開できること (接続に SIP トランクを使用する場合、PSTN ゲートウェイは不要です)。
 

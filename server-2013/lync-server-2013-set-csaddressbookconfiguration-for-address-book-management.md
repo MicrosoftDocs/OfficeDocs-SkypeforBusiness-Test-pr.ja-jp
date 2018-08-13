@@ -31,5 +31,5 @@ Set-CsAddressBookConfiguration は、既存の構成を変更するために使�
 
 #### その他のリソース
 
-[Set-CsAddressBookConfiguration](set-csaddressbookconfiguration.md)
+[Set-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAddressBookConfiguration)
 

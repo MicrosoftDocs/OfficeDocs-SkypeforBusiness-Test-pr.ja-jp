@@ -25,6 +25,8 @@ _**トピックの最終更新日:** 2012-10-29_
 
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
 
+   &nbsp;
+
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
 
 **Grant-CsOuPermission** コマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。

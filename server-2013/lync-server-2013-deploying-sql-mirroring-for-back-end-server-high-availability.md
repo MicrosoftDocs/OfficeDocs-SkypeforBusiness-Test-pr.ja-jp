@@ -60,18 +60,8 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ミラー ファイルを書き込むためのファイル共有を作成する必要があります。また SQL Server と SQL エージェントを実行するサービスには、読み取り/書き込みアクセスが必要です。SQL Server サービスがネットワーク サービスによって動作する場合、プリンシパルの SQL Server とミラー SQL Server の両方の &lt;Domain&gt;\&lt;SQLSERVERNAME&gt;$ をこの共有のアクセス許可に追加します。「$」はこれがコンピューター アカウントであることを示すために重要です。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ミラー ファイルを書き込むためのファイル共有を作成する必要があります。また SQL Server と SQL エージェントを実行するサービスには、読み取り/書き込みアクセスが必要です。SQL Server サービスがネットワーク サービスによって動作する場合、プリンシパルの SQL Server とミラー SQL Server の両方の &lt;Domain&gt;\\&lt;SQLSERVERNAME&gt;$ をこの共有のアクセス許可に追加します。「$」はこれがコンピューター アカウントであることを示すために重要です。
 
 
 ## トポロジ ビルダーでのプールの作成時に SQL ミラーリングを構成するには

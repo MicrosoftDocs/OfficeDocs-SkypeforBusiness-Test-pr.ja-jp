@@ -23,18 +23,8 @@ Microsoft Forefront Threat Management Gateway 2010 および Internet Informatio
 
 Web 公開ルールを作成するには、以下の手順を使用してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これらの手順では、Forefront Threat Management Gateway (TMG) 2010 の Standard Edition がインストール済みであること、または Internet Information Server とアプリケーション要求ルーティング処理 (IIS ARR) 拡張がインストールおよび構成済みであることが前提です。TMG または IIS ARR のどちらかを使用します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これらの手順では、Forefront Threat Management Gateway (TMG) 2010 の Standard Edition がインストール済みであること、または Internet Information Server とアプリケーション要求ルーティング処理 (IIS ARR) 拡張がインストールおよび構成済みであることが前提です。TMG または IIS ARR のどちらかを使用します。
 
 
 ## TMG 2010 を実行するコンピューターで Web サーバー公開ルールを作成するには
@@ -53,34 +43,14 @@ Web 公開ルールを作成するには、以下の手順を使用してくだ�
 
 7.  \[**内部公開の詳細**\] ページの \[**内部サイト名**\] ボックスに、会議コンテンツとアドレス帳コンテンツをホストする内部 Web ファームの完全修飾ドメイン名 (FQDN) を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>内部サーバーが Standard Edition サーバーの場合、この FQDN は Standard Edition サーバーの FQDN です。内部サーバーがフロントエンド プールの場合、この FQDN は内部 Web ファーム サーバーを負荷分散するハードウェア ロード バランサーの仮想 IP (VIP) です。TMG サーバーでは、FQDN を内部 Web サーバーの IP アドレスに解決できる必要があります。TMG サーバーで FQDN を適切な IP アドレスに解決できない場合は、[<strong>コンピューター名または IP アドレスを使用して、公開されたサーバーに接続する</strong>] チェック ボックスをオンにし、[<strong>コンピューター名またはIP アドレス</strong>] ボックスに内部 Web サーバーの IP アドレスを入力できます。その場合は、ポート 53 が TMG サーバー上で開いていること、および境界ネットワーク内にある DNS サーバーに接続できることを確認する必要があります。また、ローカル ホスト ファイル内のエントリを使用して、名前解決を行うこともできます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 内部サーバーが Standard Edition サーバーの場合、この FQDN は Standard Edition サーバーの FQDN です。内部サーバーがフロントエンド プールの場合、この FQDN は内部 Web ファーム サーバーを負荷分散するハードウェア ロード バランサーの仮想 IP (VIP) です。TMG サーバーでは、FQDN を内部 Web サーバーの IP アドレスに解決できる必要があります。TMG サーバーで FQDN を適切な IP アドレスに解決できない場合は、[<strong>コンピューター名または IP アドレスを使用して、公開されたサーバーに接続する</strong>] チェック ボックスをオンにし、[<strong>コンピューター名またはIP アドレス</strong>] ボックスに内部 Web サーバーの IP アドレスを入力できます。その場合は、ポート 53 が TMG サーバー上で開いていること、および境界ネットワーク内にある DNS サーバーに接続できることを確認する必要があります。また、ローカル ホスト ファイル内のエントリを使用して、名前解決を行うこともできます。
 
 
 8.  \[**内部公開の詳細**\] ページの \[**パス (省略可)**\] ボックスに、公開するフォルダーのパスとして「**/\*** 」と入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Web サイトの公開ウィザードで指定できるパスは 1 つだけです。ルールのプロパティを変更すると、パスを追加できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Web サイトの公開ウィザードで指定できるパスは 1 つだけです。ルールのプロパティを変更すると、パスを追加できます。
 
 
 9.  \[**パブリック名の詳細**\] ページの \[**要求の許可**\] で、\[**次に入力したドメイン名**\] が選択されていることを確認して、外部 Web サービス FQDN を \[**公開名**\] ボックスに入力します。
@@ -117,18 +87,8 @@ Web 公開ルールを作成するには、以下の手順を使用してくだ�
 
 1.  リバース プロキシに使用する証明書を HTTPS プロトコルにバインドします。\[**スタート**\] ボタンをクリックし、\[**すべてのプログラム**\] を選びます。次に、\[**管理ツール**\] を選び、\[**インターネット インフォメーション サービス (IIS) マネージャー**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>その他のヘルプ、スクリーン ショット、IIS ARR の展開と構成のガイダンスについては、NextHop の記事「<a href="http://go.microsoft.com/fwlink/?linkid=293391">Using IIS ARR as a Reverse Proxy for Lync Server 2013</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > その他のヘルプ、スクリーン ショット、IIS ARR の展開と構成のガイダンスについては、NextHop の記事「<a href="http://go.microsoft.com/fwlink/?linkid=293391">Using IIS ARR as a Reverse Proxy for Lync Server 2013</a>」を参照してください。
 
 
 2.  リバース プロキシに使用する証明書をインポートします (まだインポートしていない場合)。**インターネット インフォメーション サービス (IIS) マネージャー**のコンソールの左側でリバース プロキシ サーバー名をクリックします。コンソールの中央の \[**IIS**\] の下で、\[**サーバー証明書**\] を見つけます。\[**サーバー証明書**\] を右クリックし、\[**機能を開く**\] を選びます。
@@ -145,18 +105,8 @@ Web 公開ルールを作成するには、以下の手順を使用してくだ�
 
 5.  コンソールの左側で、IIS サーバー名の下にある \[**サーバー ファーム**\] を右クリックし、\[**サーバー ファームの作成...**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>サーバー ファーム</strong>] ノードが表示されない場合は、アプリケーション要求ルーティング処理をインストールする必要があります。詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>サーバー ファーム</strong>] ノードが表示されない場合は、アプリケーション要求ルーティング処理をインストールする必要があります。詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」を参照してください。
     
     \[**サーバー ファームの作成**\] ダイアログの \[**サーバー ファーム名**\] に、最初の URL の名前 (わかりやすく特定しやすい名前) を入力します。\[**次へ**\] をクリックします。
 
@@ -222,7 +172,7 @@ Web 公開ルールを作成するには、以下の手順を使用してくだ�
     
       - \[**Add Condition**\] の \[**Condition input:**\] に、「**{HTTP\_HOST}** 」と入力します (入力が完了すると、条件を選ぶためのダイアログが表示されます)。\[**Check if input string:**\] で、\[**Matches the Pattern**\] を選びます。\[**Pattern input**\] に「**\*** 」と入力します。\[**Ignore case**\] を選んでください。\[**OK**\] をクリックします。
     
-      - \[**Edit Inbound Rule**\] ダイアログの下までスクロールして、\[**Action**\] ダイアログを見つけます。\[**Action Type:**\] を \[**Route to Server Farm**\]、\[**Scheme:**\] を \[**https://**\]、\[**Server farm:**\] を、この規則を適用する URL に設定します。この例では、**webext.contoso.com** に設定する必要があります。\[**Path:**\] は \[**/{R:0}**\] に設定します。
+      - \[**Edit Inbound Rule**\] ダイアログの下までスクロールして、\[**Action**\] ダイアログを見つけます。\[**Action Type:**\] を \[**Route to Server Farm**\]、\[**Scheme:**\] を \[<strong>https://</strong>\]、\[<strong>Server farm:</strong>\] を、この規則を適用する URL に設定します。この例では、**webext.contoso.com** に設定する必要があります。\[**Path:**\] は \[**/{R:0}**\] に設定します。
     
       - \[**Apply**\] をクリックして、変更内容を保存します。\[**Back to Rules**\] をクリックして URL 書き換え規則に戻ります。
 

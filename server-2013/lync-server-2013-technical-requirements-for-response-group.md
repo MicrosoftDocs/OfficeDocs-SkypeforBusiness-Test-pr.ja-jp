@@ -47,32 +47,12 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - **ポート 8404**   サーバー間通信に使用
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このポートはマッチ メイキング サービスに使用され、1 つ以上の フロント エンド サーバーを持つプールに 応答グループ アプリケーションが展開される時に必要になります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このポートはマッチ メイキング サービスに使用され、1 つ以上の フロント エンド サーバーを持つプールに 応答グループ アプリケーションが展開される時に必要になります。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これらのポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これらのポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
 
 
 ## オーディオ ファイルの要件
@@ -105,18 +85,8 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 応答グループ構成ツールは、次の表に記載されているオペレーティング システムと Web ブラウザーの組み合わせをサポートします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。
 
 
 ### サポートされているオペレーティング システムおよび Web ブラウザー
@@ -168,18 +138,8 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 エージェント コンソールは、次の表に記載されているオペレーティング システムと Web ブラウザーの組み合わせをサポートします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 32 ビット版または 64 ビット版のオペレーティング システムがサポートされています。32 ビット版の Internet Explorer がサポートされています。
 
 
 ### サポートされているオペレーティング システムおよび Web ブラウザー

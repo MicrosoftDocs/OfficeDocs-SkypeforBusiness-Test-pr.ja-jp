@@ -68,8 +68,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[New-CsNetworkRegion](new-csnetworkregion.md)  
-[Set-CsNetworkRegion](set-csnetworkregion.md)  
-[Remove-CsNetworkRegion](remove-csnetworkregion.md)  
-[Get-CsNetworkRegion](get-csnetworkregion.md)
+[New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)  
+[Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)  
+[Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)  
+[Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 

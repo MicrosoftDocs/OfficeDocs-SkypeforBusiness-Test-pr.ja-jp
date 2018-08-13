@@ -35,18 +35,8 @@ _**トピックの最終更新日:** 2012-09-23_
 
 5.  \[**ユーザーまたはグループの選択**\] ダイアログ ボックスで、RTCUniversalSBATechnicians グループを追加して \[**OK**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ブランチ サイトの RTCUniversalSBATechnicians グループのメンバーが、後でこのデバイスをドメインに追加します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ブランチ サイトの RTCUniversalSBATechnicians グループのメンバーが、後でこのデバイスをドメインに追加します。
 
 
 6.  \[**OK**\] をクリックして 存続可能ブランチ アプライアンス コンピューター オブジェクトを保存します。

@@ -17,36 +17,16 @@ _**トピックの最終更新日:** 2012-10-10_
 
 アーカイブをサポートするように展開を構成する前に、トポロジにアーカイブを組み込む必要があります。ここでは、トポロジ ビルダーを使用して、既存のトポロジにアーカイブを追加する方法について説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>展開内のすべてのユーザーについて、Microsoft Exchange 統合を使用してアーカイブのデータとファイルを Exchange 2013 サーバーに格納する場合は、[<strong>SQL Server ストアのアーカイブ</strong>] および [<strong>SQL Server ストア ミラーリングの有効化</strong>] の情報を指定しないでください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 展開内のすべてのユーザーについて、Microsoft Exchange 統合を使用してアーカイブのデータとファイルを Exchange 2013 サーバーに格納する場合は、[<strong>SQL Server ストアのアーカイブ</strong>] および [<strong>SQL Server ストア ミラーリングの有効化</strong>] の情報を指定しないでください。
 
 
 ## トポロジにアーカイブ データベースのサポートを追加するには
 
 1.  Lync Server 2013 を実行するコンピューター、または Lync Server 管理ツールがインストールされているコンピューターで、ローカル ユーザー グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジはローカル ユーザー グループのメンバーであるアカウントを使用して定義できますが、サーバーを追加するために必要なトポロジを公開するには、<strong>Domain Admins</strong> グループと <strong>RTCUniversalServerAdmins</strong> グループのメンバーであり、Lync Server 2013 ファイル ストアで使用するファイル共有に対するフル コントロールのアクセス許可 (読み取り、書き込み、および変更)、または同等の権限を持っているアカウントを使用する必要があります。こうしたアクセス許可は、トポロジ ビルダーが必要な随意アクセス制御リスト (DACL) を構成できるようにするためのものです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジはローカル ユーザー グループのメンバーであるアカウントを使用して定義できますが、サーバーを追加するために必要なトポロジを公開するには、<strong>Domain Admins</strong> グループと <strong>RTCUniversalServerAdmins</strong> グループのメンバーであり、Lync Server 2013 ファイル ストアで使用するファイル共有に対するフル コントロールのアクセス許可 (読み取り、書き込み、および変更)、または同等の権限を持っているアカウントを使用する必要があります。こうしたアクセス許可は、トポロジ ビルダーが必要な随意アクセス制御リスト (DACL) を構成できるようにするためのものです。
 
 
 2.  トポロジ ビルダーを起動します。

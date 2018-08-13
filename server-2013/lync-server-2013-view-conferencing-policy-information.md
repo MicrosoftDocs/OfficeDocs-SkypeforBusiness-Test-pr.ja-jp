@@ -82,5 +82,5 @@ Lync Server 2013 コントロール パネルでは、会議ポリシーを使�
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-詳細については、[Get-CsConferencingPolicy](get-csconferencingpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy) コマンドレットのヘルプ トピックを参照してください。
 

@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 4.  \[**地域**\] ページで、表示する地域をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一度に 1 つの地域のみを表示できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一度に 1 つの地域のみを表示できます。
 
 
 5.  \[**編集**\] メニューの \[**詳細の表示**\] をクリックします。
@@ -63,7 +53,7 @@ Windows PowerShell および **Get-CsNetworkRegion** コマンドレットを使
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-詳細については、[Get-CsNetworkRegion](get-csnetworkregion.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

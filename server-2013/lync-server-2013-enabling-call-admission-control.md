@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 4.  \[**グローバル**\] ページで \[**グローバル**\] 構成をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft Lync Server 2013 の展開に対して構成できるネットワークは 1 つだけなので、リストに 2 つ以上のネットワーク構成が表示されることはありません。グローバル構成の名前は変更できません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Microsoft Lync Server 2013 の展開に対して構成できるネットワークは 1 つだけなので、リストに 2 つ以上のネットワーク構成が表示されることはありません。グローバル構成の名前は変更できません。
 
 
 5.  \[**編集**\] メニューの \[**詳細の表示**\] をクリックします。
@@ -59,7 +49,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 [Lync Server 2013 での通話受付管理の計画](lync-server-2013-planning-for-call-admission-control.md)  
 [Lync Server 2013 での通話管理受付の構成](lync-server-2013-configure-call-admission-control.md)  
-[Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)  
-[Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)  
-[Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+[Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)  
+[Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)  
+[Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 

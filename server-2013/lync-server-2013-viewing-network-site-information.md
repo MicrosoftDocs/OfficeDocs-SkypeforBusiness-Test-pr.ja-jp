@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 4.  \[**サイト**\] ページで、表示するサイトをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一度に表示できるのは 1 つのサイトの情報だけです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一度に表示できるのは 1 つのサイトの情報だけです。
 
 
 5.  \[**編集**\] メニューの \[**詳細の表示**\] をクリックします。
@@ -63,7 +53,7 @@ _**トピックの最終更新日:** 2013-02-23_
         BWPolicyProfileID :
         LocationPolicy    :
 
-詳細については、[Get-CsNetworkSite](get-csnetworksite.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

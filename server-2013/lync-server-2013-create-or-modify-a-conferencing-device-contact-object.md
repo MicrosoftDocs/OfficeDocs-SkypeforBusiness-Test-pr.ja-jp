@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2013-10-02_
 
 これらのコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモートセッションから実行できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
 
 
 
@@ -46,5 +36,5 @@ _**トピックの最終更新日:** 2013-10-02_
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
-詳細は、[Enable-CsMeetingRoom](enable-csmeetingroom.md) コマンドレットおよび [Set-CsMeetingRoom](set-csmeetingroom.md) コマンドレットのヘルプ トピックを参照してください。
+詳細は、[Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom) コマンドレットおよび [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom) コマンドレットのヘルプ トピックを参照してください。
 

@@ -19,18 +19,8 @@ Microsoft Lync Server 2013、計画ツール を使用して、ブランチ サ�
 
 計画ツールを使用しない場合には、このセクションのトピックにある手順に従って、ブランチ サイトをまず追加してから、音声インフラストラクチャを設定してください。それには、IP/公衆交換電話網 (PSTN) ゲートウェイの定義と SIP トランクの構成 (メディア バイパス有効または無効) の両方、またはいずれかを実行します。構内交換機 (PBX) をブランチ サイトに接続するという方法もあります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ブランチ サイトを復元可能にするには、 存続可能ブランチ アプライアンス、 存続可能ブランチ サーバー、または Standard Edition サーバー をブランチ サイトに展開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Lync Server 2013 を使用した存続可能ブランチ アプライアンスまたはサーバーの展開</a>」または「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」を必要に応じて参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ブランチ サイトを復元可能にするには、 存続可能ブランチ アプライアンス、 存続可能ブランチ サーバー、または Standard Edition サーバー をブランチ サイトに展開する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Lync Server 2013 を使用した存続可能ブランチ アプライアンスまたはサーバーの展開</a>」または「<a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013 の展開</a>」を必要に応じて参照してください。
 
 
 ## このセクション中

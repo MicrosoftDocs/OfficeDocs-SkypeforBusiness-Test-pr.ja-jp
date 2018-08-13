@@ -25,21 +25,10 @@ _**トピックの最終更新日:** 2012-10-20_
 
     Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Enabled プロパティを使用して監視ノードをオンまたはオフにできます。監視ノードを完全に削除する場合は、<strong>Remove-CsWatcherNodeConfiguration</strong> コマンドレットを使用します。<br />
-Remove-CsWatcherNodeConfiguration –Identity &quot;atl-watcher-001.litwareinc.com&quot;<br />
-このコマンドは、指定されたコンピューターからすべての監視ノード構成設定を削除します。これにより、代理トランザクションの自動的な実行が停止します。ただし、このコマンドは、System Center エージェント ファイルまたは Lync Server 2013 システム ファイルをアンインストールしません。</td>
-</tr>
-</tbody>
-</table>
-
+> [!NOTE]  
+> Enabled プロパティを使用して監視ノードをオンまたはオフにできます。監視ノードを完全に削除する場合は、<strong>Remove-CsWatcherNodeConfiguration</strong> コマンドレットを使用します。<br />
+> Remove-CsWatcherNodeConfiguration –Identity &quot;atl-watcher-001.litwareinc.com&quot;<br />
+> このコマンドは、指定されたコンピューターからすべての監視ノード構成設定を削除します。これにより、代理トランザクションの自動的な実行が停止します。ただし、このコマンドは、System Center エージェント ファイルまたは Lync Server 2013 システム ファイルをアンインストールしません。
 
 既定では、監視ノードは、テストを実行するときに組織の外部 URL を使用します。ただし、監視ノードは、組織の内部 URL を使用するように構成することもできます。これにより、管理者は、境界ネットワーク内に配置されたユーザーの URL アクセスを検証できます。監視ノードを外部 URL ではなく内部 URL を使用するように構成するには、UseInternalWebUrls プロパティを True ($True) に設定します。
 

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-10-18_
 
 ユーザーレベルまたはサイトレベルの PIN ポリシーを削除するには、次の手順を実行します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>グローバル PIN ポリシーを削除することはできません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> グローバル PIN ポリシーを削除することはできません。
 
 
 ## ユーザーまたはサイトの PIN ポリシーを削除するには

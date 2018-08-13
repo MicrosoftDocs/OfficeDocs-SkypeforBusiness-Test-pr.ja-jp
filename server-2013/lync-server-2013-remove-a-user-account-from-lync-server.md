@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 次の手順を実行して、Lync Server 2013 に以前に追加したユーザー アカウントを削除できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーを削除すると、そのユーザー アカウントに対して構成したすべての設定が失われます。ユーザー アカウントを削除せずに一時的に無効にする場合は、「<a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013 ユーザー アカウントの再有効化または無効化</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーを削除すると、そのユーザー アカウントに対して構成したすべての設定が失われます。ユーザー アカウントを削除せずに一時的に無効にする場合は、「<a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Lync Server 2013 ユーザー アカウントの再有効化または無効化</a>」を参照してください。
 
 
 ## Lync Server から Lync Server ユーザー アカウントを削除するには
@@ -59,7 +49,7 @@ Disable-CsUser コマンドレットを使用してユーザー アカウント�
     
     このコマンドを実行した後、削除したアカウントおよびその以前の設定を再度有効化することはできません。Enable-CsUser コマンドレットを使用して、Ken Myer の新規アカウントを作成する必要があります。
 
-詳細については、[Disable-CsUser](disable-csuser.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

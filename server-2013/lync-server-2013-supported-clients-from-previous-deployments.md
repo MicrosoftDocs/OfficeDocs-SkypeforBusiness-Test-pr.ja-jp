@@ -114,16 +114,6 @@ _**トピックの最終更新日:** 2015-03-09_
 
 3Office Communicator 2007 R2 のプレゼンスと IM 機能は Lync Server 2013 と互換性がありますが、会議機能は互換性がありません。 Office Communications Server 2007 R2 からの移行中は、プレゼンスと IM を相互運用するのに Office Communicator 2007 R2 が適していますが、ユーザーは Lync Server 2013 会議に参加するのに Lync Web App 2013 を使用する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 クライアントが以前のバージョンの Lync Server と Office Communications Server のクライアントと共存および対話する機能の詳細については、展開に関するドキュメントの「<a href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 でのクライアント相互運用性</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 クライアントが以前のバージョンの Lync Server と Office Communications Server のクライアントと共存および対話する機能の詳細については、展開に関するドキュメントの「<a href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 でのクライアント相互運用性</a>」を参照してください。
 

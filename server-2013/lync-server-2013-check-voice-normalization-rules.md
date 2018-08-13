@@ -58,18 +58,8 @@ Instead, use syntax such as the following, which combines both the Get-CsVoiceNo
 
 Get-CsVoiceNormalizationRule -Identity "global/Prefix All" | Test-CsVoiceNormalizationRule -DialedNumber "12065551219"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>. Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> . Or, you can also use this approach to retrieve an instance of a rule and then test that rule against a specified phone number:
 
 
 `$x = Get-CsVoiceNormalizationRule -Identity "global/Prefix All"`
@@ -118,5 +108,5 @@ To return detailed information about all the voice normalization rules, run this
 
 #### その他のリソース
 
-[Test-CsVoiceNormalizationRule](test-csvoicenormalizationrule.md)
+[Test-CsVoiceNormalizationRule](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsVoiceNormalizationRule)
 

@@ -35,18 +35,8 @@ _**トピックの最終更新日:** 2012-01-16_
     
         Set-CsKerberosAccountPassword -UserAccount "contoso\KerbAuth"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>UserAccount パラメーターは、ドメイン\ユーザーの形式で指定する必要があります。 Kerberos 認証目的で作成されたコンピューター オブジェクトの参照には、「ユーザー@ドメイン.拡張子」形式はサポートされていません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > UserAccount パラメーターは、ドメイン\ユーザーの形式で指定する必要があります。 Kerberos 認証目的で作成されたコンピューター オブジェクトの参照には、「ユーザー@ドメイン.拡張子」形式はサポートされていません。
     
 
     > [!IMPORTANT]

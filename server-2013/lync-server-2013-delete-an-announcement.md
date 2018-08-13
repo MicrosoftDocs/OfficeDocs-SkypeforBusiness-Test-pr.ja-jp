@@ -35,18 +35,8 @@ _**トピックの最終更新日:** 2012-11-01_
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>その他のオプションの詳細については、「<a href="get-csannouncement.md">Get-CsAnnouncement</a>」および「<a href="remove-csannouncement.md">Remove-CsAnnouncement</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > その他のオプションの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</a>」および「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</a>」を参照してください。
 
 
 ## 関連項目
@@ -57,6 +47,6 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[Remove-CsAnnouncement](remove-csannouncement.md)  
-[Get-CsAnnouncement](get-csannouncement.md)
+[Remove-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAnnouncement)  
+[Get-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAnnouncement)
 

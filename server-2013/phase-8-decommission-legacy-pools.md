@@ -27,24 +27,17 @@ Lync Server 2010 サーバーおよびサーバーの役割の削除の詳細、
 
 ## このセクション中
 
-  -   
-    [DNS SRV レコードの更新](update-dns-srv-records.md)
+  - [DNS SRV レコードの更新](update-dns-srv-records.md)
 
-  -   
-    [Lync Server 2010 中央管理サーバーから Lync Server 2013 への移動](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
+  - [Lync Server 2010 中央管理サーバーから Lync Server 2013 への移動](move-the-lync-server-2010-central-management-server-to-lync-server-2013.md)
 
-  -   
-    [会議ディレクトリを移動する](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
+  - [会議ディレクトリを移動する](move-lync-server-2010-conference-directories-to-lync-server-2013.md)
 
-  -   
-    [アーカイブ サーバーの関連付けの削除](remove-the-archiving-server-association.md)
+  - [アーカイブ サーバーの関連付けの削除](remove-the-archiving-server-association.md)
 
-  -   
-    [監視サーバーの関連付けの削除](remove-the-monitoring-server-association.md)
+  - [監視サーバーの関連付けの削除](remove-the-monitoring-server-association.md)
 
-  -   
-    [Enterprise Edition フロントエンド サーバーまたは Standard Edition フロントエンド サーバーの削除](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+  - [Enterprise Edition フロントエンド サーバーまたは Standard Edition フロントエンド サーバーの削除](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
-  -   
-    [バックエンド サーバー上の SQL Server のインスタンスおよびデータベースの削除](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+  - [バックエンド サーバー上の SQL Server のインスタンスおよびデータベースの削除](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
 

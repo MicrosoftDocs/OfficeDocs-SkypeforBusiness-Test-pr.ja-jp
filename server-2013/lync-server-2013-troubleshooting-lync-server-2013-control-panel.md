@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync Server コントロール パネルを使用するには、Microsoft Silverlight ブラウザー プラグイン バージョン 4.0.50524.0 以降がインストールされている必要があります。Silverlight がインストールされていない場合や、以前のバージョンがインストールされている場合は、メッセージ内の手順に従って必要なバージョンをインストールしてください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server コントロール パネルの他のソフトウェア要件は、Lync Server コントロール パネルおよび他のすべての Lync Server 2013 管理ツールをインストールできるオペレーティング システムに関するものです。詳細については、「サポート」のドキュメントの「<a href="lync-server-2013-server-and-tools-operating-system-support.md">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server コントロール パネルの他のソフトウェア要件は、Lync Server コントロール パネルおよび他のすべての Lync Server 2013 管理ツールをインストールできるオペレーティング システムに関するものです。詳細については、「サポート」のドキュメントの「<a href="lync-server-2013-server-and-tools-operating-system-support.md">Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート</a>」を参照してください。
 
 
 セキュリティ上の理由により、インターネット ブラウザーで Silverlight のインストールがブロックされる場合は、Lync Server コントロール パネルを開く URL (Uniform Resource Locator) を信頼済みサイトの一覧に追加します。Internet Explorer のセキュリティ設定で、\[**ActiveX コントロールとプラグインの実行**\] が \[**有効にする**\] に設定されていることを確認します。詳細については、[http://go.microsoft.com/fwlink/?linkid=214060\&clcid=0x411](http://go.microsoft.com/fwlink/?linkid=214060%26clcid=0x411) を参照してください。また、ブラウザーが SSL 3.0 を使用するように構成されていることも確認してください。
@@ -51,18 +41,8 @@ Lync Server コントロール パネルにアクセスする簡易 URL を構�
 
 管理アクセス URL を構成するための操作手順については、「展開」のドキュメントの「[Lync Server 2013 での簡単な URL の編集または構成](lync-server-2013-edit-or-configure-simple-urls.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Web サーバーに複数のネットワーク アダプターが装着されている場合は、DNS 解決が正しく機能するように、追加のネットワーク アダプターごとに DNS を手動で構成する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Web サーバーに複数のネットワーク アダプターが装着されている場合は、DNS 解決が正しく機能するように、追加のネットワーク アダプターごとに DNS を手動で構成する必要があります。
 
 
 ## インターネット インフォメーション サービス (IIS) の要件

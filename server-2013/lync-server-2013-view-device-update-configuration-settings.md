@@ -17,25 +17,13 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync Server 管理シェル と **Get-CsDeviceUpdateConfiguration** コマンドレットを使用すると、デバイス更新サービスの構成設定を表示することができます。このコマンドレットは、Lync Server 2013 管理シェル から、または Windows PowerShell のリモート セッションから実行できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
 
 
 
 
-  - 
-    
-    すべての音声ルートに関する情報を表示するには、Lync Server 管理シェル で次のコマンドを入力し、Enter キーを押します。
+  - すべての音声ルートに関する情報を表示するには、Lync Server 管理シェル で次のコマンドを入力し、Enter キーを押します。
     
         Get-CsDeviceUpdateConfiguration
     
@@ -50,5 +38,5 @@ Lync Server 管理シェル と **Get-CsDeviceUpdateConfiguration** コマンド
         LogFlushInterval       : 00:05:00
         LogCleanUpTimeOfDay    :
 
-このコマンドレットの詳細については、[Get-CsDeviceUpdateConfiguration](get-csdeviceupdateconfiguration.md) のヘルプ トピックを参照してください。
+このコマンドレットの詳細については、[Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateConfiguration) のヘルプ トピックを参照してください。
 

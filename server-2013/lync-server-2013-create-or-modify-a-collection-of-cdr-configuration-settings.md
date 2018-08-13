@@ -19,7 +19,7 @@ _**トピックの最終更新日:** 2015-03-09_
 
 Microsoft Lync Server 2013 をインストールすると、CDR 構成設定のグローバル コレクションが 1 つ作成されます。管理者は、サイト スコープでカスタム設定を作成することもできます。これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。たとえば、レドモンド サイトにサイト スコープの設定を作成する場合、レドモンドでの CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
 
-CDR 構成設定は、Lync Server コントロール パネルまたは [New-CsCdrConfiguration](new-cscdrconfiguration.md) コマンドレットを使用して作成できます。既存の設定を変更するには、Lync Server コントロール パネル または [Set-CsCdrConfiguration](set-cscdrconfiguration.md) コマンドレットを使用します。Lync Server コントロール パネル を使用して設定を作成または変更する場合、次のオプションを使用できます。
+CDR 構成設定は、Lync Server コントロール パネルまたは [New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) コマンドレットを使用して作成できます。既存の設定を変更するには、Lync Server コントロール パネル または [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) コマンドレットを使用します。Lync Server コントロール パネル を使用して設定を作成または変更する場合、次のオプションを使用できます。
 
 
 <table>
@@ -65,18 +65,8 @@ CDR 構成設定は、Lync Server コントロール パネルまたは [New-CsC
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>New-CsCdrConfiguration および Set-CsCdrConfiguration のコマンドレットには、Lync Server コントロール パネルでは使用できない追加のオプションが含まれます。詳細については、「<a href="new-cscdrconfiguration.md">New-CsCdrConfiguration</a>」と「<a href="set-cscdrconfiguration.md">Set-CsCdrConfiguration</a>」のヘルプ トピックを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> New-CsCdrConfiguration および Set-CsCdrConfiguration のコマンドレットには、Lync Server コントロール パネルでは使用できない追加のオプションが含まれます。詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration">New-CsCdrConfiguration</a>」と「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration">Set-CsCdrConfiguration</a>」のヘルプ トピックを参照してください。
 
 
 ## Lync Server コントロール パネルを使用して CDR 構成設定を作成するには
@@ -119,5 +109,5 @@ CDR 構成設定は、Windows PowerShell と **New-CsCdrConfiguration** コマ�
     
         New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
 
-詳細については、[New-CsCdrConfiguration](new-cscdrconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[New-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCdrConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

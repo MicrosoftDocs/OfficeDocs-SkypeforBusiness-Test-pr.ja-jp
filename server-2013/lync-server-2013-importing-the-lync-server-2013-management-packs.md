@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - Component and User Management Pack (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) は、イベント ログに記録されたり、パフォーマンス カウンターによって登録されたり、通話詳細記録 (CDR) データベースや Quality of Experience (QoE) データベースに記録されたりした Lync Server の問題を追跡します。重大な問題については、電子メール、インスタント メッセージ、または Short Message Service (SMS) メッセージングで管理者にすぐに通信するように、System Center Operations Manager を構成できます。SMS は、モバイル デバイス間でテキスト メッセージを送信するために使用されるテクノロジです。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Operations Manager 通知の構成の詳細については、TechNet ライブラリの「通知の構成」(<a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x411</a>) を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Operations Manager 通知の構成の詳細については、TechNet ライブラリの「通知の構成」(<a href="http://go.microsoft.com/fwlink/?linkid=268785%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=268785&amp;clcid=0x411</a>) を参照してください。
 
 
   - Active Monitoring Management Pack (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) は、システムへのサインイン、インスタント メッセージの交換、公衆交換電話網 (PSTN) に存在する電話の呼び出しなど、Lync Server の重要なコンポーネントに対する予防的なテストを行います。これらのテストは、Lync Server の代理トランザクション コマンドレットを使用して実施されます。たとえば、**Test-CsIM** コマンドレットを使用すると、テスト ユーザーのペア間のインスタント メッセージング (IM) の会話をシミュレーションできます。このシミュレーションされたメッセージの会話が失敗すると、通知が生成されます。
@@ -39,18 +29,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Component and User Management Pack は、Lync Server 2013 の監視にのみ使用されます。Lync Server 2013 と Lync Server 2010 の両方がインストールされている併置シナリオの場合、Lync Server 2010 のコンピューターには引き続き Lync Server 2010 管理パックを使用する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2010 用の管理パックには、Lync Server 2010 Monitoring Management Pack と Lync Server 2010 Group Chat Monitoring Management Pack が含まれます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2010 用の管理パックには、Lync Server 2010 Monitoring Management Pack と Lync Server 2010 Group Chat Monitoring Management Pack が含まれます。
 
 
 次のいずれかのツールを使用して、管理パックをインポートできます。

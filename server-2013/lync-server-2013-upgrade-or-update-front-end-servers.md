@@ -35,18 +35,8 @@ Enterprise Edition プール内のフロントエンド サーバーは、アッ
     
     1.  `Stop-CsWindowsService -Graceful -Verbose` コマンドレットを使用して、アップグレードするフロントエンド サーバーに対する新しい接続を停止します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>スケジュールされたサーバー ダウンタイムにサーバーのアップグレードを実行する場合は、このコマンドレットを -<strong>Graceful</strong> パラメーターなしで実行できます (<strong>Stop-CsWindowsService</strong> のようにします)。こうすると、すべての既存サービス要求が処理されるまで待たずに、サービスが直ちにシャットダウンされます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > スケジュールされたサーバー ダウンタイムにサーバーのアップグレードを実行する場合は、このコマンドレットを -<strong>Graceful</strong> パラメーターなしで実行できます (<strong>Stop-CsWindowsService</strong> のようにします)。こうすると、すべての既存サービス要求が処理されるまで待たずに、サービスが直ちにシャットダウンされます。
     
     2.  このアップグレード ドメインに関連付けられたサーバーをアップグレードします。
     

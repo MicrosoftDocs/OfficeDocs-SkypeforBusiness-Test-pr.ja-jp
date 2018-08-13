@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-09-11_
 
 次のいずれかの手順を使用して、ハント グループ ワークフローを作成または変更します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 管理シェルまたは 応答グループ構成ツールを使用して、ハント グループ ワークフローを作成および変更できます。 Lync Server コントロール パネルから 応答グループ構成ツールにアクセスするか、次の URL を入力して Web ブラウザーから Web ページを直接開くことができます。 <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 管理シェルまたは 応答グループ構成ツールを使用して、ハント グループ ワークフローを作成および変更できます。 Lync Server コントロール パネルから 応答グループ構成ツールにアクセスするか、次の URL を入力して Web ブラウザーから Web ページを直接開くことができます。 <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong>
 
 
 ## 応答グループ構成ツール を使用して、ハント グループ ワークフローを作成または変更するには
@@ -43,18 +33,8 @@ _**トピックの最終更新日:** 2013-09-11_
 
 5.  \[**サービスの選択**\] 検索フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前または名前の一部を入力します。表示されたサービスの一覧で、目的のサービスをクリックし、\[**OK**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>応答グループ構成ツールが開きます。次の URL を入力して、Web ブラウザーから 応答グループ構成ツールを直接開くこともできます。 <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 応答グループ構成ツールが開きます。次の URL を入力して、Web ブラウザーから 応答グループ構成ツールを直接開くこともできます。 <strong>https://</strong> <em>&lt;webPoolFqdn&gt;</em> <strong>/RgsConfig</strong>
 
 
 6.  次のいずれかの操作を行います。
@@ -65,95 +45,35 @@ _**トピックの最終更新日:** 2013-09-11_
 
 7.  ユーザーがワークフローへの通話を開始する準備ができている場合は、\[**ワークフローのアクティブ化**\] を選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>管理ワークフローを作成する場合は、[<strong>ワークフローのアクティブ化</strong>] を選択する必要があります。アクティブな管理ワークフローを保存した後、そのワークフローを変更したり、非アクティブ化したりできます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 管理ワークフローを作成する場合は、[<strong>ワークフローのアクティブ化</strong>] を選択する必要があります。アクティブな管理ワークフローを保存した後、そのワークフローを変更したり、非アクティブ化したりできます。
 
 
 8.  フェデレーション ユーザーにグループへの通話を許可するには、\[**フェデレーションを有効にする**\] チェック ボックスをオンにします。また、フェデレーション用に構成されている 応答グループ アプリケーションに適用される外部アクセス ポリシーを保持する必要があります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>グローバル外部アクセス ポリシーは、 応答グループ アプリケーションに適用されます。 Lync Server コントロール パネルを使用するか、 <strong>Set-CsExternalAccessPolicy</strong> コマンドレットを使用して、EnableOutsideAccess パラメーターを True に設定することにより、応答グループ フェデレーション用のグローバル ポリシーを構成することができます。グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。ポリシーをユーザーに適用する方法の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。フェデレーション設定の詳細については、「<a href="set-csexternalaccesspolicy.md">Set-CsExternalAccessPolicy</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > グローバル外部アクセス ポリシーは、 応答グループ アプリケーションに適用されます。 Lync Server コントロール パネルを使用するか、 <strong>Set-CsExternalAccessPolicy</strong> コマンドレットを使用して、EnableOutsideAccess パラメーターを True に設定することにより、応答グループ フェデレーション用のグローバル ポリシーを構成することができます。グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。ポリシーをユーザーに適用する方法の詳細については、「<a href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Lync Server 2013 での組織の外部アクセス ポリシーの管理</a>」を参照してください。フェデレーション設定の詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy">Set-CsExternalAccessPolicy</a>」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Online でホストされているユーザーは、社内展開でホストされている応答グループに通話を発信できません。これは、ハイブリッド展開でも、社内展開が Lync Online 展開とフェデレーションされている場合でも同じです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Online でホストされているユーザーは、社内展開でホストされている応答グループに通話を発信できません。これは、ハイブリッド展開でも、社内展開が Lync Online 展開とフェデレーションされている場合でも同じです。
 
 
 9.  通話中、エージェントの ID を非表示にするには、\[**エージェントの匿名性を有効にする**\] チェック ボックスをオンにします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>匿名の通話は、インスタント メッセージング (IM) やビデオから開始することはできません。ただし、通話の確立後、エージェントまたは発信者が IM やビデオを追加することはできます。匿名のエージェントは、通話の保留、通話の転送 (無条件転送と取次転送)、および通話の保留と保留解除を行うこともできます。匿名の通話では、会議、アプリケーション共有とデスクトップ共有、ファイル転送、ホワイトボードとデータのグループ作業、および通話の記録はサポートされません。Lync VDI プラグインを使用するエージェントは、着信通話を匿名で受信できますが、発信通話を匿名で行うことはできません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 匿名の通話は、インスタント メッセージング (IM) やビデオから開始することはできません。ただし、通話の確立後、エージェントまたは発信者が IM やビデオを追加することはできます。匿名のエージェントは、通話の保留、通話の転送 (無条件転送と取次転送)、および通話の保留と保留解除を行うこともできます。匿名の通話では、会議、アプリケーション共有とデスクトップ共有、ファイル転送、ホワイトボードとデータのグループ作業、および通話の記録はサポートされません。Lync VDI プラグインを使用するエージェントは、着信通話を匿名で受信できますが、発信通話を匿名で行うことはできません。
 
 
 10. \[**通話を受けるグループのアドレスを入力します**\] に、ワークフローへの通話に応答するグループのプライマリ SIP Uniform Resource Identifier (URI) アドレスを入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ワークフローのプライマリ URI は、ワークフローをどのように識別および参照するかを表します。入力した SIP URI は、連絡先オブジェクトとして Active Directory ドメイン サービス に作成されます。URI を作成するには、オブジェクトが Active Directory 内で一意である必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ワークフローのプライマリ URI は、ワークフローをどのように識別および参照するかを表します。入力した SIP URI は、連絡先オブジェクトとして Active Directory ドメイン サービス に作成されます。URI を作成するには、オブジェクトが Active Directory 内で一意である必要があります。
 
 
 11. ワークフローで表示する名前を \[**表示名**\] に入力します (例: 販売 応答グループ)。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>表示名に「&lt;」または「&gt;」という文字を含めないでください。次の表示名は予約されているため、使用しないでください。 <strong>RGS Presence Watcher</strong> または <strong>Announcement Service</strong>。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 表示名に「&lt;」または「&gt;」という文字を含めないでください。次の表示名は予約されているため、使用しないでください。 <strong>RGS Presence Watcher</strong> または <strong>Announcement Service</strong>。
 
 
 12. \[**電話番号**\] に、応答グループの回線 URI を入力します (入力例 +14255550165)。
@@ -180,80 +100,30 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 発信者用の音声に変換される開始メッセージをテキストとして入力するには、\[**音声合成を使用する**\] をクリックして、テキスト ボックスに開始メッセージを入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
     
       - 開始メッセージに Wave (.wav) または Windows Media オーディオ (.wma) ファイルの録音を使用するには、\[**録音を選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**録音**\] リンクをクリックしてください。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するオーディオ ファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 18. \[**ステップ 4 営業時間の指定**\] の \[**タイム ゾーン**\] で、ワークフローのタイム ゾーンをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このタイム ゾーンは、ワークフローの発信者とエージェントの所在地のタイム ゾーンです。これを使用して、始業時間と終業時間が計算されます。たとえば、北アメリカ東部標準時を使用するようにワークフローが構成されており、ワークフローで始業が午前 7:00、終業が午後 11:00 にスケジュールされている場合は、東部標準時の 7:00 と 23:00 がそれぞれ始業時刻と終業時刻になります (時間は 24 時間表記で入力する必要があります)。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このタイム ゾーンは、ワークフローの発信者とエージェントの所在地のタイム ゾーンです。これを使用して、始業時間と終業時間が計算されます。たとえば、北アメリカ東部標準時を使用するようにワークフローが構成されており、ワークフローで始業が午前 7:00、終業が午後 11:00 にスケジュールされている場合は、東部標準時の 7:00 と 23:00 がそれぞれ始業時刻と終業時刻になります (時間は 24 時間表記で入力する必要があります)。
 
 
 19. 次のいずれかの操作を実行して、使用する営業時間スケジュールの種類を選択します。
     
       - 事前に定義した営業時間スケジュールを使用するには、\[**事前設定したスケジュールを使用する**\] をクリックして、ドロップダウン リストから使用するスケジュールを選択します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 <strong>New-CSRgsHoursOfBusiness</strong> コマンドレットを使用して事前設定スケジュールを定義します。詳細については、「<a href="lync-server-2013-optional-define-response-group-business-hours.md">(オプション) Lync Server 2013 での応答グループの営業時間の定義</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 <strong>New-CSRgsHoursOfBusiness</strong> コマンドレットを使用して事前設定スケジュールを定義します。詳細については、「<a href="lync-server-2013-optional-define-response-group-business-hours.md">(オプション) Lync Server 2013 での応答グループの営業時間の定義</a>」を参照してください。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>事前設定したスケジュールを選択すると、応答グループの対応日時で、[<strong>曜日</strong>]、[<strong>始業</strong>]、[<strong>終業</strong>] が自動的に設定されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 事前設定したスケジュールを選択すると、応答グループの対応日時で、[<strong>曜日</strong>]、[<strong>始業</strong>]、[<strong>終業</strong>] が自動的に設定されます。
     
       - このワークフローのみに適用するカスタム スケジュールを使用するには、\[**カスタム スケジュールを使用する**\] をクリックします。
 
@@ -261,51 +131,21 @@ _**トピックの最終更新日:** 2013-09-11_
 
 21. カスタム スケジュールを作成する場合は、応答グループが対応可能な各曜日の \[**始業**\] 時間と \[**終業**\] 時間を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>始業</strong>] 時間と [<strong>終業</strong>] 時間は 24 時間表記で入力する必要があります。たとえば、職場の営業時間が営業日の 9 ～ 5 時までで、昼休みのために正午にオフィスを一度閉める場合、営業時間は [<strong>始業</strong>] 9:00、[<strong>終業</strong>] 12:00、[<strong>始業</strong>] 13:00、[<strong>終業</strong>] 17:00 として指定します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>始業</strong>] 時間と [<strong>終業</strong>] 時間は 24 時間表記で入力する必要があります。たとえば、職場の営業時間が営業日の 9 ～ 5 時までで、昼休みのために正午にオフィスを一度閉める場合、営業時間は [<strong>始業</strong>] 9:00、[<strong>終業</strong>] 12:00、[<strong>始業</strong>] 13:00、[<strong>終業</strong>] 17:00 として指定します。
 
 
 22. 営業時間外にメッセージを再生するには、\[**応答グループの営業時間外にメッセージを再生する**\] チェック ボックスをオンにしてから、次のいずれかの操作を実行して再生するメッセージを指定します。
     
       - 発信者用に音声に変換されるメッセージをテキストとして入力するには、\[**音声合成を使用する**\] をクリックして、テキスト ボックスにメッセージを入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
     
       - メッセージにオーディオ ファイルの録音を使用するには、\[**録音を選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**録音**\] リンクをクリックしてください。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 23. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
@@ -320,51 +160,21 @@ _**トピックの最終更新日:** 2013-09-11_
 
 24. \[**ステップ 5 休日の指定**\] で、応答グループが営業しない日を定義する、1 つまたは複数の休日セットのチェック ボックスをオンにします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ワークフローを構成する前に、休日および休日セットを定義する必要があります。休日および休日セットを定義するには、 <strong>New-CsRgsHoliday</strong> コマンドレットおよび <strong>New-CsRgsHolidaySet</strong> コマンドレットを使用します。詳細については、「<a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(オプション) 応答グループ休日セットの定義</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。休日および休日セットを定義するには、 <strong>New-CsRgsHoliday</strong> コマンドレットおよび <strong>New-CsRgsHolidaySet</strong> コマンドレットを使用します。詳細については、「<a href="lync-server-2013-optional-define-response-group-holiday-sets.md">(オプション) 応答グループ休日セットの定義</a>」を参照してください。
 
 
 25. 休日にメッセージを再生するには、\[**休日にメッセージを再生する**\] チェック ボックスをオンにしてから、次のいずれかの操作を実行して再生するメッセージを指定します。
     
       - 発信者用に音声に変換されるメッセージをテキストとして入力するには、\[**音声合成を使用する**\] をクリックして、テキスト ボックスにメッセージを入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 入力するテキストに HTML タグを含めないでください。HTML タグを含めると、エラー メッセージが表示されます。
     
       - メッセージにオーディオ ファイルの録音を使用するには、\[**録音を選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**録音**\] リンクをクリックしてください。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 26. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
@@ -385,18 +195,8 @@ _**トピックの最終更新日:** 2013-09-11_
     
       - 保留音にオーディオ ファイルの録音を使用するには、\[**音楽ファイルを選択する**\] をクリックします。新しいオーディオ ファイルをアップロードする場合は、\[**音楽ファイル**\] リンクをクリックします。新しいブラウザー ウィンドウで \[**参照**\] をクリックし、使用するファイルを選択して、\[**開く**\] をクリックします。\[**アップロード**\] をクリックしてオーディオ ファイルを読み込みます。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ユーザーが指定するすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ユーザーが指定するすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「<a href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 の応答グループの技術要件</a>」を参照してください。
 
 
 29. \[**展開**\] をクリックします。
@@ -415,42 +215,22 @@ _**トピックの最終更新日:** 2013-09-11_
     
         $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「<a href="import-csrgsaudiofile.md">Import-CsRgsAudioFile</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > プロンプトにオーディオ ファイルを使用するには、 <strong>Import-CsRgsAudioFile</strong> コマンドレットを使用します。詳細については、「<a href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</a>」を参照してください。
 
 
 4.  通話が転送されることになるキューまたは質問の ID を取得します。コマンド ラインで、次のコマンドを実行します。
     
         $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
     
-    キューの作成に関する詳細については、「[New-CsRgsQueue](new-csrgsqueue.md)」を参照してください。
+    キューの作成に関する詳細については、「[New-CsRgsQueue](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsQueue)」を参照してください。
 
 5.  営業時間中にワークフローを開いたときに実行される既定のアクションを定義し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
         $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>ハント グループ ワークフローでは、既定のアクションにより通話がキューに転送される必要があります。アクティブなワークフローでは、このパラメーターが必要です。非アクティブなワークフローでは不要です。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > ハント グループ ワークフローでは、既定のアクションにより通話がキューに転送される必要があります。アクティブなワークフローでは、このパラメーターが必要です。非アクティブなワークフローでは不要です。
     
     次に例を示します。
     
@@ -458,7 +238,7 @@ _**トピックの最終更新日:** 2013-09-11_
 
 6.  営業時間と休日を定義する場合は、ワークフローを作成または変更する前に、営業時間と休日を作成する必要があります。詳細については、「[(オプション) Lync Server 2013 での応答グループの営業時間の定義](lync-server-2013-optional-define-response-group-business-hours.md)」および「[(オプション) 応答グループ休日セットの定義](lync-server-2013-optional-define-response-group-holiday-sets.md)」を参照してください。
 
-7.  営業時間外または休日に受信する通話用のプロンプトを保持する場合は、 **New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、 **New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。詳細については、「[New-CsRgsPrompt](new-csrgsprompt.md)」および「[New-CsRgsCallAction](new-csrgscallaction.md)」を参照してください。
+7.  営業時間外または休日に受信する通話用のプロンプトを保持する場合は、 **New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し、 **New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。詳細については、「[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)」および「[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)」を参照してください。
 
 8.  Lync Server 応答グループ サービスのサービス名を取得して変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
     
@@ -477,18 +257,8 @@ _**トピックの最終更新日:** 2013-09-11_
     > ワークフローのマネージャーに指定されているすべてのユーザーに CsResponseGroupManager ロールを割り当てる必要があります。
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>オプションの追加パラメーターの詳細については、「<a href="new-csrgsworkflow.md">New-CsRgsWorkflow</a>」または「<a href="set-csrgsworkflow.md">Set-CsRgsWorkflow</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > オプションの追加パラメーターの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow">New-CsRgsWorkflow</a>」または「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow">Set-CsRgsWorkflow</a>」を参照してください。
 
 
 ## 関連項目
@@ -503,8 +273,8 @@ _**トピックの最終更新日:** 2013-09-11_
 
 #### その他のリソース
 
-[New-CsRgsWorkflow](new-csrgsworkflow.md)  
-[Set-CsRgsWorkflow](set-csrgsworkflow.md)  
-[New-CsRgsPrompt](new-csrgsprompt.md)  
-[New-CsRgsCallAction](new-csrgscallaction.md)
+[New-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsWorkflow)  
+[Set-CsRgsWorkflow](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRgsWorkflow)  
+[New-CsRgsPrompt](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsPrompt)  
+[New-CsRgsCallAction](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsCallAction)
 

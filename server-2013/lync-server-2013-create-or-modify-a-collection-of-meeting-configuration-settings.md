@@ -49,18 +49,8 @@ _**トピックの最終更新日:** 2013-02-23_
     
       - 会議の招待に表示されるロゴをカスタマイズするには、\[**ロゴ URL**\] にロゴの場所を入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。
     
       - 会議招待に表示されるヘルプ テキストをカスタマイズするには、\[**ヘルプ URL**\] にヘルプ テキストの場所を入力します。
     
@@ -108,5 +98,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-詳細については、[New-CsMeetingConfiguration](new-csmeetingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 

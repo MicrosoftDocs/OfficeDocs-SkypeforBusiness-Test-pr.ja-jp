@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-07-11_
 
 次のセクションでは、パッシブ認証をサポートするように、累積更新プログラム: 2013 年 7 月を適用した Lync Server 2013 を構成する方法について説明します。パッシブ認証を有効にすると、2 要素認証で有効になっている Lync ユーザーは、累積更新プログラム: 2013 年 7 月を適用した Lync 2013 クライアントを使用する際に、物理的または仮想のスマート カードと有効な PIN を使ってサインインすることが必要になります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>レジストラーと Web サービスのパッシブ認証はサービス レベルで有効にすることを強くお勧めします。レジストラーと Web サービスのパッシブ認証をグローバル レベルで有効にすると、累積更新プログラム: 2013 年 7 月を適用した Lync 2013 クライアントのデスクトップ クライアントでサインインしていないユーザーが組織全体で認証エラーになる可能性があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> レジストラーと Web サービスのパッシブ認証はサービス レベルで有効にすることを強くお勧めします。レジストラーと Web サービスのパッシブ認証をグローバル レベルで有効にすると、累積更新プログラム: 2013 年 7 月を適用した Lync 2013 クライアントのデスクトップ クライアントでサインインしていないユーザーが組織全体で認証エラーになる可能性があります。
 
 
 ## Web サービス構成設定
@@ -75,6 +65,8 @@ Lync Web サービスで証明書認証が無効になっている場合、Lync 
     
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+
+       &nbsp;
     
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

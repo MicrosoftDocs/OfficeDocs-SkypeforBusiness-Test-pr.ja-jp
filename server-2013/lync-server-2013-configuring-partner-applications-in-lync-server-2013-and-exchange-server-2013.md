@@ -1,6 +1,6 @@
 ﻿---
-title: Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のパートナー アプリケーションの構成
-TOCTitle: Microsoft Lync Server 2013 および Microsoft Exchange Server 2013 のパートナー アプリケーションの構成
+title: "Lync Server 2013 と Exchange Server 2013 のパートナー アプリケーションの構成"
+TOCTitle: "Lync Server 2013 と Exchange Server 2013 のパートナー アプリケーションの構成"
 ms:assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ688151(v=OCS.15)
 ms:contentKeyID: 49887070
@@ -43,13 +43,13 @@ Lync Server 2013 を Exchange 2013 のパートナー アプリケーション�
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-Lync Server では、[New-CsPartnerApplication](new-cspartnerapplication.md) コマンドレットを使用してパートナー アプリケーションを構成します。メタデータの URI を指定するほかに、アプリケーションの信頼レベルを Full に設定する必要もあります。これにより、Exchange が領域内で自身と承認済みユーザーの両方を表すことができるようになります。次に例を示します。
+Lync Server では、[New-CsPartnerApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsPartnerApplication) コマンドレットを使用してパートナー アプリケーションを構成します。メタデータの URI を指定するほかに、アプリケーションの信頼レベルを Full に設定する必要もあります。これにより、Exchange が領域内で自身と承認済みユーザーの両方を表すことができるようになります。次に例を示します。
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 
 また、Lync Server 2013 のサーバー間認証のドキュメントに含まれているスクリプト コードをコピーして変更することによってパートナー アプリケーションを作成することもできます。詳細については、「[Lync Server 2013 でのサーバー間認証 (Oauth) およびパートナー アプリケーションの管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)」を参照してください。
 
-Lync Server と Exchange の両方のパートナー アプリケーションの構成が完了したら、この 2 つの製品間のサーバー間認証の構成が完了したことになります。Lync Server 2013 に含まれている [Test-CsExStorageConnectivity](test-csexstorageconnectivity.md) という Windows PowerShell コマンドレットを使用すると、サーバー間認証が正しく構成されているかどうかと、Lync Server ストレージ サービスが Exchange 2013 に接続できるかどうかを確認できます。これは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの会話履歴フォルダーに項目を書き込むことによって行われます。必要に応じてその項目を削除することもできます。
+Lync Server と Exchange の両方のパートナー アプリケーションの構成が完了したら、この 2 つの製品間のサーバー間認証の構成が完了したことになります。Lync Server 2013 に含まれている [Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity) という Windows PowerShell コマンドレットを使用すると、サーバー間認証が正しく構成されているかどうかと、Lync Server ストレージ サービスが Exchange 2013 に接続できるかどうかを確認できます。これは、Exchange 2013 ユーザーのメールボックスに接続し、そのユーザーの会話履歴フォルダーに項目を書き込むことによって行われます。必要に応じてその項目を削除することもできます。
 
 Lync Server 2013 と Exchange 2013 の統合をテストするには、Lync Server 管理シェルから次のようなコマンドを実行します。
 

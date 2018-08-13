@@ -15,7 +15,7 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2013-02-20_
 
-共有エリアの電話すべての Active Directory ドメイン サービス 連絡先オブジェクトを作成するには、**New-CsCommonAreaPhone** コマンドレットを使用します。このコマンドレットでは、共有エリアの電話で使用する新しい連絡先オブジェクトを作成するか、既存の連絡先オブジェクトを新しい共有エリアの電話に関連付けることができます。共有エリアの電話に関連付けられている連絡先オブジェクトのプロパティを変更するには、**Set-CsCommonAreaPhone** コマンドレットを使用します。**Set-CsCommonAreaPhone** のオプション パラメーターでは、連絡先の Active Directory 表示名、電話に関連付けられている回線の Uniform Resource Identifier (URI) など、項目を変更できます。また、Lync Server で使用するアカウントの有効化/無効化も行えます。実行できるすべての変更の詳細については、「[Set-CsCommonAreaPhone](set-cscommonareaphone.md)」のパラメーターに関するセクションを参照してください。**New-CsCommonAreaPhone** のパラメーターの詳細については、「[New-CsCommonAreaPhone](new-cscommonareaphone.md)」を参照してください。
+共有エリアの電話すべての Active Directory ドメイン サービス 連絡先オブジェクトを作成するには、**New-CsCommonAreaPhone** コマンドレットを使用します。このコマンドレットでは、共有エリアの電話で使用する新しい連絡先オブジェクトを作成するか、既存の連絡先オブジェクトを新しい共有エリアの電話に関連付けることができます。共有エリアの電話に関連付けられている連絡先オブジェクトのプロパティを変更するには、**Set-CsCommonAreaPhone** コマンドレットを使用します。**Set-CsCommonAreaPhone** のオプション パラメーターでは、連絡先の Active Directory 表示名、電話に関連付けられている回線の Uniform Resource Identifier (URI) など、項目を変更できます。また、Lync Server で使用するアカウントの有効化/無効化も行えます。実行できるすべての変更の詳細については、「[Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone)」のパラメーターに関するセクションを参照してください。**New-CsCommonAreaPhone** のパラメーターの詳細については、「[New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone)」を参照してください。
 
 これらの 2 つのコマンドレットは、Lync Server 2013 管理シェルから実行することも、Windows PowerShell のリモート セッションから実行することもできます。リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 ([http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)) を参照してください。
 
@@ -40,5 +40,5 @@ _**トピックの最終更新日:** 2013-02-20_
     
         Set-CsCommonAreaPhone -Identity "Lobby" -SipAddress "sip:lobby@litwareinc.com"
 
-詳細については、[New-CsCommonAreaPhone](new-cscommonareaphone.md) コマンドレットおよび [Set-CsCommonAreaPhone](set-cscommonareaphone.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone) コマンドレットおよび [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone) コマンドレットに関するヘルプ トピックを参照してください。
 

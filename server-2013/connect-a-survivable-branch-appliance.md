@@ -59,18 +59,8 @@ _**トピックの最終更新日:** 2012-10-19_
 
 9.  ウィザードが開くのでその指示に従います。このウィザードの項目の詳細については、「[Lync Server 2013 での存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーの定義](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)」を参照してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server 2010 存続可能ブランチ アプライアンスは Lync Server 2010 監視ストアにしか関連付けられません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server 2010 存続可能ブランチ アプライアンスは Lync Server 2010 監視ストアにしか関連付けられません。
 
 
 10. このサイトで存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーを使用していない場合は、**\[このウィザードが閉じたら新しい存続可能ウィザードを開く\]** チェック ボックスをオフにして、**\[完了\]** をクリックします。

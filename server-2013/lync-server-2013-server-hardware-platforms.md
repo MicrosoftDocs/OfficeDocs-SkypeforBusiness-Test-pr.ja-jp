@@ -23,18 +23,9 @@ Lync Server 2013 の展開で使用する具体的なハードウェアは、サ
 
 最適なパフォーマンスを得るために、下表に示した要件を満たすハードウェアを使用したサーバーで Lync Server を実行することをお勧めします。これらの要件に満たないハードウェアを使用すると、機能的な問題またはパフォーマンス低下が発生する可能性があります。これらのハードウェア要件は、以前のバージョンの Lync Serverよりも高いことに注意してください。その主な理由は、Lync Server 2013 ではすべてのフロントエンド サーバーで SQL Server を実行するためです。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>NIC チーミングがサポートされ、Lync Server に対して透過的である必要があります。詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming (コミュニケーション サーバーまたは Lync Server とネットワーク アダプターのチーミング)</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> NIC チーミングがサポートされ、Lync Server に対して透過的である必要があります。詳細については、「<a href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming (コミュニケーション サーバーまたは Lync Server とネットワーク アダプターのチーミング)</a>」を参照してください。
 
 
 ### フロント エンド サーバー、バック エンド サーバー、Standard Edition サーバー、常設チャット サーバー、常設チャット ストアと常設チャット コンプライアンス ストア (常設チャット サーバーのバック エンド サーバーの役割) の推奨ハードウェア
@@ -73,20 +64,10 @@ Lync Server 2013 の展開で使用する具体的なハードウェアは、サ
 <td><p>ネットワーク</p></td>
 <td><ul>
 <li><p>1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つを推奨。その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>フロント エンド サーバー、バック エンド サーバー、Standard Edition サーバー、および 常設チャット サーバー のデュアルまたはマルチ ホーム構成は、サポートされていません。<br />
-オペレーティング システムに対して公開されておらず、サーバー ハードウェアの監視と管理のために使用されている ILO/DRAC/etc. 接続は、マルチ ホーム サーバーにならないため、サポートされています。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> フロント エンド サーバー、バック エンド サーバー、Standard Edition サーバー、および 常設チャット サーバー のデュアルまたはマルチ ホーム構成は、サポートされていません。<br />
+オペレーティング システムに対して公開されておらず、サーバー ハードウェアの監視と管理のために使用されている ILO/DRAC/etc. 接続は、マルチ ホーム サーバーにならないため、サポートされています。
 
 </div></li>
 </ul></td>
@@ -136,20 +117,10 @@ Lync Server 2013 の展開で使用する具体的なハードウェアは、サ
 <td><ul>
 <li><p>1 Gbps 以上のデュアルポート ネットワーク アダプター 1 つ (2 つを推奨。その場合は 1 つの MAC アドレスと 1 つの IP アドレスのチーミングが必要)。エッジ サーバー では 2 つのネットワーク インターフェイスが必要。これらはスタンドアロンの仲介サーバー上でサポートされています。</p></li>
 </ul>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ディレクター のデュアルまたはマルチ ホーム構成は、サポートされていません。<br />
-オペレーティング システムに対して公開されておらず、サーバー ハードウェアの監視と管理のために使用されている ILO/DRAC/etc. 接続は、マルチ ホーム サーバーにならないため、サポートされています。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> ディレクター のデュアルまたはマルチ ホーム構成は、サポートされていません。<br />
+オペレーティング システムに対して公開されておらず、サーバー ハードウェアの監視と管理のために使用されている ILO/DRAC/etc. 接続は、マルチ ホーム サーバーにならないため、サポートされています。
 
 </div>
 <p>エッジ サーバー は、デュアルポート ネットワーク アダプターである、1 Gbps 以上の 2 つのネットワーク インターフェイス (または ２ 組のペアになっているネットワーク アダプター (合計で 4 個)、各ペアは 1 つの MAC アドレスと 1 つの IP アドレスでチーミングされた状態 (合計で 2 組のペア)) を必要とします。</p>

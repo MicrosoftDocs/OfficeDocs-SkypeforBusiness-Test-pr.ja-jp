@@ -19,7 +19,7 @@ Microsoft Lync Server 2013 には、インスタント メッセージングと 
 
 
 > [!IMPORTANT]
-> Lync 会話のアーカイブを完全に無効にするには、Lync 会話の履歴も無効にする必要があります。詳細については、「<A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での内部通信および外部通信のアーカイブの管理</A>」、「<A href="new-csclientpolicy.md">New-CsClientPolicy</A>」、および「<A href="set-csclientpolicy.md">Set-CsClientPolicy</A>」のトピックを参照してください。
+> Lync 会話のアーカイブを完全に無効にするには、Lync 会話の履歴も無効にする必要があります。詳細については、「<A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Lync Server 2013 での内部通信および外部通信のアーカイブの管理</A>」、「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>」、および「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>」のトピックを参照してください。
 
 
 
@@ -49,18 +49,8 @@ Exchange アーカイブを無効にするには、次のようなコマンド�
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EnableArchiving プロパティが None に設定されている場合、Lync Server はインスタント メッセージングのトランスクリプトも Web 会議のトランスクリプトも一切アーカイブしません。この場合、サーバーは単に EnableExchangeArchiving に構成されている値を無視します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> EnableArchiving プロパティが None に設定されている場合、Lync Server はインスタント メッセージングのトランスクリプトも Web 会議のトランスクリプトも一切アーカイブしません。この場合、サーバーは単に EnableExchangeArchiving に構成されている値を無視します。
 
 
 また、Lync Server コントロール パネルを使用して Exchange アーカイブを有効 (または無効) にすることもできます。これを行うには、次の手順を実行します。
@@ -73,18 +63,8 @@ Exchange アーカイブを無効にするには、次のようなコマンド�
 
 4.  アーカイブするアイテムを選択したら、\[**Exchange Server の統合**\] チェック ボックスをオンにして Exchange アーカイブを有効にします。Exchange アーカイブを無効にするには、このチェック ボックスをオフにします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>[<strong>アーカイブ設定</strong>] が [<strong>アーカイブを無効にする</strong>] に設定されていると [<strong>Exchange Server の統合</strong>] チェック ボックスは利用できません。まずアーカイブを有効にしてから Exchange アーカイブを有効にする必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> [<strong>アーカイブ設定</strong>] が [<strong>アーカイブを無効にする</strong>] に設定されていると [<strong>Exchange Server の統合</strong>] チェック ボックスは利用できません。まずアーカイブを有効にしてから Exchange アーカイブを有効にする必要があります。
 
 
 Lync Server 2013 と Exchange 2013 が同じフォレストにある場合、個々のユーザー (または少なくとも Exchange 2013 に電子メール アカウントを持つユーザー) のアーカイブは Exchange インプレース保持ポリシーを使用して管理されます。以前のバージョンの Exchange に所属するユーザーがいる場合、それらのユーザーのアーカイブは Lync Server アーカイブ ポリシーを使用して管理されます。Lync のトランスクリプトを Exchange にアーカイブできるのは、Exchange 2013 にアカウントを持つユーザーだけです。

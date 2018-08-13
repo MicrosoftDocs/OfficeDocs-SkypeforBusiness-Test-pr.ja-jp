@@ -41,18 +41,8 @@ _**トピックの最終更新日:** 2013-11-07_
 
   - **ポート 5071**   SIP リッスン要求のために使用
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>このポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> このポートは既定の設定であり、<strong>Set-CsApplicationServer</strong> コマンドレットを使用して変更することができます。このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
 
 
 ## オーディオ ファイルの要件

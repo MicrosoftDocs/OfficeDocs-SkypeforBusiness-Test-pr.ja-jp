@@ -25,19 +25,9 @@ _**トピックの最終更新日:** 2015-06-22_
 
 このコマンドが失敗するのは、グローバル ポリシーを割り当てる必要がないためです。グローバル ポリシーを使用してユーザーを管理する場合は、そのユーザーにユーザーごとのポリシーを割り当てないようにします。ユーザーに割り当てられているユーザーごとのポリシーがない場合、そのユーザーは自動的にグローバル ポリシーを使用して管理されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>以前、ユーザーにユーザーごとのポリシーが割り当てられていて、そのポリシーの割り当てを解除し、代わりにグローバル ポリシーによりユーザーを管理する場合を考えます。この場合、まず次の構文を使用します。この構文は、ユーザーに null ポリシーを付与して、ユーザーごとのポリシーの割り当てを解除します。<br />
-Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 以前、ユーザーにユーザーごとのポリシーが割り当てられていて、そのポリシーの割り当てを解除し、代わりにグローバル ポリシーによりユーザーを管理する場合を考えます。この場合、まず次の構文を使用します。この構文は、ユーザーに null ポリシーを付与して、ユーザーごとのポリシーの割り当てを解除します。<br />
+> Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null
 
 
 第 2 に、ユーザーごとのポリシーはタグ スコープで作成されることに留意します。ただし、ポリシー名を指定する場合にはタグ **プレフィクス**を省略できます。次の 2 つのコマンドは同じです。
@@ -51,22 +41,22 @@ Grant-CsVoicePolicy –Identity &quot;Ken Myer&quot; –PolicyName $Null</td>
 
 次のコマンドレットはユーザー ID とタグ スコープの両方を使用します。
 
-  - [Grant-CsClientPolicy](grant-csclientpolicy.md)
+  - [Grant-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientPolicy)
 
-  - [Grant-CsConferencingPolicy](grant-csconferencingpolicy.md)
+  - [Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy)
 
-  - [Grant-CsDialPlan](grant-csdialplan.md)
+  - [Grant-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsDialPlan)
 
-  - [Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+  - [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 
-  - [Grant-CsHostedVoicemailPolicy](grant-cshostedvoicemailpolicy.md)
+  - [Grant-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsHostedVoicemailPolicy)
 
-  - [Grant-CsVoicePolicy](grant-csvoicepolicy.md)
+  - [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy)
 
 ## 関連項目
 
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

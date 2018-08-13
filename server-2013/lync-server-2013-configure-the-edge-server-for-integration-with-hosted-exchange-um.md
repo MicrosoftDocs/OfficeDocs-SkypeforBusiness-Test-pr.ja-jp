@@ -25,9 +25,9 @@ Lync Server 2013 のユーザーに Hosted Exchange ユニファイド メッセ
 
 詳細については、 Lync Server 管理シェルのドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [Set-CsAccessEdgeConfiguration](set-csaccessedgeconfiguration.md)
+  - [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration)
 
-  - [New-CsHostingProvider](new-cshostingprovider.md)
+  - [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 
 
 > [!IMPORTANT]
@@ -71,18 +71,8 @@ Lync Server 2013 のユーザーに Hosted Exchange ユニファイド メッセ
     
       - **EnabledSharedAddressSpace** では、共有 SIP アドレス スペース (分割ドメイン) シナリオで、ホスティング プロバイダーが使用されているかどうかを指定します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td><code>EnableSharedAddressSpace</code> を True に設定する前に、フェデレーション SRV レコードを内部で解決してください。このレコードを内部で解決できない場合は、内部 DNS で records, _sipfederationtls._tcp.&lt;domain&gt; と _sip._tls.&lt;domain&gt; を作成する必要があります。これらのレコードは Edge Server のアクセス インターフェイスの外部 IP アドレスをポイントする必要があります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > <code>EnableSharedAddressSpace</code> を True に設定する前に、フェデレーション SRV レコードを内部で解決してください。このレコードを内部で解決できない場合は、内部 DNS で records, _sipfederationtls._tcp.&lt;domain&gt; と _sip._tls.&lt;domain&gt; を作成する必要があります。これらのレコードは Edge Server のアクセス インターフェイスの外部 IP アドレスをポイントする必要があります。
     
       - **HostsOCSUsers** は、ホスティング プロバイダーが Lync Server 2013 アカウントをホストするために使用されているかどうかを示します。 **False** は、プロバイダーが Microsoft Exchange アカウントなど、別の種類のアカウントをホストしていることを示します。
     
@@ -104,5 +94,5 @@ Lync Server 2013 のユーザーに Hosted Exchange ユニファイド メッセ
 
 #### その他のリソース
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

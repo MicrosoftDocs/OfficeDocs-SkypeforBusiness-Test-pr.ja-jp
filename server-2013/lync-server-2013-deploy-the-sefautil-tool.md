@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 展開内のどのフロント エンド プールでも SEFAUtil を実行できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>SEFAUtil を実行する方法の詳細については、Technet ブログ記事「How to get SEFAutil running?」(<a href="http://go.microsoft.com/fwlink/?linkid=278940" class="uri">http://go.microsoft.com/fwlink/?linkid=278940</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> SEFAUtil を実行する方法の詳細については、Technet ブログ記事「How to get SEFAutil running?」(<a href="http://go.microsoft.com/fwlink/?linkid=278940" class="uri">http://go.microsoft.com/fwlink/?linkid=278940</a>) を参照してください。
 
 
 ## SEFAUtil を展開するには
@@ -53,18 +43,8 @@ _**トピックの最終更新日:** 2016-12-08_
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>必要に応じて、別のポートを使用できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 必要に応じて、別のポートを使用できます。
 
 
 5.  変更を加えたトポロジを有効にします。コマンド ラインで、次のコマンドを実行します。
@@ -77,18 +57,8 @@ _**トピックの最終更新日:** 2016-12-08_
     
     1.  管理者特権で Windows コマンド プロンプトからツールを実行し、展開内のユーザーの着信転送設定を表示します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>このツールは \Program Files\Microsoft Lync Server 2013\Reskit にあります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > このツールは \Program Files\Microsoft Lync Server 2013\Reskit にあります。
     
     2.  ユーザーの着信転送設定を表示します。コマンド ラインで、次のコマンドを実行します。
         

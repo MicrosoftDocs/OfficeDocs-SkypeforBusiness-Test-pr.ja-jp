@@ -50,36 +50,13 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="even">
 <td><p>コール パーク オービット テーブルに通話ピックアップの番号範囲を構成する</p></td>
 <td><p><strong>New-CSCallParkOrbit</strong> コマンドレットを使用して、コール パーク オービット テーブルに通話ピックアップの番号範囲を構成し、通話ピックアップ範囲に GroupPickup の種類を割り当てます。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>コール パーク オービット テーブルにあるグループ通話ピックアップの番号範囲を作成、変更、削除、および表示するには、Lync Server 管理シェルを使用する必要があります。Lync Server コントロール パネルでは、グループ通話ピックアップの番号範囲を使用できません。</td>
-</tr>
-</tbody>
-</table>
 
-</div>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>既存のダイヤル プランとシームレスに統合するため、番号範囲は、通常、仮想の内線番号のブロックとして構成されます。コール パーク オービット テーブルで Direct Inward Dialing (DID) 番号を範囲番号として指定することはサポートされていません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> コール パーク オービット テーブルにあるグループ通話ピックアップの番号範囲を作成、変更、削除、および表示するには、Lync Server 管理シェルを使用する必要があります。Lync Server コントロール パネルでは、グループ通話ピックアップの番号範囲を使用できません。
 
-</div></td>
+> [!NOTE]
+> 既存のダイヤル プランとシームレスに統合するため、番号範囲は、通常、仮想の内線番号のブロックとして構成されます。コール パーク オービット テーブルで Direct Inward Dialing (DID) 番号を範囲番号として指定することはサポートされていません。
+
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>

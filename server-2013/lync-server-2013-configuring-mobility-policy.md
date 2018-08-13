@@ -35,18 +35,8 @@ Lync Server 2013 には、モビリティ機能、\[勤務先から通話\] 機�
 
   - ユーザーには、**EnableOutsideVoice** オプションが True に設定されているモビリティ ポリシーが割り当てられている必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>エンタープライズ VoIP に対して有効になっていないユーザーに音声ポリシーの適切なオプションを割り当てると、そのユーザーは、モバイル デバイスを使用して Lync と Lync の間でボイス オーバー IP (VoIP) 通話を行うか、モバイル デバイスで [クリックして参加] リンクを使用してモバイル デバイスから会議に参加できます。詳細については、「<a href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 でのモビリティの要件の定義</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> エンタープライズ VoIP に対して有効になっていないユーザーに音声ポリシーの適切なオプションを割り当てると、そのユーザーは、モバイル デバイスを使用して Lync と Lync の間でボイス オーバー IP (VoIP) 通話を行うか、モバイル デバイスで [クリックして参加] リンクを使用してモバイル デバイスから会議に参加できます。詳細については、「<a href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 でのモビリティの要件の定義</a>」を参照してください。
 
 
 ユーザーを Lync Server 2013 に対して有効にする方法については、「[Lync Server 2013 ユーザー アカウントの再有効化または無効化](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)」を参照してください。ユーザーを エンタープライズ VoIP に対して有効にする方法については、「[Lync Server 2013 でのエンタープライズ VoIP に対するユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)」を参照してください。音声ポリシーのオプションを設定する方法については、「[Lync Server 2013 での音声ポリシーの変更と PSTN 使用法レコードの構成](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)」を参照してください。
@@ -61,18 +51,8 @@ Lync Server 2013 には、モビリティ機能、\[勤務先から通話\] 機�
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>モビリティへのアクセスをオフにしなくても &quot;勤務先から通話&quot; をオフにできます。ただし、モビリティをオフにする場合は、&quot;勤務先から通話&quot; もオフにする必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > モビリティへのアクセスをオフにしなくても &quot;勤務先から通話&quot; をオフにできます。ただし、モビリティをオフにする場合は、&quot;勤務先から通話&quot; もオフにする必要があります。
 
 
 ## モビリティ ポリシーをサイト別に変更するには
@@ -117,9 +97,9 @@ Lync Server 2013 には、モビリティ機能、\[勤務先から通話\] 機�
 
 #### その他のリソース
 
-[New-CsMobilityPolicy](new-csmobilitypolicy.md)  
-[Set-CsMobilityPolicy](set-csmobilitypolicy.md)  
-[Get-CsMobilityPolicy](get-csmobilitypolicy.md)  
-[Grant-CsMobilityPolicy](grant-csmobilitypolicy.md)  
-[Remove-CsMobilityPolicy](remove-csmobilitypolicy.md)
+[New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy)  
+[Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy)  
+[Get-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMobilityPolicy)  
+[Grant-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Remove-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsMobilityPolicy)
 

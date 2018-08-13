@@ -66,18 +66,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 7.  \[**ポリシーの割り当て**\] の \[**会議ポリシー**\] で、次のどちらかの手順を実行します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>ポリシーの割り当て</strong>] で構成できるポリシーは複数あるため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;</strong>] が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>ポリシーの割り当て</strong>] で構成できるポリシーは複数あるため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;</strong>] が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
     
       - \[**\<自動\>**\] を選択すると、Lync Server 2013 でグローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のどちらかを自動で選択できるようになります。
     
@@ -103,7 +93,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## 複数のユーザーへのユーザー単位の会議ポリシーの割り当て
 
-  - 次のコマンドは、ユーザー単位の会議ポリシー HRConferencingPolicy を "Human Resources/人事" 部門に勤務するすべてのユーザーに割り当てます。このコマンドで使用される LdapFilter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - 次のコマンドは、ユーザー単位の会議ポリシー HRConferencingPolicy を "Human Resources/人事" 部門に勤務するすべてのユーザーに割り当てます。このコマンドで使用される LdapFilter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
@@ -113,7 +103,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsConferencingPolicy](grant-csconferencingpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsConferencingPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

@@ -15,18 +15,8 @@ ms.translationtype: HT
 
 _**トピックの最終更新日:** 2016-12-08_
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ハードウェア要件の詳細については、「<a href="lync-server-2013-server-hardware-platforms.md">Lync Server 2013　用のサーバー ハードウェア プラットフォーム</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ハードウェア要件の詳細については、「<a href="lync-server-2013-server-hardware-platforms.md">Lync Server 2013　用のサーバー ハードウェア プラットフォーム</a>」を参照してください。
 
 
 Standard Edition と Enterprise Edition の各サーバーは、同じソフトウェア要件を共有しています。
@@ -51,18 +41,8 @@ Standard Edition および Enterprise Edition のサーバーでは、次のど�
 
 オペレーティング システム ソフトウェアを Standard Edition サーバーまたは Enterprise Edition フロントエンド サーバーにインストールします。オペレーティング システムを最新の状態、かつ組織の標準に一致した必須の更新レベルにするために、すべての更新プログラムを適用します。動作要件の詳細については、「サポート」のドキュメントの「[Lync Server 2013 でのサーバーおよびツールのオペレーティング システムのサポート](lync-server-2013-server-and-tools-operating-system-support.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 を Windows Server 2012 R2 上で実行するには、Windows Server のレジストリ キーの値の変更が必要な場合があります。この変更は、証明書の適切な動作や、存続可能ブランチ アプライアンスでのクライアントの登録に必要な場合があります。詳細については、<a href="http://support.microsoft.com/kb/2901554" class="uri">http://support.microsoft.com/kb/2901554</a> を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 を Windows Server 2012 R2 上で実行するには、Windows Server のレジストリ キーの値の変更が必要な場合があります。この変更は、証明書の適切な動作や、存続可能ブランチ アプライアンスでのクライアントの登録に必要な場合があります。詳細については、<a href="http://support.microsoft.com/kb/2901554" class="uri">http://support.microsoft.com/kb/2901554</a> を参照してください。
 
 
 ## Lync Server 2013 用の追加ソフトウェア
@@ -79,18 +59,8 @@ Lync Server 2013 では、オペレーティング システムに必要な更�
 
 Lync Server 2013 では、Lync Server トポロジに参加する各コンピューターに Windows PowerShell 3.0 をインストールする必要があります。Windows PowerShell 3.0 のインストールの詳細については、「[Lync Server 2013 用の Windows PowerShell 3.0 のインストール](lync-server-2013-installing-windows-powershell-3-0.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Server 2008 R2 SP1 では、Microsoft .NET Framework 4.5 をインストールする前に Windows PowerShell コマンドライン インターフェイス 3.0 をインストールすることはできません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Windows Server 2008 R2 SP1 では、Microsoft .NET Framework 4.5 をインストールする前に Windows PowerShell コマンドライン インターフェイス 3.0 をインストールすることはできません。
 
 
 ## Microsoft .NET Framework 4.5

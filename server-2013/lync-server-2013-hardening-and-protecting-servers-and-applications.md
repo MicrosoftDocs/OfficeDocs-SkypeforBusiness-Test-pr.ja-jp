@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 個々のコンポーネントのベスト プラクティスに従って、オペレーティング システムおよびアプリケーションを強化して保護することをお勧めします。ここでは、アプリケーション サーバーを強化し、グループ ポリシーを使用してセキュリティ ロックダウンを実装する方法を説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>また、 Microsoft Lync Server 2013 の展開で使用されるデータベースを強化して保護することもできます。詳細については、「 <a href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013 のデータベースのセキュリティ強化および保護</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> また、 Microsoft Lync Server 2013 の展開で使用されるデータベースを強化して保護することもできます。詳細については、「 <a href="lync-server-2013-hardening-and-protecting-databases.md">Lync Server 2013 のデータベースのセキュリティ強化および保護</a>」を参照してください。
 
 
 ## アプリケーション サーバーのセキュリティ保護

@@ -28,27 +28,21 @@ Kerberos アカウントを作成した後、これをサイトに割り当て�
 3.  コマンド ラインで次の 2 つのコマンドを実行します。
     
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount" -Identity "site:SiteName"
+
+       &nbsp;
     
         Enable-CsTopology
     
     次に例を示します。
     
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth" -Identity "site:redmond"
+
+      &nbsp;
     
         Enable-CsTopology
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>UserAccount パラメーターは、ドメイン\ユーザーの形式で指定する必要があります。 ユーザー@ドメイン.拡張子の形式は、Kerberos 認証用に作成されたコンピューター オブジェクトの参照ではサポートされていません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > UserAccount パラメーターは、ドメイン\ユーザーの形式で指定する必要があります。 ユーザー@ドメイン.拡張子の形式は、Kerberos 認証用に作成されたコンピューター オブジェクトの参照ではサポートされていません。
     
 
     > [!IMPORTANT]

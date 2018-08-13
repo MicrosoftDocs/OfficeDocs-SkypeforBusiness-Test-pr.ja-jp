@@ -39,5 +39,5 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Remove-CsExternalAccessPolicy -Identity "global"
 
-詳細については、[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。
 

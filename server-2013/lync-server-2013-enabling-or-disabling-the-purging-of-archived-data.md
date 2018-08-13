@@ -23,19 +23,9 @@ Lync Server 2013 コントロール パネルで、アーカイブ構成を使�
 
 アーカイブ構成は、最初はアーカイブの展開時に設定しますが、展開後に変更、追加、および削除できます。指定できるオプションやアーカイブ構成の階層など、アーカイブ構成の実装の詳細については、「計画」、「展開」、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 に所属するユーザーに対してアーカイブを使用するには、内部通信、外部通信、またはその両方のアーカイブを有効にするかどうかを指定するためのアーカイブ ポリシーを構成する必要があります。既定では、アーカイブは内部通信および外部通信のどちらに対しても有効になっていません。ポリシーでアーカイブを有効にする前に、このセクションの説明に従って、展開および必要に応じて特定のサイトやプールに対して適切なアーカイブ構成を指定する必要があります。アーカイブの有効化の詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">アーカイブ ポリシーの構成と割り当て</a>」を参照してください。<br />
-アーカイブを展開した後に、Microsoft Exchange 統合を使用してアーカイブ データおよびアーカイブ ファイルを Exchange 2013 サーバーに保存し、すべてのユーザーが Exchange 2013 サーバーに所属することを決定した場合は、トポロジから SQL Server データベース構成を削除する必要があります。このためには、トポロジ ビルダーを使用する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 でのアーカイブ データベース オプションの変更</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 に所属するユーザーに対してアーカイブを使用するには、内部通信、外部通信、またはその両方のアーカイブを有効にするかどうかを指定するためのアーカイブ ポリシーを構成する必要があります。既定では、アーカイブは内部通信および外部通信のどちらに対しても有効になっていません。ポリシーでアーカイブを有効にする前に、このセクションの説明に従って、展開および必要に応じて特定のサイトやプールに対して適切なアーカイブ構成を指定する必要があります。アーカイブの有効化の詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">アーカイブ ポリシーの構成と割り当て</a>」を参照してください。<br />
+> アーカイブを展開した後に、Microsoft Exchange 統合を使用してアーカイブ データおよびアーカイブ ファイルを Exchange 2013 サーバーに保存し、すべてのユーザーが Exchange 2013 サーバーに所属することを決定した場合は、トポロジから SQL Server データベース構成を削除する必要があります。このためには、トポロジ ビルダーを使用する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 でのアーカイブ データベース オプションの変更</a>」を参照してください。
 
 
 ## アーカイブの削除を有効または無効にするには
@@ -72,7 +62,7 @@ Windows PowerShell および **Set-CsArchivingConfiguration** コマンドレッ
 
 ## エクスポートされたアーカイブ データのみの削除の有効化
 
-  - ([Export-CsArchivingData](export-csarchivingdata.md) コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ レコードのみを削除するには、PurgeExportedArchivesOnly プロパティも True ($True) に設定する必要があります。次に例を示します。
+  - ([Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData) コマンドレットを使用して) データ ファイルにエクスポートされたアーカイブ レコードのみを削除するには、PurgeExportedArchivesOnly プロパティも True ($True) に設定する必要があります。次に例を示します。
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
@@ -84,7 +74,7 @@ Windows PowerShell および **Set-CsArchivingConfiguration** コマンドレッ
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-アーカイブ データを削除する場合の追加のオプションを含む詳細については、[Set-CsArchivingConfiguration](set-csarchivingconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+アーカイブ データを削除する場合の追加のオプションを含む詳細については、[Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

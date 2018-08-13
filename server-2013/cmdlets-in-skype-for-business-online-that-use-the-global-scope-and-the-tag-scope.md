@@ -27,19 +27,9 @@ ID "RedmondAccessPolicy" が含まれるユーザーごとのポリシーを返�
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ユーザーごとのポリシーを参照する場合、タグ <strong>プレフィクス</strong>は省略可能です。プレフィクスが含まれる次の構文も有効です。<br />
-Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ユーザーごとのポリシーを参照する場合、タグ <strong>プレフィクス</strong>は省略可能です。プレフィクスが含まれる次の構文も有効です。<br />
+> Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;
 
 
 グローバル ポリシーを除くすべてのポリシー (つまり、すべてのユーザーごとのポリシー) を返すには、次のコマンドを使用します。
@@ -48,32 +38,22 @@ Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
 
 次のコマンドレットは、グローバル スコープとユーザーごと (タグ) スコープの両方に対して機能します。
 
-  - [Get-CsClientPolicy](get-csclientpolicy.md)
+  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
 
-  - [Get-CsConferencingPolicy](get-csconferencingpolicy.md)
+  - [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)
 
-  - [Get-CsDialPlan](get-csdialplan.md)
+  - [Get-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialPlan)
 
-  - [Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)
+  - [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)
 
-  - [Get-CsHostedVoicemailPolicy](get-cshostedvoicemailpolicy.md)
+  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
-  - [Get-CsPresencePolicy](get-cspresencepolicy.md)
+  - [Get-CsPresencePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPresencePolicy)
 
-  - [Get-CsVoicePolicy](get-csvoicepolicy.md)
+  - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ダイヤル プランは、名前とは異なり、機能的にはポリシーです。たとえば、ダイヤル プランという用語はダイヤル ポリシーの代わりに使用されていますが、これは以前のバージョンの Lync Server で使用された用語を保持するためです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ダイヤル プランは、名前とは異なり、機能的にはポリシーです。たとえば、ダイヤル プランという用語はダイヤル ポリシーの代わりに使用されていますが、これは以前のバージョンの Lync Server で使用された用語を保持するためです。
 
 
 ## 関連項目
@@ -81,5 +61,5 @@ Get-CsExternalAccessPolicy –Identity &quot;tag:RedmondAccessPolicy&quot;</td>
 #### 概念
 
 [ID、スコープ、およびテナント](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online のコマンドレット](the-skype-for-business-online-cmdlets.md)
+[Lync Online のコマンドレット](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

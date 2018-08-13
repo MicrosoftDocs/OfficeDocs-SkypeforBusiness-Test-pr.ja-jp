@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-06-13_
 
 Lync Server 2013 の Best Practices Analyzer は、Lync Server 2013 環境から構成情報を収集し、構成がマイクロソフトのベスト プラクティスに従って設定されているかどうかを確認します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 の Best Practices Analyzer は、Lync Server 2013 コンポーネントのみをスキャンし、その問題のみをレポートします。展開に Lync Server 2010 または Office Communications Server 2007 R2 のコンポーネントが含まれている場合にこれらのコンポーネントを分析するには、以前のバージョンの Best Practices Analyzer を使用します。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 の Best Practices Analyzer は、Lync Server 2013 コンポーネントのみをスキャンし、その問題のみをレポートします。展開に Lync Server 2010 または Office Communications Server 2007 R2 のコンポーネントが含まれている場合にこれらのコンポーネントを分析するには、以前のバージョンの Best Practices Analyzer を使用します。詳細については、「<a href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">ベスト プラクティス アナライザー実行の要件</a>」を参照してください。
 
 
 ## このセクション中

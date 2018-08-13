@@ -29,18 +29,8 @@ _**トピックの最終更新日:** 2013-02-12_
 
   - 環境に Office Communications Server 2007 R2エッジ サーバーがある場合は、push.lync.com との直接的な SIP フェデレーションを設定する必要があります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Push.lync.com は、プッシュ通知サービス用の Microsoft Office 365 ドメインです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Push.lync.com は、プッシュ通知サービス用の Microsoft Office 365 ドメインです。
 
 
   - プッシュ通知を有効にするには、 **Set-CsPushNotificationConfiguration** コマンドレットを実行する必要があります。既定では、プッシュ通知は無効になっています。
@@ -61,18 +51,8 @@ _**トピックの最終更新日:** 2013-02-12_
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>単一のホスティング プロバイダーに対して複数のフェデレーション関係を持つことはできません。つまり、sipfed.online.lync.com とのフェデレーション関係を持つホスティング プロバイダーを既に設定している場合は、ホスティング プロバイダーの ID が LyncOnline 以外のものであっても、別のホスティング プロバイダーを追加しないでください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 単一のホスティング プロバイダーに対して複数のフェデレーション関係を持つことはできません。つまり、sipfed.online.lync.com とのフェデレーション関係を持つホスティング プロバイダーを既に設定している場合は、ホスティング プロバイダーの ID が LyncOnline 以外のものであっても、別のホスティング プロバイダーを追加しないでください。
 
 
 4.  Lync Online で、組織とプッシュ通知サービス間にホスティング プロバイダー フェデレーションを設定します。コマンドラインで、次のように入力します。
@@ -137,6 +117,6 @@ _**トピックの最終更新日:** 2013-02-12_
 
 #### その他のリソース
 
-[Test-CsFederatedPartner](test-csfederatedpartner.md)  
-[Test-CsMcxPushNotification](test-csmcxpushnotification.md)
+[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)  
+[Test-CsMcxPushNotification](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsMcxPushNotification)
 

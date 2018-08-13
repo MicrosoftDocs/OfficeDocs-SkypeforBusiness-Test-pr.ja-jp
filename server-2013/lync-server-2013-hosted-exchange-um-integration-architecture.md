@@ -29,18 +29,8 @@ Lync Server 2013 ExUM ルーティング アプリケーションは、内部設
 
   - **混合展開 :** Lync Server 2013 展開環境には、社内のローカル Exchange サーバーに属するユーザー メールボックスも、Hosted Exchange サービス データ センターに属するメールボックスも存在します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>混合展開は、評価のためにユーザーを Hosted Exchange UM に段階的に移行する場合の暫定的なソリューションとして、または、一部のユーザーの Exchange UM サービスを社外に移行した後で、他のユーザーの Exchange UM サービスを内部設置型で維持する場合の恒久的なソリューションとして使用できます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 混合展開は、評価のためにユーザーを Hosted Exchange UM に段階的に移行する場合の暫定的なソリューションとして、または、一部のユーザーの Exchange UM サービスを社外に移行した後で、他のユーザーの Exchange UM サービスを内部設置型で維持する場合の恒久的なソリューションとして使用できます。
 
 
 ## 共有 SIP アドレス スペース
@@ -49,18 +39,8 @@ Lync Server 2013 と内部設置型 Exchange UM 展開環境を統合する場�
 
 Lync Server 2013 と Hosted Exchange UM を統合するには、*共有 SIP アドレス スペース*を構成する必要があります。この構成では、同一の SIP ドメイン アドレス スペースは、Lync Server 2013 と Hosted Exchange UM サービス プロバイダーの両方が使用できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>共有 SIP アドレス スペースの使用は、一部のユーザーが内部設置型展開環境に存在し、その他のユーザーがホスト型展開環境 (Lync Server 2013 など) に存在する構内間 Lync Online 環境で使用されるアプローチと似ています。SIP ドメインは、2 者間で分割されています。Lync Server 2013 を Hosted Exchange UM と統合する場合は、共有 SIP アドレス スペースに Exchange UM サービス プロバイダーを必ず含めてください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 共有 SIP アドレス スペースの使用は、一部のユーザーが内部設置型展開環境に存在し、その他のユーザーがホスト型展開環境 (Lync Server 2013 など) に存在する構内間 Lync Online 環境で使用されるアプローチと似ています。SIP ドメインは、2 者間で分割されています。Lync Server 2013 を Hosted Exchange UM と統合する場合は、共有 SIP アドレス スペースに Exchange UM サービス プロバイダーを必ず含めてください。
 
 
 Exchange UM サービス プロバイダーとの統合用に共有 SIP アドレス スペースを構成するには、エッジ サーバーを以下のように構成する必要があります。

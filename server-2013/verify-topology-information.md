@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-09-26_
 
 3.  マージするプールおよびサーバーの FQDN がすべて表示されていることを確認します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>フロントエンド サーバーまたは Standard Edition サーバーに併置されたサーバーの役割に関しては、[<strong>BackCompatSite</strong>] に情報は表示されません。 Office Communications Server 2007 R2 と Lync Server 2013 の相互運用に必要なサーバーの役割だけが表示されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > フロントエンド サーバーまたは Standard Edition サーバーに併置されたサーバーの役割に関しては、[<strong>BackCompatSite</strong>] に情報は表示されません。 Office Communications Server 2007 R2 と Lync Server 2013 の相互運用に必要なサーバーの役割だけが表示されます。
 
 
 ![トポロジ ビルダー、\[BackCompatSite\] ダイアログ ボックス](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "トポロジ ビルダー、[BackCompatSite] ダイアログ ボックス")
@@ -55,18 +45,8 @@ Lync Server 2013 コントロール パネルを使用して、マージ済み�
 
 マージされたプールの詳細を表示するには、 **Get-CsPool** コマンドレットを使用します。トポロジ ビルダーおよび Lync Server 2013 コントロール パネルで参照できる情報に加えて、このコマンドレットを使用すると Lync Server 2013 プールで実行されているサービスが表示されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>トポロジ ビルダーでマージ ウィザードの実行後にトポロジを公開すると、会議ディレクトリが Lync Server 2013 にマージされます。会議ディレクトリを検証するには、 <strong>Get-CsConferenceDirectory</strong> コマンドレットを実行します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> トポロジ ビルダーでマージ ウィザードの実行後にトポロジを公開すると、会議ディレクトリが Lync Server 2013 にマージされます。会議ディレクトリを検証するには、 <strong>Get-CsConferenceDirectory</strong> コマンドレットを実行します。
 
 
 ## マージされたプールのサービスを表示するには

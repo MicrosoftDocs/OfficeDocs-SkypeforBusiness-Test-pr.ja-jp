@@ -1,6 +1,6 @@
 ﻿---
-title: Lync Server 2013 での XMPP (Extensible Messaging and Presence Protocol) フェデレーションの計画
-TOCTitle: Lync Server 2013 での XMPP (Extensible Messaging and Presence Protocol) フェデレーションの計画
+title: "Lync Server 2013: XMPP フェデレーションの計画"
+TOCTitle: "Lync Server 2013: XMPP フェデレーションの計画"
 ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/JJ205107(v=OCS.15)
 ms:contentKeyID: 48272921
@@ -43,7 +43,7 @@ XMPP の展開と構成については、「[Lync Server 2013 での外部ユー
 #### その他のリソース
 
 [Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Get-CsXmppAllowedPartner](get-csxmppallowedpartner.md)  
-[Get-CsXmppGatewayConfiguration](get-csxmppgatewayconfiguration.md)
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
+[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
 

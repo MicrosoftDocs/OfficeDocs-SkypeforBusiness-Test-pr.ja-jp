@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 サービスの品質 (QoS) は、一部の組織で使用されているネットワーク テクノロジであり、音声やビデオによる通信で最適なエンドユーザー エクスペリエンスを提供するために役立ちます。QoS は、帯域幅が制限されているネットワークで特によく使用されます。大量のネットワーク パケットが比較的少量の使用可能な帯域幅を取り合うため、サービスの品質によって、管理者が音声またはビデオのデータを伝送するパケットに高い優先順位を割り当てる方法が提供されます。このようなパケットに高い優先順位を付与すると、音声やビデオによる通信は、ファイルの転送、Web 閲覧、またはデータベース バックアップのようなネットワーク セッションよりも迅速かつ少ない中断で完了する可能性が高まります。このため、ファイルの転送またはデータベース バックアップに使用されるネットワーク パケットには "ベスト エフォート型" の優先順位が割り当てられます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>一般に、サービスの品質は、内部ネットワーク上のセッションとの通信にのみ適用されます。QoS を実装する場合は、パケットのマーキングをサポートするようにサーバーおよびルーターを構成します。ただし、これらのデバイスの構成では、特定の方法でパケットのマーキングをサポートするようにします。サービスの品質はインターネットまたはその他のネットワークでサポートされることを前提にしてはいけません。サービスの品質がその他のネットワークでサポートされる場合であっても、ネットワークでサービスを構成した方法と同じ方法で QoS が構成される保証はありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 一般に、サービスの品質は、内部ネットワーク上のセッションとの通信にのみ適用されます。QoS を実装する場合は、パケットのマーキングをサポートするようにサーバーおよびルーターを構成します。ただし、これらのデバイスの構成では、特定の方法でパケットのマーキングをサポートするようにします。サービスの品質はインターネットまたはその他のネットワークでサポートされることを前提にしてはいけません。サービスの品質がその他のネットワークでサポートされる場合であっても、ネットワークでサービスを構成した方法と同じ方法で QoS が構成される保証はありません。
 
 
 Microsoft Lync Server 2013 はサービスの品質を必要としません。QoS を現在使用していない場合、Lync Server 2013 をインストールする前にこのサービスをインストールする必要はありません。ネットワーク上にかなりの量のパケット損失がある場合、この問題を改善するために推奨される方法は、帯域幅をさらに追加することです。さらに帯域幅を追加することができない場合は、代わりにサービスの品質を実装することができます。
@@ -51,16 +41,6 @@ Lync Server 2013 では、サービスの品質を完全にサポートしてい
 
   - [Microsoft Lync Phone Edition デバイスにおけるサービスの品質 (QoS) の構成](lync-server-2013-configuring-quality-of-service-on-microsoft-lync-phone-edition-devices.md)。既定では、QoS は Lync Phone Edition デバイスで有効になっています。ただし、組織内のすべての音声パケットが同じ DSCP コードを使用するようにするために、既定の DSCP 値を変更することもできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Microsoft Windows Server 2012 または Windows Server 2012 R2 をご使用の場合、そのプラットフォームでサービス品質の管理に使用できる新しいバージョンの Windows PowerShell コマンドレットをご利用いただけます。詳しくは、「Windows PowerShell のネットワーク サービス品質コマンドレット (Network Quality of Service Cmdlets in Windows PowerShell)」(<a href="http://go.microsoft.com/fwlink/p/?linkid=285379">http://go.microsoft.com/fwlink/p/?LinkId=285379</a>) をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Microsoft Windows Server 2012 または Windows Server 2012 R2 をご使用の場合、そのプラットフォームでサービス品質の管理に使用できる新しいバージョンの Windows PowerShell コマンドレットをご利用いただけます。詳しくは、「Windows PowerShell のネットワーク サービス品質コマンドレット (Network Quality of Service Cmdlets in Windows PowerShell)」(<a href="http://go.microsoft.com/fwlink/p/?linkid=285379">http://go.microsoft.com/fwlink/p/?LinkId=285379</a>) をご覧ください。
 

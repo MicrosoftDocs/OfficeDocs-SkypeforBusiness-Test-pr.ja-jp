@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 3.  左側のナビゲーション バーで \[**クライアント**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>既定では、[<strong>クライアント バージョン ポリシー</strong>] タブが選択されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 既定では、[<strong>クライアント バージョン ポリシー</strong>] タブが選択されます。
 
 
 4.  \[**クライアント バージョン ポリシー**\] ページで、次のどちらかの操作を行います。
@@ -63,5 +53,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
-詳細については、[New-CsClientVersionPolicy](new-csclientversionpolicy.md) コマンドレットおよび [Set-CsClientVersionPolicy](set-csclientversionpolicy.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[New-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClientVersionPolicy) コマンドレットおよび [Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
 

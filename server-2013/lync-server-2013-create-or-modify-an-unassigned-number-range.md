@@ -35,42 +35,17 @@ _**トピックの最終更新日:** 2012-11-01_
     
       - 新しい番号範囲を作成するには、\[**新規**\] をクリックします。\[**名前**\] にこの番号範囲の識別名を入力します。
         
-        <table>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>割り当てられていない番号の新しい範囲をデータベースに送信した後は、この名前を変更することはできません。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > 割り当てられていない番号の新しい範囲をデータベースに送信した後は、この名前を変更することはできません。
     
       - 既存の番号範囲を変更するには、番号範囲の名前または名前の一部を検索フィールドに入力します。結果の番号範囲の一覧で、対象の名前をクリックして、\[**編集**\] をクリックし、\[**詳細の表示**\] をクリックします。
 
 5.  最初の \[**数値の範囲**\] フィールドに範囲の開始番号を入力し、2 番目の \[**数値の範囲**\] フィールドに範囲の終了番号を入力します。
     
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><ul>
-    <li><p>範囲の開始番号が終了番号より大きくならないようにしてください。</p></li>
-    <li><p>範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。</p></li>
-    <li><p>この番号は正規表現 (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})? に一致する必要があります。これは、番号が文字列 tel: で始まり (この文字列を指定しなかった場合は、自動的に追加されます)、正符号 (+)、1 ～ 9 の数字であることを意味します。使用できる電話番号は最大 17 桁で、その後に内線番号を付けることができます。内線番号は ;ext= の後に番号が続く形式です。</p></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > <ul><li><p>範囲の開始番号が終了番号より大きくならないようにしてください。</p></li>
+    > <li><p>範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。</p></li>
+    > <li><p>この番号は正規表現 (tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})? に一致する必要があります。これは、番号が文字列 tel: で始まり (この文字列を指定しなかった場合は、自動的に追加されます)、正符号 (+)、1 ～ 9 の数字であることを意味します。使用できる電話番号は最大 17 桁で、その後に内線番号を付けることができます。内線番号は ;ext= の後に番号が続く形式です。</p></li></ul>
 
 
 6.  \[**アナウンス サービス**\] で、次のいずれかの手順を実行します。
@@ -142,7 +117,7 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[New-CsUnassignedNumber](new-csunassignednumber.md)  
-[Set-CsUnassignedNumber](set-csunassignednumber.md)  
-[Get-CsUnassignedNumber](get-csunassignednumber.md)
+[New-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUnassignedNumber)  
+[Set-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUnassignedNumber)  
+[Get-CsUnassignedNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUnassignedNumber)
 

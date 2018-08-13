@@ -66,19 +66,9 @@ Lync Server をバックアップするには、次の表に示すツールを�
 </tr>
 <tr class="odd">
 <td><p>すべてのファイル ストア: Lync Server ファイル ストア、アーカイブ ファイル ストア</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Meeting.Active</strong> という名前のファイルはバックアップしないでください。これらのファイルは、会議の開催中に使用されており、ロックされています。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> <strong>Meeting.Active</strong> という名前のファイルはバックアップしないでください。これらのファイルは、会議の開催中に使用されており、ロックされています。
 
 </div></td>
 <td><p>標準のファイル システム管理ツール (Robocopy など)</p></td>
@@ -129,19 +119,9 @@ Lync Server を復元するには、次の表に示すツールを使用しま�
 </tr>
 <tr class="even">
 <td><p>Active Directory ドメイン サービス ポインターを中央管理ストアに復元する</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サービス接続ポイントを失った場合は、このコマンドレットをいつでも再実行できます。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> サービス接続ポイントを失った場合は、このコマンドレットをいつでも再実行できます。
 
 </div></td>
 <td><p>Set-CsConfigurationStoreLocation</p></td>
@@ -163,19 +143,9 @@ Lync Server を復元するには、次の表に示すツールを使用しま�
 <tr class="even">
 <td><p>Lync Server コンポーネントを再インストールする</p></td>
 <td><p>Lync Server セットアップ</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server インストール フォルダーまたは \setup\amd64\Setup.exe のインストール メディアにあります。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync Server インストール フォルダーまたは \setup\amd64\Setup.exe のインストール メディアにあります。
 
 </div></td>
 </tr>
@@ -190,19 +160,9 @@ Lync Server を復元するには、次の表に示すツールを使用しま�
 <tr class="odd">
 <td><p>応答グループ構成データ (RgsConfig.mdf) を復元する</p></td>
 <td><p>Set-CsRgsConfiguration</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>応答グループのデータがデータベースに含まれない、新しく展開されたプールに構成が復元される場合は、-OverwriteOwner オプションを使用することをお勧めします。このオプションは、データが、完全修飾ドメイン名 (FQDN) を持つプールに復元される場合にも使用してください。応答グループの連絡先オブジェクトは既に Active Directory に存在するので、このオプションを使用しないと、インポートは正常に行われません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 応答グループのデータがデータベースに含まれない、新しく展開されたプールに構成が復元される場合は、-OverwriteOwner オプションを使用することをお勧めします。このオプションは、データが、完全修飾ドメイン名 (FQDN) を持つプールに復元される場合にも使用してください。応答グループの連絡先オブジェクトは既に Active Directory に存在するので、このオプションを使用しないと、インポートは正常に行われません。
 
 </div></td>
 </tr>

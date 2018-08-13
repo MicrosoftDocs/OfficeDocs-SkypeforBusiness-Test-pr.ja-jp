@@ -31,7 +31,7 @@ _**トピックの最終更新日:** 2015-03-09_
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-詳細については、「[New-CsVoiceRoutingPolicy](new-csvoiceroutingpolicy.md)」を参照してください。
+詳細については、「[New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy)」を参照してください。
 
 この例では、このシナリオで定義されている 2 つの音声ルーティング ポリシーとそれらに関連付けられている PSTN 使用法を、次の表および Windows PowerShell コマンドに示します。わかりやすく説明するために、表に含まれているのは場所に基づくルーティングに固有の設定のみです。
 
@@ -123,7 +123,7 @@ _**トピックの最終更新日:** 2015-03-09_
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-詳細については、「[New-CsTrunkConfiguration](new-cstrunkconfiguration.md)」を参照してください。
+詳細については、「[New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration)」を参照してください。
 
 この例では、このシナリオで定義されている展開内のトランクごとに 1 つのトランク構成を作成する方法を次の Windows PowerShell コマンドに示します。
 
@@ -136,7 +136,7 @@ _**トピックの最終更新日:** 2015-03-09_
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-詳細については、「[New-CsTrunkConfiguration](new-cstrunkconfiguration.md)」を参照してください。
+詳細については、「[New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration)」を参照してください。
 
 この例では、Delhi および Hyderabad の PSTN ゲートウェイに関連付けられているトランクごとに場所に基づくルーティングが有効になります。
 
@@ -201,7 +201,7 @@ PSTN (PBX) に通話をルーティングしないシステムに接続される
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-詳細については、「[New-CsVoicePolicy](new-csvoicepolicy.md)」を参照してください。
+詳細については、「[New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy)」を参照してください。
 
 この例では、このシナリオで定義されている Delhi と Hyderabad の音声ポリシーにおいて PSTN 料が適切に課金されるようにする方法を次の表および Windows PowerShell コマンドに示します。わかりやすく説明するために、表に含まれているのは場所に基づくルーティングに固有の設定のみです。
 
@@ -249,20 +249,10 @@ PSTN (PBX) に通話をルーティングしないシステムに接続される
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-詳細については、「[Set-CsRoutingConfiguration](set-csroutingconfiguration.md)」を参照してください。
+詳細については、「[Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>場所に基づくルーティングはグローバル構成を使用して有効にする必要がありますが、ルール セットが適用されるのは、(このドキュメントで説明した) ルール セットを構成する対象となったサイト、ユーザー、トランクに対してのみです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 場所に基づくルーティングはグローバル構成を使用して有効にする必要がありますが、ルール セットが適用されるのは、(このドキュメントで説明した) ルール セットを構成する対象となったサイト、ユーザー、トランクに対してのみです。
 
 
 

@@ -23,24 +23,9 @@ Lync 2013 では、クライアント展開に異なる角度からアプロー�
 
 このセクションのトピックでは、Office 2013 MSI ベースのインストーラーを使用してクライアントを展開する方法を中心に説明します。主要な参照文献は Office 2013 リソース キットのドキュメントです。このドキュメントでは、インフラストラクチャの準備、セットアップのカスタマイズ、および Office 2013 の展開方法について解説します。また、Office のドキュメントもこのセクションのトピックと合わせてご利用ください。Office ドキュメントには、Lync 2013 に固有の展開に関する考慮事項が記載されています。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li><p>Outlook メッセージングおよびコラボレーション クライアント内から会議管理をサポートする Lync 2013 用オンライン ミーティング アドインは、Lync 2013 と共に自動的にインストールされます。</p></li>
-<li><p>Office 2013 セットアップ プログラムを実行しても、以前のバージョンの Lync や Office Communicator はアンインストールされません。Lync 2013 クライアントは、他の Lync クライアントや Office Communicator クライアントと共存する形でインストールされます。</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <ul><li><p>Outlook メッセージングおよびコラボレーション クライアント内から会議管理をサポートする Lync 2013 用オンライン ミーティング アドインは、Lync 2013 と共に自動的にインストールされます。</p></li>
+> <li><p>Office 2013 セットアップ プログラムを実行しても、以前のバージョンの Lync や Office Communicator はアンインストールされません。Lync 2013 クライアントは、他の Lync クライアントや Office Communicator クライアントと共存する形でインストールされます。</p></li></ul>
 
 
 ## このセクションの内容

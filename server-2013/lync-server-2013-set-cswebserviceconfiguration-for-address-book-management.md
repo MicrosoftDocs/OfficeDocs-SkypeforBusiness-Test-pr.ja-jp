@@ -31,5 +31,5 @@ Set-CsWebServiceConfiguration コマンドレットを使用すると、管理�
 
 #### その他のリソース
 
-[Set-CsWebServiceConfiguration](set-cswebserviceconfiguration.md)
+[Set-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWebServiceConfiguration)
 

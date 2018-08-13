@@ -94,7 +94,7 @@ DNS レコードは、CNAME レコードまたは A (ホスト) レコードと�
 <td><p>_sipfederationtls._tcp. &lt;sipdomain&gt;</p>
 <p>アクセス エッジ サービスのホスト (A または AAAA) レコードに解決</p></td>
 <td><p>プッシュ通知サービス と Apple プッシュ通知サービス をサポートするには、Microsoft Lync Mobile クライアントを持つ各 SIP ドメイン対して 1 つの SRV レコードを作成します。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > この要件は、Apple または Microsoft ベースのモバイル デバイス上の Microsoft Lync Mobile クライアントのみに適用されます。Andriod および Nokia Symbian デバイスはプッシュ通知を使用しません。
@@ -106,16 +106,6 @@ DNS レコードは、CNAME レコードまたは A (ホスト) レコードと�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lyncdiscover トラフィックは、リバース プロキシを経由します。Lyncdiscover は自動検出とも呼ばれます。SRV レコードは、アクセス エッジ サービスにより解決されるレコードを示します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lyncdiscover トラフィックは、リバース プロキシを経由します。Lyncdiscover は自動検出とも呼ばれます。SRV レコードは、アクセス エッジ サービスにより解決されるレコードを示します。
 

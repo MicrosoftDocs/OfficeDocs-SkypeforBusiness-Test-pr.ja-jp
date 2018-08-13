@@ -29,26 +29,16 @@ _**トピックの最終更新日:** 2014-12-10_
 
 2.  Lync Server 管理シェルで、**Move-CsUser** を実行して、ユーザーの所属を移動させます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>また、Lync Server コントロール パネルを使用して、前提条件を確認しユーザーを所属させることもできます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> また、Lync Server コントロール パネルを使用して、前提条件を確認しユーザーを所属させることもできます。
 
 
 ## 関連項目
 
 #### その他のリソース
 
-[Test-CsPstnOutboundCall](test-cspstnoutboundcall.md)  
-[Get-CsVoicePolicy](get-csvoicepolicy.md)  
-[Get-CsVoicemailReroutingConfiguration](get-csvoicemailreroutingconfiguration.md)  
-[Move-CsUser](move-csuser.md)
+[Test-CsPstnOutboundCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnOutboundCall)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoicemailReroutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicemailReroutingConfiguration)  
+[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Move-CsUser)
 

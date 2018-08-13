@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 既定では、QoE (Quality of Experience) データは 60 日後に削除されます。 \[**QoE データ**\] ページの設定を使用して、データの保持期間を延長または短縮できます。 QoE を無効にすると、QoE が有効化される前に取得されたデータも削除の対象になります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>通話詳細記録 (CDR) と QoE のデータ保持日数は、同じ日数に構成する必要があります。[監視レポート] ホーム ページで入手できる、通話の詳細レポート (CDR) の通話ごとの情報には、CDR と QoE の情報が含まれています。削除間隔が CDR と QoE で異なると、CDR データしかない通話がある一方で、QoE データしかない通話があることになります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 通話詳細記録 (CDR) と QoE のデータ保持日数は、同じ日数に構成する必要があります。[監視レポート] ホーム ページで入手できる、通話の詳細レポート (CDR) の通話ごとの情報には、CDR と QoE の情報が含まれています。削除間隔が CDR と QoE で異なると、CDR データしかない通話がある一方で、QoE データしかない通話があることになります。
 
 
 次の手順では、QoE データの削除設定を構成する方法について説明します。
@@ -65,7 +55,7 @@ Windows PowerShell と **Set-CsQoEConfiguration** コマンドレットを使用
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20 
 
-詳細については、[Set-CsQoEConfiguration](set-csqoeconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

@@ -47,16 +47,6 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
   - E9-1-1 緊急通話の場合、911 番の電話に出た当局者が、かかってきた電話番号から、その電話をかけた人物の場所を特定することが可能です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>組織で利用できる、ITSP がサポートするサービスの内容については、ご利用の ITSP に問い合わせてください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 組織で利用できる、ITSP がサポートするサービスの内容については、ご利用の ITSP に問い合わせてください。
 

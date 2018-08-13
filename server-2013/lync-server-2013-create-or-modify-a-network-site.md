@@ -19,35 +19,20 @@ _**トピックの最終更新日:** 2013-02-24_
 
 ネットワーク サイトを作成または変更するには、以下の手順を使用します。 たとえば、1 つの音声機能について既にネットワーク サイトを作成している場合は、新しいネットワーク サイトを作成する必要はありません。他の音声機能も既存の同じサイトを使用します。 ただし、既存のネットワーク サイトの定義を変更して機能固有の設定を適用しなければならない場合があります。 たとえば、E9-1-1 用のネットワーク サイトを作成している場合、通話受付管理の展開時にネットワーク サイトを変更して、帯域幅ポリシー プロファイルを適用する必要があります。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>機能固有の設定が存在する場合、機能ごとに「展開」のドキュメントに記載されている高度な音声機能に関連するネットワーク サイトの具体的な例と要件については、次を参照してください。
-<ul>
-<li><p><a href="lync-server-2013-configure-network-sites-for-cac.md">Lync Server 2013 での CAC のネットワーク サイトの構成</a></p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> 機能固有の設定が存在する場合、機能ごとに「展開」のドキュメントに記載されている高度な音声機能に関連するネットワーク サイトの具体的な例と要件については、次を参照してください。
+> <ul><li><p><a href="lync-server-2013-configure-network-sites-for-cac.md">Lync Server 2013 での CAC のネットワーク サイトの構成</a></p></li></ul>
 
 
 ネットワーク サイトの操作の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [New-CsNetworkSite](new-csnetworksite.md)
+  - [New-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSite)
 
-  - [Get-CsNetworkSite](get-csnetworksite.md)
+  - [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite)
 
-  - [Set-CsNetworkSite](set-csnetworksite.md)
+  - [Set-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSite)
 
-  - [Remove-CsNetworkSite](remove-csnetworksite.md)
+  - [Remove-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSite)
 
 ## ネットワーク サイトの作成
 
@@ -67,18 +52,8 @@ _**トピックの最終更新日:** 2013-02-24_
     
     この例では、"NorthAmerica" ネットワーク地域に "Chicago" という名前のネットワーク サイトが作成されました。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このコマンドを正常に実行するには、NorthAmerica ネットワーク地域があらかじめ存在する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このコマンドを正常に実行するには、NorthAmerica ネットワーク地域があらかじめ存在する必要があります。
 
 
 3.  トポロジのネットワーク サイトを作成するには、他のサイトの設定に関してステップ 2 を繰り返します。
@@ -99,34 +74,14 @@ _**トピックの最終更新日:** 2013-02-24_
 
 7.  オプションで、\[**帯域幅ポリシー**\] をクリックして、リストで帯域幅ポリシーをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>帯域幅ポリシーが必要なのは、サイトで通話受付管理を展開する場合だけです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 帯域幅ポリシーが必要なのは、サイトで通話受付管理を展開する場合だけです。
 
 
 8.  オプションで、\[**場所のポリシー**\] をクリックして、リストで場所のポリシーをクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>場所のポリシーが必要なのは、サイトで E9-1-1 を展開する場合だけです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 場所のポリシーが必要なのは、サイトで E9-1-1 を展開する場合だけです。
 
 
 9.  オプションで、\[**説明**\] をクリックして、このネットワーク サイトを説明する追加情報を入力します。
@@ -153,18 +108,8 @@ _**トピックの最終更新日:** 2013-02-24_
     
     この例では、"Albuquerque" という名前のサイトが "NorthAmerica" ネットワーク地域に移動されます。 ネットワーク サイトの構成を変更して、通話受付管理、E9-1-1、またはメディア バイパスを展開するには、Set-CsNetworkSite コマンドレットをそれぞれ BWPolicyProfileID または LocationPolicy パラメーターと組み合わせて実行し、ネットワーク サイトの設定を変更します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>メディア バイパス用に BypassID パラメーターが用意されていますが、自動生成されるバイパス ID を無効にしないことを強くお勧めします。 メディア バイパス用にネットワーク サイトを構成するために、追加パラメーターを指定する必要はありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > メディア バイパス用に BypassID パラメーターが用意されていますが、自動生成されるバイパス ID を無効にしないことを強くお勧めします。 メディア バイパス用にネットワーク サイトを構成するために、追加パラメーターを指定する必要はありません。
 
 
 3.  他のサイトについての設定に関してステップ 2 を繰り返し、ご使用のトポロジのネットワーク サイトの変更を完了します。

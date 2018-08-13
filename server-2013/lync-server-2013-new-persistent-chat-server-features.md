@@ -94,18 +94,8 @@ Lync Server 2013 では、コンプライアンス サービスが変更され�
     > 以前のバージョンと同様に、すべてのコンプライアンス データは 1 回だけ処理されます。さまざまな Lync Server 2013、 常設チャット サーバー コンピューターで実行されるコンプライアンス サービスによって起動されたアダプター インスタンスのどれでも、データを処理できます。 常設チャット サーバーでは、どのアダプター インスタンスでもデータを処理できます。
 
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>メッセージ キューのインストールの詳細については、「展開」のドキュメントの「<a href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Lync Server 2013 のオペレーティング システムと必要なソフトウェアのサーバーへのインストール</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > メッセージ キューのインストールの詳細については、「展開」のドキュメントの「<a href="lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md">Lync Server 2013 のオペレーティング システムと必要なソフトウェアのサーバーへのインストール</a>」を参照してください。
 
 
 Lync Server 2013 では、高可用性と障害復旧の両方が向上しています。

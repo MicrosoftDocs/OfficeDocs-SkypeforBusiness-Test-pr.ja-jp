@@ -25,40 +25,20 @@ _**トピックの最終更新日:** 2012-10-18_
 
   - 構成タスクを実行する管理者に十分な権限があること。
     
-      - **CsVoiceAdministrator:**この管理者の役割では、音声構成タスクの実行、音声アプリケーションの管理、エンド ユーザーへの音声ポリシーの割り当てができます。
+      - **CsVoiceAdministrator:** この管理者の役割では、音声構成タスクの実行、音声アプリケーションの管理、エンド ユーザーへの音声ポリシーの割り当てができます。
     
-      - **CsUserAdministrator:**この管理者の役割では、ユーザーのエンタープライズ VoIP を有効にするなど、ユーザーのプロパティを管理できます。 また、この管理者の役割では、ユーザー単位のポリシーの割り当て (アーカイブ ポリシー以外)、ユーザーの移動、共通領域電話やアナログ デバイスの管理を行うこともできます。
+      - **CsUserAdministrator:** この管理者の役割では、ユーザーのエンタープライズ VoIP を有効にするなど、ユーザーのプロパティを管理できます。 また、この管理者の役割では、ユーザー単位のポリシーの割り当て (アーカイブ ポリシー以外)、ユーザーの移動、共通領域電話やアナログ デバイスの管理を行うこともできます。
     
-      - **CsAdministrator:**この管理者の役割では、CsVoiceAdministrator と CsUserAdministrator のすべてのタスクを実行できます。
+      - **CsAdministrator:** この管理者の役割では、CsVoiceAdministrator と CsUserAdministrator のすべてのタスクを実行できます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>委任という手段を使用すると、リソースを不必要に開示することなく、Lync Server の展開に関与する管理者の数を増やすことができます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 委任という手段を使用すると、リソースを不必要に開示することなく、Lync Server の展開に関与する管理者の数を増やすことができます。
 
 
   - マイクロソフトまたはサードパーティの CA (証明機関) インフラストラクチャのいずれかを使用して、MKI (Managed key infrastructure) が展開され、構成されていること。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Lync Server の証明書の要件の詳細については、「計画」ドキュメントの「<a href="lync-server-2013-certificate-infrastructure-requirements.md">Lync Server 2013 の証明書インフラストラクチャの要件</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Lync Server の証明書の要件の詳細については、「計画」ドキュメントの「<a href="lync-server-2013-certificate-infrastructure-requirements.md">Lync Server 2013 の証明書インフラストラクチャの要件</a>」を参照してください。
 
 
 ## ユーザー構成
@@ -67,18 +47,8 @@ _**トピックの最終更新日:** 2012-10-18_
 
 この時点でエンタープライズ VoIP のワークロードを新たに展開する場合、展開プロセスを開始する前に、エンタープライズ VoIP を有効にする各ユーザーの主要電話番号を指定します。 管理者は、この番号が一意であることを確認する責任があります。 実装する前にすべての主要電話番号を正規化 (適切な形式に) し、Lync Server コントロール パネルを使用して各ユーザーの **\[回線 URI\]** プロパティにコピーします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>エンタープライズ VoIP の展開に必要な主要電話番号の例については、「計画」のドキュメントにある「<a href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 のダイヤル プランと正規化ルール</a>」の「<a href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 のダイヤル プランと正規化ルール</a>」セクションを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> エンタープライズ VoIP の展開に必要な主要電話番号の例については、「計画」のドキュメントにある「<a href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 のダイヤル プランと正規化ルール</a>」の「<a href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 のダイヤル プランと正規化ルール</a>」セクションを参照してください。
 
 
 ## 次のステップ: ファイルのインストールや PSTN 接続の構成

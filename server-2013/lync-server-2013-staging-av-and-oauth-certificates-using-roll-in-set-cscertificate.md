@@ -124,6 +124,6 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
 #### その他のリソース
 
 [Lync Server 2013 用のエッジ証明書のセットアップ](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](set-cscertificate.md)  
-[Remove-CsCertificate](remove-cscertificate.md)
+[Set-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+[Remove-CsCertificate](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCertificate)
 

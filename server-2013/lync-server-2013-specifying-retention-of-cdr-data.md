@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 既定では、通話詳細記録 (CDR) データは 60 日後に削除されます。 \[**通話詳細記録**\] ページの設定を使用して、このデータを既定よりも長期間、または短期間保持できます。 CDR を無効にすると、CDR を有効にする前に取得されたデータも削除の対象になります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CDR と QoE (Quality of Experience) を構成して、データが同じ日数保持されるようにする必要があります。 通話詳細記録 (CDR) 内の各通話は、監視サーバー レポートの Web ページから取得できます。これには、CDR 情報と QoE 情報の両方が含まれます。 削除期間が CDR と QoE で異なると、CDR データのみ含む通話がある一方で、QoE データのみ含む通話があることになります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> CDR と QoE (Quality of Experience) を構成して、データが同じ日数保持されるようにする必要があります。 通話詳細記録 (CDR) 内の各通話は、監視サーバー レポートの Web ページから取得できます。これには、CDR 情報と QoE 情報の両方が含まれます。 削除期間が CDR と QoE で異なると、CDR データのみ含む通話がある一方で、QoE データのみ含む通話があることになります。
 
 
 CDR データの削除設定を構成するには、次の手順を実行します。
@@ -67,7 +57,7 @@ Windows PowerShell と Set-CsCdrConfiguration コマンドレットを使用し�
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
 
-詳細については、[Set-CsCdrConfiguration](set-cscdrconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

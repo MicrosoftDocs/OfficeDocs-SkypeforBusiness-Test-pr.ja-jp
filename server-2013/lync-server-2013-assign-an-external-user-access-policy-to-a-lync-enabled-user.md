@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ユーザーが Lync Server に対して有効になっている場合、特定のユーザーに適切なポリシーを適用して、 Lync Server コントロール パネルで SIP フェデレーション、XMPP フェデレーション、リモート ユーザー アクセス、パブリック インスタント メッセージング (IM) 接続を構成できます。たとえば、リモート ユーザー アクセスをサポートするポリシーを作成した場合、ユーザーが離れた場所から Lync Server に接続し、内部ユーザーとの共同作業を行うことができるようにするには、そのポリシーをユーザーに適用する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-support-for-external-user-access.md">Lync Server 2013 での外部ユーザー アクセスのサポートの構成</a>」または「操作」のドキュメントの「<a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Lync Server 2013 へのフェデレーションおよび外部アクセスの管理</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 外部ユーザー アクセスをサポートするには、サポートする各種類の外部ユーザー アクセスのサポートを有効にし、適切なポリシーとその他の使用制御オプションを構成する必要があります。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-support-for-external-user-access.md">Lync Server 2013 での外部ユーザー アクセスのサポートの構成</a>」または「操作」のドキュメントの「<a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Lync Server 2013 へのフェデレーションおよび外部アクセスの管理</a>」を参照してください。
 
 
 このトピックの手順を使用して、あらかじめ作成した外部ユーザー アクセス ポリシーを、1 つまたは複数のユーザー アカウントに適用します。
@@ -45,18 +35,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 5.  \[**Lync Server ユーザーの編集**\] の \[**外部アクセス ポリシー**\] で、適用するユーザー ポリシーを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバーまたはグローバル ポリシーの設定が適用されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>&lt;自動&gt;</strong>] 設定では、既定のサーバーまたはグローバル ポリシーの設定が適用されます。
 
 
 ## Windows PowerShell コマンドレットを使用したユーザーごとの外部アクセス ポリシーの割り当て
@@ -71,7 +51,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## 複数のユーザーにユーザーごとの外部アクセス ポリシーを割り当てるには
 
-  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。このコマンドで使用されている OU パラメーターの詳細については、 [Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - 次のコマンドは、ユーザーごとの外部アクセス ポリシー USAExternalAccessPolicy を、Active Directory の UnitedStates OU にアカウントを持っているすべてのユーザーに割り当てます。このコマンドで使用されている OU パラメーターの詳細については、 [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -81,5 +61,5 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。
 

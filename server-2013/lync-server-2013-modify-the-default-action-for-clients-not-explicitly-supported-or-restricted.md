@@ -61,7 +61,7 @@ Lync Server 2013 環境でサポートするクライアントのバージョン
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -DefaultAction Allow
 
-詳細については、[Set-CsClientVersionPolicy](set-csclientversionpolicy.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Set-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionPolicy) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

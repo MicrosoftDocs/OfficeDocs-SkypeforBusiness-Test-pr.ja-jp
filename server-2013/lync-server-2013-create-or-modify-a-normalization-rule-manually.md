@@ -43,18 +43,8 @@ _**トピックの最終更新日:** 2012-09-22_
 
 9.  (オプション) 正規化ルールをテストする番号を入力し、\[**次へ**\] をクリックします。テスト結果は、\[**テストする番号の入力**\] の下に表示されます。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。詳細については、「<a href="lync-server-2013-test-voice-routing.md">Lync Server 2013 での音声ルーティングのテスト</a>」を参照してください。
 
 
 10. \[**OK**\] をクリックして正規化ルールを保存します。
@@ -63,18 +53,8 @@ _**トピックの最終更新日:** 2012-09-22_
 
 12. \[**ダイヤル プラン**\] ページで \[**確定**\] をクリックして、\[**すべて確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>正規化ルールを作成または変更するときにはいつでも、[<strong>すべて確定</strong>] コマンドを実行して構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 正規化ルールを作成または変更するときにはいつでも、[<strong>すべて確定</strong>] コマンドを実行して構成の変更を公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
 
 
 ## 関連項目

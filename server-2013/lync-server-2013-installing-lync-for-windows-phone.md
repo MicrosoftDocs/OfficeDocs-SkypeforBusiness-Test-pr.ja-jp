@@ -33,18 +33,8 @@ Windows Phones で Lync の設定を構成するために、ユーザーには�
 
 3.  空白のフィールドをタップして、Exchange Web サービスの完全修飾ドメイン名 (FQDN) または URL を入力します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Exchange Web サービス サーバーの完全修飾ドメイン名 (FQDN) と 完全な URL のどちらかを指定します。FQDN を指定すると、プロトコル (https://) と Exchange Web サービスのパス (/ews/exchange.asmx) は自動的に追加されます。Exchange Web サービスのパスが異なる場合は、完全な URL を指定します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Exchange Web サービス サーバーの完全修飾ドメイン名 (FQDN) と 完全な URL のどちらかを指定します。FQDN を指定すると、プロトコル (https://) と Exchange Web サービスのパス (/ews/exchange.asmx) は自動的に追加されます。Exchange Web サービスのパスが異なる場合は、完全な URL を指定します。
 
 
 4.  画面を閉じます。

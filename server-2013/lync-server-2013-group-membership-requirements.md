@@ -33,30 +33,19 @@ _**トピックの最終更新日:** 2015-03-09_
 <tr class="odd">
 <td><p><strong>setup.exe</strong> - Lync Server 2013 管理ツールのインストールを開始する実行可能ファイル。</p></td>
 <td><p>実行可能ファイルを実行するコンピューターでの Local Administrators グループのメンバー。Active Directory ドメイン サービス の情報を読み取る Domain Users グループのメンバー。このレベルのアクセス許可が必要なのは、ローカル コンピューターへの必須 MSI パッケージの自動インストールでは、Program Files ディレクトリなどのローカル コンピューターの保護されたリソース、およびローカル コンピューター ハイブなどの保護されたレジストリとの間で読み書きできる特権が必要だからです。</p>
-<div class="alert">
 
 > [!TIP]
 > セットアップ アクセス許可は、メンバーシップを付与したくない、Domain Admins グループのユーザーやグループに委任することもできます。詳細については、「展開」のドキュメントの「<A href="lync-server-2013-granting-setup-permissions.md">Lync Server 2013 でのセットアップ アクセス許可の付与</A>」を参照してください。
 
 
-</div></td>
+
 </tr>
 <tr class="even">
 <td><p><strong>deploy.exe</strong> - setup.exe によって呼び出され、サーバーの役割のソフトウェア コンポーネントを展開する処理を実行します。</p></td>
 <td><p>実行可能ファイルを実行するコンピューターでの Local Administrators グループのメンバー。AD DS の情報を読み取る Domain Users グループのメンバー。このレベルのアクセス許可が必要なのは、ローカル コンピューターへの必須 MSI パッケージの自動インストールでは、Program Files ディレクトリなどのローカル コンピューターの保護されたリソース、およびローカル コンピューター ハイブなどの保護されたレジストリとの間で読み書きできる特権が必要だからです。中央管理ストアを読み取るには、RtcUniversalReadOnlyAdmins グループのメンバーシップが必要です。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows Vista オペレーティング システムまたは Windows 7 オペレーティング システムを実行している場合、ユーザー アクセス制御 (UAC) からインストールの続行を指示するメッセージが表示されます。標準のユーザー アカウントでログオンしている場合に、ソフトウェアのインストール アクセス許可を持つアカウントを要求されたときは、Local Administrators グループのメンバーであるユーザーから資格情報の提供を受ける必要があります。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Windows Vista オペレーティング システムまたは Windows 7 オペレーティング システムを実行している場合、ユーザー アクセス制御 (UAC) からインストールの続行を指示するメッセージが表示されます。標準のユーザー アカウントでログオンしている場合に、ソフトウェアのインストール アクセス許可を持つアカウントを要求されたときは、Local Administrators グループのメンバーであるユーザーから資格情報の提供を受ける必要があります。
 
 </div></td>
 </tr>

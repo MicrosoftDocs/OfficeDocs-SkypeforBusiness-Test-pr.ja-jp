@@ -31,18 +31,8 @@ Lync Server 2013 では、ドメイン ネーム システム (DNS) が必要で
 
   - DNS 負荷分散のため。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 は、国際化ドメイン名 (IDN) をサポートしません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 は、国際化ドメイン名 (IDN) をサポートしません。
 
 
 

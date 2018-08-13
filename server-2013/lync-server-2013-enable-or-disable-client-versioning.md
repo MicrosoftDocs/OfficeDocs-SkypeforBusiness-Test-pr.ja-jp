@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 クライアント バージョンの構成設定を使用して、クライアント バージョンの制御をグローバルにまたは特定のサイトに対して有効または無効にします。グローバル クライアント バージョン構成は Lync Server 2013 と共にインストールされます。この構成を使用して、サーバー展開全体に対してクライアント バージョンの制御を有効または無効にします。グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。クライアント バージョン制御を行わないようにする場合は、グローバル クライアントバージョン構成を無効にできます。クライアント バージョン管理は、Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理シェルで有効または無効にできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 匿名ユーザーをユーザー、サイト、またはサービスに関連付けることはできないため、匿名ユーザーが影響を受けるのはグローバル レベルのポリシーだけです。
 
 
 ## Lync Server コントロール パネルを使用して、クライアント バージョン管理を有効または無効にするには
@@ -61,5 +51,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
-詳細については、[Set-CsClientVersionConfiguration](set-csclientversionconfiguration.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Set-CsClientVersionConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientVersionConfiguration) コマンドレットに関するヘルプ トピックを参照してください。
 

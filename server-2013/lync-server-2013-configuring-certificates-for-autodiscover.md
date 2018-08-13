@@ -17,20 +17,10 @@ _**トピックの最終更新日:** 2012-12-12_
 
 ディレクター プール、フロント エンド プール、およびリバース プロキシの証明書では、Lync クライアントとのセキュリティで保護された接続をサポートするために追加のサブジェクトの別名エントリが必要です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Get-CsCertificate</strong> コマンドレットを使用して、現在割り当てられている証明書に関する情報を表示できます。ただし既定の表示では、証明書のプロパティは切り詰められ、SubjectAlternativeNames プロパティのすべての値が表示されるわけではありません。<strong>Get-CsCertificate</strong>、<strong>Request-</strong>CsCertificate、および <strong>Set-CsCertificate</strong> コマンドレットを使用すると、情報の表示や、証明書の要求および割り当てを行うことができます。ただし、現在の証明書のサブジェクトの別名 (SAN) のプロパティが何かわからない場合は、お勧めしません。証明書とすべてのプロパティのメンバーを表示するには、証明書スナップインの Microsoft 管理コンソール (MMC) を使用するか、Lync Server 展開ウィザードを使用します。Lync Server 展開ウィザードでは、証明書ウィザードを使用して証明書のプロパティを表示できます。Lync Server 管理シェルおよび Microsoft 管理コンソール (MMC) を使用して証明書の表示、要求、および割り当てを行う方法の詳細については、以下の手順を参照してください。Lync Server 展開ウィザードを使用するには、任意のディレクターまたはディレクター プールを展開している場合は、「<a href="lync-server-2013-configure-certificates-for-the-director.md">Lync Server 2013 でのディレクターの証明書の構成</a>」を参照してください。フロント エンド サーバーまたはフロント エンド プールを展開している場合は、「<a href="lync-server-2013-configure-certificates-for-servers.md">Lync Server 2013 でのサーバーの証明書の構成</a>」を参照してください。<br />
-この手順の最初のステップは準備ステップで、現在の証明書が果たす役割を確認します。Mobility Service をインストールしていなかったり、証明書を事前に準備していない場合、既定では、証明書には lyncdiscover.&lt;SIP ドメイン&gt; または lyncdiscoverinternal.&lt;内部ドメイン名&gt; エントリはありません。この手順では、例として、SIP ドメイン名に「contoso.com」、内部ドメイン名に「contoso.net」を使用します。<br />
-Lync Server 2013 および Lync Server 2010 の既定の証明書構成は、Default (Web サービス以外のすべての用途に対応)、WebServicesExternal、および WebServicesInternal の用途を持つ単一の証明書 (「Default」という名前) を使用します。任意の構成では、用途ごとに個別の証明書を使用します。証明書は、Lync Server 管理シェルおよび Windows PowerShell コマンドレットを使用するか、Lync Server 展開ウィザードの証明書ウィザードを使用して管理できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <strong>Get-CsCertificate</strong> コマンドレットを使用して、現在割り当てられている証明書に関する情報を表示できます。ただし既定の表示では、証明書のプロパティは切り詰められ、SubjectAlternativeNames プロパティのすべての値が表示されるわけではありません。<strong>Get-CsCertificate</strong>、<strong>Request-</strong>CsCertificate、および <strong>Set-CsCertificate</strong> コマンドレットを使用すると、情報の表示や、証明書の要求および割り当てを行うことができます。ただし、現在の証明書のサブジェクトの別名 (SAN) のプロパティが何かわからない場合は、お勧めしません。証明書とすべてのプロパティのメンバーを表示するには、証明書スナップインの Microsoft 管理コンソール (MMC) を使用するか、Lync Server 展開ウィザードを使用します。Lync Server 展開ウィザードでは、証明書ウィザードを使用して証明書のプロパティを表示できます。Lync Server 管理シェルおよび Microsoft 管理コンソール (MMC) を使用して証明書の表示、要求、および割り当てを行う方法の詳細については、以下の手順を参照してください。Lync Server 展開ウィザードを使用するには、任意のディレクターまたはディレクター プールを展開している場合は、「<a href="lync-server-2013-configure-certificates-for-the-director.md">Lync Server 2013 でのディレクターの証明書の構成</a>」を参照してください。フロント エンド サーバーまたはフロント エンド プールを展開している場合は、「<a href="lync-server-2013-configure-certificates-for-servers.md">Lync Server 2013 でのサーバーの証明書の構成</a>」を参照してください。<br />
+> この手順の最初のステップは準備ステップで、現在の証明書が果たす役割を確認します。Mobility Service をインストールしていなかったり、証明書を事前に準備していない場合、既定では、証明書には lyncdiscover.&lt;SIP ドメイン&gt; または lyncdiscoverinternal.&lt;内部ドメイン名&gt; エントリはありません。この手順では、例として、SIP ドメイン名に「contoso.com」、内部ドメイン名に「contoso.net」を使用します。<br />
+> Lync Server 2013 および Lync Server 2010 の既定の証明書構成は、Default (Web サービス以外のすべての用途に対応)、WebServicesExternal、および WebServicesInternal の用途を持つ単一の証明書 (「Default」という名前) を使用します。任意の構成では、用途ごとに個別の証明書を使用します。証明書は、Lync Server 管理シェルおよび Windows PowerShell コマンドレットを使用するか、Lync Server 展開ウィザードの証明書ウィザードを使用して管理できます。
 
 
 ## Lync Server 管理シェルを使用して、新しいサブジェクトの別名で証明書を更新するには

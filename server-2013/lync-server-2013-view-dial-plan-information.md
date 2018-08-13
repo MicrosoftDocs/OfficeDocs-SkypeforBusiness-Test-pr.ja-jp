@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 4.  \[**ダイヤル プラン**\] ページで、ダイヤル プラン名をダブルクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>一度に表示できるのは 1 つのダイヤル プランの情報だけです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 一度に表示できるのは 1 つのダイヤル プランの情報だけです。
 
 
 ## Windows PowerShell のコマンドレットを使用してダイヤル プランを表示する

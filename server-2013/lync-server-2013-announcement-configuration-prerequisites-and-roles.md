@@ -49,18 +49,8 @@ _**トピックの最終更新日:** 2013-02-25_
 
   - **CsViewOnlyAdministrator**   この管理役割は展開を表示して、展開の状態を監視できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>管理ユーザー役割の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 管理ユーザー役割の詳細については、「計画」のドキュメントの「<a href="lync-server-2013-planning-for-role-based-access-control.md">Lync Server 2013 での役割ベースのアクセス制御の計画</a>」を参照してください。
 
 
 ## 関連項目

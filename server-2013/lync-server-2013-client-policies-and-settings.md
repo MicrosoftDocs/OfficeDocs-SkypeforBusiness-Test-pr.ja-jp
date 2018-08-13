@@ -27,9 +27,7 @@ _**トピックの最終更新日:** 2012-06-18_
 
 ## このセクション
 
-  -   
-    [Lync 2013 の新しい設定と変更された設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+  - [Lync 2013 の新しい設定と変更された設定](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
-  -   
-    [Lync 2013 のグループ ポリシー設定](lync-server-2013-group-policy-settings-for-lync-2013.md)
+  - [Lync 2013 のグループ ポリシー設定](lync-server-2013-group-policy-settings-for-lync-2013.md)
 

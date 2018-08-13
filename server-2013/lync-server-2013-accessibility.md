@@ -110,18 +110,8 @@ Lync Server 2013 のヘルプ内のすべての図 (スクリーンショット�
 
 次のセクションでは、障碍のあるユーザーが Windows にアクセスしやすくするための機能、製品、およびサービスについて説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ここで説明する情報は、米国においてマイクロソフト製品のライセンスを取得するユーザーにのみ適用されます。この製品を米国以外の国や地域で入手した場合は、ソフトウェア パッケージに付属の子会社についての情報カードまたは「マイクロソフト アクセシビリティ ホーム」( <a href="http://go.microsoft.com/fwlink/?linkid=18139%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=18139&amp;clcid=0x411</a>) でマイクロソフトのサポート サービスの電話番号と住所の一覧を参照してください。ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ここで説明する情報は、米国においてマイクロソフト製品のライセンスを取得するユーザーにのみ適用されます。この製品を米国以外の国や地域で入手した場合は、ソフトウェア パッケージに付属の子会社についての情報カードまたは「マイクロソフト アクセシビリティ ホーム」( <a href="http://go.microsoft.com/fwlink/?linkid=18139%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=18139&amp;clcid=0x411</a>) でマイクロソフトのサポート サービスの電話番号と住所の一覧を参照してください。ここで説明する種類の製品やサービスがお住まいの地域で利用できるかどうかについては、お近くの子会社に問い合わせてください。マイクロソフト製品に含まれているユーザー補助機能の詳細については、Web サイト「Accessibility in Microsoft Products」を参照してください。
 
 
 ## Windows のユーザー補助機能

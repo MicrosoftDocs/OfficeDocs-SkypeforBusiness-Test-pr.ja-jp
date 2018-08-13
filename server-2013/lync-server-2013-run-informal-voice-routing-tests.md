@@ -57,44 +57,21 @@ _**トピックの最終更新日:** 2012-08-07_
     
     2.  \[**音声ルーティング テスト ケース情報の保存**\] ダイアログ ボックスにある残りのフィールドは読み取り専用です。値は、非公式のテスト構成*および*結果から事前に入力されます。 テスト ケースとして保存する構成で間違いないか確認してください。
         
-        <table>
-        <colgroup>
-        <col style="width: 100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td>テスト結果の値は、次に示すように、[<strong>音声ルーティング テスト ケース情報の保存</strong>] ダイアログ ボックスのフィールドに値を事前入力するために使用されます。
-        <ul>
-        <li><p>[<strong>予期される変換値</strong>] には、[<strong>正規化番号</strong>] フィールドの値が事前入力されます。</p></li>
-        <li><p>[<strong>予期されるルート</strong>] には、[<strong>最初のルート</strong>] フィールドの値が事前入力されます。</p></li>
-        <li><p>[<strong>予期される PSTN 使用法レコード</strong>] には、[<strong>最初の PSTN 使用法</strong>] フィールドの値が事前入力されます。</p></li>
-        </ul>
-        テストの実行中にこれらの値に一致する値が何も検出されなかった場合、[<strong>音声ルーティング テスト ケース情報の保存</strong>] ダイアログ ボックスの対応するフィールドは空になります。</td>
-        </tr>
-        </tbody>
-        </table>
+        > [!NOTE]  
+        > テスト結果の値は、次に示すように、[<strong>音声ルーティング テスト ケース情報の保存</strong>] ダイアログ ボックスのフィールドに値を事前入力するために使用されます。
+        > <ul>
+        > <li><p>[<strong>予期される変換値</strong>] には、[<strong>正規化番号</strong>] フィールドの値が事前入力されます。</p></li>
+        > <li><p>[<strong>予期されるルート</strong>] には、[<strong>最初のルート</strong>] フィールドの値が事前入力されます。</p></li>
+        > <li><p>[<strong>予期される PSTN 使用法レコード</strong>] には、[<strong>最初の PSTN 使用法</strong>] フィールドの値が事前入力されます。</p></li>
+        > </ul>
+        > テストの実行中にこれらの値に一致する値が何も検出されなかった場合、[<strong>音声ルーティング テスト ケース情報の保存</strong>] ダイアログ ボックスの対応するフィールドは空になります。
     
     3.  \[**OK**\] をクリックしてテスト ケースを保存するか、\[**キャンセル**\] をクリックして \[**音声ルーティング テスト ケース情報の表示**\] ダイアログ ボックスに戻り、保存する前にテストをさらに構成します。
 
 11. \[**確定**\] をクリックし、\[**すべて確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>音声ルーティング テスト ケースを作成するときにはいつでも、[<strong>すべて確定</strong>] コマンドを実行してテスト ケースを公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 音声ルーティング テスト ケースを作成するときにはいつでも、[<strong>すべて確定</strong>] コマンドを実行してテスト ケースを公開する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開</a>」を参照してください。
 
 
 ## 関連項目

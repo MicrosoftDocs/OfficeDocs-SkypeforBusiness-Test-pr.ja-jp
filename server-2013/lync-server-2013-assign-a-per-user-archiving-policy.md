@@ -64,18 +64,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 7.  \[**ポリシーの割り当て**\] の \[**アーカイブ ポリシー**\] で、次のいずれかの手順を実行します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>ポリシーの割り当て</strong>] ダイアログ ボックスを使用して構成できるポリシーは 1 つではないため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;</strong>] が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>ポリシーの割り当て</strong>] ダイアログ ボックスを使用して構成できるポリシーは 1 つではないため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;</strong>] が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
     
       - Lync Server 2013 が、グローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のいずれかを自動で選択できるようにします。
     
@@ -101,7 +91,7 @@ _**トピックの最終更新日:** 2013-02-22_
 
 ## ユーザー単位のアーカイブ ポリシーを複数のユーザーに割り当てる
 
-  - このコマンドは、ユーザー単位のアーカイブ ポリシー RedmondArchivingPolicy を、atl-cs-001.litwareinc.com というレジストラー プールに所属するアカウントを持つすべてのユーザーに割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドは、ユーザー単位のアーカイブ ポリシー RedmondArchivingPolicy を、atl-cs-001.litwareinc.com というレジストラー プールに所属するアカウントを持つすべてのユーザーに割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -111,7 +101,7 @@ _**トピックの最終更新日:** 2013-02-22_
     
         Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsArchivingPolicy](grant-csarchivingpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

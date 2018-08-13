@@ -19,7 +19,7 @@ _**トピックの最終更新日:** 2016-12-08_
 
 
 > [!IMPORTANT]
-> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。現在実行しているシナリオを調べるには、Windows PowerShell と <A href="get-csclsscenario.md">Get-CsClsScenario</A> を使用します。Windows PowerShell と <A href="set-csclsscenario.md">Set-CsClsScenario</A> を使用すると、実行するシナリオを動的に変更できます。ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。
+> どのスコープ (サイト、グローバル、プール、またはコンピューター) でも、一度に最大で 2 つのシナリオを実行できます。現在実行しているシナリオを調べるには、Windows PowerShell と <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A> を使用します。Windows PowerShell と <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</A> を使用すると、実行するシナリオを動的に変更できます。ログ セッション中に実行するシナリオを変更して、収集するデータや収集元のプロバイダーを変更または微調整することができます。
 
 
 
@@ -51,7 +51,7 @@ Lync Server 管理シェルを使用して 集中ログ サービス 機能を�
 
 1.  Lync Server 管理シェルを以下の手順で起動します。\[**スタート**\]、\[**すべてのプログラム**\]、\[**Microsoft Lync Server 2013**\]、\[**Lync Server 管理シェル**\] の順にクリックします。
 
-2.  ログ セッションのための新しいシナリオを作成するには、[New-CsClsProvider](new-csclsprovider.md) を使用し、シナリオの名前 (シナリオを一意に識別する方法) を定義します。ログ形式の種類を、WPP (Windows ソフトウェア トレース プリプロセッサ。これが既定値です)、EventLog (Windows イベント ログ形式)、または IISLog (IIS ログ ファイル形式に基づく ASCII 形式ファイル) から選択します。次に、レベル (このトピックのログ レベルの説明で定義されています) とフラグ (このトピックのフラグの説明で定義されています) を定義します。
+2.  ログ セッションのための新しいシナリオを作成するには、[New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider) を使用し、シナリオの名前 (シナリオを一意に識別する方法) を定義します。ログ形式の種類を、WPP (Windows ソフトウェア トレース プリプロセッサ。これが既定値です)、EventLog (Windows イベント ログ形式)、または IISLog (IIS ログ ファイル形式に基づく ASCII 形式ファイル) から選択します。次に、レベル (このトピックのログ レベルの説明で定義されています) とフラグ (このトピックのフラグの説明で定義されています) を定義します。
     
     このシナリオ例では、プロバイダー変数の例として LyssProvider を使用します。
     
@@ -75,18 +75,8 @@ Lync Server 管理シェルを使用して 集中ログ サービス 機能を�
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Windows PowerShell で知られているように、<code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> を使用して値のハッシュ テーブルを作成する方法をスプラッティングと呼びます。Windows PowerShell でのスプラッティングの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x411</a> を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Windows PowerShell で知られているように、<code>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</code> を使用して値のハッシュ テーブルを作成する方法をスプラッティングと呼びます。Windows PowerShell でのスプラッティングの詳細については、<a href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0x411</a> を参照してください。
 
 
 ## Set-CsClsScenario コマンドレットを使用して既存のシナリオを変更するには

@@ -19,13 +19,13 @@ _**トピックの最終更新日:** 2012-10-19_
 
 ネットワーク地域リンクの操作の詳細については、「Lync Server 管理シェル」のドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [New-CsNetworkRegionLink](new-csnetworkregionlink.md)
+  - [New-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegionLink)
 
-  - [Get-CsNetworkRegionLink](get-csnetworkregionlink.md)
+  - [Get-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegionLink](set-csnetworkregionlink.md)
+  - [Set-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegionLink)
 
-  - [Remove-CsNetworkRegionLink](remove-csnetworkregionlink.md)
+  - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegionLink)
 
 トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 これらの地域リンクは、「計画」のドキュメントの「[例: Lync Server 2013 での通話受付管理の組織要件の収集](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)」セクションの「地域リンクの帯域幅情報」表で説明するように、それぞれ WAN 帯域幅による制約を受けます。
 
@@ -36,6 +36,8 @@ _**トピックの最終更新日:** 2012-10-19_
 2.  New-CsNetworkRegionLink コマンドレットを実行して、地域リンクを作成し、適切な帯域幅ポリシー プロファイルを適用します。たとえば、以下を実行します。
     
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
+
+       &nbsp;
     
         New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
 
@@ -57,18 +59,8 @@ _**トピックの最終更新日:** 2012-10-19_
 
 8.  オプションで、\[**帯域幅ポリシー**\] をクリックし、ネットワーク地域リンクに適用する帯域幅ポリシーのプロファイルを選択します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>帯域幅ポリシーは、ネットワーク地域リンクの帯域幅に制約があり、そのリンクのメディア トラフィックを CAC を使用して操作する場合に限り、適用します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 帯域幅ポリシーは、ネットワーク地域リンクの帯域幅に制約があり、そのリンクのメディア トラフィックを CAC を使用して操作する場合に限り、適用します。
 
 
 9.  \[**確定**\] をクリックします。

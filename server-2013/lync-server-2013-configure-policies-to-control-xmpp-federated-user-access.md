@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2012-11-01_
 
 Extensible Messaging and Presence Protocol (XMPP) フェデレーション パートナーをサポートするためのポリシーを構成すると、それらのポリシーは XMPP フェデレーション ドメインのユーザーに適用されますが、セッション開始プロトコル (SIP) インスタント メッセージング (IM) サービス プロバイダー (たとえば、Windows Live) または SIP フェデレーション ドメインのユーザーには適用されません。**XMPP フェデレーション パートナー**は、ユーザーに対して連絡先の追加と通信を許可する XMPP フェデレーション ドメインごとに構成します。XMPP フェデレーション パートナー ポリシーは、単一のスコープ内でのみ使用できます。また、XMPP フェデレーション パートナー ポリシーは、グローバル ポリシーとしては定義されませんが、グローバル ポリシーとして機能します。XMPP フェデレーション パートナーを対象としたグローバル ポリシー、サイト ポリシー、またはユーザー ポリシーを定義するには、ポリシーのスコープを構成します。そのためには、まず、外部アクセス ポリシーを作成し、必要なスコープに合わせてそのポリシーを構成します。外部アクセスとフェデレーション用に構成できるポリシーの種類の詳細については、「操作」のドキュメントの「[Lync Server 2013 へのフェデレーションおよび外部アクセスの管理](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>フェデレーションおよび外部アクセス</strong> ポリシーは、インバンド プロビジョニングを通じて適用されます。ユーザーに適用されるポリシー、サイトに所属するポリシー、またはスコープ内のグローバル ポリシーは、ログイン時にクライアントとの間でやり取りされます。組織で XMPP フェデレーションを有効にしていない場合でも、XMPP フェデレーション パートナーのアクセスを制御するポリシーを構成できます。ただし、これらのポリシーが有効になるのは、組織に XMPP パートナー フェデレーションが展開、有効化、および構成されている場合に限られます。XMPP パートナー フェデレーションの展開および構成の詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Lync Server 2013 での SIP フェデレーション、XMPP フェデレーションおよびパブリック インスタント メッセージングの構成</a>」を参照してください。また、外部アクセス ポリシーのユーザー ポリシーを指定して XMPP フェデレーション パートナーを制御する場合、そのポリシーは、Lync Server 2013 に対して有効で、かつそのポリシーを使用するように構成されているユーザーに対してのみ適用されます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>フェデレーションおよび外部アクセス</strong> ポリシーは、インバンド プロビジョニングを通じて適用されます。ユーザーに適用されるポリシー、サイトに所属するポリシー、またはスコープ内のグローバル ポリシーは、ログイン時にクライアントとの間でやり取りされます。組織で XMPP フェデレーションを有効にしていない場合でも、XMPP フェデレーション パートナーのアクセスを制御するポリシーを構成できます。ただし、これらのポリシーが有効になるのは、組織に XMPP パートナー フェデレーションが展開、有効化、および構成されている場合に限られます。XMPP パートナー フェデレーションの展開および構成の詳細については、「展開」のドキュメントの「<a href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Lync Server 2013 での SIP フェデレーション、XMPP フェデレーションおよびパブリック インスタント メッセージングの構成</a>」を参照してください。また、外部アクセス ポリシーのユーザー ポリシーを指定して XMPP フェデレーション パートナーを制御する場合、そのポリシーは、Lync Server 2013 に対して有効で、かつそのポリシーを使用するように構成されているユーザーに対してのみ適用されます。
 
 
 ## XMPP フェデレーション パートナーのグローバル ポリシーを編集するには
@@ -133,9 +123,9 @@ Extensible Messaging and Presence Protocol (XMPP) フェデレーション パ�
 #### その他のリソース
 
 [Lync Server 2013 での組織の XMPP フェデレーション パートナーの管理](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](set-csexternalaccesspolicy.md)  
-[New-CsExternalAccessPolicy](new-csexternalaccesspolicy.md)  
-[Get-CsExternalAccessPolicy](get-csexternalaccesspolicy.md)  
-[Remove-CsExternalAccessPolicy](remove-csexternalaccesspolicy.md)  
-[Grant-CsExternalAccessPolicy](grant-csexternalaccesspolicy.md)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
 

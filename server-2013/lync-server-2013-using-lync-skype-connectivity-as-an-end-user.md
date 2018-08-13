@@ -56,13 +56,13 @@ Lync と Skype の接続によって、Skype ユーザーと Lync ユーザー�
 
 連絡先のサポートの詳細については、「[Lync で連絡先を追加する](http://office.microsoft.com/ja-jp/office365-lync-online-help/add-a-contact-in-lync-ha102828922.aspx)」と「[Lync で外部連絡先を追加する](http://office.microsoft.com/ja-jp/office365-lync-online-help/add-an-external-contact-in-lync-ha104038998.aspx?ctt=5%26origin=ha102828922)」を参照してください。
 
-Skype ユーザーの Microsoft アカウントで **bob@contoso.com** などのカスタム ドメイン名が使用されている場合、Lync ユーザーがその Microsoft アカウントを Lync に追加するには、次の 2 つの方法があります。
+Skype ユーザーの Microsoft アカウントで <strong>bob@contoso.com</strong> などのカスタム ドメイン名が使用されている場合、Lync ユーザーがその Microsoft アカウントを Lync に追加するには、次の 2 つの方法があります。
 
 1.  \[**連絡先の追加**\] アイコンの使用、または
 
 2.  " **ユーザーまたはルームを検索するか、電話番号を入力します**" フィールドの使用
 
-いずれの場合も、Lync ユーザーは Skype ユーザーのメールを **ユーザー(ドメイン名)@msn.com** の形式で入力する必要があります。
+いずれの場合も、Lync ユーザーは Skype ユーザーのメールを <strong>ユーザー(ドメイン名)@msn.com</strong> の形式で入力する必要があります。
 
 
 > [!IMPORTANT]
@@ -78,7 +78,7 @@ Skype ユーザーの Microsoft アカウントで **bob@contoso.com** などの
     
     ![Lync クライアント、Skype 連絡先の追加方法](images/Dn440175.ac4e2f21-c1d9-47d8-b99e-d49fe4eb36d7(OCS.15).jpg "Lync クライアント、Skype 連絡先の追加方法")
 
-3.  " **IM アドレス**" フィールドに、Skype ユーザーの Microsoft アカウント (MSA) を **ユーザー(ドメイン名)@msn.com** の形式で入力します。たとえば bob@contoso.com というユーザーの場合、エントリは以下のように **bob(contoso.com)@msn.com** となります。
+3.  " **IM アドレス**" フィールドに、Skype ユーザーの Microsoft アカウント (MSA) を<strong>ユーザー(ドメイン名)@msn.com</strong> の形式で入力します。たとえば bob@contoso.com というユーザーの場合、エントリは以下のように <strong>bob(contoso.com)@msn.com</strong> となります。
     
     ![Lync クライアント、新しい連絡先の設定](images/Dn440175.422e69b5-2c0c-4260-858f-f10309af772f(OCS.15).jpg "Lync クライアント、新しい連絡先の設定")
 
@@ -86,7 +86,7 @@ Skype ユーザーの Microsoft アカウントで **bob@contoso.com** などの
 
 5.  \[**プライバシー関係の設定**\] ドロップダウン リスト ボックスで適切な連絡先設定を選び、\[**OK**\] をクリックします。
 
-6.  Lync ユーザーは、Lync の " **Find someone or a room, or a dial a number (人やルームの検索、または番号のダイヤル)**" フィールドを使用して、次の **ユーザー(ドメイン名)@msn.com** のようなアドレスを追加することもできます。たとえば Microsoft アカウントが bob@contoso.com の場合、エントリは以下のように **bob(contoso.com)@msn.com** となります。
+6.  Lync ユーザーは、Lync の " **Find someone or a room, or a dial a number (人やルームの検索、または番号のダイヤル)**" フィールドを使用して、次の<strong>ユーザー(ドメイン名)@msn.com</strong> のようなアドレスを追加することもできます。たとえば Microsoft アカウントが bob@contoso.com の場合、エントリは以下のように <strong>bob(contoso.com)@msn.com</strong> となります。
     
     ![Lync クライアントで連絡先を検索する](images/Dn440175.69787db8-f9b9-49e5-b197-b90b10393301(OCS.15).jpg "Lync クライアントで連絡先を検索する")
 

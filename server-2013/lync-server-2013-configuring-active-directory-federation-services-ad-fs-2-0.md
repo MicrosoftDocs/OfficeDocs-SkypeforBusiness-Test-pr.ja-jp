@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 次のセクションでは、多要素認証をサポートするように Active Directory フェデレーション サービス (AD FS 2.0) を構成する方法について説明します。AD FS 2.0 のインストール方法については、AD FS 2.0 のステップバイステップ ガイドとハウツー ガイド ([http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)) を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>AD FS 2.0 をインストールするときは、Windows Server Manager を使用して Active Directory フェデレーション サービスの役割を追加しないでください。代わりに、Active Directory フェデレーション サービス 2.0 RTW パッケージを <a href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</a> からダウンロードしてインストールします。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> AD FS 2.0 をインストールするときは、Windows Server Manager を使用して Active Directory フェデレーション サービスの役割を追加しないでください。代わりに、Active Directory フェデレーション サービス 2.0 RTW パッケージを <a href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</a> からダウンロードしてインストールします。
 
 
 
@@ -55,6 +45,8 @@ _**トピックの最終更新日:** 2016-12-08_
 8.  Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行承認規則を作成して割り当てます。
     
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+
+    &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
@@ -62,6 +54,8 @@ _**トピックの最終更新日:** 2016-12-08_
 9.  Windows PowerShell を使用して次のコマンドを実行し、証明書利用者の信頼に関する発行変換規則を作成して割り当てます。
     
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+
+       &nbsp;
     
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
 

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Best Practices Analyzer を起動すると、このツールに対する最新の更新プログラムを検索するオプションが提示されます。利用できる更新プログラムがあれば、ダウンロードできます。更新プログラムをダウンロードしなかった場合や、Best Practices Analyzer がインターネットにアクセスできない場合は、既にコンピューター上にあるバージョンを引き続き使用できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>インターネットにアクセスするためにプロキシ認証が必要な場合、Best Practices Analyzer はダウンロード対象の新しい更新プログラムにアクセスできません。ただし、最新バージョンの RtcBPA.msi は、Microsoft ダウンロード センター (<a href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0x411</a>) から手動でダウンロードできます。ダウンロードした .msi ファイルは、Best Practices Analyzer を更新するコンピューターにコピーし、新しいバージョンのツールをそのコンピューターにインストールするために使用できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> インターネットにアクセスするためにプロキシ認証が必要な場合、Best Practices Analyzer はダウンロード対象の新しい更新プログラムにアクセスできません。ただし、最新バージョンの RtcBPA.msi は、Microsoft ダウンロード センター (<a href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0x411</a>) から手動でダウンロードできます。ダウンロードした .msi ファイルは、Best Practices Analyzer を更新するコンピューターにコピーし、新しいバージョンのツールをそのコンピューターにインストールするために使用できます。
 
 
 Best Practices Analyzer ルールを更新するには、ローカル コンピューター上でこのツールを管理者として実行する必要があります。管理者グループのメンバーであるアカウントを使用してログオンしていないときに更新プログラムが検出された場合は、Best Practices Analyzer をいったん閉じたうえで、以下の手順に従ってプログラムを起動します。

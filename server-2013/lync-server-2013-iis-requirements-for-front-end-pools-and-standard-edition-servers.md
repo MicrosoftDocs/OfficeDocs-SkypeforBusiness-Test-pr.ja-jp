@@ -37,18 +37,8 @@ Standard Edition サーバー、フロントエンド サーバー、および�
 
   - フロント エンド サーバー、Standard Edition サーバー、およびディレクターで、モバイル デバイスが自動的にモビリティ リソースを検出できるようにするため
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>モビリティを展開する場合は、IIS 7.5 を使用することをお勧めします。 Lync Server Mobility Service のインストーラーは、いくつかの ASP.NET フラグを設定しパフォーマンスを向上させます。既定では、IIS 7.5 が Windows Server 2008 R2 にインストールされ、Mobility Service インストーラーによって ASP.NET 設定が自動的に変更されます。Windows Server 2008 で IIS 7.0 を使用する場合は、これらの設定を手動で変更する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> モビリティを展開する場合は、IIS 7.5 を使用することをお勧めします。 Lync Server Mobility Service のインストーラーは、いくつかの ASP.NET フラグを設定しパフォーマンスを向上させます。既定では、IIS 7.5 が Windows Server 2008 R2 にインストールされ、Mobility Service インストーラーによって ASP.NET 設定が自動的に変更されます。Windows Server 2008 で IIS 7.0 を使用する場合は、これらの設定を手動で変更する必要があります。
 
 
 Lync Server に次の IIS モジュールをインストールする必要があります。
@@ -173,18 +163,8 @@ Lync Server に次の IIS モジュールをインストールする必要があ
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>集中構成での フロント エンド プールの場合は、IIS を展開してから、プールにサーバーを追加する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 集中構成での フロント エンド プールの場合は、IIS を展開してから、プールにサーバーを追加する必要があります。
 
 
 <table>

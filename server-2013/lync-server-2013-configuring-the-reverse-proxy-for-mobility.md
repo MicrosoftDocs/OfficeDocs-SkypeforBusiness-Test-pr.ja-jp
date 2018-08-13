@@ -19,36 +19,16 @@ _**トピックの最終更新日:** 2014-03-20_
 
 最初の Lync Server 2013 自動検出サービス要求に HTTPS を使用し、リバース プロキシ証明書のサブジェクトの別名リストを更新する場合は、更新したパブリック証明書をリバース プロキシの Secure Sockets Layer (SSL) に割り当てる必要があります。必要なサブジェクトの別名エントリについては、「[Lync Server 2013 でのモビリティの技術要件](lync-server-2013-technical-requirements-for-mobility.md)」を参照してください。次に、外部 Web サービスの既存のリスナーを変更するか、外部自動検出サービス URL の新しい Web 公開ルールを作成する必要があります。 フロント エンド プールの外部 Lync Server 2013 Web サービス URL の Web 公開ルールがない場合は、そのルールも公開する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リバース プロキシ公開ルールとリスナーは、外部 Web サービスと自動検出サービスの両方に情報を提供できますが、それにはその両方について、リスナーに割り当てられた証明書に、必要なサブジェクト名とサブジェクトの別名が含まれている必要があります。Web リスナーおよび公開ルールの既定の構成の詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リバース プロキシ公開ルールとリスナーは、外部 Web サービスと自動検出サービスの両方に情報を提供できますが、それにはその両方について、リスナーに割り当てられた証明書に、必要なサブジェクト名とサブジェクトの別名が含まれている必要があります。Web リスナーおよび公開ルールの既定の構成の詳細については、「<a href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 のリバース プロキシ サーバーの設定</a>」を参照してください。
 
 
 最初の自動検出サービス要求に HTTP を使用するので、リバース プロキシのサブジェクトの別名を更新する必要がない場合は、ポート 80 の新しい Web 公開ルールを作成または変更する必要があります。
 
 このセクションの手順では、Microsoft Forefront Threat Management Gateway 2010 で自動検出の新しい Web 公開ルールを作成または変更する方法について説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>これらの手順では、Forefront Threat Management Gateway (TMG) 2010 の Standard Edition がインストール済みであることを前提としています。他のリバース プロキシを使用する場合も、同様の手順を使用しますが、サードパーティ製品のドキュメントにマップする必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> これらの手順では、Forefront Threat Management Gateway (TMG) 2010 の Standard Edition がインストール済みであることを前提としています。他のリバース プロキシを使用する場合も、同様の手順を使用しますが、サードパーティ製品のドキュメントにマップする必要があります。
 
 
 ## 外部自動検出 URL の Web 公開ルールを作成するには

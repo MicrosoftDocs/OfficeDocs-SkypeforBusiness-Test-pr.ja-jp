@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2016-04-06_
 
 ## ポートとプロトコルの詳細
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server は、サーバーで Lync Server サービスが開始されるときにファイアウォールで必要なポートを開くため、サービスを開始する前に Windows ファイアウォールが実行されているようにする必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server は、サーバーで Lync Server サービスが開始されるときにファイアウォールで必要なポートを開くため、サービスを開始する前に Windows ファイアウォールが実行されているようにする必要があります。
 
 
 エッジ コンポーネントのファイアウォール構成の詳細については、「[Lync Server 2013 の外部の音声ビデオ ファイアウォールおよびポートの要件を決定する](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)」を参照してください。
@@ -438,18 +428,8 @@ _**トピックの最終更新日:** 2016-04-06_
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモート通話コントロールのシナリオによっては、フロントエンド サーバーかディレクターと PBX の間で TCP 接続が必要になります。Lync Server が TCP ポート 5060 を使用することはなくなりましたが、リモート通話コントロールの展開時には信頼されたサーバー構成を作成します。それにより、RCC 回線サーバーの FQDN が、PBX システムに接続するためにフロントエンド サーバーまたはディレクターが使用する TCP ポートと関連付けられます。詳細については、Lync Server 管理シェルのドキュメントの「<strong>CsTrustedApplicationComputer</strong>」コマンドレットを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモート通話コントロールのシナリオによっては、フロントエンド サーバーかディレクターと PBX の間で TCP 接続が必要になります。Lync Server が TCP ポート 5060 を使用することはなくなりましたが、リモート通話コントロールの展開時には信頼されたサーバー構成を作成します。それにより、RCC 回線サーバーの FQDN が、PBX システムに接続するためにフロントエンド サーバーまたはディレクターが使用する TCP ポートと関連付けられます。詳細については、Lync Server 管理シェルのドキュメントの「<strong>CsTrustedApplicationComputer</strong>」コマンドレットを参照してください。
 
 
 次の表に、(DNS 負荷分散ではない) ハードウェア負荷分散のみを使用するプールでハードウェア ロード バランサーを開くために必要なポートを示します。
@@ -745,30 +725,10 @@ DNS 負荷分散を使用するフロントエンド プールとディレクタ
 
 **\*** これらのメディア種類用に特定のポートを構成するには、CsConferencingConfiguration コマンドレット (ClientMediaPortRangeEnabled、ClientMediaPort、ClientMediaPortRange parameters) を使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync クライアント用の設定プログラムは、必要なオペレーティング システム ファイアウォール例外をクライアント コンピューター上で自動的に作成します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync クライアント用の設定プログラムは、必要なオペレーティング システム ファイアウォール例外をクライアント コンピューター上で自動的に作成します。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>外部ユーザー アクセス用に使用されるポートは、クライアントが組織のファイアウォールを通過する必要のあるすべてのシナリオにおいて必要です (たとえば、他の組織によってホストされる外部の通信や会議)。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 外部ユーザー アクセス用に使用されるポートは、クライアントが組織のファイアウォールを通過する必要のあるすべてのシナリオにおいて必要です (たとえば、他の組織によってホストされる外部の通信や会議)。
 

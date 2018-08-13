@@ -21,23 +21,15 @@ _**トピックの最終更新日:** 2012-11-01_
 
 Update-CsAddressBook コマンドレットは、Office Communications Server の **abserver.exe –syncNow** コマンドの代わりに使用されます。 このコマンドレットの目的は、スケジュールされた時間を待機することなくすぐに同期を開始することです。 最初の例のコマンドは、組織のすべてのアドレス帳を更新します。 2 番目のコマンドは、定義されたサーバーに関連付けられたアドレス帳だけを更新します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、Lync Server ユーザー レプリケーターが Active Directory から変更を検出し、構成されている間隔に基づいて Lync Server ユーザー データベースを更新します。また、Lync Server ユーザー レプリケーターは、管理者が Update-CSAddressBook を実行しなくても、RTCab データベースに変更をすばやく反映します。管理者は、アドレス帳ファイルのダウンロードが有効になっている場合にのみ Update -CSAddressBook を実行する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、Lync Server ユーザー レプリケーターが Active Directory から変更を検出し、構成されている間隔に基づいて Lync Server ユーザー データベースを更新します。また、Lync Server ユーザー レプリケーターは、管理者が Update-CSAddressBook を実行しなくても、RTCab データベースに変更をすばやく反映します。管理者は、アドレス帳ファイルのダウンロードが有効になっている場合にのみ Update -CSAddressBook を実行する必要があります。
 
 
 次にその例を示します。
 
     Update-CsAddressBook
+
+&nbsp;
 
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
 
@@ -47,5 +39,5 @@ Update-CsAddressBook コマンドレットは、Office Communications Server の
 
 #### その他のリソース
 
-[Update-CsAddressBook](update-csaddressbook.md)
+[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook)
 

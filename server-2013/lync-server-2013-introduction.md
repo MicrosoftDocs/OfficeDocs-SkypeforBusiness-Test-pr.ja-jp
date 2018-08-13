@@ -36,7 +36,7 @@ Lync Server 2013 および Lync 2013 のようなクライアント ソフトウ
 <td><p>IM とプレゼンス</p></td>
 <td><p>インスタント メッセージング (IM) とプレゼンスにより、ユーザーは効率的かつ効果的に相手を見つけて連絡できます。</p>
 <p>IM は、会話履歴を備えるインスタント メッセージング プラットフォームを提供し、MSN/Windows Live、Yahoo!、AOL、Google Talk などパブリック IM ネットワーク ユーザーとのパブリック IM 接続をサポートします。</p>
-<div class="alert">
+<div>
 
 > [!IMPORTANT]
 > <UL>

@@ -17,16 +17,6 @@ _**トピックの最終更新日:** 2012-10-09_
 
 Exchange 2013 に所属するユーザーのメールボックスがインプレース保持されている場合、Exchange インプレース保持ポリシーにより、これらのユーザーのアーカイブが制御されます。展開に Microsoft Exchange 統合を使用する場合、Exchange 2013 に所属するユーザーに対しては、Exchange 2013 ポリシーが Lync Server アーカイブ ポリシーよりも優先されます。Exchange アーカイブ ポリシーの構成については、Exchange 2013 のドキュメントを参照してください。Lync Server 2013 に所属するユーザーに対するユーザー ポリシーの設定の詳細については、「展開」のドキュメントの「[Lync Server でのアーカイブのユーザー ポリシーの設定](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)」を参照してください。ポリシーの効果の詳細については、「計画」のドキュメント、「展開」のドキュメント、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Exchange 2013 と Lync Server 2013 を同じフォレストに展開した場合、Exchange 2013 インプレース保持ポリシーがアーカイブを制御します。Exchange 2013 と Lync Server 2013 がそれぞれ別のフォレストに展開した場合は、「<a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 のアーカイブの展開チェックリスト</a>」の「Deploying Lync Server and Microsoft Exchange in Different Forests」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Exchange 2013 と Lync Server 2013 を同じフォレストに展開した場合、Exchange 2013 インプレース保持ポリシーがアーカイブを制御します。Exchange 2013 と Lync Server 2013 がそれぞれ別のフォレストに展開した場合は、「<a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 のアーカイブの展開チェックリスト</a>」の「Deploying Lync Server and Microsoft Exchange in Different Forests」を参照してください。
 

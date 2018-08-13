@@ -49,23 +49,13 @@ Microsoft Lync Server 2013 自動検出サービスは、ディレクターお�
     
     このシナリオでは、モビリティをサポートするように証明書を変更する必要はありません。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com に一致する値が含まれない場合:<br />
-    a. Web サーバーは &quot;Server Hello&quot; と応答します。証明書はありません。<br />
-    b. Lync Mobile を実行するモバイル デバイスはセッションを直ちに終了します。<br />
-    対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com が含まれる場合:<br />
-    a. Web サーバーは &quot;Server hello&quot; および証明書で応答します。<br />
-    b. Lync Mobile を実行するモバイル デバイスは証明書を検証し、ハンドシェイクを完了します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]  
+    > 対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com に一致する値が含まれない場合:<br />
+    > a. Web サーバーは &quot;Server Hello&quot; と応答します。証明書はありません。<br />
+    > b. Lync Mobile を実行するモバイル デバイスはセッションを直ちに終了します。<br />
+    > 対象の Web サーバーに含まれる証明書に、サブジェクトの別名リストの値として、lyncdiscover.contoso.com が含まれる場合:<br />
+    > a. Web サーバーは &quot;Server hello&quot; および証明書で応答します。<br />
+    > b. Lync Mobile を実行するモバイル デバイスは証明書を検証し、ハンドシェイクを完了します。
 
 
 リバース プロキシ サーバーのポート 80 を使用する、自動検出サービスへの初期接続をサポートするには、Forefront Threat Management Gateway 2010 リバース プロキシ Web 公開ルールに対して、この例に類似した http 公開ルールを作成できます。

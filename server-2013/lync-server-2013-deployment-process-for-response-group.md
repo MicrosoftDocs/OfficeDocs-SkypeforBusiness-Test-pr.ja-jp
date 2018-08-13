@@ -66,19 +66,9 @@ _**トピックの最終更新日:** 2015-03-09_
 </ol></li>
 <li><p>オプションで、 Lync Server 管理シェルを使用して、事前定義される応答グループの営業時間と休日を作成します。</p></li>
 <li><p>応答グループ構成ツールまたは Lync Server 管理シェルを使用して、カスタム応答グループの営業時間と休日を含む、ワークフロー (ハント グループまたは対話型音声応答 (IVR) 通話フロー) を作成します。</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>応答グループ構成ツールには、 Lync Server コントロール パネルからアクセスできます。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> 応答グループ構成ツールには、 Lync Server コントロール パネルからアクセスできます。
 
 </div></li>
 </ol></td>

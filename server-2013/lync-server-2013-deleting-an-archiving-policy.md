@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 ユーザー ポリシーやサイト ポリシーは削除できます。グローバル ポリシーは削除できません。グローバル ポリシーの削除を試みると、Lync Server 2013 によって自動的にポリシーが既定値にリセットされます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>展開で Microsoft Exchange 統合を有効にした場合、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されたユーザーに対してアーカイブを有効にするかどうかが Exchange のポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 展開で Microsoft Exchange 統合を有効にした場合、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されたユーザーに対してアーカイブを有効にするかどうかが Exchange のポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。
 
 
 ## アーカイブに関するユーザー ポリシーまたはサイト ポリシーを削除するには
@@ -65,7 +55,7 @@ _**トピックの最終更新日:** 2013-02-23_
     
         Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 
-詳細については、[Remove-CsArchivingPolicy](remove-csarchivingpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Remove-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsArchivingPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

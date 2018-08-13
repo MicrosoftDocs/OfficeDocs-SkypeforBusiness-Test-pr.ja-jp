@@ -43,7 +43,7 @@ Lync Server 管理シェル と **Get-CsPushNotificationConfiguration** コマ�
         EnableApplePushNotificationService     : False
         EnableMicrosoftPushNotificationService : False
 
-詳細については、[Get-CsPushNotificationConfiguration](get-cspushnotificationconfiguration.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Get-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPushNotificationConfiguration) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

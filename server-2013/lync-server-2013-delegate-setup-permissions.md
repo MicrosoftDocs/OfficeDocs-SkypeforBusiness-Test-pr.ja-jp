@@ -21,18 +21,8 @@ Lync Server のインストール時に行われるドメインの準備では�
 
 このコマンドレットは、RTCUniversalServerAdmins グループのみにアクセス許可を付与する点に留意してください。他のセキュリティ グループまたは個別のユーザーにアクセス許可を付与するために使用することはできません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Enable-CsTopology</strong> は、RTCUniversalServerAdmins グループのメンバーが Lync Server 2013 を設定および展開できるようにするための重要なコマンドレットです。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> <strong>Enable-CsTopology</strong> は、RTCUniversalServerAdmins グループのメンバーが Lync Server 2013 を設定および展開できるようにするための重要なコマンドレットです。
 
 
 ## RTCUniversalServerAdmins グループに、Enable-CsTopology を実行する権限を追加するには
@@ -45,18 +35,8 @@ Lync Server のインストール時に行われるドメインの準備では�
     
         Grant-CsSetupPermission -ComputerOU <DN of the OU> -Domain <Domain FQDN>
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>OU が最上位レベルでない場合は、完全ドメイン名を指定する必要があります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > OU が最上位レベルでない場合は、完全ドメイン名を指定する必要があります。
     
     次の例では、OU は、contoso.com ドメインにある "Lync Servers" です。
     

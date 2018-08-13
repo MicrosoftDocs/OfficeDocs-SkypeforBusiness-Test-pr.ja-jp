@@ -79,18 +79,8 @@ _**トピックの最終更新日:** 2016-12-27_
 
   - セッション開始プロトコル (SIP) ドメイン。これは、ユーザーがインスタント メッセージングに現在使用している SIP URI のドメイン サフィックスです。組織で複数の SIP ドメインを使用している場合は、インスタント メッセージングに使用する各ドメインのドメイン サフィックスを指定します。たとえば、user1@contoso.com には SIP ドメインの contoso.com を指定し、user1@example.fabrikam.com には SIP ドメインとして example.fabrikam.com を指定します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>SIP ドメインのドメイン サフィックスのみを指定します。SIP ドメインの FQDN (アクセス エッジ サービスの FQDN を含む) は指定しないでください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > SIP ドメインのドメイン サフィックスのみを指定します。SIP ドメインの FQDN (アクセス エッジ サービスの FQDN を含む) は指定しないでください。
 
 
   - 連絡先情報。指定する各 SIP ドメインの管理者のメール アドレスを指定します。

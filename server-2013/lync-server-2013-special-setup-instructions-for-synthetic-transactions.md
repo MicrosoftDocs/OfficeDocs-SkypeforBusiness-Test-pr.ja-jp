@@ -42,7 +42,7 @@ Exchange ユニファイド メッセージング (UM)代理トランザクシ�
 
 ## 常設チャット代理トランザクション
 
-常設チャット代理トランザクションを使用するには、管理者は、まずチャネルを作成し、テスト ユーザーにチャネルを使用する許可を与える必要があります。これらのテスト ユーザーは、[Test-CsPersistentChatMessage](test-cspersistentchatmessage.md) コマンドレットを使用して適切に構成できます。
+常設チャット代理トランザクションを使用するには、管理者は、まずチャネルを作成し、テスト ユーザーにチャネルを使用する許可を与える必要があります。これらのテスト ユーザーは、[Test-CsPersistentChatMessage](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPersistentChatMessage) コマンドレットを使用して適切に構成できます。
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -61,7 +61,7 @@ Test-CsPersistentChatMessage を使用して作成されたチャット ルー�
 
 ## PSTN ピアツーピア通話代理トランザクション
 
-[Test-CsPstnPeerToPeerCall](test-cspstnpeertopeercall.md)代理トランザクションは、公衆交換電話網 (PSTN) 経由で通話を発信および受信できるかどうか検証します。
+[Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsPstnPeerToPeerCall)代理トランザクションは、公衆交換電話網 (PSTN) 経由で通話を発信および受信できるかどうか検証します。
 
 この代理トランザクションを実行するには、管理者は以下を構成する必要があります。
 

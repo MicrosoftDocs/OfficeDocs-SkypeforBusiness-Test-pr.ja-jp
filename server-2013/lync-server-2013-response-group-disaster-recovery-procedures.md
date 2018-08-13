@@ -121,18 +121,8 @@ _**トピックの最終更新日:** 2016-12-08_
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>復旧中にプールを構築し直す場合は、完全修飾ドメイン名 (FQDN) を同じにするか別にするかにかかわらず、-OverwriteOwner パラメーターを使用する必要があります。大まかには、プライマリ プールに応答グループを再びインポートするときは常に -OverwriteOwner パラメーターを使用することができます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 復旧中にプールを構築し直す場合は、完全修飾ドメイン名 (FQDN) を同じにするか別にするかにかかわらず、-OverwriteOwner パラメーターを使用する必要があります。大まかには、プライマリ プールに応答グループを再びインポートするときは常に -OverwriteOwner パラメーターを使用することができます。
     
     (同じまたは異なる完全修飾ドメイン名 (FQDN) の) 新しいプールを展開してプライマリ プールを置き換え、新しいプールにバックアップ プールからのアプリケーションレベルの設定を使用する場合は、?ReplaceExistingSettings パラメーターを含めます。コマンドラインで、次のように入力します。
     
@@ -200,16 +190,6 @@ _**トピックの最終更新日:** 2016-12-08_
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>このステップでは、エクスポートされた構成で新しいファイルを作成し、そのファイルをバックアップ プールから削除します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > このステップでは、エクスポートされた構成で新しいファイルを作成し、そのファイルをバックアップ プールから削除します。
 

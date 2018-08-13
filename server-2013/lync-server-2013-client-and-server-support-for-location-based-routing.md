@@ -141,18 +141,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
   
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Mobile 2013 クライアントに対して VoIP を無効にするには、場所に基づくルーティングが有効なすべてのユーザーに対して、IP オーディオ/ビデオを設定を無効にしたモビリティ ポリシーを割り当てます。モビリティ ポリシーの詳細については、「<a href="new-csmobilitypolicy.md">New-CsMobilityPolicy</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Mobile 2013 クライアントに対して VoIP を無効にするには、場所に基づくルーティングが有効なすべてのユーザーに対して、IP オーディオ/ビデオを設定を無効にしたモビリティ ポリシーを割り当てます。モビリティ ポリシーの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</a>」を参照してください。
 
 
 ## 関連項目

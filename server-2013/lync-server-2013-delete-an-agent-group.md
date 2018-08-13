@@ -53,6 +53,6 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[Remove-CsRgsAgentGroup](remove-csrgsagentgroup.md)  
-[Get-CsRgsAgentGroup](get-csrgsagentgroup.md)
+[Remove-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsRgsAgentGroup)  
+[Get-CsRgsAgentGroup](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsRgsAgentGroup)
 

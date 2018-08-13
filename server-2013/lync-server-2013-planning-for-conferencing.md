@@ -29,26 +29,12 @@ Lync Server 2013 では、予定された会議および緊急会議のどちら
 
 Lync Server 2013フロント エンド サーバーを展開する場合、Web 会議、音声ビデオ会議、およびダイヤルイン会議機能もまた展開するかどうかを選択できます。 Lync Server 2013フロント エンド サーバーでは、IM 会話機能と共に、IM 会議機能は常に自動的に展開されます。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>展開に Office Communicator 2007 R2 クライアント ( Live Meeting コンソールまたは Microsoft Office Outlook 用会議アドインを含む) を使用してスケジュール設定された会議が含まれる場合は、会議が Lync Server 2013 に移行された後で以下の制限事項があります。
-<ul>
-<li><p>会議内のユーザーは、ドキュメント コラボレーション、アプリケーション共有、およびデスクトップ共有を含む、データのグループ作業機能を使用できません。</p></li>
-<li><p>Office Communicator 2007 R2 クライアントが Lync Server 2013 でサポートされていないことから、動作が不安定になることがあります。</p></li>
-</ul>
-これらの問題を回避するには、 Office Communicator 2007 R2 クライアントを使用してスケジュール設定されたすべての会議を、 Lync 2010 用オンライン ミーティング アドインまたは Lync 2013 用オンライン ミーティング アドインを使用し、 Outlook 2010 または Outlook 2013 で、再度、スケジュール設定します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> 展開に Office Communicator 2007 R2 クライアント ( Live Meeting コンソールまたは Microsoft Office Outlook 用会議アドインを含む) を使用してスケジュール設定された会議が含まれる場合は、会議が Lync Server 2013 に移行された後で以下の制限事項があります。
+> <ul>
+> <li><p>会議内のユーザーは、ドキュメント コラボレーション、アプリケーション共有、およびデスクトップ共有を含む、データのグループ作業機能を使用できません。</p></li>
+> <li><p>Office Communicator 2007 R2 クライアントが Lync Server 2013 でサポートされていないことから、動作が不安定になることがあります。</p></li></ul>
+> これらの問題を回避するには、 Office Communicator 2007 R2 クライアントを使用してスケジュール設定されたすべての会議を、 Lync 2010 用オンライン ミーティング アドインまたは Lync 2013 用オンライン ミーティング アドインを使用し、 Outlook 2010 または Outlook 2013 で、再度、スケジュール設定します。
 
 
 次のセクションでは、計画プロセス、コンポーネント、ハードウェアおよびソフトウェアの要件、および展開プロセスを含む、さまざまな種類の会議機能の展開に必要な項目について説明します。

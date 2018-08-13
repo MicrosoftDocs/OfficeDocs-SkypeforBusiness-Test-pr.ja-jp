@@ -31,5 +31,5 @@ New-CsAddressBookConfiguration コマンドレットは、アドレス帳の動�
 
 #### その他のリソース
 
-[New-CsAddressBookConfiguration](new-csaddressbookconfiguration.md)
+[New-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAddressBookConfiguration)
 

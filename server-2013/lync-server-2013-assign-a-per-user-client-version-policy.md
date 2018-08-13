@@ -64,18 +64,8 @@ _**トピックの最終更新日:** 2013-02-22_
 
 7.  \[**ポリシーの割り当て**\] の \[**クライアント バージョン ポリシー**\] の下で、次のいずれかの操作を行います。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>ポリシーの割り当て</strong>] ダイアログ ボックスを使用して構成できるポリシーは 1 つではないため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;</strong>] が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>ポリシーの割り当て</strong>] ダイアログ ボックスを使用して構成できるポリシーは 1 つではないため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;</strong>] が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
     
       - Lync Server に、自動的にグローバル レベル ポリシーを選択させるか、定義済みの場合は、サイト レベル ポリシーかプール レベル ポリシーを選択させます。
     
@@ -101,7 +91,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
 
 ## 複数のユーザーにユーザーごとのクライアント バージョン ポリシーを割り当てるには
 
-  - このコマンドでは、RedmondVoicePolicy という音声ポリシーを現在割り当てられているすべてのユーザーに、RedmondClientVersionPolicy というユーザーごとのクライアント バージョン ポリシーを割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドでは、RedmondVoicePolicy という音声ポリシーを現在割り当てられているすべてのユーザーに、RedmondClientVersionPolicy というユーザーごとのクライアント バージョン ポリシーを割り当てます。このコマンドで使用されている Filter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -Filter {VoicePolicy -eq "RedmondVoicePolicy"} | Grant-CsClientVersionPolicy -PolicyName "RedmondClientVersionPolicy"
 
@@ -111,7 +101,7 @@ Grant-CsClientVersionPolicy コマンドレットを使ってユーザーごと�
     
         Grant-CsClientVersionPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsClientVersionPolicy](grant-csclientversionpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsClientVersionPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsClientVersionPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

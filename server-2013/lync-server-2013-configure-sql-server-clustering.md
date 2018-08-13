@@ -31,36 +31,16 @@ SQL Server をインストールする際は、SQL Server Management Studio を�
 
 1.  SQL Server クラスタリングのインストールと構成を完了したら、SQL Server インスタンスの仮想クラスタ名 (SQL Server クラスタリングの設定時に構成) と SQL Server データベースのインスタンス名を使用して、トポロジ ビルダーで SQL Server ストアを定義する必要があります。クラスタ化された SQL Server ベースのサーバーの場合、単独の SQL Server ベースのサーバーとは異なり、仮想ノードの完全修飾ドメイン名 (FQDN) を使用します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジ ビルダーで、Windows Server クラスタ ノードを個別に構成する必要はありません。SQL Server の仮想クラスタ名だけを使用します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジ ビルダーで、Windows Server クラスタ ノードを個別に構成する必要はありません。SQL Server の仮想クラスタ名だけを使用します。
 
 
 2.  トポロジ ビルダーを使用してデータベースを展開している場合は、SQL Server sysadmin グループのメンバーである必要があります。SQL Server sysadmin グループのメンバーではあるがドメインでの特権 (SQL Server のデータベース管理者の役割など) がない場合、データベースを作成する権限はありますが、Lync Server で必要な情報を読み取る権限はありません。Lync Server の展開に必要なユーザー権限とアクセス許可について詳しくは、「[Lync Server 2013 の SQL Server の展開のアクセス許可](lync-server-2013-deployment-permissions-for-sql-server.md)」をご覧ください。
 
 3.  SQL Server Management Studio を使用して、データベース フォルダーとログ ファイル フォルダーが SQL Server クラスタの共有ディスクに既定で正しくマッピングされていることを確認します。これは、トポロジ ビルダーを使用してデータベースを作成する場合に必要な手順です。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>SQL Server Management Studio をインストールしなかった場合は、SQL Server のインストールを再実行し、既存の SQL Server 展開の追加機能として管理ツールを選ぶとインストールできます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > SQL Server Management Studio をインストールしなかった場合は、SQL Server のインストールを再実行し、既存の SQL Server 展開の追加機能として管理ツールを選ぶとインストールできます。
 
 
 4.  トポロジ ビルダーか Windows PowerShell コマンドレットを使用して、SQL Server ベースのサーバーのデータベースをインストールします。トポロジ ビルダーを使用するには、次の手順を使用します。Windows PowerShell コマンドレットの使用については、「[Lync Server 2013 での Lync Server 管理シェルを使用したデータベースのインストール](lync-server-2013-database-installation-using-lync-server-management-shell.md)」をご覧ください。

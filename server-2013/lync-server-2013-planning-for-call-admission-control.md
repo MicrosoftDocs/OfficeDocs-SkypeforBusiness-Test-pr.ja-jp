@@ -21,18 +21,8 @@ _**トピックの最終更新日:** 2012-09-21_
 
 ここでは、通話受付管理機能と CAC の計画方法を説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server には、通話受付管理、緊急サービス (E9-1-1)、およびメディア バイパスという 3 つの高度な エンタープライズ VoIP 機能があります。これら 3 つの機能すべてに共通の計画情報の概要については、「<a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ VoIP 機能のネットワーク設定</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server には、通話受付管理、緊急サービス (E9-1-1)、およびメディア バイパスという 3 つの高度な エンタープライズ VoIP 機能があります。これら 3 つの機能すべてに共通の計画情報の概要については、「<a href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 の高度なエンタープライズ VoIP 機能のネットワーク設定</a>」を参照してください。
 
 
 ## このセクション中

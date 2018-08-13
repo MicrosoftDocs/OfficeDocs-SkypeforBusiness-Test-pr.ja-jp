@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: 転送中のデータの保護 (アーカイブ データベース、監視データベース、グループ チャット コンプライアンス サーバー データベース)'
+title: "Lync Server 2013: 転送中データの保護 (アーカイブ、監視、グループ チャット コンプライアンス サーバーのデータベース)"
 TOCTitle: Lync Server 2013 での転送中のデータの保護 (アーカイブ データベース、監視データベース、グループ チャット コンプライアンス サーバー データベース)
 ms:assetid: ea219705-1015-43a7-890b-e7e67b451e7c
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Dn518336(v=OCS.15)

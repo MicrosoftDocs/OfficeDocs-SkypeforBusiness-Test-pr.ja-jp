@@ -49,18 +49,8 @@ _**トピックの最終更新日:** 2012-10-20_
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>前述のように、Watchernode.msi はコマンド ウィンドウから実行することもできます。コマンド ウィンドウを開くには、[<strong>スタート</strong>] メニューをクリックし、[<strong>コマンド プロンプト</strong>] を右クリックして、[<strong>管理者として実行</strong>] をクリックします。コマンド ウィンドウが開いたら、先ほどと同じコマンドを入力します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 前述のように、Watchernode.msi はコマンド ウィンドウから実行することもできます。コマンド ウィンドウを開くには、[<strong>スタート</strong>] メニューをクリックし、[<strong>コマンド プロンプト</strong>] を右クリックして、[<strong>管理者として実行</strong>] をクリックします。コマンド ウィンドウが開いたら、先ほどと同じコマンドを入力します。
 
 
 ウォッチャー ノードを信頼されたアプリケーション プールとしてセットアップできない場合はいつでも、ネゴシエート モードが使用されます。このモードでは、管理者がウォッチャー ノードのテスト ユーザー パスワードを管理する必要があります。

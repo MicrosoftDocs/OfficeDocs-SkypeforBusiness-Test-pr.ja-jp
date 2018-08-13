@@ -61,13 +61,12 @@ _**トピックの最終更新日:** 2017-03-09_
 <li><p><strong>プロビジョニング要求を開始する</strong>ためのページで、適切なリンクをクリックして次のようなプロビジョニング要求を開始します。</p></li>
 <li><p><strong>プロビジョニング情報を指定する</strong>ためのページで、<strong>アクセス エッジ サービスの FQDN</strong> を入力します。たとえば、<strong>accessedge.contoso.com</strong> と入力します。</p></li>
 <li><p>少なくとも 1 つの SIP ドメイン名を入力し、[<strong>追加</strong>] をクリックします。</p>
-<div class="alert">
 
 > [!IMPORTANT]
 > プロビジョニング プロセスを完了するには、少なくとも 1 つのアクセス エッジ サーバーと 1 つの SIP ドメインが必要です。SIP ドメインとアクセス エッジ サーバーは、アクティブで、正常に機能し、ネットワーク上で到達可能である必要があります。
 
 
-</div></li>
+</li>
 <li><p>[<strong>パブリック IM サービス プロバイダー</strong>] の一覧で [<strong>Skype</strong>] を選び、[<strong>次へ</strong>] をクリックして連絡先情報を追加し、プロビジョニング要求を送信します。</p></li>
 </ol></td>
 </tr>
@@ -79,13 +78,12 @@ _**トピックの最終更新日:** 2017-03-09_
 <li><p><strong>プロビジョニング要求を開始する</strong>ためのページで、適切なリンクをクリックして次のようなプロビジョニング要求を開始します。</p></li>
 <li><p><strong>プロビジョニング情報を指定する</strong>ためのページで、<strong>アクセス エッジ サービスの FQDN</strong> を入力します。たとえば、<strong>accessedge.contoso.com</strong> と入力します。</p></li>
 <li><p>少なくとも 1 つの SIP ドメイン名を入力し、[<strong>追加</strong>] をクリックします。</p>
-<div class="alert">
 
 > [!IMPORTANT]
 > プロビジョニング プロセスを完了するには、少なくとも 1 つのアクセス エッジ サーバーと 1 つの SIP ドメインが必要です。SIP ドメインとアクセス エッジ サーバーは、アクティブで、正常に機能し、ネットワーク上で到達可能である必要があります。
 
 
-</div></li>
+</li>
 <li><p>[<strong>パブリック IM サービス プロバイダー</strong>] の一覧で [<strong>Skype</strong>] を選び、[<strong>次へ</strong>] をクリックして連絡先情報を追加し、プロビジョニング要求を送信します。</p></li>
 </ol></td>
 </tr>
@@ -119,20 +117,10 @@ Lync と Skype の接続向けに Lync Server 環境を準備するには、Lync
 
 管理者は Lync Server 管理シェルを使用して Lync クライアント ポリシーを構成し、Skype を追加の PIC プロバイダーとして表示する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>また、管理者が少なくとも 1 つのポリシー (この手続きの手順 2.) を構成してパブリック IM 接続をサポートするまでは、パブリック インスタント メッセージング接続 (PIC) サービス プロバイダーのユーザーは組織の IM や会議に参加できません。<br />
-フェデレーションと PIC を構成するには、「フェデレーションおよびパブリック IM 接続の有効化または無効化」( <a href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</a>) を参照してください。<br />
-少なくとも 1 つのポリシーを構成してフェデレーション ユーザーのアクセスをサポートするには、「パブリック ユーザー アクセスを制御するポリシーの構成」( <a href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!Note]  
+> また、管理者が少なくとも 1 つのポリシー (この手続きの手順 2.) を構成してパブリック IM 接続をサポートするまでは、パブリック インスタント メッセージング接続 (PIC) サービス プロバイダーのユーザーは組織の IM や会議に参加できません。<br />
+> フェデレーションと PIC を構成するには、「フェデレーションおよびパブリック IM 接続の有効化または無効化」( <a href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</a>) を参照してください。<br />
+> 少なくとも 1 つのポリシーを構成してフェデレーション ユーザーのアクセスをサポートするには、「パブリック ユーザー アクセスを制御するポリシーの構成」( <a href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</a>) を参照してください。
 
 
 1.  Lync Server フロント エンド サーバーから、Lync Server 管理シェルを開きます。

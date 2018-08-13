@@ -31,18 +31,8 @@ _**トピックの最終更新日:** 2013-01-30_
     
         Remove-CsCallParkOrbit -Identity "Redmond call pickup"
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>その他のオプションの詳細については、「<a href="remove-cscallparkorbit.md">Remove-CsCallParkOrbit</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > その他のオプションの詳細については、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</a>」を参照してください。
 
 
 ## 関連項目
@@ -53,6 +43,6 @@ _**トピックの最終更新日:** 2013-01-30_
 
 #### その他のリソース
 
-[Remove-CsCallParkOrbit](remove-cscallparkorbit.md)  
-[Get-CsCallParkOrbit](get-cscallparkorbit.md)
+[Remove-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsCallParkOrbit)  
+[Get-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCallParkOrbit)
 

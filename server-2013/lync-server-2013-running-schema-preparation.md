@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 セットアップまたは Lync Server 管理シェル コマンドレットを使用して Active Directory スキーマを準備することができます。Active Directory スキーマを拡張するコマンドレットは **Install-CsAdServerSchema** です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>スキーマの準備コマンドレット ( <strong>Install-CsAdServerSchema</strong>) は、スキーマ マスターにアクセスする必要があります。それには、リモート レジストリ サービスが実行され、リモート レジストリ キーが有効になっている必要があります。リモート レジストリ サービスをスキーマ マスター上で有効にすることができない場合は、スキーマ マスター上でローカルにコマンドレットを実行できます。レジストリのリモート アクセスの詳細については、Microsoft サポート技術情報の記事 314837「レジストリへのリモート アクセスを管理する方法」( <a href="http://go.microsoft.com/fwlink/?linkid=125769%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=125769&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> スキーマの準備コマンドレット ( <strong>Install-CsAdServerSchema</strong>) は、スキーマ マスターにアクセスする必要があります。それには、リモート レジストリ サービスが実行され、リモート レジストリ キーが有効になっている必要があります。リモート レジストリ サービスをスキーマ マスター上で有効にすることができない場合は、スキーマ マスター上でローカルにコマンドレットを実行できます。レジストリのリモート アクセスの詳細については、Microsoft サポート技術情報の記事 314837「レジストリへのリモート アクセスを管理する方法」( <a href="http://go.microsoft.com/fwlink/?linkid=125769%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=125769&amp;clcid=0x411</a>) を参照してください。
 
 
 スキーマの準備が完了したら、スキーマ パーティションがレプリケートされたことを手動で確認してから、フォレストの準備に進んでください。詳細については、「[Lync Server 2013 での Active Directory スキーマのレプリケーションの確認](lync-server-2013-verifying-schema-replication.md)」を参照してください。

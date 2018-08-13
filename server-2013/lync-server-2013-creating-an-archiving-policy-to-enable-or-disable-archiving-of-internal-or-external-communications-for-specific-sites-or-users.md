@@ -25,19 +25,9 @@ Lync Server 2013 では、ポリシーを使用して、Lync Server 2013 をホ�
 
 ポリシーの階層など、ポリシーの実装の詳細については、「計画」、「展開」、または「操作」のドキュメントの「[Lync Server 2013 でのアーカイブのしくみ](lync-server-2013-how-archiving-works.md)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>アーカイブの実装を制御するには、アーカイブ構成でオプション (IM または電話会議をアーカイブするかどうか、重要モードの使用、削除オプションなど) を指定する必要があります。既定では、グローバル、サイト、プールの各アーカイブ構成で有効になっているオプションはありません。アーカイブ ポリシーで内部通信または外部通信のアーカイブを有効にする前に、アーカイブ構成で該当するオプションをすべて指定する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</a>」を参照してください。<br />
-展開で Microsoft Exchange 統合を有効にした場合、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されたユーザーに対してアーカイブを有効にするかどうかが Exchange のポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> アーカイブの実装を制御するには、アーカイブ構成でオプション (IM または電話会議をアーカイブするかどうか、重要モードの使用、削除オプションなど) を指定する必要があります。既定では、グローバル、サイト、プールの各アーカイブ構成で有効になっているオプションはありません。アーカイブ ポリシーで内部通信または外部通信のアーカイブを有効にする前に、アーカイブ構成で該当するオプションをすべて指定する必要があります。詳細については、「操作」のドキュメントの「<a href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Lync Server 2013 での組織、サイト、およびプールのアーカイブ構成オプションの管理</a>」を参照してください。<br />
+> 展開で Microsoft Exchange 統合を有効にした場合、Exchange 2013 をホームとし、メールボックスにインプレース保持が適用されたユーザーに対してアーカイブを有効にするかどうかが Exchange のポリシーによって制御されます。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Exchange Server 統合使用時に使用するアーカイブのポリシーの設定</a>」を参照してください。
 
 
 ## サイトまたはユーザーのアーカイブ ポリシーを作成するには
@@ -100,7 +90,7 @@ Lync Server 2013 では、ポリシーを使用して、Lync Server 2013 をホ�
     
         New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 
-詳細については、[New-CsArchivingPolicy](new-csarchivingpolicy.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[New-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsArchivingPolicy) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

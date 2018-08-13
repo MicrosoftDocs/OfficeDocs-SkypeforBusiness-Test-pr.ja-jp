@@ -17,7 +17,7 @@ _**トピックの最終更新日:** 2012-09-24_
 
 グローバルなホスト ボイス メール ポリシーは、Lync Server 2013 と一緒にインストールされます。グローバル ポリシーを必要に応じて変更することはできますが、名前変更や削除はできません。 グローバル ポリシーを変更するには、Set-CsHostedVoicemailPolicy コマンドレットを使用して、パラメーターを固有の展開に合わせた値に設定します。
 
-[Set-CsHostedVoicemailPolicy](set-cshostedvoicemailpolicy.md) コマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
+[Set-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostedVoicemailPolicy) コマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
 
 ## グローバル ホスト ボイス メール ポリシーを変更するには
 
@@ -33,15 +33,8 @@ _**トピックの最終更新日:** 2012-09-24_
     
       - **Organization** では、Lync Server ユーザーが所属する Exchange テナントのコンマ区切り一覧を指定します。各テナントは、Hosted Exchange UM サービス上のテナントの FQDN として指定する必要があります。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>前のサンプル コマンドレットでは、値 &quot;corp1.litwareinc.com&quot; を Organization パラメーターに既に存在する可能性がある任意の値と入れ替えてあります。 たとえば、ポリシーが組織のコンマ区切りのリストを既に含んでいる場合は、リスト全体を入れ替えます。 リスト全体を入れ替えるのではなくリストに組織を追加する場合は、次のようなコマンドを実行します。</td>
+    > [!NOTE]
+    > 前のサンプル コマンドレットでは、値 &quot;corp1.litwareinc.com&quot; を Organization パラメーターに既に存在する可能性がある任意の値と入れ替えてあります。 たとえば、ポリシーが組織のコンマ区切りのリストを既に含んでいる場合は、リスト全体を入れ替えます。 リスト全体を入れ替えるのではなくリストに組織を追加する場合は、次のようなコマンドを実行します。</td>
     </tr>
     </tbody>
     </table>

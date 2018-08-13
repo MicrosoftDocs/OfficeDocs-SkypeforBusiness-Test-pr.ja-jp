@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lync Server 2013: Lync Server と連動させるための Microsoft Exchange Server のユニファイド メッセージングの構成'
+title: "Lync Server 2013: Lync Server と連動させる Exchange Server のユニファイド メッセージングの構成"
 TOCTitle: Lync Server 2013 と連動させるための Microsoft Exchange Server のユニファイド メッセージングの構成
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/ja-jp/library/Gg398106(v=OCS.15)
@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
   - Exchange ユニファイド メッセージング (UM) サービスを実行しているサーバーで証明書を構成する
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>すべてのクライアント アクセス サーバーとメールボックス サーバーをすべての UM SIP URI ダイヤル プランに追加します。追加しない場合、発信通話ルーティングは期待どおりに機能しなくなります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > すべてのクライアント アクセス サーバーとメールボックス サーバーをすべての UM SIP URI ダイヤル プランに追加します。追加しない場合、発信通話ルーティングは期待どおりに機能しなくなります。
 
 
   - 1 つ以上の UM SIP URI ダイヤル プランと、必要に応じてそのサブスクライバー アクセス用の電話番号を作成してから、対応する Lync Server のダイヤル プランを作成します。
@@ -67,18 +57,8 @@ Exchange 2013 の展開の詳細については、Exchange 2013 の TechNet ラ�
 
   - 統合ステップは、ユニファイド メッセージング サービスが実行されている Exchange Server の役割と、Lync Server 2013 を実行しているサーバーの両方で実行されます。Exchange Server ユニファイド メッセージングの統合ステップを実行してから、Lync Server 2013 の統合ステップを実行してください。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>実行する統合ステップ、サーバー、および管理者の役割の組み合わせについては、「<a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">内部設置型ユニファイド メッセージングと Lync Server 2013 を統合するための展開プロセス</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 実行する統合ステップ、サーバー、および管理者の役割の組み合わせについては、「<a href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">内部設置型ユニファイド メッセージングと Lync Server 2013 を統合するための展開プロセス</a>」を参照してください。
 
 
 Exchange UM を実行している各サーバーに、以下のツールが用意されている必要があります。

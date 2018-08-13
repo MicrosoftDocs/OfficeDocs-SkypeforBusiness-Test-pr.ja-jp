@@ -19,11 +19,11 @@ _**トピックの最終更新日:** 2012-10-19_
 
 詳細については、Lync Server 管理シェルのドキュメントに記載されている次のコマンドレットを参照してください。
 
-  - [Get-CsNetworkConfiguration](get-csnetworkconfiguration.md)
+  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
 
-  - [Set-CsNetworkConfiguration](set-csnetworkconfiguration.md)
+  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
 
-  - [Remove-CsNetworkConfiguration](remove-csnetworkconfiguration.md)
+  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
 
 ## 管理シェルを使用して通話受付管理を有効にするには
 
@@ -49,18 +49,8 @@ _**トピックの最終更新日:** 2012-10-19_
 
 5.  \[**グローバル設定の編集**\] ページの \[**通話受付管理の有効化**\] チェック ボックスをオンにします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>展開全体で通話受付管理を無効にする場合は、このチェック ボックスをオフにします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 展開全体で通話受付管理を無効にする場合は、このチェック ボックスをオフにします。
 
 
 6.  \[**確定**\] をクリックします。

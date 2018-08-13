@@ -19,5 +19,5 @@ Lync Server 管理シェル コマンドレットを使用して証明書を管�
 
 ## このセクション中
 
-  - [Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-set-cscertificate.md)
+  - [Set-CsCertificate で -Roll を使用した音声ビデオおよび OAuth 証明書のステージング](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)
 

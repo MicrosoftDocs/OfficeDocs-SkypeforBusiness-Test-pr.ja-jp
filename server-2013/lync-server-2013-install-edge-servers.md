@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2012-09-08_
 
 3.  展開ウィザードを開始します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Microsoft Visual C++ (再頒布可能) をインストール必要があるというメッセージが表示されたら、[<strong>はい</strong>] をクリックします。 次のダイアログ ボックスで、既定の [<strong>インストール先</strong>] をそのまま使用するか、または [<strong>参照</strong>] をクリックして別のロケーションを選択し、[<strong>インストール</strong>] をクリックします。 次のダイアログ ボックスで、[<strong>使用許諾契約書に同意します</strong>] チェック ボックスをオンにし、[<strong>OK</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > Microsoft Visual C++ (再頒布可能) をインストール必要があるというメッセージが表示されたら、[<strong>はい</strong>] をクリックします。 次のダイアログ ボックスで、既定の [<strong>インストール先</strong>] をそのまま使用するか、または [<strong>参照</strong>] をクリックして別のロケーションを選択し、[<strong>インストール</strong>] をクリックします。 次のダイアログ ボックスで、[<strong>使用許諾契約書に同意します</strong>] チェック ボックスをオンにし、[<strong>OK</strong>] をクリックします。
 
 
 4.  展開ウィザードで、\[**Lync Server システムのインストールまたは更新**\] をクリックします。

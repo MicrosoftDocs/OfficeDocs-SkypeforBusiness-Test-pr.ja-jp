@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 Lync Phone Edition を実行しているデバイスの、設定のコレクションをもう使用しない場合は、これを削除します。サイトのコレクションを削除すると、そのサイト内の電話にはグローバル設定が適用されます。グローバル コレクションは削除できません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>コレクションを削除するのではなく、一部の設定の変更のみ必要な場合があります。その方法の詳細については、「<a href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Lync Phone Edition 構成設定のコレクションの作成または変更</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> コレクションを削除するのではなく、一部の設定の変更のみ必要な場合があります。その方法の詳細については、「<a href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">Lync Phone Edition 構成設定のコレクションの作成または変更</a>」を参照してください。
 
 
 ## Lync Phone Edition の構成設定のコレクションを削除するには
@@ -41,18 +31,8 @@ Lync Phone Edition を実行しているデバイスの、設定のコレクシ�
 
 4.  \[**デバイスの構成**\] ページで、削除するコレクションをクリックし、\[**編集**\] メニューの \[**削除**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>グローバル コレクションを削除すると、設定が既定の設定に戻ります。コレクションがなくなることはありません。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > グローバル コレクションを削除すると、設定が既定の設定に戻ります。コレクションがなくなることはありません。
 
 
 5.  確認ボックスで \[**OK**\] をクリックします。
@@ -79,5 +59,5 @@ Windows PowerShell および **Remove-CsUCConfiguration** コマンドレット�
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
-詳細については、「[Remove-CsUCPhoneConfiguration](remove-csucphoneconfiguration.md)」を参照してください。
+詳細については、「[Remove-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUCPhoneConfiguration)」を参照してください。
 

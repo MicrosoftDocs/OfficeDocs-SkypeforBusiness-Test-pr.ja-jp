@@ -25,18 +25,8 @@ _**トピックの最終更新日:** 2012-10-02_
 
   - レガシ展開と Lync Server 2013 の展開が共存している間は、Lync Server 2010 バージョンのアーカイブ サーバーと監視サーバーは、Lync Server 2010 プールに所属するユーザーのデータを収集します。Lync Server 2013 のアーカイブと監視は、Lync Server 2013 プールに所属するユーザーのデータを収集します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>移行フェーズの間も、レガシ エッジ サーバーと新しい Lync Server 2013 パイロット プールを使用していると、Lync Server 2010 バージョンのアーカイブ サーバーは引き続き、Lync Server 2010 プールに所属するユーザーのデータを収集し、Lync Server 2013 のアーカイブは、Lync Server 2013 プールに所属するユーザーのデータを収集します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 移行フェーズの間も、レガシ エッジ サーバーと新しい Lync Server 2013 パイロット プールを使用していると、Lync Server 2010 バージョンのアーカイブ サーバーは引き続き、Lync Server 2010 プールに所属するユーザーのデータを収集し、Lync Server 2013 のアーカイブは、Lync Server 2013 プールに所属するユーザーのデータを収集します。
 
 
   - サードパーティのアーカイブおよび監視ソリューションを Lync Server 2013 のアーカイブおよび監視で使用する場合は、そのサードパーティ ソリューションと Lync Server 2013 を統合するタイミングと統合方法についてベンダーに問い合わせてください。

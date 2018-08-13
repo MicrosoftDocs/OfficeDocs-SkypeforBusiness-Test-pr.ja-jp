@@ -19,37 +19,17 @@ _**トピックの最終更新日:** 2012-10-22_
 
 信頼済みサーバー認証を構成するには、最初のステップとして、まず監視ノード コンピューターをホストする信頼済みアプリケーション プールを作成します。信頼済みアプリケーション プールが作成されたら、その監視ノードで、信頼済みアプリケーションとして実行されるように代理トランザクションを構成する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>信頼済みアプリケーションとは、信頼済みステータスが付与されたアプリケーションのことで、Lync Server 2013 の一部として実行されますが、製品には組み込まれていません。信頼済みステータスのアプリケーションは、実行のたびに認証でチャレンジされることはありません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 信頼済みアプリケーションとは、信頼済みステータスが付与されたアプリケーションのことで、Lync Server 2013 の一部として実行されますが、製品には組み込まれていません。信頼済みステータスのアプリケーションは、実行のたびに認証でチャレンジされることはありません。
 
 
 信頼済みアプリケーション プールを作成するには、Lync Server 2013 管理シェルを開き、次のようなコマンドを実行します。
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>上記のコマンドで使用されているパラメーターの詳細を確認するには、Lync Server 管理シェル プロンプトで次のように入力します。<br />
-Get-Help New-CsTrustedApplicationPool -Full | more</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 上記のコマンドで使用されているパラメーターの詳細を確認するには、Lync Server 管理シェル プロンプトで次のように入力します。<br />
+> Get-Help New-CsTrustedApplicationPool -Full | more
 
 
 信頼済みアプリケーション プールの作成後、代理トランザクションが信頼済みアプリケーションアプリケーションとして実行されるように監視ノード コンピューターを構成します。これを行うには、**New-CsTrustedApplication** コマンドレットと、次のようなコマンドを使用します。
@@ -76,18 +56,8 @@ Enable-CsTopology の実行後は、コンピューターを再起動するこ�
 
 2.  Lync Server 展開ウィザードで \[**Lync Server システムのインストールまたは更新**\] をクリックし、\[**証明書の要求、インストール、または割り当て**\] で \[**実行**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>実行</strong>] ボタンをが無効になっている場合は、[<strong>ローカル構成ストアのインストール</strong>] で [<strong>実行</strong>] を最初にクリックしなければならないことがあります。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>実行</strong>] ボタンをが無効になっている場合は、[<strong>ローカル構成ストアのインストール</strong>] で [<strong>実行</strong>] を最初にクリックしなければならないことがあります。
 
 
 3.  次のどちらかの操作を行います。
@@ -108,18 +78,8 @@ Enable-CsTopology の実行後は、コンピューターを再起動するこ�
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>コマンド ウィンドウから Watchernode.msi を実行することもできます。コマンド ウィンドウを開くには、[<strong>スタート</strong>] をクリックし、[<strong>コマンド プロンプト</strong>] を右クリックして、[<strong>管理者として実行</strong>] をクリックします。コマンド ウィンドウが開いたら、上記と同じコマンドを入力します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > コマンド ウィンドウから Watchernode.msi を実行することもできます。コマンド ウィンドウを開くには、[<strong>スタート</strong>] をクリックし、[<strong>コマンド プロンプト</strong>] を右クリックして、[<strong>管理者として実行</strong>] をクリックします。コマンド ウィンドウが開いたら、上記と同じコマンドを入力します。
 
 
 上記のコマンドの名前/値ペア Authentication=TrustedServer は大文字と小文字が区別されるので、ここで示すとおりに正確に入力する必要があります。次のコマンドは、大文字と小文字が正しく使用されていないので失敗します。

@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Lync Server を社内で展開している組織の場合、Lync Windows ストア アプリをサポートするには、次の要件を満たす必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2010 では、Lync Server 2010: 2012 年 2 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) 以降を、すべてのサーバー上で実行します。ユーザーが会議に参加できるようにするには、Lync Server 2010: 2012 年 10 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) をサーバー上で実行します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2010 では、Lync Server 2010: 2012 年 2 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2670352</a>) 以降を、すべてのサーバー上で実行します。ユーザーが会議に参加できるようにするには、Lync Server 2010: 2012 年 10 月の累積更新プログラム (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2737915</a>) をサーバー上で実行します。
 
 
   - 自動検出、Lync Web App、Web チケットの各サービスをサーバー上で有効にします。
@@ -41,7 +31,7 @@ Lync Server を社内で展開している組織の場合、Lync Windows スト�
 
   - エンタープライズ内の HTTP プロキシを、Lync サーバーに関連した HTTP トラフィックを許可するように構成します。必要に応じて自動検出、Lync Web App、Web チケット サービスの例外を追加します。
 
-  - クライアントに Windows 8.1 と最新バージョンの Lync Windows ストア アプリをインストールして、複数ドメインを使用した場合に通常発生するサインインの問題 (たとえば、SIP URI が **userA@domainZ.com** であるがエッジ サーバーが **sip.domainX.com** の場合など) を解決します。
+  - クライアントに Windows 8.1 と最新バージョンの Lync Windows ストア アプリをインストールして、複数ドメインを使用した場合に通常発生するサインインの問題 (たとえば、SIP URI が <strong>userA@domainZ.com</strong> であるがエッジ サーバーが **sip.domainX.com** の場合など) を解決します。
 
 組織が Lync Online または Office 365 に登録して独自のドメイン名を使っている場合は、Lync サーバーを自動検出するようにネットワークをセットアップするために追加の手順を実行する必要があります。ネットワーク構成の要件は、Lync Windows ストア アプリとモバイル デバイスの Lync で同じです。Office 365 wiki の記事「Set up Lync mobile devices」の「Set up your network」([http://go.microsoft.com/fwlink/?LinkId=271822](http://go.microsoft.com/fwlink/?linkid=271822)) に示されている手順に従ってください。
 

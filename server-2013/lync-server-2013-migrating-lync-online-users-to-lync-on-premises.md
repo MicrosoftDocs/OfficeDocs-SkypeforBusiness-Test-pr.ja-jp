@@ -32,6 +32,8 @@ _**トピックの最終更新日:** 2016-12-08_
       - 内部設置型展開の Lync Server 管理シェルで次のコマンドレットを入力して、Lync Online のホスティング プロバイダーを作成します。
         
             Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+
+           &nbsp;
         
             New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
 
@@ -99,6 +101,8 @@ _**トピックの最終更新日:** 2016-12-08_
     単独のユーザーを移動するには、次のように入力します。
     
         $cred = Get-Credential
+
+       &nbsp;
     
         Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
     
@@ -130,18 +134,8 @@ _**トピックの最終更新日:** 2016-12-08_
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>rtcxds データベースのトランザクション ログ ファイルの既定の最大サイズは 16 GB です。一度に多くのユーザーを移行する場合 (特にミラーリングを有効にしている場合) は、このサイズでは不十分な可能性があります。これに対処するには、ファイル サイズを大きくするか、ログ ファイルを定期的にバックアップします。詳細については、<a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a> を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > rtcxds データベースのトランザクション ログ ファイルの既定の最大サイズは 16 GB です。一度に多くのユーザーを移行する場合 (特にミラーリングを有効にしている場合) は、このサイズでは不十分な可能性があります。これに対処するには、ファイル サイズを大きくするか、ログ ファイルを定期的にバックアップします。詳細については、<a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a> を参照してください。
 
 
 8.  この手順は省略可能です。Exchange 2013 Online と統合する必要がある場合は、追加のホスティング プロバイダーが必要になります。詳細については、[社内の Lync Server 2013 と Exchange Online との統合の構成](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md) を参照してください。

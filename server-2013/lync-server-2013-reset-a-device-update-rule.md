@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 Lync Server コントロール パネルまたは Windows PowerShell を使用して、デバイス更新ルールを削除できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>承認した (つまりロールアウトした) ルールをアンインストールするには、そのルールを復元します。詳細については、「<a href="lync-server-2013-restore-a-device-update-rule.md">デバイス更新ルールの復元</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 承認した (つまりロールアウトした) ルールをアンインストールするには、そのルールを復元します。詳細については、「<a href="lync-server-2013-restore-a-device-update-rule.md">デバイス更新ルールの復元</a>」を参照してください。
 
 
 ## Lync Server コントロール パネルを使用してデバイス更新ルールをリセットするには
@@ -61,18 +51,8 @@ Lync Server コントロール パネルまたは Windows PowerShell を使用�
 
 デバイス更新ルールは、Windows PowerShell と **Reset-CsDeviceUpdateRule** コマンドレットを使用してリセットすることもできます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
 
 
 ## サーバー上の特定のデバイス更新ルールをリセットするには
@@ -93,7 +73,7 @@ Lync Server コントロール パネルまたは Windows PowerShell を使用�
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-詳細については、[Reset-CsDeviceUpdateRule](reset-csdeviceupdaterule.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule) コマンドレットに関するヘルプ トピックを参照してください。
 
 ## 関連項目
 

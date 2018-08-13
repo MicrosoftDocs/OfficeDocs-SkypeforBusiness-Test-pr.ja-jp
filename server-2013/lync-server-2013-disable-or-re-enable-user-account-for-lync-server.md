@@ -51,7 +51,7 @@ _**トピックの最終更新日:** 2016-04-04_
     
         Set-CsUser -Identity "Ken Myer" -Enabled $True
 
-詳細については、[Set-CsUser](set-csuser.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

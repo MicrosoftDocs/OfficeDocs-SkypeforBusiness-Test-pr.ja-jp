@@ -39,18 +39,8 @@ _**トピックの最終更新日:** 2012-10-04_
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Active Directory からの更新されたアクセス許可セットを必要とする Lync Server 管理シェルが原因で、次のようなエラーが発生することがあります。エラーを解決するには、現在のウィンドウを閉じ、新しい Lync Server 管理シェルを開いてコマンドを再実行します。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Active Directory からの更新されたアクセス許可セットを必要とする Lync Server 管理シェルが原因で、次のようなエラーが発生することがあります。エラーを解決するには、現在のウィンドウを閉じ、新しい Lync Server 管理シェルを開いてコマンドを再実行します。
 
 
 ![Move-CsConferenceDirectory のエラー出力](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory のエラー出力")

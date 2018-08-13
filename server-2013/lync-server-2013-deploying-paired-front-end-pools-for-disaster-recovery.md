@@ -52,25 +52,19 @@ _**トピックの最終更新日:** 2013-02-21_
 10. 次のコマンドレットを実行して、両方のプールのユーザーおよび電話会議データが相互に同期されるようにします。
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     
     データの同期には時間がかかる場合があります。 次のコマンドレットを使用して、状態を確認できます。 両方向の状態が安定状態であることを確認します。
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
+
+       &nbsp;
     
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>トポロジ ビルダーの [<strong>音声の自動フェールオーバーとフェールバック</strong>] オプションおよび関連付けられている時間間隔は、Lync Server 2010 で導入された音声復元機能にのみ適用されます。このオプションを選択しても、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> トポロジ ビルダーの [<strong>音声の自動フェールオーバーとフェールバック</strong>] オプションおよび関連付けられている時間間隔は、Lync Server 2010 で導入された音声復元機能にのみ適用されます。このオプションを選択しても、このドキュメントに記載されているプール フェールオーバーが自動的に行われるわけではありません。プールのフェールオーバーとフェールバックを行うには、フェールオーバーとフェールバックのコマンドレットを、常に管理者が手動でそれぞれ起動する必要があります。
 

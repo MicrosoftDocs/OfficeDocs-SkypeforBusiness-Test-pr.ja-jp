@@ -53,7 +53,7 @@ Lync Server 管理シェル と **Remove-CsWebServiceConfiguration** コマン�
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-詳細については、「[Remove-CsWebServiceConfiguration](remove-cswebserviceconfiguration.md)」を参照してください。
+詳細については、「[Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration)」を参照してください。
 
 ## 関連項目
 

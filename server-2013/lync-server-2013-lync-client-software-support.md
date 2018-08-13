@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 このセクションでは、 Lync 2013 と Lync 2013 用オンライン ミーティング アドインのソフトウェア サポートの概要を説明します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Outlook メッセージングおよびコラボレーション クライアント内から会議管理をサポートする Lync 2013 用オンライン ミーティング アドインは、Lync 2013 と共に自動的にインストールされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Outlook メッセージングおよびコラボレーション クライアント内から会議管理をサポートする Lync 2013 用オンライン ミーティング アドインは、Lync 2013 と共に自動的にインストールされます。
 
 
 ### Lync 2013 および Lync 2013 用オンライン ミーティング アドインのソフトウェア要件
@@ -51,19 +41,9 @@ _**トピックの最終更新日:** 2016-12-08_
 <p>Windows 8</p>
 <p>Windows 7 オペレーティング システム</p>
 <p>最新のサービス パックが適用された Windows Server 2008 R2</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 と Lync 2013 用オンライン ミーティング アドイン は、Windows Vista や Windows XP (すべてのバージョン) ではサポートされません。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync 2013 と Lync 2013 用オンライン ミーティング アドイン は、Windows Vista や Windows XP (すべてのバージョン) ではサポートされません。
 
 </div></td>
 </tr>
@@ -78,19 +58,9 @@ _**トピックの最終更新日:** 2016-12-08_
 <p>Internet Explorer 8 インターネット ブラウザー</p>
 <p>Internet Explorer 7 インターネット ブラウザー</p>
 <p>Mozilla Firefox Web ブラウザー</p>
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync を Microsoft Exchange Onlineと併用し、組織で認証用 HTTP プロキシを展開している場合は、 Internet Explorer 9 または Internet Explorer 8 が必要です。</td>
-</tr>
-</tbody>
-</table>
+
+> [!NOTE]
+> Lync を Microsoft Exchange Onlineと併用し、組織で認証用 HTTP プロキシを展開している場合は、 Internet Explorer 9 または Internet Explorer 8 が必要です。
 
 </div></td>
 </tr>

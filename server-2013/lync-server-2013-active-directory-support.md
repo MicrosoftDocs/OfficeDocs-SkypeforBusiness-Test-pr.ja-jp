@@ -27,32 +27,12 @@ Lync Server 2013 でサポートされる Active Directory ドメイン サー�
 
   - リソース フォレスト トポロジの複数のフォレスト
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、単一ラベルのドメインはサポートされません。たとえば、<strong>contoso.local</strong> という名前のルート ドメインを持つフォレストはサポートされますが、<strong>local</strong> という名前の単一ラベルのルート ドメインはサポートされません。詳細については、Microsoft サポート技術情報の記事 300684「単一ラベル DNS 名を使用して Active Directory のドメインを構成する」(<a href="http://go.microsoft.com/fwlink/?linkid=143752%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=143752&amp;clcid=0x411</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、単一ラベルのドメインはサポートされません。たとえば、<strong>contoso.local</strong> という名前のルート ドメインを持つフォレストはサポートされますが、<strong>local</strong> という名前の単一ラベルのルート ドメインはサポートされません。詳細については、Microsoft サポート技術情報の記事 300684「単一ラベル DNS 名を使用して Active Directory のドメインを構成する」(<a href="http://go.microsoft.com/fwlink/?linkid=143752%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=143752&amp;clcid=0x411</a>) を参照してください。
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 では、ドメインの名前変更はサポートしていません。Lync Server が展開されるドメインの名前を変更する必要がある場合は、最初に Lync Server をアンインストールし、ドメインの名前を変更してから、Lync Server を再インストールする必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 では、ドメインの名前変更はサポートしていません。Lync Server が展開されるドメインの名前を変更する必要がある場合は、最初に Lync Server をアンインストールし、ドメインの名前を変更してから、Lync Server を再インストールする必要があります。
 
 
 内部設置型展開でサポートされるトポロジと要件の詳細については、「計画」のドキュメントの「[Lync Server 2013 の Active Directory ドメイン サービスの要件、サポート、およびトポロジ](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)」を参照してください。

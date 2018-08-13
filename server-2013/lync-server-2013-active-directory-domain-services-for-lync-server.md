@@ -39,18 +39,8 @@ Active Directory のインフラストラクチャ要件には、次のような
 
 ## Active Directory ドメイン サービスの準備
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>グローバル設定はシステム コンテナーではなく構成コンテナーに展開することをお勧めします。これによってセキュリティが向上するわけではありませんが、一部の Active Directory ドメイン サービスのトポロジではスケーラビリティが向上することがあります。Microsoft Office Communications Server 2007 から移行する場合で、それまで使用していたシステム コンテナーから構成コンテナーに切り替える予定がある場合は、アップグレードの準備をする前に、システム コンテナーの設定を移動する必要があります。システム コンテナーの設定を構成コンテナーに移行するには、「Office Communications Server 2007 のグローバル設定移行ツール (英語)」(<a href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</a>) をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> グローバル設定はシステム コンテナーではなく構成コンテナーに展開することをお勧めします。これによってセキュリティが向上するわけではありませんが、一部の Active Directory ドメイン サービスのトポロジではスケーラビリティが向上することがあります。Microsoft Office Communications Server 2007 から移行する場合で、それまで使用していたシステム コンテナーから構成コンテナーに切り替える予定がある場合は、アップグレードの準備をする前に、システム コンテナーの設定を移動する必要があります。システム コンテナーの設定を構成コンテナーに移行するには、「Office Communications Server 2007 のグローバル設定移行ツール (英語)」(<a href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</a>) をご覧ください。
 
 
 Lync Server 2013 を展開するための最初のステップは、Active Directory ドメイン サービスを準備することです。Lync Server 2013 の Active Directory ドメイン サービスの準備は、次の 3 つのステップから成ります。
@@ -75,18 +65,8 @@ Active Directory を準備するための全体のプロセス、および各ス
 
 Lync Server の Active Directory の準備時に作成される個々のユニバーサル グループ、およびインフラストラクチャ グループに追加されるサービス グループと管理グループの詳細については、展開のドキュメントの「[Lync Server 2013 でのフォレストの準備による変更](lync-server-2013-changes-made-by-forest-preparation.md)」をご覧ください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 は、Lync Server 2013 を実行するサーバーでは Windows Server 2012、またドメイン コントローラーでは Windows Server 2003 オペレーティング システムのユニバーサル グループをサポートしています。ユニバーサル グループのメンバーには、ドメイン ツリーまたはフォレストの任意のドメインから他のグループやアカウントを追加できます。また、ドメイン ツリーまたはフォレストの任意のドメインのアクセス許可を割り当てることができます。ユニバーサル グループのサポートと、管理者の委任が組み合わさることで、Lync Server 展開の管理が簡略化されます。たとえば、ドメインを別のドメインに追加しなくても、管理者が両方のドメインを管理できるようになります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 は、Lync Server 2013 を実行するサーバーでは Windows Server 2012、またドメイン コントローラーでは Windows Server 2003 オペレーティング システムのユニバーサル グループをサポートしています。ユニバーサル グループのメンバーには、ドメイン ツリーまたはフォレストの任意のドメインから他のグループやアカウントを追加できます。また、ドメイン ツリーまたはフォレストの任意のドメインのアクセス許可を割り当てることができます。ユニバーサル グループのサポートと、管理者の委任が組み合わさることで、Lync Server 展開の管理が簡略化されます。たとえば、ドメインを別のドメインに追加しなくても、管理者が両方のドメインを管理できるようになります。
 
 
 ## 役割ベースのアクセス制御

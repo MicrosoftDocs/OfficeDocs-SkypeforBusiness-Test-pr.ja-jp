@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2012-09-10_
 
 Lync Server 2013 に含まれる既定の音楽ファイルではなく、自分の音楽ファイルを保留音に使用するように指定できます。保留音をカスタマイズするには、**Set-CsCallParkServiceMusicOnHoldFile** コマンドレットを使用します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>保留音をカスタマイズして、同じ音楽を複数のサイトで使用したい場合は、コール パーク アプリケーションを実行するサイトごとに音楽ファイルを構成する必要があります。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 保留音をカスタマイズして、同じ音楽を複数のサイトで使用したい場合は、コール パーク アプリケーションを実行するサイトごとに音楽ファイルを構成する必要があります。
 
 
 ## 音楽ファイルをカスタマイズするには
@@ -43,10 +33,10 @@ Lync Server 2013 に含まれる既定の音楽ファイルではなく、自分
     
 
     > [!TIP]
-    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。詳細については、「<A href="get-csservice.md">Get-CsService</A>」を参照してください。
+    > サービスを識別するには、<STRONG>Get-CsService</STRONG> コマンドレットを使用します。詳細については、「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService">Get-CsService</A>」を参照してください。
 
     
-    次の例は、soothingmusic.wma というファイルのコンテンツをバイト配列として取得し、変数に割り当てる方法を示しています。次に音声ファイルをコール パークの保留音ファイルとして割り当てます。詳細については、「[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)」を参照してください。
+    次の例は、soothingmusic.wma というファイルのコンテンツをバイト配列として取得し、変数に割り当てる方法を示しています。次に音声ファイルをコール パークの保留音ファイルとして割り当てます。詳細については、「[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)」を参照してください。
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -55,6 +45,6 @@ Lync Server 2013 に含まれる既定の音楽ファイルではなく、自分
 
 #### その他のリソース
 
-[Set-CsCallParkServiceMusicOnHoldFile](set-cscallparkservicemusiconholdfile.md)  
-[Get-CsService](get-csservice.md)
+[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
 

@@ -25,13 +25,13 @@ Lync Server 2013 で Exchange 2013 の Outlook Web Access (OWA) およびイン�
     
         Get-CsSite
     
-    これで、プールを作成する siteName に対応する siteID が取得されます。詳細については、Lync Server 2013 管理シェルのドキュメントの「[Get-CsSite](get-cssite.md)」を参照してください。
+    これで、プールを作成する siteName に対応する siteID が取得されます。詳細については、Lync Server 2013 管理シェルのドキュメントの「[Get-CsSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSite)」を参照してください。
 
 3.  次のコマンドレットを実行します。
     
         New-CsTrustedApplicationPool -Identity <E14 CAS FQDN> -ThrottleAsServer $true -TreatAsAuthenticated $true -ComputerFQDN <E14 CAS FQDN> -Site <Site> -Registrar <Pool FQDN in the site> -RequiresReplication $false
     
-    詳細については、Lync Server 2013 管理シェルのドキュメントの「[New-CsTrustedApplicationPool](new-cstrustedapplicationpool.md)」を参照してください。
+    詳細については、Lync Server 2013 管理シェルのドキュメントの「[New-CsTrustedApplicationPool](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplicationPool)」を参照してください。
     
     Exchange Server の FQDN を Exchange OWA 証明書のサブジェクト名 (SN) またはサブジェクトの別名 (SAN) として構成する必要があります。
     
@@ -61,7 +61,7 @@ Lync Server 2013 で Exchange 2013 の Outlook Web Access (OWA) およびイン�
     
         New-CsTrustedApplication -ApplicationId <AppID String> -TrustedApplicationPoolFqdn <E14 CAS FQDN> -Port <available port number>
     
-    詳細については、Lync Server 2013 管理シェルのドキュメントのトピック「[New-CsTrustedApplication](new-cstrustedapplication.md)」を参照してください。
+    詳細については、Lync Server 2013 管理シェルのドキュメントのトピック「[New-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrustedApplication)」を参照してください。
 
 3.  **Enable-CsTopology** を実行します。
 

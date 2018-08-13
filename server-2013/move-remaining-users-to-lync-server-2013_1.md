@@ -37,18 +37,8 @@ Lync Server コントロール パネルまたは Lync Server 管理シェルを
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 にユーザーを所属させるために、アップグレード済みクライアントを同時に展開する必要はありません。クライアントが新しいクライアント ソフトウェアにアップグレードされている場合に限り、ユーザーは新しい機能を使用できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 にユーザーを所属させるために、アップグレード済みクライアントを同時に展開する必要はありません。クライアントが新しいクライアント ソフトウェアにアップグレードされている場合に限り、ユーザーは新しい機能を使用できます。
 
 
 ## 移行後のタスク
@@ -59,5 +49,5 @@ Lync Server コントロール パネルまたは Lync Server 管理シェルを
 
 3.  匿名の参加者を許可する会議ポリシーは、Lync Server 2013 コントロール パネルで \[**参加者に匿名ユーザーの招待を許可する**\] がオンになっており、Lync Server 管理シェルでの **Get-CsConferencingPolicy** コマンドレットからの出力で **AllowAnonymousParticipantsInMeetings** が **True** に設定されています。
 
-4.  Lync Server 管理シェルを使用して会議ポリシーを構成する詳細については、Lync Server 管理シェルのドキュメントで「[Set-CsConferencingPolicy](set-csconferencingpolicy.md)」を参照してください。
+4.  Lync Server 管理シェルを使用して会議ポリシーを構成する詳細については、Lync Server 管理シェルのドキュメントで「[Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy)」を参照してください。
 

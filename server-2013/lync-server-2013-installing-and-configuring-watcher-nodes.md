@@ -138,50 +138,26 @@ _**トピックの最終更新日:** 2015-03-09_
 
 System Center Operations Manager を使用するために監視ノードをインストールする必要はありません。これらのノードをインストールしなかった場合でも、問題が発生したときに Lync Server 2013 コンポーネントからリアルタイムの通知を取得できます (Component and User Management Pack は監視ノードを使用しません)。ただし、エンドツーエンド シナリオを Active Monitoring Management Pack を使用して監視する場合は、監視ノードが必要です。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。さまざまな Test-Cs コマンドレットについて詳しくは、「<a href="lync-server-2013-cmdlets-index.md">Lync Server 2013 のコマンドレットのインデックス</a>」をご覧ください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 管理者は、Operations Manager を使用したり、それをインストールすることなく、代理トランザクションを手動で実行することもできます。さまざまな Test-Cs コマンドレットについて詳しくは、「<a href="https://docs.microsoft.com/en-us/powershell/module/skype/?view=skype-ps">Lync Server 2013 のコマンドレットのインデックス</a>」をご覧ください。
 
 
 展開の規模によっては、代理トランザクションがコンピューター メモリを大量に使用し、プロセッサを長時間使用する場合があります。このため、監視ノードとして動作する専用コンピューターを使用することをお勧めします。たとえば、フロント エンド サーバーは監視ノードとして構成しないでください。監視ノードは、以下のハードウェア仕様を満たす必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>レガシー Microsoft Lync Server 2010 監視ノードは、Lync Server 2013 監視ノードと同じコンピューターに併置することはできません。これは、Lync Server 2010 および Lync Server 2013 用のコア システム ファイルを同じコンピューターにインストールできないためです。<br />
-ただし、Lync Server 2013 監視ノードは、Lync Server 2013 および Lync Server 2010 の両方を同時に監視できます。既定の代理トランザクションは、両方のバージョンの製品でサポートされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> レガシー Microsoft Lync Server 2010 監視ノードは、Lync Server 2013 監視ノードと同じコンピューターに併置することはできません。これは、Lync Server 2010 および Lync Server 2013 用のコア システム ファイルを同じコンピューターにインストールできないためです。<br />
+> ただし、Lync Server 2013 監視ノードは、Lync Server 2013 および Lync Server 2010 の両方を同時に監視できます。既定の代理トランザクションは、両方のバージョンの製品でサポートされます。
 
 
 Lync Server 2013 監視ノードは、社内または社外に展開して、以下を検証できます。
 
-  -   
-    社内ユーザー用プールへの接続。
+  - 社内ユーザー用プールへの接続。
 
-  -   
-    社外で働くリモート ユーザー用の境界ネットワーク経由の接続。
+  - 社外で働くリモート ユーザー用の境界ネットワーク経由の接続。
 
-  -   
-    ブランチ オフィス アプライアンスへの接続。
+  - ブランチ オフィス アプライアンスへの接続。
 
-  -   
-    社内の Lync Server 2010 への境界ネットワーク経由の接続。
+  - 社内の Lync Server 2010 への境界ネットワーク経由の接続。
 
 管理を容易にするため、社内および社外用の異なる認証オプションがあります。詳しくは、「[代理トランザクションを実行する監視ノードの構成](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)」をご覧ください。
 

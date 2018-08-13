@@ -19,18 +19,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 また、「[Lync Server 2013 での、トポロジ ビルダーを使用したゲートウェイの定義](lync-server-2013-define-a-gateway-in-topology-builder.md)」で説明するように、PSTN 接続を可能にするために少なくとも 1 つのゲートウェイ ピアが定義されていなければなりません。ここでは、この作業も完了していることを前提とします。接続するピアが SIP トランキング プロバイダーの SBC の場合は、プロバイダーが認定プロバイダーであることとプロバイダーがメディア バイパスをサポートしていることを必ず確認してください。たとえば、多くの SIP トランキング プロバイダーが、その SBC に仲介サーバーからのトラフィックを受信することだけを許可します。その場合は、当該のトランクに対してバイパスを有効にしないでください。また、組織がその内部ネットワーク IP アドレスを SIP トランキング プロバイダーに公開していなければ、メディア バイパスを有効にすることはできません。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。Microsoft では、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用できるとは限りません。Microsoft では、認定パートナーの PSTN ゲートウェイと SBC でテストを行い、Cisco IP-PBX でも一定のテストを行いました。メディア バイパスは、「Unified Communications Open Interoperability Program - Lync Server」( <a href="http://go.microsoft.com/fwlink/?linkid=214406%26clcid=0x411" class="uri">http://go.microsoft.com/fwlink/?linkid=214406&amp;clcid=0x411</a>) に記載されている製品とバージョンのみでサポートされます。
 
 
 ここでは、メディア バイパスを有効にして、仲介サーバーの要求される処理量を削減する方法について説明します。メディア バイパスを有効にする前に、「計画」のドキュメントの「[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)」の説明に従い、環境がメディア バイパス サポートの条件を満たしていることを必ず確認してください。また、「[Lync Server 2013 でのメディア バイパスの計画](lync-server-2013-planning-for-media-bypass.md)」に記載されている情報を参照して、メディア バイパスのグローバル設定を有効にして仲介サーバーを常にバイパスするか、仲介サーバーをバイパスするかどうかを決定する際にサイトおよび地域情報を使用するかのどちらかを選択してください。この作業が済んでいるかどうか必ず確認してください。

@@ -21,5 +21,5 @@ _**トピックの最終更新日:** 2013-03-22_
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-このコマンドレットの詳細については、Lync Server 管理シェル ドキュメントの「[Set-CsPrivacyConfiguration](set-csprivacyconfiguration.md)」を参照してください。
+このコマンドレットの詳細については、Lync Server 管理シェル ドキュメントの「[Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)」を参照してください。
 

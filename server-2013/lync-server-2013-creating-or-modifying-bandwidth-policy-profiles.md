@@ -41,18 +41,8 @@ _**トピックの最終更新日:** 2012-10-15_
 
 11. \[**確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>新しい帯域幅ポリシー プロファイルを作成しても、帯域幅制限が自動で強制的に適用されるわけではありません。 まず、ポリシー プロファイルをサイトに関連付ける必要があります。 ポリシー プロファイルのサイトへの関連付け方法の詳細については、「<a href="lync-server-2013-creating-or-modifying-network-sites.md">ネットワーク サイトの作成または変更</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 新しい帯域幅ポリシー プロファイルを作成しても、帯域幅制限が自動で強制的に適用されるわけではありません。 まず、ポリシー プロファイルをサイトに関連付ける必要があります。 ポリシー プロファイルのサイトへの関連付け方法の詳細については、「<a href="lync-server-2013-creating-or-modifying-network-sites.md">ネットワーク サイトの作成または変更</a>」を参照してください。
 
 
 ## 帯域幅ポリシー プロファイルを変更するには
@@ -71,18 +61,8 @@ _**トピックの最終更新日:** 2012-10-15_
 
 7.  \[**確定**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>帯域幅ポリシー プロファイルを変更すると、この帯域幅ポリシー プロファイルに関連付けられたすべてのネットワーク サイトの帯域幅制限がすぐに更新されます。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 帯域幅ポリシー プロファイルを変更すると、この帯域幅ポリシー プロファイルに関連付けられたすべてのネットワーク サイトの帯域幅制限がすぐに更新されます。
 
 
 ## 関連項目
@@ -94,7 +74,7 @@ _**トピックの最終更新日:** 2012-10-15_
 #### その他のリソース
 
 [Lync Server 2013 での通話管理受付の構成](lync-server-2013-configure-call-admission-control.md)  
-[New-CsNetworkBandwidthPolicyProfile](new-csnetworkbandwidthpolicyprofile.md)  
-[Set-CsNetworkBandwidthPolicyProfile](set-csnetworkbandwidthpolicyprofile.md)  
-[Get-CsNetworkBandwidthPolicyProfile](get-csnetworkbandwidthpolicyprofile.md)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)  
+[Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)  
+[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 

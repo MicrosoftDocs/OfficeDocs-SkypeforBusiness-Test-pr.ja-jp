@@ -19,18 +19,8 @@ Location-Based Routing Conferencing アプリケーションのインストー�
 
   - トポロジのすべてのサーバーとプールに Lync Server 2013 の累積的な更新プログラム 2 を展開する必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>トポロジの Lync サーバーまたはプールに Lync Server 2013 の累積的な更新プログラム 2 以降がインストールされていない場合、Lync の会議の場所に基づくルーティングの適用を保証することはできません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> トポロジの Lync サーバーまたはプールに Lync Server 2013 の累積的な更新プログラム 2 以降がインストールされていない場合、Lync の会議の場所に基づくルーティングの適用を保証することはできません。
 
 
   - Lync Server 2013 の場所に基づくルーティングは、Location-Based Routing Conferencing アプリケーションの前提条件です。Lync Server 2013 の場所に基づくルーティングについて詳しくは、「[場所に基づくルーティングの構成](lync-server-2013-configuring-location-based-routing.md)」をご覧ください。

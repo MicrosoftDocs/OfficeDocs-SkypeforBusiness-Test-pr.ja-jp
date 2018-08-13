@@ -21,7 +21,7 @@ Lync Server では、組織で有効であるがユーザーや電話に割り�
 
 
 > [!IMPORTANT]
-> 割り当てられていない番号の表を構成する前に、アナウンスを 1 つ以上既に定義しているか、Exchange UM の自動応答を設定する必要があります。アナウンスの作成の詳細については、「<A href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でのアナウンスの作成</A>」を参照してください。Exchange UM 設定が構成されているかどうかを確認するには、<STRONG>Get-CsExUmContact</STRONG> コマンドレットを実行します。詳細については、「<A href="get-csexumcontact.md">Get-CsExUmContact</A>」を参照してください。
+> 割り当てられていない番号の表を構成する前に、アナウンスを 1 つ以上既に定義しているか、Exchange UM の自動応答を設定する必要があります。アナウンスの作成の詳細については、「<A href="lync-server-2013-create-an-announcement.md">Lync Server 2013 でのアナウンスの作成</A>」を参照してください。Exchange UM 設定が構成されているかどうかを確認するには、<STRONG>Get-CsExUmContact</STRONG> コマンドレットを実行します。詳細については、「<A href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact">Get-CsExUmContact</A>」を参照してください。
 
 
 

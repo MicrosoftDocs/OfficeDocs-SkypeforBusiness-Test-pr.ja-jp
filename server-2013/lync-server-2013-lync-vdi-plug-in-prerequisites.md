@@ -17,25 +17,10 @@ _**トピックの最終更新日:** 2017-03-07_
 
 仮想デスクトップ インフラストラクチャ (VDI) 環境では、仮想マシンとユーザーのローカル コンピューターが、このセクションで概要を示す要件を満たす必要があります。
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>仮想化環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーに問い合わせてください。Hyper-V およびリモート デスクトップ サービスに基づいた仮想化環境の展開については、Microsoft TechNet ライブラリの次の記事を参照してください。
-<ul>
-<li><p>「Hyper-V」 ( <a href="http://go.microsoft.com/fwlink/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/?linkid=247514</a>)</p></li>
-<li><p>Windows Server 2008 R2 リモート デスクトップ サービス ( <a href="http://go.microsoft.com/fwlink/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/?linkid=247513</a>)</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> 仮想化環境のインストール方法および展開方法の詳細については、仮想化ソリューション プロバイダーに問い合わせてください。Hyper-V およびリモート デスクトップ サービスに基づいた仮想化環境の展開については、Microsoft TechNet ライブラリの次の記事を参照してください。
+> <ul><li><p>「Hyper-V」 ( <a href="http://go.microsoft.com/fwlink/?linkid=247514" class="uri">http://go.microsoft.com/fwlink/?linkid=247514</a>)</p></li>
+> <li><p>Windows Server 2008 R2 リモート デスクトップ サービス ( <a href="http://go.microsoft.com/fwlink/?linkid=247513" class="uri">http://go.microsoft.com/fwlink/?linkid=247513</a>)</p></li></ul>
 
 
 データ センターのコンピューターで実行されている仮想マシンに対する要件は次のとおりです。

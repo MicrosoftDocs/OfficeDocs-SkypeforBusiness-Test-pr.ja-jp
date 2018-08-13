@@ -106,20 +106,10 @@ Enterprise Editionフロント エンド サーバー を 3 台展開したく�
 </table>
 
 
-その後もプールが起動されるたびに、サーバーの 85% が起動されている必要があります (前出の表を参照)。この数のサーバーを起動できない (ただし、プール レベル クォーラム損失にはならない数のサーバーが起動されている) 場合は、**Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** コマンドレットを使用して、プールをルーティング グループ レベル クォーラム損失から復旧させ、処理を続行させることができます。このコマンドレットの使用法の詳細については、「[Reset-CsPoolRegistrarState](reset-cspoolregistrarstate.md)」を参照してください。
+その後もプールが起動されるたびに、サーバーの 85% が起動されている必要があります (前出の表を参照)。この数のサーバーを起動できない (ただし、プール レベル クォーラム損失にはならない数のサーバーが起動されている) 場合は、**Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** コマンドレットを使用して、プールをルーティング グループ レベル クォーラム損失から復旧させ、処理を続行させることができます。このコマンドレットの使用法の詳細については、「[Reset-CsPoolRegistrarState](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsPoolRegistrarState)」を参照してください。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server は監視にプライマリ SQL データベースを使うので、プライマリ データベースをシャットダウンしてミラー データベースに切り替え、前出の表の必要な実行数に足りなくなるまで フロント エンド サーバー をシャットダウンすると、プール全体がダウンします。詳細については、「<a href="http://go.microsoft.com/fwlink/?linkid=393672">データベース ミラーリング監視サーバー</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server は監視にプライマリ SQL データベースを使うので、プライマリ データベースをシャットダウンしてミラー データベースに切り替え、前出の表の必要な実行数に足りなくなるまで フロント エンド サーバー をシャットダウンすると、プール全体がダウンします。詳細については、「<a href="http://go.microsoft.com/fwlink/?linkid=393672">データベース ミラーリング監視サーバー</a>」を参照してください。
 
 
 ## プール レベル クォーラム損失
@@ -201,7 +191,7 @@ Enterprise Editionフロント エンド サーバー を 3 台展開したく�
 
   - 最後にパッチされたアップグレード ドメインのサーバーが 1 つでも行き詰まっているか再起動しない場合は、次のアップグレード ドメインに移行しないでください。このことは、起動できないサーバーがアップグレード内に 1 台でもある場合にも当てはまります。**Get-CsPoolFabricState** を実行して、ルーティング グループのすべてが 1 台のプライマリと少なくとも 1 台のセカンダリを持つようにしてください。そうすることで、すべてのユーザーがサービスを持つかどうかが確定します。
 
-  - サービスを持つユーザーと持たないユーザーがいる場合は、**Get-CsPoolFabricState** を –Verbose オプションを指定して実行して、レプリカが不足しているルーティング グループがないかどうかを確認します。トラブルシューティングの手始めとしてのプール全体の再起動はしないでください。このコマンドレットの詳細については、「[Get-CsPoolFabricState](get-cspoolfabricstate.md)」を参照してください。
+  - サービスを持つユーザーと持たないユーザーがいる場合は、**Get-CsPoolFabricState** を –Verbose オプションを指定して実行して、レプリカが不足しているルーティング グループがないかどうかを確認します。トラブルシューティングの手始めとしてのプール全体の再起動はしないでください。このコマンドレットの詳細については、「[Get-CsPoolFabricState](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPoolFabricState)」を参照してください。
 
   - Windows Fabric のインストール/アンインストールでは、\[イベント ビューア\] ウィンドウと \[パフォーマンス モニター\] ウィンドウのすべてのインスタンスが閉じていることを確認してください。
 

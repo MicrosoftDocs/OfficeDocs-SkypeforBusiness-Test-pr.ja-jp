@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 既にインポートしたデバイス更新ルールの詳細 (更新プログラムが適用されるデバイスの種類、モデル、ブランド、更新プログラムのバージョンと種類、更新プログラムのロケールとプールなど) を表示します。インポートされたすべてのデバイス更新ルール (承認待ちのもの、展開 (承認) 済みのもの、取消 (復元) 済みのもの、使用しない (リセットする) と決めたものなど) に関する情報を確認できます。この情報には、Lync Server コントロール パネルまたは Windows PowerShell からアクセスします。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ルールのインポート、承認、リセット、復元、削除方法の詳細は、「<a href="lync-server-2013-device-update-rules.md">Lync Server 2013 でのデバイス更新ルール</a>」に記載されているトピックを参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> ルールのインポート、承認、リセット、復元、削除方法の詳細は、「<a href="lync-server-2013-device-update-rules.md">Lync Server 2013 でのデバイス更新ルール</a>」に記載されているトピックを参照してください。
 
 
 ## Lync Server コントロール パネルを使用してデバイス更新ルールを表示するには
@@ -43,18 +33,8 @@ _**トピックの最終更新日:** 2013-02-23_
 
 すべてのデバイス更新ルールに関する詳細情報は、Windows PowerShell または **Get-CsDeviceUpdateRule** コマンドレットを使用して表示することもできます。このコマンドレットは、Lync Server 2013 管理シェルから、または Windows PowerShell のリモート セッションから実行できます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> リモートの Windows PowerShell を使用して Lync Server に接続する方法の詳細については、Lync Server Windows PowerShell のブログ記事「Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell」 (<a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</a>) を参照してください。
 
 
 ## すべてのデバイス更新ルールを表示するには
@@ -83,5 +63,5 @@ _**トピックの最終更新日:** 2013-02-23_
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"
 
-詳細については、[Get-CsDeviceUpdateRule](get-csdeviceupdaterule.md) コマンドレットに関するヘルプ トピックを参照してください。
+詳細については、[Get-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDeviceUpdateRule) コマンドレットに関するヘルプ トピックを参照してください。
 

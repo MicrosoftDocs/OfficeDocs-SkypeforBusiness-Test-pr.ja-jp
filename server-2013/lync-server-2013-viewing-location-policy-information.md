@@ -31,18 +31,8 @@ Lync Server 2013 では、場所ポリシーを使用して、Enhanced 9-1-1 (E9
 
 5.  \[**編集**\] メニューの \[**詳細の表示**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>同時に表示できるのは 1 つの場所ポリシーのみです。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 同時に表示できるのは 1 つの場所ポリシーのみです。
 
 
 「グローバル」という名前の単一ポリシーが、既定で存在します。このポリシーは、削除することも名前を変更することもできません。 ただし、グローバル ポリシーの内容を変更することはできます。 このポリシーは、サイト ポリシーまたはユーザー単位のポリシーが作成されていない場合に限り、すべてのユーザーおよび連絡先に適用されます。 ユーザー単位のポリシーは、特定のユーザーに適用する必要があります。
@@ -57,8 +47,8 @@ Lync Server 2013 では、場所ポリシーを使用して、Enhanced 9-1-1 (E9
 
 #### その他のリソース
 
-[New-CsLocationPolicy](new-cslocationpolicy.md)  
-[Set-CsLocationPolicy](set-cslocationpolicy.md)  
-[Remove-CsLocationPolicy](remove-cslocationpolicy.md)  
-[Get-CsLocationPolicy](get-cslocationpolicy.md)
+[New-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsLocationPolicy)  
+[Set-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsLocationPolicy)  
+[Remove-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsLocationPolicy)  
+[Get-CsLocationPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsLocationPolicy)
 

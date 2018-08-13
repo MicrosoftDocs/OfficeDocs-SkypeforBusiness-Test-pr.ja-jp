@@ -27,18 +27,8 @@ We have provided example Lync Server 管理シェル scripts that may be used in
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ945596.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>For details about using Windows PowerShell and the Lync Server 管理シェル, see the Lync Server 2013 Windows PowerShell Blog at <a href="http://go.microsoft.com/fwlink/?linkid=203150">http://go.microsoft.com/fwlink/?LinkId=203150</a>.</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> For details about using Windows PowerShell and the Lync Server 管理シェル, see the Lync Server 2013 Windows PowerShell Blog at <a href="http://go.microsoft.com/fwlink/?linkid=203150">http://go.microsoft.com/fwlink/?LinkId=203150</a>.
 
 
 ## Stress and Performance Tool Client Version Monikers

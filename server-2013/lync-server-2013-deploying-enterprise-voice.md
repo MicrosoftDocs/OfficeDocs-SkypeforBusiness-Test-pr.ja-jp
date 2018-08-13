@@ -27,18 +27,8 @@ Lync Server 2013エンタープライズ VoIP は、Lync Server 2013 インフ�
 
 4.  「展開」のドキュメントの「[Lync Server 2013 でのトポロジの定義と構成](lync-server-2013-defining-and-configuring-the-topology.md)」に従って、 トポロジ ビルダーでトポロジ設計を開いたこと。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>トポロジ ビルダーのインストールは内部プールでの展開プロセスの一部として行うものです。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 管理ツールをインストールする</a>」を参照してください。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > トポロジ ビルダーのインストールは内部プールでの展開プロセスの一部として行うものです。詳細については、「展開」のドキュメントの「<a href="lync-server-2013-install-lync-server-administrative-tools.md">Lync Server 2013 管理ツールをインストールする</a>」を参照してください。
 
 
 また、 Lync Server Enterprise Edition が、展開する関連トポロジに対応する中央サイトとブランチ サイトで既に展開されている必要があります。 エンタープライズ VoIP のコンポーネントは、少なくとも 1 つの内部プールのファイルを定義、公開、およびインストールするまで展開できません。また、 トポロジ ビルダーを使用して、内部プールを定義および公開する必要があります。
@@ -65,41 +55,29 @@ Lync Server 2013エンタープライズ VoIP は、Lync Server 2013 インフ�
 
 ## このセクション中
 
-  -   
-    [Lync Server 2013 のエンタープライズ VoIP の前提条件](lync-server-2013-enterprise-voice-prerequisites.md)
+  - [Lync Server 2013 のエンタープライズ VoIP の前提条件](lync-server-2013-enterprise-voice-prerequisites.md)
 
-  -   
-    [Lync Server 2013 での仲介サーバーの展開とピアの定義](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
+  - [Lync Server 2013 での仲介サーバーの展開とピアの定義](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)
 
-  -   
-    [Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)
+  - [Lync Server 2013 でのトランクの構成](lync-server-2013-configuring-trunks.md)
 
-  -   
-    [Lync Server 2013 でのダイヤル プランの構成](lync-server-2013-configuring-dial-plans.md)
+  - [Lync Server 2013 でのダイヤル プランの構成](lync-server-2013-configuring-dial-plans.md)
 
-  -   
-    [Lync Server 2013 での音声ポリシー、PSTN 使用法レコード、およびボイス ルートの構成](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [Lync Server 2013 での音声ポリシー、PSTN 使用法レコード、およびボイス ルートの構成](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
-  -   
-    [Lync Server 2013 での音声ルーティング構成のエクスポートとインポート](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
+  - [Lync Server 2013 での音声ルーティング構成のエクスポートとインポート](lync-server-2013-exporting-and-importing-voice-routing-configuration.md)
 
-  -   
-    [Lync Server 2013 での音声ルーティングのテスト](lync-server-2013-test-voice-routing.md)
+  - [Lync Server 2013 での音声ルーティングのテスト](lync-server-2013-test-voice-routing.md)
 
-  -   
-    [Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
+  - [Lync Server 2013 での音声ルーティング構成に対する保留中の変更の公開](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)
 
-  -   
-    [内部設置型 Exchange UM を展開して Lync Server 2013 ボイス メールを提供する](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
+  - [内部設置型 Exchange UM を展開して Lync Server 2013 ボイス メールを提供する](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)
 
-  -   
-    [Lync Server 2013 ユーザーに Hosted Exchange UM のボイス メールを提供する](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
+  - [Lync Server 2013 ユーザーに Hosted Exchange UM のボイス メールを提供する](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md)
 
-  -   
-    [社内の Lync Server 2013 と Exchange Online との統合の構成](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
+  - [社内の Lync Server 2013 と Exchange Online との統合の構成](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md)
 
-  -   
-    [Lync Server 2013 での高度なエンタープライズ VoIP 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+  - [Lync Server 2013 での高度なエンタープライズ VoIP 機能の展開](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
     
       - [Lync Server 2013 ネットワーク領域、サイト、およびサブネットの構成](lync-server-2013-about-network-regions-sites-and-subnets.md)
     
@@ -115,8 +93,7 @@ Lync Server 2013エンタープライズ VoIP は、Lync Server 2013 インフ�
     
       - [Lync Server 2013 メディア バイパスの構成](lync-server-2013-configure-media-bypass.md)
 
-  -   
-    [Lync Server 2013 でのエンタープライズ VoIP に対するユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Lync Server 2013 でのエンタープライズ VoIP に対するユーザーの有効化](lync-server-2013-enable-users-for-enterprise-voice.md)
 
 ## 関連項目
 

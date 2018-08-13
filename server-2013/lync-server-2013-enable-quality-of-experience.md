@@ -19,18 +19,8 @@ QoE (Quality of Experience) は、メディアの品質と、通話およびセ�
 
 組織全体または組織内の各サイトで QoE を有効にするには、次の手順を実行します。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>QoE を有効にするには、まず、監視を構成して、監視バック エンド データベースに接続する必要があります。詳細については、「<a href="lync-server-2013-deploying-monitoring.md">Lync Server 2013 での監視の展開</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> QoE を有効にするには、まず、監視を構成して、監視バック エンド データベースに接続する必要があります。詳細については、「<a href="lync-server-2013-deploying-monitoring.md">Lync Server 2013 での監視の展開</a>」を参照してください。
 
 
 ## Lync Server コントロール パネル を使用して QoE を有効にするには
@@ -65,7 +55,7 @@ Windows PowerShell と **Set-CsQoEConfiguration** コマンドレットを使用
     
         Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
 
-詳細については、「[Set-CsQoEConfiguration](set-csqoeconfiguration.md)」を参照してください。
+詳細については、「[Set-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsQoEConfiguration)」を参照してください。
 
 ## 関連項目
 

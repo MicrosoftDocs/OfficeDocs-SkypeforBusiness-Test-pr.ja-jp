@@ -27,18 +27,8 @@ _**トピックの最終更新日:** 2013-02-21_
 
 1.  問題が発生したコンピューターと同じ完全修飾ドメイン名 (FQDN) を持つクリーン サーバーか新規サーバーにオペレーティング システムをインストールし、証明書を復元または再登録します。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>組織で定めるサーバーの展開手順に従って、この手順を実行します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > 組織で定めるサーバーの展開手順に従って、この手順を実行します。
 
 
 2.  RTCUniversalServerAdmins グループおよび Local Administrators グループのメンバーであるユーザー アカウントから、復元するサーバーにログオンします。

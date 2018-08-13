@@ -23,6 +23,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting
 
+   &nbsp;
+
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
 
 ## 共有 SIP アドレス空間に対して Skype for Business Online テナントを構成する
@@ -41,19 +43,25 @@ Skype for Business Online とのリモート PowerShell セッションを確立
 
     Import-Module LyncOnlineConnector
 
+   &nbsp;
+
     $cred = Get-Credential
+
+   &nbsp;
 
     $CSSession = New-CsOnlineSession -Credential $cred
 
+   &nbsp;
+
     Import-PSSession $CSSession -AllowClobber
 
-Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「 [Windows PowerShell を使用した Lync Online への接続](connecting-to-skype-for-business-online-by-using-windows-powershell.md)」をご覧ください。
+Skype for Business Online とのリモート PowerShell セッションを確立する方法について詳しくは、「 [Windows PowerShell を使用した Lync Online への接続](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
-Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「 [Windows PowerShell による Lync Online の管理](skype-for-business-online-using-windows-powershell-to-manage-your-tenant.md)」をご覧ください。
+Skype for Business Online PowerShell モジュールの使用方法について詳しくは、「 [Windows PowerShell による Lync Online の管理](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)」をご覧ください。
 
 ## 関連項目
 
 #### その他のリソース
 
-[New-CsHostingProvider](new-cshostingprovider.md)
+[New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider)
 

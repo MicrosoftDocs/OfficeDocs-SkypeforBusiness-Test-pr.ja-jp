@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2016-12-08_
 
 Microsoft Lync 2013 は、再設計されたユーザー インターフェイスと重要な新機能を備えています。クライアントが Office セットアップ プログラムに含まれるようになったため、管理者は組織での Office の展開とクライアントのカスタマイズをより効率的に行うことができます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 ユーザー インターフェイスの図については、「Lync 2013 の新機能」(<a href="http://go.microsoft.com/fwlink/?linkid=273885" class="uri">http://go.microsoft.com/fwlink/?linkid=273885</a>) を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync 2013 ユーザー インターフェイスの図については、「Lync 2013 の新機能」(<a href="http://go.microsoft.com/fwlink/?linkid=273885" class="uri">http://go.microsoft.com/fwlink/?linkid=273885</a>) を参照してください。
 
 
 ## Office セットアップとの統合
@@ -43,18 +33,8 @@ Lync 2013 クライアントと Lync 2013 用オンライン ミーティング 
 
   - セットアップ コマンド ライン オプションを使用する
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync 2013 セットアップ プログラムを実行しても、以前のバージョンの Lync または Office Communicator はアンインストールされません。Lync 2013 クライアントは、他の Lync クライアントや Office Communicator クライアントと共存する形でインストールされます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync 2013 セットアップ プログラムを実行しても、以前のバージョンの Lync または Office Communicator はアンインストールされません。Lync 2013 クライアントは、他の Lync クライアントや Office Communicator クライアントと共存する形でインストールされます。
 
 
 詳細については、「[Lync Server 2013 での Lync クライアントの展開](lync-server-2013-deploying-lync-clients.md)」を参照してください。

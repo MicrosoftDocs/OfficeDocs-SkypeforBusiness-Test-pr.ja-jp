@@ -121,22 +121,12 @@ Lync Server 2010 では、クライアント ポリシーの設定は CsClientPo
 
 ## Lync 2010 クライアントが写真を取得する方法
 
-Lync 2010 では、ユーザーの写真はアドレス帳サービスによってサーバーで管理されます。Lync クライアントでは、ユーザーの写真を取得するために、最初にサーバーのアドレス帳 Web クエリ (ABWQ) サービスにクエリを実行し、それが配布リスト展開 Web サービス経由で公開されます。クライアントでは画像ファイルを受信してユーザーのキャッシュにコピーするので、表示するたびに画像をダウンロードする必要がなくなります。クエリから返される属性値は、ユーザーのアドレス帳サービス エントリのキャッシュにも保存されます。アドレス帳サービスでは、キャッシュされたすべての画像が24 時間ごとに削除されます。すなわち、サーバーのキャッシュで新しいユーザーの画像に更新されるまでの時間は、最大で 24 時間です。キャッシュを強制的に更新する場合は、[Update-CsAddressBook](update-csaddressbook.md) コマンドレットを使用します。
+Lync 2010 では、ユーザーの写真はアドレス帳サービスによってサーバーで管理されます。Lync クライアントでは、ユーザーの写真を取得するために、最初にサーバーのアドレス帳 Web クエリ (ABWQ) サービスにクエリを実行し、それが配布リスト展開 Web サービス経由で公開されます。クライアントでは画像ファイルを受信してユーザーのキャッシュにコピーするので、表示するたびに画像をダウンロードする必要がなくなります。クエリから返される属性値は、ユーザーのアドレス帳サービス エントリのキャッシュにも保存されます。アドレス帳サービスでは、キャッシュされたすべての画像が24 時間ごとに削除されます。すなわち、サーバーのキャッシュで新しいユーザーの画像に更新されるまでの時間は、最大で 24 時間です。キャッシュを強制的に更新する場合は、[Update-CsAddressBook](https://docs.microsoft.com/en-us/powershell/module/skype/Update-CsAddressBook) コマンドレットを使用します。
 
 プレゼンス状態に含まれるユーザーの写真にもハッシュ値が関連付けられ、それを Lync クライアントが使用してさらに新しい画像を使用できるかどうかを判断します。クライアントには、プレゼンス状態で使用される画像ファイルの変更について自動的に通知されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>写真は GalContacts.db データベースには保存されないため、ユーザー写真のダウンロードはクライアント ポリシーの <strong>AddressBookAvailability</strong> の設定 (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>) には依存しません。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 写真は GalContacts.db データベースには保存されないため、ユーザー写真のダウンロードはクライアント ポリシーの <strong>AddressBookAvailability</strong> の設定 (<a href="http://go.microsoft.com/fwlink/p/?linkid=507508">Set-CsClientPolicy</a>) には依存しません。
 
 
 ABWQ サービスに対するクエリの属性には、次のものがあります。
@@ -191,30 +181,26 @@ Lync 2013 では、ユーザーの写真に対する高解像度画像のサポ�
 
 \[**Web サイトの写真を表示する**\] オプションを Lync 2013 で使用可能にするには、クライアント ポリシーによって有効になるように設定します。クライアントのバージョンは 15.0.4535.1002 以上 ([Lync 2013 15.0.4551.1005 更新プログラムの説明: 2013 年 11 月 7 日](http://go.microsoft.com/fwlink/p/?linkid=509908) でインストールされます) の必要があります。場合によっては、クライアントの変更を確認するために、ユーザーはログアウトしてから再度ログインする必要があります。
 
-クライアント ポリシーを設定して \[**Web サイトの写真を表示する**\] を有効にするには、Lync Server 管理シェル で [Set-CsClientPolicy](set-csclientpolicy.md) ポリシーを実行します。次に、使用している展開のすべてのユーザーに対してグローバルに適用されるポリシーを設定するコマンドレットの例を示します。
+クライアント ポリシーを設定して \[**Web サイトの写真を表示する**\] を有効にするには、Lync Server 管理シェル で [Set-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPolicy) ポリシーを実行します。次に、使用している展開のすべてのユーザーに対してグローバルに適用されるポリシーを設定するコマンドレットの例を示します。
 
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
 
+   &nbsp;
+
     $po=Get-CsClientPolicy -Identity Global
 
+   &nbsp;
+
     $po.PolicyEntry.Add($pe)
+
+   &nbsp;
 
     Set-CsClientPolicy -Instance $po
 
 画像がユーザーのメールボックスにアップロードされると、Exchange で自動的に画像の低解像度のバージョンが作成され、それをクライアント アプリケーションで使用できます。AD DS でも、ユーザーの写真が更新されます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>画像ファイルが AD DS で更新されると、48 x 48 ピクセルの画像が作成され、AD DS の thumbnailPhoto に使用されます。既存の画像はすべて置換されます。そのため、AD DS に 96 × 96 の画像を追加すると、新しい 48 × 48 の画像で上書きされます。これは、その環境のユーザーが Lync 2010 クライアント (AD DS からユーザーの写真を取得する) を使用している場合にのみ重要です。組織に Lync 2010 クライアントがいる場合は、96 × 96 ピクセルの画像をインポートして、AD DS で作成された画像を置換できます。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 画像ファイルが AD DS で更新されると、48 x 48 ピクセルの画像が作成され、AD DS の thumbnailPhoto に使用されます。既存の画像はすべて置換されます。そのため、AD DS に 96 × 96 の画像を追加すると、新しい 48 × 48 の画像で上書きされます。これは、その環境のユーザーが Lync 2010 クライアント (AD DS からユーザーの写真を取得する) を使用している場合にのみ重要です。組織に Lync 2010 クライアントがいる場合は、96 × 96 ピクセルの画像をインポートして、AD DS で作成された画像を置換できます。
 
 
 ## Lync 2013 のユーザーの写真のサポート

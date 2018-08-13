@@ -31,5 +31,5 @@ _**トピックの最終更新日:** 2012-11-01_
 
 #### その他のリソース
 
-[New-CsWebServiceConfiguration](new-cswebserviceconfiguration.md)
+[New-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWebServiceConfiguration)
 

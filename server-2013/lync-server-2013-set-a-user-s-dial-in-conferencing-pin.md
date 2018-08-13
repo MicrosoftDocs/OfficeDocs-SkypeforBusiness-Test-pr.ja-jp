@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2014-06-10_
 
 Active Directory ドメイン サービス (AD DS) の資格情報を持つ Lync Server 2013 ユーザーが、認証されたユーザーとしてダイヤルイン会議に参加するには、暗証番号 (PIN) が必要です。ユーザーがダイヤルイン会議 PIN を忘れている場合や Lync Server を使用して PIN を設定していない場合は、Lync Server コントロール パネルでユーザーの PIN を設定できます。PIN は自動で生成することも手動で作成することもできます。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>最小サイズなど、PIN の具体的な特性は、ポリシーとして構成できます。グローバル ポリシーに加えて、個々のサイトまたはユーザーを対象にした PIN ポリシーを構成できます。PIN ポリシーの構成の詳細については、「<a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">ダイヤルイン会議の暗証番号 (PIN) ルールの構成</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 最小サイズなど、PIN の具体的な特性は、ポリシーとして構成できます。グローバル ポリシーに加えて、個々のサイトまたはユーザーを対象にした PIN ポリシーを構成できます。PIN ポリシーの構成の詳細については、「<a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">ダイヤルイン会議の暗証番号 (PIN) ルールの構成</a>」を参照してください。
 
 
 ## ユーザーの PIN を設定するには
@@ -62,18 +52,8 @@ Active Directory ドメイン サービス (AD DS) の資格情報を持つ Lync
     
     5.  \[**検索**\] をクリックします。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。 PIN のロックを解除するには、ユーザーをクリックし、[<strong>アクション</strong>] をクリックして、[<strong>PIN のロック解除</strong>] をクリックします。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。 PIN のロックを解除するには、ユーザーをクリックし、[<strong>アクション</strong>] をクリックして、[<strong>PIN のロック解除</strong>] をクリックします。
 
 
 6.  検索結果のユーザーをクリックし、\[**アクション**\] をクリックして、\[**暗証番号 (PIN) の設定**\] をクリックします。
@@ -110,7 +90,7 @@ Set-CsClientPin コマンドレットを使用して、PIN 番号を割り当て
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-詳細については、[Set-CsClientPin](set-csclientpin.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 

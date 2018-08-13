@@ -17,18 +17,8 @@ _**トピックの最終更新日:** 2015-03-09_
 
 Hosted Exchange サービスのメールボックスを使用している Lync Server 2013 ユーザーにボイス メール サービスを提供するには、それらのユーザーのユーザー アカウントでホスト ボイス メールを使用できるようにする必要があります。
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lync Server 2013 のユーザーがホスト ボイス メールを使用できるようにするには、対応するユーザー アカウントに適用されるホスト ボイス メール ポリシーをまず展開する必要があります。ここで展開するポリシーは、有効化するユーザーに適用するのであれば、そのスコープがグローバルなものでも、サイト レベルのものでも、ユーザー単位のものでもかまいません。詳細については、「 <a href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイス メール ポリシー</a>」を参照してください。</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Lync Server 2013 のユーザーがホスト ボイス メールを使用できるようにするには、対応するユーザー アカウントに適用されるホスト ボイス メール ポリシーをまず展開する必要があります。ここで展開するポリシーは、有効化するユーザーに適用するのであれば、そのスコープがグローバルなものでも、サイト レベルのものでも、ユーザー単位のものでもかまいません。詳細については、「 <a href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 のホスト型ボイス メール ポリシー</a>」を参照してください。
 
 
 ## msExchUCVoiceMailSettings 属性
@@ -79,19 +69,9 @@ Hosted Exchange サービスでは、Exchange UM の有効化プロセス、ま�
 </table>
 
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>属性に Lync Server 2013 のキー/値ペア (CSHostedVoiceMail=0 または CSHostedVoiceMail=1) 以外の値がすでに存在している場合には、その属性が別のアプリケーションで管理される可能性があることを示す警告が表示されます。たとえば、キー/値ペア ExchangeHostedVoiceMail=0 または ExchangeHostedVoiceMail=1 がすでに存在している場合には、警告が表示されます。そのようなときには、Active Directory で値を変更するか、または次のコマンドレットを実行して、値を Null に設定します。<br />
-Set-CsUser -identity user -HostedVoicemail $null</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> 属性に Lync Server 2013 のキー/値ペア (CSHostedVoiceMail=0 または CSHostedVoiceMail=1) 以外の値がすでに存在している場合には、その属性が別のアプリケーションで管理される可能性があることを示す警告が表示されます。たとえば、キー/値ペア ExchangeHostedVoiceMail=0 または ExchangeHostedVoiceMail=1 がすでに存在している場合には、警告が表示されます。そのようなときには、Active Directory で値を変更するか、または次のコマンドレットを実行して、値を Null に設定します。<br />
+> Set-CsUser -identity user -HostedVoicemail $null
 
 
 ## ユーザーによるホスト ボイス メールの有効化

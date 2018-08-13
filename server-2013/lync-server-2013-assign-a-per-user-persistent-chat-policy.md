@@ -58,18 +58,8 @@ Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理�
 
 7.  \[**ポリシーの割り当て**\] の \[**常設チャット ポリシー**\] で、次のいずれかの操作を行います。
     
-    <table>
-    <thead>
-    <tr class="header">
-    <th><img src="images/Gg412781.note(OCS.15).gif" title="note" alt="note" />注:</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>[<strong>ポリシーの割り当て]</strong> ダイアログ ボックスを使用して構成できるポリシーは 1 つではないため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;]</strong> が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。</td>
-    </tr>
-    </tbody>
-    </table>
+    > [!NOTE]
+    > [<strong>ポリシーの割り当て]</strong> ダイアログ ボックスを使用して構成できるポリシーは 1 つではないため、ダイアログ ボックスではすべてのポリシーについてそれぞれ既定で [<strong>&lt;現状のまま保持&gt;]</strong> が選択されます。 この設定を変更しない場合は、以前にユーザーに割り当てたポリシーを使用して続行します。
     
       - \[**\<自動\>**\] を選択すると、Lync Server 2013 でグローバルレベルのポリシーまたはサイトレベルのポリシー (定義されている場合) のどちらかを自動で選択できるようになります。
     
@@ -95,7 +85,7 @@ Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理�
 
 ## ユーザー単位の常設チャット ポリシーを複数のユーザーに割り当てる
 
-  - このコマンドは、ユーザー単位の常設チャット ポリシー RedmondUsersPersistentChatPolicy を、IT 部門で働くすべてのユーザーに割り当てます。このコマンドで使用されている LdapFilter パラメーターの詳細については、[Get-CsUser](get-csuser.md) コマンドレットのドキュメントを参照してください。
+  - このコマンドは、ユーザー単位の常設チャット ポリシー RedmondUsersPersistentChatPolicy を、IT 部門で働くすべてのユーザーに割り当てます。このコマンドで使用されている LdapFilter パラメーターの詳細については、[Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser) コマンドレットのドキュメントを参照してください。
     
         Get-CsUser -LdapFilter "Department=IT" | Grant-CsPersistentChatPolicy -PolicyName "RedmondUsersPersistentChatPolicy"
 
@@ -105,7 +95,7 @@ Lync Server 2013 コントロール パネルまたは Lync Server 2013 管理�
     
         Grant-CsPersistentChatPolicy -Identity "Ken Myer" -PolicyName $Null
 
-詳細については、[Grant-CsPersistentChatPolicy](grant-cspersistentchatpolicy.md) コマンドレットのヘルプ トピックを参照してください。
+詳細については、[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsPersistentChatPolicy) コマンドレットのヘルプ トピックを参照してください。
 
 ## 関連項目
 
