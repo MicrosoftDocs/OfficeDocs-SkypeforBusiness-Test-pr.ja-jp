@@ -140,9 +140,9 @@ Active Directory ドメイン サービス で定義されている電話番号�
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     
       - Lync Server 2013 と Lync Server 2010 または Office Communications Server 2007 R2 の組み合わせが展開に含まれる場合、次のコマンドレットを実行し、トポロジの各 Lync Server 2013 プールに割り当てます。
-        
-            New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
-
+      ```  
+            new-csAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
+      ```
 3.  すべてのプールで CMS のレプリケーションが発生するのを待機します。
 
 4.  展開の電話正規化ルールのファイルを変更して内容を消去します。このファイルは、各 Lync Server 2013 プールのファイル共有上にあります。このファイルがない場合は、"Company\_Phone\_Number\_Normalization\_Rules.txt" という名前の空のファイルを作成します。
