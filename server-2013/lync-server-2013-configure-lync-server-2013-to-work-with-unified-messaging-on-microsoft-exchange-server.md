@@ -39,7 +39,7 @@ Exchange UM 統合ユーティリティを実行すると、以下のタスク�
 > <li><p>「<a href="https://technet.microsoft.com/ja-jp/library/gg398909(v=ocs.15)">Lync Server 2013 でのダイヤル プランの作成</a>」の説明のとおりに、1 つ以上の対応する Lync Server ダイヤル プランを作成します。</p>
 	
 > [!IMPORTANT]	
-> <ul><li>Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [簡易名] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。</li></ul>
+> Microsoft Exchange Server 2010 SP1 より前のバージョンの Exchange を使用している場合、Lync Server 2013 ダイヤル プランの [簡易名] フィールドに、対応する Exchange ユニファイド メッセージング (UM) SIP ダイヤル プランの完全修飾ドメイン名 (FQDN) を入力する必要があります。Microsoft Exchange Server 2010 SP1 または最新のサービス パックを使用している場合は、このダイヤル プラン名の一致は必要ありません。
 > </li>
 > <li>自動応答を作成し、サブスクライバー アクセス番号と自動応答番号の両方が E.164 形式であることを確認します。</li></ul>
 
