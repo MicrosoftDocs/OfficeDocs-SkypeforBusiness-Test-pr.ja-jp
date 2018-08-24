@@ -3042,6 +3042,8 @@
   - name: 操作
     href: lync-server-2013-operations.md
     items:
+    - name: Feature management in Lync Server 2013
+      item: this-topic-is-no-longer-available.md
     - name: Operations Guide
       href: lync-server-2013-operations-guide.md
       items:
