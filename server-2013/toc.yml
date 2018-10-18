@@ -4833,9 +4833,9 @@
       - name: Lync Server 2013 でのドメインの準備によって加えられる変更
         href: lync-server-2013-changes-made-by-domain-preparation.md
       - name: Lync Server 2013 での Grant-CsSetupPermission によって行われる変更
-        href: lync-server-2013-changes-made-by-grant-cssetuppermission.md
+        href: https://technet.microsoft.com/ja-jp/library/Gg398569(v=OCS.15)
       - name: Lync Server 2013 での Grant-CsOUPermission によって行われる変更
-        href: lync-server-2013-changes-made-by-grant-csoupermission.md
+        href: https://technet.microsoft.com/ja-jp/library/Gg425739(v=OCS.15)
   - name: Lync Server 2013 管理シェル
     href: lync-server-2013-lync-server-management-shell.md
   - name: 用語集
